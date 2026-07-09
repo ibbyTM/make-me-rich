@@ -1,0 +1,142 @@
+/**
+ * `classifySite` — the site classifier core (spec §3).
+ *
+ * Pure function: takes the evidence gathered about a site (a `SiteProbe`) and
+ * returns a `ClassificationResult`. All I/O (HTTP, headless browser, robots/ToS
+ * fetching) lives in `probe.ts`; keeping this pure is what makes the decision
+ * logic exhaustively unit-testable (see test/classify.test.ts).
+ *
+ * Ordering follows the spec exactly, because the steps override one another:
+ * embedded_json / api_endpoint (high-confidence structural wins) are found
+ * first, then manual_entry_only, then the robots/ToS gate which *overrides* any
+ * technical result and forces review (spec §3 step 7 / §4 first bullet).
+ */
+
+import {
+  DEFAULT_SCRAPER_STRATEGY,
+  type Classification,
+  type ClassificationResult,
+  type SiteProbe,
+} from '../types.js';
+import {
+  checkRobotsAndTos,
+  detectManualOnly,
+  domDiffRatio,
+  findEmbeddedJson,
+  findListingApi,
+} from './detectors.js';
+import { classifyPortal, isPortal } from './portals.js';
+
+export interface ClassifyOptions {
+  approvalThreshold: number;
+  /** Injectable clock for deterministic tests. */
+  now?: () => Date;
+}
+
+/** Below this diff ratio a site is treated as static rather than JS-rendered (spec §3 step 3). */
+const STATIC_DIFF_MAX = 0.25;
+
+export function classifySite(
+  probe: SiteProbe,
+  opts: ClassifyOptions,
+): ClassificationResult {
+  const now = opts.now ?? (() => new Date());
+
+  // Portals get bespoke handling and are always routed to review (spec §5).
+  if (isPortal(probe.url)) {
+    return classifyPortal(probe.url, now);
+  }
+
+  const notes: string[] = [];
+
+  // Step 3 — static vs js_rendered baseline from the raw/rendered DOM diff.
+  // This always resolves to a concrete classification, which subsumes the
+  // spec's step-8 "unclassified" fallback (there is no path that leaves the
+  // classification unresolved); the robots/ToS gate below can still override it
+  // to needs_review.
+  const diff = domDiffRatio(probe.rawHtml, probe.renderedDom);
+  const baseline: Classification = diff <= STATIC_DIFF_MAX ? 'static_html' : 'js_rendered';
+  notes.push(`dom diff ratio ${diff.toFixed(2)} → baseline ${baseline}`);
+  let classification: Classification = baseline;
+  let confidence = baseline === 'static_html' ? 0.8 : 0.6;
+
+  // Step 4 — embedded JSON is a high-confidence win over the baseline.
+  const embedded = findEmbeddedJson(probe.rawHtml);
+  if (embedded.found) {
+    classification = 'embedded_json';
+    confidence = 0.9;
+    notes.push(embedded.notes);
+  }
+
+  // Step 5 — a listings JSON endpoint beats embedded JSON (cleanest to scrape).
+  const api = findListingApi(probe.networkLog);
+  if (api.found) {
+    classification = 'api_endpoint';
+    confidence = 0.92;
+    notes.push(api.notes);
+  }
+
+  // Step 6 — manual-entry-only sites (no addressable URLs, POST-only search).
+  // Only applies when we haven't found a machine-readable structure above.
+  if (classification === 'static_html' || classification === 'js_rendered') {
+    const manual = detectManualOnly(probe.rawHtml, probe.renderedDom);
+    if (manual.found) {
+      classification = 'manual_entry_only';
+      confidence = 0.85;
+      notes.push(manual.notes);
+    }
+  }
+
+  // Step 7 — robots.txt / ToS gate. Overrides the technical result and forces
+  // review regardless of confidence (spec §4 first bullet).
+  const gate = checkRobotsAndTos(probe.robotsTxt, probe.tosText);
+  let tosFlag = false;
+  if (gate.found) {
+    tosFlag = true;
+    notes.push('TOS GATE: ' + gate.notes);
+    classification = 'needs_review';
+    // Preserve the technically-detected confidence for the audit trail, but the
+    // decision below will force review because tosFlag is set.
+  }
+
+  return finalize({
+    url: probe.url,
+    classification,
+    confidence,
+    tosFlag,
+    notes,
+    approvalThreshold: opts.approvalThreshold,
+    now,
+  });
+}
+
+function finalize(args: {
+  url: string;
+  classification: Classification;
+  confidence: number;
+  tosFlag: boolean;
+  notes: string[];
+  approvalThreshold: number;
+  now: () => Date;
+}): ClassificationResult {
+  const { url, classification, confidence, tosFlag, notes, approvalThreshold, now } = args;
+
+  // Spec §3 step 10 + §4: auto-approve only if confident AND no ToS flag AND the
+  // classification is actually machine-actionable. manual_entry_only sources are
+  // created but never auto-scraped (spec §4 third bullet).
+  const autoApprovable =
+    classification !== 'needs_review' && classification !== 'manual_entry_only';
+  const autoApprove = autoApprovable && confidence >= approvalThreshold && !tosFlag;
+
+  return {
+    url,
+    classification,
+    confidence,
+    scraperStrategy: DEFAULT_SCRAPER_STRATEGY[classification],
+    tosFlag,
+    detectedStructure: notes.join('; '),
+    decision: autoApprove ? 'auto_approved' : 'queued_for_review',
+    resultingStatus: autoApprove ? 'active' : 'pending_review',
+    classifiedAt: now().toISOString(),
+  };
+}
