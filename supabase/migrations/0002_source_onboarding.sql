@@ -100,16 +100,47 @@ create policy sources_write on sources
   using (current_app_role() in ('admin', 'analyst'))
   with check (current_app_role() in ('admin', 'analyst'));
 
--- site_audits
+-- site_audits — read is three-tier; write is split so that FLAGGED audits
+-- (parent source has tos_flag=true OR classification='needs_review') are
+-- admin-only, while analysts keep write/review rights on ordinary (non-flagged)
+-- audits. This is a security-relevant default: the ToS/legal angle on flagged
+-- items warrants an explicit human decision at the admin tier (spec §4/§8).
+-- site_audits has no tos_flag column of its own, so "flagged" is derived from
+-- the parent `sources` row via the EXISTS sub-select below.
 drop policy if exists site_audits_read on site_audits;
 create policy site_audits_read on site_audits
   for select using (current_app_role() in ('admin', 'analyst', 'va'));
 
-drop policy if exists site_audits_write on site_audits;
-create policy site_audits_write on site_audits
+-- Admin: full write on every audit row, flagged or not.
+drop policy if exists site_audits_write on site_audits;          -- retire prior combined policy
+drop policy if exists site_audits_write_admin on site_audits;
+create policy site_audits_write_admin on site_audits
   for all
-  using (current_app_role() in ('admin', 'analyst'))
-  with check (current_app_role() in ('admin', 'analyst'));
+  using (current_app_role() = 'admin')
+  with check (current_app_role() = 'admin');
+
+-- Analyst: write only on audits whose source is NOT flagged. Flagged audits
+-- (tos_flag OR needs_review) fall through to admin-only. Analyst review rights
+-- on ordinary staged deals are unchanged — this restricts flagged rows only.
+drop policy if exists site_audits_write_analyst on site_audits;
+create policy site_audits_write_analyst on site_audits
+  for all
+  using (
+    current_app_role() = 'analyst'
+    and not exists (
+      select 1 from sources s
+      where s.id = site_audits.source_id
+        and (s.tos_flag = true or s.classification = 'needs_review')
+    )
+  )
+  with check (
+    current_app_role() = 'analyst'
+    and not exists (
+      select 1 from sources s
+      where s.id = site_audits.source_id
+        and (s.tos_flag = true or s.classification = 'needs_review')
+    )
+  );
 
 -- discovery_queue
 drop policy if exists discovery_queue_read on discovery_queue;

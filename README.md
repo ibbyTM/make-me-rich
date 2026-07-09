@@ -55,12 +55,19 @@ scraped listing ──▶ stageZeroFilter (§6, free) ──pass──▶ [exist
 - **RLS three-tier** (admin / analyst / va) applied to `sources`,
   `site_audits`, and `discovery_queue` from day one (spec §2.4). Onboarding jobs
   write via the service-role key, which bypasses RLS by design.
+- **Reviewer tier on flagged audits — admin-only.** Write/review on a
+  `site_audits` row whose parent source is flagged (`tos_flag = true` OR
+  `classification = 'needs_review'`) is restricted to **admin**. Analysts keep
+  read access to those rows and keep full review rights on ordinary
+  (non-flagged) audits. Enforced by the split `site_audits_write_admin` /
+  `site_audits_write_analyst` policies in `0002`, and covered by `test/rls.test.ts`
+  (real Postgres via PGlite). **This is a security-relevant default that should
+  get an explicit yes/no from Ahmed before merge** (spec §8, ToS/legal angle).
 
 ## Still open for Ahmed (spec §8)
 
-- Who reviews `needs_review` / `tos_flag` items — the RLS here lets
-  admin **and** analyst write reviews; tighten `site_audits_write` /
-  `sources_write` to admin-only if the ToS legal angle warrants it.
+- **Sign-off on the admin-only reviewer tier above** — confirm before merge
+  rather than approving it implicitly by merging.
 - Portal classification is stubbed with per-portal strategies but the actual
   per-portal scrapers are out of scope for this sprint.
 - PRD update (v1.9 → v1.10).
