@@ -10,7 +10,10 @@ function fixtureProbe(url: string): Promise<SiteProbe> {
   // Barnsdales-style known-good baseline (spec §7 Day B): embedded JSON.
   if (url.includes('barnsdales')) {
     const rawHtml = `<html><head><script>window.properties = ${JSON.stringify({
-      items: [{ price: 1 }],
+      items: [
+        { price: 500000, address: '1 High St', size: 2000 },
+        { price: 750000, address: '2 High St', size: 3000 },
+      ],
     })};</script></head><body>x</body></html>`;
     return Promise.resolve({ url, rawHtml, renderedDom: rawHtml, networkLog: [] });
   }

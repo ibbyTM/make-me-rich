@@ -16,9 +16,13 @@ function probe(p: Partial<SiteProbe>): SiteProbe {
 }
 
 describe('classifySite', () => {
-  it('classifies embedded JSON as embedded_json and auto-approves', () => {
+  it('classifies listing-shaped embedded JSON as embedded_json and auto-approves', () => {
+    const listings = [
+      { price: 500000, address: '1 High St', sqft: 2000 },
+      { price: 750000, address: '2 High St', sqft: 3000 },
+    ];
     const rawHtml = `<html><head>
-      <script>window.__NEXT_DATA__ = ${JSON.stringify({ props: { listings: [1, 2] } })};</script>
+      <script>window.__NEXT_DATA__ = ${JSON.stringify({ props: { listings } })};</script>
       </head><body>listings</body></html>`;
     const res = classifySite(probe({ rawHtml, renderedDom: rawHtml }), OPTS);
     expect(res.classification).toBe('embedded_json');
@@ -122,5 +126,104 @@ describe('classifySite', () => {
     // empty page → static baseline but no content; still resolves to a status
     expect(['needs_review', 'static_html']).toContain(res.classification);
     expect(res.classifiedAt).toBe('2026-07-09T00:00:00.000Z');
+  });
+});
+
+/**
+ * Regression coverage for the 2026-07-12 classifier trial
+ * (docs/classifier-trial-2026-07-12.md). Each fixture reproduces a real site
+ * that the classifier previously got confidently wrong. These lock the fixes in.
+ */
+describe('classifySite — trial regressions', () => {
+  const body = `<body>${'<div>office to let, freehold</div>'.repeat(30)}</body>`;
+
+  function ldJson(obj: unknown): string {
+    return `<script type="application/ld+json">${JSON.stringify(obj)}</script>`;
+  }
+
+  it('Carter Towler: SEO @graph ld+json is NOT embedded_json (was 0.9 auto-approve)', () => {
+    const html = `<html><head>${ldJson({
+      '@context': 'https://schema.org',
+      '@graph': [
+        { '@type': 'WebPage' },
+        { '@type': 'BreadcrumbList' },
+        { '@type': 'WebSite' },
+        { '@type': 'Organization', name: 'Carter Towler' },
+      ],
+    })}</head>${body}</html>`;
+    const res = classifySite(probe({ rawHtml: html, renderedDom: html }), OPTS);
+    expect(res.classification).not.toBe('embedded_json');
+    expect(res.confidence).toBeLessThan(0.8);
+    expect(res.decision).toBe('queued_for_review');
+    expect(res.detectedStructure).toMatch(/SEO schema/i);
+  });
+
+  it("Canning O'Neill: Organization/RealEstateAgent ld+json is NOT embedded_json", () => {
+    const html = `<html><head>${ldJson({
+      '@context': 'https://schema.org',
+      '@graph': [
+        { '@type': 'Organization' },
+        { '@type': 'LocalBusiness' },
+        { '@type': 'RealEstateAgent', name: "Canning O'Neill" },
+      ],
+    })}</head>${body}</html>`;
+    const res = classifySite(probe({ rawHtml: html, renderedDom: html }), OPTS);
+    expect(res.classification).not.toBe('embedded_json');
+    expect(res.decision).toBe('queued_for_review');
+  });
+
+  it('Naylors: large incidental inline JSON blob is NOT embedded_json (was 0.9 auto-approve)', () => {
+    const config = {
+      theme: 'default',
+      nav: Array.from({ length: 60 }, (_, i) => ({ id: i, label: `menu item ${i}` })),
+    };
+    const html = `<html><head><script>var SITE_CONFIG = ${JSON.stringify(config)};</script></head>${body}</html>`;
+    const res = classifySite(probe({ rawHtml: html, renderedDom: html }), OPTS);
+    expect(res.classification).not.toBe('embedded_json');
+    expect(res.confidence).toBeLessThan(0.8);
+    expect(res.decision).toBe('queued_for_review');
+  });
+
+  it('Michael Steel: POST-only search form is manual_entry_only despite /property nav links', () => {
+    const html = `<html><body>
+      <nav>
+        <a href="/property-search/">Property Search</a>
+        <a href="/commercial">Commercial</a>
+        <a href="/about">About</a>
+      </nav>
+      <form method="post" name="ps" id="ps" action="/property-search/">
+        <input name="location" placeholder="search location" />
+        <input name="min_price" /><input name="max_price" />
+      </form>
+      ${'<p>Michael Steel &amp; Co commercial agents</p>'.repeat(20)}
+    </body></html>`;
+    const res = classifySite(probe({ rawHtml: html, renderedDom: html }), OPTS);
+    expect(res.classification).toBe('manual_entry_only');
+    expect(res.decision).toBe('queued_for_review');
+    expect(res.resultingStatus).toBe('pending_review');
+  });
+
+  it('positive control: a real array of listing objects still classifies embedded_json + auto-approve', () => {
+    const html = `<html><head>${ldJson([
+      { '@type': 'Product', name: 'Unit A', price: 500000, address: '1 High St', sqft: 2000 },
+      { '@type': 'Product', name: 'Unit B', price: 750000, address: '2 High St', sqft: 3000 },
+    ])}</head>${body}</html>`;
+    const res = classifySite(probe({ rawHtml: html, renderedDom: html }), OPTS);
+    expect(res.classification).toBe('embedded_json');
+    expect(res.decision).toBe('auto_approved');
+  });
+
+  it('POST search form IS overridden when many addressable listing-detail links exist', () => {
+    const links = Array.from(
+      { length: 6 },
+      (_, i) => `<a href="/property/${i}-some-street-unit">Listing ${i}</a>`,
+    ).join('');
+    const html = `<html><body>
+      ${links}
+      <form method="post" action="/property-search/"><input name="location"/></form>
+      ${'<p>content</p>'.repeat(20)}
+    </body></html>`;
+    const res = classifySite(probe({ rawHtml: html, renderedDom: html }), OPTS);
+    expect(res.classification).not.toBe('manual_entry_only');
   });
 });

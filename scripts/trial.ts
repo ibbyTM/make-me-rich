@@ -27,9 +27,13 @@ const SITES = [
   { url: 'https://www.naylorsgavinblack.co.uk', label: 'Naylors Gavin Black', geo: 'Newcastle' },
 ];
 
-async function get(url: string): Promise<{ status: number; body: string; err?: string }> {
+async function get(url: string, timeoutMs = 12000): Promise<{ status: number; body: string; err?: string }> {
   try {
-    const r = await fetch(url, { headers: { 'user-agent': UA }, redirect: 'follow' });
+    const r = await fetch(url, {
+      headers: { 'user-agent': UA },
+      redirect: 'follow',
+      signal: AbortSignal.timeout(timeoutMs),
+    });
     return { status: r.status, body: await r.text() };
   } catch (e) {
     return { status: 0, body: '', err: e instanceof Error ? e.message : String(e) };
@@ -44,8 +48,8 @@ async function fetchRobots(url: string): Promise<string | undefined> {
 
 async function fetchTos(url: string): Promise<string | undefined> {
   const o = new URL(url);
-  for (const p of ['/terms', '/terms-of-use', '/terms-and-conditions', '/legal']) {
-    const r = await get(`${o.protocol}//${o.host}${p}`);
+  for (const p of ['/terms', '/terms-and-conditions']) {
+    const r = await get(`${o.protocol}//${o.host}${p}`, 8000);
     if (r.status === 200 && r.body.trim().length > 200) return r.body;
   }
   return undefined;

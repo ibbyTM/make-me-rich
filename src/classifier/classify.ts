@@ -36,6 +36,15 @@ export interface ClassifyOptions {
 /** Below this diff ratio a site is treated as static rather than JS-rendered (spec §3 step 3). */
 const STATIC_DIFF_MAX = 0.25;
 
+/**
+ * When JSON is present but NOT listing-shaped (SEO schema, config, incidental
+ * blobs), we keep the DOM-diff baseline classification but cap confidence here —
+ * below the auto-approve threshold — so the source is routed to human review
+ * rather than confidently auto-registered on a JSON-extract strategy that would
+ * not actually capture listings (trial report finding).
+ */
+const GENERIC_JSON_CONFIDENCE = 0.6;
+
 export function classifySite(
   probe: SiteProbe,
   opts: ClassifyOptions,
@@ -60,12 +69,18 @@ export function classifySite(
   let classification: Classification = baseline;
   let confidence = baseline === 'static_html' ? 0.8 : 0.6;
 
-  // Step 4 — embedded JSON is a high-confidence win over the baseline.
+  // Step 4 — embedded JSON. Only a *listing-shaped* payload is a high-confidence
+  // win over the baseline. Generic/SEO JSON (present on nearly every site) must
+  // not masquerade as extractable listings, so it leaves the classification on
+  // the baseline and caps confidence below the auto-approve bar (→ review).
   const embedded = findEmbeddedJson(probe.rawHtml);
-  if (embedded.found) {
+  if (embedded.listingShaped) {
     classification = 'embedded_json';
     confidence = 0.9;
     notes.push(embedded.notes);
+  } else if (embedded.found) {
+    confidence = Math.min(confidence, GENERIC_JSON_CONFIDENCE);
+    notes.push('generic JSON only — ' + embedded.notes);
   }
 
   // Step 5 — a listings JSON endpoint beats embedded JSON (cleanest to scrape).
