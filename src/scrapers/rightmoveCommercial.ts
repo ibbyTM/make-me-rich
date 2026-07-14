@@ -171,6 +171,37 @@ export function normalizeProperties(
     });
 }
 
+/**
+ * propertySubType values that denote a business-for-sale (going concern) rather
+ * than investable commercial premises — cafés, salons, licensed trade, etc.
+ * These distort Stage-0 (their marketing text nearly always says "freehold")
+ * without being commercial-investment stock. Values observed live 2026-07-14
+ * (Cafe, Restaurant, Convenience Store, Pub, ...) plus Rightmove's standard
+ * going-concern categories. Deliberately NOT excluded: Retail Property
+ * (premises), Shop, Childcare Facility, Commercial/Residential Development,
+ * Mixed Use — those are premises/development stock even when an operator lists
+ * them.
+ */
+const GOING_CONCERN_SUBTYPES: RegExp[] = [
+  /\bcaf[eé]\b/i,
+  /coffee\s*shop/i,
+  /restaurant/i,
+  /take\s*away|takeaway|fast\s*food/i,
+  /\bpub\b|bar\s*\/?\s*nightclub|nightclub/i,
+  /convenience\s*store|newsagent|off\s*licence|post\s*office/i,
+  /hairdresser|barber|hair\s*salon|beauty|nail\s*(bar|salon)|tanning|spa\b/i,
+  /guest\s*house|bed\s*(and|&)\s*breakfast|\bb\s*&\s*b\b|hostel/i,
+  /\bhotel\b/i,
+  /florist|butcher|baker(y)?|dry\s*clean|launderette|laundrette/i,
+  /travel\s*agen/i,
+  /petrol\s*station|garage\s*services|car\s*wash/i,
+];
+
+/** True when a listing's subtype marks it as a business-for-sale going concern. */
+export function isGoingConcern(listing: Pick<RightmoveListing, 'subType'>): boolean {
+  return GOING_CONCERN_SUBTYPES.some((re) => re.test(listing.subType));
+}
+
 function searchUrl(locationId: string, index: number): string {
   return (
     'https://www.rightmove.co.uk/commercial-property-for-sale/find.html' +

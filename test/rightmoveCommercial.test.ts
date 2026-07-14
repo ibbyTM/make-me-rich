@@ -4,6 +4,7 @@ import {
   normalizeProperties,
   parseSqft,
   fetchCityListings,
+  isGoingConcern,
 } from '../src/scrapers/rightmoveCommercial.js';
 
 // Mirrors the live structure confirmed 2026-07-14:
@@ -86,6 +87,28 @@ describe('rightmove commercial scraper', () => {
   it('drops residential rows', () => {
     const out = normalizeProperties([office, residentialRow] as never[], 'Leeds', 'Yorkshire');
     expect(out.map((l) => l.id)).toEqual(['747152224116992']);
+  });
+
+  it('flags business-for-sale going concerns but keeps premises/development stock', () => {
+    // observed live subtypes (2026-07-14)
+    for (const st of ['Cafe', 'Restaurant', 'Convenience Store', 'Pub', 'Hotel', 'Guest House', 'Takeaway', 'Hairdresser / Barber Shop']) {
+      expect(isGoingConcern({ subType: st }), st).toBe(true);
+    }
+    for (const st of [
+      'Office',
+      'Light Industrial',
+      'Retail Property (high street)',
+      'Commercial Development',
+      'Residential Development',
+      'Mixed Use',
+      'Land',
+      'Warehouse',
+      'Childcare Facility',
+      'Commercial Property',
+      'Shop',
+    ]) {
+      expect(isGoingConcern({ subType: st }), st).toBe(false);
+    }
   });
 
   it('paginates by index and dedupes featured repeats across pages', async () => {

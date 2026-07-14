@@ -85,3 +85,48 @@ describe('stageZeroFilter', () => {
     expect(res.matchedRequirementId).toBe('educating');
   });
 });
+
+describe('stageZeroFilter — geoPrescoped (portal pulls)', () => {
+  const PRESCOPED = { minimumBar: 2, geoPrescoped: true };
+
+  it('geography earns no point: geo + one keyword no longer passes', () => {
+    const listing: Listing = {
+      sourceId: 'portal',
+      externalId: 'p1',
+      geography: 'London',
+      text: 'Freehold premises', // keyword only
+    };
+    const res = stageZeroFilter(listing, requirements, PRESCOPED);
+    expect(res.pass).toBe(false);
+    expect(res.score).toBe(1);
+    // geography still recorded as a precondition, not a scored point
+    expect(res.reasons.join(' ')).toMatch(/prescoped — not scored/);
+  });
+
+  it('still passes on two non-geo signals (price + keyword)', () => {
+    const listing: Listing = {
+      sourceId: 'portal',
+      externalId: 'p2',
+      geography: 'Manchester',
+      price: 900000,
+      text: 'Vacant freehold office building',
+    };
+    const res = stageZeroFilter(listing, requirements, PRESCOPED);
+    expect(res.pass).toBe(true);
+    expect(res.score).toBeGreaterThanOrEqual(2);
+    expect(res.matchedRequirementId).toBe('citywide');
+  });
+
+  it("geo mismatch disqualifies the requirement: a Leeds listing can't match Educating on size+keyword", () => {
+    const listing: Listing = {
+      sourceId: 'portal',
+      externalId: 'p3',
+      geography: 'Leeds', // not an Educating town; leeds not in citywide list either
+      size: 5000,
+      text: 'office building', // educating keyword + size would be 2 points
+    };
+    const res = stageZeroFilter(listing, requirements, PRESCOPED);
+    expect(res.matchedRequirementId).not.toBe('educating');
+    expect(res.pass).toBe(false);
+  });
+});

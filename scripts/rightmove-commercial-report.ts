@@ -18,6 +18,7 @@ import { writeFile } from 'node:fs/promises';
 import {
   CITYWIDE_CITIES,
   fetchCityListings,
+  isGoingConcern,
   type CityPull,
   type RightmoveListing,
 } from '../src/scrapers/rightmoveCommercial.js';
@@ -61,10 +62,25 @@ async function main() {
   }
   const listings = [...byId.values()];
 
+  // Subtype filter: drop business-for-sale going concerns (cafés, salons,
+  // licensed trade, ...) before scoring — they aren't commercial-investment
+  // stock and their "freehold" marketing text distorts the keyword criterion.
+  const goingConcerns = listings.filter(isGoingConcern);
+  const investable = listings.filter((l) => !isGoingConcern(l));
+  const excludedBySubtype = new Map<string, number>();
+  for (const l of goingConcerns) {
+    excludedBySubtype.set(l.subType, (excludedBySubtype.get(l.subType) ?? 0) + 1);
+  }
+
   const bar = config.stageZeroMinimumBar;
-  const scored = listings.map((l) => ({
+  // geoPrescoped: the searches were geo-scoped at query time, so geography is
+  // a precondition rather than a scored point (no free point toward the bar).
+  const scored = investable.map((l) => ({
     l,
-    result: stageZeroFilter(toStageListing(l), SEED_REQUIREMENTS, { minimumBar: bar }),
+    result: stageZeroFilter(toStageListing(l), SEED_REQUIREMENTS, {
+      minimumBar: bar,
+      geoPrescoped: true,
+    }),
   }));
   const passed = scored.filter((s) => s.result.pass);
   const failed = scored.filter((s) => !s.result.pass);
@@ -87,9 +103,39 @@ async function main() {
     `Searched **${pulls.length} cities** (Citywide footprint: Yorkshire + Greater Manchester). ` +
       `Portal reports **${totalAvailable}** matching results across those searches; fetched a capped ` +
       `**${totalFetched}** (max 5 pages/city, 1.5 s between requests), **${listings.length}** after cross-city dedupe. ` +
-      `Stage-0 (minimum bar **${bar}** of 4) passed **${passed.length}**.`,
+      `**${goingConcerns.length}** business-for-sale going concerns excluded by subtype, leaving **${investable.length}** ` +
+      `investable listings. Stage-0 (minimum bar **${bar}**, geography excluded from scoring — see below) passed **${passed.length}**.`,
   );
   lines.push('');
+  lines.push('## Corrections applied in this run (vs the first 2026-07-14 pull)');
+  lines.push('');
+  lines.push(
+    'The first pull passed **335 of 554 (60%)** — inflated, because the searches were already geo-scoped, ' +
+      'so every listing collected the geography point for free and the effective bar collapsed to a single ' +
+      'keyword hit (all 219 failures scored exactly 1, geography-only). Two fixes applied for this run:',
+  );
+  lines.push('');
+  lines.push(
+    '1. **Portal-aware Stage-0 (`geoPrescoped`)** — geography earns no point on a geo-scoped pull; it acts as a ' +
+      "precondition instead (a listing outside a requirement's territory cannot match that requirement at all). " +
+      `The ${bar}-point bar now applies to price/size/keywords only.`,
+  );
+  lines.push(
+    '2. **Going-concern subtype filter** — business-for-sale listings (cafés, restaurants, salons, licensed trade, ' +
+      'convenience stores, hotels/guest houses, ...) are excluded before scoring. Premises and development stock ' +
+      '(offices, industrial, retail property, mixed use, commercial/residential development, land) are kept.',
+  );
+  lines.push('');
+  if (excludedBySubtype.size > 0) {
+    lines.push('Excluded by subtype:');
+    lines.push('');
+    lines.push('| Subtype | Excluded |');
+    lines.push('|---|---|');
+    for (const [st, n] of [...excludedBySubtype.entries()].sort((a, b) => b[1] - a[1])) {
+      lines.push(`| ${st || '(blank)'} | ${n} |`);
+    }
+    lines.push('');
+  }
   lines.push('| City | Region | Portal results | Fetched (deduped) |');
   lines.push('|---|---|---|---|');
   for (const p of pulls) lines.push(`| ${p.city} | ${p.region} | ${p.resultCount} | ${p.listings.length} |`);
@@ -100,7 +146,8 @@ async function main() {
   lines.push('## Agent coverage');
   lines.push('');
   lines.push(
-    `**${agentCounts.size} distinct agents/branches** appear in the ${listings.length} fetched listings — ` +
+    `**${agentCounts.size} distinct agents/branches** appear in the ${listings.length} fetched listings ` +
+      `(counted before the subtype filter — coverage is a property of the portal, not of our filtering) — ` +
       `vs one agent per bespoke source. ${passedAgents.size} distinct agents appear in the Stage-0-passed set.`,
   );
   lines.push('');
@@ -135,8 +182,8 @@ async function main() {
   lines.push('## Scraped but did not pass Stage-0');
   lines.push('');
   lines.push(
-    `${failed.length} listings scored below the bar. ` +
-      '(Summarised rather than listed row-by-row — the Barnsdales report had 2 failures; this pull has hundreds.)',
+    `${failed.length} investable listings scored below the bar (geography not scored — ` +
+      'these counts reflect price/size/keyword signals only).',
   );
   lines.push('');
   const scoreDist = new Map<number, number>();
@@ -144,8 +191,8 @@ async function main() {
   lines.push('| Best score | Listings | Typical shortfall |');
   lines.push('|---|---|---|');
   const typical: Record<number, string> = {
-    0: 'no criteria matched (POA price, no size, no keyword hit)',
-    1: 'geography only — price outside/unknown, size below/unknown, no keyword',
+    0: 'no non-geo signal at all (POA price, no size given, no keyword hit)',
+    1: 'one signal only — e.g. keyword but price outside budget / size unknown',
   };
   for (const [score, n] of [...scoreDist.entries()].sort((a, b) => a[0] - b[0])) {
     lines.push(`| ${score}/${bar} | ${n} | ${typical[score] ?? ''} |`);
@@ -161,6 +208,8 @@ async function main() {
       {
         cities: pulls.map((p) => ({ city: p.city, portal: p.resultCount, fetched: p.listings.length })),
         deduped: listings.length,
+        goingConcernsExcluded: goingConcerns.length,
+        investable: investable.length,
         passedStageZero: passed.length,
         distinctAgents: agentCounts.size,
         agentsInPassedSet: passedAgents.size,
