@@ -11,9 +11,22 @@
   header { padding:18px 24px 10px; }
   h1 { margin:0 0 2px; font-size:18px; }
   .sub { color:var(--muted); font-size:12.5px; }
+  .panel { margin:10px 24px 0; padding:10px 14px; background:#fff; border:1px solid var(--border); border-radius:8px; }
+  .runrow { display:flex; gap:18px; align-items:center; flex-wrap:wrap; }
+  .runrow .src { display:flex; gap:6px; align-items:center; font-size:13px; }
+  .runrow .last { color:var(--muted); font-size:11.5px; }
+  .status { font-size:11.5px; padding:1px 7px; border-radius:9px; border:1px solid var(--border); background:#f6f6fa; }
+  .status.queued  { background:#f2f2f7; }
+  .status.running { background:#fff3d6; border-color:#e6c88a; }
+  .status.done    { background:#e9f7ec; border-color:#c4e6cc; }
+  .status.failed  { background:#fdeaea; border-color:#eab8b8; }
+  button { font:inherit; padding:5px 14px; border:1px solid var(--accent); border-radius:6px; background:var(--accent); color:#fff; cursor:pointer; }
+  button:disabled { background:#a9b6dd; border-color:#a9b6dd; cursor:default; }
   .controls { display:flex; gap:12px; align-items:center; padding:10px 24px; flex-wrap:wrap; }
   .controls label { font-size:12.5px; color:var(--muted); margin-right:4px; }
-  select { font:inherit; padding:4px 8px; border:1px solid var(--border); border-radius:6px; background:#fff; }
+  select, input[type=number], input[type=search] { font:inherit; padding:4px 8px; border:1px solid var(--border); border-radius:6px; background:#fff; }
+  input[type=number] { width:104px; }
+  input[type=search] { width:220px; }
   .count { margin-left:auto; color:var(--muted); font-size:12.5px; }
   .wrap { padding:0 24px 28px; overflow-x:auto; }
   table { border-collapse:collapse; width:100%; background:#fff; border:1px solid var(--border); border-radius:8px; overflow:hidden; }
@@ -39,11 +52,30 @@
   <div class="sub" id="meta">Loading…</div>
 </header>
 <div id="warnings"></div>
+
+<div class="panel">
+  <div class="runrow" id="runRow">
+    <strong style="font-size:13px">Run scrapers:</strong>
+    <!-- source checkboxes injected here -->
+    <button id="runBtn">Run selected</button>
+    <span class="last" id="runNote"></span>
+  </div>
+</div>
+
 <div class="controls">
   <span><label for="fSource">Source</label>
   <select id="fSource"><option value="">All</option></select></span>
   <span><label for="fReq">Requirement</label>
   <select id="fReq"><option value="">All</option></select></span>
+  <span><label>Price £</label>
+  <input type="number" id="fPriceMin" placeholder="min" min="0" step="1000">
+  –
+  <input type="number" id="fPriceMax" placeholder="max" min="0" step="1000"></span>
+  <span><label>Size sq ft</label>
+  <input type="number" id="fSizeMin" placeholder="min" min="0" step="100">
+  –
+  <input type="number" id="fSizeMax" placeholder="max" min="0" step="100"></span>
+  <span><input type="search" id="fText" placeholder="Search address, postcode, agent…"></span>
   <span class="count" id="count"></span>
 </div>
 <div class="wrap">
@@ -62,46 +94,70 @@
   </table>
 </div>
 <script>
-(async function () {
-  const files = ['data/barnsdales.json', 'data/rightmove.json', 'data/discovered.json'];
-  const datasets = [];
-  const warnings = [];
-  for (const f of files) {
-    try {
-      const res = await fetch(f);
-      if (!res.ok) throw new Error('HTTP ' + res.status);
-      datasets.push(await res.json());
-    } catch (e) {
-      warnings.push(f + ' not available (' + e.message + ') — run the matching report script to generate it.');
-    }
-  }
-  const all = datasets.flatMap(d => d.rows || []);
-  const meta = datasets.map(d => d.source + ': ' + (d.rows||[]).length + ' matches, pulled ' + new Date(d.generatedAt).toLocaleString());
-  document.getElementById('meta').textContent = meta.join(' · ') || 'No data files found.';
-  const warnEl = document.getElementById('warnings');
-  for (const w of warnings) { const div = document.createElement('div'); div.className = 'warn'; div.textContent = w; warnEl.appendChild(div); }
+(function () {
+  // dataset key → data file + display label (matches the server's allowlist)
+  const SOURCES = [
+    { key: 'barnsdales', file: 'data/barnsdales.json', label: 'Barnsdales' },
+    { key: 'rightmove', file: 'data/rightmove.json', label: 'Rightmove Commercial' },
+    { key: 'discovered', file: 'data/discovered.json', label: 'SMC Brownill Vickers' },
+  ];
+  const datasets = {};   // key → parsed file (or null)
+  let all = [];
+  let sortDir = 0;
 
-  const fSource = document.getElementById('fSource');
-  const fReq = document.getElementById('fReq');
-  for (const v of [...new Set(all.map(r => r.source))]) fSource.add(new Option(v, v));
-  for (const v of [...new Set(all.map(r => r.requirement))]) fReq.add(new Option(v, v));
-
-  let sortDir = 0; // 0 = source order, 1 = asc, -1 = desc
-  document.getElementById('priceHead').addEventListener('click', () => { sortDir = sortDir === 1 ? -1 : 1; render(); });
-  fSource.addEventListener('change', render);
-  fReq.addEventListener('change', render);
-
+  const $ = id => document.getElementById(id);
   const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const gbp = n => n > 0 ? '£' + Number(n).toLocaleString('en-GB') : '';
 
+  async function loadDataset(key) {
+    const src = SOURCES.find(s => s.key === key);
+    try {
+      const res = await fetch(src.file + '?t=' + Date.now()); // bypass cache after re-runs
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      datasets[key] = await res.json();
+    } catch (e) {
+      datasets[key] = null;
+    }
+  }
+
+  function rebuild() {
+    all = Object.values(datasets).filter(Boolean).flatMap(d => d.rows || []);
+    const meta = Object.values(datasets).filter(Boolean)
+      .map(d => d.source + ': ' + (d.rows||[]).length + ' matches, pulled ' + new Date(d.generatedAt).toLocaleString());
+    $('meta').textContent = meta.join(' · ') || 'No data files found.';
+    // refresh filter option lists, preserving selection
+    for (const [sel, field] of [[$('fSource'), 'source'], [$('fReq'), 'requirement']]) {
+      const cur = sel.value;
+      while (sel.options.length > 1) sel.remove(1);
+      for (const v of [...new Set(all.map(r => r[field]))]) sel.add(new Option(v, v));
+      sel.value = [...sel.options].some(o => o.value === cur) ? cur : '';
+    }
+    renderLastRuns();
+    render();
+  }
+
   function render() {
-    let rows = all.filter(r =>
-      (!fSource.value || r.source === fSource.value) &&
-      (!fReq.value || r.requirement === fReq.value));
+    const pMin = Number($('fPriceMin').value) || 0;
+    const pMax = Number($('fPriceMax').value) || Infinity;
+    const sMin = Number($('fSizeMin').value) || 0;
+    const sMax = Number($('fSizeMax').value) || Infinity;
+    const q = $('fText').value.trim().toLowerCase();
+
+    let rows = all.filter(r => {
+      if ($('fSource').value && r.source !== $('fSource').value) return false;
+      if ($('fReq').value && r.requirement !== $('fReq').value) return false;
+      if ((pMin > 0 || pMax < Infinity) && !((r.priceAmount || 0) >= pMin && (r.priceAmount || 0) <= pMax && r.priceAmount > 0)) return false;
+      if ((sMin > 0 || sMax < Infinity) && !(r.sizeSqft != null && r.sizeSqft >= sMin && r.sizeSqft <= sMax)) return false;
+      if (q) {
+        const hay = [r.address, r.agent, r.source].filter(Boolean).join(' ').toLowerCase();
+        if (!hay.includes(q)) return false;
+      }
+      return true;
+    });
     if (sortDir !== 0) rows = [...rows].sort((a, b) => sortDir * ((a.priceAmount||0) - (b.priceAmount||0)));
-    document.getElementById('count').textContent = rows.length + ' of ' + all.length + ' matches';
-    document.getElementById('priceHead').textContent = 'Price ' + (sortDir === 0 ? '⇅' : sortDir === 1 ? '↑' : '↓');
-    const tb = document.getElementById('rows');
+    $('count').textContent = rows.length + ' of ' + all.length + ' matches';
+    $('priceHead').textContent = 'Price ' + (sortDir === 0 ? '⇅' : sortDir === 1 ? '↑' : '↓');
+    const tb = $('rows');
     if (rows.length === 0) { tb.innerHTML = '<tr><td colspan="6" class="empty">No matches for this filter.</td></tr>'; return; }
     tb.innerHTML = rows.map(r => {
       const reqClass = /citywide/i.test(r.requirement) ? 'citywide' : /educating/i.test(r.requirement) ? 'educating' : '';
@@ -117,7 +173,94 @@
       '</tr>';
     }).join('');
   }
-  render();
+
+  // ---- run panel -----------------------------------------------------------
+  const runRow = $('runRow');
+  const runBtn = $('runBtn');
+  for (const s of SOURCES) {
+    const span = document.createElement('span');
+    span.className = 'src';
+    span.innerHTML = '<input type="checkbox" id="run_' + s.key + '" checked>' +
+      '<label for="run_' + s.key + '" style="margin:0;color:inherit">' + esc(s.label) + '</label>' +
+      '<span class="status" id="st_' + s.key + '" hidden></span>' +
+      '<span class="last" id="last_' + s.key + '"></span>';
+    runRow.insertBefore(span, runBtn);
+  }
+
+  function renderLastRuns() {
+    for (const s of SOURCES) {
+      const d = datasets[s.key];
+      $('last_' + s.key).textContent = d ? 'last run ' + new Date(d.generatedAt).toLocaleString() : 'no data yet';
+    }
+  }
+
+  function setControlsDisabled(disabled) {
+    runBtn.disabled = disabled;
+    for (const s of SOURCES) $('run_' + s.key).disabled = disabled;
+  }
+
+  function showStatuses(jobs) {
+    for (const s of SOURCES) { const el = $('st_' + s.key); if (!jobs.some(j => j.key === s.key)) el.hidden = true; }
+    for (const j of jobs) {
+      const el = $('st_' + j.key);
+      el.hidden = false;
+      el.className = 'status ' + j.status;
+      el.textContent = j.status + (j.status === 'failed' && j.error ? ' — ' + j.error.slice(0, 80) : '');
+      el.title = j.error || '';
+    }
+  }
+
+  let seenDone = new Set();
+  async function pollStatus() {
+    let st;
+    try { st = await (await fetch('/run/status')).json(); } catch { return; }
+    showStatuses(st.jobs || []);
+    for (const j of st.jobs || []) {
+      if ((j.status === 'done' || j.status === 'failed') && !seenDone.has(j.key + j.finishedAt)) {
+        seenDone.add(j.key + j.finishedAt);
+        if (j.status === 'done') { await loadDataset(j.key); rebuild(); } // refresh as each source finishes
+      }
+    }
+    if (st.running) {
+      setControlsDisabled(true);
+      $('runNote').textContent = 'batch running…';
+      setTimeout(pollStatus, 1500);
+    } else {
+      setControlsDisabled(false);
+      if ((st.jobs || []).length) $('runNote').textContent = 'batch finished';
+    }
+  }
+
+  runBtn.addEventListener('click', async () => {
+    const keys = SOURCES.filter(s => $('run_' + s.key).checked).map(s => s.key);
+    if (keys.length === 0) { $('runNote').textContent = 'nothing selected'; return; }
+    setControlsDisabled(true);
+    seenDone = new Set();
+    $('runNote').textContent = 'starting…';
+    const res = await fetch('/run', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ sources: keys }) });
+    if (!res.ok) { $('runNote').textContent = 'failed to start (' + res.status + ')'; setControlsDisabled(false); return; }
+    pollStatus();
+  });
+
+  // ---- filters -------------------------------------------------------------
+  for (const id of ['fSource', 'fReq']) $(id).addEventListener('change', render);
+  for (const id of ['fPriceMin', 'fPriceMax', 'fSizeMin', 'fSizeMax', 'fText']) $(id).addEventListener('input', render);
+  $('priceHead').addEventListener('click', () => { sortDir = sortDir === 1 ? -1 : 1; render(); });
+
+  // ---- init ----------------------------------------------------------------
+  (async () => {
+    await Promise.all(SOURCES.map(s => loadDataset(s.key)));
+    const missing = SOURCES.filter(s => !datasets[s.key]);
+    const warnEl = $('warnings');
+    for (const s of missing) {
+      const div = document.createElement('div');
+      div.className = 'warn';
+      div.textContent = s.file + ' not available — run ' + s.label + ' from the panel above to generate it.';
+      warnEl.appendChild(div);
+    }
+    rebuild();
+    pollStatus(); // in case a batch is already mid-run when the page loads
+  })();
 })();
 </script>
 </body>
