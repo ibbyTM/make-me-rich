@@ -91,10 +91,14 @@ describe('rightmove commercial scraper', () => {
 
   it('flags business-for-sale going concerns but keeps premises/development stock', () => {
     // observed live subtypes (2026-07-14)
-    for (const st of ['Cafe', 'Restaurant', 'Convenience Store', 'Pub', 'Hotel', 'Guest House', 'Takeaway', 'Hairdresser / Barber Shop']) {
+    for (const st of ['Cafe', 'Restaurant', 'Convenience Store', 'Guest House', 'Takeaway', 'Hairdresser / Barber Shop']) {
       expect(isGoingConcern({ subType: st }), st).toBe(true);
     }
+    // pubs/bars/hotels are conversion-scale assets — kept in (decision 2026-07-14)
     for (const st of [
+      'Pub',
+      'Hotel',
+      'Bar / Nightclub',
       'Office',
       'Light Industrial',
       'Retail Property (high street)',

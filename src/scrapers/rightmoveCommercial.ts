@@ -176,22 +176,25 @@ export function normalizeProperties(
  * than investable commercial premises — cafés, salons, licensed trade, etc.
  * These distort Stage-0 (their marketing text nearly always says "freehold")
  * without being commercial-investment stock. Values observed live 2026-07-14
- * (Cafe, Restaurant, Convenience Store, Pub, ...) plus Rightmove's standard
+ * (Cafe, Restaurant, Convenience Store, ...) plus Rightmove's standard
  * going-concern categories. Deliberately NOT excluded: Retail Property
  * (premises), Shop, Childcare Facility, Commercial/Residential Development,
  * Mixed Use — those are premises/development stock even when an operator lists
- * them.
+ * them. Pubs, bars/nightclubs and hotels are also KEPT (decision 2026-07-14):
+ * they're often licensed-trade sales, but at Citywide's price band a large
+ * freehold pub/hotel is genuine C2R conversion stock, and the portal-aware
+ * Stage-0 (price+keyword required) filters the small trading businesses
+ * anyway. Guest houses/B&Bs stay excluded — trading-income-priced, not
+ * conversion-scale.
  */
 const GOING_CONCERN_SUBTYPES: RegExp[] = [
   /\bcaf[eé]\b/i,
   /coffee\s*shop/i,
   /restaurant/i,
   /take\s*away|takeaway|fast\s*food/i,
-  /\bpub\b|bar\s*\/?\s*nightclub|nightclub/i,
   /convenience\s*store|newsagent|off\s*licence|post\s*office/i,
   /hairdresser|barber|hair\s*salon|beauty|nail\s*(bar|salon)|tanning|spa\b/i,
   /guest\s*house|bed\s*(and|&)\s*breakfast|\bb\s*&\s*b\b|hostel/i,
-  /\bhotel\b/i,
   /florist|butcher|baker(y)?|dry\s*clean|launderette|laundrette/i,
   /travel\s*agen/i,
   /petrol\s*station|garage\s*services|car\s*wash/i,

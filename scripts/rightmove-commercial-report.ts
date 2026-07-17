@@ -121,9 +121,11 @@ async function main() {
       `The ${bar}-point bar now applies to price/size/keywords only.`,
   );
   lines.push(
-    '2. **Going-concern subtype filter** — business-for-sale listings (cafés, restaurants, salons, licensed trade, ' +
-      'convenience stores, hotels/guest houses, ...) are excluded before scoring. Premises and development stock ' +
-      '(offices, industrial, retail property, mixed use, commercial/residential development, land) are kept.',
+    '2. **Going-concern subtype filter** — business-for-sale listings (cafés, restaurants, takeaways, salons, ' +
+      'convenience stores, guest houses/B&Bs, ...) are excluded before scoring. Premises and development stock ' +
+      '(offices, industrial, retail property, mixed use, commercial/residential development, land) are kept — ' +
+      '**as are pubs, bars/nightclubs and hotels** (decision 2026-07-14: at Citywide\'s price band a large freehold ' +
+      'pub/hotel is genuine C2R conversion stock, and the price+keyword bar filters small trading businesses anyway).',
   );
   lines.push('');
   if (excludedBySubtype.size > 0) {
