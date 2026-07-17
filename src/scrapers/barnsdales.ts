@@ -51,6 +51,8 @@ export interface BarnsdalesListing {
   priceDisplay: string;
   status: string;
   categories: string[];
+  /** Live detail page (pattern `/properties/<id>`, verified 2026-07-17). */
+  url: string;
 }
 
 /**
@@ -118,6 +120,7 @@ function toListing(p: BarnsdalesProperty): BarnsdalesListing {
     priceDisplay: (p.freehold_price ?? `£${(p.freehold_from as number).toLocaleString('en-GB')}`).trim(),
     status: p.status,
     categories: Array.isArray(p.categories) ? p.categories : [],
+    url: `https://www.barnsdales.co.uk/properties/${p.id}`,
   };
 }
 

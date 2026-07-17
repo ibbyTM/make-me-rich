@@ -12,7 +12,7 @@
  * Nothing is written back to Barnsdales or any external system.
  */
 
-import { writeFile } from 'node:fs/promises';
+import { mkdir, writeFile } from 'node:fs/promises';
 import {
   fetchBarnsdalesListings,
   type BarnsdalesListing,
@@ -149,6 +149,34 @@ async function main() {
   const md = lines.join('\n');
   const outPath = `docs/barnsdales-pull-${now}.md`;
   await writeFile(outPath, md + '\n', 'utf8');
+
+  // Structured output for the read-only dashboard (dashboard/index.html):
+  // the same passed rows the markdown lists, in their native shape.
+  await mkdir('dashboard/data', { recursive: true });
+  await writeFile(
+    'dashboard/data/barnsdales.json',
+    JSON.stringify(
+      {
+        source: 'Barnsdales',
+        generatedAt: new Date().toISOString(),
+        rows: passed.map(({ l, result }) => ({
+          address: `${l.location}, ${l.postcode}`,
+          priceDisplay: l.priceDisplay,
+          priceAmount: l.priceFrom,
+          sizeLabel: l.sizeLabel,
+          sizeSqft: l.sizeSqft,
+          source: 'Barnsdales',
+          requirement: REQ_BY_ID[result.matchedRequirementId ?? '']?.name ?? '(unknown)',
+          score: result.score,
+          reasons: result.reasons,
+          url: l.url,
+        })),
+      },
+      null,
+      2,
+    ) + '\n',
+    'utf8',
+  );
 
   // machine-readable summary to stderr for verification
   process.stderr.write(

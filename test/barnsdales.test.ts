@@ -110,6 +110,7 @@ describe('barnsdales scraper', () => {
     const castleford = listings.find((l) => l.id === 5)!;
     expect(doncaster.sizeSqft).toBe(2776);
     expect(doncaster.sizeLabel).toBe('2776 sqft');
+    expect(doncaster.url).toBe('https://www.barnsdales.co.uk/properties/1');
     expect(castleford.sizeSqft).toBeNull(); // "1.1 acres" is not sq ft
     expect(castleford.sizeLabel).toBe('1.1 acres');
   });

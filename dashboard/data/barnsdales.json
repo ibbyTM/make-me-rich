@@ -1,0 +1,36 @@
+{
+  "source": "Barnsdales",
+  "generatedAt": "2026-07-17T15:18:01.655Z",
+  "rows": [
+    {
+      "address": "Castleford, WF10 5HX",
+      "priceDisplay": "£600,000",
+      "priceAmount": 600000,
+      "sizeLabel": "1.1 acres",
+      "sizeSqft": null,
+      "source": "Barnsdales",
+      "requirement": "Citywide Investors",
+      "score": 2,
+      "reasons": [
+        "geography \"Castleford Yorkshire\" matches Citywide Investors",
+        "price 600000 within budget 500000-2000000"
+      ],
+      "url": "https://www.barnsdales.co.uk/properties/319160"
+    },
+    {
+      "address": "Doncaster, DN1 1HQ",
+      "priceDisplay": "£575,000",
+      "priceAmount": 575000,
+      "sizeLabel": "12000 sqft",
+      "sizeSqft": 12000,
+      "source": "Barnsdales",
+      "requirement": "Citywide Investors",
+      "score": 2,
+      "reasons": [
+        "geography \"Doncaster Yorkshire\" matches Citywide Investors",
+        "price 575000 within budget 500000-2000000"
+      ],
+      "url": "https://www.barnsdales.co.uk/properties/319692"
+    }
+  ]
+}

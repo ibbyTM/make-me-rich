@@ -14,7 +14,7 @@
  * system.
  */
 
-import { writeFile } from 'node:fs/promises';
+import { mkdir, writeFile } from 'node:fs/promises';
 import {
   CITYWIDE_CITIES,
   fetchCityListings,
@@ -204,6 +204,34 @@ async function main() {
   const md = lines.join('\n');
   const outPath = `docs/rightmove-commercial-pull-${now}.md`;
   await writeFile(outPath, md + '\n', 'utf8');
+
+  // Structured output for the read-only dashboard (dashboard/index.html).
+  await mkdir('dashboard/data', { recursive: true });
+  await writeFile(
+    'dashboard/data/rightmove.json',
+    JSON.stringify(
+      {
+        source: 'Rightmove Commercial',
+        generatedAt: new Date().toISOString(),
+        rows: passed.map(({ l, result }) => ({
+          address: `${l.address} (${l.city})`,
+          priceDisplay: l.priceDisplay,
+          priceAmount: l.priceAmount,
+          sizeLabel: l.sizeLabel,
+          sizeSqft: l.sizeSqft,
+          source: 'Rightmove Commercial',
+          requirement: REQ_NAME[result.matchedRequirementId ?? ''] ?? '(unknown)',
+          score: result.score,
+          reasons: result.reasons,
+          url: l.url,
+          agent: l.agent,
+        })),
+      },
+      null,
+      2,
+    ) + '\n',
+    'utf8',
+  );
 
   process.stderr.write(
     JSON.stringify(

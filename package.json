@@ -12,7 +12,8 @@
     "typecheck": "tsc -p tsconfig.json --noEmit",
     "test": "vitest run",
     "test:watch": "vitest",
-    "onboard": "tsx src/cli.ts"
+    "onboard": "tsx src/cli.ts",
+    "dashboard": "tsx scripts/serve-dashboard.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.45.0"
