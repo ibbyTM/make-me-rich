@@ -1,5 +1,7 @@
 # Rightmove Commercial — live for-sale pull + Stage-0 filter
 
+> **Superseded by [`rightmove-commercial-pull-2026-07-17.md`](rightmove-commercial-pull-2026-07-17.md)**, which additionally keeps pubs/bars/hotels in the investable pool (decision 2026-07-17) and fixes object-form tenure rendering. This file is retained as the snapshot that established the portal-aware Stage-0 corrections.
+
 **Date:** 2026-07-14 · **Source:** rightmove.co.uk commercial-property-for-sale (search pages, `__NEXT_DATA__` plain JSON) · **Mode:** read-only live pull
 
 Searched **7 cities** (Citywide footprint: Yorkshire + Greater Manchester). Portal reports **879** matching results across those searches; fetched a capped **554** (max 5 pages/city, 1.5 s between requests), **554** after cross-city dedupe. **129** business-for-sale going concerns excluded by subtype, leaving **425** investable listings. Stage-0 (minimum bar **2**, geography excluded from scoring — see below) passed **123**.

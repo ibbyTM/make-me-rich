@@ -52,7 +52,8 @@ interface RawProperty {
   propertyTypeFullDescription?: string;
   summary?: string;
   keyFeatures?: string[];
-  tenure?: string | null;
+  /** String on some listings, `{ tenureType: ... }` object on others. */
+  tenure?: string | { tenureType?: string | null } | null;
   customer?: { branchDisplayName?: string; brandTradingName?: string };
   commercial?: boolean;
   residential?: boolean;
@@ -149,6 +150,10 @@ export function normalizeProperties(
     )
     .map((p) => {
       const dp = p.price?.displayPrices?.[0];
+      const tenure =
+        typeof p.tenure === 'string'
+          ? p.tenure.trim()
+          : (p.tenure?.tenureType ?? '').toString().trim();
       return {
         id: String(p.id),
         address: (p.displayAddress ?? '').trim(),
@@ -160,8 +165,8 @@ export function normalizeProperties(
         sizeSqft: parseSqft(p.displaySize),
         subType: (p.propertySubType ?? p.propertyTypeFullDescription ?? '').trim(),
         agent: (p.customer?.branchDisplayName ?? p.customer?.brandTradingName ?? 'Unknown agent').trim(),
-        tenure: (p.tenure ?? '').toString().trim(),
-        text: [p.propertyTypeFullDescription, p.summary, ...(p.keyFeatures ?? []), p.tenure]
+        tenure,
+        text: [p.propertyTypeFullDescription, p.summary, ...(p.keyFeatures ?? []), tenure]
           .filter(Boolean)
           .join(' '),
         status: (p.displayStatus ?? '').trim(),

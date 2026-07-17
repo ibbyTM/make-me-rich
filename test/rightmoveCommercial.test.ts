@@ -74,6 +74,16 @@ describe('rightmove commercial scraper', () => {
     expect(l!.text).toContain('FREEHOLD');
   });
 
+  it('handles object-form tenure ({tenureType}) without [object Object]', () => {
+    const objTenure = { ...office, id: 555, tenure: { tenureType: 'FREEHOLD' } };
+    const noTenure = { ...office, id: 556, tenure: null };
+    const out = normalizeProperties([objTenure, noTenure] as never[], 'Leeds', 'Yorkshire');
+    expect(out[0]!.tenure).toBe('FREEHOLD');
+    expect(out[0]!.text).toContain('FREEHOLD');
+    expect(out[0]!.text).not.toContain('[object Object]');
+    expect(out[1]!.tenure).toBe('');
+  });
+
   it('parses sq ft but leaves acres as null', () => {
     expect(parseSqft('5,242 sq. ft.')).toBe(5242);
     expect(parseSqft('900 sqft')).toBe(900);
