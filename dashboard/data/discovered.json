@@ -1,0 +1,160 @@
+{
+  "source": "Discovered agents",
+  "generatedAt": "2026-07-17T20:15:06.405Z",
+  "rows": [
+    {
+      "address": "1 Scotland Street, Sheffield, S3 7AT",
+      "priceDisplay": "£335,000",
+      "priceAmount": 335000,
+      "sizeLabel": "2342.65 sqft",
+      "sizeSqft": 2343,
+      "source": "SMC Brownill Vickers",
+      "requirement": "Educating Excellence",
+      "score": 3,
+      "reasons": [
+        "geography \"Sheffield Yorkshire\" matches Educating Excellence",
+        "size 2343 >= min 2000",
+        "keyword hit \"office\""
+      ],
+      "url": "https://smcbrownillvickers.com/properties/380030-1-scotland-street-sheffield/"
+    },
+    {
+      "address": "464-464a Roman Road, Bow, E3 5LU",
+      "priceDisplay": "£725,000",
+      "priceAmount": 725000,
+      "sizeLabel": "1327 sqft",
+      "sizeSqft": 1327,
+      "source": "SMC Brownill Vickers",
+      "requirement": "Citywide Investors",
+      "score": 2,
+      "reasons": [
+        "price 725000 within budget 500000-2000000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://smcbrownillvickers.com/properties/235125-464-464a-roman-road-bow/"
+    },
+    {
+      "address": "6-8 Howard Chase, Basildon, SS14 3BD",
+      "priceDisplay": "£695,000",
+      "priceAmount": 695000,
+      "sizeLabel": "5156 sqft",
+      "sizeSqft": 5156,
+      "source": "SMC Brownill Vickers",
+      "requirement": "Citywide Investors",
+      "score": 2,
+      "reasons": [
+        "price 695000 within budget 500000-2000000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://smcbrownillvickers.com/properties/376999-6-8-howard-chase-basildon/"
+    },
+    {
+      "address": "31 Manchester Road, Sheffield, S36 2QX",
+      "priceDisplay": "£235,000",
+      "priceAmount": 235000,
+      "sizeLabel": "3863 sqft",
+      "sizeSqft": 3863,
+      "source": "SMC Brownill Vickers",
+      "requirement": "Educating Excellence",
+      "score": 3,
+      "reasons": [
+        "geography \"Sheffield Yorkshire\" matches Educating Excellence",
+        "size 3863 >= min 2000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://smcbrownillvickers.com/properties/298873-31-manchester-road-sheffield/"
+    },
+    {
+      "address": "Carr Road, Deepcar, S36 2NR",
+      "priceDisplay": "£950,000",
+      "priceAmount": 950000,
+      "sizeLabel": "8918 sqft",
+      "sizeSqft": 8918,
+      "source": "SMC Brownill Vickers",
+      "requirement": "Citywide Investors",
+      "score": 3,
+      "reasons": [
+        "geography \"Deepcar Yorkshire\" matches Citywide Investors",
+        "price 950000 within budget 500000-2000000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://smcbrownillvickers.com/properties/207416-carr-road-deepcar/"
+    },
+    {
+      "address": "21 Station Road, Sheffield, S26 6QP",
+      "priceDisplay": "£299,950",
+      "priceAmount": 299950,
+      "sizeLabel": "2783 sqft",
+      "sizeSqft": 2783,
+      "source": "SMC Brownill Vickers",
+      "requirement": "Educating Excellence",
+      "score": 3,
+      "reasons": [
+        "geography \"Sheffield Yorkshire\" matches Educating Excellence",
+        "size 2783 >= min 2000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://smcbrownillvickers.com/properties/189781-21-station-road-sheffield/"
+    },
+    {
+      "address": "Oak Road, Matlock, DE4 3PJ",
+      "priceDisplay": "£475,000",
+      "priceAmount": 475000,
+      "sizeLabel": "9031 sqft",
+      "sizeSqft": 9031,
+      "source": "SMC Brownill Vickers",
+      "requirement": "Educating Excellence",
+      "score": 2,
+      "reasons": [
+        "size 9031 >= min 2000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://smcbrownillvickers.com/properties/347192-oak-road-matlock/"
+    },
+    {
+      "address": "12 Rigg Approach, London, E10 7QN",
+      "priceDisplay": "POA",
+      "priceAmount": 0,
+      "sizeLabel": "28257 sqft",
+      "sizeSqft": 28257,
+      "source": "SMC Brownill Vickers",
+      "requirement": "Educating Excellence",
+      "score": 2,
+      "reasons": [
+        "size 28257 >= min 2000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://smcbrownillvickers.com/properties/217855-12-rigg-approach-london/"
+    },
+    {
+      "address": "High Street, Bawtry, DN10 6JA",
+      "priceDisplay": "£950,000",
+      "priceAmount": 950000,
+      "sizeLabel": "3755 sqft",
+      "sizeSqft": 3755,
+      "source": "SMC Brownill Vickers",
+      "requirement": "Citywide Investors",
+      "score": 2,
+      "reasons": [
+        "geography \"Bawtry Yorkshire\" matches Citywide Investors",
+        "price 950000 within budget 500000-2000000"
+      ],
+      "url": "https://smcbrownillvickers.com/properties/216510-high-street-bawtry/"
+    },
+    {
+      "address": "Lower Southend Road, Wickford, SS11 8BB",
+      "priceDisplay": "£550,000",
+      "priceAmount": 550000,
+      "sizeLabel": "7210 sqft",
+      "sizeSqft": 7210,
+      "source": "SMC Brownill Vickers",
+      "requirement": "Citywide Investors",
+      "score": 2,
+      "reasons": [
+        "price 550000 within budget 500000-2000000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://smcbrownillvickers.com/properties/280891-lower-southend-road-wickford/"
+    }
+  ]
+}
