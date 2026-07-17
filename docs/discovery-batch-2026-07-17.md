@@ -46,9 +46,21 @@ Everything else is genuinely server-rendered static HTML (the classifier was rig
 
 **SMC live pull:** 317 properties on the API → 11 commercial for-sale → **10 passed Stage-0**, now in the dashboard (`dashboard/data/discovered.json`) alongside Barnsdales and Rightmove.
 
-## ⚠️ Finding: out-of-region passes (5 of 10)
+## Out-of-region passes — found, then fixed (decision 2026-07-17)
 
-SMC lists nationally, and in normal Stage-0 mode geography is one scored signal, not a gate — so Bow (London), Basildon, Wickford, Matlock and Leyton passed on price+`freehold` or size+`freehold` alone. Same funnel semantics as always (the Barnsdales pull never surfaced it because its stock is all Yorkshire). Options if unwanted: make geography a hard precondition for agent pulls too (the `geoPrescoped` machinery already exists), or leave it to the Day-5 matcher downstream. **Decision for Ahmed** — not changed unilaterally.
+**First run:** SMC lists nationally, and in normal Stage-0 mode geography was one scored signal, not a gate — so 5 of 10 passes were out-of-region (Bow, Basildon, Wickford, Matlock, Leyton) on price+`freehold` or size+`freehold` alone.
+
+**Fix applied** (same pattern as the Rightmove portal fix): the SMC pull now scores with `geoPrescoped` — geography is a hard precondition (a listing outside a requirement's territory cannot match it) and earns no point, so the 2-point bar applies to price/size/keyword only.
+
+| | Before | After |
+|---|---|---|
+| Commercial for-sale scored | 11 | 11 |
+| Passed Stage-0 | 10 | **4** |
+| Out-of-region passes | 5 | **0** |
+
+All four survivors are in-territory with two real signals: 1 Scotland Street Sheffield (size + `office`), 31 Manchester Road Sheffield and 21 Station Road Sheffield (size + `freehold`, Educating), Carr Road Deepcar (price + `freehold`, Citywide).
+
+**One in-region casualty, disclosed:** High Street, Bawtry (£950k, Citywide-territory) previously passed on geography+price and now scores 1 — under the precondition, geography no longer counts toward the bar and Bawtry's listing text carries no keyword. That's the same trade-off accepted on the Rightmove pull (a genuine in-region property needs two non-geo signals). If that feels too strict for agent pulls, the alternative is a third mode where geography gates *and* scores — flag for Ahmed if Bawtry-shaped losses start looking common.
 
 ## What would unlock more sources
 

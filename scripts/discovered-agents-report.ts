@@ -79,9 +79,17 @@ async function main() {
       { approvalThreshold: 0.8 },
     );
 
+    // geoPrescoped for agent pulls too (decision 2026-07-17): SMC lists
+    // nationally, and with geography as a mere scored signal, price+keyword
+    // alone was passing Bow/Basildon/etc. As on portal pulls, geography is a
+    // hard precondition (mismatch disqualifies the requirement) and earns no
+    // point — the bar applies to price/size/keyword only.
     const scored = pull.listings.map((l) => ({
       l,
-      result: stageZeroFilter(toStageListing(l, source.name), SEED_REQUIREMENTS, { minimumBar: bar }),
+      result: stageZeroFilter(toStageListing(l, source.name), SEED_REQUIREMENTS, {
+        minimumBar: bar,
+        geoPrescoped: true,
+      }),
     }));
     const passed = scored.filter((s) => s.result.pass);
 
