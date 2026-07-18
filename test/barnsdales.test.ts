@@ -21,6 +21,9 @@ const props = [
     freehold_to: 425000,
     freehold_price: 'Offers in the region of £425,000 [8% yield]',
     categories: ['Investment - Mixed use'],
+    media: [
+      { base: 'https://s3.eu-west-2.amazonaws.com/altcms/barnsdales/media/1/conversions/photo-' },
+    ],
   },
   {
     id: 2,
@@ -113,6 +116,16 @@ describe('barnsdales scraper', () => {
     expect(doncaster.url).toBe('https://www.barnsdales.co.uk/properties/1');
     expect(castleford.sizeSqft).toBeNull(); // "1.1 acres" is not sq ft
     expect(castleford.sizeLabel).toBe('1.1 acres');
+  });
+
+  it('builds the image URL from media[0].base, and returns null when there is no media', () => {
+    const listings = filterCommercialFreehold(extractProperties(html));
+    const doncaster = listings.find((l) => l.id === 1)!;
+    const castleford = listings.find((l) => l.id === 5)!;
+    expect(doncaster.imageUrl).toBe(
+      'https://s3.eu-west-2.amazonaws.com/altcms/barnsdales/media/1/conversions/photo-show.jpg',
+    );
+    expect(castleford.imageUrl).toBeNull();
   });
 
   it('throws a clear error if the embedded array is missing', () => {

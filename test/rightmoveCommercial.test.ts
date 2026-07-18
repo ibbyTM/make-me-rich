@@ -33,6 +33,7 @@ const office = {
   auction: false,
   displayStatus: '',
   propertyUrl: '/properties/747152224116992',
+  images: [{ srcUrl: 'https://media.rightmove.co.uk/dir/crop/property-photo/abc/123/abc.jpeg', caption: 'Picture No. 01' }],
 };
 
 const landAcres = {
@@ -42,6 +43,7 @@ const landAcres = {
   displaySize: '2.5 acres',
   propertySubType: 'Land',
   customer: { branchDisplayName: 'Another Agent, Sheffield' },
+  images: [], // no photos uploaded
 };
 
 const residentialRow = { ...office, id: 222, commercial: false, residential: true };
@@ -70,8 +72,14 @@ describe('rightmove commercial scraper', () => {
       city: 'Leeds',
       region: 'Yorkshire',
       url: 'https://www.rightmove.co.uk/properties/747152224116992',
+      imageUrl: 'https://media.rightmove.co.uk/dir/crop/property-photo/abc/123/abc.jpeg',
     });
     expect(l!.text).toContain('FREEHOLD');
+  });
+
+  it('imageUrl is null when a listing has no photos', () => {
+    const [l] = normalizeProperties([landAcres as never], 'Sheffield', 'Yorkshire');
+    expect(l!.imageUrl).toBeNull();
   });
 
   it('handles object-form tenure ({tenureType}) without [object Object]', () => {

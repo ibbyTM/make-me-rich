@@ -39,6 +39,9 @@ interface PHProperty {
   tenure?: string;
   features?: string[];
   excerpt?: { rendered?: string } | string;
+  /** Human-readable, e.g. "Office" — a real field, not a taxonomy ID lookup. */
+  property_type?: string;
+  images?: { url?: string; large?: string; medium?: string; thumbnail?: string }[];
   [key: string]: unknown;
 }
 
@@ -52,8 +55,11 @@ export interface PropertyHiveListing {
   sizeSqft: number | null;
   sizeLabel: string;
   availability: string;
+  propertyType: string;
   text: string;
   url: string;
+  /** First photo, "medium" WP conversion (~300x225). Null if none uploaded. */
+  imageUrl: string | null;
 }
 
 export interface PropertyHiveSource {
@@ -118,6 +124,7 @@ export function normalizePH(props: PHProperty[]): PropertyHiveListing[] {
         sizeSqft,
         sizeLabel,
         availability: p.availability ?? '',
+        propertyType: (p.property_type ?? '').trim(),
         text: [
           p.title?.rendered,
           ...(p.features ?? []),
@@ -127,6 +134,7 @@ export function normalizePH(props: PHProperty[]): PropertyHiveListing[] {
           .filter(Boolean)
           .join(' '),
         url: p.link ?? '',
+        imageUrl: p.images?.[0]?.medium ?? p.images?.[0]?.thumbnail ?? null,
       };
     });
 }

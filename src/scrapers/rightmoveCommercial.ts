@@ -55,6 +55,7 @@ interface RawProperty {
   /** String on some listings, `{ tenureType: ... }` object on others. */
   tenure?: string | { tenureType?: string | null } | null;
   customer?: { branchDisplayName?: string; brandTradingName?: string };
+  images?: { srcUrl?: string; caption?: string }[];
   commercial?: boolean;
   residential?: boolean;
   transactionType?: string;
@@ -85,6 +86,8 @@ export interface RightmoveListing {
   status: string;
   auction: boolean;
   url: string;
+  /** First listing photo, already cropped by Rightmove (~476x317). Null if none. */
+  imageUrl: string | null;
 }
 
 export interface CityPull {
@@ -172,6 +175,7 @@ export function normalizeProperties(
         status: (p.displayStatus ?? '').trim(),
         auction: p.auction === true,
         url: p.propertyUrl ? new URL(p.propertyUrl, 'https://www.rightmove.co.uk').toString() : '',
+        imageUrl: p.images?.[0]?.srcUrl ?? null,
       };
     });
 }

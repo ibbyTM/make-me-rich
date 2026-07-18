@@ -227,6 +227,8 @@ async function main() {
           reasons: result.reasons,
           url: l.url,
           agent: l.agent,
+          propertyType: l.subType,
+          imageUrl: l.imageUrl,
         })),
       },
       null,

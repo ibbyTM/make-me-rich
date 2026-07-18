@@ -3,75 +3,232 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>CAIS — Stage-0 matches</title>
+<title>CAIS — The Register</title>
 <style>
-  :root { --border:#d9d9e0; --muted:#6b6b76; --accent:#1f4fd8; --bg:#fafafc; }
-  * { box-sizing:border-box; }
-  body { margin:0; font:14px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; background:var(--bg); color:#1a1a22; }
-  header { padding:18px 24px 10px; }
-  h1 { margin:0 0 2px; font-size:18px; }
-  .sub { color:var(--muted); font-size:12.5px; }
-  .panel { margin:10px 24px 0; padding:10px 14px; background:#fff; border:1px solid var(--border); border-radius:8px; }
-  .runrow { display:flex; gap:18px; align-items:center; flex-wrap:wrap; }
-  .runrow .src { display:flex; gap:6px; align-items:center; font-size:13px; }
-  .runrow .last { color:var(--muted); font-size:11.5px; }
-  .status { font-size:11.5px; padding:1px 7px; border-radius:9px; border:1px solid var(--border); background:#f6f6fa; }
-  .status.queued  { background:#f2f2f7; }
-  .status.running { background:#fff3d6; border-color:#e6c88a; }
-  .status.done    { background:#e9f7ec; border-color:#c4e6cc; }
-  .status.failed  { background:#fdeaea; border-color:#eab8b8; }
-  button { font:inherit; padding:5px 14px; border:1px solid var(--accent); border-radius:6px; background:var(--accent); color:#fff; cursor:pointer; }
-  button:disabled { background:#a9b6dd; border-color:#a9b6dd; cursor:default; }
-  .controls { display:flex; gap:12px; align-items:center; padding:10px 24px; flex-wrap:wrap; }
-  .controls label { font-size:12.5px; color:var(--muted); margin-right:4px; }
-  select, input[type=number], input[type=search] { font:inherit; padding:4px 8px; border:1px solid var(--border); border-radius:6px; background:#fff; }
-  input[type=number] { width:104px; }
-  input[type=search] { width:220px; }
-  .count { margin-left:auto; color:var(--muted); font-size:12.5px; }
-  .wrap { padding:0 24px 28px; overflow-x:auto; }
-  table { border-collapse:collapse; width:100%; background:#fff; border:1px solid var(--border); border-radius:8px; overflow:hidden; }
-  th, td { text-align:left; padding:8px 12px; border-bottom:1px solid var(--border); vertical-align:top; }
-  th { background:#f1f1f6; font-size:12px; text-transform:uppercase; letter-spacing:.03em; color:#44444e; white-space:nowrap; }
-  tr:last-child td { border-bottom:none; }
-  th.sortable { cursor:pointer; user-select:none; }
-  th.sortable:hover { color:var(--accent); }
-  td.price, td.size { white-space:nowrap; font-variant-numeric:tabular-nums; }
-  td.why { color:var(--muted); font-size:12.5px; max-width:420px; }
-  a { color:var(--accent); text-decoration:none; }
-  a:hover { text-decoration:underline; }
-  .tag { display:inline-block; padding:1px 8px; border-radius:10px; font-size:11.5px; border:1px solid var(--border); background:#f6f6fa; white-space:nowrap; }
-  .tag.citywide { background:#e8efff; border-color:#c3d4fb; }
-  .tag.educating { background:#e9f7ec; border-color:#c4e6cc; }
-  .empty { padding:32px; text-align:center; color:var(--muted); }
-  .warn { margin:8px 24px; padding:8px 12px; border:1px solid #e6c88a; background:#fdf6e3; border-radius:6px; font-size:12.5px; }
-  .newsearch { display:flex; gap:10px; align-items:flex-end; flex-wrap:wrap; }
-  .newsearch .field { display:flex; flex-direction:column; gap:2px; }
-  .newsearch .field label { font-size:11px; color:var(--muted); }
-  .newsearch input[type=text] { font:inherit; padding:4px 8px; border:1px solid var(--border); border-radius:6px; background:#fff; }
-  .newsearch input.geo { width:190px; }
-  .newsearch input.kw { width:150px; }
-  .newsearch input.num { width:90px; }
-  .reqlist { margin-top:10px; border-top:1px solid var(--border); padding-top:8px; }
-  .reqrow { display:flex; gap:8px; align-items:center; padding:3px 0; font-size:12.5px; flex-wrap:wrap; }
-  .reqrow .rname { font-weight:600; min-width:170px; }
-  .reqrow .rdetail { color:var(--muted); }
-  .reqrow button { padding:2px 10px; font-size:12px; }
-  .reqrow button.secondary { background:#fff; color:var(--accent); }
-  .discoverNote { font-size:12px; color:var(--muted); margin-top:4px; }
-  .discoverNote.err { color:#a33; }
+  /* Same token system as the landing page (index.html) — kept in sync by
+     hand since this is a zero-build, zero-dependency pair of static files. */
+  :root {
+    --ink:        #1B1F1C;
+    --ink-soft:   #4B534C;
+    --ink-faint:  #7B8279;
+    --paper:      #EDEFEA;
+    --paper-raised: #E3E6DE;
+    --paper-line: #C7CCC2;
+    --accent:       #1F4D3A;
+    --accent-bright:#2F6B4F;
+    --accent-ink:   #F4F6F2;
+    --flag:     #A9761F;
+    --flag-bg:  rgba(169,118,31,0.12);
+    --flag-line:rgba(169,118,31,0.35);
+    --good:     #1F4D3A;
+    --good-bg:  rgba(31,77,58,0.10);
+    --bad:      #9A3B2E;
+    --bad-bg:   rgba(154,59,46,0.10);
+    --bad-line: rgba(154,59,46,0.32);
+    --shadow: 0 1px 2px rgba(27,31,28,0.06), 0 8px 24px rgba(27,31,28,0.05);
+
+    --font-display: "Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;
+    --font-body: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    --font-mono: "SF Mono","Cascadia Code","Roboto Mono",Consolas,"Liberation Mono",monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ink:        #E7E9E2;
+      --ink-soft:   #ACB3A7;
+      --ink-faint:  #6F766C;
+      --paper:      #14170F;
+      --paper-raised: #1C2016;
+      --paper-line: #333A2C;
+      --accent:       #5B9A78;
+      --accent-bright:#79B896;
+      --accent-ink:   #0D110B;
+      --flag:     #D9A24B;
+      --flag-bg:  rgba(217,162,75,0.14);
+      --flag-line:rgba(217,162,75,0.35);
+      --good:     #5B9A78;
+      --good-bg:  rgba(91,154,120,0.14);
+      --bad:      #D9776A;
+      --bad-bg:   rgba(217,119,106,0.14);
+      --bad-line: rgba(217,119,106,0.35);
+      --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 8px 24px rgba(0,0,0,0.25);
+    }
+  }
+  :root[data-theme="dark"] {
+    --ink: #E7E9E2; --ink-soft: #ACB3A7; --ink-faint: #6F766C;
+    --paper: #14170F; --paper-raised: #1C2016; --paper-line: #333A2C;
+    --accent: #5B9A78; --accent-bright: #79B896; --accent-ink: #0D110B;
+    --flag: #D9A24B; --flag-bg: rgba(217,162,75,0.14); --flag-line: rgba(217,162,75,0.35);
+    --good: #5B9A78; --good-bg: rgba(91,154,120,0.14);
+    --bad: #D9776A; --bad-bg: rgba(217,119,106,0.14); --bad-line: rgba(217,119,106,0.35);
+    --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 8px 24px rgba(0,0,0,0.25);
+  }
+  :root[data-theme="light"] {
+    --ink: #1B1F1C; --ink-soft: #4B534C; --ink-faint: #7B8279;
+    --paper: #EDEFEA; --paper-raised: #E3E6DE; --paper-line: #C7CCC2;
+    --accent: #1F4D3A; --accent-bright: #2F6B4F; --accent-ink: #F4F6F2;
+    --flag: #A9761F; --flag-bg: rgba(169,118,31,0.12); --flag-line: rgba(169,118,31,0.35);
+    --good: #1F4D3A; --good-bg: rgba(31,77,58,0.10);
+    --bad: #9A3B2E; --bad-bg: rgba(154,59,46,0.10); --bad-line: rgba(154,59,46,0.32);
+    --shadow: 0 1px 2px rgba(27,31,28,0.06), 0 8px 24px rgba(27,31,28,0.05);
+  }
+
+  * { box-sizing: border-box; }
+  html { background: var(--paper); }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--font-body);
+    font-size: 14.5px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+  a { color: var(--accent); }
+  h1 { font-family: var(--font-display); font-weight: 600; margin: 0 0 2px; font-size: 22px; text-wrap: balance; }
+  ::selection { background: var(--accent); color: var(--accent-ink); }
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .num { font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
+
+  .wrap { max-width: 1240px; margin: 0 auto; padding: 0 28px; }
+  @media (max-width: 640px) { .wrap { padding: 0 16px; } }
+
+  header.top { padding: 26px 0 6px; }
+  .back { display: inline-flex; align-items: center; gap: 5px; font-family: var(--font-mono); font-size: 12px; color: var(--ink-faint); text-decoration: none; margin-bottom: 10px; }
+  .back:hover { color: var(--accent); }
+  .sub { color: var(--ink-faint); font-size: 12.5px; font-family: var(--font-mono); margin-top: 4px; }
+
+  .panel { margin: 14px 0 0; padding: 16px 20px; background: var(--paper-raised); border: 1px solid var(--paper-line); border-radius: 4px; }
+  .panel-title { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-faint); margin-bottom: 10px; display: block; }
+
+  .runrow { display: flex; gap: 18px; align-items: center; flex-wrap: wrap; }
+  .runrow .src { display: flex; gap: 6px; align-items: center; font-size: 13px; }
+  .runrow .last { color: var(--ink-faint); font-size: 11.5px; font-family: var(--font-mono); }
+
+  .status { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.02em; padding: 2px 8px; border-radius: 2px; border: 1px solid var(--paper-line); background: var(--paper); }
+  .status.queued  { color: var(--ink-faint); }
+  .status.running { color: var(--flag); background: var(--flag-bg); border-color: var(--flag-line); }
+  .status.done    { color: var(--good); background: var(--good-bg); border-color: var(--good); }
+  .status.failed  { color: var(--bad); background: var(--bad-bg); border-color: var(--bad-line); }
+
+  button {
+    font: inherit; font-family: var(--font-body); font-weight: 600; font-size: 13.5px;
+    padding: 7px 16px; border-radius: 3px; border: 1px solid var(--accent);
+    background: var(--accent); color: var(--accent-ink); cursor: pointer;
+    transition: background 0.15s ease;
+  }
+  button:hover:not(:disabled) { background: var(--accent-bright); border-color: var(--accent-bright); }
+  button:disabled { background: var(--paper-line); border-color: var(--paper-line); color: var(--ink-faint); cursor: default; }
+  button.secondary { background: transparent; color: var(--accent); border-color: var(--paper-line); font-weight: 500; padding: 4px 11px; font-size: 12.5px; }
+  button.secondary:hover:not(:disabled) { border-color: var(--accent); background: var(--paper); }
+
+  .controls { display: flex; gap: 14px; align-items: center; padding: 16px 0; flex-wrap: wrap; border-bottom: 1px solid var(--paper-line); margin-top: 10px; }
+  .controls .field { display: flex; flex-direction: column; gap: 3px; }
+  .controls label { font-size: 11px; font-family: var(--font-mono); letter-spacing: 0.03em; text-transform: uppercase; color: var(--ink-faint); }
+  select, input[type=number], input[type=search], input[type=text] {
+    font: inherit; font-size: 13.5px; padding: 6px 9px; border: 1px solid var(--paper-line);
+    border-radius: 3px; background: var(--paper); color: var(--ink);
+  }
+  select:focus, input:focus { border-color: var(--accent); }
+  input[type=number] { width: 96px; }
+  input[type=search] { width: 220px; }
+  .count { margin-left: auto; color: var(--ink-faint); font-size: 12.5px; font-family: var(--font-mono); }
+
+  /* ---------------------------------------------------------------------
+     Property card grid
+  --------------------------------------------------------------------- */
+  .grid-wrap { padding: 22px 0 48px; }
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(264px, 1fr));
+    gap: 18px;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    background: var(--paper-raised);
+    border: 1px solid var(--paper-line);
+    border-radius: 4px;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    transition: border-color 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
+    min-width: 0;
+  }
+  .card:hover { border-color: var(--accent); transform: translateY(-2px); box-shadow: var(--shadow); }
+  .card-media {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    background: var(--paper);
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .card-media img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .card-media .placeholder {
+    width: 100%; height: 100%;
+    display: flex; align-items: center; justify-content: center;
+    background:
+      repeating-linear-gradient(45deg, var(--paper-line) 0, var(--paper-line) 1px, transparent 1px, transparent 14px);
+    color: var(--ink-faint);
+  }
+  .card-media .placeholder svg { width: 30px; height: 30px; opacity: 0.5; }
+  .card-price {
+    position: absolute; left: 10px; bottom: 10px;
+    font-family: var(--font-mono); font-weight: 600; font-size: 14.5px;
+    color: var(--accent-ink); background: var(--accent);
+    padding: 4px 9px; border-radius: 2px;
+    font-variant-numeric: tabular-nums;
+  }
+  .card-body { padding: 13px 14px 14px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
+  .card-address { font-size: 14.5px; font-weight: 600; line-height: 1.3; }
+  .card-meta { display: flex; gap: 8px; flex-wrap: wrap; font-family: var(--font-mono); font-size: 12px; color: var(--ink-soft); }
+  .card-tags { display: flex; gap: 5px; flex-wrap: wrap; }
+  .tag {
+    display: inline-block; padding: 2px 8px; border-radius: 9px; font-size: 11px;
+    border: 1px solid var(--paper-line); background: var(--paper); color: var(--ink-soft); white-space: nowrap;
+  }
+  .tag.type { color: var(--ink); }
+  .tag.citywide { background: var(--good-bg); border-color: var(--good); color: var(--good); }
+  .tag.educating { background: var(--flag-bg); border-color: var(--flag-line); color: var(--flag); }
+  .card-why { color: var(--ink-faint); font-size: 12px; line-height: 1.45; margin-top: auto; padding-top: 4px; border-top: 1px solid var(--paper-line); }
+  .card-foot { display: flex; justify-content: space-between; align-items: center; font-family: var(--font-mono); font-size: 11px; color: var(--ink-faint); }
+  .card-link { color: var(--accent); font-weight: 600; }
+
+  .empty { grid-column: 1 / -1; padding: 56px 20px; text-align: center; color: var(--ink-faint); border: 1px dashed var(--paper-line); border-radius: 4px; }
+  .warn { margin: 14px 0 0; padding: 10px 14px; border: 1px solid var(--flag-line); background: var(--flag-bg); border-radius: 3px; font-size: 12.5px; color: var(--ink); }
+
+  /* ---------------------------------------------------------------------
+     New search + requirements list
+  --------------------------------------------------------------------- */
+  .newsearch { display: flex; gap: 12px; align-items: flex-end; flex-wrap: wrap; }
+  .newsearch .field { display: flex; flex-direction: column; gap: 3px; }
+  .newsearch .field label { font-size: 11px; font-family: var(--font-mono); letter-spacing: 0.03em; text-transform: uppercase; color: var(--ink-faint); }
+  .newsearch input.geo { width: 180px; }
+  .newsearch input.kw { width: 150px; }
+  .newsearch input.num { width: 90px; }
+  .reqlist { margin-top: 14px; border-top: 1px solid var(--paper-line); padding-top: 10px; display: flex; flex-direction: column; gap: 2px; }
+  .reqrow { display: flex; gap: 10px; align-items: center; padding: 6px 0; font-size: 13px; flex-wrap: wrap; }
+  .reqrow .rname { font-weight: 600; min-width: 190px; }
+  .reqrow .rdetail { color: var(--ink-faint); font-family: var(--font-mono); font-size: 11.5px; flex: 1; min-width: 200px; }
+  .discoverNote { font-size: 12.5px; color: var(--ink-soft); margin-top: 8px; line-height: 1.5; }
+  .discoverNote code { font-family: var(--font-mono); background: var(--paper); padding: 1px 5px; border-radius: 2px; }
+  .discoverNote.err { color: var(--bad); }
 </style>
 </head>
 <body>
-<header>
-  <a href="/" style="display:inline-block;font-size:12px;color:var(--muted);margin-bottom:6px">← CAIS</a>
-  <h1>CAIS — properties that passed Stage-0</h1>
-  <div class="sub" id="meta">Loading…</div>
+<div class="wrap">
+<header class="top">
+  <a class="back" href="/">← CAIS</a>
+  <h1>The Register</h1>
+  <div class="sub" id="meta">Reading the register…</div>
 </header>
+
 <div id="warnings"></div>
 
 <div class="panel">
+  <span class="panel-title">Run scrapers</span>
   <div class="runrow" id="runRow">
-    <strong style="font-size:13px">Run scrapers:</strong>
     <!-- source checkboxes injected here -->
     <button id="runBtn">Run selected</button>
     <span class="last" id="runNote"></span>
@@ -79,10 +236,10 @@
 </div>
 
 <div class="panel">
-  <strong style="font-size:13px">New search</strong>
-  <div class="newsearch" style="margin-top:8px">
+  <span class="panel-title">New search</span>
+  <div class="newsearch">
     <div class="field"><label for="nsName">Name (optional)</label><input type="text" id="nsName" placeholder="e.g. Bristol Retail Fund"></div>
-    <div class="field"><label for="nsGeo">Geography (comma-separated)</label><input type="text" class="geo" id="nsGeo" placeholder="e.g. Bristol, Bath"></div>
+    <div class="field"><label for="nsGeo">Geography</label><input type="text" class="geo" id="nsGeo" placeholder="e.g. Bristol, Bath"></div>
     <div class="field"><label for="nsKw">Property type / keywords</label><input type="text" class="kw" id="nsKw" placeholder="e.g. retail, industrial"></div>
     <div class="field"><label for="nsBudgetMin">Budget min £</label><input type="number" class="num" id="nsBudgetMin" min="0" step="10000"></div>
     <div class="field"><label for="nsBudgetMax">Budget max £</label><input type="number" class="num" id="nsBudgetMax" min="0" step="10000"></div>
@@ -90,51 +247,46 @@
     <button id="nsSubmit">Create search</button>
   </div>
   <div class="discoverNote" id="nsNote"></div>
-
-  <div class="reqlist" id="reqList"><!-- requirement rows injected here --></div>
+  <div class="reqlist" id="reqList"></div>
   <div class="discoverNote" id="discoverResult"></div>
 </div>
 
 <div class="controls">
-  <span><label for="fSource">Source</label>
-  <select id="fSource"><option value="">All</option></select></span>
-  <span><label for="fReq">Requirement</label>
-  <select id="fReq"><option value="">All</option></select></span>
-  <span><label>Price £</label>
-  <input type="number" id="fPriceMin" placeholder="min" min="0" step="1000">
-  –
-  <input type="number" id="fPriceMax" placeholder="max" min="0" step="1000"></span>
-  <span><label>Size sq ft</label>
-  <input type="number" id="fSizeMin" placeholder="min" min="0" step="100">
-  –
-  <input type="number" id="fSizeMax" placeholder="max" min="0" step="100"></span>
-  <span><input type="search" id="fText" placeholder="Search address, postcode, agent…"></span>
+  <div class="field"><label for="fSource">Source</label><select id="fSource"><option value="">All</option></select></div>
+  <div class="field"><label for="fType">Type</label><select id="fType"><option value="">All</option></select></div>
+  <div class="field"><label for="fReq">Requirement</label><select id="fReq"><option value="">All</option></select></div>
+  <div class="field"><label>Price £</label>
+    <div style="display:flex;gap:6px;align-items:center">
+      <input type="number" id="fPriceMin" placeholder="min" min="0" step="1000">
+      <span class="num" style="color:var(--ink-faint)">–</span>
+      <input type="number" id="fPriceMax" placeholder="max" min="0" step="1000">
+    </div>
+  </div>
+  <div class="field"><label>Size sq ft</label>
+    <div style="display:flex;gap:6px;align-items:center">
+      <input type="number" id="fSizeMin" placeholder="min" min="0" step="100">
+      <span class="num" style="color:var(--ink-faint)">–</span>
+      <input type="number" id="fSizeMax" placeholder="max" min="0" step="100">
+    </div>
+  </div>
+  <div class="field"><label for="fText">Search</label><input type="search" id="fText" placeholder="Address, postcode, agent…"></div>
+  <div class="field"><label for="sortBtn">Sort</label><button class="secondary" id="sortBtn" type="button">Price ⇅</button></div>
   <span class="count" id="count"></span>
 </div>
-<div class="wrap">
-  <table>
-    <thead>
-      <tr>
-        <th>Address</th>
-        <th class="sortable" id="priceHead" title="Click to sort">Price ⇅</th>
-        <th>Size</th>
-        <th>Source</th>
-        <th>Requirement</th>
-        <th>Why it passed</th>
-      </tr>
-    </thead>
-    <tbody id="rows"></tbody>
-  </table>
+
+<div class="grid-wrap">
+  <div class="cards" id="cards"></div>
 </div>
+</div>
+
 <script>
 (function () {
-  // dataset key → data file + display label (matches the server's allowlist)
   const SOURCES = [
     { key: 'barnsdales', file: 'data/barnsdales.json', label: 'Barnsdales' },
     { key: 'rightmove', file: 'data/rightmove.json', label: 'Rightmove Commercial' },
     { key: 'discovered', file: 'data/discovered.json', label: 'SMC Brownill Vickers' },
   ];
-  const datasets = {};   // key → parsed file (or null)
+  const datasets = {};
   let all = [];
   let sortDir = 0;
 
@@ -142,10 +294,15 @@
   const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const gbp = n => n > 0 ? '£' + Number(n).toLocaleString('en-GB') : '';
 
+  /** Barnsdales' propertyType is several categories joined by " · "; every
+      other source has one clean value. Splitting gives sensible filter
+      options either way, and lets a listing match more than one type tag. */
+  const typeList = r => String(r.propertyType || '').split('·').map(s => s.trim()).filter(Boolean);
+
   async function loadDataset(key) {
     const src = SOURCES.find(s => s.key === key);
     try {
-      const res = await fetch(src.file + '?t=' + Date.now()); // bypass cache after re-runs
+      const res = await fetch(src.file + '?t=' + Date.now());
       if (!res.ok) throw new Error('HTTP ' + res.status);
       datasets[key] = await res.json();
     } catch (e) {
@@ -158,15 +315,25 @@
     const meta = Object.values(datasets).filter(Boolean)
       .map(d => d.source + ': ' + (d.rows||[]).length + ' matches, pulled ' + new Date(d.generatedAt).toLocaleString());
     $('meta').textContent = meta.join(' · ') || 'No data files found.';
-    // refresh filter option lists, preserving selection
-    for (const [sel, field] of [[$('fSource'), 'source'], [$('fReq'), 'requirement']]) {
-      const cur = sel.value;
-      while (sel.options.length > 1) sel.remove(1);
-      for (const v of [...new Set(all.map(r => r[field]))]) sel.add(new Option(v, v));
-      sel.value = [...sel.options].some(o => o.value === cur) ? cur : '';
+
+    const cur = { source: $('fSource').value, requirement: $('fReq').value, type: $('fType').value };
+    for (const sel of [$('fSource'), $('fReq'), $('fType')]) while (sel.options.length > 1) sel.remove(1);
+    for (const v of [...new Set(all.map(r => r.source))]) $('fSource').add(new Option(v, v));
+    for (const v of [...new Set(all.map(r => r.requirement))]) $('fReq').add(new Option(v, v));
+    for (const v of [...new Set(all.flatMap(typeList))].sort()) $('fType').add(new Option(v, v));
+    for (const [sel, key] of [[$('fSource'),'source'],[$('fReq'),'requirement'],[$('fType'),'type']]) {
+      sel.value = [...sel.options].some(o => o.value === cur[key]) ? cur[key] : '';
     }
     renderLastRuns();
     render();
+  }
+
+  function cardMedia(r) {
+    if (r.imageUrl) {
+      return '<img src="' + esc(r.imageUrl) + '" alt="" loading="lazy" onerror="this.parentElement.innerHTML=' +
+        '\'<div class=&quot;placeholder&quot;><svg viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;1.4&quot;><rect x=&quot;3&quot; y=&quot;3&quot; width=&quot;18&quot; height=&quot;18&quot; rx=&quot;1&quot;/><circle cx=&quot;8.5&quot; cy=&quot;9&quot; r=&quot;1.6&quot;/><path d=&quot;M21 15l-5-5-11 11&quot;/></svg></div>\'">';
+    }
+    return '<div class="placeholder"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="3" y="3" width="18" height="18" rx="1"/><circle cx="8.5" cy="9" r="1.6"/><path d="M21 15l-5-5-11 11"/></svg></div>';
   }
 
   function render() {
@@ -175,10 +342,12 @@
     const sMin = Number($('fSizeMin').value) || 0;
     const sMax = Number($('fSizeMax').value) || Infinity;
     const q = $('fText').value.trim().toLowerCase();
+    const typeFilter = $('fType').value;
 
     let rows = all.filter(r => {
       if ($('fSource').value && r.source !== $('fSource').value) return false;
       if ($('fReq').value && r.requirement !== $('fReq').value) return false;
+      if (typeFilter && !typeList(r).includes(typeFilter)) return false;
       if ((pMin > 0 || pMax < Infinity) && !((r.priceAmount || 0) >= pMin && (r.priceAmount || 0) <= pMax && r.priceAmount > 0)) return false;
       if ((sMin > 0 || sMax < Infinity) && !(r.sizeSqft != null && r.sizeSqft >= sMin && r.sizeSqft <= sMax)) return false;
       if (q) {
@@ -188,22 +357,34 @@
       return true;
     });
     if (sortDir !== 0) rows = [...rows].sort((a, b) => sortDir * ((a.priceAmount||0) - (b.priceAmount||0)));
+
     $('count').textContent = rows.length + ' of ' + all.length + ' matches';
-    $('priceHead').textContent = 'Price ' + (sortDir === 0 ? '⇅' : sortDir === 1 ? '↑' : '↓');
-    const tb = $('rows');
-    if (rows.length === 0) { tb.innerHTML = '<tr><td colspan="6" class="empty">No matches for this filter.</td></tr>'; return; }
-    tb.innerHTML = rows.map(r => {
+    $('sortBtn').textContent = 'Price ' + (sortDir === 0 ? '⇅' : sortDir === 1 ? '↑' : '↓');
+
+    const grid = $('cards');
+    if (rows.length === 0) { grid.innerHTML = '<div class="empty">No matches for this filter.</div>'; return; }
+
+    grid.innerHTML = rows.map(r => {
       const reqClass = /citywide/i.test(r.requirement) ? 'citywide' : /educating/i.test(r.requirement) ? 'educating' : '';
       const size = r.sizeSqft ? Number(r.sizeSqft).toLocaleString('en-GB') + ' sq ft' : (r.sizeLabel || '—');
-      const priceTitle = r.priceDisplay && r.priceDisplay !== gbp(r.priceAmount) ? ' title="' + esc(r.priceDisplay) + '"' : '';
-      return '<tr>' +
-        '<td>' + (r.url ? '<a href="' + esc(r.url) + '" target="_blank" rel="noopener noreferrer">' + esc(r.address) + '</a>' : esc(r.address)) + '</td>' +
-        '<td class="price"' + priceTitle + '>' + (gbp(r.priceAmount) || esc(r.priceDisplay || 'POA')) + '</td>' +
-        '<td class="size">' + esc(size) + '</td>' +
-        '<td><span class="tag">' + esc(r.source) + '</span></td>' +
-        '<td><span class="tag ' + reqClass + '">' + esc(r.requirement) + '</span></td>' +
-        '<td class="why">' + esc((r.reasons || []).join('; ')) + '</td>' +
-      '</tr>';
+      const price = gbp(r.priceAmount) || esc(r.priceDisplay || 'POA');
+      const types = typeList(r).slice(0, 3);
+      const inner =
+        '<div class="card-media">' + cardMedia(r) + '<span class="card-price num">' + price + '</span></div>' +
+        '<div class="card-body">' +
+          '<div class="card-address">' + esc(r.address) + '</div>' +
+          '<div class="card-meta"><span>' + esc(size) + '</span>' + (r.agent ? '<span>· ' + esc(r.agent) + '</span>' : '') + '</div>' +
+          '<div class="card-tags">' +
+            types.map(t => '<span class="tag type">' + esc(t) + '</span>').join('') +
+            '<span class="tag">' + esc(r.source) + '</span>' +
+            '<span class="tag ' + reqClass + '">' + esc(r.requirement) + '</span>' +
+          '</div>' +
+          '<div class="card-why">' + esc((r.reasons || []).join('; ')) + '</div>' +
+          '<div class="card-foot"><span>Score ' + esc(r.score ?? '') + '</span>' + (r.url ? '<span class="card-link">View listing →</span>' : '') + '</div>' +
+        '</div>';
+      return r.url
+        ? '<a class="card" href="' + esc(r.url) + '" target="_blank" rel="noopener noreferrer">' + inner + '</a>'
+        : '<div class="card">' + inner + '</div>';
     }).join('');
   }
 
@@ -214,7 +395,7 @@
     const span = document.createElement('span');
     span.className = 'src';
     span.innerHTML = '<input type="checkbox" id="run_' + s.key + '" checked>' +
-      '<label for="run_' + s.key + '" style="margin:0;color:inherit">' + esc(s.label) + '</label>' +
+      '<label for="run_' + s.key + '" style="margin:0;color:inherit;font-size:13px">' + esc(s.label) + '</label>' +
       '<span class="status" id="st_' + s.key + '" hidden></span>' +
       '<span class="last" id="last_' + s.key + '"></span>';
     runRow.insertBefore(span, runBtn);
@@ -227,9 +408,6 @@
     }
   }
 
-  // Requirements panel controls are disabled together with the run panel:
-  // /run and /discover share one job queue (at most one child process at a
-  // time), so "a job is running" disables everything that could start another.
   function setControlsDisabled(disabled) {
     runBtn.disabled = disabled;
     for (const s of SOURCES) $('run_' + s.key).disabled = disabled;
@@ -395,11 +573,11 @@
   });
 
   // ---- filters -------------------------------------------------------------
-  for (const id of ['fSource', 'fReq']) $(id).addEventListener('change', render);
+  for (const id of ['fSource', 'fReq', 'fType']) $(id).addEventListener('change', render);
   for (const id of ['fPriceMin', 'fPriceMax', 'fSizeMin', 'fSizeMax', 'fText']) $(id).addEventListener('input', render);
-  $('priceHead').addEventListener('click', () => { sortDir = sortDir === 1 ? -1 : 1; render(); });
+  $('sortBtn').addEventListener('click', () => { sortDir = sortDir === 1 ? -1 : 1; render(); });
 
-  // ---- init ----------------------------------------------------------------
+  // ---- init ------------------------------------------------------------
   (async () => {
     await Promise.all(SOURCES.map(s => loadDataset(s.key)));
     const missing = SOURCES.filter(s => !datasets[s.key]);
@@ -412,7 +590,7 @@
     }
     rebuild();
     renderRequirements();
-    pollStatus(); // in case a batch is already mid-run when the page loads
+    pollStatus();
   })();
 })();
 </script>

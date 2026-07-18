@@ -18,6 +18,13 @@ export const BARNSDALES_LISTINGS_URL = 'https://www.barnsdales.co.uk/properties'
 /** Statuses that count as a live opportunity (handover doc). */
 const ACTIVE_STATUSES = new Set(['Available', 'Coming Soon']);
 
+/** One entry in a Barnsdales property's `media` array (Spatie Media Library / S3-backed). */
+interface BarnsdalesMedia {
+  /** URL prefix; a conversion name + extension is appended, e.g. `base + "show.jpg"`. */
+  base?: string;
+  [key: string]: unknown;
+}
+
 /** Raw shape of a Barnsdales property object (only the fields we rely on). */
 export interface BarnsdalesProperty {
   id: number;
@@ -33,6 +40,7 @@ export interface BarnsdalesProperty {
   freehold_to: number | null;
   freehold_price: string | null;
   categories: string[];
+  media?: BarnsdalesMedia[];
   [key: string]: unknown;
 }
 
@@ -53,6 +61,8 @@ export interface BarnsdalesListing {
   categories: string[];
   /** Live detail page (pattern `/properties/<id>`, verified 2026-07-17). */
   url: string;
+  /** First photo, "show" conversion (~800px, verified fetchable 2026-07-19). Null if no media. */
+  imageUrl: string | null;
 }
 
 /**
@@ -110,6 +120,7 @@ export function filterCommercialFreehold(props: BarnsdalesProperty[]): Barnsdale
 function toListing(p: BarnsdalesProperty): BarnsdalesListing {
   const name = (p.name ?? '').trim();
   const isSqft = /sq\s*\.?\s*ft/i.test(name);
+  const base = p.media?.[0]?.base;
   return {
     id: p.id,
     location: (p.location ?? '').trim(),
@@ -121,6 +132,7 @@ function toListing(p: BarnsdalesProperty): BarnsdalesListing {
     status: p.status,
     categories: Array.isArray(p.categories) ? p.categories : [],
     url: `https://www.barnsdales.co.uk/properties/${p.id}`,
+    imageUrl: base ? `${base}show.jpg` : null,
   };
 }
 

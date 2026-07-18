@@ -157,6 +157,8 @@ async function main() {
           score: result.score,
           reasons: result.reasons,
           url: l.url,
+          propertyType: l.categories.join(' · '),
+          imageUrl: l.imageUrl,
         })),
       },
       null,

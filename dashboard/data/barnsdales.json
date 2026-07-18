@@ -1,6 +1,6 @@
 {
   "source": "Barnsdales",
-  "generatedAt": "2026-07-18T16:10:50.612Z",
+  "generatedAt": "2026-07-18T16:32:05.285Z",
   "rows": [
     {
       "address": "Castleford, WF10 5HX",
@@ -15,7 +15,9 @@
         "geography \"Castleford Yorkshire\" matches Citywide Investors",
         "price 600000 within budget 500000-2000000"
       ],
-      "url": "https://www.barnsdales.co.uk/properties/319160"
+      "url": "https://www.barnsdales.co.uk/properties/319160",
+      "propertyType": "Land · Mixed Use",
+      "imageUrl": "https://s3.eu-west-2.amazonaws.com/altcms/barnsdales/media/44285/conversions/2f911a63864edf77042c7b435bcf92be-letting319160.jpeg-show.jpg"
     },
     {
       "address": "Doncaster, DN1 1HQ",
@@ -30,7 +32,9 @@
         "geography \"Doncaster Yorkshire\" matches Citywide Investors",
         "price 575000 within budget 500000-2000000"
       ],
-      "url": "https://www.barnsdales.co.uk/properties/319692"
+      "url": "https://www.barnsdales.co.uk/properties/319692",
+      "propertyType": "Retail Development · Retail · Pub / Bar / Club",
+      "imageUrl": "https://s3.eu-west-2.amazonaws.com/altcms/barnsdales/media/44238/conversions/e4a219633115171143e6fd271133e82a-letting319692.jpeg-show.jpg"
     }
   ]
 }

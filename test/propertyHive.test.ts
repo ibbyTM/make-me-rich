@@ -18,6 +18,15 @@ const commercialForSale = {
   floor_area_units: 'sqft',
   features: ['Freehold city centre office'],
   excerpt: { rendered: '<p>Prominent corner office building.</p>' },
+  property_type: 'Office',
+  images: [
+    {
+      url: 'https://smcbrownillvickers.com/wp-content/uploads/2026/07/photo-scaled.jpg',
+      large: 'https://smcbrownillvickers.com/wp-content/uploads/2026/07/photo-1024x768.jpg',
+      medium: 'https://smcbrownillvickers.com/wp-content/uploads/2026/07/photo-300x225.jpg',
+      thumbnail: 'https://smcbrownillvickers.com/wp-content/uploads/2026/07/photo-150x150.jpg',
+    },
+  ],
 };
 
 const toLet = { ...commercialForSale, id: 2, availability: 'To Let' };
@@ -28,6 +37,12 @@ const sqmListing = {
   id: 5,
   floor_area_from: '92',
   floor_area_units: 'sqm',
+};
+const noPhotoListing = { ...commercialForSale, id: 6, images: [] };
+const thumbnailOnlyListing = {
+  ...commercialForSale,
+  id: 7,
+  images: [{ thumbnail: 'https://smcbrownillvickers.com/wp-content/uploads/2026/07/only-150x150.jpg' }],
 };
 
 describe('propertyHive scraper', () => {
@@ -45,9 +60,18 @@ describe('propertyHive scraper', () => {
       priceDisplay: '£335,000',
       sizeSqft: 2343,
       url: 'https://smcbrownillvickers.com/properties/380030-1-scotland-street-sheffield/',
+      propertyType: 'Office',
+      imageUrl: 'https://smcbrownillvickers.com/wp-content/uploads/2026/07/photo-300x225.jpg',
     });
     expect(l!.text).toContain('Prominent corner office building');
     expect(l!.text).not.toContain('<p>');
+  });
+
+  it('imageUrl falls back to thumbnail when medium is absent, and is null with no photos', () => {
+    const [withThumbOnly] = normalizePH([thumbnailOnlyListing] as never[]);
+    expect(withThumbOnly!.imageUrl).toBe('https://smcbrownillvickers.com/wp-content/uploads/2026/07/only-150x150.jpg');
+    const [noPhoto] = normalizePH([noPhotoListing] as never[]);
+    expect(noPhoto!.imageUrl).toBeNull();
   });
 
   it('converts square-metre floor areas to sq ft', () => {

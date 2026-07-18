@@ -116,6 +116,8 @@ async function main() {
         score: result.score,
         reasons: result.reasons,
         url: l.url,
+        propertyType: l.propertyType,
+        imageUrl: l.imageUrl,
       });
     }
   }
