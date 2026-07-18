@@ -80,8 +80,17 @@ let batchRunning = false;
 
 function runScript(script: string, args: string[] = []): Promise<{ code: number; stdout: string; errTail: string }> {
   return new Promise((resolve) => {
-    const cmd = process.platform === 'win32' ? 'npx.cmd' : 'npx';
-    const child = spawn(cmd, ['tsx', script, ...args], { cwd: process.cwd(), env: process.env });
+    // Invoke node directly with tsx's ESM loader rather than spawning `npx`
+    // (a .cmd shim on Windows). Since a Node.js security fix, spawn() cannot
+    // launch .cmd/.bat files without `shell: true` — and turning that on here
+    // would mean the requirementId argument gets interpreted by cmd.exe,
+    // which we don't want. process.execPath is a real executable on every
+    // platform, so this sidesteps the issue entirely instead of working
+    // around it with a shell.
+    const child = spawn(process.execPath, ['--import', 'tsx', script, ...args], {
+      cwd: process.cwd(),
+      env: process.env,
+    });
     let stdout = '';
     let errTail = '';
     child.stdout.on('data', (d: Buffer) => {
