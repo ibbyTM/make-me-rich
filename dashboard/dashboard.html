@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CAIS — Stage-0 matches</title>
+<style>
+  :root { --border:#d9d9e0; --muted:#6b6b76; --accent:#1f4fd8; --bg:#fafafc; }
+  * { box-sizing:border-box; }
+  body { margin:0; font:14px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; background:var(--bg); color:#1a1a22; }
+  header { padding:18px 24px 10px; }
+  h1 { margin:0 0 2px; font-size:18px; }
+  .sub { color:var(--muted); font-size:12.5px; }
+  .panel { margin:10px 24px 0; padding:10px 14px; background:#fff; border:1px solid var(--border); border-radius:8px; }
+  .runrow { display:flex; gap:18px; align-items:center; flex-wrap:wrap; }
+  .runrow .src { display:flex; gap:6px; align-items:center; font-size:13px; }
+  .runrow .last { color:var(--muted); font-size:11.5px; }
+  .status { font-size:11.5px; padding:1px 7px; border-radius:9px; border:1px solid var(--border); background:#f6f6fa; }
+  .status.queued  { background:#f2f2f7; }
+  .status.running { background:#fff3d6; border-color:#e6c88a; }
+  .status.done    { background:#e9f7ec; border-color:#c4e6cc; }
+  .status.failed  { background:#fdeaea; border-color:#eab8b8; }
+  button { font:inherit; padding:5px 14px; border:1px solid var(--accent); border-radius:6px; background:var(--accent); color:#fff; cursor:pointer; }
+  button:disabled { background:#a9b6dd; border-color:#a9b6dd; cursor:default; }
+  .controls { display:flex; gap:12px; align-items:center; padding:10px 24px; flex-wrap:wrap; }
+  .controls label { font-size:12.5px; color:var(--muted); margin-right:4px; }
+  select, input[type=number], input[type=search] { font:inherit; padding:4px 8px; border:1px solid var(--border); border-radius:6px; background:#fff; }
+  input[type=number] { width:104px; }
+  input[type=search] { width:220px; }
+  .count { margin-left:auto; color:var(--muted); font-size:12.5px; }
+  .wrap { padding:0 24px 28px; overflow-x:auto; }
+  table { border-collapse:collapse; width:100%; background:#fff; border:1px solid var(--border); border-radius:8px; overflow:hidden; }
+  th, td { text-align:left; padding:8px 12px; border-bottom:1px solid var(--border); vertical-align:top; }
+  th { background:#f1f1f6; font-size:12px; text-transform:uppercase; letter-spacing:.03em; color:#44444e; white-space:nowrap; }
+  tr:last-child td { border-bottom:none; }
+  th.sortable { cursor:pointer; user-select:none; }
+  th.sortable:hover { color:var(--accent); }
+  td.price, td.size { white-space:nowrap; font-variant-numeric:tabular-nums; }
+  td.why { color:var(--muted); font-size:12.5px; max-width:420px; }
+  a { color:var(--accent); text-decoration:none; }
+  a:hover { text-decoration:underline; }
+  .tag { display:inline-block; padding:1px 8px; border-radius:10px; font-size:11.5px; border:1px solid var(--border); background:#f6f6fa; white-space:nowrap; }
+  .tag.citywide { background:#e8efff; border-color:#c3d4fb; }
+  .tag.educating { background:#e9f7ec; border-color:#c4e6cc; }
+  .empty { padding:32px; text-align:center; color:var(--muted); }
+  .warn { margin:8px 24px; padding:8px 12px; border:1px solid #e6c88a; background:#fdf6e3; border-radius:6px; font-size:12.5px; }
+  .newsearch { display:flex; gap:10px; align-items:flex-end; flex-wrap:wrap; }
+  .newsearch .field { display:flex; flex-direction:column; gap:2px; }
+  .newsearch .field label { font-size:11px; color:var(--muted); }
+  .newsearch input[type=text] { font:inherit; padding:4px 8px; border:1px solid var(--border); border-radius:6px; background:#fff; }
+  .newsearch input.geo { width:190px; }
+  .newsearch input.kw { width:150px; }
+  .newsearch input.num { width:90px; }
+  .reqlist { margin-top:10px; border-top:1px solid var(--border); padding-top:8px; }
+  .reqrow { display:flex; gap:8px; align-items:center; padding:3px 0; font-size:12.5px; flex-wrap:wrap; }
+  .reqrow .rname { font-weight:600; min-width:170px; }
+  .reqrow .rdetail { color:var(--muted); }
+  .reqrow button { padding:2px 10px; font-size:12px; }
+  .reqrow button.secondary { background:#fff; color:var(--accent); }
+  .discoverNote { font-size:12px; color:var(--muted); margin-top:4px; }
+  .discoverNote.err { color:#a33; }
+</style>
+</head>
+<body>
+<header>
+  <a href="/" style="display:inline-block;font-size:12px;color:var(--muted);margin-bottom:6px">← CAIS</a>
+  <h1>CAIS — properties that passed Stage-0</h1>
+  <div class="sub" id="meta">Loading…</div>
+</header>
+<div id="warnings"></div>
+
+<div class="panel">
+  <div class="runrow" id="runRow">
+    <strong style="font-size:13px">Run scrapers:</strong>
+    <!-- source checkboxes injected here -->
+    <button id="runBtn">Run selected</button>
+    <span class="last" id="runNote"></span>
+  </div>
+</div>
+
+<div class="panel">
+  <strong style="font-size:13px">New search</strong>
+  <div class="newsearch" style="margin-top:8px">
+    <div class="field"><label for="nsName">Name (optional)</label><input type="text" id="nsName" placeholder="e.g. Bristol Retail Fund"></div>
+    <div class="field"><label for="nsGeo">Geography (comma-separated)</label><input type="text" class="geo" id="nsGeo" placeholder="e.g. Bristol, Bath"></div>
+    <div class="field"><label for="nsKw">Property type / keywords</label><input type="text" class="kw" id="nsKw" placeholder="e.g. retail, industrial"></div>
+    <div class="field"><label for="nsBudgetMin">Budget min £</label><input type="number" class="num" id="nsBudgetMin" min="0" step="10000"></div>
+    <div class="field"><label for="nsBudgetMax">Budget max £</label><input type="number" class="num" id="nsBudgetMax" min="0" step="10000"></div>
+    <div class="field"><label for="nsMinSize">Min size sq ft</label><input type="number" class="num" id="nsMinSize" min="0" step="100"></div>
+    <button id="nsSubmit">Create search</button>
+  </div>
+  <div class="discoverNote" id="nsNote"></div>
+
+  <div class="reqlist" id="reqList"><!-- requirement rows injected here --></div>
+  <div class="discoverNote" id="discoverResult"></div>
+</div>
+
+<div class="controls">
+  <span><label for="fSource">Source</label>
+  <select id="fSource"><option value="">All</option></select></span>
+  <span><label for="fReq">Requirement</label>
+  <select id="fReq"><option value="">All</option></select></span>
+  <span><label>Price £</label>
+  <input type="number" id="fPriceMin" placeholder="min" min="0" step="1000">
+  –
+  <input type="number" id="fPriceMax" placeholder="max" min="0" step="1000"></span>
+  <span><label>Size sq ft</label>
+  <input type="number" id="fSizeMin" placeholder="min" min="0" step="100">
+  –
+  <input type="number" id="fSizeMax" placeholder="max" min="0" step="100"></span>
+  <span><input type="search" id="fText" placeholder="Search address, postcode, agent…"></span>
+  <span class="count" id="count"></span>
+</div>
+<div class="wrap">
+  <table>
+    <thead>
+      <tr>
+        <th>Address</th>
+        <th class="sortable" id="priceHead" title="Click to sort">Price ⇅</th>
+        <th>Size</th>
+        <th>Source</th>
+        <th>Requirement</th>
+        <th>Why it passed</th>
+      </tr>
+    </thead>
+    <tbody id="rows"></tbody>
+  </table>
+</div>
+<script>
+(function () {
+  // dataset key → data file + display label (matches the server's allowlist)
+  const SOURCES = [
+    { key: 'barnsdales', file: 'data/barnsdales.json', label: 'Barnsdales' },
+    { key: 'rightmove', file: 'data/rightmove.json', label: 'Rightmove Commercial' },
+    { key: 'discovered', file: 'data/discovered.json', label: 'SMC Brownill Vickers' },
+  ];
+  const datasets = {};   // key → parsed file (or null)
+  let all = [];
+  let sortDir = 0;
+
+  const $ = id => document.getElementById(id);
+  const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const gbp = n => n > 0 ? '£' + Number(n).toLocaleString('en-GB') : '';
+
+  async function loadDataset(key) {
+    const src = SOURCES.find(s => s.key === key);
+    try {
+      const res = await fetch(src.file + '?t=' + Date.now()); // bypass cache after re-runs
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      datasets[key] = await res.json();
+    } catch (e) {
+      datasets[key] = null;
+    }
+  }
+
+  function rebuild() {
+    all = Object.values(datasets).filter(Boolean).flatMap(d => d.rows || []);
+    const meta = Object.values(datasets).filter(Boolean)
+      .map(d => d.source + ': ' + (d.rows||[]).length + ' matches, pulled ' + new Date(d.generatedAt).toLocaleString());
+    $('meta').textContent = meta.join(' · ') || 'No data files found.';
+    // refresh filter option lists, preserving selection
+    for (const [sel, field] of [[$('fSource'), 'source'], [$('fReq'), 'requirement']]) {
+      const cur = sel.value;
+      while (sel.options.length > 1) sel.remove(1);
+      for (const v of [...new Set(all.map(r => r[field]))]) sel.add(new Option(v, v));
+      sel.value = [...sel.options].some(o => o.value === cur) ? cur : '';
+    }
+    renderLastRuns();
+    render();
+  }
+
+  function render() {
+    const pMin = Number($('fPriceMin').value) || 0;
+    const pMax = Number($('fPriceMax').value) || Infinity;
+    const sMin = Number($('fSizeMin').value) || 0;
+    const sMax = Number($('fSizeMax').value) || Infinity;
+    const q = $('fText').value.trim().toLowerCase();
+
+    let rows = all.filter(r => {
+      if ($('fSource').value && r.source !== $('fSource').value) return false;
+      if ($('fReq').value && r.requirement !== $('fReq').value) return false;
+      if ((pMin > 0 || pMax < Infinity) && !((r.priceAmount || 0) >= pMin && (r.priceAmount || 0) <= pMax && r.priceAmount > 0)) return false;
+      if ((sMin > 0 || sMax < Infinity) && !(r.sizeSqft != null && r.sizeSqft >= sMin && r.sizeSqft <= sMax)) return false;
+      if (q) {
+        const hay = [r.address, r.agent, r.source].filter(Boolean).join(' ').toLowerCase();
+        if (!hay.includes(q)) return false;
+      }
+      return true;
+    });
+    if (sortDir !== 0) rows = [...rows].sort((a, b) => sortDir * ((a.priceAmount||0) - (b.priceAmount||0)));
+    $('count').textContent = rows.length + ' of ' + all.length + ' matches';
+    $('priceHead').textContent = 'Price ' + (sortDir === 0 ? '⇅' : sortDir === 1 ? '↑' : '↓');
+    const tb = $('rows');
+    if (rows.length === 0) { tb.innerHTML = '<tr><td colspan="6" class="empty">No matches for this filter.</td></tr>'; return; }
+    tb.innerHTML = rows.map(r => {
+      const reqClass = /citywide/i.test(r.requirement) ? 'citywide' : /educating/i.test(r.requirement) ? 'educating' : '';
+      const size = r.sizeSqft ? Number(r.sizeSqft).toLocaleString('en-GB') + ' sq ft' : (r.sizeLabel || '—');
+      const priceTitle = r.priceDisplay && r.priceDisplay !== gbp(r.priceAmount) ? ' title="' + esc(r.priceDisplay) + '"' : '';
+      return '<tr>' +
+        '<td>' + (r.url ? '<a href="' + esc(r.url) + '" target="_blank" rel="noopener noreferrer">' + esc(r.address) + '</a>' : esc(r.address)) + '</td>' +
+        '<td class="price"' + priceTitle + '>' + (gbp(r.priceAmount) || esc(r.priceDisplay || 'POA')) + '</td>' +
+        '<td class="size">' + esc(size) + '</td>' +
+        '<td><span class="tag">' + esc(r.source) + '</span></td>' +
+        '<td><span class="tag ' + reqClass + '">' + esc(r.requirement) + '</span></td>' +
+        '<td class="why">' + esc((r.reasons || []).join('; ')) + '</td>' +
+      '</tr>';
+    }).join('');
+  }
+
+  // ---- run panel -----------------------------------------------------------
+  const runRow = $('runRow');
+  const runBtn = $('runBtn');
+  for (const s of SOURCES) {
+    const span = document.createElement('span');
+    span.className = 'src';
+    span.innerHTML = '<input type="checkbox" id="run_' + s.key + '" checked>' +
+      '<label for="run_' + s.key + '" style="margin:0;color:inherit">' + esc(s.label) + '</label>' +
+      '<span class="status" id="st_' + s.key + '" hidden></span>' +
+      '<span class="last" id="last_' + s.key + '"></span>';
+    runRow.insertBefore(span, runBtn);
+  }
+
+  function renderLastRuns() {
+    for (const s of SOURCES) {
+      const d = datasets[s.key];
+      $('last_' + s.key).textContent = d ? 'last run ' + new Date(d.generatedAt).toLocaleString() : 'no data yet';
+    }
+  }
+
+  // Requirements panel controls are disabled together with the run panel:
+  // /run and /discover share one job queue (at most one child process at a
+  // time), so "a job is running" disables everything that could start another.
+  function setControlsDisabled(disabled) {
+    runBtn.disabled = disabled;
+    for (const s of SOURCES) $('run_' + s.key).disabled = disabled;
+    $('nsSubmit').disabled = disabled;
+    document.querySelectorAll('.reqrow button').forEach(b => (b.disabled = disabled));
+  }
+
+  function showStatuses(jobs) {
+    for (const s of SOURCES) { const el = $('st_' + s.key); if (!jobs.some(j => j.key === s.key)) el.hidden = true; }
+    for (const j of jobs) {
+      if (j.kind !== 'report') continue;
+      const el = $('st_' + j.key);
+      if (!el) continue;
+      el.hidden = false;
+      el.className = 'status ' + j.status;
+      el.textContent = j.status + (j.status === 'failed' && j.error ? ' — ' + j.error.slice(0, 80) : '');
+      el.title = j.error || '';
+    }
+  }
+
+  function renderDiscoverResult(job) {
+    const el = $('discoverResult');
+    if (!job) { el.textContent = ''; el.className = 'discoverNote'; return; }
+    if (job.status === 'failed') {
+      el.className = 'discoverNote err';
+      el.textContent = 'Discovery failed: ' + (job.error || 'unknown error');
+      return;
+    }
+    const r = job.result;
+    if (!r) { el.textContent = ''; return; }
+    el.className = 'discoverNote';
+    const byDecision = {};
+    for (const c of r.results || []) {
+      const label = c.outcome === 'fetch_failed' ? 'fetch failed' : c.classification + ' → ' + c.decision;
+      byDecision[label] = (byDecision[label] || 0) + 1;
+    }
+    const breakdown = Object.entries(byDecision).map(([k, n]) => n + '× ' + k).join(', ');
+    el.innerHTML =
+      '<strong>' + esc(r.requirementName) + '</strong> — provider: ' + esc(r.providerKind) +
+      ' (' + esc(r.providerNote) + ')<br>' +
+      'queries: ' + esc((r.queries || []).join(' · ')) + '<br>' +
+      r.candidatesFound + ' candidate(s) found and classified — ' + esc(breakdown || 'none') + '.' +
+      ' Every candidate is logged to the Sources Register as <code>pending_review</code> — nothing is auto-activated.' +
+      ' Nothing here builds a scraper automatically; that remains a manual follow-up.';
+  }
+
+  let seenDone = new Set();
+  async function pollStatus() {
+    let st;
+    try { st = await (await fetch('/run/status')).json(); } catch { return; }
+    showStatuses(st.jobs || []);
+    for (const j of st.jobs || []) {
+      if ((j.status === 'done' || j.status === 'failed') && !seenDone.has(j.key + j.finishedAt)) {
+        seenDone.add(j.key + j.finishedAt);
+        if (j.kind === 'report' && j.status === 'done') { await loadDataset(j.key); rebuild(); }
+        if (j.kind === 'discovery') renderDiscoverResult(j);
+      }
+    }
+    if (st.running) {
+      setControlsDisabled(true);
+      const active = (st.jobs || []).find(j => j.status === 'running');
+      $('runNote').textContent = active ? 'running: ' + active.label + '…' : 'running…';
+      setTimeout(pollStatus, 1500);
+    } else {
+      setControlsDisabled(false);
+      if ((st.jobs || []).length) $('runNote').textContent = 'finished';
+    }
+  }
+
+  runBtn.addEventListener('click', async () => {
+    const keys = SOURCES.filter(s => $('run_' + s.key).checked).map(s => s.key);
+    if (keys.length === 0) { $('runNote').textContent = 'nothing selected'; return; }
+    setControlsDisabled(true);
+    seenDone = new Set();
+    $('runNote').textContent = 'starting…';
+    const res = await fetch('/run', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ sources: keys }) });
+    if (!res.ok) { $('runNote').textContent = 'failed to start (' + res.status + ')'; setControlsDisabled(false); return; }
+    pollStatus();
+  });
+
+  // ---- Requirements Register: New search panel ------------------------------
+  async function loadRequirements() {
+    try {
+      const res = await fetch('/requirements');
+      const data = await res.json();
+      return data.requirements || [];
+    } catch {
+      return null;
+    }
+  }
+
+  function reqDetailLine(r) {
+    const parts = [r.geographies.join(', ')];
+    if (r.keywords && r.keywords.length) parts.push(r.keywords.join(', '));
+    if (r.budgetRange) parts.push('£' + r.budgetRange[0].toLocaleString('en-GB') + '–£' + r.budgetRange[1].toLocaleString('en-GB'));
+    if (r.minSize) parts.push(r.minSize.toLocaleString('en-GB') + '+ sq ft');
+    return parts.join(' · ');
+  }
+
+  async function renderRequirements() {
+    const reqs = await loadRequirements();
+    const listEl = $('reqList');
+    if (!reqs) { listEl.innerHTML = '<div class="discoverNote err">Could not load the Requirements Register.</div>'; return; }
+    listEl.innerHTML = reqs.map(r =>
+      '<div class="reqrow" data-id="' + esc(r.id) + '">' +
+        '<span class="rname">' + esc(r.name) + '</span>' +
+        '<span class="rdetail">' + esc(reqDetailLine(r)) + '</span>' +
+        '<button class="secondary" data-discover="' + esc(r.id) + '">Run discovery</button>' +
+      '</div>'
+    ).join('');
+    listEl.querySelectorAll('button[data-discover]').forEach(btn => {
+      btn.addEventListener('click', () => runDiscovery(btn.getAttribute('data-discover')));
+    });
+  }
+
+  async function runDiscovery(requirementId) {
+    setControlsDisabled(true);
+    seenDone = new Set();
+    $('discoverResult').textContent = '';
+    $('runNote').textContent = 'starting discovery…';
+    const res = await fetch('/discover', {
+      method: 'POST',
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify({ requirementId }),
+    });
+    if (!res.ok) {
+      const body = await res.json().catch(() => ({}));
+      $('runNote').textContent = 'failed to start (' + (body.error || res.status) + ')';
+      setControlsDisabled(false);
+      return;
+    }
+    pollStatus();
+  }
+
+  $('nsSubmit').addEventListener('click', async () => {
+    const geographies = $('nsGeo').value;
+    if (!geographies.trim()) { $('nsNote').textContent = 'geography is required'; $('nsNote').className = 'discoverNote err'; return; }
+    $('nsSubmit').disabled = true;
+    $('nsNote').className = 'discoverNote';
+    $('nsNote').textContent = 'creating…';
+    const res = await fetch('/requirements', {
+      method: 'POST',
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify({
+        name: $('nsName').value,
+        geographies,
+        keywords: $('nsKw').value,
+        budgetMin: $('nsBudgetMin').value,
+        budgetMax: $('nsBudgetMax').value,
+        minSize: $('nsMinSize').value,
+      }),
+    });
+    const body = await res.json().catch(() => ({}));
+    $('nsSubmit').disabled = false;
+    if (!res.ok) {
+      $('nsNote').className = 'discoverNote err';
+      $('nsNote').textContent = body.error || ('failed (' + res.status + ')');
+      return;
+    }
+    $('nsNote').textContent = 'Created "' + body.requirement.name + '". It will be scored on the next scraper run for any source — or click Run discovery below to find candidate agent sites for it now.';
+    for (const id of ['nsName', 'nsGeo', 'nsKw', 'nsBudgetMin', 'nsBudgetMax', 'nsMinSize']) $(id).value = '';
+    renderRequirements();
+  });
+
+  // ---- filters -------------------------------------------------------------
+  for (const id of ['fSource', 'fReq']) $(id).addEventListener('change', render);
+  for (const id of ['fPriceMin', 'fPriceMax', 'fSizeMin', 'fSizeMax', 'fText']) $(id).addEventListener('input', render);
+  $('priceHead').addEventListener('click', () => { sortDir = sortDir === 1 ? -1 : 1; render(); });
+
+  // ---- init ----------------------------------------------------------------
+  (async () => {
+    await Promise.all(SOURCES.map(s => loadDataset(s.key)));
+    const missing = SOURCES.filter(s => !datasets[s.key]);
+    const warnEl = $('warnings');
+    for (const s of missing) {
+      const div = document.createElement('div');
+      div.className = 'warn';
+      div.textContent = s.file + ' not available — run ' + s.label + ' from the panel above to generate it.';
+      warnEl.appendChild(div);
+    }
+    rebuild();
+    renderRequirements();
+    pollStatus(); // in case a batch is already mid-run when the page loads
+  })();
+})();
+</script>
+</body>
+</html>
