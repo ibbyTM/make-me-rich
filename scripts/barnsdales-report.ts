@@ -19,39 +19,20 @@ import {
 } from '../src/scrapers/barnsdales.js';
 import { stageZeroFilter } from '../src/filter/stageZero.js';
 import { config } from '../src/config.js';
-import type { Listing, Requirement } from '../src/types.js';
+import { createPersistentHarness } from '../src/db/pglite.js';
+import { ensureSeeded, listActiveRequirements } from '../src/db/requirementsRepo.js';
+import type { Listing } from '../src/types.js';
 
-// --- Seed requirements (as briefed) ----------------------------------------
-// Citywide's geographies are whole regions; the listings carry town + postcode,
-// so we resolve each listing's postcode area to a region (below) and match on
-// that. Educating's geographies are named towns, matched by town name.
-const CITYWIDE: Requirement = {
-  id: 'citywide',
-  name: 'Citywide Investors',
-  active: true,
-  geographies: ['yorkshire', 'greater manchester'],
-  budgetRange: [500000, 2000000],
-  keywords: ['vacant', 'c2r', 'commercial to residential'],
-};
-
-const EDUCATING: Requirement = {
-  id: 'educating',
-  name: 'Educating Excellence',
-  active: true,
-  geographies: ['manchester', 'bolton', 'sheffield', 'bradford', 'huddersfield'],
-  minSize: 2000,
-  keywords: [
-    'former place of worship',
-    'church',
-    'chapel',
-    'religious',
-    'office',
-    'former church',
-  ],
-};
-
-const REQUIREMENTS = [CITYWIDE, EDUCATING];
-const REQ_BY_ID = Object.fromEntries(REQUIREMENTS.map((r) => [r.id, r]));
+// --- Requirements Register (spec §6) ---------------------------------------
+// Read live from the persistent store (src/db/pglite.ts) rather than a
+// hardcoded list: any requirement created via the dashboard's "New search"
+// panel — not just the two seeds — participates in this scoring run with no
+// code change. Citywide's geographies are whole regions; the listings carry
+// town + postcode, so we resolve each listing's postcode area to a region
+// (below) and match on that. Custom requirements can use either style —
+// region resolution below covers Yorkshire/Greater Manchester specifically,
+// everything else matches on town/geography text directly (same as
+// Educating's named-town geographies always have).
 
 // --- Region resolution (town/postcode → the regions the requirements name) --
 const YORKSHIRE_AREAS = new Set(['BD', 'DN', 'HD', 'HG', 'HU', 'HX', 'LS', 'S', 'WF', 'YO']);
@@ -85,12 +66,18 @@ function gbp(n: number): string {
 }
 
 async function main() {
+  const h = await createPersistentHarness();
+  await ensureSeeded(h);
+  const requirements = await listActiveRequirements(h);
+  await h.close();
+  const reqById = Object.fromEntries(requirements.map((r) => [r.id, r]));
+
   const pull = await fetchBarnsdalesListings();
   const bar = config.stageZeroMinimumBar;
 
   const scored = pull.listings.map((l) => ({
     l,
-    result: stageZeroFilter(toStageListing(l), REQUIREMENTS, { minimumBar: bar }),
+    result: stageZeroFilter(toStageListing(l), requirements, { minimumBar: bar }),
   }));
   const passed = scored.filter((s) => s.result.pass);
   const failed = scored.filter((s) => !s.result.pass);
@@ -117,7 +104,7 @@ async function main() {
     lines.push('_No listings passed Stage-0._');
   } else {
     for (const { l, result } of passed) {
-      const req = REQ_BY_ID[result.matchedRequirementId ?? '']?.name ?? '(unknown)';
+      const req = reqById[result.matchedRequirementId ?? '']?.name ?? '(unknown)';
       lines.push(`### ${l.location}, ${l.postcode} — ${l.priceDisplay}`);
       lines.push('');
       lines.push(`- **Address:** ${l.location} (${l.postcode})`);
@@ -166,7 +153,7 @@ async function main() {
           sizeLabel: l.sizeLabel,
           sizeSqft: l.sizeSqft,
           source: 'Barnsdales',
-          requirement: REQ_BY_ID[result.matchedRequirementId ?? '']?.name ?? '(unknown)',
+          requirement: reqById[result.matchedRequirementId ?? '']?.name ?? '(unknown)',
           score: result.score,
           reasons: result.reasons,
           url: l.url,

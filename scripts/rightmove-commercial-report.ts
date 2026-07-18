@@ -24,13 +24,9 @@ import {
 } from '../src/scrapers/rightmoveCommercial.js';
 import { stageZeroFilter } from '../src/filter/stageZero.js';
 import { config } from '../src/config.js';
-import { SEED_REQUIREMENTS, CITYWIDE, EDUCATING } from '../src/requirements/seeds.js';
+import { createPersistentHarness } from '../src/db/pglite.js';
+import { ensureSeeded, listActiveRequirements } from '../src/db/requirementsRepo.js';
 import type { Listing } from '../src/types.js';
-
-const REQ_NAME: Record<string, string> = {
-  [CITYWIDE.id]: CITYWIDE.name,
-  [EDUCATING.id]: EDUCATING.name,
-};
 
 function toStageListing(l: RightmoveListing): Listing {
   return {
@@ -49,6 +45,12 @@ function gbp(n: number): string {
 }
 
 async function main() {
+  const h = await createPersistentHarness();
+  await ensureSeeded(h);
+  const requirements = await listActiveRequirements(h);
+  await h.close();
+  const REQ_NAME = Object.fromEntries(requirements.map((r) => [r.id, r.name]));
+
   const pulls: CityPull[] = [];
   for (const target of CITYWIDE_CITIES) {
     process.stderr.write(`pulling ${target.city} (REGION^${target.locationId}) ...\n`);
@@ -77,7 +79,7 @@ async function main() {
   // a precondition rather than a scored point (no free point toward the bar).
   const scored = investable.map((l) => ({
     l,
-    result: stageZeroFilter(toStageListing(l), SEED_REQUIREMENTS, {
+    result: stageZeroFilter(toStageListing(l), requirements, {
       minimumBar: bar,
       geoPrescoped: true,
     }),

@@ -1,0 +1,26 @@
+{
+  "_comment": "Curated directory backing the default (keyless) search provider (src/discovery/searchProviders.ts). Each entry is a real independent/regional UK commercial agent, found via web search 2026-07-17 and verified reachable. `tags` are lowercase city/region strings matched as substrings against a discovery query (e.g. a query built from a requirement's geography). This is NOT live web search — see docs/custom-search-2026-07-18.md for why, and for how to add real search (BING_SEARCH_API_KEY). Extending coverage to a new city/region is a data edit here, not a code change.",
+  "agents": [
+    { "name": "PPH Commercial", "url": "https://pph-commercial.co.uk", "tags": ["hull", "east yorkshire", "yorkshire"] },
+    { "name": "Barker Property", "url": "https://www.barkerproperty.uk", "tags": ["hull", "leeds", "yorkshire"] },
+    { "name": "Leonards", "url": "https://www.leonards-property.co.uk", "tags": ["hull", "east yorkshire", "yorkshire"] },
+    { "name": "Dacres Commercial", "url": "https://www.dacres.co.uk", "tags": ["leeds", "bradford", "harrogate", "york", "yorkshire"] },
+    { "name": "WSB Property Consultants", "url": "https://www.wsbproperty.co.uk", "tags": ["leeds", "wakefield", "bradford", "yorkshire"] },
+    { "name": "Carter Towler", "url": "https://www.cartertowler.co.uk", "tags": ["leeds", "yorkshire"] },
+    { "name": "Naylors Gavin Black", "url": "https://www.naylorsgavinblack.co.uk", "tags": ["newcastle", "tyne and wear", "north east"] },
+    { "name": "Bradley Hall", "url": "https://www.bradleyhall.co.uk", "tags": ["newcastle", "tyne and wear", "north east"] },
+    { "name": "Roy Backhouse", "url": "https://roybackhouse.com", "tags": ["liverpool", "wirral", "merseyside"] },
+    { "name": "Frobishers", "url": "https://www.frobishersuk.com", "tags": ["liverpool", "merseyside"] },
+    { "name": "Gifford Dixon", "url": "https://gifforddixoncommercialproperty.co.uk", "tags": ["manchester", "greater manchester"] },
+    { "name": "Roberts & Roberts", "url": "https://robertsandroberts.co.uk", "tags": ["manchester", "stockport", "hyde", "greater manchester"] },
+    { "name": "Canning O'Neill", "url": "https://www.canningoneill.co.uk", "tags": ["manchester", "greater manchester"] },
+    { "name": "Roger Hannah", "url": "https://www.roger-hannah.co.uk", "tags": ["manchester", "greater manchester"] },
+    { "name": "Innes England", "url": "https://innes-england.com", "tags": ["derby", "leicester", "birmingham", "nottingham", "east midlands", "west midlands"] },
+    { "name": "Raybould & Sons", "url": "https://www.raybouldandsons.co.uk", "tags": ["derby", "east midlands"] },
+    { "name": "Taylor Weaver", "url": "https://www.taylorweaver.co.uk", "tags": ["blackburn", "chorley", "lancashire"] },
+    { "name": "Cardwells", "url": "https://www.cardwells.co.uk", "tags": ["blackburn", "bolton", "lancashire", "greater manchester"] },
+    { "name": "Shepherd Commercial", "url": "https://shepcom.com", "tags": ["birmingham", "solihull", "west midlands"] },
+    { "name": "Harris Lamb", "url": "https://www.harrislamb.com", "tags": ["birmingham", "west midlands"] },
+    { "name": "SMC Brownill Vickers", "url": "https://smcbrownillvickers.com", "tags": ["sheffield", "south yorkshire", "yorkshire"] }
+  ]
+}

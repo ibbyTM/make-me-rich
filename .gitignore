@@ -1,5 +1,8 @@
 node_modules/
 dist/
+# Persistent local PGlite store for the Requirements Register (src/db/pglite.ts).
+# Local dev state, not a fixture — regenerated automatically (seeded on first use).
+.data/
 .env
 .env.local
 *.log

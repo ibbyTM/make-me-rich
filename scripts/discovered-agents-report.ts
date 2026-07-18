@@ -21,13 +21,9 @@ import {
 } from '../src/scrapers/propertyHive.js';
 import { stageZeroFilter } from '../src/filter/stageZero.js';
 import { config } from '../src/config.js';
-import { SEED_REQUIREMENTS, CITYWIDE, EDUCATING } from '../src/requirements/seeds.js';
+import { createPersistentHarness } from '../src/db/pglite.js';
+import { ensureSeeded, listActiveRequirements } from '../src/db/requirementsRepo.js';
 import type { Listing } from '../src/types.js';
-
-const REQ_NAME: Record<string, string> = {
-  [CITYWIDE.id]: CITYWIDE.name,
-  [EDUCATING.id]: EDUCATING.name,
-};
 
 // Same postcode-area → region mapping as the Barnsdales report.
 const YORKSHIRE = new Set(['BD', 'DN', 'HD', 'HG', 'HU', 'HX', 'LS', 'S', 'WF', 'YO']);
@@ -51,6 +47,12 @@ function toStageListing(l: PropertyHiveListing, sourceName: string): Listing {
 }
 
 async function main() {
+  const h = await createPersistentHarness();
+  await ensureSeeded(h);
+  const requirements = await listActiveRequirements(h);
+  await h.close();
+  const REQ_NAME = Object.fromEntries(requirements.map((r) => [r.id, r.name]));
+
   const bar = config.stageZeroMinimumBar;
   const allRows: Record<string, unknown>[] = [];
   const summary: Record<string, unknown>[] = [];
@@ -86,7 +88,7 @@ async function main() {
     // point — the bar applies to price/size/keyword only.
     const scored = pull.listings.map((l) => ({
       l,
-      result: stageZeroFilter(toStageListing(l, source.name), SEED_REQUIREMENTS, {
+      result: stageZeroFilter(toStageListing(l, source.name), requirements, {
         minimumBar: bar,
         geoPrescoped: true,
       }),

@@ -14,7 +14,7 @@
 
 import { classifySite } from '../src/classifier/classify.js';
 import type { SiteProbe } from '../src/types.js';
-import { createHarness } from '../test/helpers/pgHarness.js';
+import { createHarness } from '../src/db/pglite.js';
 
 const UA = 'CAIS-SourceOnboarding/0.1 (dry-run trial; +https://example.invalid/bot)';
 

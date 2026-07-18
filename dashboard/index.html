@@ -44,6 +44,21 @@
   .tag.educating { background:#e9f7ec; border-color:#c4e6cc; }
   .empty { padding:32px; text-align:center; color:var(--muted); }
   .warn { margin:8px 24px; padding:8px 12px; border:1px solid #e6c88a; background:#fdf6e3; border-radius:6px; font-size:12.5px; }
+  .newsearch { display:flex; gap:10px; align-items:flex-end; flex-wrap:wrap; }
+  .newsearch .field { display:flex; flex-direction:column; gap:2px; }
+  .newsearch .field label { font-size:11px; color:var(--muted); }
+  .newsearch input[type=text] { font:inherit; padding:4px 8px; border:1px solid var(--border); border-radius:6px; background:#fff; }
+  .newsearch input.geo { width:190px; }
+  .newsearch input.kw { width:150px; }
+  .newsearch input.num { width:90px; }
+  .reqlist { margin-top:10px; border-top:1px solid var(--border); padding-top:8px; }
+  .reqrow { display:flex; gap:8px; align-items:center; padding:3px 0; font-size:12.5px; flex-wrap:wrap; }
+  .reqrow .rname { font-weight:600; min-width:170px; }
+  .reqrow .rdetail { color:var(--muted); }
+  .reqrow button { padding:2px 10px; font-size:12px; }
+  .reqrow button.secondary { background:#fff; color:var(--accent); }
+  .discoverNote { font-size:12px; color:var(--muted); margin-top:4px; }
+  .discoverNote.err { color:#a33; }
 </style>
 </head>
 <body>
@@ -60,6 +75,23 @@
     <button id="runBtn">Run selected</button>
     <span class="last" id="runNote"></span>
   </div>
+</div>
+
+<div class="panel">
+  <strong style="font-size:13px">New search</strong>
+  <div class="newsearch" style="margin-top:8px">
+    <div class="field"><label for="nsName">Name (optional)</label><input type="text" id="nsName" placeholder="e.g. Bristol Retail Fund"></div>
+    <div class="field"><label for="nsGeo">Geography (comma-separated)</label><input type="text" class="geo" id="nsGeo" placeholder="e.g. Bristol, Bath"></div>
+    <div class="field"><label for="nsKw">Property type / keywords</label><input type="text" class="kw" id="nsKw" placeholder="e.g. retail, industrial"></div>
+    <div class="field"><label for="nsBudgetMin">Budget min £</label><input type="number" class="num" id="nsBudgetMin" min="0" step="10000"></div>
+    <div class="field"><label for="nsBudgetMax">Budget max £</label><input type="number" class="num" id="nsBudgetMax" min="0" step="10000"></div>
+    <div class="field"><label for="nsMinSize">Min size sq ft</label><input type="number" class="num" id="nsMinSize" min="0" step="100"></div>
+    <button id="nsSubmit">Create search</button>
+  </div>
+  <div class="discoverNote" id="nsNote"></div>
+
+  <div class="reqlist" id="reqList"><!-- requirement rows injected here --></div>
+  <div class="discoverNote" id="discoverResult"></div>
 </div>
 
 <div class="controls">
@@ -194,20 +226,53 @@
     }
   }
 
+  // Requirements panel controls are disabled together with the run panel:
+  // /run and /discover share one job queue (at most one child process at a
+  // time), so "a job is running" disables everything that could start another.
   function setControlsDisabled(disabled) {
     runBtn.disabled = disabled;
     for (const s of SOURCES) $('run_' + s.key).disabled = disabled;
+    $('nsSubmit').disabled = disabled;
+    document.querySelectorAll('.reqrow button').forEach(b => (b.disabled = disabled));
   }
 
   function showStatuses(jobs) {
     for (const s of SOURCES) { const el = $('st_' + s.key); if (!jobs.some(j => j.key === s.key)) el.hidden = true; }
     for (const j of jobs) {
+      if (j.kind !== 'report') continue;
       const el = $('st_' + j.key);
+      if (!el) continue;
       el.hidden = false;
       el.className = 'status ' + j.status;
       el.textContent = j.status + (j.status === 'failed' && j.error ? ' — ' + j.error.slice(0, 80) : '');
       el.title = j.error || '';
     }
+  }
+
+  function renderDiscoverResult(job) {
+    const el = $('discoverResult');
+    if (!job) { el.textContent = ''; el.className = 'discoverNote'; return; }
+    if (job.status === 'failed') {
+      el.className = 'discoverNote err';
+      el.textContent = 'Discovery failed: ' + (job.error || 'unknown error');
+      return;
+    }
+    const r = job.result;
+    if (!r) { el.textContent = ''; return; }
+    el.className = 'discoverNote';
+    const byDecision = {};
+    for (const c of r.results || []) {
+      const label = c.outcome === 'fetch_failed' ? 'fetch failed' : c.classification + ' → ' + c.decision;
+      byDecision[label] = (byDecision[label] || 0) + 1;
+    }
+    const breakdown = Object.entries(byDecision).map(([k, n]) => n + '× ' + k).join(', ');
+    el.innerHTML =
+      '<strong>' + esc(r.requirementName) + '</strong> — provider: ' + esc(r.providerKind) +
+      ' (' + esc(r.providerNote) + ')<br>' +
+      'queries: ' + esc((r.queries || []).join(' · ')) + '<br>' +
+      r.candidatesFound + ' candidate(s) found and classified — ' + esc(breakdown || 'none') + '.' +
+      ' Every candidate is logged to the Sources Register as <code>pending_review</code> — nothing is auto-activated.' +
+      ' Nothing here builds a scraper automatically; that remains a manual follow-up.';
   }
 
   let seenDone = new Set();
@@ -218,16 +283,18 @@
     for (const j of st.jobs || []) {
       if ((j.status === 'done' || j.status === 'failed') && !seenDone.has(j.key + j.finishedAt)) {
         seenDone.add(j.key + j.finishedAt);
-        if (j.status === 'done') { await loadDataset(j.key); rebuild(); } // refresh as each source finishes
+        if (j.kind === 'report' && j.status === 'done') { await loadDataset(j.key); rebuild(); }
+        if (j.kind === 'discovery') renderDiscoverResult(j);
       }
     }
     if (st.running) {
       setControlsDisabled(true);
-      $('runNote').textContent = 'batch running…';
+      const active = (st.jobs || []).find(j => j.status === 'running');
+      $('runNote').textContent = active ? 'running: ' + active.label + '…' : 'running…';
       setTimeout(pollStatus, 1500);
     } else {
       setControlsDisabled(false);
-      if ((st.jobs || []).length) $('runNote').textContent = 'batch finished';
+      if ((st.jobs || []).length) $('runNote').textContent = 'finished';
     }
   }
 
@@ -240,6 +307,90 @@
     const res = await fetch('/run', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ sources: keys }) });
     if (!res.ok) { $('runNote').textContent = 'failed to start (' + res.status + ')'; setControlsDisabled(false); return; }
     pollStatus();
+  });
+
+  // ---- Requirements Register: New search panel ------------------------------
+  async function loadRequirements() {
+    try {
+      const res = await fetch('/requirements');
+      const data = await res.json();
+      return data.requirements || [];
+    } catch {
+      return null;
+    }
+  }
+
+  function reqDetailLine(r) {
+    const parts = [r.geographies.join(', ')];
+    if (r.keywords && r.keywords.length) parts.push(r.keywords.join(', '));
+    if (r.budgetRange) parts.push('£' + r.budgetRange[0].toLocaleString('en-GB') + '–£' + r.budgetRange[1].toLocaleString('en-GB'));
+    if (r.minSize) parts.push(r.minSize.toLocaleString('en-GB') + '+ sq ft');
+    return parts.join(' · ');
+  }
+
+  async function renderRequirements() {
+    const reqs = await loadRequirements();
+    const listEl = $('reqList');
+    if (!reqs) { listEl.innerHTML = '<div class="discoverNote err">Could not load the Requirements Register.</div>'; return; }
+    listEl.innerHTML = reqs.map(r =>
+      '<div class="reqrow" data-id="' + esc(r.id) + '">' +
+        '<span class="rname">' + esc(r.name) + '</span>' +
+        '<span class="rdetail">' + esc(reqDetailLine(r)) + '</span>' +
+        '<button class="secondary" data-discover="' + esc(r.id) + '">Run discovery</button>' +
+      '</div>'
+    ).join('');
+    listEl.querySelectorAll('button[data-discover]').forEach(btn => {
+      btn.addEventListener('click', () => runDiscovery(btn.getAttribute('data-discover')));
+    });
+  }
+
+  async function runDiscovery(requirementId) {
+    setControlsDisabled(true);
+    seenDone = new Set();
+    $('discoverResult').textContent = '';
+    $('runNote').textContent = 'starting discovery…';
+    const res = await fetch('/discover', {
+      method: 'POST',
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify({ requirementId }),
+    });
+    if (!res.ok) {
+      const body = await res.json().catch(() => ({}));
+      $('runNote').textContent = 'failed to start (' + (body.error || res.status) + ')';
+      setControlsDisabled(false);
+      return;
+    }
+    pollStatus();
+  }
+
+  $('nsSubmit').addEventListener('click', async () => {
+    const geographies = $('nsGeo').value;
+    if (!geographies.trim()) { $('nsNote').textContent = 'geography is required'; $('nsNote').className = 'discoverNote err'; return; }
+    $('nsSubmit').disabled = true;
+    $('nsNote').className = 'discoverNote';
+    $('nsNote').textContent = 'creating…';
+    const res = await fetch('/requirements', {
+      method: 'POST',
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify({
+        name: $('nsName').value,
+        geographies,
+        keywords: $('nsKw').value,
+        budgetMin: $('nsBudgetMin').value,
+        budgetMax: $('nsBudgetMax').value,
+        minSize: $('nsMinSize').value,
+      }),
+    });
+    const body = await res.json().catch(() => ({}));
+    $('nsSubmit').disabled = false;
+    if (!res.ok) {
+      $('nsNote').className = 'discoverNote err';
+      $('nsNote').textContent = body.error || ('failed (' + res.status + ')');
+      return;
+    }
+    $('nsNote').textContent = 'Created "' + body.requirement.name + '". It will be scored on the next scraper run for any source — or click Run discovery below to find candidate agent sites for it now.';
+    for (const id of ['nsName', 'nsGeo', 'nsKw', 'nsBudgetMin', 'nsBudgetMax', 'nsMinSize']) $(id).value = '';
+    renderRequirements();
   });
 
   // ---- filters -------------------------------------------------------------
@@ -259,6 +410,7 @@
       warnEl.appendChild(div);
     }
     rebuild();
+    renderRequirements();
     pollStatus(); // in case a batch is already mid-run when the page loads
   })();
 })();
