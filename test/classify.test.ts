@@ -121,6 +121,52 @@ describe('classifySite', () => {
     expect(res.decision).toBe('queued_for_review');
   });
 
+  it('a known portal still runs the live robots/ToS gate (2026-07-19 fix — was hardcoded tosFlag: false)', () => {
+    const clean = classifySite(
+      probe({ url: 'https://www.loopnet.co.uk/search/commercial-property/united-kingdom/for-sale/' }),
+      OPTS,
+    );
+    expect(clean.tosFlag).toBe(false);
+
+    const flagged = classifySite(
+      probe({
+        url: 'https://www.loopnet.co.uk/search/commercial-property/united-kingdom/for-sale/',
+        robotsTxt: 'User-agent: *\nDisallow: /search\n',
+      }),
+      OPTS,
+    );
+    expect(flagged.tosFlag).toBe(true);
+    expect(flagged.detectedStructure).toMatch(/TOS GATE/);
+    // Portal decision is always review regardless of the gate result.
+    expect(flagged.decision).toBe('queued_for_review');
+  });
+
+  it('newly-registered portals (Zoopla Commercial, NovaLoca) route to review too', () => {
+    const zoopla = classifySite(probe({ url: 'https://www.zoopla.co.uk/for-sale/commercial/property/uk/' }), OPTS);
+    expect(zoopla.classification).toBe('api_endpoint');
+    expect(zoopla.decision).toBe('queued_for_review');
+
+    const novaloca = classifySite(probe({ url: 'https://www.novaloca.com/property-search-results/' }), OPTS);
+    expect(novaloca.classification).toBe('api_endpoint');
+    expect(novaloca.decision).toBe('queued_for_review');
+  });
+
+  it('large-corporate agents (CBRE/Savills/Knight Frank) get mandatory review without losing the real classification', () => {
+    const html = `<html><body>${'<div>office to let</div>'.repeat(50)}</body></html>`;
+    const res = classifySite(probe({ url: 'https://www.cbre.co.uk/property-search', rawHtml: html, renderedDom: html }), OPTS);
+    expect(res.classification).toBe('static_html'); // genuine technical finding preserved
+    expect(res.tosFlag).toBe(true);
+    expect(res.decision).toBe('queued_for_review');
+    expect(res.detectedStructure).toMatch(/POLICY: CBRE UK/);
+  });
+
+  it('a non-big-corporate, non-portal agent with the same technical signal is unaffected', () => {
+    const html = `<html><body>${'<div>office to let</div>'.repeat(50)}</body></html>`;
+    const res = classifySite(probe({ url: 'https://agent.example.com/commercial', rawHtml: html, renderedDom: html }), OPTS);
+    expect(res.tosFlag).toBe(false);
+    expect(res.decision).toBe('auto_approved');
+  });
+
   it('falls back to needs_review with low confidence when nothing resolves', () => {
     const res = classifySite(probe({ rawHtml: '<html></html>', renderedDom: '<html></html>' }), OPTS);
     // empty page → static baseline but no content; still resolves to a status

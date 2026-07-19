@@ -12,6 +12,7 @@
  */
 
 import type { ClassificationResult } from '../types.js';
+import { checkRobotsAndTos } from './detectors.js';
 
 interface PortalDefinition {
   /** Host suffixes that identify the portal. */
@@ -41,6 +42,29 @@ const PORTALS: PortalDefinition[] = [
     scraperStrategy: 'apify~portal-costar',
     notes: 'CoStar/LoopNet aggregate listings behind a JSON API with anti-bot protection.',
   },
+  {
+    name: 'Zoopla Commercial',
+    hosts: ['zoopla.co.uk'],
+    scraperStrategy: 'apify~portal-zoopla-commercial',
+    notes: 'Zoopla Commercial aggregates many agents; CoStar-owned, anti-bot protected (added 2026-07-19).',
+  },
+  {
+    name: 'NovaLoca',
+    hosts: ['novaloca.com'],
+    scraperStrategy: 'apify~portal-novaloca',
+    notes: 'NovaLoca aggregates listings from 1,000+ UK commercial agents (added 2026-07-19).',
+  },
+  {
+    // Realla was acquired by CoStar in 2018 (public record). realla.com no
+    // longer resolves at all (DNS failure, checked 2026-07-19); realla.co.uk
+    // still resolves but returned HTTP 403 to every automated request tried
+    // this pass — consistent with, but not proof of, having moved onto
+    // CoStar's shared anti-bot stack alongside LoopNet.
+    name: 'Realla (CoStar)',
+    hosts: ['realla.co.uk'],
+    scraperStrategy: 'apify~portal-costar',
+    notes: 'Realla was acquired by CoStar (2018); realla.com no longer resolves, realla.co.uk 403s every automated request.',
+  },
 ];
 
 function hostnameOf(url: string): string {
@@ -68,21 +92,34 @@ export function isPortal(url: string): boolean {
 /**
  * Bespoke classification for a known portal. Portals are treated as their own
  * source type: classified with high confidence but always queued for review so
- * a human confirms the many-agent integration before it goes live.
+ * a human confirms the many-agent integration before it goes live — decision
+ * and resultingStatus are hardcoded to review regardless of what the gate
+ * below finds. The robots/ToS gate itself is still run for real (2026-07-19
+ * fix — it used to be skipped entirely for portals, hardcoding tosFlag:
+ * false), so the audit trail records genuine live findings even though they
+ * can't change a portal's always-review decision.
  */
-export function classifyPortal(url: string, now: () => Date): ClassificationResult {
+export function classifyPortal(
+  url: string,
+  now: () => Date,
+  robotsTxt?: string,
+  tosText?: string,
+): ClassificationResult {
   const portal = matchPortal(url);
   if (!portal) {
     throw new Error(`classifyPortal called for non-portal URL: ${url}`);
   }
+  const gate = checkRobotsAndTos(robotsTxt, tosText);
+  const notes = `PORTAL(${portal.name}): ${portal.notes} — routed to review (aggregates multiple agents).${
+    gate.found ? ` TOS GATE: ${gate.notes}` : ''
+  }`;
   return {
     url,
     classification: 'api_endpoint',
     confidence: 0.95,
     scraperStrategy: portal.scraperStrategy,
-    // Not a ToS restriction, but the many-agent nature forces human review.
-    tosFlag: false,
-    detectedStructure: `PORTAL(${portal.name}): ${portal.notes} — routed to review (aggregates multiple agents).`,
+    tosFlag: gate.found,
+    detectedStructure: notes,
     decision: 'queued_for_review',
     resultingStatus: 'pending_review',
     classifiedAt: now().toISOString(),

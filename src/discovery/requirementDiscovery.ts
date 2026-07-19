@@ -10,6 +10,7 @@
  */
 
 import { classifySite } from '../classifier/classify.js';
+import { detectBotChallenge } from '../classifier/detectors.js';
 import type { SiteProbe, Classification, AuditDecision, DiscoveredVia, Requirement } from '../types.js';
 import type { Harness } from '../db/pglite.js';
 import type { SearchProvider } from './discovery.js';
@@ -22,7 +23,7 @@ export interface Candidate {
 }
 
 export interface ClassifiedCandidate extends Candidate {
-  outcome: 'classified' | 'fetch_failed';
+  outcome: 'classified' | 'fetch_failed' | 'blocked';
   classifiedUrl?: string;
   classification?: Classification;
   confidence?: number;
@@ -88,6 +89,44 @@ async function fetchRobots(url: string): Promise<string | undefined> {
  * ordinary fetch failures — those are reported as `outcome: 'fetch_failed'` so
  * one bad candidate can't stall a batch.
  */
+/**
+ * Log a candidate that could not be classified because it's bot-blocked
+ * (anti-bot interstitial or 403/429) — still writes a full sources +
+ * site_audits trail (spec: "everything logs to site_audits"), just with a
+ * classification of `needs_review` and no scraper strategy, rather than
+ * silently dropping it or misclassifying interstitial markup as a real page.
+ */
+async function logBlocked(
+  h: Harness,
+  dqId: string,
+  candidate: Candidate,
+  pageUrl: string,
+  discoveredVia: DiscoveredVia,
+  detail: string,
+): Promise<ClassifiedCandidate> {
+  const classifiedAt = new Date().toISOString();
+  const src = await h.asAdminBypass<{ id: string }>(
+    `insert into sources (url, name, status, classification, classification_confidence,
+                          scraper_strategy, discovered_via, tos_flag, last_classified_at)
+     values ($1,$2,'pending_review','needs_review',0,null,$3,false,$4)
+     on conflict (url) do update set classification = excluded.classification,
+       classification_confidence = excluded.classification_confidence,
+       last_classified_at = excluded.last_classified_at
+     returning id`,
+    [candidate.url, candidate.name, discoveredVia, classifiedAt],
+  );
+  await h.asAdminBypass(
+    `insert into site_audits (source_id, run_at, detected_structure, confidence, decision)
+     values ($1,$2,$3,$4,'queued_for_review')`,
+    [src.rows[0]!.id, classifiedAt, `[blocked ${pageUrl}] BLOCKED: ${detail}`, 0],
+  );
+  await h.asAdminBypass(`update discovery_queue set status = 'classified', source_id = $2 where id = $1`, [
+    dqId,
+    src.rows[0]!.id,
+  ]);
+  return { ...candidate, outcome: 'blocked', classifiedUrl: pageUrl, detail };
+}
+
 export async function classifyAndLogCandidate(
   h: Harness,
   candidate: Candidate,
@@ -99,6 +138,10 @@ export async function classifyAndLogCandidate(
   );
 
   const home = await get(candidate.url);
+  const homeChallenge = detectBotChallenge(home.status, home.body);
+  if (homeChallenge.found) {
+    return logBlocked(h, dq.rows[0]!.id, candidate, candidate.url, discoveredVia, homeChallenge.notes);
+  }
   if (home.status < 200 || home.status >= 400 || home.body.length < 500) {
     await h.asAdminBypass(`update discovery_queue set status = 'rejected' where id = $1`, [dq.rows[0]!.id]);
     return { ...candidate, outcome: 'fetch_failed', detail: home.err ?? `HTTP ${home.status}` };
@@ -109,6 +152,10 @@ export async function classifyAndLogCandidate(
   let pageHtml = home.body;
   if (listingsUrl && listingsUrl !== candidate.url) {
     const lp = await get(listingsUrl);
+    const lpChallenge = detectBotChallenge(lp.status, lp.body);
+    if (lpChallenge.found) {
+      return logBlocked(h, dq.rows[0]!.id, candidate, listingsUrl, discoveredVia, lpChallenge.notes);
+    }
     if (lp.status >= 200 && lp.status < 400 && lp.body.length > 500) {
       pageUrl = listingsUrl;
       pageHtml = lp.body;

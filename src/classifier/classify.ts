@@ -26,6 +26,7 @@ import {
   findListingApi,
 } from './detectors.js';
 import { classifyPortal, isPortal } from './portals.js';
+import { isBigCorporate, matchBigCorporate } from './bigCorporates.js';
 
 export interface ClassifyOptions {
   approvalThreshold: number;
@@ -53,7 +54,7 @@ export function classifySite(
 
   // Portals get bespoke handling and are always routed to review (spec §5).
   if (isPortal(probe.url)) {
-    return classifyPortal(probe.url, now);
+    return classifyPortal(probe.url, now, probe.robotsTxt, probe.tosText);
   }
 
   const notes: string[] = [];
@@ -112,6 +113,21 @@ export function classifySite(
     classification = 'needs_review';
     // Preserve the technically-detected confidence for the audit trail, but the
     // decision below will force review because tosFlag is set.
+  }
+
+  // Step 7.5 — large-corporate-agent policy override (2026-07-19 decision).
+  // CBRE / Savills / Knight Frank Commercial are ordinary agent sites, not
+  // portals, so they run the full heuristics above like any other agent. But
+  // given their scale a technically-scrapeable verdict alone isn't a green
+  // light: force mandatory review regardless of confidence, without
+  // overwriting the genuine technical classification (unlike the ToS-text gate
+  // above, which does overwrite it — this is a policy flag, not a detected
+  // restriction).
+  if (!tosFlag && isBigCorporate(probe.url)) {
+    tosFlag = true;
+    notes.push(
+      `POLICY: ${matchBigCorporate(probe.url)!.name} is a large corporate agent — mandatory human review regardless of technical classification or confidence (manual ToS review required).`,
+    );
   }
 
   return finalize({

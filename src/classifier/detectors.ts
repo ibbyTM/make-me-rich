@@ -286,6 +286,39 @@ export function checkRobotsAndTos(
   return { found: notes.length > 0, notes: notes.join('; ') };
 }
 
+/**
+ * Anti-bot interstitial / hard-block detector. A 200-status Cloudflare/Akamai/
+ * PerimeterX challenge page is not "low-signal content" — it must be
+ * distinguished from a genuine static page before classification runs, so a
+ * blocked source is reported as blocked rather than misclassified as
+ * static_html/manual_entry_only off the interstitial markup.
+ */
+const CHALLENGE_TEXT_SIGNATURES: RegExp[] = [
+  /just a moment\.\.\./i,
+  /checking your browser (before accessing|makes? sure)/i,
+  /attention required[!]?\s*\|\s*cloudflare/i,
+  /cf-browser-verification|__cf_chl_/i,
+  /enable javascript and cookies to continue/i,
+  /pardon our interruption/i,
+  /request unsuccessful.{0,20}incapsula/i,
+  /distil_r_captcha|px-captcha|perimeterx/i,
+  /verify you are a human/i,
+  /unusual traffic from your (computer|network)/i,
+  /access to this page has been denied/i,
+];
+
+export function detectBotChallenge(status: number, html: string): Detection {
+  if (status === 403 || status === 429) {
+    return { found: true, notes: `HTTP ${status} — request blocked` };
+  }
+  for (const re of CHALLENGE_TEXT_SIGNATURES) {
+    if (re.test(html)) {
+      return { found: true, notes: `bot-challenge page detected (matched /${re.source}/i)` };
+    }
+  }
+  return { found: false, notes: '' };
+}
+
 // ---------------------------------------------------------------------------
 // helpers
 // ---------------------------------------------------------------------------
