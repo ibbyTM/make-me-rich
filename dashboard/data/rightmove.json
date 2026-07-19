@@ -1,45 +1,7 @@
 {
   "source": "Rightmove Commercial",
-  "generatedAt": "2026-07-18T16:23:51.965Z",
+  "generatedAt": "2026-07-19T16:37:44.592Z",
   "rows": [
-    {
-      "address": "Haigh House, The Grange, Three Cottages, Barn, Stables, Lake and 14 Acres of Land, Wakefield Road, Rothwell Haigh, LS26 (Leeds)",
-      "priceDisplay": "£1,850,000 Offers in Region of",
-      "priceAmount": 1850000,
-      "sizeLabel": "",
-      "sizeSqft": null,
-      "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
-      "score": 2,
-      "reasons": [
-        "geography \"Leeds Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
-        "price 1850000 within budget 500000-2000000",
-        "keyword hit \"freehold\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/89659935#/?channel=COM_BUY",
-      "agent": "Simon Blyth Estate Agents, Holmfirth",
-      "propertyType": "Commercial Development",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/70cc57ee2/89659935/70cc57ee21a5ee9f8fca05a98d59730d_max_476x317.png"
-    },
-    {
-      "address": "Post Office, High Street, Wetherby, Leeds (Leeds)",
-      "priceDisplay": "£595,000 Guide Price",
-      "priceAmount": 595000,
-      "sizeLabel": "2,141 sq. ft.",
-      "sizeSqft": 2141,
-      "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
-      "score": 2,
-      "reasons": [
-        "geography \"Leeds Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
-        "price 595000 within budget 500000-2000000",
-        "keyword hit \"freehold\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/762347564791921#/?channel=COM_BUY",
-      "agent": "Malcolm Stuart Property Consultants LLP, Tadcaster",
-      "propertyType": "Mixed Use",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/883dd9698/762347564791921/883dd96989ce18ea5ec9e3eae3e1ad59_max_476x317.jpeg"
-    },
     {
       "address": "1-2 Deanhurst Park, Gelderd Road, Gildersome, Morley, Leeds (Leeds)",
       "priceDisplay": "£725,000",
@@ -58,6 +20,44 @@
       "agent": "Crans Property Consultants, Huddersfield",
       "propertyType": "Office",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/86e42cc2b/747152224116992/86e42cc2bfe0cfc5a28c4905f11e1792_max_476x317.jpeg"
+    },
+    {
+      "address": "Carlton Trading Estate, Pickering Street, Armley, Leeds (Leeds)",
+      "priceDisplay": "£1,660,000 Offers in Region of",
+      "priceAmount": 1660000,
+      "sizeLabel": "57,675 sq. ft.",
+      "sizeSqft": 57675,
+      "source": "Rightmove Commercial",
+      "requirement": "Citywide Investors",
+      "score": 2,
+      "reasons": [
+        "geography \"Leeds Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
+        "price 1660000 within budget 500000-2000000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/747888028746705#/?channel=COM_BUY",
+      "agent": "Northcap, Leeds",
+      "propertyType": "Industrial Park",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/f3dcc19b3/747888028746705/f3dcc19b38846ff4ad118f2d377b7cbd_max_476x317.jpeg"
+    },
+    {
+      "address": "1 City West Gelderd Road, Leeds, LS12 6NJ (Leeds)",
+      "priceDisplay": "£995,000 Offers in Region of",
+      "priceAmount": 995000,
+      "sizeLabel": "550–9,210 sq. ft.",
+      "sizeSqft": 9210,
+      "source": "Rightmove Commercial",
+      "requirement": "Citywide Investors",
+      "score": 2,
+      "reasons": [
+        "geography \"Leeds Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
+        "price 995000 within budget 500000-2000000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/762214045440304#/?channel=COM_BUY",
+      "agent": "Sanderson Weatherall, Leeds",
+      "propertyType": "Office",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/1ca8cf052/762214045440304/1ca8cf0522a946338410b68c580339b3_max_476x317.jpeg"
     },
     {
       "address": "Tannery Square, Meanwood, Leeds, LS6 4LT (Leeds)",
@@ -98,6 +98,25 @@
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/c1dd4a417/698587804331425/c1dd4a417b993794e57bfefd6e9d9676_max_476x317.png"
     },
     {
+      "address": "Haigh House, The Grange, Three Cottages, Barn, Stables, Lake and 14 Acres of Land, Wakefield Road, Rothwell Haigh, LS26 (Leeds)",
+      "priceDisplay": "£1,850,000 Offers in Region of",
+      "priceAmount": 1850000,
+      "sizeLabel": "",
+      "sizeSqft": null,
+      "source": "Rightmove Commercial",
+      "requirement": "Citywide Investors",
+      "score": 2,
+      "reasons": [
+        "geography \"Leeds Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
+        "price 1850000 within budget 500000-2000000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/89659935#/?channel=COM_BUY",
+      "agent": "Simon Blyth Estate Agents, Holmfirth",
+      "propertyType": "Commercial Development",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/70cc57ee2/89659935/70cc57ee21a5ee9f8fca05a98d59730d_max_476x317.png"
+    },
+    {
       "address": "43 Park Place, Leeds, LS1 2RY (Leeds)",
       "priceDisplay": "£1,800,000",
       "priceAmount": 1800000,
@@ -117,23 +136,42 @@
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/f55c299c9/154042034/f55c299c931de7ddb074754822cc4011_max_476x317.jpeg"
     },
     {
-      "address": "Carlton Trading Estate, Pickering Street, Armley, Leeds (Leeds)",
-      "priceDisplay": "£1,660,000 Offers in Region of",
-      "priceAmount": 1660000,
-      "sizeLabel": "57,675 sq. ft.",
-      "sizeSqft": 57675,
+      "address": "Haulage, West Yorkshire, West Yorkshire (Leeds)",
+      "priceDisplay": "£1,500,000",
+      "priceAmount": 1500000,
+      "sizeLabel": "",
+      "sizeSqft": null,
       "source": "Rightmove Commercial",
       "requirement": "Citywide Investors",
       "score": 2,
       "reasons": [
         "geography \"Leeds Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
-        "price 1660000 within budget 500000-2000000",
+        "price 1500000 within budget 500000-2000000",
         "keyword hit \"freehold\""
       ],
-      "url": "https://www.rightmove.co.uk/properties/747888028746705#/?channel=COM_BUY",
-      "agent": "Northcap, Leeds",
-      "propertyType": "Industrial Park",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/f3dcc19b3/747888028746705/f3dcc19b38846ff4ad118f2d377b7cbd_max_476x317.jpeg"
+      "url": "https://www.rightmove.co.uk/properties/153559232#/?channel=COM_BUY",
+      "agent": "Ernest Wilson & Co Limited, EW Leeds",
+      "propertyType": "Light Industrial",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/172104c2a/153559232/172104c2a94b9cb5800ed0e4b8d73978_max_476x317.jpeg"
+    },
+    {
+      "address": "26-27 Park Square West, Leeds, LS1 2PL (Leeds)",
+      "priceDisplay": "£1,500,000 Offers in Excess of",
+      "priceAmount": 1500000,
+      "sizeLabel": "5,856 sq. ft.",
+      "sizeSqft": 5856,
+      "source": "Rightmove Commercial",
+      "requirement": "Citywide Investors",
+      "score": 2,
+      "reasons": [
+        "geography \"Leeds Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
+        "price 1500000 within budget 500000-2000000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/698589182145520#/?channel=COM_BUY",
+      "agent": "Sanderson Weatherall, Leeds",
+      "propertyType": "Office",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/478fbf892/698589182145520/478fbf892c11d7356aad625e6808929f_max_476x317.jpeg"
     },
     {
       "address": "26/27 Park Square West, Leeds, LS1 2PL (Leeds)",
@@ -153,44 +191,6 @@
       "agent": "Fox Lloyd Jones, Leeds",
       "propertyType": "Office",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/3ce82ec3e/721600241041920/3ce82ec3e4b723225885ad243a06f575_max_476x317.jpeg"
-    },
-    {
-      "address": "26-27 Park Square West, Leeds, LS1 2PL (Leeds)",
-      "priceDisplay": "£1,500,000 Offers in Excess of",
-      "priceAmount": 1500000,
-      "sizeLabel": "5,856 sq. ft.",
-      "sizeSqft": 5856,
-      "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
-      "score": 2,
-      "reasons": [
-        "geography \"Leeds Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
-        "price 1500000 within budget 500000-2000000",
-        "keyword hit \"freehold\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/698589182145520#/?channel=COM_BUY",
-      "agent": "Sanderson Weatherall, Leeds",
-      "propertyType": "Office",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/00e2395ad/698589182145520/00e2395ad3adc907109d8884d5204d00_max_476x317.jpeg"
-    },
-    {
-      "address": "Haulage, West Yorkshire, West Yorkshire (Leeds)",
-      "priceDisplay": "£1,500,000",
-      "priceAmount": 1500000,
-      "sizeLabel": "",
-      "sizeSqft": null,
-      "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
-      "score": 2,
-      "reasons": [
-        "geography \"Leeds Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
-        "price 1500000 within budget 500000-2000000",
-        "keyword hit \"freehold\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/153559232#/?channel=COM_BUY",
-      "agent": "Ernest Wilson & Co Limited, EW Leeds",
-      "propertyType": "Light Industrial",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/172104c2a/153559232/172104c2a94b9cb5800ed0e4b8d73978_max_476x317.jpeg"
     },
     {
       "address": "United House, 170 Elland Road, Leeds, LS11 8BU (Leeds)",
@@ -288,23 +288,23 @@
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/9aee77fe5/169014953/9aee77fe591fe74e34574f9c3332c759_max_476x317.jpeg"
     },
     {
-      "address": "1 City West Gelderd Road, Leeds, LS12 6NJ (Leeds)",
-      "priceDisplay": "£995,000 Offers in Region of",
-      "priceAmount": 995000,
-      "sizeLabel": "550–9,210 sq. ft.",
-      "sizeSqft": 9210,
+      "address": "Hawthorn Park, Coal Road, Whinmoor, Leeds (Leeds)",
+      "priceDisplay": "£900,000",
+      "priceAmount": 900000,
+      "sizeLabel": "6,800 sq. ft.",
+      "sizeSqft": 6800,
       "source": "Rightmove Commercial",
       "requirement": "Citywide Investors",
       "score": 2,
       "reasons": [
         "geography \"Leeds Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
-        "price 995000 within budget 500000-2000000",
+        "price 900000 within budget 500000-2000000",
         "keyword hit \"freehold\""
       ],
-      "url": "https://www.rightmove.co.uk/properties/762214045440304#/?channel=COM_BUY",
-      "agent": "Sanderson Weatherall, Leeds",
+      "url": "https://www.rightmove.co.uk/properties/758741004284305#/?channel=COM_BUY",
+      "agent": "NABARRO MCALLISTER & CO LIMITED, Leeds",
       "propertyType": "Office",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/1ca8cf052/762214045440304/1ca8cf0522a946338410b68c580339b3_max_476x317.jpeg"
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/dcdc78950/758741004284305/dcdc78950697ee0b00fc6cb8fd4161bf_max_476x317.jpeg"
     },
     {
       "address": "Pavilion Court, Green Lane, Garforth, Leeds, LS25 2AF (Leeds)",
@@ -324,25 +324,6 @@
       "agent": "Carter Towler, Leeds",
       "propertyType": "Office",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/057efae51/88691562/057efae51c4f02db5a0d48967379b654_max_476x317.jpeg"
-    },
-    {
-      "address": "Hawthorn Park, Coal Road, Whinmoor, Leeds (Leeds)",
-      "priceDisplay": "£900,000",
-      "priceAmount": 900000,
-      "sizeLabel": "6,800 sq. ft.",
-      "sizeSqft": 6800,
-      "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
-      "score": 2,
-      "reasons": [
-        "geography \"Leeds Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
-        "price 900000 within budget 500000-2000000",
-        "keyword hit \"freehold\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/758741004284305#/?channel=COM_BUY",
-      "agent": "NABARRO MCALLISTER & CO LIMITED, Leeds",
-      "propertyType": "Office",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/dcdc78950/758741004284305/dcdc78950697ee0b00fc6cb8fd4161bf_max_476x317.jpeg"
     },
     {
       "address": "Oxford Chambers, Oxford Place, Leeds, LS1 3AX (Leeds)",
@@ -478,6 +459,25 @@
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/fb230e113/760575595098784/fb230e1130f25719eb3d77c4f5986342_max_476x317.jpeg"
     },
     {
+      "address": "Post Office, High Street, Wetherby, Leeds (Leeds)",
+      "priceDisplay": "£595,000 Guide Price",
+      "priceAmount": 595000,
+      "sizeLabel": "2,141 sq. ft.",
+      "sizeSqft": 2141,
+      "source": "Rightmove Commercial",
+      "requirement": "Citywide Investors",
+      "score": 2,
+      "reasons": [
+        "geography \"Leeds Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
+        "price 595000 within budget 500000-2000000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/762347564791921#/?channel=COM_BUY",
+      "agent": "Malcolm Stuart Property Consultants LLP, Tadcaster",
+      "propertyType": "Mixed Use",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/883dd9698/762347564791921/883dd96989ce18ea5ec9e3eae3e1ad59_max_476x317.jpeg"
+    },
+    {
       "address": "82 York Road, Leeds, LS9 9AA (Leeds)",
       "priceDisplay": "£595,000",
       "priceAmount": 595000,
@@ -497,61 +497,61 @@
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/8a9410c91/89173143/8a9410c919016b605adec0e35c3b1897_max_476x317.jpeg"
     },
     {
-      "address": "24 Meadowhall Road, Sheffield, South Yorkshire, S9 1BS (Sheffield)",
-      "priceDisplay": "POA",
-      "priceAmount": 1,
-      "sizeLabel": "6,286 sq. ft.",
-      "sizeSqft": 6286,
+      "address": "38-40, 42, 44 And 480 Howard Street, Sheffield, South Yorkshire, S1 2LX (Sheffield)",
+      "priceDisplay": "£1,250,000",
+      "priceAmount": 1250000,
+      "sizeLabel": "6,992 sq. ft.",
+      "sizeSqft": 6992,
       "source": "Rightmove Commercial",
       "requirement": "Educating Excellence",
       "score": 2,
       "reasons": [
         "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
-        "size 6286 >= min 2000",
+        "size 6992 >= min 2000",
         "keyword hit \"freehold\""
       ],
-      "url": "https://www.rightmove.co.uk/properties/760551129667441#/?channel=COM_BUY",
-      "agent": "Flint Real Estate, Doncaster",
-      "propertyType": "Showroom",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/e6a9af0d5/760551129667441/e6a9af0d580de81d08abda8403391405_max_476x317.jpeg"
+      "url": "https://www.rightmove.co.uk/properties/760571799238961#/?channel=COM_BUY",
+      "agent": "Eddisons Commercial Limited, Sheffield",
+      "propertyType": "Shop",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/03b9aab99/760571799238961/03b9aab99180ddb1a89081de621d5b14_max_476x317.jpeg"
     },
     {
-      "address": "Unit 3 Waterside Court, Bold Street, Sheffield, South Yorkshire, S9 2LR (Sheffield)",
-      "priceDisplay": "£650,000 Guide Price",
-      "priceAmount": 650000,
-      "sizeLabel": "",
-      "sizeSqft": null,
-      "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
-      "score": 2,
-      "reasons": [
-        "geography \"Sheffield Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
-        "price 650000 within budget 500000-2000000",
-        "keyword hit \"freehold\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/90471561#/?channel=COM_BUY",
-      "agent": "Auction Estates Ltd, Nottingham",
-      "propertyType": "Office",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/8323ba7bd/90471561/8323ba7bd3e4d387421eaf9137c1e0e2_max_476x317.jpeg"
-    },
-    {
-      "address": "Unit 1 Metis Building, 2 Solly Street, Sheffield, S1 (Sheffield)",
-      "priceDisplay": "£495,000",
-      "priceAmount": 495000,
-      "sizeLabel": "3,850 sq. ft.",
-      "sizeSqft": 3850,
+      "address": "WILSON CARLILE CENTRE, 50 CAVENDISH STREET, SHEFFIELD, YORKSHIRE, S3 (Sheffield)",
+      "priceDisplay": "£3,000,000 Guide Price",
+      "priceAmount": 3000000,
+      "sizeLabel": "22,881 sq. ft.",
+      "sizeSqft": 22881,
       "source": "Rightmove Commercial",
       "requirement": "Educating Excellence",
       "score": 2,
       "reasons": [
         "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
-        "size 3850 >= min 2000",
-        "keyword hit \"office\""
+        "size 22881 >= min 2000",
+        "keyword hit \"freehold\""
       ],
-      "url": "https://www.rightmove.co.uk/properties/756215561406961#/?channel=COM_BUY",
-      "agent": "Leaworks Ltd, Sheffield",
-      "propertyType": "Office",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/1f385bebc/756215561406961/1f385bebcbe8b4efcc615a97b3a9e821_max_476x317.jpeg"
+      "url": "https://www.rightmove.co.uk/properties/760730285095312#/?channel=COM_BUY",
+      "agent": "Bruton Knowles, Gloucester",
+      "propertyType": "Commercial Development",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/273f88b2b/760730285095312/273f88b2b4956c379362caa1b49e4492_max_476x317.jpeg"
+    },
+    {
+      "address": "Lifestyle House 2 Melbourne Avenue, Sheffield, S10 2QH (Sheffield)",
+      "priceDisplay": "£1,500,000 Offers in Excess of",
+      "priceAmount": 1500000,
+      "sizeLabel": "17,685 sq. ft.",
+      "sizeSqft": 17685,
+      "source": "Rightmove Commercial",
+      "requirement": "Educating Excellence",
+      "score": 2,
+      "reasons": [
+        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "size 17685 >= min 2000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/698589255316017#/?channel=COM_BUY",
+      "agent": "Sanderson Weatherall, Leeds",
+      "propertyType": "Residential Development",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/8e4effead/698589255316017/8e4effeadd58619fb87b725d6b7274a5_max_476x317.jpeg"
     },
     {
       "address": "Endeavour, Sheffield Digital Campus, Sheffield, South Yorkshire, S1 (Sheffield)",
@@ -609,25 +609,6 @@
       "agent": "Eddisons Commercial Limited, Sheffield",
       "propertyType": "Office",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/49fd8d0d6/760571878944801/49fd8d0d64bc29e79c2bf65909b4f76b_max_476x317.jpeg"
-    },
-    {
-      "address": "WILSON CARLILE CENTRE, 50 CAVENDISH STREET, SHEFFIELD, YORKSHIRE, S3 (Sheffield)",
-      "priceDisplay": "£3,000,000 Guide Price",
-      "priceAmount": 3000000,
-      "sizeLabel": "22,881 sq. ft.",
-      "sizeSqft": 22881,
-      "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
-      "score": 2,
-      "reasons": [
-        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
-        "size 22881 >= min 2000",
-        "keyword hit \"freehold\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/760730285095312#/?channel=COM_BUY",
-      "agent": "Bruton Knowles, Gloucester",
-      "propertyType": "Commercial Development",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/273f88b2b/760730285095312/273f88b2b4956c379362caa1b49e4492_max_476x317.jpeg"
     },
     {
       "address": "Pheasant Works, Surbiton Street, Sheffield, South Yorkshire, S9 5AQ (Sheffield)",
@@ -763,44 +744,6 @@
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/410f828e4/760015858866432/410f828e4da175e84aeef58fa288b22c_max_476x317.jpeg"
     },
     {
-      "address": "Lifestyle House 2 Melbourne Avenue, Sheffield, S10 2QH (Sheffield)",
-      "priceDisplay": "£1,500,000 Offers in Excess of",
-      "priceAmount": 1500000,
-      "sizeLabel": "17,685 sq. ft.",
-      "sizeSqft": 17685,
-      "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
-      "score": 2,
-      "reasons": [
-        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
-        "size 17685 >= min 2000",
-        "keyword hit \"freehold\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/698589255316017#/?channel=COM_BUY",
-      "agent": "Sanderson Weatherall, Leeds",
-      "propertyType": "Residential Development",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/8e4effead/698589255316017/8e4effeadd58619fb87b725d6b7274a5_max_476x317.jpeg"
-    },
-    {
-      "address": "38-40, 42, 44 And 480 Howard Street, Sheffield, South Yorkshire, S1 2LX (Sheffield)",
-      "priceDisplay": "£1,250,000",
-      "priceAmount": 1250000,
-      "sizeLabel": "6,992 sq. ft.",
-      "sizeSqft": 6992,
-      "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
-      "score": 2,
-      "reasons": [
-        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
-        "size 6992 >= min 2000",
-        "keyword hit \"freehold\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/760571799238961#/?channel=COM_BUY",
-      "agent": "Eddisons Commercial Limited, Sheffield",
-      "propertyType": "Shop",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/03b9aab99/760571799238961/03b9aab99180ddb1a89081de621d5b14_max_476x317.jpeg"
-    },
-    {
       "address": "386 Coleridge Road, Sheffield, S9 (Sheffield)",
       "priceDisplay": "POA",
       "priceAmount": 1250000,
@@ -820,25 +763,6 @@
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/c1333e094/754599957448257/c1333e09426c56dbad0a96f7983ff0d4_max_476x317.jpeg"
     },
     {
-      "address": "Waverley Works, Effingham Street, Sheffield,  Waverley Works, Effingham Street, Sheffield (Sheffield)",
-      "priceDisplay": "£1,000,000 Guide Price",
-      "priceAmount": 1000000,
-      "sizeLabel": "35,000 sq. ft.",
-      "sizeSqft": 35000,
-      "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
-      "score": 2,
-      "reasons": [
-        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
-        "size 35000 >= min 2000",
-        "keyword hit \"office\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/746606427835057#/?channel=COM_BUY",
-      "agent": "Savills, Savills Auctions- Commercial",
-      "propertyType": "Mixed Use",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/1fc76274f/746606427835057/1fc76274f47b908314f0847aa8081e80_max_476x317.jpeg"
-    },
-    {
       "address": "Gilbertson Works, Jessell Street, Sheffield, South Yorkshire, S9 3HY (Sheffield)",
       "priceDisplay": "£1,000,000",
       "priceAmount": 1000000,
@@ -856,6 +780,25 @@
       "agent": "Commercial Property Partners Ltd, Sheffield",
       "propertyType": "Light Industrial",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/fc4625602/759300316797680/fc462560201f60e47d7103f11a008cee_max_476x317.jpeg"
+    },
+    {
+      "address": "Waverley Works, Effingham Street, Sheffield,  Waverley Works, Effingham Street, Sheffield (Sheffield)",
+      "priceDisplay": "£1,000,000 Guide Price",
+      "priceAmount": 1000000,
+      "sizeLabel": "35,000 sq. ft.",
+      "sizeSqft": 35000,
+      "source": "Rightmove Commercial",
+      "requirement": "Educating Excellence",
+      "score": 2,
+      "reasons": [
+        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "size 35000 >= min 2000",
+        "keyword hit \"office\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/746606427835057#/?channel=COM_BUY",
+      "agent": "Savills, Savills Auctions- Commercial",
+      "propertyType": "Mixed Use",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/1fc76274f/746606427835057/1fc76274f47b908314f0847aa8081e80_max_476x317.jpeg"
     },
     {
       "address": "Brightside Lane, Sheffield, S9 (Sheffield)",
@@ -953,6 +896,25 @@
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/60b8ad7b1/754599953229873/60b8ad7b1539c73f4bf1c0f767e663a2_max_476x317.jpeg"
     },
     {
+      "address": "Unit 1 Metis Building, 2 Solly Street, Sheffield, S1 (Sheffield)",
+      "priceDisplay": "£495,000",
+      "priceAmount": 495000,
+      "sizeLabel": "3,850 sq. ft.",
+      "sizeSqft": 3850,
+      "source": "Rightmove Commercial",
+      "requirement": "Educating Excellence",
+      "score": 2,
+      "reasons": [
+        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "size 3850 >= min 2000",
+        "keyword hit \"office\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/756215561406961#/?channel=COM_BUY",
+      "agent": "Leaworks Ltd, Sheffield",
+      "propertyType": "Office",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/1f385bebc/756215561406961/1f385bebcbe8b4efcc615a97b3a9e821_max_476x317.jpeg"
+    },
+    {
       "address": "Woodside Works, Rugby Street, Sheffield, S3 9QH (Sheffield)",
       "priceDisplay": "£895,000",
       "priceAmount": 895000,
@@ -1008,6 +970,25 @@
       "agent": "Crosthwaite Commercial Limited, Sheffield",
       "propertyType": "Mixed Use",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/bfa9f1a89/752251579336977/bfa9f1a890302fbc2c05f8ba17c060e6_max_476x317.jpeg"
+    },
+    {
+      "address": "Unit 3 Waterside Court, Bold Street, Sheffield, South Yorkshire, S9 2LR (Sheffield)",
+      "priceDisplay": "£650,000 Guide Price",
+      "priceAmount": 650000,
+      "sizeLabel": "",
+      "sizeSqft": null,
+      "source": "Rightmove Commercial",
+      "requirement": "Citywide Investors",
+      "score": 2,
+      "reasons": [
+        "geography \"Sheffield Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
+        "price 650000 within budget 500000-2000000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/90471561#/?channel=COM_BUY",
+      "agent": "Auction Estates Ltd, Nottingham",
+      "propertyType": "Office",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/8323ba7bd/90471561/8323ba7bd3e4d387421eaf9137c1e0e2_max_476x317.jpeg"
     },
     {
       "address": "Kayedee Premises, Stamford Street, Newhall Road Trading Estate, Sheffield, S9 2TX (Sheffield)",
@@ -1181,6 +1162,25 @@
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/3d7b7317a/744622056476753/3d7b7317a5b0e706e9561322bb2b6887_max_476x317.jpeg"
     },
     {
+      "address": "24 Meadowhall Road, Sheffield, South Yorkshire, S9 1BS (Sheffield)",
+      "priceDisplay": "POA",
+      "priceAmount": 1,
+      "sizeLabel": "6,286 sq. ft.",
+      "sizeSqft": 6286,
+      "source": "Rightmove Commercial",
+      "requirement": "Educating Excellence",
+      "score": 2,
+      "reasons": [
+        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "size 6286 >= min 2000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/760551129667441#/?channel=COM_BUY",
+      "agent": "Flint Real Estate, Doncaster",
+      "propertyType": "Showroom",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/e6a9af0d5/760551129667441/e6a9af0d580de81d08abda8403391405_max_476x317.jpeg"
+    },
+    {
       "address": "44 Bank Street, Sheffield, South Yorkshire, S1 2DS (Sheffield)",
       "priceDisplay": "£300,000",
       "priceAmount": 300000,
@@ -1276,80 +1276,23 @@
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/92fc8e732/758018570995760/92fc8e7328b338f0a963100c4671926b_max_476x317.jpeg"
     },
     {
-      "address": "Pennine House, 35a Business Park, Churchill Way, Ecclesfield, Sheffield, S35 (Sheffield)",
+      "address": "Unit 3, President Way, President Park Sheffield, S4 7UR (Sheffield)",
       "priceDisplay": "POA",
       "priceAmount": 1,
-      "sizeLabel": "9,360 sq. ft.",
-      "sizeSqft": 9360,
+      "sizeLabel": "12,413 sq. ft.",
+      "sizeSqft": 12413,
       "source": "Rightmove Commercial",
       "requirement": "Educating Excellence",
       "score": 2,
       "reasons": [
         "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
-        "size 9360 >= min 2000",
-        "keyword hit \"church\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/157397378#/?channel=COM_BUY",
-      "agent": "Knight Frank, Sheffield",
-      "propertyType": "Office",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/b5436d519/157397378/b5436d519b92ab0685bb13d1dee204f0_max_476x317.jpeg"
-    },
-    {
-      "address": "CORE Sheffield, Shepcote Lane, Sheffield, South Yorkshire, S9 1TP (Sheffield)",
-      "priceDisplay": "POA",
-      "priceAmount": 1,
-      "sizeLabel": "367,935 sq. ft.",
-      "sizeSqft": 367935,
-      "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
-      "score": 2,
-      "reasons": [
-        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
-        "size 367935 >= min 2000",
+        "size 12413 >= min 2000",
         "keyword hit \"freehold\""
       ],
-      "url": "https://www.rightmove.co.uk/properties/759291900865216#/?channel=COM_BUY",
-      "agent": "Commercial Property Partners Ltd, Sheffield",
-      "propertyType": "Light Industrial",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/af48af030/759291900865216/af48af03053f1d03555854cd7ed6fee8_max_476x317.jpeg"
-    },
-    {
-      "address": "Yards C And D, Old Station Drive, Millhouses, Sheffield, S7 2PY (Sheffield)",
-      "priceDisplay": "POA",
-      "priceAmount": 1,
-      "sizeLabel": "10,890 sq. ft.",
-      "sizeSqft": 10890,
-      "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
-      "score": 2,
-      "reasons": [
-        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
-        "size 10890 >= min 2000",
-        "keyword hit \"freehold\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/760571922917472#/?channel=COM_BUY",
-      "agent": "Eddisons Commercial Limited, Sheffield",
-      "propertyType": "Warehouse",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/f18f2642a/760571922917472/f18f2642ac3095bdb98cd51d030ca35e_max_476x317.jpeg"
-    },
-    {
-      "address": "160 Solly Street, Sheffield, S1 4BF (Sheffield)",
-      "priceDisplay": "POA",
-      "priceAmount": 1,
-      "sizeLabel": "11,421 sq. ft.",
-      "sizeSqft": 11421,
-      "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
-      "score": 2,
-      "reasons": [
-        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
-        "size 11421 >= min 2000",
-        "keyword hit \"freehold\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/164601068#/?channel=COM_BUY",
+      "url": "https://www.rightmove.co.uk/properties/171086972#/?channel=COM_BUY",
       "agent": "Knight Frank, Sheffield",
       "propertyType": "Distribution Warehouse",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/bdffe613c/164601068/bdffe613cd049276341f52688e742a68_max_476x317.jpeg"
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/9782d775f/171086972/9782d775fbf8739d704678c680541c0d_max_476x317.jpeg"
     },
     {
       "address": "Highfield at Waverley, Highfield Spring, Waverley, Rotherham, S60 (Sheffield)",
@@ -1365,29 +1308,48 @@
         "size 80000 >= min 2000",
         "keyword hit \"freehold\""
       ],
-      "url": "https://www.rightmove.co.uk/properties/168968804#/?channel=COM_BUY",
+      "url": "https://www.rightmove.co.uk/properties/168968636#/?channel=COM_BUY",
       "agent": "Knight Frank, Sheffield",
-      "propertyType": "Distribution Warehouse",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/7a5af7c3e/168968804/7a5af7c3e50bb8a5caf86225da35cbdd_max_476x317.jpeg"
+      "propertyType": "Land",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/7a5af7c3e/168968636/7a5af7c3e50bb8a5caf86225da35cbdd_max_476x317.jpeg"
     },
     {
-      "address": "South West Centre, Troutbeck Road, Sheffield, S8 0JR (Sheffield)",
+      "address": "Advantage House, Poplar Way, Catcliffe, Rotherham, Yorkshire S60 (Sheffield)",
       "priceDisplay": "POA",
       "priceAmount": 1,
-      "sizeLabel": "42,195 sq. ft.",
-      "sizeSqft": 42195,
+      "sizeLabel": "19,873 sq. ft.",
+      "sizeSqft": 19873,
       "source": "Rightmove Commercial",
       "requirement": "Educating Excellence",
       "score": 2,
       "reasons": [
         "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
-        "size 42195 >= min 2000",
+        "size 19873 >= min 2000",
         "keyword hit \"freehold\""
       ],
-      "url": "https://www.rightmove.co.uk/properties/88345509#/?channel=COM_BUY",
-      "agent": "Avison Young (UK) Limited, Land & Development",
+      "url": "https://www.rightmove.co.uk/properties/89589720#/?channel=COM_BUY",
+      "agent": "Knight Frank, Sheffield",
       "propertyType": "Office",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/d8ddf4434/88345509/d8ddf443461bf614a87ebc4ef16b8bff_max_476x317.jpeg"
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/519f9a876/89589720/519f9a876e590baf6bf2cfe782f9f857_max_476x317.jpeg"
+    },
+    {
+      "address": "50, Broadfield Road, Sheffield, S8 0XJ (Sheffield)",
+      "priceDisplay": "POA",
+      "priceAmount": 1,
+      "sizeLabel": "3,546 sq. ft.",
+      "sizeSqft": 3546,
+      "source": "Rightmove Commercial",
+      "requirement": "Educating Excellence",
+      "score": 2,
+      "reasons": [
+        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "size 3546 >= min 2000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/174802055#/?channel=COM_BUY",
+      "agent": "Knight Frank, Sheffield",
+      "propertyType": "Distribution Warehouse",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/15856618d/174802055/15856618d7c1932af388b062f45fe0ea_max_476x317.jpeg"
     },
     {
       "address": "Foundry House, 3 Millsands, Sheffield, South Yorkshire, S3 8NH (Sheffield)",
@@ -1409,42 +1371,61 @@
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/d79572e84/760579667771744/d79572e84d4e8923ac0a36dc22778acc_max_476x317.jpeg"
     },
     {
-      "address": "13 Birley Vale Avenue, Sheffield S12 (Sheffield)",
+      "address": "50, Broadfield Road, Sheffield, S8 0XJ (Sheffield)",
       "priceDisplay": "POA",
       "priceAmount": 1,
-      "sizeLabel": "17,630 sq. ft.",
-      "sizeSqft": 17630,
+      "sizeLabel": "3,546 sq. ft.",
+      "sizeSqft": 3546,
       "source": "Rightmove Commercial",
       "requirement": "Educating Excellence",
       "score": 2,
       "reasons": [
         "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
-        "size 17630 >= min 2000",
+        "size 3546 >= min 2000",
         "keyword hit \"freehold\""
       ],
-      "url": "https://www.rightmove.co.uk/properties/87778536#/?channel=COM_BUY",
+      "url": "https://www.rightmove.co.uk/properties/174801437#/?channel=COM_BUY",
       "agent": "Knight Frank, Sheffield",
-      "propertyType": "Distribution Warehouse",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/22a06c5ef/87778536/22a06c5ef1a16e41f584c3d40f3d8df4_max_476x317.jpeg"
+      "propertyType": "Office",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/15856618d/174801437/15856618d7c1932af388b062f45fe0ea_max_476x317.jpeg"
     },
     {
-      "address": "Milton Street, Sheffield, S3 7UF (Sheffield)",
+      "address": "160 Solly Street, Sheffield, S1 4BF (Sheffield)",
       "priceDisplay": "POA",
       "priceAmount": 1,
-      "sizeLabel": "275,000–350,000 sq. ft.",
-      "sizeSqft": 350000,
+      "sizeLabel": "11,421 sq. ft.",
+      "sizeSqft": 11421,
       "source": "Rightmove Commercial",
       "requirement": "Educating Excellence",
       "score": 2,
       "reasons": [
         "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
-        "size 350000 >= min 2000",
-        "keyword hit \"planning\""
+        "size 11421 >= min 2000",
+        "keyword hit \"freehold\""
       ],
-      "url": "https://www.rightmove.co.uk/properties/759292704103920#/?channel=COM_BUY",
-      "agent": "Commercial Property Partners Ltd, Sheffield",
-      "propertyType": "Residential Development",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/6e4e872de/759292704103920/6e4e872deeb21bb9b98e1cba8e3718f6_max_476x317.jpeg"
+      "url": "https://www.rightmove.co.uk/properties/164601068#/?channel=COM_BUY",
+      "agent": "Knight Frank, Sheffield",
+      "propertyType": "Distribution Warehouse",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/bdffe613c/164601068/bdffe613cd049276341f52688e742a68_max_476x317.jpeg"
+    },
+    {
+      "address": "Athol House, Heart of The City II, Pinstone Street, Sheffield, S1 2HZ (Sheffield)",
+      "priceDisplay": "POA",
+      "priceAmount": 1,
+      "sizeLabel": "968–2,973 sq. ft.",
+      "sizeSqft": 2973,
+      "source": "Rightmove Commercial",
+      "requirement": "Educating Excellence",
+      "score": 2,
+      "reasons": [
+        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "size 2973 >= min 2000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/758217253130032#/?channel=COM_BUY",
+      "agent": "Savills, Leeds Offices",
+      "propertyType": "Office",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/abde0a33a/758217253130032/abde0a33a209961f7c2452e431c96ec1_max_476x317.jpeg"
     },
     {
       "address": "1 Amberley Street, Sheffield, S9 YO26 (Sheffield)",
@@ -1466,23 +1447,42 @@
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/2eebef1a0/151292600/2eebef1a075b11cdb8a21c7a7490b108_max_476x317.jpeg"
     },
     {
-      "address": "Land at Hartington Terrace, Bradford (Bradford)",
-      "priceDisplay": "£40,000 Guide Price",
-      "priceAmount": 40000,
-      "sizeLabel": "2,476 sq. ft.",
-      "sizeSqft": 2476,
+      "address": "South West Centre, Troutbeck Road, Sheffield, S8 0JR (Sheffield)",
+      "priceDisplay": "POA",
+      "priceAmount": 1,
+      "sizeLabel": "42,195 sq. ft.",
+      "sizeSqft": 42195,
       "source": "Rightmove Commercial",
       "requirement": "Educating Excellence",
       "score": 2,
       "reasons": [
-        "geography \"Bradford Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
-        "size 2476 >= min 2000",
+        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "size 42195 >= min 2000",
         "keyword hit \"freehold\""
       ],
-      "url": "https://www.rightmove.co.uk/properties/754780241191488#/?channel=COM_BUY",
-      "agent": "Palace Auctions, London",
-      "propertyType": "Light Industrial",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/2a277b2bb/754780241191488/2a277b2bb55c8ae49638d136ec4f0694_max_476x317.png"
+      "url": "https://www.rightmove.co.uk/properties/88345509#/?channel=COM_BUY",
+      "agent": "Avison Young (UK) Limited, Land & Development",
+      "propertyType": "Office",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/d8ddf4434/88345509/d8ddf443461bf614a87ebc4ef16b8bff_max_476x317.jpeg"
+    },
+    {
+      "address": "13 Birley Vale Avenue, Sheffield S12 (Sheffield)",
+      "priceDisplay": "POA",
+      "priceAmount": 1,
+      "sizeLabel": "17,630 sq. ft.",
+      "sizeSqft": 17630,
+      "source": "Rightmove Commercial",
+      "requirement": "Educating Excellence",
+      "score": 2,
+      "reasons": [
+        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "size 17630 >= min 2000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/87778536#/?channel=COM_BUY",
+      "agent": "Knight Frank, Sheffield",
+      "propertyType": "Distribution Warehouse",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/22a06c5ef/87778536/22a06c5ef1a16e41f584c3d40f3d8df4_max_476x317.jpeg"
     },
     {
       "address": "No.1 Midpoint Business Park, 1 Mid Point, Thornbury, Bradford, BD3 7AY (Bradford)",
@@ -1502,6 +1502,44 @@
       "agent": "Northcap, Leeds",
       "propertyType": "Office",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/3d58e68e7/89501259/3d58e68e76db59e0202af0a88974b17a_max_476x317.jpeg"
+    },
+    {
+      "address": "19 Bridge Street, Bradford, BD1 1JE (Bradford)",
+      "priceDisplay": "£750,000",
+      "priceAmount": 750000,
+      "sizeLabel": "11,356 sq. ft.",
+      "sizeSqft": 11356,
+      "source": "Rightmove Commercial",
+      "requirement": "Educating Excellence",
+      "score": 2,
+      "reasons": [
+        "geography \"Bradford Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "size 11356 >= min 2000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/89729277#/?channel=COM_BUY",
+      "agent": "Christo & Co, London, London",
+      "propertyType": "Retail Property (high street)",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/a12c2198f/89729277/a12c2198fbba28d18bf6bf04d87f9e1e_max_476x317.jpeg"
+    },
+    {
+      "address": "Land at Hartington Terrace, Bradford (Bradford)",
+      "priceDisplay": "£40,000 Guide Price",
+      "priceAmount": 40000,
+      "sizeLabel": "2,476 sq. ft.",
+      "sizeSqft": 2476,
+      "source": "Rightmove Commercial",
+      "requirement": "Educating Excellence",
+      "score": 2,
+      "reasons": [
+        "geography \"Bradford Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "size 2476 >= min 2000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/754780241191488#/?channel=COM_BUY",
+      "agent": "Palace Auctions, London",
+      "propertyType": "Light Industrial",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/2a277b2bb/754780241191488/2a277b2bb55c8ae49638d136ec4f0694_max_476x317.png"
     },
     {
       "address": "Futures Way, Off Bolling Road, Bradford, West Yorkshire, BD4 7EB (Bradford)",
@@ -1597,25 +1635,6 @@
       "agent": "Dove Haigh Phillips LLP, Leeds",
       "propertyType": "Light Industrial",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/8f6d56e61/722868265035712/8f6d56e61282a8d64224f7904ffa00ed_max_476x317.jpeg"
-    },
-    {
-      "address": "19 Bridge Street, Bradford, BD1 1JE (Bradford)",
-      "priceDisplay": "£750,000",
-      "priceAmount": 750000,
-      "sizeLabel": "11,356 sq. ft.",
-      "sizeSqft": 11356,
-      "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
-      "score": 2,
-      "reasons": [
-        "geography \"Bradford Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
-        "size 11356 >= min 2000",
-        "keyword hit \"freehold\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/89729277#/?channel=COM_BUY",
-      "agent": "Christo & Co, London, London",
-      "propertyType": "Retail Property (high street)",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/a12c2198f/89729277/a12c2198fbba28d18bf6bf04d87f9e1e_max_476x317.jpeg"
     },
     {
       "address": "Onward House, 2 Baptist Place, Bradford, West Yorkshire (Bradford)",
@@ -1732,6 +1751,25 @@
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/f5d390ced/746607883263889/f5d390cedb54518bbb1cb70f7d3d10ed_max_476x317.jpeg"
     },
     {
+      "address": "221 Sunbridge Road, Bradford, BD1 2LG (Bradford)",
+      "priceDisplay": "POA",
+      "priceAmount": 1,
+      "sizeLabel": "16,165 sq. ft.",
+      "sizeSqft": 16165,
+      "source": "Rightmove Commercial",
+      "requirement": "Educating Excellence",
+      "score": 2,
+      "reasons": [
+        "geography \"Bradford Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "size 16165 >= min 2000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/760557421122001#/?channel=COM_BUY",
+      "agent": "Eddisons Commercial Limited, Bradford",
+      "propertyType": "Warehouse",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/56d3bdb84/760557421122001/56d3bdb842519549a769c5915a5a8959_max_476x317.jpeg"
+    },
+    {
       "address": "4-11 Station Mills, Station Road, Wyke, Bradford, BD12 8LA (Bradford)",
       "priceDisplay": "POA",
       "priceAmount": 1,
@@ -1768,25 +1806,6 @@
       "agent": "Eddisons Commercial Limited, Bradford",
       "propertyType": "Warehouse",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/d5d3916c7/760557131759280/d5d3916c782d772df4ac41d685d3b091_max_476x317.jpeg"
-    },
-    {
-      "address": "221 Sunbridge Road, Bradford, BD1 2LG (Bradford)",
-      "priceDisplay": "POA",
-      "priceAmount": 1,
-      "sizeLabel": "16,165 sq. ft.",
-      "sizeSqft": 16165,
-      "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
-      "score": 2,
-      "reasons": [
-        "geography \"Bradford Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
-        "size 16165 >= min 2000",
-        "keyword hit \"freehold\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/760557421122001#/?channel=COM_BUY",
-      "agent": "Eddisons Commercial Limited, Bradford",
-      "propertyType": "Warehouse",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/56d3bdb84/760557421122001/56d3bdb842519549a769c5915a5a8959_max_476x317.jpeg"
     },
     {
       "address": "Unit 3 Interchange 26, Junction 26 M62, Cliff Hollins Lane, Cleckheaton, Bradford, BD12 7EZ (Bradford)",
@@ -2226,23 +2245,23 @@
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/7ff3c7b87/90530232/7ff3c7b8706660e94d8dbc5af9dcfd69_max_476x317.jpeg"
     },
     {
-      "address": "Unit 1 and 2, Moho, Arundel Street, Manchester, M15 4JY (Manchester)",
-      "priceDisplay": "£650,000",
-      "priceAmount": 650000,
-      "sizeLabel": "4,047 sq. ft.",
-      "sizeSqft": 4047,
+      "address": "Sherborne Street, Manchester (Manchester)",
+      "priceDisplay": "POA",
+      "priceAmount": 5500000,
+      "sizeLabel": "80,000 sq. ft.",
+      "sizeSqft": 80000,
       "source": "Rightmove Commercial",
       "requirement": "Educating Excellence",
       "score": 2,
       "reasons": [
         "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
-        "size 4047 >= min 2000",
-        "keyword hit \"office\""
+        "size 80000 >= min 2000",
+        "keyword hit \"freehold\""
       ],
-      "url": "https://www.rightmove.co.uk/properties/90799932#/?channel=COM_BUY",
-      "agent": "Shape and Sate, Manchester",
-      "propertyType": "Retail Property (high street)",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/26aa3822f/90799932/26aa3822f00942f08aa0fad62a572d2b_max_476x317.jpeg"
+      "url": "https://www.rightmove.co.uk/properties/738315773469473#/?channel=COM_BUY",
+      "agent": "Citrus Commercial Circle, Manchester",
+      "propertyType": "Light Industrial",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/5a7c8ea2a/738315773469473/5a7c8ea2ad50e2563220e185a6386797_max_476x317.png"
     },
     {
       "address": "Briscoe Lane, Manchester, M40 (Manchester)",
@@ -2262,6 +2281,25 @@
       "agent": "Citrus Commercial Circle, Manchester",
       "propertyType": "Light Industrial",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/f75881295/749898455249585/f758812951cab9a58572fa56bfd28e93_max_476x317.png"
+    },
+    {
+      "address": "51-53 Richmond Street, Manchester, Lancashire, M1 3WB (Manchester)",
+      "priceDisplay": "£675,000 Offers in Region of",
+      "priceAmount": 675000,
+      "sizeLabel": "",
+      "sizeSqft": null,
+      "source": "Rightmove Commercial",
+      "requirement": "Citywide Investors",
+      "score": 2,
+      "reasons": [
+        "geography \"Manchester Greater Manchester\" in Citywide Investors territory (prescoped — not scored)",
+        "price 675000 within budget 500000-2000000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/162129293#/?channel=COM_BUY",
+      "agent": "Landwood Group, Manchester",
+      "propertyType": "Residential Development",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/6cdeef6d7/162129293/6cdeef6d76c8523464b20c7eb61fc035_max_476x317.jpeg"
     },
     {
       "address": "Wakefield House, 7-13 New Wakefield Street, Manchester, Greater Manchester, M1 5NP (Manchester)",
@@ -2319,25 +2357,6 @@
       "agent": "Di Properties Ltd, London",
       "propertyType": "Residential Development",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/4b6bfce8b/161828498/4b6bfce8b4f4bb4f9b1e4da78ff7397a_max_476x317.png"
-    },
-    {
-      "address": "Sherborne Street, Manchester (Manchester)",
-      "priceDisplay": "POA",
-      "priceAmount": 5500000,
-      "sizeLabel": "80,000 sq. ft.",
-      "sizeSqft": 80000,
-      "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
-      "score": 2,
-      "reasons": [
-        "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
-        "size 80000 >= min 2000",
-        "keyword hit \"freehold\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/738315773469473#/?channel=COM_BUY",
-      "agent": "Citrus Commercial Circle, Manchester",
-      "propertyType": "Light Industrial",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/5a7c8ea2a/738315773469473/5a7c8ea2ad50e2563220e185a6386797_max_476x317.png"
     },
     {
       "address": "Seaford Road, Manchester M6 (Manchester)",
@@ -2492,25 +2511,6 @@
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/b78579fd0/88701666/b78579fd00cfe95e8e643b8ac2e9af96_max_476x317.jpeg"
     },
     {
-      "address": "Unit 5, Brightgate Way, Trafford Park, M32 0TB (Manchester)",
-      "priceDisplay": "POA",
-      "priceAmount": 1300000,
-      "sizeLabel": "6,520 sq. ft.",
-      "sizeSqft": 6520,
-      "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
-      "score": 2,
-      "reasons": [
-        "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
-        "size 6520 >= min 2000",
-        "keyword hit \"freehold\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/173747120#/?channel=COM_BUY",
-      "agent": "B8 Real Estate LLP, Warrington",
-      "propertyType": "Warehouse",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/f27b77c9b/173747120/f27b77c9bfe2cf0872cd6f3b4cbc8068_max_476x317.jpeg"
-    },
-    {
       "address": "Stretford Road, Hulme, Manchester, M15 (Manchester)",
       "priceDisplay": "£1,300,000",
       "priceAmount": 1300000,
@@ -2528,6 +2528,25 @@
       "agent": "Citrus Commercial Circle, Manchester",
       "propertyType": "Residential Development",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/e2f2c950f/751658404128465/e2f2c950f9447e657ae08cfa528c95c3_max_476x317.png"
+    },
+    {
+      "address": "Unit 5, Brightgate Way, Trafford Park, M32 0TB (Manchester)",
+      "priceDisplay": "POA",
+      "priceAmount": 1300000,
+      "sizeLabel": "6,520 sq. ft.",
+      "sizeSqft": 6520,
+      "source": "Rightmove Commercial",
+      "requirement": "Educating Excellence",
+      "score": 2,
+      "reasons": [
+        "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
+        "size 6520 >= min 2000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/173747120#/?channel=COM_BUY",
+      "agent": "B8 Real Estate LLP, Warrington",
+      "propertyType": "Warehouse",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/f27b77c9b/173747120/f27b77c9bfe2cf0872cd6f3b4cbc8068_max_476x317.jpeg"
     },
     {
       "address": "496, 496a and 496b Wilbraham Road, Manchester, Greater Manchester, M21 (Manchester)",
@@ -2568,42 +2587,23 @@
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/3cb2e08ce/173477042/3cb2e08ce22d120c85be3f55e38d6d64_max_476x317.jpeg"
     },
     {
-      "address": "4 The Stables, Wilmslow Road, Parrs Wood, East Didsbury, M20 5PG (Manchester)",
-      "priceDisplay": "£525,000",
-      "priceAmount": 525000,
-      "sizeLabel": "1,319 sq. ft.",
-      "sizeSqft": 1319,
-      "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
-      "score": 2,
-      "reasons": [
-        "geography \"Manchester Greater Manchester\" in Citywide Investors territory (prescoped — not scored)",
-        "price 525000 within budget 500000-2000000",
-        "keyword hit \"freehold\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/171599399#/?channel=COM_BUY",
-      "agent": "Williams Sillitoe, Cheshire",
-      "propertyType": "Office",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/734e99007/171599399/734e9900746460d2132ee3796d9cf76c_max_476x317.jpeg"
-    },
-    {
-      "address": "498-500 Wilbraham Road, Manchester, M21 9AP (Manchester)",
-      "priceDisplay": "£985,000",
-      "priceAmount": 985000,
-      "sizeLabel": "5,266 sq. ft.",
-      "sizeSqft": 5266,
+      "address": "Broughton Street, Manchester, Greater Manchester, M8 (Manchester)",
+      "priceDisplay": "£675,000 Offers in Excess of",
+      "priceAmount": 675000,
+      "sizeLabel": "8,500 sq. ft.",
+      "sizeSqft": 8500,
       "source": "Rightmove Commercial",
       "requirement": "Educating Excellence",
       "score": 2,
       "reasons": [
         "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
-        "size 5266 >= min 2000",
+        "size 8500 >= min 2000",
         "keyword hit \"freehold\""
       ],
-      "url": "https://www.rightmove.co.uk/properties/90799563#/?channel=COM_BUY",
-      "agent": "Shape and Sate, Manchester",
-      "propertyType": "Leisure Facility",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/9b9a3e051/90799563/9b9a3e0515f5c57728f2ccd989617c49_max_476x317.jpeg"
+      "url": "https://www.rightmove.co.uk/properties/756213044978816#/?channel=COM_BUY",
+      "agent": "NQ Commercial Limited, Manchester",
+      "propertyType": "Commercial Property",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/034887b62/756213044978816/034887b62ff788d051a28fa026bce8c3_max_476x317.jpeg"
     },
     {
       "address": "Land At New Viaduct Street And 266 Bradford Road, Manchester, Greater Manchester (Manchester)",
@@ -2625,25 +2625,6 @@
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/2cfc232fe/760768027462464/2cfc232fe7400d55e55652fa47d510f9_max_476x317.jpeg"
     },
     {
-      "address": "Unit D2, Meadowbank Business Park, Tweedle Way, Oldham, OL9 8EH (Manchester)",
-      "priceDisplay": "£1,000,000",
-      "priceAmount": 1000000,
-      "sizeLabel": "7,615 sq. ft.",
-      "sizeSqft": 7615,
-      "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
-      "score": 2,
-      "reasons": [
-        "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
-        "size 7615 >= min 2000",
-        "keyword hit \"freehold\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/170286875#/?channel=COM_BUY",
-      "agent": "MBRE, Stockport",
-      "propertyType": "Distribution Warehouse",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/b611d9dea/170286875/b611d9dea65aa55eeb790721ea62e5b3_max_476x317.jpeg"
-    },
-    {
       "address": "Ground Floor (East Wing) Victoria Mill, 10 Lower Vickers Street, Manchester, Manchester, M40 7LH (Manchester)",
       "priceDisplay": "£1,000,000 Offers in Region of",
       "priceAmount": 1000000,
@@ -2661,6 +2642,25 @@
       "agent": "Landwood Group, Manchester",
       "propertyType": "Commercial Property",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/111e55f9f/167035448/111e55f9f02031795d4ab5c68d8acc05_max_476x317.jpeg"
+    },
+    {
+      "address": "Unit D2, Meadowbank Business Park, Tweedle Way, Oldham, OL9 8EH (Manchester)",
+      "priceDisplay": "£1,000,000",
+      "priceAmount": 1000000,
+      "sizeLabel": "7,615 sq. ft.",
+      "sizeSqft": 7615,
+      "source": "Rightmove Commercial",
+      "requirement": "Educating Excellence",
+      "score": 2,
+      "reasons": [
+        "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
+        "size 7615 >= min 2000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/170286875#/?channel=COM_BUY",
+      "agent": "MBRE, Stockport",
+      "propertyType": "Distribution Warehouse",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/b611d9dea/170286875/b611d9dea65aa55eeb790721ea62e5b3_max_476x317.jpeg"
     },
     {
       "address": "22 Oxford Court, Manchester, M2 3WQ (Manchester)",
@@ -2718,6 +2718,25 @@
       "agent": "Canning O'Neill, Manchester",
       "propertyType": "Office",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/fff17ec2a/89204469/fff17ec2a4e6fcf5b4af366862d63c6b_max_476x317.jpeg"
+    },
+    {
+      "address": "498-500 Wilbraham Road, Manchester, M21 9AP (Manchester)",
+      "priceDisplay": "£985,000",
+      "priceAmount": 985000,
+      "sizeLabel": "5,266 sq. ft.",
+      "sizeSqft": 5266,
+      "source": "Rightmove Commercial",
+      "requirement": "Educating Excellence",
+      "score": 2,
+      "reasons": [
+        "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
+        "size 5266 >= min 2000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/90799563#/?channel=COM_BUY",
+      "agent": "Shape and Sate, Manchester",
+      "propertyType": "Leisure Facility",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/9b9a3e051/90799563/9b9a3e0515f5c57728f2ccd989617c49_max_476x317.jpeg"
     },
     {
       "address": "Units 1-4, Hadfield House, Gordon Street, Stockport, SK4 1RR (Manchester)",
@@ -2834,42 +2853,23 @@
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/aa41ff255/752027355996960/aa41ff25550dfda81610f039ea3a3fc1_max_476x317.jpeg"
     },
     {
-      "address": "51-53 Richmond Street, Manchester, Lancashire, M1 3WB (Manchester)",
-      "priceDisplay": "£675,000 Offers in Region of",
-      "priceAmount": 675000,
-      "sizeLabel": "",
-      "sizeSqft": null,
-      "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
-      "score": 2,
-      "reasons": [
-        "geography \"Manchester Greater Manchester\" in Citywide Investors territory (prescoped — not scored)",
-        "price 675000 within budget 500000-2000000",
-        "keyword hit \"freehold\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/162129293#/?channel=COM_BUY",
-      "agent": "Landwood Group, Manchester",
-      "propertyType": "Residential Development",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/6cdeef6d7/162129293/6cdeef6d76c8523464b20c7eb61fc035_max_476x317.jpeg"
-    },
-    {
-      "address": "Broughton Street, Manchester, Greater Manchester, M8 (Manchester)",
-      "priceDisplay": "£675,000 Offers in Excess of",
-      "priceAmount": 675000,
-      "sizeLabel": "8,500 sq. ft.",
-      "sizeSqft": 8500,
+      "address": "Unit 1 and 2, Moho, Arundel Street, Manchester, M15 4JY (Manchester)",
+      "priceDisplay": "£650,000",
+      "priceAmount": 650000,
+      "sizeLabel": "4,047 sq. ft.",
+      "sizeSqft": 4047,
       "source": "Rightmove Commercial",
       "requirement": "Educating Excellence",
       "score": 2,
       "reasons": [
         "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
-        "size 8500 >= min 2000",
-        "keyword hit \"freehold\""
+        "size 4047 >= min 2000",
+        "keyword hit \"office\""
       ],
-      "url": "https://www.rightmove.co.uk/properties/756213044978816#/?channel=COM_BUY",
-      "agent": "NQ Commercial Limited, Manchester",
-      "propertyType": "Commercial Property",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/034887b62/756213044978816/034887b62ff788d051a28fa026bce8c3_max_476x317.jpeg"
+      "url": "https://www.rightmove.co.uk/properties/90799932#/?channel=COM_BUY",
+      "agent": "Shape and Sate, Manchester",
+      "propertyType": "Retail Property (high street)",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/26aa3822f/90799932/26aa3822f00942f08aa0fad62a572d2b_max_476x317.jpeg"
     },
     {
       "address": "13 Shaw Road, Heaton Moor, Stockport, SK4 4AG (Manchester)",
@@ -2891,25 +2891,6 @@
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/4a66318ed/162163484/4a66318ed2860a2444b7231b8a0815e6_max_476x317.jpeg"
     },
     {
-      "address": "Belmont Oil Works, Lancashire Hill, Stockport, SK4 1RP (Manchester)",
-      "priceDisplay": "POA",
-      "priceAmount": 300000,
-      "sizeLabel": "6,824 sq. ft.",
-      "sizeSqft": 6824,
-      "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
-      "score": 2,
-      "reasons": [
-        "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
-        "size 6824 >= min 2000",
-        "keyword hit \"freehold\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/158222384#/?channel=COM_BUY",
-      "agent": "MBRE, Stockport",
-      "propertyType": "Distribution Warehouse",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/1ffdd58e2/158222384/1ffdd58e2ae6e596f859932badb513b7_max_476x317.jpeg"
-    },
-    {
       "address": "20 St. Anns Square, Manchester, M2 7HG (Manchester)",
       "priceDisplay": "POA",
       "priceAmount": 1,
@@ -2927,6 +2908,25 @@
       "agent": "Shape and Sate, Manchester",
       "propertyType": "Retail Property (high street)",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/2293eece8/90800277/2293eece849ebf844396601616c7750d_max_476x317.jpeg"
+    },
+    {
+      "address": "4 The Stables, Wilmslow Road, Parrs Wood, East Didsbury, M20 5PG (Manchester)",
+      "priceDisplay": "£525,000",
+      "priceAmount": 525000,
+      "sizeLabel": "1,319 sq. ft.",
+      "sizeSqft": 1319,
+      "source": "Rightmove Commercial",
+      "requirement": "Citywide Investors",
+      "score": 2,
+      "reasons": [
+        "geography \"Manchester Greater Manchester\" in Citywide Investors territory (prescoped — not scored)",
+        "price 525000 within budget 500000-2000000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/171599399#/?channel=COM_BUY",
+      "agent": "Williams Sillitoe, Cheshire",
+      "propertyType": "Office",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/734e99007/171599399/734e9900746460d2132ee3796d9cf76c_max_476x317.jpeg"
     },
     {
       "address": "Whitegate Inn (Beefeater), Broadway, Oldham, OL9 8DW (Manchester)",
@@ -2948,25 +2948,6 @@
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/6664f96aa/763088377470560/6664f96aaf0444d77bb588fb49c5b745_max_476x317.jpeg"
     },
     {
-      "address": "Ashton New Road, Manchester, Greater Manchester, M11 (Manchester)",
-      "priceDisplay": "£625,000",
-      "priceAmount": 625000,
-      "sizeLabel": "5,960 sq. ft.",
-      "sizeSqft": 5960,
-      "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
-      "score": 2,
-      "reasons": [
-        "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
-        "size 5960 >= min 2000",
-        "keyword hit \"development opportunity\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/754785658201873#/?channel=COM_BUY",
-      "agent": "Thomas Willmax Ltd, Sale",
-      "propertyType": "Commercial Development",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/8680232b5/754785658201873/8680232b583a3f3aa4e9ee8fb6da2445_max_476x317.jpeg"
-    },
-    {
       "address": "3 Jordan Street, Manchester M15 (Manchester)",
       "priceDisplay": "£625,000 Offers in Region of",
       "priceAmount": 625000,
@@ -2984,6 +2965,25 @@
       "agent": "Knight Frank, Manchester - Commercial",
       "propertyType": "Office",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/05ab8da7c/90414237/05ab8da7c15f37569549f913205f3dce_max_476x317.jpeg"
+    },
+    {
+      "address": "Ashton New Road, Manchester, Greater Manchester, M11 (Manchester)",
+      "priceDisplay": "£625,000",
+      "priceAmount": 625000,
+      "sizeLabel": "5,960 sq. ft.",
+      "sizeSqft": 5960,
+      "source": "Rightmove Commercial",
+      "requirement": "Educating Excellence",
+      "score": 2,
+      "reasons": [
+        "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
+        "size 5960 >= min 2000",
+        "keyword hit \"development opportunity\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/754785658201873#/?channel=COM_BUY",
+      "agent": "Thomas Willmax Ltd, Sale",
+      "propertyType": "Commercial Development",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/8680232b5/754785658201873/8680232b583a3f3aa4e9ee8fb6da2445_max_476x317.jpeg"
     },
     {
       "address": "Manchester Road, Manchester (Manchester)",
@@ -3138,6 +3138,25 @@
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/2eedfdcbe/759312782239104/2eedfdcbe611cc48d5c5bd09485dce35_max_476x317.jpeg"
     },
     {
+      "address": "Belmont Oil Works, Lancashire Hill, Stockport, SK4 1RP (Manchester)",
+      "priceDisplay": "POA",
+      "priceAmount": 300000,
+      "sizeLabel": "6,824 sq. ft.",
+      "sizeSqft": 6824,
+      "source": "Rightmove Commercial",
+      "requirement": "Educating Excellence",
+      "score": 2,
+      "reasons": [
+        "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
+        "size 6824 >= min 2000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/158222384#/?channel=COM_BUY",
+      "agent": "MBRE, Stockport",
+      "propertyType": "Distribution Warehouse",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/1ffdd58e2/158222384/1ffdd58e2ae6e596f859932badb513b7_max_476x317.jpeg"
+    },
+    {
       "address": "Meadow Industrial Estate, Water Street, Manchester (Manchester)",
       "priceDisplay": "£280,000",
       "priceAmount": 280000,
@@ -3214,44 +3233,6 @@
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/d7cbf4dde/159892385/d7cbf4dde6ea1703935f8290b52d50c5_max_476x317.jpeg"
     },
     {
-      "address": "23 Mawdsley Street, Bolton, BL1 1LL (Bolton)",
-      "priceDisplay": "£375,000 Offers in Region of",
-      "priceAmount": 375000,
-      "sizeLabel": "8,288 sq. ft.",
-      "sizeSqft": 8288,
-      "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
-      "score": 2,
-      "reasons": [
-        "geography \"Bolton Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
-        "size 8288 >= min 2000",
-        "keyword hit \"office\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/760927203609520#/?channel=COM_BUY",
-      "agent": "Turner Westwell Commercial Agents, Chorley",
-      "propertyType": "Leisure Facility",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/bdad80f7c/760927203609520/bdad80f7c783255ed1528492957952a4_max_476x317.jpeg"
-    },
-    {
-      "address": "White Lion Brow, Bolton, BL1 (Bolton)",
-      "priceDisplay": "£325,000 Offers Over",
-      "priceAmount": 325000,
-      "sizeLabel": "25,700 sq. ft.",
-      "sizeSqft": 25700,
-      "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
-      "score": 2,
-      "reasons": [
-        "geography \"Bolton Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
-        "size 25700 >= min 2000",
-        "keyword hit \"planning\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/88636776#/?channel=COM_BUY",
-      "agent": "Miller Metcalfe, Bolton",
-      "propertyType": "Commercial Development",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/caecc7bfa/88636776/caecc7bfab9a2636d36a4766efb1d1cd_max_476x317.jpeg"
-    },
-    {
       "address": "Bridgeman Place Works, Salop Street, Bolton, Lancashire (Bolton)",
       "priceDisplay": "£1,800,000",
       "priceAmount": 1800000,
@@ -3269,25 +3250,6 @@
       "agent": "Fletcher CRE LTD, Bolton",
       "propertyType": "Commercial Development",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/fab0559a2/759313315085665/fab0559a2d8f527db0e386ed69a46ca4_max_476x317.jpeg"
-    },
-    {
-      "address": "Swan  Barristers, 2-4 Churchgate, Bolton, BL1 1HJ (Bolton)",
-      "priceDisplay": "£1,200,000 Offers in Excess of",
-      "priceAmount": 1200000,
-      "sizeLabel": "11,326 sq. ft.",
-      "sizeSqft": 11326,
-      "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
-      "score": 2,
-      "reasons": [
-        "geography \"Bolton Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
-        "size 11326 >= min 2000",
-        "keyword hit \"freehold\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/723062151173152#/?channel=COM_BUY",
-      "agent": "Savills, Manchester - Licensed Leisure",
-      "propertyType": "Pub",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/e55ff7935/723062151173152/e55ff7935545afa86e84f9cad02c5dc1_max_476x317.jpeg"
     },
     {
       "address": "The Swan & Barristers, 2-4 Churchgate, Bolton, BL1 1HJ (Bolton)",
@@ -3309,6 +3271,25 @@
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/9b49a0749/730294920018513/9b49a074989848cee3b7edf142c377d7_max_476x317.jpeg"
     },
     {
+      "address": "Swan  Barristers, 2-4 Churchgate, Bolton, BL1 1HJ (Bolton)",
+      "priceDisplay": "£1,200,000 Offers in Excess of",
+      "priceAmount": 1200000,
+      "sizeLabel": "11,326 sq. ft.",
+      "sizeSqft": 11326,
+      "source": "Rightmove Commercial",
+      "requirement": "Educating Excellence",
+      "score": 2,
+      "reasons": [
+        "geography \"Bolton Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
+        "size 11326 >= min 2000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/723062151173152#/?channel=COM_BUY",
+      "agent": "Savills, Manchester - Licensed Leisure",
+      "propertyType": "Pub",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/e55ff7935/723062151173152/e55ff7935545afa86e84f9cad02c5dc1_max_476x317.jpeg"
+    },
+    {
       "address": "WESTGATE HOUSE, 1 WESTGATE AVENUE, BOLTON, BL1 (Bolton)",
       "priceDisplay": "£850,000",
       "priceAmount": 850000,
@@ -3328,25 +3309,6 @@
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/6d6ccb018/759452932809904/6d6ccb0184831dff8e59c313e535aeea_max_476x317.jpeg"
     },
     {
-      "address": "Red Lion, 1-3 Salford Road, Bolton, BL5 1BJ (Bolton)",
-      "priceDisplay": "£750,000 Offers in Region of",
-      "priceAmount": 750000,
-      "sizeLabel": "35,719 sq. ft.",
-      "sizeSqft": 35719,
-      "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
-      "score": 2,
-      "reasons": [
-        "geography \"Bolton Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
-        "size 35719 >= min 2000",
-        "keyword hit \"freehold\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/757452912626721#/?channel=COM_BUY",
-      "agent": "Savills, Manchester - Licensed Leisure",
-      "propertyType": "Pub",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/f39f58ab5/757452912626721/f39f58ab536f56a29ada93f25842b83b_max_476x317.jpeg"
-    },
-    {
       "address": "Unit 3 & Car Park, 178/200 Lever Street, Bolton, Bolton, Bolton, Lancashire, BL3 6NZ (Bolton)",
       "priceDisplay": "£750,000",
       "priceAmount": 750000,
@@ -3364,6 +3326,25 @@
       "agent": "Lamb & Swift Commercial, Bolton",
       "propertyType": "Light Industrial",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/3cae8174c/760715703659920/3cae8174c016702414b4102d684239e4_max_476x317.jpeg"
+    },
+    {
+      "address": "Red Lion, 1-3 Salford Road, Bolton, BL5 1BJ (Bolton)",
+      "priceDisplay": "£750,000 Offers in Region of",
+      "priceAmount": 750000,
+      "sizeLabel": "35,719 sq. ft.",
+      "sizeSqft": 35719,
+      "source": "Rightmove Commercial",
+      "requirement": "Educating Excellence",
+      "score": 2,
+      "reasons": [
+        "geography \"Bolton Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
+        "size 35719 >= min 2000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/757452912626721#/?channel=COM_BUY",
+      "agent": "Savills, Manchester - Licensed Leisure",
+      "propertyType": "Pub",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/f39f58ab5/757452912626721/f39f58ab536f56a29ada93f25842b83b_max_476x317.jpeg"
     },
     {
       "address": "BEDFORD HOUSE, 60 CHORLEY NEW ROAD , BOLTON, GREATER MANCHESTER, BL1 4DA (Bolton)",
@@ -3423,6 +3404,25 @@
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/18deb02a9/760715670176049/18deb02a917f09a0fb580e389bbd96b1_max_476x317.jpeg"
     },
     {
+      "address": "23 Mawdsley Street, Bolton, BL1 1LL (Bolton)",
+      "priceDisplay": "£375,000 Offers in Region of",
+      "priceAmount": 375000,
+      "sizeLabel": "8,288 sq. ft.",
+      "sizeSqft": 8288,
+      "source": "Rightmove Commercial",
+      "requirement": "Educating Excellence",
+      "score": 2,
+      "reasons": [
+        "geography \"Bolton Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
+        "size 8288 >= min 2000",
+        "keyword hit \"office\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/760927203609520#/?channel=COM_BUY",
+      "agent": "Turner Westwell Commercial Agents, Chorley",
+      "propertyType": "Leisure Facility",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/bdad80f7c/760927203609520/bdad80f7c783255ed1528492957952a4_max_476x317.jpeg"
+    },
+    {
       "address": "179 Chorley New Road, Bolton, Lancashire, BL1 4QZ (Bolton)",
       "priceDisplay": "£365,000",
       "priceAmount": 365000,
@@ -3459,6 +3459,25 @@
       "agent": "Fletcher CRE LTD, Bolton",
       "propertyType": "Office",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/5eb0e6bdd/759313885420993/5eb0e6bdda5583035155a1e10d7714db_max_476x317.jpeg"
+    },
+    {
+      "address": "White Lion Brow, Bolton, BL1 (Bolton)",
+      "priceDisplay": "£325,000 Offers Over",
+      "priceAmount": 325000,
+      "sizeLabel": "25,700 sq. ft.",
+      "sizeSqft": 25700,
+      "source": "Rightmove Commercial",
+      "requirement": "Educating Excellence",
+      "score": 2,
+      "reasons": [
+        "geography \"Bolton Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
+        "size 25700 >= min 2000",
+        "keyword hit \"planning\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/88636776#/?channel=COM_BUY",
+      "agent": "Miller Metcalfe, Bolton",
+      "propertyType": "Commercial Development",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/caecc7bfa/88636776/caecc7bfab9a2636d36a4766efb1d1cd_max_476x317.jpeg"
     },
     {
       "address": "477 Leigh Road, Westhoughton, Bolton, Lancashire, BL5 (Bolton)",
