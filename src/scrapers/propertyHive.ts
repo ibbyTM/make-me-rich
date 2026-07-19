@@ -74,8 +74,19 @@ export interface PropertyHiveSource {
 /** Confirmed PropertyHive sources from the 2026-07-17 discovery batch. */
 export const PROPERTY_HIVE_SOURCES: PropertyHiveSource[] = [
   { name: 'SMC Brownill Vickers', baseUrl: 'https://smcbrownillvickers.com', postType: 'property' },
+  // Added 2026-07-19: probed all 21 curated-directory agents for this same
+  // wp-json/wp/v2/property shape. Confirmed genuine PropertyHive schema
+  // (price_from/floor_area_from/floor_area_units present, real commercial
+  // stock, robots.txt only disallows /wp-admin/) on both of these.
+  { name: 'Gifford Dixon', baseUrl: 'https://gifforddixoncommercialproperty.co.uk', postType: 'property' },
+  { name: 'Shepherd Commercial', baseUrl: 'https://shepcom.com', postType: 'property' },
   // Cardwells also exposes PropertyHive REST but its API carries residential
-  // stock only (verified across all pages 2026-07-17) — not listed here.
+  // stock only (verified across all pages 2026-07-17, re-confirmed 2026-07-19)
+  // — not listed here.
+  // Dacres Commercial and Bradley Hall expose a similar-shaped REST API
+  // (Reapit-backed, not PropertyHive: price/price_actual instead of
+  // price_from, no floor_area_from) AND both publish a blanket
+  // `Disallow: /` in robots.txt — excluded on both counts.
 ];
 
 const num = (v: unknown): number => {

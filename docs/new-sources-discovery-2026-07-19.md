@@ -109,3 +109,76 @@ _*Savills and Knight Frank also independently tripped the live robots.txt gate �
 **11/11 logged to `site_audits`. 0/11 auto-activated.** All 11 sit in
 `sources` with `status = 'pending_review'`, same as every source this pipeline
 has ever produced.
+
+## Addendum — LoopNet follow-up and expanding coverage via PropertyHive reuse
+
+LoopNet was asked for directly after this batch. It stays blocked: a plain,
+non-evasive read request got a flat 403, and CoStar (LoopNet's owner) both
+explicitly prohibits "spidering, screen scraping, database scraping" in its
+Terms of Use and has a well-documented history of suing scrapers. No
+anti-bot-evasion technique (custom headers, proxies, browser automation, the
+`bypass-403` header-trick collection) was built to get around that — the
+block is both technical and contractual, and "personal, unpaid use" doesn't
+change either fact. If real LoopNet access is wanted, the legitimate paths are
+an official CoStar/LoopNet data license or API, or a licensed third-party data
+provider — either would get built the same way as every other source (logged,
+gated to `pending_review`, nothing auto-activated).
+
+Redirected effort into "get more sources" honestly: re-ran the original
+2026-07-17 discovery batch (`scripts/discovery-classify.ts`, 21 independent
+regional agents — its results don't survive a container restart since the
+PGlite store is local-only) to repopulate classification data, then probed
+every one of those 21 agents' domains directly for the same
+`wp-json/wp/v2/property`-shaped REST endpoint that made SMC Brownill Vickers
+scrapeable, rather than relying on the classifier's page-crawl heuristic
+(which mis-picks the real listings page on WordPress sites more often than
+not — confirmed again this round on Lambert Smith Hampton, Eddisons, and
+several of these 21).
+
+**Result: two new confirmed, live, real sources added to `PROPERTY_HIVE_SOURCES`:**
+
+| Site | Total on API | Commercial for-sale | Passed Stage-0 | robots.txt |
+|---|---|---|---|---|
+| Gifford Dixon (Manchester) | 35 | 12 | 2 | clean (`/wp-admin/` only) |
+| Shepherd Commercial (Birmingham) | 186 | 20 | 0 | clean (`/wp-admin/` only) |
+
+Both confirmed with the full PropertyHive field shape (`price_from`,
+`floor_area_from`/`floor_area_units`, `department: "commercial"`, real photo
+URLs) — not just a same-named endpoint. `scripts/discovered-agents-report.ts`
+re-classifies each with real API-response evidence before pulling, same gate
+as SMC. Live pull now totals **6 passed listings across 3 sources** (up from
+4 across 1), written to `dashboard/data/discovered.json`.
+
+**Two more of the 21 exposed a similarly-shaped `wp-json/wp/v2/property` API
+but were excluded on hard evidence, not guesswork:**
+
+- **Dacres Commercial** and **Bradley Hall** — real listing data, but a
+  *different* backing system (Reapit, not PropertyHive: `price`/`price_actual`
+  instead of `price_from`, no `floor_area_from`), and both publish a blanket
+  `Disallow: /` in `robots.txt`. Excluded on both the schema mismatch and the
+  robots.txt block.
+- **Cardwells** — genuine PropertyHive schema and clean robots.txt, but its
+  API carries **zero** commercial-department listings across all 523 records
+  (residential-sales/lettings only) — already noted in the codebase from the
+  2026-07-17 batch; re-verified here.
+
+**The remaining agents were checked and not pursued, on evidence rather than
+by default:**
+
+- 14 of the 21 have no PropertyHive-style REST endpoint at all.
+- Of the 4 that classified `static_html` at confidence 0.8 (Leonards,
+  Frobishers, Raybould & Sons, Barker Property — meaning a real HTML page,
+  auto-approve-eligible on paper), only **Leonards** actually showed listing
+  content on the page fetched, and it's an Alto-CRM-backed agent whose visible
+  commercial stock is overwhelmingly lettings (`pcm`/`pa` pricing), not the
+  for-sale stock these requirements are scoped to. The other three showed no
+  price/address content in the raw HTML on the page the crawler found — likely
+  JS/AJAX-loaded, which this sandbox can't confirm (no working headless
+  browser here, a pre-existing documented limitation, not something specific
+  to this run).
+
+Building bespoke single-site HTML scrapers for any of those four would be
+speculative work for uncertain payoff, so none were built this pass — matches
+the standing instruction not to force sites into bespoke scrapers without real
+evidence of payoff. Happy to build any of them if someone wants to manually
+confirm what the real search-results page looks like first.

@@ -1,6 +1,6 @@
 {
   "source": "Discovered agents",
-  "generatedAt": "2026-07-18T16:22:50.951Z",
+  "generatedAt": "2026-07-19T15:55:53.115Z",
   "rows": [
     {
       "address": "1 Scotland Street, Sheffield, S3 7AT",
@@ -73,6 +73,42 @@
       "url": "https://smcbrownillvickers.com/properties/189781-21-station-road-sheffield/",
       "propertyType": "Development, Office, Retail",
       "imageUrl": "https://smcbrownillvickers.com/wp-content/uploads/2023/12/be526381eedd44304f7ae7cbc33d6d7e-img-0756-300x225.jpg"
+    },
+    {
+      "address": "4 Naval Street, Manchester, M4 6EW",
+      "priceDisplay": "£1,950,000",
+      "priceAmount": 1950000,
+      "sizeLabel": "4674 sqft",
+      "sizeSqft": 4674,
+      "source": "Gifford Dixon",
+      "requirement": "Educating Excellence",
+      "score": 2,
+      "reasons": [
+        "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
+        "size 4674 >= min 2000",
+        "keyword hit \"office\""
+      ],
+      "url": "https://gifforddixoncommercialproperty.co.uk/property/4-naval-street-ancoats-manchester-greater-manchester-m4-6ew/",
+      "propertyType": "Office",
+      "imageUrl": "https://gifforddixoncommercialproperty.co.uk/wp-content/uploads/2026/04/78ec773d9ce8711dd78a9b599e55d0c7-front-cover-image-for-sale-300x223.jpeg"
+    },
+    {
+      "address": "257 Ordsall Lane, Salford, M5 3NG",
+      "priceDisplay": "£500,000",
+      "priceAmount": 500000,
+      "sizeLabel": "2336 sqft",
+      "sizeSqft": 2336,
+      "source": "Gifford Dixon",
+      "requirement": "Educating Excellence",
+      "score": 2,
+      "reasons": [
+        "geography \"Salford Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
+        "size 2336 >= min 2000",
+        "keyword hit \"office\""
+      ],
+      "url": "https://gifforddixoncommercialproperty.co.uk/property/riverside-unit-at-bridgewater-wharf-257-ordsall-lane-salford-m5-3ng/",
+      "propertyType": "Leisure, Office, Restaurant / Cafe, Retail",
+      "imageUrl": "https://gifforddixoncommercialproperty.co.uk/wp-content/uploads/2025/03/092b90bece98974ee003208cc6f968fe-waterfront-picture-300x130.jpg"
     }
   ]
 }
