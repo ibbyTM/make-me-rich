@@ -191,6 +191,11 @@
   .tag.type { color: var(--ink); }
   .tag.citywide { background: var(--good-bg); border-color: var(--good); color: var(--good); }
   .tag.educating { background: var(--flag-bg); border-color: var(--flag-line); color: var(--flag); }
+  .tag.fit-strong { background: var(--good-bg); border-color: var(--good); color: var(--good); }
+  .tag.fit-possible { background: var(--flag-bg); border-color: var(--flag-line); color: var(--flag); }
+  .tag.fit-unlikely { color: var(--ink-faint); }
+  .card-power { font-family: var(--font-mono); font-size: 11.5px; color: var(--ink-soft); }
+  .card-power .approx::after { content: " (approx., city-level)"; color: var(--ink-faint); }
   .card-why { color: var(--ink-faint); font-size: 12px; line-height: 1.45; margin-top: auto; padding-top: 4px; border-top: 1px solid var(--paper-line); }
   .card-foot { display: flex; justify-content: space-between; align-items: center; font-family: var(--font-mono); font-size: 11px; color: var(--ink-faint); }
   .card-link { color: var(--accent); font-weight: 600; }
@@ -255,6 +260,7 @@
   <div class="field"><label for="fSource">Source</label><select id="fSource"><option value="">All</option></select></div>
   <div class="field"><label for="fType">Type</label><select id="fType"><option value="">All</option></select></div>
   <div class="field"><label for="fReq">Requirement</label><select id="fReq"><option value="">All</option></select></div>
+  <div class="field"><label for="fFit">Data Centre Fit</label><select id="fFit"><option value="">All</option><option value="strong">Strong</option><option value="possible">Possible</option><option value="unlikely">Unlikely</option></select></div>
   <div class="field"><label>Price £</label>
     <div style="display:flex;gap:6px;align-items:center">
       <input type="number" id="fPriceMin" placeholder="min" min="0" step="1000">
@@ -270,7 +276,16 @@
     </div>
   </div>
   <div class="field"><label for="fText">Search</label><input type="search" id="fText" placeholder="Address, postcode, agent…"></div>
-  <div class="field"><label for="sortBtn">Sort</label><button class="secondary" id="sortBtn" type="button">Price ⇅</button></div>
+  <div class="field"><label for="sortField">Sort by</label>
+    <div style="display:flex;gap:6px;align-items:center">
+      <select id="sortField">
+        <option value="priceAmount">Price</option>
+        <option value="fitScore">Data Centre Fit</option>
+        <option value="distanceKm">Distance to power station</option>
+      </select>
+      <button class="secondary" id="sortBtn" type="button">⇅</button>
+    </div>
+  </div>
   <span class="count" id="count"></span>
 </div>
 
@@ -344,10 +359,13 @@
     const q = $('fText').value.trim().toLowerCase();
     const typeFilter = $('fType').value;
 
+    const fitFilter = $('fFit').value;
+
     let rows = all.filter(r => {
       if ($('fSource').value && r.source !== $('fSource').value) return false;
       if ($('fReq').value && r.requirement !== $('fReq').value) return false;
       if (typeFilter && !typeList(r).includes(typeFilter)) return false;
+      if (fitFilter && (r.dataCentreFit || {}).band !== fitFilter) return false;
       if ((pMin > 0 || pMax < Infinity) && !((r.priceAmount || 0) >= pMin && (r.priceAmount || 0) <= pMax && r.priceAmount > 0)) return false;
       if ((sMin > 0 || sMax < Infinity) && !(r.sizeSqft != null && r.sizeSqft >= sMin && r.sizeSqft <= sMax)) return false;
       if (q) {
@@ -356,10 +374,20 @@
       }
       return true;
     });
-    if (sortDir !== 0) rows = [...rows].sort((a, b) => sortDir * ((a.priceAmount||0) - (b.priceAmount||0)));
+
+    const sortField = $('sortField').value;
+    const sortValue = r => {
+      if (sortField === 'fitScore') return (r.dataCentreFit || {}).score ?? -1;
+      if (sortField === 'distanceKm') {
+        const km = (r.powerStation || {}).nearestMajorKm;
+        return km == null ? Infinity : km; // unknown distance sorts last regardless of direction
+      }
+      return r.priceAmount || 0;
+    };
+    if (sortDir !== 0) rows = [...rows].sort((a, b) => sortDir * (sortValue(a) - sortValue(b)));
 
     $('count').textContent = rows.length + ' of ' + all.length + ' matches';
-    $('sortBtn').textContent = 'Price ' + (sortDir === 0 ? '⇅' : sortDir === 1 ? '↑' : '↓');
+    $('sortBtn').textContent = sortDir === 0 ? '⇅' : sortDir === 1 ? '↑' : '↓';
 
     const grid = $('cards');
     if (rows.length === 0) { grid.innerHTML = '<div class="empty">No matches for this filter.</div>'; return; }
@@ -369,15 +397,26 @@
       const size = r.sizeSqft ? Number(r.sizeSqft).toLocaleString('en-GB') + ' sq ft' : (r.sizeLabel || '—');
       const price = gbp(r.priceAmount) || esc(r.priceDisplay || 'POA');
       const types = typeList(r).slice(0, 3);
+      const ps = r.powerStation || {};
+      const fit = r.dataCentreFit || {};
+      const powerLine = ps.nearestMajorKm != null
+        ? '<div class="card-power"><span' + (ps.geocodePrecision === 'city-centroid' ? ' class="approx"' : '') + '>' +
+            ps.nearestMajorKm + 'km to ' + esc(ps.nearestMajorName || 'nearest station') +
+            (ps.nearestMajorFuel ? ' (' + esc(ps.nearestMajorFuel) + ')' : '') +
+          '</span></div>'
+        : '';
+      const fitTag = fit.band ? '<span class="tag fit-' + esc(fit.band) + '" title="' + esc((fit.reasons || []).join('; ')) + '">DC fit: ' + esc(fit.band) + ' (' + esc(fit.score) + ')</span>' : '';
       const inner =
         '<div class="card-media">' + cardMedia(r) + '<span class="card-price num">' + price + '</span></div>' +
         '<div class="card-body">' +
           '<div class="card-address">' + esc(r.address) + '</div>' +
           '<div class="card-meta"><span>' + esc(size) + '</span>' + (r.agent ? '<span>· ' + esc(r.agent) + '</span>' : '') + '</div>' +
+          powerLine +
           '<div class="card-tags">' +
             types.map(t => '<span class="tag type">' + esc(t) + '</span>').join('') +
             '<span class="tag">' + esc(r.source) + '</span>' +
             '<span class="tag ' + reqClass + '">' + esc(r.requirement) + '</span>' +
+            fitTag +
           '</div>' +
           '<div class="card-why">' + esc((r.reasons || []).join('; ')) + '</div>' +
           '<div class="card-foot"><span>Score ' + esc(r.score ?? '') + '</span>' + (r.url ? '<span class="card-link">View listing →</span>' : '') + '</div>' +
@@ -573,7 +612,7 @@
   });
 
   // ---- filters -------------------------------------------------------------
-  for (const id of ['fSource', 'fReq', 'fType']) $(id).addEventListener('change', render);
+  for (const id of ['fSource', 'fReq', 'fType', 'fFit', 'sortField']) $(id).addEventListener('change', render);
   for (const id of ['fPriceMin', 'fPriceMax', 'fSizeMin', 'fSizeMax', 'fText']) $(id).addEventListener('input', render);
   $('sortBtn').addEventListener('click', () => { sortDir = sortDir === 1 ? -1 : 1; render(); });
 

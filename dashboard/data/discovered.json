@@ -18,7 +18,26 @@
       ],
       "url": "https://smcbrownillvickers.com/properties/380030-1-scotland-street-sheffield/",
       "propertyType": "Office",
-      "imageUrl": "https://smcbrownillvickers.com/wp-content/uploads/2026/07/cc155424786eed91cece7a74d8cb6b59-img-5282-300x225.jpg"
+      "imageUrl": "https://smcbrownillvickers.com/wp-content/uploads/2026/07/cc155424786eed91cece7a74d8cb6b59-img-5282-300x225.jpg",
+      "powerStation": {
+        "geocodePrecision": "postcode",
+        "nearestAnyKm": 1.6,
+        "nearestAnyName": "Sheffield ERF",
+        "nearestAnyFuel": "Waste",
+        "nearestMajorKm": 35.6,
+        "nearestMajorName": "Thornhill",
+        "nearestMajorFuel": "Gas",
+        "nearestMajorCapacityMw": 50
+      },
+      "dataCentreFit": {
+        "score": 16,
+        "band": "unlikely",
+        "reasons": [
+          "35.6km to nearest major (>=50MW) power station",
+          "2,343 sq ft equivalent",
+          "subtype \"Office\""
+        ]
+      }
     },
     {
       "address": "31 Manchester Road, Sheffield, S36 2QX",
@@ -36,7 +55,26 @@
       ],
       "url": "https://smcbrownillvickers.com/properties/298873-31-manchester-road-sheffield/",
       "propertyType": "Leisure",
-      "imageUrl": "https://smcbrownillvickers.com/wp-content/uploads/2026/01/6b81fc5b40252b0f5e1cf2a36760cd86-4-300x225.jpg"
+      "imageUrl": "https://smcbrownillvickers.com/wp-content/uploads/2026/01/6b81fc5b40252b0f5e1cf2a36760cd86-4-300x225.jpg",
+      "powerStation": {
+        "geocodePrecision": "postcode",
+        "nearestAnyKm": 8.5,
+        "nearestAnyName": "Loicher Lane",
+        "nearestAnyFuel": "Biomass",
+        "nearestMajorKm": 24,
+        "nearestMajorName": "Thornhill",
+        "nearestMajorFuel": "Gas",
+        "nearestMajorCapacityMw": 50
+      },
+      "dataCentreFit": {
+        "score": 18,
+        "band": "unlikely",
+        "reasons": [
+          "24.0km to nearest major (>=50MW) power station",
+          "3,863 sq ft equivalent",
+          "subtype \"Leisure\" — no specific rule, neutral"
+        ]
+      }
     },
     {
       "address": "Carr Road, Deepcar, S36 2NR",
@@ -54,7 +92,26 @@
       ],
       "url": "https://smcbrownillvickers.com/properties/207416-carr-road-deepcar/",
       "propertyType": "Development, Industrial",
-      "imageUrl": "https://smcbrownillvickers.com/wp-content/uploads/2024/09/2ee45bec05b4557f3d33e0871e850311-dji-0803-edit-red-line-300x225.jpg"
+      "imageUrl": "https://smcbrownillvickers.com/wp-content/uploads/2024/09/2ee45bec05b4557f3d33e0871e850311-dji-0803-edit-red-line-300x225.jpg",
+      "powerStation": {
+        "geocodePrecision": "postcode",
+        "nearestAnyKm": 8.8,
+        "nearestAnyName": "Royd Moor",
+        "nearestAnyFuel": "Wind",
+        "nearestMajorKm": 24.1,
+        "nearestMajorName": "Thornhill",
+        "nearestMajorFuel": "Gas",
+        "nearestMajorCapacityMw": 50
+      },
+      "dataCentreFit": {
+        "score": 33,
+        "band": "unlikely",
+        "reasons": [
+          "24.1km to nearest major (>=50MW) power station",
+          "8,918 sq ft equivalent",
+          "subtype \"Development, Industrial\""
+        ]
+      }
     },
     {
       "address": "21 Station Road, Sheffield, S26 6QP",
@@ -72,7 +129,26 @@
       ],
       "url": "https://smcbrownillvickers.com/properties/189781-21-station-road-sheffield/",
       "propertyType": "Development, Office, Retail",
-      "imageUrl": "https://smcbrownillvickers.com/wp-content/uploads/2023/12/be526381eedd44304f7ae7cbc33d6d7e-img-0756-300x225.jpg"
+      "imageUrl": "https://smcbrownillvickers.com/wp-content/uploads/2023/12/be526381eedd44304f7ae7cbc33d6d7e-img-0756-300x225.jpg",
+      "powerStation": {
+        "geocodePrecision": "postcode",
+        "nearestAnyKm": 3.5,
+        "nearestAnyName": "Loscar",
+        "nearestAnyFuel": "Wind",
+        "nearestMajorKm": 30.1,
+        "nearestMajorName": "West Burton",
+        "nearestMajorFuel": "Coal",
+        "nearestMajorCapacityMw": 2012
+      },
+      "dataCentreFit": {
+        "score": 28,
+        "band": "unlikely",
+        "reasons": [
+          "30.1km to nearest major (>=50MW) power station",
+          "2,783 sq ft equivalent",
+          "subtype \"Development, Office, Retail\""
+        ]
+      }
     },
     {
       "address": "4 Naval Street, Manchester, M4 6EW",
@@ -90,7 +166,26 @@
       ],
       "url": "https://gifforddixoncommercialproperty.co.uk/property/4-naval-street-ancoats-manchester-greater-manchester-m4-6ew/",
       "propertyType": "Office",
-      "imageUrl": "https://gifforddixoncommercialproperty.co.uk/wp-content/uploads/2026/04/78ec773d9ce8711dd78a9b599e55d0c7-front-cover-image-for-sale-300x223.jpeg"
+      "imageUrl": "https://gifforddixoncommercialproperty.co.uk/wp-content/uploads/2026/04/78ec773d9ce8711dd78a9b599e55d0c7-front-cover-image-for-sale-300x223.jpeg",
+      "powerStation": {
+        "geocodePrecision": "postcode",
+        "nearestAnyKm": 1.8,
+        "nearestAnyName": "Ardwick Railway Goods Yard Incinerator (Newhaven EFW Plant)",
+        "nearestAnyFuel": "Waste",
+        "nearestMajorKm": 13.2,
+        "nearestMajorName": "Carrington",
+        "nearestMajorFuel": "Gas",
+        "nearestMajorCapacityMw": 900
+      },
+      "dataCentreFit": {
+        "score": 28,
+        "band": "unlikely",
+        "reasons": [
+          "13.2km to nearest major (>=50MW) power station",
+          "4,674 sq ft equivalent",
+          "subtype \"Office\""
+        ]
+      }
     },
     {
       "address": "257 Ordsall Lane, Salford, M5 3NG",
@@ -108,7 +203,26 @@
       ],
       "url": "https://gifforddixoncommercialproperty.co.uk/property/riverside-unit-at-bridgewater-wharf-257-ordsall-lane-salford-m5-3ng/",
       "propertyType": "Leisure, Office, Restaurant / Cafe, Retail",
-      "imageUrl": "https://gifforddixoncommercialproperty.co.uk/wp-content/uploads/2025/03/092b90bece98974ee003208cc6f968fe-waterfront-picture-300x130.jpg"
+      "imageUrl": "https://gifforddixoncommercialproperty.co.uk/wp-content/uploads/2025/03/092b90bece98974ee003208cc6f968fe-waterfront-picture-300x130.jpg",
+      "powerStation": {
+        "geocodePrecision": "postcode",
+        "nearestAnyKm": 2.9,
+        "nearestAnyName": "Salford Refuse Treatment Plant (AD)",
+        "nearestAnyFuel": "Biomass",
+        "nearestMajorKm": 9.5,
+        "nearestMajorName": "Carrington",
+        "nearestMajorFuel": "Gas",
+        "nearestMajorCapacityMw": 900
+      },
+      "dataCentreFit": {
+        "score": 43,
+        "band": "possible",
+        "reasons": [
+          "9.5km to nearest major (>=50MW) power station",
+          "2,336 sq ft equivalent",
+          "subtype \"Leisure, Office, Restaurant / Cafe, Retail\""
+        ]
+      }
     },
     {
       "address": "Cedar Road, Thirsk, YO7 3FF",
@@ -126,7 +240,26 @@
       ],
       "url": "https://cpne.co.uk/property/unit-5-phase-2-sowerby-gate-cedar-road-thirsk-yo7-3ff-2/",
       "propertyType": "Industrial",
-      "imageUrl": "https://cpne.co.uk/wp-content/uploads/2026/04/CPNE_104210S_IMG_00-300x225.jpg"
+      "imageUrl": "https://cpne.co.uk/wp-content/uploads/2026/04/CPNE_104210S_IMG_00-300x225.jpg",
+      "powerStation": {
+        "geocodePrecision": "postcode",
+        "nearestAnyKm": 3.4,
+        "nearestAnyName": "Land North of Sandhutton Lane",
+        "nearestAnyFuel": "Solar",
+        "nearestMajorKm": 47.6,
+        "nearestMajorName": "Hartlepool",
+        "nearestMajorFuel": "Nuclear",
+        "nearestMajorCapacityMw": 1180
+      },
+      "dataCentreFit": {
+        "score": 20,
+        "band": "unlikely",
+        "reasons": [
+          "47.6km to nearest major (>=50MW) power station",
+          "4,520 sq ft equivalent",
+          "subtype \"Industrial\""
+        ]
+      }
     },
     {
       "address": "Cedar Road, Thirsk, YO7 3FF",
@@ -144,7 +277,26 @@
       ],
       "url": "https://cpne.co.uk/property/unit-4-phase-2-sowerby-gate-cedar-road-thirsk-yo7-3ff-2/",
       "propertyType": "Industrial",
-      "imageUrl": "https://cpne.co.uk/wp-content/uploads/2026/04/CPNE_104209S_IMG_00-300x225.jpg"
+      "imageUrl": "https://cpne.co.uk/wp-content/uploads/2026/04/CPNE_104209S_IMG_00-300x225.jpg",
+      "powerStation": {
+        "geocodePrecision": "postcode",
+        "nearestAnyKm": 3.4,
+        "nearestAnyName": "Land North of Sandhutton Lane",
+        "nearestAnyFuel": "Solar",
+        "nearestMajorKm": 47.6,
+        "nearestMajorName": "Hartlepool",
+        "nearestMajorFuel": "Nuclear",
+        "nearestMajorCapacityMw": 1180
+      },
+      "dataCentreFit": {
+        "score": 20,
+        "band": "unlikely",
+        "reasons": [
+          "47.6km to nearest major (>=50MW) power station",
+          "3,616 sq ft equivalent",
+          "subtype \"Industrial\""
+        ]
+      }
     }
   ]
 }

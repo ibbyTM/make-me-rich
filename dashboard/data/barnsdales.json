@@ -17,7 +17,26 @@
       ],
       "url": "https://www.barnsdales.co.uk/properties/319160",
       "propertyType": "Land · Mixed Use",
-      "imageUrl": "https://s3.eu-west-2.amazonaws.com/altcms/barnsdales/media/44285/conversions/2f911a63864edf77042c7b435bcf92be-letting319160.jpeg-show.jpg"
+      "imageUrl": "https://s3.eu-west-2.amazonaws.com/altcms/barnsdales/media/44285/conversions/2f911a63864edf77042c7b435bcf92be-letting319160.jpeg-show.jpg",
+      "powerStation": {
+        "geocodePrecision": "postcode",
+        "nearestAnyKm": 2.4,
+        "nearestAnyName": "Castleford",
+        "nearestAnyFuel": "Gas",
+        "nearestMajorKm": 2.4,
+        "nearestMajorName": "Castleford",
+        "nearestMajorFuel": "Gas",
+        "nearestMajorCapacityMw": 56
+      },
+      "dataCentreFit": {
+        "score": 83,
+        "band": "strong",
+        "reasons": [
+          "2.4km to nearest major (>=50MW) power station",
+          "47,916 sq ft equivalent",
+          "subtype \"Land · Mixed Use\""
+        ]
+      }
     },
     {
       "address": "Doncaster, DN1 1HQ",
@@ -34,7 +53,26 @@
       ],
       "url": "https://www.barnsdales.co.uk/properties/319692",
       "propertyType": "Retail Development · Retail · Pub / Bar / Club",
-      "imageUrl": "https://s3.eu-west-2.amazonaws.com/altcms/barnsdales/media/44238/conversions/e4a219633115171143e6fd271133e82a-letting319692.jpeg-show.jpg"
+      "imageUrl": "https://s3.eu-west-2.amazonaws.com/altcms/barnsdales/media/44238/conversions/e4a219633115171143e6fd271133e82a-letting319692.jpeg-show.jpg",
+      "powerStation": {
+        "geocodePrecision": "postcode",
+        "nearestAnyKm": 1.6,
+        "nearestAnyName": "Prosper Demulder Limited Anaerobic Digestion Plant (Waste AD)",
+        "nearestAnyFuel": "Biomass",
+        "nearestMajorKm": 21,
+        "nearestMajorName": "Eggborough",
+        "nearestMajorFuel": "Coal",
+        "nearestMajorCapacityMw": 1960
+      },
+      "dataCentreFit": {
+        "score": 33,
+        "band": "unlikely",
+        "reasons": [
+          "21.0km to nearest major (>=50MW) power station",
+          "12,000 sq ft equivalent",
+          "subtype \"Retail Development · Retail · Pub / Bar / Club\""
+        ]
+      }
     }
   ]
 }
