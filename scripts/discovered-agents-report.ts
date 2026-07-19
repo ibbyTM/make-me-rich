@@ -2,11 +2,15 @@
  * Live pull + Stage-0 for scrapeable sources from the search-discovery batch
  * (read-only), all via the generic PropertyHive REST scraper
  * (src/scrapers/propertyHive.ts, PROPERTY_HIVE_SOURCES): SMC Brownill Vickers
- * (2026-07-17), Gifford Dixon and Shepherd Commercial (added 2026-07-19 —
- * found by probing every curated-directory agent's wp-json/wp/v2/property
- * endpoint for the same schema; Cardwells has the same API but residential
- * stock only, Dacres/Bradley Hall have a similar-but-different Reapit-backed
- * API and a blanket robots.txt Disallow — all three excluded).
+ * (2026-07-17); Gifford Dixon and Shepherd Commercial (2026-07-19, first
+ * widen — probed the original 21-agent directory's wp-json/wp/v2/property
+ * endpoints); Bromwich Hardy, Wood Moore & Co and Connect Property North East
+ * (2026-07-19, second widen — a fresh independent-agent search across cities
+ * beyond the original batch, plus the official Property Hive plugin showcase
+ * page as a direct fingerprint). See PROPERTY_HIVE_SOURCES for the excluded
+ * near-misses (residential-only stock, Reapit-backed lookalike API, or a
+ * blanket robots.txt Disallow) and docs/new-sources-discovery-2026-07-19.md
+ * for the full writeup.
  *
  *   NODE_USE_ENV_PROXY=1 NODE_EXTRA_CA_CERTS=/root/.ccr/ca-bundle.crt \
  *     npx tsx scripts/discovered-agents-report.ts

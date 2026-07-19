@@ -87,6 +87,22 @@ export const PROPERTY_HIVE_SOURCES: PropertyHiveSource[] = [
   // (Reapit-backed, not PropertyHive: price/price_actual instead of
   // price_from, no floor_area_from) AND both publish a blanket
   // `Disallow: /` in robots.txt — excluded on both counts.
+  // Added 2026-07-19 (second batch): widened the hunt with a fresh
+  // independent-agent search across cities beyond the original 21, plus the
+  // official Property Hive showcase page (wp-property-hive.com) as a direct
+  // plugin fingerprint. Confirmed genuine schema + real "For Sale" commercial
+  // stock with a usable price_from, clean robots.txt, on all three:
+  { name: 'Bromwich Hardy', baseUrl: 'https://www.bromwichhardy.com', postType: 'property' },
+  { name: 'Wood Moore & Co', baseUrl: 'https://www.woodmoore.co.uk', postType: 'property' },
+  { name: 'Connect Property North East', baseUrl: 'https://cpne.co.uk', postType: 'property' },
+  // Morgan Williams (Warrington) has the same schema but its entire
+  // commercial book is lettings — availability is "Available"/"Under Offer",
+  // never "For Sale" (0 of 74 records) — excluded, no usable stock for the
+  // documented for-sale filter.
+  // Miller Metcalfe is a confirmed Property Hive client (official showcase
+  // listing) but its live API uses the Reapit-style field set (price/
+  // price_actual, no price_from) and its sampled records were 100%
+  // residential-sales — excluded on schema + stock, same as Dacres/Ashtons.
 ];
 
 const num = (v: unknown): number => {

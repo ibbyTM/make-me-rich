@@ -1,6 +1,6 @@
 {
   "source": "Discovered agents",
-  "generatedAt": "2026-07-19T15:55:53.115Z",
+  "generatedAt": "2026-07-19T16:13:08.819Z",
   "rows": [
     {
       "address": "1 Scotland Street, Sheffield, S3 7AT",
@@ -109,6 +109,42 @@
       "url": "https://gifforddixoncommercialproperty.co.uk/property/riverside-unit-at-bridgewater-wharf-257-ordsall-lane-salford-m5-3ng/",
       "propertyType": "Leisure, Office, Restaurant / Cafe, Retail",
       "imageUrl": "https://gifforddixoncommercialproperty.co.uk/wp-content/uploads/2025/03/092b90bece98974ee003208cc6f968fe-waterfront-picture-300x130.jpg"
+    },
+    {
+      "address": "Cedar Road, Thirsk, YO7 3FF",
+      "priceDisplay": "£678,000",
+      "priceAmount": 678000,
+      "sizeLabel": "4520 sqft",
+      "sizeSqft": 4520,
+      "source": "Connect Property North East",
+      "requirement": "Citywide Investors",
+      "score": 2,
+      "reasons": [
+        "geography \"Thirsk Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
+        "price 678000 within budget 500000-2000000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://cpne.co.uk/property/unit-5-phase-2-sowerby-gate-cedar-road-thirsk-yo7-3ff-2/",
+      "propertyType": "Industrial",
+      "imageUrl": "https://cpne.co.uk/wp-content/uploads/2026/04/CPNE_104210S_IMG_00-300x225.jpg"
+    },
+    {
+      "address": "Cedar Road, Thirsk, YO7 3FF",
+      "priceDisplay": "£510,000",
+      "priceAmount": 510000,
+      "sizeLabel": "3616 sqft",
+      "sizeSqft": 3616,
+      "source": "Connect Property North East",
+      "requirement": "Citywide Investors",
+      "score": 2,
+      "reasons": [
+        "geography \"Thirsk Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
+        "price 510000 within budget 500000-2000000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://cpne.co.uk/property/unit-4-phase-2-sowerby-gate-cedar-road-thirsk-yo7-3ff-2/",
+      "propertyType": "Industrial",
+      "imageUrl": "https://cpne.co.uk/wp-content/uploads/2026/04/CPNE_104209S_IMG_00-300x225.jpg"
     }
   ]
 }
