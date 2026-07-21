@@ -271,3 +271,74 @@ export async function fetchCityListings(
     listings: [...byId.values()],
   };
 }
+
+// ---------------------------------------------------------------------------
+// Detail-page precise coordinates (2026-07-19) — search-results pages carry
+// no postcode/coordinates at all (see the module doc comment), but the
+// per-listing detail page does. robots.txt (checked 2026-07-19) does not
+// disallow /properties/<id> for the default user-agent (only the older
+// /property-for-sale/* and /property/* detail-page paths from a previous
+// site version are listed, which this scraper never uses). Used sparingly —
+// only for listings that already passed Stage-0, not the full raw pull; see
+// scripts/rightmove-detail-geocode.ts.
+// ---------------------------------------------------------------------------
+
+export interface ListingCoordinates {
+  lat: number;
+  lon: number;
+}
+
+/**
+ * Pure parse: pull the precise building coordinates out of a detail page's
+ * embedded `schema.org/Place` JSON-LD block (`<script type="application/
+ * ld+json">{"@type":"Place","latitude":...,"longitude":...}`). There is a
+ * second, richer source on the same page — `window.__staticRouterHydrationData`
+ * — which also carries a full postcode, but it's a JS-string-escaped blob
+ * requiring more fragile parsing; the ld+json block gives the same
+ * coordinates (cross-checked against it on 5 sample listings, 2026-07-19)
+ * via a stable, standard format. Returns null if the block isn't present —
+ * never guessed or estimated.
+ */
+interface PlaceLdJson {
+  '@type': 'Place';
+  latitude: number;
+  longitude: number;
+}
+
+function isPlaceLdJson(obj: unknown): obj is PlaceLdJson {
+  if (!obj || typeof obj !== 'object') return false;
+  const o = obj as { '@type'?: unknown; latitude?: unknown; longitude?: unknown };
+  return o['@type'] === 'Place' && typeof o.latitude === 'number' && typeof o.longitude === 'number';
+}
+
+export function extractPlaceCoordinates(html: string): ListingCoordinates | null {
+  for (const m of html.matchAll(
+    /<script[^>]*type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi,
+  )) {
+    let obj: unknown;
+    try {
+      obj = JSON.parse(m[1]!);
+    } catch {
+      continue;
+    }
+    if (isPlaceLdJson(obj)) {
+      return { lat: obj.latitude, lon: obj.longitude };
+    }
+  }
+  return null;
+}
+
+/** Fetch one listing detail page and extract its coordinates, or null if the block is absent. */
+export async function fetchListingCoordinates(
+  url: string,
+  opts: { timeoutMs?: number; fetchImpl?: typeof fetch } = {},
+): Promise<ListingCoordinates | null> {
+  const f = opts.fetchImpl ?? fetch;
+  const res = await f(url, {
+    headers: { 'user-agent': UA, accept: 'text/html' },
+    redirect: 'follow',
+    signal: AbortSignal.timeout(opts.timeoutMs ?? 30000),
+  });
+  if (!res.ok) throw new Error(`Rightmove detail page ${url}: HTTP ${res.status}`);
+  return extractPlaceCoordinates(await res.text());
+}

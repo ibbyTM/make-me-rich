@@ -5,6 +5,8 @@ import {
   parseSqft,
   fetchCityListings,
   isGoingConcern,
+  extractPlaceCoordinates,
+  fetchListingCoordinates,
 } from '../src/scrapers/rightmoveCommercial.js';
 
 // Mirrors the live structure confirmed 2026-07-14:
@@ -152,5 +154,56 @@ describe('rightmove commercial scraper', () => {
     expect(urls[1]).toContain('index=24');
     expect(pull.listings.map((l) => l.id).sort()).toEqual(['333', '747152224116992']);
     expect(pull.resultCount).toBe(40);
+  });
+
+  // Mirrors the live detail-page structure confirmed 2026-07-19: a
+  // schema.org/Place ld+json block carrying precise building coordinates,
+  // alongside an unrelated BreadcrumbList ld+json block on the same page.
+  function detailHtml(place: unknown): string {
+    const breadcrumb = { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [] };
+    return (
+      '<html><head>' +
+      `<script type="application/ld+json">${JSON.stringify(breadcrumb)}</script>` +
+      (place ? `<script type="application/ld+json">${JSON.stringify(place)}</script>` : '') +
+      '</head><body>x</body></html>'
+    );
+  }
+
+  describe('extractPlaceCoordinates', () => {
+    it('extracts lat/lon from the schema.org Place ld+json block', () => {
+      const html = detailHtml({
+        '@context': 'https://schema.org',
+        '@type': 'Place',
+        address: '1-2 Deanhurst Park, Gelderd Road, Leeds',
+        longitude: -1.624357,
+        latitude: 53.755927,
+      });
+      expect(extractPlaceCoordinates(html)).toEqual({ lat: 53.755927, lon: -1.624357 });
+    });
+
+    it('returns null when no Place block is present', () => {
+      expect(extractPlaceCoordinates(detailHtml(null))).toBeNull();
+    });
+
+    it('returns null (not a crash) on malformed JSON in an ld+json block', () => {
+      const html = '<html><head><script type="application/ld+json">{not valid json</script></head></html>';
+      expect(extractPlaceCoordinates(html)).toBeNull();
+    });
+  });
+
+  describe('fetchListingCoordinates', () => {
+    it('fetches a detail page and extracts its coordinates', async () => {
+      const html = detailHtml({ '@type': 'Place', latitude: 53.8, longitude: -1.5 });
+      const fetchImpl = (async () => new Response(html, { status: 200 })) as typeof fetch;
+      const coords = await fetchListingCoordinates('https://www.rightmove.co.uk/properties/1', { fetchImpl });
+      expect(coords).toEqual({ lat: 53.8, lon: -1.5 });
+    });
+
+    it('throws on a non-2xx response (distinct from "block absent")', async () => {
+      const fetchImpl = (async () => new Response('', { status: 404 })) as typeof fetch;
+      await expect(
+        fetchListingCoordinates('https://www.rightmove.co.uk/properties/1', { fetchImpl }),
+      ).rejects.toThrow(/404/);
+    });
   });
 });

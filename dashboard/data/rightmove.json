@@ -21,20 +21,22 @@
       "propertyType": "Office",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/86e42cc2b/747152224116992/86e42cc2bfe0cfc5a28c4905f11e1792_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.9,
-        "nearestAnyName": "Buslingthorpe Power Station (Leeds North)",
-        "nearestAnyFuel": "Biomass",
-        "nearestMajorKm": 12.9,
+        "geocodePrecision": "exact",
+        "lat": 53.755927,
+        "lon": -1.624357,
+        "nearestAnyKm": 4.5,
+        "nearestAnyName": "Soothills Landfill",
+        "nearestAnyFuel": "Waste",
+        "nearestMajorKm": 7.2,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
       },
       "dataCentreFit": {
-        "score": 33,
-        "band": "unlikely",
+        "score": 48,
+        "band": "possible",
         "reasons": [
-          "12.9km to nearest major (>=50MW) power station",
+          "7.2km to nearest major (>=50MW) power station",
           "5,242 sq ft equivalent",
           "subtype \"Office\""
         ]
@@ -59,11 +61,13 @@
       "propertyType": "Industrial Park",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/f3dcc19b3/747888028746705/f3dcc19b38846ff4ad118f2d377b7cbd_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.9,
+        "geocodePrecision": "exact",
+        "lat": 53.799645,
+        "lon": -1.581589,
+        "nearestAnyKm": 3,
         "nearestAnyName": "Buslingthorpe Power Station (Leeds North)",
         "nearestAnyFuel": "Biomass",
-        "nearestMajorKm": 12.9,
+        "nearestMajorKm": 12.5,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
@@ -72,7 +76,7 @@
         "score": 53,
         "band": "possible",
         "reasons": [
-          "12.9km to nearest major (>=50MW) power station",
+          "12.5km to nearest major (>=50MW) power station",
           "57,675 sq ft equivalent",
           "subtype \"Industrial Park\""
         ]
@@ -97,11 +101,13 @@
       "propertyType": "Office",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/1ca8cf052/762214045440304/1ca8cf0522a946338410b68c580339b3_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.9,
+        "geocodePrecision": "exact",
+        "lat": 53.776584,
+        "lon": -1.582194,
+        "nearestAnyKm": 4.9,
         "nearestAnyName": "Buslingthorpe Power Station (Leeds North)",
         "nearestAnyFuel": "Biomass",
-        "nearestMajorKm": 12.9,
+        "nearestMajorKm": 10,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
@@ -110,7 +116,7 @@
         "score": 33,
         "band": "unlikely",
         "reasons": [
-          "12.9km to nearest major (>=50MW) power station",
+          "10.0km to nearest major (>=50MW) power station",
           "9,210 sq ft equivalent",
           "subtype \"Office\""
         ]
@@ -135,11 +141,13 @@
       "propertyType": "Commercial Property",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/56f1d2f76/751133814140048/56f1d2f76edfcce17fb3b31e3cabb313_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.9,
+        "geocodePrecision": "exact",
+        "lat": 53.831102,
+        "lon": -1.571794,
+        "nearestAnyKm": 2.7,
         "nearestAnyName": "Buslingthorpe Power Station (Leeds North)",
         "nearestAnyFuel": "Biomass",
-        "nearestMajorKm": 12.9,
+        "nearestMajorKm": 16,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
@@ -148,7 +156,7 @@
         "score": 35,
         "band": "possible",
         "reasons": [
-          "12.9km to nearest major (>=50MW) power station",
+          "16.0km to nearest major (>=50MW) power station",
           "7,811 sq ft equivalent",
           "subtype \"Commercial Property\" — no specific rule, neutral"
         ]
@@ -173,11 +181,13 @@
       "propertyType": "Light Industrial",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/c1dd4a417/698587804331425/c1dd4a417b993794e57bfefd6e9d9676_max_476x317.png",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.9,
-        "nearestAnyName": "Buslingthorpe Power Station (Leeds North)",
-        "nearestAnyFuel": "Biomass",
-        "nearestMajorKm": 12.9,
+        "geocodePrecision": "exact",
+        "lat": 53.774833,
+        "lon": -1.54317,
+        "nearestAnyKm": 3,
+        "nearestAnyName": "Cross Green ERF",
+        "nearestAnyFuel": "Waste",
+        "nearestMajorKm": 10.9,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
@@ -186,7 +196,7 @@
         "score": 53,
         "band": "possible",
         "reasons": [
-          "12.9km to nearest major (>=50MW) power station",
+          "10.9km to nearest major (>=50MW) power station",
           "53,252 sq ft equivalent",
           "subtype \"Light Industrial\""
         ]
@@ -325,11 +335,13 @@
       "propertyType": "Office",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/478fbf892/698589182145520/478fbf892c11d7356aad625e6808929f_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.9,
+        "geocodePrecision": "exact",
+        "lat": 53.79896,
+        "lon": -1.553045,
+        "nearestAnyKm": 1.8,
         "nearestAnyName": "Buslingthorpe Power Station (Leeds North)",
         "nearestAnyFuel": "Biomass",
-        "nearestMajorKm": 12.9,
+        "nearestMajorKm": 13,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
@@ -338,7 +350,7 @@
         "score": 33,
         "band": "unlikely",
         "reasons": [
-          "12.9km to nearest major (>=50MW) power station",
+          "13.0km to nearest major (>=50MW) power station",
           "5,856 sq ft equivalent",
           "subtype \"Office\""
         ]
@@ -363,11 +375,13 @@
       "propertyType": "Office",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/3ce82ec3e/721600241041920/3ce82ec3e4b723225885ad243a06f575_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
+        "geocodePrecision": "exact",
+        "lat": 53.798724,
+        "lon": -1.552934,
         "nearestAnyKm": 1.9,
         "nearestAnyName": "Buslingthorpe Power Station (Leeds North)",
         "nearestAnyFuel": "Biomass",
-        "nearestMajorKm": 12.9,
+        "nearestMajorKm": 13,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
@@ -376,7 +390,7 @@
         "score": 33,
         "band": "unlikely",
         "reasons": [
-          "12.9km to nearest major (>=50MW) power station",
+          "13.0km to nearest major (>=50MW) power station",
           "5,856 sq ft equivalent",
           "subtype \"Office\""
         ]
@@ -515,20 +529,22 @@
       "propertyType": "Office",
       "imageUrl": null,
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.9,
-        "nearestAnyName": "Buslingthorpe Power Station (Leeds North)",
-        "nearestAnyFuel": "Biomass",
-        "nearestMajorKm": 12.9,
+        "geocodePrecision": "exact",
+        "lat": 53.873588,
+        "lon": -1.663837,
+        "nearestAnyKm": 4.4,
+        "nearestAnyName": "Esholt WWTW",
+        "nearestAnyFuel": "Waste",
+        "nearestMajorKm": 20.5,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
       },
       "dataCentreFit": {
-        "score": 33,
+        "score": 21,
         "band": "unlikely",
         "reasons": [
-          "12.9km to nearest major (>=50MW) power station",
+          "20.5km to nearest major (>=50MW) power station",
           "12,447 sq ft equivalent",
           "subtype \"Office\""
         ]
@@ -591,20 +607,22 @@
       "propertyType": "Office",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/dcdc78950/758741004284305/dcdc78950697ee0b00fc6cb8fd4161bf_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.9,
+        "geocodePrecision": "exact",
+        "lat": 53.833817,
+        "lon": -1.461692,
+        "nearestAnyKm": 5.7,
         "nearestAnyName": "Buslingthorpe Power Station (Leeds North)",
         "nearestAnyFuel": "Biomass",
-        "nearestMajorKm": 12.9,
-        "nearestMajorName": "Thornhill",
+        "nearestMajorKm": 13.7,
+        "nearestMajorName": "Castleford",
         "nearestMajorFuel": "Gas",
-        "nearestMajorCapacityMw": 50
+        "nearestMajorCapacityMw": 56
       },
       "dataCentreFit": {
         "score": 33,
         "band": "unlikely",
         "reasons": [
-          "12.9km to nearest major (>=50MW) power station",
+          "13.7km to nearest major (>=50MW) power station",
           "6,800 sq ft equivalent",
           "subtype \"Office\""
         ]
@@ -819,11 +837,13 @@
       "propertyType": "Light Industrial",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/b4393555e/760579420307808/b4393555e1f3e442ecd8fb56942e70bb_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.9,
+        "geocodePrecision": "exact",
+        "lat": 53.804478,
+        "lon": -1.578029,
+        "nearestAnyKm": 2.6,
         "nearestAnyName": "Buslingthorpe Power Station (Leeds North)",
         "nearestAnyFuel": "Biomass",
-        "nearestMajorKm": 12.9,
+        "nearestMajorKm": 13.1,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
@@ -832,7 +852,7 @@
         "score": 45,
         "band": "possible",
         "reasons": [
-          "12.9km to nearest major (>=50MW) power station",
+          "13.1km to nearest major (>=50MW) power station",
           "14,488 sq ft equivalent",
           "subtype \"Light Industrial\""
         ]
@@ -857,11 +877,13 @@
       "propertyType": "Commercial Development",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/8325a29d8/722868246358240/8325a29d8e3dd6c3ca16b0c9984b91ba_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.9,
+        "geocodePrecision": "exact",
+        "lat": 53.808786,
+        "lon": -1.562899,
+        "nearestAnyKm": 1.5,
         "nearestAnyName": "Buslingthorpe Power Station (Leeds North)",
         "nearestAnyFuel": "Biomass",
-        "nearestMajorKm": 12.9,
+        "nearestMajorKm": 13.8,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
@@ -870,7 +892,7 @@
         "score": 40,
         "band": "possible",
         "reasons": [
-          "12.9km to nearest major (>=50MW) power station",
+          "13.8km to nearest major (>=50MW) power station",
           "3,779 sq ft equivalent",
           "subtype \"Commercial Development\""
         ]
@@ -895,20 +917,22 @@
       "propertyType": "Warehouse",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/fb230e113/760575595098784/fb230e1130f25719eb3d77c4f5986342_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.9,
-        "nearestAnyName": "Buslingthorpe Power Station (Leeds North)",
+        "geocodePrecision": "exact",
+        "lat": 53.750233,
+        "lon": -1.50689,
+        "nearestAnyKm": 3.6,
+        "nearestAnyName": "Knostrop Sewage Treatment Works",
         "nearestAnyFuel": "Biomass",
-        "nearestMajorKm": 12.9,
-        "nearestMajorName": "Thornhill",
+        "nearestMajorKm": 9.9,
+        "nearestMajorName": "Castleford",
         "nearestMajorFuel": "Gas",
-        "nearestMajorCapacityMw": 50
+        "nearestMajorCapacityMw": 56
       },
       "dataCentreFit": {
-        "score": 45,
+        "score": 60,
         "band": "possible",
         "reasons": [
-          "12.9km to nearest major (>=50MW) power station",
+          "9.9km to nearest major (>=50MW) power station",
           "9,596 sq ft equivalent",
           "subtype \"Warehouse\""
         ]
@@ -933,20 +957,22 @@
       "propertyType": "Mixed Use",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/883dd9698/762347564791921/883dd96989ce18ea5ec9e3eae3e1ad59_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.9,
-        "nearestAnyName": "Buslingthorpe Power Station (Leeds North)",
+        "geocodePrecision": "exact",
+        "lat": 53.928265,
+        "lon": -1.385536,
+        "nearestAnyKm": 5.7,
+        "nearestAnyName": "Wothersome Grange Farm House AD - crops",
         "nearestAnyFuel": "Biomass",
-        "nearestMajorKm": 12.9,
-        "nearestMajorName": "Thornhill",
+        "nearestMajorKm": 22.6,
+        "nearestMajorName": "Castleford",
         "nearestMajorFuel": "Gas",
-        "nearestMajorCapacityMw": 50
+        "nearestMajorCapacityMw": 56
       },
       "dataCentreFit": {
-        "score": 33,
+        "score": 21,
         "band": "unlikely",
         "reasons": [
-          "12.9km to nearest major (>=50MW) power station",
+          "22.6km to nearest major (>=50MW) power station",
           "2,141 sq ft equivalent",
           "subtype \"Mixed Use\""
         ]
@@ -1009,11 +1035,13 @@
       "propertyType": "Shop",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/03b9aab99/760571799238961/03b9aab99180ddb1a89081de621d5b14_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
+        "geocodePrecision": "exact",
+        "lat": 53.378307,
+        "lon": -1.466003,
+        "nearestAnyKm": 1.5,
         "nearestAnyName": "Sheffield ERF",
         "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 36.1,
+        "nearestMajorKm": 36.4,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
@@ -1022,7 +1050,7 @@
         "score": 23,
         "band": "unlikely",
         "reasons": [
-          "36.1km to nearest major (>=50MW) power station",
+          "36.4km to nearest major (>=50MW) power station",
           "6,992 sq ft equivalent",
           "subtype \"Shop\" — no specific rule, neutral"
         ]
@@ -1047,11 +1075,13 @@
       "propertyType": "Commercial Development",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/273f88b2b/760730285095312/273f88b2b4956c379362caa1b49e4492_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
+        "geocodePrecision": "exact",
+        "lat": 53.378824,
+        "lon": -1.481285,
+        "nearestAnyKm": 2.4,
         "nearestAnyName": "Sheffield ERF",
         "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 36.1,
+        "nearestMajorKm": 36,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
@@ -1060,7 +1090,7 @@
         "score": 41,
         "band": "possible",
         "reasons": [
-          "36.1km to nearest major (>=50MW) power station",
+          "36.0km to nearest major (>=50MW) power station",
           "22,881 sq ft equivalent",
           "subtype \"Commercial Development\""
         ]
@@ -1085,9 +1115,11 @@
       "propertyType": "Residential Development",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/8e4effead/698589255316017/8e4effeadd58619fb87b725d6b7274a5_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
-        "nearestAnyName": "Sheffield ERF",
+        "geocodePrecision": "exact",
+        "lat": 53.37587,
+        "lon": -1.498756,
+        "nearestAnyKm": 3.4,
+        "nearestAnyName": "Parkwood Landfill Scheme",
         "nearestAnyFuel": "Waste",
         "nearestMajorKm": 36.1,
         "nearestMajorName": "Thornhill",
@@ -1123,11 +1155,13 @@
       "propertyType": "Office",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/80bc6da6a/760930151971185/80bc6da6a80876eb7cb1e0ddf57bea66_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
+        "geocodePrecision": "exact",
+        "lat": 53.38089,
+        "lon": -1.462371,
+        "nearestAnyKm": 1.1,
         "nearestAnyName": "Sheffield ERF",
         "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 36.1,
+        "nearestMajorKm": 36.2,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
@@ -1136,7 +1170,7 @@
         "score": 29,
         "band": "unlikely",
         "reasons": [
-          "36.1km to nearest major (>=50MW) power station",
+          "36.2km to nearest major (>=50MW) power station",
           "65,511 sq ft equivalent",
           "subtype \"Office\""
         ]
@@ -1161,11 +1195,13 @@
       "propertyType": "Office",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/2c3608a15/759291330487233/2c3608a15f5c4d295f255026ddccc9f8_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
-        "nearestAnyName": "Sheffield ERF",
-        "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 36.1,
+        "geocodePrecision": "exact",
+        "lat": 53.383081,
+        "lon": -1.409591,
+        "nearestAnyKm": 2.2,
+        "nearestAnyName": "Advanced Manufacturing Research Centre",
+        "nearestAnyFuel": "Wind",
+        "nearestMajorKm": 37.2,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
@@ -1174,7 +1210,7 @@
         "score": 29,
         "band": "unlikely",
         "reasons": [
-          "36.1km to nearest major (>=50MW) power station",
+          "37.2km to nearest major (>=50MW) power station",
           "85,000 sq ft equivalent",
           "subtype \"Office\""
         ]
@@ -1199,11 +1235,13 @@
       "propertyType": "Office",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/49fd8d0d6/760571878944801/49fd8d0d64bc29e79c2bf65909b4f76b_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
+        "geocodePrecision": "exact",
+        "lat": 53.380974,
+        "lon": -1.463068,
+        "nearestAnyKm": 1.2,
         "nearestAnyName": "Sheffield ERF",
         "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 36.1,
+        "nearestMajorKm": 36.2,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
@@ -1212,7 +1250,7 @@
         "score": 29,
         "band": "unlikely",
         "reasons": [
-          "36.1km to nearest major (>=50MW) power station",
+          "36.2km to nearest major (>=50MW) power station",
           "57,842 sq ft equivalent",
           "subtype \"Office\""
         ]
@@ -1237,11 +1275,13 @@
       "propertyType": "Light Industrial",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/bed8b5b7d/762397808152992/bed8b5b7d03419c00a104d326917727d_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
-        "nearestAnyName": "Sheffield ERF",
-        "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 36.1,
+        "geocodePrecision": "exact",
+        "lat": 53.403538,
+        "lon": -1.415691,
+        "nearestAnyKm": 2.2,
+        "nearestAnyName": "Blackburn Meadows",
+        "nearestAnyFuel": "Biomass",
+        "nearestMajorKm": 34.9,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
@@ -1250,7 +1290,7 @@
         "score": 41,
         "band": "possible",
         "reasons": [
-          "36.1km to nearest major (>=50MW) power station",
+          "34.9km to nearest major (>=50MW) power station",
           "35,523 sq ft equivalent",
           "subtype \"Light Industrial\""
         ]
@@ -1275,11 +1315,13 @@
       "propertyType": "Residential Development",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/7eb6e8f99/760773543125345/7eb6e8f992514d5a3c0c7affd373535e_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
+        "geocodePrecision": "exact",
+        "lat": 53.380381,
+        "lon": -1.485865,
+        "nearestAnyKm": 2.6,
         "nearestAnyName": "Sheffield ERF",
         "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 36.1,
+        "nearestMajorKm": 35.8,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
@@ -1288,7 +1330,7 @@
         "score": 41,
         "band": "possible",
         "reasons": [
-          "36.1km to nearest major (>=50MW) power station",
+          "35.8km to nearest major (>=50MW) power station",
           "22,259 sq ft equivalent",
           "subtype \"Residential Development\""
         ]
@@ -1313,11 +1355,13 @@
       "propertyType": "Hotel",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/32e525ee6/760545966541872/32e525ee6763c2ed01321680c051845d_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
+        "geocodePrecision": "exact",
+        "lat": 53.38453,
+        "lon": -1.4715,
+        "nearestAnyKm": 1.6,
         "nearestAnyName": "Sheffield ERF",
         "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 36.1,
+        "nearestMajorKm": 35.6,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
@@ -1326,7 +1370,7 @@
         "score": 18,
         "band": "unlikely",
         "reasons": [
-          "36.1km to nearest major (>=50MW) power station",
+          "35.6km to nearest major (>=50MW) power station",
           "4,521 sq ft equivalent",
           "subtype \"Hotel\" — no specific rule, neutral"
         ]
@@ -1351,11 +1395,13 @@
       "propertyType": "Healthcare Facility",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/ec6ba7ae4/760779631160737/ec6ba7ae4ca3e43a0f5a72737b01f2a6_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
-        "nearestAnyName": "Sheffield ERF",
-        "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 36.1,
+        "geocodePrecision": "exact",
+        "lat": 53.432765,
+        "lon": -1.457537,
+        "nearestAnyKm": 1.3,
+        "nearestAnyName": "Loicher Lane",
+        "nearestAnyFuel": "Biomass",
+        "nearestMajorKm": 30.8,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
@@ -1364,7 +1410,7 @@
         "score": 13,
         "band": "unlikely",
         "reasons": [
-          "36.1km to nearest major (>=50MW) power station",
+          "30.8km to nearest major (>=50MW) power station",
           "size unknown",
           "subtype \"Healthcare Facility\" — no specific rule, neutral"
         ]
@@ -1389,11 +1435,13 @@
       "propertyType": "Warehouse",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/da25f4d50/754599909254481/da25f4d50a044ffc567f5ab3a2cbd8b4_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
-        "nearestAnyName": "Sheffield ERF",
+        "geocodePrecision": "exact",
+        "lat": 53.41727,
+        "lon": -1.41814,
+        "nearestAnyKm": 1.2,
+        "nearestAnyName": "Meadow Hall Power",
         "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 36.1,
+        "nearestMajorKm": 33.5,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
@@ -1402,7 +1450,7 @@
         "score": 41,
         "band": "possible",
         "reasons": [
-          "36.1km to nearest major (>=50MW) power station",
+          "33.5km to nearest major (>=50MW) power station",
           "44,910 sq ft equivalent",
           "subtype \"Warehouse\""
         ]
@@ -1465,20 +1513,22 @@
       "propertyType": "Commercial Development",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/410f828e4/760015858866432/410f828e4da175e84aeef58fa288b22c_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
-        "nearestAnyName": "Sheffield ERF",
-        "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 36.1,
-        "nearestMajorName": "Thornhill",
-        "nearestMajorFuel": "Gas",
-        "nearestMajorCapacityMw": 50
+        "geocodePrecision": "exact",
+        "lat": 53.39065,
+        "lon": -1.37543,
+        "nearestAnyKm": 0.4,
+        "nearestAnyName": "Advanced Manufacturing Research Centre",
+        "nearestAnyFuel": "Wind",
+        "nearestMajorKm": 36.7,
+        "nearestMajorName": "Ferrybridge Multi-fuel",
+        "nearestMajorFuel": "Biomass",
+        "nearestMajorCapacityMw": 79
       },
       "dataCentreFit": {
         "score": 41,
         "band": "possible",
         "reasons": [
-          "36.1km to nearest major (>=50MW) power station",
+          "36.7km to nearest major (>=50MW) power station",
           "97,574 sq ft equivalent",
           "subtype \"Commercial Development\""
         ]
@@ -1503,11 +1553,13 @@
       "propertyType": "Light Industrial",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/c1333e094/754599957448257/c1333e09426c56dbad0a96f7983ff0d4_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
+        "geocodePrecision": "exact",
+        "lat": 53.3956,
+        "lon": -1.41768,
+        "nearestAnyKm": 2.3,
         "nearestAnyName": "Sheffield ERF",
         "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 36.1,
+        "nearestMajorKm": 35.7,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
@@ -1516,7 +1568,7 @@
         "score": 33,
         "band": "unlikely",
         "reasons": [
-          "36.1km to nearest major (>=50MW) power station",
+          "35.7km to nearest major (>=50MW) power station",
           "12,656 sq ft equivalent",
           "subtype \"Light Industrial\""
         ]
@@ -1541,8 +1593,10 @@
       "propertyType": "Light Industrial",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/fc4625602/759300316797680/fc462560201f60e47d7103f11a008cee_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
+        "geocodePrecision": "exact",
+        "lat": 53.38733,
+        "lon": -1.433815,
+        "nearestAnyKm": 1,
         "nearestAnyName": "Sheffield ERF",
         "nearestAnyFuel": "Waste",
         "nearestMajorKm": 36.1,
@@ -1579,11 +1633,13 @@
       "propertyType": "Mixed Use",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/1fc76274f/746606427835057/1fc76274f47b908314f0847aa8081e80_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
+        "geocodePrecision": "exact",
+        "lat": 53.388566,
+        "lon": -1.452523,
+        "nearestAnyKm": 0.4,
         "nearestAnyName": "Sheffield ERF",
         "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 36.1,
+        "nearestMajorKm": 35.6,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
@@ -1592,7 +1648,7 @@
         "score": 34,
         "band": "unlikely",
         "reasons": [
-          "36.1km to nearest major (>=50MW) power station",
+          "35.6km to nearest major (>=50MW) power station",
           "35,000 sq ft equivalent",
           "subtype \"Mixed Use\""
         ]
@@ -1617,11 +1673,13 @@
       "propertyType": "Office",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/79db02382/754397739487104/79db023827bd643fc99a95d95afa3565_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
-        "nearestAnyName": "Sheffield ERF",
-        "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 36.1,
+        "geocodePrecision": "exact",
+        "lat": 53.40767,
+        "lon": -1.42128,
+        "nearestAnyKm": 2,
+        "nearestAnyName": "Blackburn Meadows",
+        "nearestAnyFuel": "Biomass",
+        "nearestMajorKm": 34.3,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
@@ -1630,7 +1688,7 @@
         "score": 21,
         "band": "unlikely",
         "reasons": [
-          "36.1km to nearest major (>=50MW) power station",
+          "34.3km to nearest major (>=50MW) power station",
           "10,387 sq ft equivalent",
           "subtype \"Office\""
         ]
@@ -1693,20 +1751,22 @@
       "propertyType": "Commercial Property",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/4fc92913e/760571646084384/4fc92913e010b2c6f0e173bbe43d5aae_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
-        "nearestAnyName": "Sheffield ERF",
-        "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 36.1,
-        "nearestMajorName": "Thornhill",
-        "nearestMajorFuel": "Gas",
-        "nearestMajorCapacityMw": 50
+        "geocodePrecision": "exact",
+        "lat": 53.334305,
+        "lon": -1.33927,
+        "nearestAnyKm": 0.6,
+        "nearestAnyName": "Holbrook Community Renewable Energy Centre",
+        "nearestAnyFuel": "Biomass",
+        "nearestMajorKm": 35.2,
+        "nearestMajorName": "West Burton",
+        "nearestMajorFuel": "Coal",
+        "nearestMajorCapacityMw": 2012
       },
       "dataCentreFit": {
         "score": 23,
         "band": "unlikely",
         "reasons": [
-          "36.1km to nearest major (>=50MW) power station",
+          "35.2km to nearest major (>=50MW) power station",
           "14,175 sq ft equivalent",
           "subtype \"Commercial Property\" — no specific rule, neutral"
         ]
@@ -1731,11 +1791,13 @@
       "propertyType": "Warehouse",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/070d98d18/760571314744881/070d98d185564d0ad1ff3b9acbc1c502_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
+        "geocodePrecision": "exact",
+        "lat": 53.401573,
+        "lon": -1.426005,
+        "nearestAnyKm": 2.2,
         "nearestAnyName": "Sheffield ERF",
         "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 36.1,
+        "nearestMajorKm": 34.8,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
@@ -1744,7 +1806,7 @@
         "score": 33,
         "band": "unlikely",
         "reasons": [
-          "36.1km to nearest major (>=50MW) power station",
+          "34.8km to nearest major (>=50MW) power station",
           "10,836 sq ft equivalent",
           "subtype \"Warehouse\""
         ]
@@ -1769,11 +1831,13 @@
       "propertyType": "Leisure Facility",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/60b8ad7b1/754599953229873/60b8ad7b1539c73f4bf1c0f767e663a2_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
-        "nearestAnyName": "Sheffield ERF",
+        "geocodePrecision": "exact",
+        "lat": 53.40127,
+        "lon": -1.49125,
+        "nearestAnyKm": 0.8,
+        "nearestAnyName": "Parkwood Landfill Scheme",
         "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 36.1,
+        "nearestMajorKm": 33.5,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
@@ -1782,7 +1846,7 @@
         "score": 23,
         "band": "unlikely",
         "reasons": [
-          "36.1km to nearest major (>=50MW) power station",
+          "33.5km to nearest major (>=50MW) power station",
           "11,403 sq ft equivalent",
           "subtype \"Leisure Facility\" — no specific rule, neutral"
         ]
@@ -1807,11 +1871,13 @@
       "propertyType": "Office",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/1f385bebc/756215561406961/1f385bebcbe8b4efcc615a97b3a9e821_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
+        "geocodePrecision": "exact",
+        "lat": 53.38462,
+        "lon": -1.47255,
+        "nearestAnyKm": 1.6,
         "nearestAnyName": "Sheffield ERF",
         "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 36.1,
+        "nearestMajorKm": 35.6,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
@@ -1820,7 +1886,7 @@
         "score": 16,
         "band": "unlikely",
         "reasons": [
-          "36.1km to nearest major (>=50MW) power station",
+          "35.6km to nearest major (>=50MW) power station",
           "3,850 sq ft equivalent",
           "subtype \"Office\""
         ]
@@ -1845,11 +1911,13 @@
       "propertyType": "Light Industrial",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/c8bafb787/754599932281041/c8bafb787cedbd291ea90825d6c63f2b_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
-        "nearestAnyName": "Sheffield ERF",
+        "geocodePrecision": "exact",
+        "lat": 53.39514,
+        "lon": -1.4722,
+        "nearestAnyKm": 1.1,
+        "nearestAnyName": "Parkwood Landfill Scheme",
         "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 36.1,
+        "nearestMajorKm": 34.5,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
@@ -1858,7 +1926,7 @@
         "score": 41,
         "band": "possible",
         "reasons": [
-          "36.1km to nearest major (>=50MW) power station",
+          "34.5km to nearest major (>=50MW) power station",
           "44,179 sq ft equivalent",
           "subtype \"Light Industrial\""
         ]
@@ -1883,11 +1951,13 @@
       "propertyType": "Residential Development",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/ce8e89f5e/747098253913009/ce8e89f5e3218f1505fcc061d1ce49f3_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
+        "geocodePrecision": "exact",
+        "lat": 53.37608,
+        "lon": -1.4804,
+        "nearestAnyKm": 2.4,
         "nearestAnyName": "Sheffield ERF",
         "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 36.1,
+        "nearestMajorKm": 36.3,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
@@ -1896,7 +1966,7 @@
         "score": 33,
         "band": "unlikely",
         "reasons": [
-          "36.1km to nearest major (>=50MW) power station",
+          "36.3km to nearest major (>=50MW) power station",
           "5,022 sq ft equivalent",
           "subtype \"Residential Development\""
         ]
@@ -1921,11 +1991,13 @@
       "propertyType": "Mixed Use",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/bfa9f1a89/752251579336977/bfa9f1a890302fbc2c05f8ba17c060e6_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
+        "geocodePrecision": "exact",
+        "lat": 53.358646,
+        "lon": -1.420953,
+        "nearestAnyKm": 3.6,
         "nearestAnyName": "Sheffield ERF",
         "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 36.1,
+        "nearestMajorKm": 39.4,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
@@ -1934,7 +2006,7 @@
         "score": 21,
         "band": "unlikely",
         "reasons": [
-          "36.1km to nearest major (>=50MW) power station",
+          "39.4km to nearest major (>=50MW) power station",
           "4,580 sq ft equivalent",
           "subtype \"Mixed Use\""
         ]
@@ -1997,11 +2069,13 @@
       "propertyType": "Warehouse",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/f81ee8b8d/760571990026673/f81ee8b8dba13ef5eebcf627bd8919e7_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
+        "geocodePrecision": "exact",
+        "lat": 53.400486,
+        "lon": -1.433735,
+        "nearestAnyKm": 1.8,
         "nearestAnyName": "Sheffield ERF",
         "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 36.1,
+        "nearestMajorKm": 34.8,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
@@ -2010,7 +2084,7 @@
         "score": 41,
         "band": "possible",
         "reasons": [
-          "36.1km to nearest major (>=50MW) power station",
+          "34.8km to nearest major (>=50MW) power station",
           "21,489 sq ft equivalent",
           "subtype \"Warehouse\""
         ]
@@ -2035,11 +2109,13 @@
       "propertyType": "Office",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/56603f825/757307324194945/56603f82510db608c3e5c86bba52178d_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
+        "geocodePrecision": "exact",
+        "lat": 53.389425,
+        "lon": -1.456436,
+        "nearestAnyKm": 0.6,
         "nearestAnyName": "Sheffield ERF",
         "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 36.1,
+        "nearestMajorKm": 35.4,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
@@ -2048,7 +2124,7 @@
         "score": 21,
         "band": "unlikely",
         "reasons": [
-          "36.1km to nearest major (>=50MW) power station",
+          "35.4km to nearest major (>=50MW) power station",
           "8,196 sq ft equivalent",
           "subtype \"Office\""
         ]
@@ -2073,11 +2149,13 @@
       "propertyType": "Commercial Development",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/840ab1448/754599940713777/840ab14482a230f3ac6af46e83431d5d_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
+        "geocodePrecision": "exact",
+        "lat": 53.38368,
+        "lon": -1.46324,
+        "nearestAnyKm": 1.1,
         "nearestAnyName": "Sheffield ERF",
         "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 36.1,
+        "nearestMajorKm": 35.9,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
@@ -2086,7 +2164,7 @@
         "score": 33,
         "band": "unlikely",
         "reasons": [
-          "36.1km to nearest major (>=50MW) power station",
+          "35.9km to nearest major (>=50MW) power station",
           "5,765 sq ft equivalent",
           "subtype \"Commercial Development\""
         ]
@@ -2149,11 +2227,13 @@
       "propertyType": "Office",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/dcbcd1e2f/760571300137888/dcbcd1e2fdc80777fbc3f3a901e69432_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
-        "nearestAnyName": "Sheffield ERF",
-        "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 36.1,
+        "geocodePrecision": "exact",
+        "lat": 53.399071,
+        "lon": -1.408848,
+        "nearestAnyKm": 2.4,
+        "nearestAnyName": "Advanced Manufacturing Research Centre",
+        "nearestAnyFuel": "Wind",
+        "nearestMajorKm": 35.6,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
@@ -2162,7 +2242,7 @@
         "score": 16,
         "band": "unlikely",
         "reasons": [
-          "36.1km to nearest major (>=50MW) power station",
+          "35.6km to nearest major (>=50MW) power station",
           "3,022 sq ft equivalent",
           "subtype \"Office\""
         ]
@@ -2187,11 +2267,13 @@
       "propertyType": "Warehouse",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/6d426e27b/762568495545041/6d426e27bd186ac3c4a9adfdd6b86f8b_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
-        "nearestAnyName": "Sheffield ERF",
-        "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 36.1,
+        "geocodePrecision": "exact",
+        "lat": 53.409908,
+        "lon": -1.398935,
+        "nearestAnyKm": 1.1,
+        "nearestAnyName": "Blackburn Meadows",
+        "nearestAnyFuel": "Biomass",
+        "nearestMajorKm": 34.7,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
@@ -2200,7 +2282,7 @@
         "score": 28,
         "band": "unlikely",
         "reasons": [
-          "36.1km to nearest major (>=50MW) power station",
+          "34.7km to nearest major (>=50MW) power station",
           "4,820 sq ft equivalent",
           "subtype \"Warehouse\""
         ]
@@ -2225,11 +2307,13 @@
       "propertyType": "Office",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/9ea95f57d/761307952034992/9ea95f57d9edd529e5b9e670276c27fc_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
+        "geocodePrecision": "exact",
+        "lat": 53.384832,
+        "lon": -1.472427,
+        "nearestAnyKm": 1.6,
         "nearestAnyName": "Sheffield ERF",
         "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 36.1,
+        "nearestMajorKm": 35.6,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
@@ -2238,7 +2322,7 @@
         "score": 16,
         "band": "unlikely",
         "reasons": [
-          "36.1km to nearest major (>=50MW) power station",
+          "35.6km to nearest major (>=50MW) power station",
           "2,343 sq ft equivalent",
           "subtype \"Office\""
         ]
@@ -2263,11 +2347,13 @@
       "propertyType": "Office",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/8b4a1d450/759323486182768/8b4a1d450141f47aee041d375c8d45dc_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
+        "geocodePrecision": "exact",
+        "lat": 53.38417,
+        "lon": -1.469446,
+        "nearestAnyKm": 1.4,
         "nearestAnyName": "Sheffield ERF",
         "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 36.1,
+        "nearestMajorKm": 35.7,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
@@ -2276,7 +2362,7 @@
         "score": 16,
         "band": "unlikely",
         "reasons": [
-          "36.1km to nearest major (>=50MW) power station",
+          "35.7km to nearest major (>=50MW) power station",
           "4,390 sq ft equivalent",
           "subtype \"Office\""
         ]
@@ -2301,11 +2387,13 @@
       "propertyType": "Office",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/3d7b7317a/744622056476753/3d7b7317a5b0e706e9561322bb2b6887_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
-        "nearestAnyName": "Sheffield ERF",
+        "geocodePrecision": "exact",
+        "lat": 53.416769,
+        "lon": -1.417751,
+        "nearestAnyKm": 1.2,
+        "nearestAnyName": "Meadow Hall Power",
         "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 36.1,
+        "nearestMajorKm": 33.5,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
@@ -2314,7 +2402,7 @@
         "score": 21,
         "band": "unlikely",
         "reasons": [
-          "36.1km to nearest major (>=50MW) power station",
+          "33.5km to nearest major (>=50MW) power station",
           "5,743 sq ft equivalent",
           "subtype \"Office\""
         ]
@@ -2339,11 +2427,13 @@
       "propertyType": "Showroom",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/e6a9af0d5/760551129667441/e6a9af0d580de81d08abda8403391405_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
-        "nearestAnyName": "Sheffield ERF",
-        "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 36.1,
+        "geocodePrecision": "exact",
+        "lat": 53.4104,
+        "lon": -1.422141,
+        "nearestAnyKm": 1.9,
+        "nearestAnyName": "Blackburn Meadows",
+        "nearestAnyFuel": "Biomass",
+        "nearestMajorKm": 34,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
@@ -2352,7 +2442,7 @@
         "score": 23,
         "band": "unlikely",
         "reasons": [
-          "36.1km to nearest major (>=50MW) power station",
+          "34.0km to nearest major (>=50MW) power station",
           "6,286 sq ft equivalent",
           "subtype \"Showroom\" — no specific rule, neutral"
         ]
@@ -2377,11 +2467,13 @@
       "propertyType": "Shop",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/b7bd81211/760570951948481/b7bd81211c3cccbbce49855b7cefc97d_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
+        "geocodePrecision": "exact",
+        "lat": 53.384571,
+        "lon": -1.467307,
+        "nearestAnyKm": 1.3,
         "nearestAnyName": "Sheffield ERF",
         "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 36.1,
+        "nearestMajorKm": 35.7,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
@@ -2390,7 +2482,7 @@
         "score": 18,
         "band": "unlikely",
         "reasons": [
-          "36.1km to nearest major (>=50MW) power station",
+          "35.7km to nearest major (>=50MW) power station",
           "2,458 sq ft equivalent",
           "subtype \"Shop\" — no specific rule, neutral"
         ]
@@ -2415,20 +2507,22 @@
       "propertyType": "Commercial Development",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/84a7fdac7/719250187282449/84a7fdac7b43507c42e9e3a1f4efe84d_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
-        "nearestAnyName": "Sheffield ERF",
-        "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 36.1,
-        "nearestMajorName": "Thornhill",
-        "nearestMajorFuel": "Gas",
-        "nearestMajorCapacityMw": 50
+        "geocodePrecision": "exact",
+        "lat": 53.341549,
+        "lon": -1.262753,
+        "nearestAnyKm": 3.5,
+        "nearestAnyName": "Loscar",
+        "nearestAnyFuel": "Wind",
+        "nearestMajorKm": 30.1,
+        "nearestMajorName": "West Burton",
+        "nearestMajorFuel": "Coal",
+        "nearestMajorCapacityMw": 2012
       },
       "dataCentreFit": {
         "score": 28,
         "band": "unlikely",
         "reasons": [
-          "36.1km to nearest major (>=50MW) power station",
+          "30.1km to nearest major (>=50MW) power station",
           "2,783 sq ft equivalent",
           "subtype \"Commercial Development\""
         ]
@@ -2453,11 +2547,13 @@
       "propertyType": "Residential Development",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/ad6e6b0f9/743551758137296/ad6e6b0f979f826d0aaa855f5136f4bb_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
-        "nearestAnyName": "Sheffield ERF",
-        "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 36.1,
+        "geocodePrecision": "exact",
+        "lat": 53.44054,
+        "lon": -1.452931,
+        "nearestAnyKm": 0.4,
+        "nearestAnyName": "Loicher Lane",
+        "nearestAnyFuel": "Biomass",
+        "nearestMajorKm": 30.2,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
@@ -2466,7 +2562,7 @@
         "score": 41,
         "band": "possible",
         "reasons": [
-          "36.1km to nearest major (>=50MW) power station",
+          "30.2km to nearest major (>=50MW) power station",
           "20,042 sq ft equivalent",
           "subtype \"Residential Development\""
         ]
@@ -2491,11 +2587,13 @@
       "propertyType": "Commercial Property",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/0dea0cc0a/759297143771872/0dea0cc0abf404a4829e810e3e7a72bb_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
+        "geocodePrecision": "exact",
+        "lat": 53.379238,
+        "lon": -1.457407,
+        "nearestAnyKm": 1,
         "nearestAnyName": "Sheffield ERF",
         "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 36.1,
+        "nearestMajorKm": 36.5,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
@@ -2504,7 +2602,7 @@
         "score": 18,
         "band": "unlikely",
         "reasons": [
-          "36.1km to nearest major (>=50MW) power station",
+          "36.5km to nearest major (>=50MW) power station",
           "2,655 sq ft equivalent",
           "subtype \"Commercial Property\" — no specific rule, neutral"
         ]
@@ -2529,11 +2627,13 @@
       "propertyType": "Retail Property (high street)",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/92fc8e732/758018570995760/92fc8e7328b338f0a963100c4671926b_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
+        "geocodePrecision": "exact",
+        "lat": 53.399688,
+        "lon": -1.42515,
+        "nearestAnyKm": 2.1,
         "nearestAnyName": "Sheffield ERF",
         "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 36.1,
+        "nearestMajorKm": 35.1,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
@@ -2542,7 +2642,7 @@
         "score": 13,
         "band": "unlikely",
         "reasons": [
-          "36.1km to nearest major (>=50MW) power station",
+          "35.1km to nearest major (>=50MW) power station",
           "2,602 sq ft equivalent",
           "subtype \"Retail Property (high street)\""
         ]
@@ -2719,11 +2819,13 @@
       "propertyType": "Office",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/d79572e84/760579667771744/d79572e84d4e8923ac0a36dc22778acc_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
+        "geocodePrecision": "exact",
+        "lat": 53.386112,
+        "lon": -1.466972,
+        "nearestAnyKm": 1.2,
         "nearestAnyName": "Sheffield ERF",
         "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 36.1,
+        "nearestMajorKm": 35.5,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
@@ -2732,7 +2834,7 @@
         "score": 29,
         "band": "unlikely",
         "reasons": [
-          "36.1km to nearest major (>=50MW) power station",
+          "35.5km to nearest major (>=50MW) power station",
           "36,381 sq ft equivalent",
           "subtype \"Office\""
         ]
@@ -2833,11 +2935,13 @@
       "propertyType": "Office",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/abde0a33a/758217253130032/abde0a33a209961f7c2452e431c96ec1_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
+        "geocodePrecision": "exact",
+        "lat": 53.378986,
+        "lon": -1.470984,
         "nearestAnyKm": 1.7,
         "nearestAnyName": "Sheffield ERF",
         "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 36.1,
+        "nearestMajorKm": 36.2,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
@@ -2846,7 +2950,7 @@
         "score": 16,
         "band": "unlikely",
         "reasons": [
-          "36.1km to nearest major (>=50MW) power station",
+          "36.2km to nearest major (>=50MW) power station",
           "2,973 sq ft equivalent",
           "subtype \"Office\""
         ]
@@ -3061,11 +3165,13 @@
       "propertyType": "Light Industrial",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/2a277b2bb/754780241191488/2a277b2bb55c8ae49638d136ec4f0694_max_476x317.png",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 6.2,
+        "geocodePrecision": "exact",
+        "lat": 53.786123,
+        "lon": -1.784627,
+        "nearestAnyKm": 8.2,
         "nearestAnyName": "Esholt WWTW",
         "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 14.3,
+        "nearestMajorKm": 14.7,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
@@ -3074,7 +3180,7 @@
         "score": 40,
         "band": "possible",
         "reasons": [
-          "14.3km to nearest major (>=50MW) power station",
+          "14.7km to nearest major (>=50MW) power station",
           "2,476 sq ft equivalent",
           "subtype \"Light Industrial\""
         ]
@@ -3099,11 +3205,13 @@
       "propertyType": "Warehouse",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/545c83208/760556347259392/545c832085eb52db89bffb32bb1c6688_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 6.2,
+        "geocodePrecision": "exact",
+        "lat": 53.785854,
+        "lon": -1.745741,
+        "nearestAnyKm": 7.1,
         "nearestAnyName": "Esholt WWTW",
         "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 14.3,
+        "nearestMajorKm": 13.1,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
@@ -3112,7 +3220,7 @@
         "score": 53,
         "band": "possible",
         "reasons": [
-          "14.3km to nearest major (>=50MW) power station",
+          "13.1km to nearest major (>=50MW) power station",
           "72,564 sq ft equivalent",
           "subtype \"Warehouse\""
         ]
@@ -3137,11 +3245,13 @@
       "propertyType": "Office",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/7ceda623f/750945672314128/7ceda623fc17c942f131df3dd948dd8a_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
+        "geocodePrecision": "exact",
+        "lat": 53.795634,
+        "lon": -1.752578,
         "nearestAnyKm": 6.2,
         "nearestAnyName": "Esholt WWTW",
         "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 14.3,
+        "nearestMajorKm": 14.2,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
@@ -3150,7 +3260,7 @@
         "score": 41,
         "band": "possible",
         "reasons": [
-          "14.3km to nearest major (>=50MW) power station",
+          "14.2km to nearest major (>=50MW) power station",
           "29,351 sq ft equivalent",
           "subtype \"Office\""
         ]
@@ -3175,11 +3285,13 @@
       "propertyType": "Commercial Property",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/e54386834/763457220195440/e5438683475a558055c95c83b5c6f2f8_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 6.2,
+        "geocodePrecision": "exact",
+        "lat": 53.805288,
+        "lon": -1.762057,
+        "nearestAnyKm": 5.6,
         "nearestAnyName": "Esholt WWTW",
         "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 14.3,
+        "nearestMajorKm": 15.4,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
@@ -3188,7 +3300,7 @@
         "score": 35,
         "band": "possible",
         "reasons": [
-          "14.3km to nearest major (>=50MW) power station",
+          "15.4km to nearest major (>=50MW) power station",
           "12,623 sq ft equivalent",
           "subtype \"Commercial Property\" — no specific rule, neutral"
         ]
@@ -3213,11 +3325,13 @@
       "propertyType": "Office",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/030def733/760557054121681/030def73380cf31ca32ac0e154f4a32f_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 6.2,
+        "geocodePrecision": "exact",
+        "lat": 53.804306,
+        "lon": -1.752679,
+        "nearestAnyKm": 5.4,
         "nearestAnyName": "Esholt WWTW",
         "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 14.3,
+        "nearestMajorKm": 15,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
@@ -3226,7 +3340,7 @@
         "score": 33,
         "band": "unlikely",
         "reasons": [
-          "14.3km to nearest major (>=50MW) power station",
+          "15.0km to nearest major (>=50MW) power station",
           "16,266 sq ft equivalent",
           "subtype \"Office\""
         ]
@@ -3251,11 +3365,13 @@
       "propertyType": "Light Industrial",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/8f6d56e61/722868265035712/8f6d56e61282a8d64224f7904ffa00ed_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 6.2,
-        "nearestAnyName": "Esholt WWTW",
-        "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 14.3,
+        "geocodePrecision": "exact",
+        "lat": 53.781449,
+        "lon": -1.80893,
+        "nearestAnyKm": 8.7,
+        "nearestAnyName": "Ovenden Moor",
+        "nearestAnyFuel": "Wind",
+        "nearestMajorKm": 15.5,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
@@ -3264,7 +3380,7 @@
         "score": 45,
         "band": "possible",
         "reasons": [
-          "14.3km to nearest major (>=50MW) power station",
+          "15.5km to nearest major (>=50MW) power station",
           "11,814 sq ft equivalent",
           "subtype \"Light Industrial\""
         ]
@@ -3289,11 +3405,13 @@
       "propertyType": "Office",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/cd352f02e/760934224753408/cd352f02efa66ca88ce39dc933ceb108_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 6.2,
+        "geocodePrecision": "exact",
+        "lat": 53.796333,
+        "lon": -1.760574,
+        "nearestAnyKm": 6.4,
         "nearestAnyName": "Esholt WWTW",
         "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 14.3,
+        "nearestMajorKm": 14.6,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
@@ -3302,7 +3420,7 @@
         "score": 33,
         "band": "unlikely",
         "reasons": [
-          "14.3km to nearest major (>=50MW) power station",
+          "14.6km to nearest major (>=50MW) power station",
           "11,194 sq ft equivalent",
           "subtype \"Office\""
         ]
@@ -3327,11 +3445,13 @@
       "propertyType": "Commercial Development",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/efb475197/760934262388241/efb4751974c1b20c50648e407ac31632_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 6.2,
+        "geocodePrecision": "exact",
+        "lat": 53.806561,
+        "lon": -1.79002,
+        "nearestAnyKm": 6.8,
         "nearestAnyName": "Esholt WWTW",
         "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 14.3,
+        "nearestMajorKm": 16.7,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
@@ -3340,7 +3460,7 @@
         "score": 45,
         "band": "possible",
         "reasons": [
-          "14.3km to nearest major (>=50MW) power station",
+          "16.7km to nearest major (>=50MW) power station",
           "9,015 sq ft equivalent",
           "subtype \"Commercial Development\""
         ]
@@ -3365,11 +3485,13 @@
       "propertyType": "Office",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/cc611ea52/760557448387104/cc611ea5230508aaa21ae4c7a73fe379_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 6.2,
+        "geocodePrecision": "exact",
+        "lat": 53.784615,
+        "lon": -1.735326,
+        "nearestAnyKm": 7,
         "nearestAnyName": "Esholt WWTW",
         "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 14.3,
+        "nearestMajorKm": 12.6,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
@@ -3378,7 +3500,7 @@
         "score": 28,
         "band": "unlikely",
         "reasons": [
-          "14.3km to nearest major (>=50MW) power station",
+          "12.6km to nearest major (>=50MW) power station",
           "3,297 sq ft equivalent",
           "subtype \"Office\""
         ]
@@ -3403,11 +3525,13 @@
       "propertyType": "Light Industrial",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/2c3a09258/760934153446096/2c3a092587c43a5e3a3129df71216c4f_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 6.2,
+        "geocodePrecision": "exact",
+        "lat": 53.80043,
+        "lon": -1.746063,
+        "nearestAnyKm": 5.6,
         "nearestAnyName": "Esholt WWTW",
         "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 14.3,
+        "nearestMajorKm": 14.4,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
@@ -3416,7 +3540,7 @@
         "score": 45,
         "band": "possible",
         "reasons": [
-          "14.3km to nearest major (>=50MW) power station",
+          "14.4km to nearest major (>=50MW) power station",
           "5,761 sq ft equivalent",
           "subtype \"Light Industrial\""
         ]
@@ -3441,11 +3565,13 @@
       "propertyType": "Commercial Development",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/50c367041/760771181578336/50c3670417ccdb3d49c1fde01c5eb559_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 6.2,
-        "nearestAnyName": "Esholt WWTW",
-        "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 14.3,
+        "geocodePrecision": "exact",
+        "lat": 53.769333,
+        "lon": -1.848115,
+        "nearestAnyKm": 6.1,
+        "nearestAnyName": "Ovenden Moor",
+        "nearestAnyFuel": "Wind",
+        "nearestMajorKm": 16.8,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
@@ -3454,7 +3580,7 @@
         "score": 40,
         "band": "possible",
         "reasons": [
-          "14.3km to nearest major (>=50MW) power station",
+          "16.8km to nearest major (>=50MW) power station",
           "3,083 sq ft equivalent",
           "subtype \"Commercial Development\""
         ]
@@ -3479,11 +3605,13 @@
       "propertyType": "Light Industrial",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/f5d390ced/746607883263889/f5d390cedb54518bbb1cb70f7d3d10ed_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 6.2,
+        "geocodePrecision": "exact",
+        "lat": 53.75933,
+        "lon": -1.73938,
+        "nearestAnyKm": 9.8,
         "nearestAnyName": "Esholt WWTW",
         "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 14.3,
+        "nearestMajorKm": 10.5,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
@@ -3492,7 +3620,7 @@
         "score": 53,
         "band": "possible",
         "reasons": [
-          "14.3km to nearest major (>=50MW) power station",
+          "10.5km to nearest major (>=50MW) power station",
           "28,079 sq ft equivalent",
           "subtype \"Light Industrial\""
         ]
@@ -3517,11 +3645,13 @@
       "propertyType": "Warehouse",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/56d3bdb84/760557421122001/56d3bdb842519549a769c5915a5a8959_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 6.2,
+        "geocodePrecision": "exact",
+        "lat": 53.797245,
+        "lon": -1.767522,
+        "nearestAnyKm": 6.6,
         "nearestAnyName": "Esholt WWTW",
         "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 14.3,
+        "nearestMajorKm": 14.9,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
@@ -3530,7 +3660,7 @@
         "score": 45,
         "band": "possible",
         "reasons": [
-          "14.3km to nearest major (>=50MW) power station",
+          "14.9km to nearest major (>=50MW) power station",
           "16,165 sq ft equivalent",
           "subtype \"Warehouse\""
         ]
@@ -3555,11 +3685,13 @@
       "propertyType": "Light Industrial",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/b105c7bfc/722867770130913/b105c7bfc56b094a443a60890b1bc1ce_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 6.2,
-        "nearestAnyName": "Esholt WWTW",
+        "geocodePrecision": "exact",
+        "lat": 53.73814,
+        "lon": -1.775743,
+        "nearestAnyKm": 9.1,
+        "nearestAnyName": "Vine Street EfW",
         "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 14.3,
+        "nearestMajorKm": 11,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
@@ -3568,7 +3700,7 @@
         "score": 53,
         "band": "possible",
         "reasons": [
-          "14.3km to nearest major (>=50MW) power station",
+          "11.0km to nearest major (>=50MW) power station",
           "69,415 sq ft equivalent",
           "subtype \"Light Industrial\""
         ]
@@ -3593,11 +3725,13 @@
       "propertyType": "Warehouse",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/d5d3916c7/760557131759280/d5d3916c782d772df4ac41d685d3b091_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 6.2,
+        "geocodePrecision": "exact",
+        "lat": 53.810589,
+        "lon": -1.760858,
+        "nearestAnyKm": 5.1,
         "nearestAnyName": "Esholt WWTW",
         "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 14.3,
+        "nearestMajorKm": 15.9,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
@@ -3606,7 +3740,7 @@
         "score": 53,
         "band": "possible",
         "reasons": [
-          "14.3km to nearest major (>=50MW) power station",
+          "15.9km to nearest major (>=50MW) power station",
           "20,405 sq ft equivalent",
           "subtype \"Warehouse\""
         ]
@@ -3631,20 +3765,22 @@
       "propertyType": "Light Industrial",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/f1c03b7a1/722867839314801/f1c03b7a1d18bcae0f7f1b7cb907eac6_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 6.2,
-        "nearestAnyName": "Esholt WWTW",
+        "geocodePrecision": "exact",
+        "lat": 53.749351,
+        "lon": -1.733803,
+        "nearestAnyKm": 9.5,
+        "nearestAnyName": "Soothills Landfill",
         "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 14.3,
+        "nearestMajorKm": 9.5,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
       },
       "dataCentreFit": {
-        "score": 60,
-        "band": "possible",
+        "score": 75,
+        "band": "strong",
         "reasons": [
-          "14.3km to nearest major (>=50MW) power station",
+          "9.5km to nearest major (>=50MW) power station",
           "105,000 sq ft equivalent",
           "subtype \"Light Industrial\""
         ]
@@ -3707,11 +3843,13 @@
       "propertyType": "Leisure Facility",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/adc276697/752945269010833/adc27669750f11a7e74707b717f1e18b_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.3,
+        "geocodePrecision": "exact",
+        "lat": 53.6436,
+        "lon": -1.80846,
+        "nearestAnyKm": 2.5,
         "nearestAnyName": "Vine Street EfW",
         "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 11.6,
+        "nearestMajorKm": 12.9,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
@@ -3720,7 +3858,7 @@
         "score": 35,
         "band": "possible",
         "reasons": [
-          "11.6km to nearest major (>=50MW) power station",
+          "12.9km to nearest major (>=50MW) power station",
           "14,128 sq ft equivalent",
           "subtype \"Leisure Facility\" — no specific rule, neutral"
         ]
@@ -3745,11 +3883,13 @@
       "propertyType": "Commercial Development",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/52cfb66fb/721600211753729/52cfb66fb560be77e2bcdeffc42902da_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.3,
+        "geocodePrecision": "exact",
+        "lat": 53.648525,
+        "lon": -1.789069,
+        "nearestAnyKm": 1.2,
         "nearestAnyName": "Vine Street EfW",
         "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 11.6,
+        "nearestMajorKm": 11.5,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
@@ -3758,7 +3898,7 @@
         "score": 53,
         "band": "possible",
         "reasons": [
-          "11.6km to nearest major (>=50MW) power station",
+          "11.5km to nearest major (>=50MW) power station",
           "67,082 sq ft equivalent",
           "subtype \"Commercial Development\""
         ]
@@ -3897,11 +4037,13 @@
       "propertyType": "Commercial Development",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/1c7f51b98/742090498310208/1c7f51b9855aeb74fef6d51dfafaedad_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.3,
+        "geocodePrecision": "exact",
+        "lat": 53.648023,
+        "lon": -1.780383,
+        "nearestAnyKm": 1,
         "nearestAnyName": "Vine Street EfW",
         "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 11.6,
+        "nearestMajorKm": 11,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
@@ -3910,7 +4052,7 @@
         "score": 45,
         "band": "possible",
         "reasons": [
-          "11.6km to nearest major (>=50MW) power station",
+          "11.0km to nearest major (>=50MW) power station",
           "5,422 sq ft equivalent",
           "subtype \"Commercial Development\""
         ]
@@ -3935,11 +4077,13 @@
       "propertyType": "Retail Property (out of town)",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/c45dfadf3/750772690783889/c45dfadf3b5c1f7b58b723e26933d906_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.3,
+        "geocodePrecision": "exact",
+        "lat": 53.6278,
+        "lon": -1.7866,
+        "nearestAnyKm": 3.2,
         "nearestAnyName": "Vine Street EfW",
         "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 11.6,
+        "nearestMajorKm": 12.5,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
@@ -3948,7 +4092,7 @@
         "score": 25,
         "band": "unlikely",
         "reasons": [
-          "11.6km to nearest major (>=50MW) power station",
+          "12.5km to nearest major (>=50MW) power station",
           "2,415 sq ft equivalent",
           "subtype \"Retail Property (out of town)\""
         ]
@@ -3973,8 +4117,10 @@
       "propertyType": "Residential Development",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/cbc65a4a0/742063384158624/cbc65a4a05a10935c7928387626db06b_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.3,
+        "geocodePrecision": "exact",
+        "lat": 53.65164,
+        "lon": -1.792891,
+        "nearestAnyKm": 1.1,
         "nearestAnyName": "Vine Street EfW",
         "nearestAnyFuel": "Waste",
         "nearestMajorKm": 11.6,
@@ -4011,8 +4157,10 @@
       "propertyType": "Residential Development",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/cbc65a4a0/742063304407872/cbc65a4a05a10935c7928387626db06b_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.3,
+        "geocodePrecision": "exact",
+        "lat": 53.65164,
+        "lon": -1.792891,
+        "nearestAnyKm": 1.1,
         "nearestAnyName": "Vine Street EfW",
         "nearestAnyFuel": "Waste",
         "nearestMajorKm": 11.6,
@@ -4049,11 +4197,13 @@
       "propertyType": "Residential Development",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/dfb9e6924/742063671410129/dfb9e6924f7237f3e0006969c34fb71d_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.3,
+        "geocodePrecision": "exact",
+        "lat": 53.648457,
+        "lon": -1.838456,
+        "nearestAnyKm": 4.1,
         "nearestAnyName": "Vine Street EfW",
         "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 11.6,
+        "nearestMajorKm": 14.6,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
@@ -4062,7 +4212,7 @@
         "score": 60,
         "band": "possible",
         "reasons": [
-          "11.6km to nearest major (>=50MW) power station",
+          "14.6km to nearest major (>=50MW) power station",
           "161,172 sq ft equivalent",
           "subtype \"Residential Development\""
         ]
@@ -4087,11 +4237,13 @@
       "propertyType": "Bar / Nightclub",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/a13f256d9/749299705809233/a13f256d9fe7249c84838e2ee6045639_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.3,
+        "geocodePrecision": "exact",
+        "lat": 53.646603,
+        "lon": -1.780572,
+        "nearestAnyKm": 1.1,
         "nearestAnyName": "Vine Street EfW",
         "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 11.6,
+        "nearestMajorKm": 11.1,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
@@ -4100,7 +4252,7 @@
         "score": 35,
         "band": "possible",
         "reasons": [
-          "11.6km to nearest major (>=50MW) power station",
+          "11.1km to nearest major (>=50MW) power station",
           "10,698 sq ft equivalent",
           "subtype \"Bar / Nightclub\" — no specific rule, neutral"
         ]
@@ -4239,8 +4391,10 @@
       "propertyType": "Office",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/d097a1b84/760550506814305/d097a1b8494a37c83eecc1c4d5295315_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.8,
+        "geocodePrecision": "exact",
+        "lat": 53.5215,
+        "lon": -1.125758,
+        "nearestAnyKm": 1.9,
         "nearestAnyName": "Prosper Demulder Limited Anaerobic Digestion Plant (Waste AD)",
         "nearestAnyFuel": "Biomass",
         "nearestMajorKm": 21.1,
@@ -4277,11 +4431,13 @@
       "propertyType": "Office",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/94f261155/723050998393024/94f26115586e071ab92ec681125b5106_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.8,
+        "geocodePrecision": "exact",
+        "lat": 53.520629,
+        "lon": -1.124817,
+        "nearestAnyKm": 2,
         "nearestAnyName": "Prosper Demulder Limited Anaerobic Digestion Plant (Waste AD)",
         "nearestAnyFuel": "Biomass",
-        "nearestMajorKm": 21.1,
+        "nearestMajorKm": 21.2,
         "nearestMajorName": "Eggborough",
         "nearestMajorFuel": "Coal",
         "nearestMajorCapacityMw": 1960
@@ -4290,7 +4446,7 @@
         "score": 21,
         "band": "unlikely",
         "reasons": [
-          "21.1km to nearest major (>=50MW) power station",
+          "21.2km to nearest major (>=50MW) power station",
           "11,038 sq ft equivalent",
           "subtype \"Office\""
         ]
@@ -4315,8 +4471,10 @@
       "propertyType": "Commercial Property",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/14ecd67d4/759461342496401/14ecd67d4b0c2cf99585a1592a1172c2_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.8,
+        "geocodePrecision": "exact",
+        "lat": 53.522332,
+        "lon": -1.135602,
+        "nearestAnyKm": 1.6,
         "nearestAnyName": "Prosper Demulder Limited Anaerobic Digestion Plant (Waste AD)",
         "nearestAnyFuel": "Biomass",
         "nearestMajorKm": 21.1,
@@ -4429,11 +4587,13 @@
       "propertyType": "Pub",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/80d009dc7/723056780266769/80d009dc7ca2dc039c966c9fabbaa634_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.8,
+        "geocodePrecision": "exact",
+        "lat": 53.52244,
+        "lon": -1.131471,
+        "nearestAnyKm": 1.7,
         "nearestAnyName": "Prosper Demulder Limited Anaerobic Digestion Plant (Waste AD)",
         "nearestAnyFuel": "Biomass",
-        "nearestMajorKm": 21.1,
+        "nearestMajorKm": 21,
         "nearestMajorName": "Eggborough",
         "nearestMajorFuel": "Coal",
         "nearestMajorCapacityMw": 1960
@@ -4442,7 +4602,7 @@
         "score": 23,
         "band": "unlikely",
         "reasons": [
-          "21.1km to nearest major (>=50MW) power station",
+          "21.0km to nearest major (>=50MW) power station",
           "11,326 sq ft equivalent",
           "subtype \"Pub\" — no specific rule, neutral"
         ]
@@ -4505,11 +4665,13 @@
       "propertyType": "Light Industrial",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/5a7c8ea2a/738315773469473/5a7c8ea2ad50e2563220e185a6386797_max_476x317.png",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.9,
-        "nearestAnyName": "Ardwick Railway Goods Yard Incinerator (Newhaven EFW Plant)",
-        "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 12.2,
+        "geocodePrecision": "exact",
+        "lat": 53.494379,
+        "lon": -2.245741,
+        "nearestAnyKm": 2.8,
+        "nearestAnyName": "Salford Refuse Treatment Plant (AD)",
+        "nearestAnyFuel": "Biomass",
+        "nearestMajorKm": 12.5,
         "nearestMajorName": "Carrington",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 900
@@ -4518,7 +4680,7 @@
         "score": 53,
         "band": "possible",
         "reasons": [
-          "12.2km to nearest major (>=50MW) power station",
+          "12.5km to nearest major (>=50MW) power station",
           "80,000 sq ft equivalent",
           "subtype \"Light Industrial\""
         ]
@@ -4543,11 +4705,13 @@
       "propertyType": "Light Industrial",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/f75881295/749898455249585/f758812951cab9a58572fa56bfd28e93_max_476x317.png",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.9,
-        "nearestAnyName": "Ardwick Railway Goods Yard Incinerator (Newhaven EFW Plant)",
-        "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 12.2,
+        "geocodePrecision": "exact",
+        "lat": 53.492528,
+        "lon": -2.196538,
+        "nearestAnyKm": 1.7,
+        "nearestAnyName": "Reliance Street Mechanical Biological Treatment Facility (MBT)",
+        "nearestAnyFuel": "Biomass",
+        "nearestMajorKm": 15.3,
         "nearestMajorName": "Carrington",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 900
@@ -4556,7 +4720,7 @@
         "score": 60,
         "band": "possible",
         "reasons": [
-          "12.2km to nearest major (>=50MW) power station",
+          "15.3km to nearest major (>=50MW) power station",
           "186,872 sq ft equivalent",
           "subtype \"Light Industrial\""
         ]
@@ -4619,11 +4783,13 @@
       "propertyType": "Mixed Use",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/69be495ba/759472245651296/69be495ba9648157ee9672de9b0a0e86_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.9,
+        "geocodePrecision": "exact",
+        "lat": 53.473515,
+        "lon": -2.24264,
+        "nearestAnyKm": 2.3,
         "nearestAnyName": "Ardwick Railway Goods Yard Incinerator (Newhaven EFW Plant)",
         "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 12.2,
+        "nearestMajorKm": 11.7,
         "nearestMajorName": "Carrington",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 900
@@ -4632,7 +4798,7 @@
         "score": 46,
         "band": "possible",
         "reasons": [
-          "12.2km to nearest major (>=50MW) power station",
+          "11.7km to nearest major (>=50MW) power station",
           "31,330 sq ft equivalent",
           "subtype \"Mixed Use\""
         ]
@@ -4733,20 +4899,22 @@
       "propertyType": "Residential Development",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/c36c29c73/755829050114448/c36c29c736ac81a757b58407f947211b_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.9,
-        "nearestAnyName": "Ardwick Railway Goods Yard Incinerator (Newhaven EFW Plant)",
-        "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 12.2,
+        "geocodePrecision": "exact",
+        "lat": 53.4856,
+        "lon": -2.3125,
+        "nearestAnyKm": 2,
+        "nearestAnyName": "Salford Refuse Treatment Plant (AD)",
+        "nearestAnyFuel": "Biomass",
+        "nearestMajorKm": 8.3,
         "nearestMajorName": "Carrington",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 900
       },
       "dataCentreFit": {
-        "score": 60,
-        "band": "possible",
+        "score": 75,
+        "band": "strong",
         "reasons": [
-          "12.2km to nearest major (>=50MW) power station",
+          "8.3km to nearest major (>=50MW) power station",
           "154,388 sq ft equivalent",
           "subtype \"Residential Development\""
         ]
@@ -4771,20 +4939,22 @@
       "propertyType": "Distribution Warehouse",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/0e3dc6868/754386811315905/0e3dc6868bb5168dc3b3498459d66ada_max_476x317.png",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.9,
-        "nearestAnyName": "Ardwick Railway Goods Yard Incinerator (Newhaven EFW Plant)",
-        "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 12.2,
+        "geocodePrecision": "exact",
+        "lat": 53.4616,
+        "lon": -2.31219,
+        "nearestAnyKm": 4.1,
+        "nearestAnyName": "Salford Refuse Treatment Plant (AD)",
+        "nearestAnyFuel": "Biomass",
+        "nearestMajorKm": 6.9,
         "nearestMajorName": "Carrington",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 900
       },
       "dataCentreFit": {
-        "score": 45,
+        "score": 60,
         "band": "possible",
         "reasons": [
-          "12.2km to nearest major (>=50MW) power station",
+          "6.9km to nearest major (>=50MW) power station",
           "17,197 sq ft equivalent",
           "subtype \"Distribution Warehouse\""
         ]
@@ -4809,11 +4979,13 @@
       "propertyType": "Retail Property (high street)",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/c8e701b06/760716636883840/c8e701b06853fb4c185f087808d3d086_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.9,
+        "geocodePrecision": "exact",
+        "lat": 53.479334,
+        "lon": -2.221983,
+        "nearestAnyKm": 1.1,
         "nearestAnyName": "Ardwick Railway Goods Yard Incinerator (Newhaven EFW Plant)",
         "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 12.2,
+        "nearestMajorKm": 13.2,
         "nearestMajorName": "Carrington",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 900
@@ -4822,7 +4994,7 @@
         "score": 25,
         "band": "unlikely",
         "reasons": [
-          "12.2km to nearest major (>=50MW) power station",
+          "13.2km to nearest major (>=50MW) power station",
           "2,914 sq ft equivalent",
           "subtype \"Retail Property (high street)\""
         ]
@@ -4847,11 +5019,13 @@
       "propertyType": "Office",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/003b68fc7/760768065211217/003b68fc70e038da20321af006fc8081_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.9,
+        "geocodePrecision": "exact",
+        "lat": 53.474655,
+        "lon": -2.247647,
+        "nearestAnyKm": 2.6,
         "nearestAnyName": "Ardwick Railway Goods Yard Incinerator (Newhaven EFW Plant)",
         "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 12.2,
+        "nearestMajorKm": 11.4,
         "nearestMajorName": "Carrington",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 900
@@ -4860,7 +5034,7 @@
         "score": 33,
         "band": "unlikely",
         "reasons": [
-          "12.2km to nearest major (>=50MW) power station",
+          "11.4km to nearest major (>=50MW) power station",
           "10,430 sq ft equivalent",
           "subtype \"Office\""
         ]
@@ -4885,11 +5059,13 @@
       "propertyType": "Retail Property (high street)",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/1af667586/754397760540369/1af667586f24c3f178e2c9f2eb229360_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.9,
+        "geocodePrecision": "exact",
+        "lat": 53.48198,
+        "lon": -2.24664,
+        "nearestAnyKm": 2.7,
         "nearestAnyName": "Ardwick Railway Goods Yard Incinerator (Newhaven EFW Plant)",
         "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 12.2,
+        "nearestMajorKm": 11.8,
         "nearestMajorName": "Carrington",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 900
@@ -4898,7 +5074,7 @@
         "score": 30,
         "band": "unlikely",
         "reasons": [
-          "12.2km to nearest major (>=50MW) power station",
+          "11.8km to nearest major (>=50MW) power station",
           "10,033 sq ft equivalent",
           "subtype \"Retail Property (high street)\""
         ]
@@ -4923,11 +5099,13 @@
       "propertyType": "Office",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/73aaae20a/754591526994001/73aaae20ac89cbee6bf4a9c264bfa3ec_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.9,
-        "nearestAnyName": "Ardwick Railway Goods Yard Incinerator (Newhaven EFW Plant)",
-        "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 12.2,
+        "geocodePrecision": "exact",
+        "lat": 53.48529,
+        "lon": -2.25178,
+        "nearestAnyKm": 2.6,
+        "nearestAnyName": "Salford Refuse Treatment Plant (AD)",
+        "nearestAnyFuel": "Biomass",
+        "nearestMajorKm": 11.7,
         "nearestMajorName": "Carrington",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 900
@@ -4936,7 +5114,7 @@
         "score": 33,
         "band": "unlikely",
         "reasons": [
-          "12.2km to nearest major (>=50MW) power station",
+          "11.7km to nearest major (>=50MW) power station",
           "5,814 sq ft equivalent",
           "subtype \"Office\""
         ]
@@ -4961,11 +5139,13 @@
       "propertyType": "Place of Worship",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/37ee874b1/759473348749040/37ee874b1181a74bfad293b980d1c69e_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.9,
-        "nearestAnyName": "Ardwick Railway Goods Yard Incinerator (Newhaven EFW Plant)",
-        "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 12.2,
+        "geocodePrecision": "exact",
+        "lat": 53.48415,
+        "lon": -2.254242,
+        "nearestAnyKm": 2.5,
+        "nearestAnyName": "Salford Refuse Treatment Plant (AD)",
+        "nearestAnyFuel": "Biomass",
+        "nearestMajorKm": 11.5,
         "nearestMajorName": "Carrington",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 900
@@ -4974,7 +5154,7 @@
         "score": 35,
         "band": "possible",
         "reasons": [
-          "12.2km to nearest major (>=50MW) power station",
+          "11.5km to nearest major (>=50MW) power station",
           "9,766 sq ft equivalent",
           "subtype \"Place of Worship\" — no specific rule, neutral"
         ]
@@ -5037,11 +5217,13 @@
       "propertyType": "Residential Development",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/e2f2c950f/751658404128465/e2f2c950f9447e657ae08cfa528c95c3_max_476x317.png",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.9,
+        "geocodePrecision": "exact",
+        "lat": 53.465727,
+        "lon": -2.2571,
+        "nearestAnyKm": 3.4,
         "nearestAnyName": "Ardwick Railway Goods Yard Incinerator (Newhaven EFW Plant)",
         "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 12.2,
+        "nearestMajorKm": 10.5,
         "nearestMajorName": "Carrington",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 900
@@ -5050,7 +5232,7 @@
         "score": 35,
         "band": "possible",
         "reasons": [
-          "12.2km to nearest major (>=50MW) power station",
+          "10.5km to nearest major (>=50MW) power station",
           "size unknown",
           "subtype \"Residential Development\""
         ]
@@ -5113,20 +5295,22 @@
       "propertyType": "Retail Property (high street)",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/531d841ad/754397735518577/531d841ad3d9e4415c01f71155b40b49_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.9,
-        "nearestAnyName": "Ardwick Railway Goods Yard Incinerator (Newhaven EFW Plant)",
-        "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 12.2,
+        "geocodePrecision": "exact",
+        "lat": 53.44272,
+        "lon": -2.27878,
+        "nearestAnyKm": 5.8,
+        "nearestAnyName": "South Manchester Resource Recovery Centre (AD)",
+        "nearestAnyFuel": "Biomass",
+        "nearestMajorKm": 8.6,
         "nearestMajorName": "Carrington",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 900
       },
       "dataCentreFit": {
-        "score": 20,
-        "band": "unlikely",
+        "score": 35,
+        "band": "possible",
         "reasons": [
-          "12.2km to nearest major (>=50MW) power station",
+          "8.6km to nearest major (>=50MW) power station",
           "size unknown",
           "subtype \"Retail Property (high street)\""
         ]
@@ -5189,11 +5373,13 @@
       "propertyType": "Commercial Property",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/034887b62/756213044978816/034887b62ff788d051a28fa026bce8c3_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.9,
-        "nearestAnyName": "Ardwick Railway Goods Yard Incinerator (Newhaven EFW Plant)",
-        "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 12.2,
+        "geocodePrecision": "exact",
+        "lat": 53.49628,
+        "lon": -2.24099,
+        "nearestAnyKm": 3.1,
+        "nearestAnyName": "Salford Refuse Treatment Plant (AD)",
+        "nearestAnyFuel": "Biomass",
+        "nearestMajorKm": 12.9,
         "nearestMajorName": "Carrington",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 900
@@ -5202,7 +5388,7 @@
         "score": 35,
         "band": "possible",
         "reasons": [
-          "12.2km to nearest major (>=50MW) power station",
+          "12.9km to nearest major (>=50MW) power station",
           "8,500 sq ft equivalent",
           "subtype \"Commercial Property\" — no specific rule, neutral"
         ]
@@ -5227,11 +5413,13 @@
       "propertyType": "Commercial Property",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/2cfc232fe/760768027462464/2cfc232fe7400d55e55652fa47d510f9_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.9,
+        "geocodePrecision": "exact",
+        "lat": 53.489124,
+        "lon": -2.205245,
+        "nearestAnyKm": 1.7,
         "nearestAnyName": "Ardwick Railway Goods Yard Incinerator (Newhaven EFW Plant)",
         "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 12.2,
+        "nearestMajorKm": 14.6,
         "nearestMajorName": "Carrington",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 900
@@ -5240,7 +5428,7 @@
         "score": 43,
         "band": "possible",
         "reasons": [
-          "12.2km to nearest major (>=50MW) power station",
+          "14.6km to nearest major (>=50MW) power station",
           "47,916 sq ft equivalent",
           "subtype \"Commercial Property\" — no specific rule, neutral"
         ]
@@ -5379,20 +5567,22 @@
       "propertyType": "Warehouse",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/8516be2f1/760738990430945/8516be2f1fd0c7f962bc8e91fe26e71e_max_476x317.png",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.9,
-        "nearestAnyName": "Ardwick Railway Goods Yard Incinerator (Newhaven EFW Plant)",
-        "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 12.2,
+        "geocodePrecision": "exact",
+        "lat": 53.468617,
+        "lon": -2.328597,
+        "nearestAnyKm": 4,
+        "nearestAnyName": "Salford Refuse Treatment Plant (AD)",
+        "nearestAnyFuel": "Biomass",
+        "nearestMajorKm": 6.3,
         "nearestMajorName": "Carrington",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 900
       },
       "dataCentreFit": {
-        "score": 45,
+        "score": 60,
         "band": "possible",
         "reasons": [
-          "12.2km to nearest major (>=50MW) power station",
+          "6.3km to nearest major (>=50MW) power station",
           "6,208 sq ft equivalent",
           "subtype \"Warehouse\""
         ]
@@ -5493,11 +5683,13 @@
       "propertyType": "Commercial Development",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/2db061a08/759312467830369/2db061a082e6904a13c66cbdbdbc20a0_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.9,
-        "nearestAnyName": "Ardwick Railway Goods Yard Incinerator (Newhaven EFW Plant)",
-        "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 12.2,
+        "geocodePrecision": "exact",
+        "lat": 53.416443,
+        "lon": -2.16027,
+        "nearestAnyKm": 3.3,
+        "nearestAnyName": "Bredbury Park Way - AD Stockport (Waste AD)",
+        "nearestAnyFuel": "Biomass",
+        "nearestMajorKm": 16.5,
         "nearestMajorName": "Carrington",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 900
@@ -5506,7 +5698,7 @@
         "score": 53,
         "band": "possible",
         "reasons": [
-          "12.2km to nearest major (>=50MW) power station",
+          "16.5km to nearest major (>=50MW) power station",
           "21,507 sq ft equivalent",
           "subtype \"Commercial Development\""
         ]
@@ -5569,20 +5761,22 @@
       "propertyType": "Light Industrial",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/824bc2b20/760767924826705/824bc2b20653ff7e40954aad4bba7499_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.9,
-        "nearestAnyName": "Ardwick Railway Goods Yard Incinerator (Newhaven EFW Plant)",
-        "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 12.2,
+        "geocodePrecision": "exact",
+        "lat": 53.472656,
+        "lon": -2.32795,
+        "nearestAnyKm": 3.7,
+        "nearestAnyName": "Salford Refuse Treatment Plant (AD)",
+        "nearestAnyFuel": "Biomass",
+        "nearestMajorKm": 6.6,
         "nearestMajorName": "Carrington",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 900
       },
       "dataCentreFit": {
-        "score": 45,
+        "score": 60,
         "band": "possible",
         "reasons": [
-          "12.2km to nearest major (>=50MW) power station",
+          "6.6km to nearest major (>=50MW) power station",
           "9,107 sq ft equivalent",
           "subtype \"Light Industrial\""
         ]
@@ -5607,11 +5801,13 @@
       "propertyType": "Commercial Property",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/dbf03101e/744108203782992/dbf03101e6b41e663543f20b4592b87c_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.9,
+        "geocodePrecision": "exact",
+        "lat": 53.481395,
+        "lon": -2.234696,
+        "nearestAnyKm": 2,
         "nearestAnyName": "Ardwick Railway Goods Yard Incinerator (Newhaven EFW Plant)",
         "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 12.2,
+        "nearestMajorKm": 12.5,
         "nearestMajorName": "Carrington",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 900
@@ -5620,7 +5816,7 @@
         "score": 25,
         "band": "unlikely",
         "reasons": [
-          "12.2km to nearest major (>=50MW) power station",
+          "12.5km to nearest major (>=50MW) power station",
           "1,133 sq ft equivalent",
           "subtype \"Commercial Property\" — no specific rule, neutral"
         ]
@@ -5645,20 +5841,22 @@
       "propertyType": "Warehouse",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/9581d8ec5/738114440579633/9581d8ec5fef8f5345c182dcf459754c_max_476x317.png",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.9,
-        "nearestAnyName": "Ardwick Railway Goods Yard Incinerator (Newhaven EFW Plant)",
-        "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 12.2,
+        "geocodePrecision": "exact",
+        "lat": 53.455866,
+        "lon": -2.28369,
+        "nearestAnyKm": 4.4,
+        "nearestAnyName": "Salford Refuse Treatment Plant (AD)",
+        "nearestAnyFuel": "Biomass",
+        "nearestMajorKm": 8.5,
         "nearestMajorName": "Carrington",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 900
       },
       "dataCentreFit": {
-        "score": 45,
+        "score": 60,
         "band": "possible",
         "reasons": [
-          "12.2km to nearest major (>=50MW) power station",
+          "8.5km to nearest major (>=50MW) power station",
           "7,798 sq ft equivalent",
           "subtype \"Warehouse\""
         ]
@@ -5683,11 +5881,13 @@
       "propertyType": "Retail Property (high street)",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/aa41ff255/752027355996960/aa41ff25550dfda81610f039ea3a3fc1_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.9,
-        "nearestAnyName": "Ardwick Railway Goods Yard Incinerator (Newhaven EFW Plant)",
-        "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 12.2,
+        "geocodePrecision": "exact",
+        "lat": 53.513766,
+        "lon": -2.246064,
+        "nearestAnyKm": 3.4,
+        "nearestAnyName": "Salford Refuse Treatment Plant (AD)",
+        "nearestAnyFuel": "Biomass",
+        "nearestMajorKm": 13.7,
         "nearestMajorName": "Carrington",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 900
@@ -5696,7 +5896,7 @@
         "score": 30,
         "band": "unlikely",
         "reasons": [
-          "12.2km to nearest major (>=50MW) power station",
+          "13.7km to nearest major (>=50MW) power station",
           "5,542 sq ft equivalent",
           "subtype \"Retail Property (high street)\""
         ]
@@ -5873,20 +6073,22 @@
       "propertyType": "Pub",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/6664f96aa/763088377470560/6664f96aaf0444d77bb588fb49c5b745_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.9,
-        "nearestAnyName": "Ardwick Railway Goods Yard Incinerator (Newhaven EFW Plant)",
-        "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 12.2,
-        "nearestMajorName": "Carrington",
-        "nearestMajorFuel": "Gas",
-        "nearestMajorCapacityMw": 900
+        "geocodePrecision": "exact",
+        "lat": 53.523919,
+        "lon": -2.163275,
+        "nearestAnyKm": 2.5,
+        "nearestAnyName": "Reliance Street Mechanical Biological Treatment Facility (MBT)",
+        "nearestAnyFuel": "Biomass",
+        "nearestMajorKm": 17.5,
+        "nearestMajorName": "Scout Moor",
+        "nearestMajorFuel": "Wind",
+        "nearestMajorCapacityMw": 65
       },
       "dataCentreFit": {
         "score": 25,
         "band": "unlikely",
         "reasons": [
-          "12.2km to nearest major (>=50MW) power station",
+          "17.5km to nearest major (>=50MW) power station",
           "size unknown",
           "subtype \"Pub\" — no specific rule, neutral"
         ]
@@ -5949,11 +6151,13 @@
       "propertyType": "Commercial Development",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/8680232b5/754785658201873/8680232b583a3f3aa4e9ee8fb6da2445_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.9,
+        "geocodePrecision": "exact",
+        "lat": 53.48282,
+        "lon": -2.17928,
+        "nearestAnyKm": 2.1,
         "nearestAnyName": "Ardwick Railway Goods Yard Incinerator (Newhaven EFW Plant)",
         "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 12.2,
+        "nearestMajorKm": 16,
         "nearestMajorName": "Carrington",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 900
@@ -5962,7 +6166,7 @@
         "score": 45,
         "band": "possible",
         "reasons": [
-          "12.2km to nearest major (>=50MW) power station",
+          "16.0km to nearest major (>=50MW) power station",
           "5,960 sq ft equivalent",
           "subtype \"Commercial Development\""
         ]
@@ -5987,20 +6191,22 @@
       "propertyType": "Shop",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/e3a92bd4c/755487604418224/e3a92bd4c5772444181f5226108ca085_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.9,
-        "nearestAnyName": "Ardwick Railway Goods Yard Incinerator (Newhaven EFW Plant)",
-        "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 12.2,
+        "geocodePrecision": "exact",
+        "lat": 53.44677,
+        "lon": -2.2779,
+        "nearestAnyKm": 5.4,
+        "nearestAnyName": "Salford Refuse Treatment Plant (AD)",
+        "nearestAnyFuel": "Biomass",
+        "nearestMajorKm": 8.7,
         "nearestMajorName": "Carrington",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 900
       },
       "dataCentreFit": {
-        "score": 25,
-        "band": "unlikely",
+        "score": 40,
+        "band": "possible",
         "reasons": [
-          "12.2km to nearest major (>=50MW) power station",
+          "8.7km to nearest major (>=50MW) power station",
           "1,432 sq ft equivalent",
           "subtype \"Shop\" — no specific rule, neutral"
         ]
@@ -6177,11 +6383,13 @@
       "propertyType": "Retail Property (high street)",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/5c29278b6/761300559490480/5c29278b6491d3c5db8a90538ce96144_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.9,
-        "nearestAnyName": "Ardwick Railway Goods Yard Incinerator (Newhaven EFW Plant)",
-        "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 12.2,
+        "geocodePrecision": "exact",
+        "lat": 53.423017,
+        "lon": -2.184856,
+        "nearestAnyKm": 4.7,
+        "nearestAnyName": "Bredbury Park Way - AD Stockport (Waste AD)",
+        "nearestAnyFuel": "Biomass",
+        "nearestMajorKm": 14.8,
         "nearestMajorName": "Carrington",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 900
@@ -6190,7 +6398,7 @@
         "score": 25,
         "band": "unlikely",
         "reasons": [
-          "12.2km to nearest major (>=50MW) power station",
+          "14.8km to nearest major (>=50MW) power station",
           "2,229 sq ft equivalent",
           "subtype \"Retail Property (high street)\""
         ]
@@ -6253,20 +6461,22 @@
       "propertyType": "Warehouse",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/2eedfdcbe/759312782239104/2eedfdcbe611cc48d5c5bd09485dce35_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.9,
-        "nearestAnyName": "Ardwick Railway Goods Yard Incinerator (Newhaven EFW Plant)",
-        "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 12.2,
+        "geocodePrecision": "exact",
+        "lat": 53.463356,
+        "lon": -2.315487,
+        "nearestAnyKm": 4,
+        "nearestAnyName": "Salford Refuse Treatment Plant (AD)",
+        "nearestAnyFuel": "Biomass",
+        "nearestMajorKm": 6.8,
         "nearestMajorName": "Carrington",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 900
       },
       "dataCentreFit": {
-        "score": 40,
+        "score": 55,
         "band": "possible",
         "reasons": [
-          "12.2km to nearest major (>=50MW) power station",
+          "6.8km to nearest major (>=50MW) power station",
           "2,877 sq ft equivalent",
           "subtype \"Warehouse\""
         ]
@@ -6329,11 +6539,13 @@
       "propertyType": "Light Industrial",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/e953203ec/763457499288288/e953203ec84a0d17a2bccc58288f940b_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.9,
-        "nearestAnyName": "Ardwick Railway Goods Yard Incinerator (Newhaven EFW Plant)",
-        "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 12.2,
+        "geocodePrecision": "exact",
+        "lat": 53.41805,
+        "lon": -2.15343,
+        "nearestAnyKm": 2.8,
+        "nearestAnyName": "Bredbury Park Way - AD Stockport (Waste AD)",
+        "nearestAnyFuel": "Biomass",
+        "nearestMajorKm": 17,
         "nearestMajorName": "Carrington",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 900
@@ -6342,7 +6554,7 @@
         "score": 40,
         "band": "possible",
         "reasons": [
-          "12.2km to nearest major (>=50MW) power station",
+          "17.0km to nearest major (>=50MW) power station",
           "2,450 sq ft equivalent",
           "subtype \"Light Industrial\""
         ]
@@ -6481,11 +6693,13 @@
       "propertyType": "Commercial Development",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/fab0559a2/759313315085665/fab0559a2d8f527db0e386ed69a46ca4_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
+        "geocodePrecision": "exact",
+        "lat": 53.576379,
+        "lon": -2.42284,
+        "nearestAnyKm": 0.5,
         "nearestAnyName": "Salford Road",
         "nearestAnyFuel": "Solar",
-        "nearestMajorKm": 14.6,
+        "nearestMajorKm": 14.5,
         "nearestMajorName": "Scout Moor",
         "nearestMajorFuel": "Wind",
         "nearestMajorCapacityMw": 65
@@ -6494,7 +6708,7 @@
         "score": 53,
         "band": "possible",
         "reasons": [
-          "14.6km to nearest major (>=50MW) power station",
+          "14.5km to nearest major (>=50MW) power station",
           "28,211 sq ft equivalent",
           "subtype \"Commercial Development\""
         ]
@@ -6519,11 +6733,13 @@
       "propertyType": "Pub",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/9b49a0749/730294920018513/9b49a074989848cee3b7edf142c377d7_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
+        "geocodePrecision": "exact",
+        "lat": 53.579382,
+        "lon": -2.426438,
+        "nearestAnyKm": 0.1,
         "nearestAnyName": "Salford Road",
         "nearestAnyFuel": "Solar",
-        "nearestMajorKm": 14.6,
+        "nearestMajorKm": 14.4,
         "nearestMajorName": "Scout Moor",
         "nearestMajorFuel": "Wind",
         "nearestMajorCapacityMw": 65
@@ -6532,7 +6748,7 @@
         "score": 25,
         "band": "unlikely",
         "reasons": [
-          "14.6km to nearest major (>=50MW) power station",
+          "14.4km to nearest major (>=50MW) power station",
           "size unknown",
           "subtype \"Pub\" — no specific rule, neutral"
         ]
@@ -6557,11 +6773,13 @@
       "propertyType": "Pub",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/e55ff7935/723062151173152/e55ff7935545afa86e84f9cad02c5dc1_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
+        "geocodePrecision": "exact",
+        "lat": 53.579405,
+        "lon": -2.426419,
+        "nearestAnyKm": 0.1,
         "nearestAnyName": "Salford Road",
         "nearestAnyFuel": "Solar",
-        "nearestMajorKm": 14.6,
+        "nearestMajorKm": 14.4,
         "nearestMajorName": "Scout Moor",
         "nearestMajorFuel": "Wind",
         "nearestMajorCapacityMw": 65
@@ -6570,7 +6788,7 @@
         "score": 35,
         "band": "possible",
         "reasons": [
-          "14.6km to nearest major (>=50MW) power station",
+          "14.4km to nearest major (>=50MW) power station",
           "11,326 sq ft equivalent",
           "subtype \"Pub\" — no specific rule, neutral"
         ]
@@ -6595,11 +6813,13 @@
       "propertyType": "Office",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/6d6ccb018/759452932809904/6d6ccb0184831dff8e59c313e535aeea_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
+        "geocodePrecision": "exact",
+        "lat": 53.579105,
+        "lon": -2.449117,
+        "nearestAnyKm": 1.5,
         "nearestAnyName": "Salford Road",
         "nearestAnyFuel": "Solar",
-        "nearestMajorKm": 14.6,
+        "nearestMajorKm": 15.6,
         "nearestMajorName": "Scout Moor",
         "nearestMajorFuel": "Wind",
         "nearestMajorCapacityMw": 65
@@ -6608,7 +6828,7 @@
         "score": 33,
         "band": "unlikely",
         "reasons": [
-          "14.6km to nearest major (>=50MW) power station",
+          "15.6km to nearest major (>=50MW) power station",
           "7,000 sq ft equivalent",
           "subtype \"Office\""
         ]
@@ -6633,20 +6853,22 @@
       "propertyType": "Light Industrial",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/3cae8174c/760715703659920/3cae8174c016702414b4102d684239e4_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
+        "geocodePrecision": "exact",
+        "lat": 53.56794,
+        "lon": -2.427829,
+        "nearestAnyKm": 1.3,
         "nearestAnyName": "Salford Road",
         "nearestAnyFuel": "Solar",
-        "nearestMajorKm": 14.6,
-        "nearestMajorName": "Scout Moor",
-        "nearestMajorFuel": "Wind",
-        "nearestMajorCapacityMw": 65
+        "nearestMajorKm": 14.7,
+        "nearestMajorName": "Carrington",
+        "nearestMajorFuel": "Gas",
+        "nearestMajorCapacityMw": 900
       },
       "dataCentreFit": {
         "score": 35,
         "band": "possible",
         "reasons": [
-          "14.6km to nearest major (>=50MW) power station",
+          "14.7km to nearest major (>=50MW) power station",
           "size unknown",
           "subtype \"Light Industrial\""
         ]
@@ -6671,20 +6893,22 @@
       "propertyType": "Pub",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/f39f58ab5/757452912626721/f39f58ab536f56a29ada93f25842b83b_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
+        "geocodePrecision": "exact",
+        "lat": 53.54805,
+        "lon": -2.468227,
+        "nearestAnyKm": 4.5,
         "nearestAnyName": "Salford Road",
         "nearestAnyFuel": "Solar",
-        "nearestMajorKm": 14.6,
-        "nearestMajorName": "Scout Moor",
-        "nearestMajorFuel": "Wind",
-        "nearestMajorCapacityMw": 65
+        "nearestMajorKm": 13,
+        "nearestMajorName": "Carrington",
+        "nearestMajorFuel": "Gas",
+        "nearestMajorCapacityMw": 900
       },
       "dataCentreFit": {
         "score": 43,
         "band": "possible",
         "reasons": [
-          "14.6km to nearest major (>=50MW) power station",
+          "13.0km to nearest major (>=50MW) power station",
           "35,719 sq ft equivalent",
           "subtype \"Pub\" — no specific rule, neutral"
         ]
@@ -6709,11 +6933,13 @@
       "propertyType": "Office",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/868501ea5/760714627810529/868501ea578cdbf131234598cca2aa9c_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
+        "geocodePrecision": "exact",
+        "lat": 53.581787,
+        "lon": -2.445777,
+        "nearestAnyKm": 1.3,
         "nearestAnyName": "Salford Road",
         "nearestAnyFuel": "Solar",
-        "nearestMajorKm": 14.6,
+        "nearestMajorKm": 15.2,
         "nearestMajorName": "Scout Moor",
         "nearestMajorFuel": "Wind",
         "nearestMajorCapacityMw": 65
@@ -6722,7 +6948,7 @@
         "score": 33,
         "band": "unlikely",
         "reasons": [
-          "14.6km to nearest major (>=50MW) power station",
+          "15.2km to nearest major (>=50MW) power station",
           "5,346 sq ft equivalent",
           "subtype \"Office\""
         ]
@@ -6747,11 +6973,13 @@
       "propertyType": "Office",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/90ef4411c/760714856408001/90ef4411c4592ca786366bc2c7accc15_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
+        "geocodePrecision": "exact",
+        "lat": 53.580841,
+        "lon": -2.448606,
+        "nearestAnyKm": 1.4,
         "nearestAnyName": "Salford Road",
         "nearestAnyFuel": "Solar",
-        "nearestMajorKm": 14.6,
+        "nearestMajorKm": 15.4,
         "nearestMajorName": "Scout Moor",
         "nearestMajorFuel": "Wind",
         "nearestMajorCapacityMw": 65
@@ -6760,7 +6988,7 @@
         "score": 28,
         "band": "unlikely",
         "reasons": [
-          "14.6km to nearest major (>=50MW) power station",
+          "15.4km to nearest major (>=50MW) power station",
           "4,668 sq ft equivalent",
           "subtype \"Office\""
         ]
@@ -6785,11 +7013,13 @@
       "propertyType": "Office",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/18deb02a9/760715670176049/18deb02a917f09a0fb580e389bbd96b1_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
+        "geocodePrecision": "exact",
+        "lat": 53.572803,
+        "lon": -2.422004,
+        "nearestAnyKm": 0.9,
         "nearestAnyName": "Salford Road",
         "nearestAnyFuel": "Solar",
-        "nearestMajorKm": 14.6,
+        "nearestMajorKm": 14.8,
         "nearestMajorName": "Scout Moor",
         "nearestMajorFuel": "Wind",
         "nearestMajorCapacityMw": 65
@@ -6798,7 +7028,7 @@
         "score": 33,
         "band": "unlikely",
         "reasons": [
-          "14.6km to nearest major (>=50MW) power station",
+          "14.8km to nearest major (>=50MW) power station",
           "5,213 sq ft equivalent",
           "subtype \"Office\""
         ]
@@ -6823,11 +7053,13 @@
       "propertyType": "Leisure Facility",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/bdad80f7c/760927203609520/bdad80f7c783255ed1528492957952a4_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
+        "geocodePrecision": "exact",
+        "lat": 53.57737,
+        "lon": -2.427805,
+        "nearestAnyKm": 0.3,
         "nearestAnyName": "Salford Road",
         "nearestAnyFuel": "Solar",
-        "nearestMajorKm": 14.6,
+        "nearestMajorKm": 14.7,
         "nearestMajorName": "Scout Moor",
         "nearestMajorFuel": "Wind",
         "nearestMajorCapacityMw": 65
@@ -6836,7 +7068,7 @@
         "score": 35,
         "band": "possible",
         "reasons": [
-          "14.6km to nearest major (>=50MW) power station",
+          "14.7km to nearest major (>=50MW) power station",
           "8,288 sq ft equivalent",
           "subtype \"Leisure Facility\" — no specific rule, neutral"
         ]
@@ -6861,11 +7093,13 @@
       "propertyType": "Office",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/34086f671/760715194123232/34086f671beaf6feb928f7705c1ff9a0_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
+        "geocodePrecision": "exact",
+        "lat": 53.580841,
+        "lon": -2.448606,
+        "nearestAnyKm": 1.4,
         "nearestAnyName": "Salford Road",
         "nearestAnyFuel": "Solar",
-        "nearestMajorKm": 14.6,
+        "nearestMajorKm": 15.4,
         "nearestMajorName": "Scout Moor",
         "nearestMajorFuel": "Wind",
         "nearestMajorCapacityMw": 65
@@ -6874,7 +7108,7 @@
         "score": 28,
         "band": "unlikely",
         "reasons": [
-          "14.6km to nearest major (>=50MW) power station",
+          "15.4km to nearest major (>=50MW) power station",
           "3,625 sq ft equivalent",
           "subtype \"Office\""
         ]
@@ -6899,11 +7133,13 @@
       "propertyType": "Office",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/5eb0e6bdd/759313885420993/5eb0e6bdda5583035155a1e10d7714db_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
+        "geocodePrecision": "exact",
+        "lat": 53.579945,
+        "lon": -2.425821,
+        "nearestAnyKm": 0.1,
         "nearestAnyName": "Salford Road",
         "nearestAnyFuel": "Solar",
-        "nearestMajorKm": 14.6,
+        "nearestMajorKm": 14.4,
         "nearestMajorName": "Scout Moor",
         "nearestMajorFuel": "Wind",
         "nearestMajorCapacityMw": 65
@@ -6912,7 +7148,7 @@
         "score": 28,
         "band": "unlikely",
         "reasons": [
-          "14.6km to nearest major (>=50MW) power station",
+          "14.4km to nearest major (>=50MW) power station",
           "3,645 sq ft equivalent",
           "subtype \"Office\""
         ]
@@ -6975,20 +7211,22 @@
       "propertyType": "Office",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/13a1eb872/759313776288321/13a1eb87249847a8b0a1012a5c7c0253_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
-        "nearestAnyName": "Salford Road",
-        "nearestAnyFuel": "Solar",
-        "nearestMajorKm": 14.6,
-        "nearestMajorName": "Scout Moor",
-        "nearestMajorFuel": "Wind",
-        "nearestMajorCapacityMw": 65
+        "geocodePrecision": "exact",
+        "lat": 53.535641,
+        "lon": -2.517565,
+        "nearestAnyKm": 5,
+        "nearestAnyName": "Kirkless Power",
+        "nearestAnyFuel": "Waste",
+        "nearestMajorKm": 13.2,
+        "nearestMajorName": "Carrington",
+        "nearestMajorFuel": "Gas",
+        "nearestMajorCapacityMw": 900
       },
       "dataCentreFit": {
         "score": 28,
         "band": "unlikely",
         "reasons": [
-          "14.6km to nearest major (>=50MW) power station",
+          "13.2km to nearest major (>=50MW) power station",
           "2,088 sq ft equivalent",
           "subtype \"Office\""
         ]
@@ -7013,11 +7251,13 @@
       "propertyType": "Mixed Use",
       "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/37abe41b4/758269323414560/37abe41b4985535faf4ec177965856fa_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
+        "geocodePrecision": "exact",
+        "lat": 53.58568,
+        "lon": -2.46567,
+        "nearestAnyKm": 2.6,
         "nearestAnyName": "Salford Road",
         "nearestAnyFuel": "Solar",
-        "nearestMajorKm": 14.6,
+        "nearestMajorKm": 16,
         "nearestMajorName": "Scout Moor",
         "nearestMajorFuel": "Wind",
         "nearestMajorCapacityMw": 65
@@ -7026,7 +7266,7 @@
         "score": 33,
         "band": "unlikely",
         "reasons": [
-          "14.6km to nearest major (>=50MW) power station",
+          "16.0km to nearest major (>=50MW) power station",
           "2,000 sq ft equivalent",
           "subtype \"Mixed Use\""
         ]
