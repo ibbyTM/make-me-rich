@@ -1,7 +1,47 @@
 {
   "source": "Rightmove Commercial",
-  "generatedAt": "2026-07-19T16:37:44.592Z",
+  "generatedAt": "2026-07-21T16:33:44.081Z",
   "rows": [
+    {
+      "address": "Post Office, High Street, Wetherby, Leeds (Leeds)",
+      "priceDisplay": "£595,000 Guide Price",
+      "priceAmount": 595000,
+      "sizeLabel": "2,141 sq. ft.",
+      "sizeSqft": 2141,
+      "source": "Rightmove Commercial",
+      "requirement": "Citywide Investors",
+      "score": 2,
+      "reasons": [
+        "geography \"Leeds Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
+        "price 595000 within budget 500000-2000000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/762347564791921#/?channel=COM_BUY",
+      "agent": "Malcolm Stuart Property Consultants LLP, Tadcaster",
+      "propertyType": "Mixed Use",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/883dd9698/762347564791921/883dd96989ce18ea5ec9e3eae3e1ad59_max_476x317.jpeg",
+      "powerStation": {
+        "geocodePrecision": "exact",
+        "lat": 53.928265,
+        "lon": -1.385536,
+        "nearestAnyKm": 5.7,
+        "nearestAnyName": "Wothersome Grange Farm House AD - crops",
+        "nearestAnyFuel": "Biomass",
+        "nearestMajorKm": 22.6,
+        "nearestMajorName": "Castleford",
+        "nearestMajorFuel": "Gas",
+        "nearestMajorCapacityMw": 56
+      },
+      "dataCentreFit": {
+        "score": 21,
+        "band": "unlikely",
+        "reasons": [
+          "22.6km to nearest major (>=50MW) power station",
+          "2,141 sq ft equivalent",
+          "subtype \"Mixed Use\""
+        ]
+      }
+    },
     {
       "address": "1-2 Deanhurst Park, Gelderd Road, Gildersome, Morley, Leeds (Leeds)",
       "priceDisplay": "£725,000",
@@ -43,17 +83,95 @@
       }
     },
     {
+      "address": "13-14 Park Place, Leeds, LS1 2SJ (Leeds)",
+      "priceDisplay": "£1,013,000 Offers in Excess of",
+      "priceAmount": 1013000,
+      "sizeLabel": "5,858 sq. ft.",
+      "sizeSqft": 5858,
+      "source": "Rightmove Commercial",
+      "requirement": "Citywide Investors",
+      "score": 2,
+      "reasons": [
+        "geography \"Leeds Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
+        "price 1013000 within budget 500000-2000000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/90125763#/?channel=COM_BUY",
+      "agent": "Northcap, Leeds",
+      "propertyType": "Office",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/7284d99c8/90125763/7284d99c848596a8c05e51fe2e091ad7_max_476x317.jpeg",
+      "powerStation": {
+        "geocodePrecision": "city-centroid",
+        "nearestAnyKm": 1.9,
+        "nearestAnyName": "Buslingthorpe Power Station (Leeds North)",
+        "nearestAnyFuel": "Biomass",
+        "nearestMajorKm": 12.9,
+        "nearestMajorName": "Thornhill",
+        "nearestMajorFuel": "Gas",
+        "nearestMajorCapacityMw": 50
+      },
+      "dataCentreFit": {
+        "score": 33,
+        "band": "unlikely",
+        "reasons": [
+          "12.9km to nearest major (>=50MW) power station",
+          "5,858 sq ft equivalent",
+          "subtype \"Office\""
+        ]
+      }
+    },
+    {
+      "address": "26-27 Park Square West, Leeds, LS1 2PL (Leeds)",
+      "priceDisplay": "£1,500,000 Offers in Excess of",
+      "priceAmount": 1500000,
+      "sizeLabel": "5,856 sq. ft.",
+      "sizeSqft": 5856,
+      "source": "Rightmove Commercial",
+      "requirement": "Citywide Investors",
+      "score": 2,
+      "reasons": [
+        "geography \"Leeds Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
+        "price 1500000 within budget 500000-2000000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/698589182145520#/?channel=COM_BUY",
+      "agent": "Sanderson Weatherall, Leeds",
+      "propertyType": "Office",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/433202b15/698589182145520/433202b15a84a18578f8e11fec4df724_max_476x317.jpeg",
+      "powerStation": {
+        "geocodePrecision": "exact",
+        "lat": 53.79896,
+        "lon": -1.553045,
+        "nearestAnyKm": 1.8,
+        "nearestAnyName": "Buslingthorpe Power Station (Leeds North)",
+        "nearestAnyFuel": "Biomass",
+        "nearestMajorKm": 13,
+        "nearestMajorName": "Thornhill",
+        "nearestMajorFuel": "Gas",
+        "nearestMajorCapacityMw": 50
+      },
+      "dataCentreFit": {
+        "score": 33,
+        "band": "unlikely",
+        "reasons": [
+          "13.0km to nearest major (>=50MW) power station",
+          "5,856 sq ft equivalent",
+          "subtype \"Office\""
+        ]
+      }
+    },
+    {
       "address": "Carlton Trading Estate, Pickering Street, Armley, Leeds (Leeds)",
       "priceDisplay": "£1,660,000 Offers in Region of",
       "priceAmount": 1660000,
       "sizeLabel": "57,675 sq. ft.",
       "sizeSqft": 57675,
       "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
+      "requirement": "Data Centre Sites",
       "score": 2,
       "reasons": [
-        "geography \"Leeds Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
-        "price 1660000 within budget 500000-2000000",
+        "geography \"Leeds Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "size 57675 >= min 20000",
         "keyword hit \"freehold\""
       ],
       "url": "https://www.rightmove.co.uk/properties/747888028746705#/?channel=COM_BUY",
@@ -83,42 +201,120 @@
       }
     },
     {
-      "address": "1 City West Gelderd Road, Leeds, LS12 6NJ (Leeds)",
-      "priceDisplay": "£995,000 Offers in Region of",
-      "priceAmount": 995000,
-      "sizeLabel": "550–9,210 sq. ft.",
-      "sizeSqft": 9210,
+      "address": "Fulneck School, Fulneck, Pudsey, Leeds (Leeds)",
+      "priceDisplay": "POA",
+      "priceAmount": 3000000,
+      "sizeLabel": "88,670 sq. ft.",
+      "sizeSqft": 88670,
       "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
+      "requirement": "Data Centre Sites",
       "score": 2,
       "reasons": [
-        "geography \"Leeds Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
-        "price 995000 within budget 500000-2000000",
+        "geography \"Leeds Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "size 88670 >= min 20000",
         "keyword hit \"freehold\""
       ],
-      "url": "https://www.rightmove.co.uk/properties/762214045440304#/?channel=COM_BUY",
-      "agent": "Sanderson Weatherall, Leeds",
-      "propertyType": "Office",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/1ca8cf052/762214045440304/1ca8cf0522a946338410b68c580339b3_max_476x317.jpeg",
+      "url": "https://www.rightmove.co.uk/properties/740658350981712#/?channel=COM_BUY",
+      "agent": "Hilco Global Real Estate Advisory, London",
+      "propertyType": "Commercial Development",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/eab056521/740658350981712/eab056521c5cd7c23fdf2be0cf798fbf_max_476x317.jpeg",
       "powerStation": {
         "geocodePrecision": "exact",
-        "lat": 53.776584,
-        "lon": -1.582194,
-        "nearestAnyKm": 4.9,
-        "nearestAnyName": "Buslingthorpe Power Station (Leeds North)",
-        "nearestAnyFuel": "Biomass",
-        "nearestMajorKm": 10,
+        "lat": 53.78401,
+        "lon": -1.663179,
+        "nearestAnyKm": 7.6,
+        "nearestAnyName": "Esholt WWTW",
+        "nearestAnyFuel": "Waste",
+        "nearestMajorKm": 10.6,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
       },
       "dataCentreFit": {
-        "score": 33,
-        "band": "unlikely",
+        "score": 53,
+        "band": "possible",
         "reasons": [
-          "10.0km to nearest major (>=50MW) power station",
-          "9,210 sq ft equivalent",
-          "subtype \"Office\""
+          "10.6km to nearest major (>=50MW) power station",
+          "88,670 sq ft equivalent",
+          "subtype \"Commercial Development\""
+        ]
+      }
+    },
+    {
+      "address": "Edison Business Centre, Ring Road, Leeds, LS13 4ET (Leeds)",
+      "priceDisplay": "£2,950,000",
+      "priceAmount": 2950000,
+      "sizeLabel": "48,943 sq. ft.",
+      "sizeSqft": 48943,
+      "source": "Rightmove Commercial",
+      "requirement": "Data Centre Sites",
+      "score": 2,
+      "reasons": [
+        "geography \"Leeds Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "size 48943 >= min 20000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/173317376#/?channel=COM_BUY",
+      "agent": "Carter Towler, Leeds",
+      "propertyType": "Distribution Warehouse",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/e2176f9df/173317376/e2176f9df9d758cf31d7d8efa9543ee2_max_476x317.jpeg",
+      "powerStation": {
+        "geocodePrecision": "city-centroid",
+        "nearestAnyKm": 1.9,
+        "nearestAnyName": "Buslingthorpe Power Station (Leeds North)",
+        "nearestAnyFuel": "Biomass",
+        "nearestMajorKm": 12.9,
+        "nearestMajorName": "Thornhill",
+        "nearestMajorFuel": "Gas",
+        "nearestMajorCapacityMw": 50
+      },
+      "dataCentreFit": {
+        "score": 53,
+        "band": "possible",
+        "reasons": [
+          "12.9km to nearest major (>=50MW) power station",
+          "48,943 sq ft equivalent",
+          "subtype \"Distribution Warehouse\""
+        ]
+      }
+    },
+    {
+      "address": "14 Manor Street, Leeds, LS7 1PZ (Leeds)",
+      "priceDisplay": "POA",
+      "priceAmount": 2500000,
+      "sizeLabel": "4,419–40,808 sq. ft.",
+      "sizeSqft": 40808,
+      "source": "Rightmove Commercial",
+      "requirement": "Data Centre Sites",
+      "score": 2,
+      "reasons": [
+        "geography \"Leeds Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "size 40808 >= min 20000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/754922371454161#/?channel=COM_BUY",
+      "agent": "Newmark, Industrial - Manchester",
+      "propertyType": "Light Industrial",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/11ac7c12b/754922371454161/11ac7c12b03b97ed73be66fb06ec5286_max_476x317.jpeg",
+      "powerStation": {
+        "geocodePrecision": "exact",
+        "lat": 53.806853,
+        "lon": -1.531885,
+        "nearestAnyKm": 1.1,
+        "nearestAnyName": "Buslingthorpe Power Station (Leeds North)",
+        "nearestAnyFuel": "Biomass",
+        "nearestMajorKm": 14.3,
+        "nearestMajorName": "Castleford",
+        "nearestMajorFuel": "Gas",
+        "nearestMajorCapacityMw": 56
+      },
+      "dataCentreFit": {
+        "score": 53,
+        "band": "possible",
+        "reasons": [
+          "14.3km to nearest major (>=50MW) power station",
+          "40,808 sq ft equivalent",
+          "subtype \"Light Industrial\""
         ]
       }
     },
@@ -169,11 +365,11 @@
       "sizeLabel": "575–53,252 sq. ft.",
       "sizeSqft": 53252,
       "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
+      "requirement": "Data Centre Sites",
       "score": 2,
       "reasons": [
-        "geography \"Leeds Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
-        "price 2000000 within budget 500000-2000000",
+        "geography \"Leeds Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "size 53252 >= min 20000",
         "keyword hit \"freehold\""
       ],
       "url": "https://www.rightmove.co.uk/properties/698587804331425#/?channel=COM_BUY",
@@ -317,46 +513,6 @@
       }
     },
     {
-      "address": "26-27 Park Square West, Leeds, LS1 2PL (Leeds)",
-      "priceDisplay": "£1,500,000 Offers in Excess of",
-      "priceAmount": 1500000,
-      "sizeLabel": "5,856 sq. ft.",
-      "sizeSqft": 5856,
-      "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
-      "score": 2,
-      "reasons": [
-        "geography \"Leeds Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
-        "price 1500000 within budget 500000-2000000",
-        "keyword hit \"freehold\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/698589182145520#/?channel=COM_BUY",
-      "agent": "Sanderson Weatherall, Leeds",
-      "propertyType": "Office",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/478fbf892/698589182145520/478fbf892c11d7356aad625e6808929f_max_476x317.jpeg",
-      "powerStation": {
-        "geocodePrecision": "exact",
-        "lat": 53.79896,
-        "lon": -1.553045,
-        "nearestAnyKm": 1.8,
-        "nearestAnyName": "Buslingthorpe Power Station (Leeds North)",
-        "nearestAnyFuel": "Biomass",
-        "nearestMajorKm": 13,
-        "nearestMajorName": "Thornhill",
-        "nearestMajorFuel": "Gas",
-        "nearestMajorCapacityMw": 50
-      },
-      "dataCentreFit": {
-        "score": 33,
-        "band": "unlikely",
-        "reasons": [
-          "13.0km to nearest major (>=50MW) power station",
-          "5,856 sq ft equivalent",
-          "subtype \"Office\""
-        ]
-      }
-    },
-    {
       "address": "26/27 Park Square West, Leeds, LS1 2PL (Leeds)",
       "priceDisplay": "£1,500,000 Offers in Excess of",
       "priceAmount": 1500000,
@@ -473,23 +629,23 @@
       }
     },
     {
-      "address": "13-14 Park Place, Leeds, LS1 2SJ (Leeds)",
-      "priceDisplay": "£1,013,000 Offers in Excess of",
-      "priceAmount": 1013000,
-      "sizeLabel": "5,858 sq. ft.",
-      "sizeSqft": 5858,
+      "address": "Industrial / Warehouse Unit  Cross Chancellor Street  Leeds West Yorkshire (Leeds)",
+      "priceDisplay": "POA",
+      "priceAmount": 1000000,
+      "sizeLabel": "18,818 sq. ft.",
+      "sizeSqft": 18818,
       "source": "Rightmove Commercial",
       "requirement": "Citywide Investors",
       "score": 2,
       "reasons": [
         "geography \"Leeds Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
-        "price 1013000 within budget 500000-2000000",
+        "price 1000000 within budget 500000-2000000",
         "keyword hit \"freehold\""
       ],
-      "url": "https://www.rightmove.co.uk/properties/90125763#/?channel=COM_BUY",
-      "agent": "Northcap, Leeds",
-      "propertyType": "Office",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/7284d99c8/90125763/7284d99c848596a8c05e51fe2e091ad7_max_476x317.jpeg",
+      "url": "https://www.rightmove.co.uk/properties/169014953#/?channel=COM_BUY",
+      "agent": "Colliers International, Industrial",
+      "propertyType": "Industrial Park",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/9aee77fe5/169014953/9aee77fe591fe74e34574f9c3332c759_max_476x317.jpeg",
       "powerStation": {
         "geocodePrecision": "city-centroid",
         "nearestAnyKm": 1.9,
@@ -501,11 +657,51 @@
         "nearestMajorCapacityMw": 50
       },
       "dataCentreFit": {
+        "score": 45,
+        "band": "possible",
+        "reasons": [
+          "12.9km to nearest major (>=50MW) power station",
+          "18,818 sq ft equivalent",
+          "subtype \"Industrial Park\""
+        ]
+      }
+    },
+    {
+      "address": "1 City West Gelderd Road, Leeds, LS12 6NJ (Leeds)",
+      "priceDisplay": "£995,000 Offers in Region of",
+      "priceAmount": 995000,
+      "sizeLabel": "550–9,210 sq. ft.",
+      "sizeSqft": 9210,
+      "source": "Rightmove Commercial",
+      "requirement": "Citywide Investors",
+      "score": 2,
+      "reasons": [
+        "geography \"Leeds Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
+        "price 995000 within budget 500000-2000000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/762214045440304#/?channel=COM_BUY",
+      "agent": "Sanderson Weatherall, Leeds",
+      "propertyType": "Office",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/1ca8cf052/762214045440304/1ca8cf0522a946338410b68c580339b3_max_476x317.jpeg",
+      "powerStation": {
+        "geocodePrecision": "exact",
+        "lat": 53.776584,
+        "lon": -1.582194,
+        "nearestAnyKm": 4.9,
+        "nearestAnyName": "Buslingthorpe Power Station (Leeds North)",
+        "nearestAnyFuel": "Biomass",
+        "nearestMajorKm": 10,
+        "nearestMajorName": "Thornhill",
+        "nearestMajorFuel": "Gas",
+        "nearestMajorCapacityMw": 50
+      },
+      "dataCentreFit": {
         "score": 33,
         "band": "unlikely",
         "reasons": [
-          "12.9km to nearest major (>=50MW) power station",
-          "5,858 sq ft equivalent",
+          "10.0km to nearest major (>=50MW) power station",
+          "9,210 sq ft equivalent",
           "subtype \"Office\""
         ]
       }
@@ -547,44 +743,6 @@
           "20.5km to nearest major (>=50MW) power station",
           "12,447 sq ft equivalent",
           "subtype \"Office\""
-        ]
-      }
-    },
-    {
-      "address": "Industrial / Warehouse Unit  Cross Chancellor Street  Leeds West Yorkshire (Leeds)",
-      "priceDisplay": "POA",
-      "priceAmount": 1000000,
-      "sizeLabel": "18,818 sq. ft.",
-      "sizeSqft": 18818,
-      "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
-      "score": 2,
-      "reasons": [
-        "geography \"Leeds Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
-        "price 1000000 within budget 500000-2000000",
-        "keyword hit \"freehold\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/169014953#/?channel=COM_BUY",
-      "agent": "Colliers International, Industrial",
-      "propertyType": "Industrial Park",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/9aee77fe5/169014953/9aee77fe591fe74e34574f9c3332c759_max_476x317.jpeg",
-      "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.9,
-        "nearestAnyName": "Buslingthorpe Power Station (Leeds North)",
-        "nearestAnyFuel": "Biomass",
-        "nearestMajorKm": 12.9,
-        "nearestMajorName": "Thornhill",
-        "nearestMajorFuel": "Gas",
-        "nearestMajorCapacityMw": 50
-      },
-      "dataCentreFit": {
-        "score": 45,
-        "band": "possible",
-        "reasons": [
-          "12.9km to nearest major (>=50MW) power station",
-          "18,818 sq ft equivalent",
-          "subtype \"Industrial Park\""
         ]
       }
     },
@@ -642,10 +800,10 @@
         "price 900000 within budget 500000-2000000",
         "keyword hit \"freehold\""
       ],
-      "url": "https://www.rightmove.co.uk/properties/88691562#/?channel=COM_BUY",
+      "url": "https://www.rightmove.co.uk/properties/91093677#/?channel=COM_BUY",
       "agent": "Carter Towler, Leeds",
       "propertyType": "Office",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/057efae51/88691562/057efae51c4f02db5a0d48967379b654_max_476x317.jpeg",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/057efae51/91093677/057efae51c4f02db5a0d48967379b654_max_476x317.jpeg",
       "powerStation": {
         "geocodePrecision": "city-centroid",
         "nearestAnyKm": 1.9,
@@ -939,46 +1097,6 @@
       }
     },
     {
-      "address": "Post Office, High Street, Wetherby, Leeds (Leeds)",
-      "priceDisplay": "£595,000 Guide Price",
-      "priceAmount": 595000,
-      "sizeLabel": "2,141 sq. ft.",
-      "sizeSqft": 2141,
-      "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
-      "score": 2,
-      "reasons": [
-        "geography \"Leeds Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
-        "price 595000 within budget 500000-2000000",
-        "keyword hit \"freehold\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/762347564791921#/?channel=COM_BUY",
-      "agent": "Malcolm Stuart Property Consultants LLP, Tadcaster",
-      "propertyType": "Mixed Use",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/883dd9698/762347564791921/883dd96989ce18ea5ec9e3eae3e1ad59_max_476x317.jpeg",
-      "powerStation": {
-        "geocodePrecision": "exact",
-        "lat": 53.928265,
-        "lon": -1.385536,
-        "nearestAnyKm": 5.7,
-        "nearestAnyName": "Wothersome Grange Farm House AD - crops",
-        "nearestAnyFuel": "Biomass",
-        "nearestMajorKm": 22.6,
-        "nearestMajorName": "Castleford",
-        "nearestMajorFuel": "Gas",
-        "nearestMajorCapacityMw": 56
-      },
-      "dataCentreFit": {
-        "score": 21,
-        "band": "unlikely",
-        "reasons": [
-          "22.6km to nearest major (>=50MW) power station",
-          "2,141 sq ft equivalent",
-          "subtype \"Mixed Use\""
-        ]
-      }
-    },
-    {
       "address": "82 York Road, Leeds, LS9 9AA (Leeds)",
       "priceDisplay": "£595,000",
       "priceAmount": 595000,
@@ -1017,42 +1135,162 @@
       }
     },
     {
-      "address": "38-40, 42, 44 And 480 Howard Street, Sheffield, South Yorkshire, S1 2LX (Sheffield)",
-      "priceDisplay": "£1,250,000",
-      "priceAmount": 1250000,
-      "sizeLabel": "6,992 sq. ft.",
-      "sizeSqft": 6992,
+      "address": "Micklethwaite House, 70 Cross Green Lane, Leeds, LS9 0DG (Leeds)",
+      "priceDisplay": "£350,000 Offers in Excess of",
+      "priceAmount": 350000,
+      "sizeLabel": "36,791 sq. ft.",
+      "sizeSqft": 36791,
+      "source": "Rightmove Commercial",
+      "requirement": "Data Centre Sites",
+      "score": 2,
+      "reasons": [
+        "geography \"Leeds Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "size 36791 >= min 20000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/752427605792256#/?channel=COM_BUY",
+      "agent": "Dove Haigh Phillips LLP, Leeds",
+      "propertyType": "Commercial Development",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/92bacdd28/752427605792256/92bacdd2868def8f1b43ce78440d138c_max_476x317.png",
+      "powerStation": {
+        "geocodePrecision": "exact",
+        "lat": 53.788061,
+        "lon": -1.520295,
+        "nearestAnyKm": 1.1,
+        "nearestAnyName": "Cross Green ERF",
+        "nearestAnyFuel": "Waste",
+        "nearestMajorKm": 12.5,
+        "nearestMajorName": "Castleford",
+        "nearestMajorFuel": "Gas",
+        "nearestMajorCapacityMw": 56
+      },
+      "dataCentreFit": {
+        "score": 53,
+        "band": "possible",
+        "reasons": [
+          "12.5km to nearest major (>=50MW) power station",
+          "36,791 sq ft equivalent",
+          "subtype \"Commercial Development\""
+        ]
+      }
+    },
+    {
+      "address": "Poplar Products, Ramshead Approach, Seacroft, Leeds (Leeds)",
+      "priceDisplay": "£300,000 From",
+      "priceAmount": 300000,
+      "sizeLabel": "30,742 sq. ft.",
+      "sizeSqft": 30742,
+      "source": "Rightmove Commercial",
+      "requirement": "Data Centre Sites",
+      "score": 2,
+      "reasons": [
+        "geography \"Leeds Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "size 30742 >= min 20000",
+        "keyword hit \"industrial\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/760934272987537#/?channel=COM_BUY",
+      "agent": "Walker Singleton (Commercial), Leeds",
+      "propertyType": "Light Industrial",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/372dc74fa/760934272987537/372dc74fab78538f9d39eef978e49e35_max_476x317.jpeg",
+      "powerStation": {
+        "geocodePrecision": "exact",
+        "lat": 53.826313,
+        "lon": -1.46191,
+        "nearestAnyKm": 5,
+        "nearestAnyName": "Cross Green ERF",
+        "nearestAnyFuel": "Waste",
+        "nearestMajorKm": 12.9,
+        "nearestMajorName": "Castleford",
+        "nearestMajorFuel": "Gas",
+        "nearestMajorCapacityMw": 56
+      },
+      "dataCentreFit": {
+        "score": 53,
+        "band": "possible",
+        "reasons": [
+          "12.9km to nearest major (>=50MW) power station",
+          "30,742 sq ft equivalent",
+          "subtype \"Light Industrial\""
+        ]
+      }
+    },
+    {
+      "address": "Unit 8, Shepcote Office Village, Shepcote Lane, Sheffield, South Yorkshire, S9 1TG (Sheffield)",
+      "priceDisplay": "£395,000",
+      "priceAmount": 395000,
+      "sizeLabel": "3,022 sq. ft.",
+      "sizeSqft": 3022,
       "source": "Rightmove Commercial",
       "requirement": "Educating Excellence",
       "score": 2,
       "reasons": [
         "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
-        "size 6992 >= min 2000",
-        "keyword hit \"freehold\""
+        "size 3022 >= min 2000",
+        "keyword hit \"office\""
       ],
-      "url": "https://www.rightmove.co.uk/properties/760571799238961#/?channel=COM_BUY",
+      "url": "https://www.rightmove.co.uk/properties/760571300137888#/?channel=COM_BUY",
       "agent": "Eddisons Commercial Limited, Sheffield",
-      "propertyType": "Shop",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/03b9aab99/760571799238961/03b9aab99180ddb1a89081de621d5b14_max_476x317.jpeg",
+      "propertyType": "Office",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/dcbcd1e2f/760571300137888/dcbcd1e2fdc80777fbc3f3a901e69432_max_476x317.jpeg",
       "powerStation": {
         "geocodePrecision": "exact",
-        "lat": 53.378307,
-        "lon": -1.466003,
-        "nearestAnyKm": 1.5,
-        "nearestAnyName": "Sheffield ERF",
-        "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 36.4,
+        "lat": 53.399071,
+        "lon": -1.408848,
+        "nearestAnyKm": 2.4,
+        "nearestAnyName": "Advanced Manufacturing Research Centre",
+        "nearestAnyFuel": "Wind",
+        "nearestMajorKm": 35.6,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
       },
       "dataCentreFit": {
-        "score": 23,
+        "score": 16,
         "band": "unlikely",
         "reasons": [
-          "36.4km to nearest major (>=50MW) power station",
-          "6,992 sq ft equivalent",
-          "subtype \"Shop\" — no specific rule, neutral"
+          "35.6km to nearest major (>=50MW) power station",
+          "3,022 sq ft equivalent",
+          "subtype \"Office\""
+        ]
+      }
+    },
+    {
+      "address": "Unit 1 Metis Building, 2 Solly Street, Sheffield, S1 (Sheffield)",
+      "priceDisplay": "£495,000",
+      "priceAmount": 495000,
+      "sizeLabel": "3,850 sq. ft.",
+      "sizeSqft": 3850,
+      "source": "Rightmove Commercial",
+      "requirement": "Educating Excellence",
+      "score": 2,
+      "reasons": [
+        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "size 3850 >= min 2000",
+        "keyword hit \"office\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/756215561406961#/?channel=COM_BUY",
+      "agent": "Leaworks Ltd, Sheffield",
+      "propertyType": "Office",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/1f385bebc/756215561406961/1f385bebcbe8b4efcc615a97b3a9e821_max_476x317.jpeg",
+      "powerStation": {
+        "geocodePrecision": "exact",
+        "lat": 53.38462,
+        "lon": -1.47255,
+        "nearestAnyKm": 1.6,
+        "nearestAnyName": "Sheffield ERF",
+        "nearestAnyFuel": "Waste",
+        "nearestMajorKm": 35.6,
+        "nearestMajorName": "Thornhill",
+        "nearestMajorFuel": "Gas",
+        "nearestMajorCapacityMw": 50
+      },
+      "dataCentreFit": {
+        "score": 16,
+        "band": "unlikely",
+        "reasons": [
+          "35.6km to nearest major (>=50MW) power station",
+          "3,850 sq ft equivalent",
+          "subtype \"Office\""
         ]
       }
     },
@@ -1063,11 +1301,11 @@
       "sizeLabel": "22,881 sq. ft.",
       "sizeSqft": 22881,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Data Centre Sites",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
-        "size 22881 >= min 2000",
+        "geography \"Sheffield Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "size 22881 >= min 20000",
         "keyword hit \"freehold\""
       ],
       "url": "https://www.rightmove.co.uk/properties/760730285095312#/?channel=COM_BUY",
@@ -1223,11 +1461,11 @@
       "sizeLabel": "57,842 sq. ft.",
       "sizeSqft": 57842,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Data Centre Sites",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
-        "size 57842 >= min 2000",
+        "geography \"Sheffield Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "size 57842 >= min 20000",
         "keyword hit \"planning\""
       ],
       "url": "https://www.rightmove.co.uk/properties/760571878944801#/?channel=COM_BUY",
@@ -1263,12 +1501,12 @@
       "sizeLabel": "35,523 sq. ft.",
       "sizeSqft": 35523,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Data Centre Sites",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
-        "size 35523 >= min 2000",
-        "keyword hit \"office\""
+        "geography \"Sheffield Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "size 35523 >= min 20000",
+        "keyword hit \"industrial\""
       ],
       "url": "https://www.rightmove.co.uk/properties/762397808152992#/?channel=COM_BUY",
       "agent": "Commercial Property Partners Ltd, Sheffield",
@@ -1303,11 +1541,11 @@
       "sizeLabel": "1,222–22,259 sq. ft.",
       "sizeSqft": 22259,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Data Centre Sites",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
-        "size 22259 >= min 2000",
+        "geography \"Sheffield Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "size 22259 >= min 20000",
         "keyword hit \"freehold\""
       ],
       "url": "https://www.rightmove.co.uk/properties/760773543125345#/?channel=COM_BUY",
@@ -1423,12 +1661,12 @@
       "sizeLabel": "44,910 sq. ft.",
       "sizeSqft": 44910,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Data Centre Sites",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
-        "size 44910 >= min 2000",
-        "keyword hit \"office\""
+        "geography \"Sheffield Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "size 44910 >= min 20000",
+        "keyword hit \"industrial\""
       ],
       "url": "https://www.rightmove.co.uk/properties/754599909254481#/?channel=COM_BUY",
       "agent": "Crosthwaite Commercial Limited, Sheffield",
@@ -1463,11 +1701,11 @@
       "sizeLabel": "28,497 sq. ft.",
       "sizeSqft": 28497,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Data Centre Sites",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
-        "size 28497 >= min 2000",
+        "geography \"Sheffield Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "size 28497 >= min 20000",
         "keyword hit \"freehold\""
       ],
       "url": "https://www.rightmove.co.uk/properties/165618794#/?channel=COM_BUY",
@@ -1501,11 +1739,11 @@
       "sizeLabel": "97,574 sq. ft.",
       "sizeSqft": 97574,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Data Centre Sites",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
-        "size 97574 >= min 2000",
+        "geography \"Sheffield Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "size 97574 >= min 20000",
         "keyword hit \"freehold\""
       ],
       "url": "https://www.rightmove.co.uk/properties/760015858866432#/?channel=COM_BUY",
@@ -1575,6 +1813,86 @@
       }
     },
     {
+      "address": "38-40, 42, 44 And 480 Howard Street, Sheffield, South Yorkshire, S1 2LX (Sheffield)",
+      "priceDisplay": "£1,250,000",
+      "priceAmount": 1250000,
+      "sizeLabel": "6,992 sq. ft.",
+      "sizeSqft": 6992,
+      "source": "Rightmove Commercial",
+      "requirement": "Educating Excellence",
+      "score": 2,
+      "reasons": [
+        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "size 6992 >= min 2000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/760571799238961#/?channel=COM_BUY",
+      "agent": "Eddisons Commercial Limited, Sheffield",
+      "propertyType": "Shop",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/03b9aab99/760571799238961/03b9aab99180ddb1a89081de621d5b14_max_476x317.jpeg",
+      "powerStation": {
+        "geocodePrecision": "exact",
+        "lat": 53.378307,
+        "lon": -1.466003,
+        "nearestAnyKm": 1.5,
+        "nearestAnyName": "Sheffield ERF",
+        "nearestAnyFuel": "Waste",
+        "nearestMajorKm": 36.4,
+        "nearestMajorName": "Thornhill",
+        "nearestMajorFuel": "Gas",
+        "nearestMajorCapacityMw": 50
+      },
+      "dataCentreFit": {
+        "score": 23,
+        "band": "unlikely",
+        "reasons": [
+          "36.4km to nearest major (>=50MW) power station",
+          "6,992 sq ft equivalent",
+          "subtype \"Shop\" — no specific rule, neutral"
+        ]
+      }
+    },
+    {
+      "address": "Waverley Works, Effingham Street, Sheffield,  Waverley Works, Effingham Street, Sheffield (Sheffield)",
+      "priceDisplay": "£1,000,000 Guide Price",
+      "priceAmount": 1000000,
+      "sizeLabel": "35,000 sq. ft.",
+      "sizeSqft": 35000,
+      "source": "Rightmove Commercial",
+      "requirement": "Data Centre Sites",
+      "score": 2,
+      "reasons": [
+        "geography \"Sheffield Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "size 35000 >= min 20000",
+        "keyword hit \"warehouse\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/746606427835057#/?channel=COM_BUY",
+      "agent": "Savills, Savills Auctions- Commercial",
+      "propertyType": "Mixed Use",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/1fc76274f/746606427835057/1fc76274f47b908314f0847aa8081e80_max_476x317.jpeg",
+      "powerStation": {
+        "geocodePrecision": "exact",
+        "lat": 53.388566,
+        "lon": -1.452523,
+        "nearestAnyKm": 0.4,
+        "nearestAnyName": "Sheffield ERF",
+        "nearestAnyFuel": "Waste",
+        "nearestMajorKm": 35.6,
+        "nearestMajorName": "Thornhill",
+        "nearestMajorFuel": "Gas",
+        "nearestMajorCapacityMw": 50
+      },
+      "dataCentreFit": {
+        "score": 34,
+        "band": "unlikely",
+        "reasons": [
+          "35.6km to nearest major (>=50MW) power station",
+          "35,000 sq ft equivalent",
+          "subtype \"Mixed Use\""
+        ]
+      }
+    },
+    {
       "address": "Gilbertson Works, Jessell Street, Sheffield, South Yorkshire, S9 3HY (Sheffield)",
       "priceDisplay": "£1,000,000",
       "priceAmount": 1000000,
@@ -1615,42 +1933,40 @@
       }
     },
     {
-      "address": "Waverley Works, Effingham Street, Sheffield,  Waverley Works, Effingham Street, Sheffield (Sheffield)",
-      "priceDisplay": "£1,000,000 Guide Price",
-      "priceAmount": 1000000,
-      "sizeLabel": "35,000 sq. ft.",
-      "sizeSqft": 35000,
+      "address": "Lion Works, 91-103 Spital Hill, Sheffield, South Yorkshire S4 7LD (Sheffield)",
+      "priceDisplay": "£975,000 Guide Price",
+      "priceAmount": 975000,
+      "sizeLabel": "",
+      "sizeSqft": null,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Citywide Investors",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
-        "size 35000 >= min 2000",
-        "keyword hit \"office\""
+        "geography \"Sheffield Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
+        "price 975000 within budget 500000-2000000",
+        "keyword hit \"freehold\""
       ],
-      "url": "https://www.rightmove.co.uk/properties/746606427835057#/?channel=COM_BUY",
-      "agent": "Savills, Savills Auctions- Commercial",
-      "propertyType": "Mixed Use",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/1fc76274f/746606427835057/1fc76274f47b908314f0847aa8081e80_max_476x317.jpeg",
+      "url": "https://www.rightmove.co.uk/properties/173041451#/?channel=COM_BUY",
+      "agent": "BTG Eddisons Property Auctions, Commercial Nationwide",
+      "propertyType": "Commercial Property",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/a1e68553f/173041451/a1e68553f8731b8e59790c66f668aa5d_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "exact",
-        "lat": 53.388566,
-        "lon": -1.452523,
-        "nearestAnyKm": 0.4,
+        "geocodePrecision": "city-centroid",
+        "nearestAnyKm": 1.7,
         "nearestAnyName": "Sheffield ERF",
         "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 35.6,
+        "nearestMajorKm": 36.1,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
       },
       "dataCentreFit": {
-        "score": 34,
+        "score": 13,
         "band": "unlikely",
         "reasons": [
-          "35.6km to nearest major (>=50MW) power station",
-          "35,000 sq ft equivalent",
-          "subtype \"Mixed Use\""
+          "36.1km to nearest major (>=50MW) power station",
+          "size unknown",
+          "subtype \"Commercial Property\" — no specific rule, neutral"
         ]
       }
     },
@@ -1691,44 +2007,6 @@
           "34.3km to nearest major (>=50MW) power station",
           "10,387 sq ft equivalent",
           "subtype \"Office\""
-        ]
-      }
-    },
-    {
-      "address": "Lion Works, 91-103 Spital Hill, Sheffield, South Yorkshire S4 7LD (Sheffield)",
-      "priceDisplay": "£975,000 Guide Price",
-      "priceAmount": 975000,
-      "sizeLabel": "",
-      "sizeSqft": null,
-      "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
-      "score": 2,
-      "reasons": [
-        "geography \"Sheffield Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
-        "price 975000 within budget 500000-2000000",
-        "keyword hit \"freehold\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/173041451#/?channel=COM_BUY",
-      "agent": "BTG Eddisons Property Auctions, Commercial Nationwide",
-      "propertyType": "Commercial Property",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/a1e68553f/173041451/a1e68553f8731b8e59790c66f668aa5d_max_476x317.jpeg",
-      "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
-        "nearestAnyName": "Sheffield ERF",
-        "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 36.1,
-        "nearestMajorName": "Thornhill",
-        "nearestMajorFuel": "Gas",
-        "nearestMajorCapacityMw": 50
-      },
-      "dataCentreFit": {
-        "score": 13,
-        "band": "unlikely",
-        "reasons": [
-          "36.1km to nearest major (>=50MW) power station",
-          "size unknown",
-          "subtype \"Commercial Property\" — no specific rule, neutral"
         ]
       }
     },
@@ -1853,41 +2131,39 @@
       }
     },
     {
-      "address": "Unit 1 Metis Building, 2 Solly Street, Sheffield, S1 (Sheffield)",
-      "priceDisplay": "£495,000",
-      "priceAmount": 495000,
-      "sizeLabel": "3,850 sq. ft.",
-      "sizeSqft": 3850,
+      "address": "Unit 3 Waterside Court, Bold Street, Sheffield, South Yorkshire, S9 2LR (Sheffield)",
+      "priceDisplay": "£650,000 Guide Price",
+      "priceAmount": 650000,
+      "sizeLabel": "",
+      "sizeSqft": null,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Citywide Investors",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
-        "size 3850 >= min 2000",
-        "keyword hit \"office\""
+        "geography \"Sheffield Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
+        "price 650000 within budget 500000-2000000",
+        "keyword hit \"freehold\""
       ],
-      "url": "https://www.rightmove.co.uk/properties/756215561406961#/?channel=COM_BUY",
-      "agent": "Leaworks Ltd, Sheffield",
+      "url": "https://www.rightmove.co.uk/properties/90471561#/?channel=COM_BUY",
+      "agent": "Auction Estates Ltd, Nottingham",
       "propertyType": "Office",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/1f385bebc/756215561406961/1f385bebcbe8b4efcc615a97b3a9e821_max_476x317.jpeg",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/8323ba7bd/90471561/8323ba7bd3e4d387421eaf9137c1e0e2_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "exact",
-        "lat": 53.38462,
-        "lon": -1.47255,
-        "nearestAnyKm": 1.6,
+        "geocodePrecision": "city-centroid",
+        "nearestAnyKm": 1.7,
         "nearestAnyName": "Sheffield ERF",
         "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 35.6,
+        "nearestMajorKm": 36.1,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
       },
       "dataCentreFit": {
-        "score": 16,
+        "score": 11,
         "band": "unlikely",
         "reasons": [
-          "35.6km to nearest major (>=50MW) power station",
-          "3,850 sq ft equivalent",
+          "36.1km to nearest major (>=50MW) power station",
+          "size unknown",
           "subtype \"Office\""
         ]
       }
@@ -1899,11 +2175,11 @@
       "sizeLabel": "44,179 sq. ft.",
       "sizeSqft": 44179,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Data Centre Sites",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
-        "size 44179 >= min 2000",
+        "geography \"Sheffield Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "size 44179 >= min 20000",
         "keyword hit \"development opportunity\""
       ],
       "url": "https://www.rightmove.co.uk/properties/754599932281041#/?channel=COM_BUY",
@@ -1929,6 +2205,46 @@
           "34.5km to nearest major (>=50MW) power station",
           "44,179 sq ft equivalent",
           "subtype \"Light Industrial\""
+        ]
+      }
+    },
+    {
+      "address": "Advantage House, Poplar Way, Catcliffe, Rotherham (Sheffield)",
+      "priceDisplay": "POA",
+      "priceAmount": 750000,
+      "sizeLabel": "19,873 sq. ft.",
+      "sizeSqft": 19873,
+      "source": "Rightmove Commercial",
+      "requirement": "Educating Excellence",
+      "score": 2,
+      "reasons": [
+        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "size 19873 >= min 2000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/764544201473408#/?channel=COM_BUY",
+      "agent": "BARKER PROUDLOVE LIMITED, Leeds",
+      "propertyType": "Serviced Office",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/410f828e4/764544201473408/410f828e4da175e84aeef58fa288b22c_max_476x317.jpeg",
+      "powerStation": {
+        "geocodePrecision": "exact",
+        "lat": 53.390412,
+        "lon": -1.378098,
+        "nearestAnyKm": 0.3,
+        "nearestAnyName": "Advanced Manufacturing Research Centre",
+        "nearestAnyFuel": "Wind",
+        "nearestMajorKm": 36.8,
+        "nearestMajorName": "Ferrybridge Multi-fuel",
+        "nearestMajorFuel": "Biomass",
+        "nearestMajorCapacityMw": 79
+      },
+      "dataCentreFit": {
+        "score": 21,
+        "band": "unlikely",
+        "reasons": [
+          "36.8km to nearest major (>=50MW) power station",
+          "19,873 sq ft equivalent",
+          "subtype \"Serviced Office\""
         ]
       }
     },
@@ -2013,56 +2329,18 @@
       }
     },
     {
-      "address": "Unit 3 Waterside Court, Bold Street, Sheffield, South Yorkshire, S9 2LR (Sheffield)",
-      "priceDisplay": "£650,000 Guide Price",
-      "priceAmount": 650000,
-      "sizeLabel": "",
-      "sizeSqft": null,
-      "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
-      "score": 2,
-      "reasons": [
-        "geography \"Sheffield Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
-        "price 650000 within budget 500000-2000000",
-        "keyword hit \"freehold\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/90471561#/?channel=COM_BUY",
-      "agent": "Auction Estates Ltd, Nottingham",
-      "propertyType": "Office",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/8323ba7bd/90471561/8323ba7bd3e4d387421eaf9137c1e0e2_max_476x317.jpeg",
-      "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
-        "nearestAnyName": "Sheffield ERF",
-        "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 36.1,
-        "nearestMajorName": "Thornhill",
-        "nearestMajorFuel": "Gas",
-        "nearestMajorCapacityMw": 50
-      },
-      "dataCentreFit": {
-        "score": 11,
-        "band": "unlikely",
-        "reasons": [
-          "36.1km to nearest major (>=50MW) power station",
-          "size unknown",
-          "subtype \"Office\""
-        ]
-      }
-    },
-    {
       "address": "Kayedee Premises, Stamford Street, Newhall Road Trading Estate, Sheffield, S9 2TX (Sheffield)",
       "priceDisplay": "£500,000",
       "priceAmount": 500000,
       "sizeLabel": "21,489 sq. ft.",
       "sizeSqft": 21489,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Data Centre Sites",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
-        "size 21489 >= min 2000",
-        "keyword hit \"office\""
+        "geography \"Sheffield Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "size 21489 >= min 20000",
+        "keyword hit \"industrial\""
       ],
       "url": "https://www.rightmove.co.uk/properties/760571990026673#/?channel=COM_BUY",
       "agent": "Eddisons Commercial Limited, Sheffield",
@@ -2209,46 +2487,6 @@
       }
     },
     {
-      "address": "Unit 8, Shepcote Office Village, Shepcote Lane, Sheffield, South Yorkshire, S9 1TG (Sheffield)",
-      "priceDisplay": "£395,000",
-      "priceAmount": 395000,
-      "sizeLabel": "3,022 sq. ft.",
-      "sizeSqft": 3022,
-      "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
-      "score": 2,
-      "reasons": [
-        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
-        "size 3022 >= min 2000",
-        "keyword hit \"office\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/760571300137888#/?channel=COM_BUY",
-      "agent": "Eddisons Commercial Limited, Sheffield",
-      "propertyType": "Office",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/dcbcd1e2f/760571300137888/dcbcd1e2fdc80777fbc3f3a901e69432_max_476x317.jpeg",
-      "powerStation": {
-        "geocodePrecision": "exact",
-        "lat": 53.399071,
-        "lon": -1.408848,
-        "nearestAnyKm": 2.4,
-        "nearestAnyName": "Advanced Manufacturing Research Centre",
-        "nearestAnyFuel": "Wind",
-        "nearestMajorKm": 35.6,
-        "nearestMajorName": "Thornhill",
-        "nearestMajorFuel": "Gas",
-        "nearestMajorCapacityMw": 50
-      },
-      "dataCentreFit": {
-        "score": 16,
-        "band": "unlikely",
-        "reasons": [
-          "35.6km to nearest major (>=50MW) power station",
-          "3,022 sq ft equivalent",
-          "subtype \"Office\""
-        ]
-      }
-    },
-    {
       "address": "Unit 2B, Junction 34 Industrial Estate, Greasbro Road, Tinsley, Sheffield, S9 1TN (Sheffield)",
       "priceDisplay": "£390,000",
       "priceAmount": 390000,
@@ -2369,46 +2607,6 @@
       }
     },
     {
-      "address": "Alliance House, Roman Ridge Road, Sheffield S9 1GB (Sheffield)",
-      "priceDisplay": "£325,000",
-      "priceAmount": 325000,
-      "sizeLabel": "5,743 sq. ft.",
-      "sizeSqft": 5743,
-      "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
-      "score": 2,
-      "reasons": [
-        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
-        "size 5743 >= min 2000",
-        "keyword hit \"freehold\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/744622056476753#/?channel=COM_BUY",
-      "agent": "Crosthwaite Commercial Limited, Sheffield",
-      "propertyType": "Office",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/3d7b7317a/744622056476753/3d7b7317a5b0e706e9561322bb2b6887_max_476x317.jpeg",
-      "powerStation": {
-        "geocodePrecision": "exact",
-        "lat": 53.416769,
-        "lon": -1.417751,
-        "nearestAnyKm": 1.2,
-        "nearestAnyName": "Meadow Hall Power",
-        "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 33.5,
-        "nearestMajorName": "Thornhill",
-        "nearestMajorFuel": "Gas",
-        "nearestMajorCapacityMw": 50
-      },
-      "dataCentreFit": {
-        "score": 21,
-        "band": "unlikely",
-        "reasons": [
-          "33.5km to nearest major (>=50MW) power station",
-          "5,743 sq ft equivalent",
-          "subtype \"Office\""
-        ]
-      }
-    },
-    {
       "address": "24 Meadowhall Road, Sheffield, South Yorkshire, S9 1BS (Sheffield)",
       "priceDisplay": "POA",
       "priceAmount": 1,
@@ -2445,6 +2643,46 @@
           "34.0km to nearest major (>=50MW) power station",
           "6,286 sq ft equivalent",
           "subtype \"Showroom\" — no specific rule, neutral"
+        ]
+      }
+    },
+    {
+      "address": "Alliance House, Roman Ridge Road, Sheffield S9 1GB (Sheffield)",
+      "priceDisplay": "£325,000",
+      "priceAmount": 325000,
+      "sizeLabel": "5,743 sq. ft.",
+      "sizeSqft": 5743,
+      "source": "Rightmove Commercial",
+      "requirement": "Educating Excellence",
+      "score": 2,
+      "reasons": [
+        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "size 5743 >= min 2000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/744622056476753#/?channel=COM_BUY",
+      "agent": "Crosthwaite Commercial Limited, Sheffield",
+      "propertyType": "Office",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/3d7b7317a/744622056476753/3d7b7317a5b0e706e9561322bb2b6887_max_476x317.jpeg",
+      "powerStation": {
+        "geocodePrecision": "exact",
+        "lat": 53.416769,
+        "lon": -1.417751,
+        "nearestAnyKm": 1.2,
+        "nearestAnyName": "Meadow Hall Power",
+        "nearestAnyFuel": "Waste",
+        "nearestMajorKm": 33.5,
+        "nearestMajorName": "Thornhill",
+        "nearestMajorFuel": "Gas",
+        "nearestMajorCapacityMw": 50
+      },
+      "dataCentreFit": {
+        "score": 21,
+        "band": "unlikely",
+        "reasons": [
+          "33.5km to nearest major (>=50MW) power station",
+          "5,743 sq ft equivalent",
+          "subtype \"Office\""
         ]
       }
     },
@@ -2535,11 +2773,11 @@
       "sizeLabel": "20,042 sq. ft.",
       "sizeSqft": 20042,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Data Centre Sites",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
-        "size 20042 >= min 2000",
+        "geography \"Sheffield Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "size 20042 >= min 20000",
         "keyword hit \"freehold\""
       ],
       "url": "https://www.rightmove.co.uk/properties/743551758137296#/?channel=COM_BUY",
@@ -2649,6 +2887,202 @@
       }
     },
     {
+      "address": "Terry Street, Sheffield (Sheffield)",
+      "priceDisplay": "POA",
+      "priceAmount": 10,
+      "sizeLabel": "46,139 sq. ft.",
+      "sizeSqft": 46139,
+      "source": "Rightmove Commercial",
+      "requirement": "Data Centre Sites",
+      "score": 2,
+      "reasons": [
+        "geography \"Sheffield Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "size 46139 >= min 20000",
+        "keyword hit \"industrial\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/744042179075025#/?channel=COM_BUY",
+      "agent": "CBRE, Leeds",
+      "propertyType": "Light Industrial",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/426d7822e/744042179075025/426d7822e007a93d5691db4c2127a0c9_max_476x317.jpeg",
+      "powerStation": {
+        "geocodePrecision": "exact",
+        "lat": 53.40074,
+        "lon": -1.42032,
+        "nearestAnyKm": 2.4,
+        "nearestAnyName": "Sheffield ERF",
+        "nearestAnyFuel": "Waste",
+        "nearestMajorKm": 35.1,
+        "nearestMajorName": "Thornhill",
+        "nearestMajorFuel": "Gas",
+        "nearestMajorCapacityMw": 50
+      },
+      "dataCentreFit": {
+        "score": 41,
+        "band": "possible",
+        "reasons": [
+          "35.1km to nearest major (>=50MW) power station",
+          "46,139 sq ft equivalent",
+          "subtype \"Light Industrial\""
+        ]
+      }
+    },
+    {
+      "address": "Milton Street, Sheffield, S3 7UF (Sheffield)",
+      "priceDisplay": "POA",
+      "priceAmount": 1,
+      "sizeLabel": "275,000–350,000 sq. ft.",
+      "sizeSqft": 350000,
+      "source": "Rightmove Commercial",
+      "requirement": "Data Centre Sites",
+      "score": 2,
+      "reasons": [
+        "geography \"Sheffield Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "size 350000 >= min 20000",
+        "keyword hit \"planning\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/759292704103920#/?channel=COM_BUY",
+      "agent": "Commercial Property Partners Ltd, Sheffield",
+      "propertyType": "Residential Development",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/6e4e872de/759292704103920/6e4e872deeb21bb9b98e1cba8e3718f6_max_476x317.jpeg",
+      "powerStation": {
+        "geocodePrecision": "exact",
+        "lat": 53.375053,
+        "lon": -1.479398,
+        "nearestAnyKm": 2.4,
+        "nearestAnyName": "Sheffield ERF",
+        "nearestAnyFuel": "Waste",
+        "nearestMajorKm": 36.5,
+        "nearestMajorName": "Thornhill",
+        "nearestMajorFuel": "Gas",
+        "nearestMajorCapacityMw": 50
+      },
+      "dataCentreFit": {
+        "score": 48,
+        "band": "possible",
+        "reasons": [
+          "36.5km to nearest major (>=50MW) power station",
+          "350,000 sq ft equivalent",
+          "subtype \"Residential Development\""
+        ]
+      }
+    },
+    {
+      "address": "160 Solly Street, Sheffield, S1 4BF (Sheffield)",
+      "priceDisplay": "POA",
+      "priceAmount": 1,
+      "sizeLabel": "11,421 sq. ft.",
+      "sizeSqft": 11421,
+      "source": "Rightmove Commercial",
+      "requirement": "Educating Excellence",
+      "score": 2,
+      "reasons": [
+        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "size 11421 >= min 2000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/164601068#/?channel=COM_BUY",
+      "agent": "Knight Frank, Sheffield",
+      "propertyType": "Distribution Warehouse",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/bdffe613c/164601068/bdffe613cd049276341f52688e742a68_max_476x317.jpeg",
+      "powerStation": {
+        "geocodePrecision": "city-centroid",
+        "nearestAnyKm": 1.7,
+        "nearestAnyName": "Sheffield ERF",
+        "nearestAnyFuel": "Waste",
+        "nearestMajorKm": 36.1,
+        "nearestMajorName": "Thornhill",
+        "nearestMajorFuel": "Gas",
+        "nearestMajorCapacityMw": 50
+      },
+      "dataCentreFit": {
+        "score": 33,
+        "band": "unlikely",
+        "reasons": [
+          "36.1km to nearest major (>=50MW) power station",
+          "11,421 sq ft equivalent",
+          "subtype \"Distribution Warehouse\""
+        ]
+      }
+    },
+    {
+      "address": "CORE Sheffield, Shepcote Lane, Sheffield, South Yorkshire, S9 1TP (Sheffield)",
+      "priceDisplay": "POA",
+      "priceAmount": 1,
+      "sizeLabel": "367,935 sq. ft.",
+      "sizeSqft": 367935,
+      "source": "Rightmove Commercial",
+      "requirement": "Data Centre Sites",
+      "score": 2,
+      "reasons": [
+        "geography \"Sheffield Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "size 367935 >= min 20000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/759291900865216#/?channel=COM_BUY",
+      "agent": "Commercial Property Partners Ltd, Sheffield",
+      "propertyType": "Light Industrial",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/af48af030/759291900865216/af48af03053f1d03555854cd7ed6fee8_max_476x317.jpeg",
+      "powerStation": {
+        "geocodePrecision": "exact",
+        "lat": 53.40398,
+        "lon": -1.407141,
+        "nearestAnyKm": 1.9,
+        "nearestAnyName": "Blackburn Meadows",
+        "nearestAnyFuel": "Biomass",
+        "nearestMajorKm": 35.1,
+        "nearestMajorName": "Thornhill",
+        "nearestMajorFuel": "Gas",
+        "nearestMajorCapacityMw": 50
+      },
+      "dataCentreFit": {
+        "score": 48,
+        "band": "possible",
+        "reasons": [
+          "35.1km to nearest major (>=50MW) power station",
+          "367,935 sq ft equivalent",
+          "subtype \"Light Industrial\""
+        ]
+      }
+    },
+    {
+      "address": "Highfield at Waverley, Highfield Spring, Waverley, Rotherham, S60 (Sheffield)",
+      "priceDisplay": "POA",
+      "priceAmount": 1,
+      "sizeLabel": "10,000–80,000 sq. ft.",
+      "sizeSqft": 80000,
+      "source": "Rightmove Commercial",
+      "requirement": "Data Centre Sites",
+      "score": 2,
+      "reasons": [
+        "geography \"Sheffield Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "size 80000 >= min 20000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/168968804#/?channel=COM_BUY",
+      "agent": "Knight Frank, Sheffield",
+      "propertyType": "Distribution Warehouse",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/7a5af7c3e/168968804/7a5af7c3e50bb8a5caf86225da35cbdd_max_476x317.jpeg",
+      "powerStation": {
+        "geocodePrecision": "city-centroid",
+        "nearestAnyKm": 1.7,
+        "nearestAnyName": "Sheffield ERF",
+        "nearestAnyFuel": "Waste",
+        "nearestMajorKm": 36.1,
+        "nearestMajorName": "Thornhill",
+        "nearestMajorFuel": "Gas",
+        "nearestMajorCapacityMw": 50
+      },
+      "dataCentreFit": {
+        "score": 41,
+        "band": "possible",
+        "reasons": [
+          "36.1km to nearest major (>=50MW) power station",
+          "80,000 sq ft equivalent",
+          "subtype \"Distribution Warehouse\""
+        ]
+      }
+    },
+    {
       "address": "Unit 3, President Way, President Park Sheffield, S4 7UR (Sheffield)",
       "priceDisplay": "POA",
       "priceAmount": 1,
@@ -2687,40 +3121,42 @@
       }
     },
     {
-      "address": "Highfield at Waverley, Highfield Spring, Waverley, Rotherham, S60 (Sheffield)",
+      "address": "Yards C And D, Old Station Drive, Millhouses, Sheffield, S7 2PY (Sheffield)",
       "priceDisplay": "POA",
       "priceAmount": 1,
-      "sizeLabel": "10,000–80,000 sq. ft.",
-      "sizeSqft": 80000,
+      "sizeLabel": "10,890 sq. ft.",
+      "sizeSqft": 10890,
       "source": "Rightmove Commercial",
       "requirement": "Educating Excellence",
       "score": 2,
       "reasons": [
         "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
-        "size 80000 >= min 2000",
+        "size 10890 >= min 2000",
         "keyword hit \"freehold\""
       ],
-      "url": "https://www.rightmove.co.uk/properties/168968636#/?channel=COM_BUY",
-      "agent": "Knight Frank, Sheffield",
-      "propertyType": "Land",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/7a5af7c3e/168968636/7a5af7c3e50bb8a5caf86225da35cbdd_max_476x317.jpeg",
+      "url": "https://www.rightmove.co.uk/properties/760571922917472#/?channel=COM_BUY",
+      "agent": "Eddisons Commercial Limited, Sheffield",
+      "propertyType": "Warehouse",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/f18f2642a/760571922917472/f18f2642ac3095bdb98cd51d030ca35e_max_476x317.jpeg",
       "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
+        "geocodePrecision": "exact",
+        "lat": 53.345592,
+        "lon": -1.494184,
+        "nearestAnyKm": 5.5,
         "nearestAnyName": "Sheffield ERF",
         "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 36.1,
+        "nearestMajorKm": 39.4,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
       },
       "dataCentreFit": {
-        "score": 41,
-        "band": "possible",
+        "score": 33,
+        "band": "unlikely",
         "reasons": [
-          "36.1km to nearest major (>=50MW) power station",
-          "80,000 sq ft equivalent",
-          "subtype \"Land\""
+          "39.4km to nearest major (>=50MW) power station",
+          "10,890 sq ft equivalent",
+          "subtype \"Warehouse\""
         ]
       }
     },
@@ -2801,46 +3237,6 @@
       }
     },
     {
-      "address": "Foundry House, 3 Millsands, Sheffield, South Yorkshire, S3 8NH (Sheffield)",
-      "priceDisplay": "POA",
-      "priceAmount": 1,
-      "sizeLabel": "36,381 sq. ft.",
-      "sizeSqft": 36381,
-      "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
-      "score": 2,
-      "reasons": [
-        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
-        "size 36381 >= min 2000",
-        "keyword hit \"freehold\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/760579667771744#/?channel=COM_BUY",
-      "agent": "GV&Co, Leeds",
-      "propertyType": "Office",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/d79572e84/760579667771744/d79572e84d4e8923ac0a36dc22778acc_max_476x317.jpeg",
-      "powerStation": {
-        "geocodePrecision": "exact",
-        "lat": 53.386112,
-        "lon": -1.466972,
-        "nearestAnyKm": 1.2,
-        "nearestAnyName": "Sheffield ERF",
-        "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 35.5,
-        "nearestMajorName": "Thornhill",
-        "nearestMajorFuel": "Gas",
-        "nearestMajorCapacityMw": 50
-      },
-      "dataCentreFit": {
-        "score": 29,
-        "band": "unlikely",
-        "reasons": [
-          "35.5km to nearest major (>=50MW) power station",
-          "36,381 sq ft equivalent",
-          "subtype \"Office\""
-        ]
-      }
-    },
-    {
       "address": "50, Broadfield Road, Sheffield, S8 0XJ (Sheffield)",
       "priceDisplay": "POA",
       "priceAmount": 1,
@@ -2879,221 +3275,29 @@
       }
     },
     {
-      "address": "160 Solly Street, Sheffield, S1 4BF (Sheffield)",
+      "address": "Plot 10 R-evolution 4 at Advanced Manufacturing Park, Rotherham S60 (Sheffield)",
       "priceDisplay": "POA",
       "priceAmount": 1,
-      "sizeLabel": "11,421 sq. ft.",
-      "sizeSqft": 11421,
+      "sizeLabel": "20,000 sq. ft.",
+      "sizeSqft": 20000,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Data Centre Sites",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
-        "size 11421 >= min 2000",
+        "geography \"Sheffield Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "size 20000 >= min 20000",
         "keyword hit \"freehold\""
       ],
-      "url": "https://www.rightmove.co.uk/properties/164601068#/?channel=COM_BUY",
+      "url": "https://www.rightmove.co.uk/properties/170842886#/?channel=COM_BUY",
       "agent": "Knight Frank, Sheffield",
-      "propertyType": "Distribution Warehouse",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/bdffe613c/164601068/bdffe613cd049276341f52688e742a68_max_476x317.jpeg",
+      "propertyType": "Industrial Development",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/d7b50488a/170842886/d7b50488abbe54e14aeca5ab2689bdf3_max_476x317.jpeg",
       "powerStation": {
         "geocodePrecision": "city-centroid",
         "nearestAnyKm": 1.7,
         "nearestAnyName": "Sheffield ERF",
         "nearestAnyFuel": "Waste",
         "nearestMajorKm": 36.1,
-        "nearestMajorName": "Thornhill",
-        "nearestMajorFuel": "Gas",
-        "nearestMajorCapacityMw": 50
-      },
-      "dataCentreFit": {
-        "score": 33,
-        "band": "unlikely",
-        "reasons": [
-          "36.1km to nearest major (>=50MW) power station",
-          "11,421 sq ft equivalent",
-          "subtype \"Distribution Warehouse\""
-        ]
-      }
-    },
-    {
-      "address": "Athol House, Heart of The City II, Pinstone Street, Sheffield, S1 2HZ (Sheffield)",
-      "priceDisplay": "POA",
-      "priceAmount": 1,
-      "sizeLabel": "968–2,973 sq. ft.",
-      "sizeSqft": 2973,
-      "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
-      "score": 2,
-      "reasons": [
-        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
-        "size 2973 >= min 2000",
-        "keyword hit \"freehold\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/758217253130032#/?channel=COM_BUY",
-      "agent": "Savills, Leeds Offices",
-      "propertyType": "Office",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/abde0a33a/758217253130032/abde0a33a209961f7c2452e431c96ec1_max_476x317.jpeg",
-      "powerStation": {
-        "geocodePrecision": "exact",
-        "lat": 53.378986,
-        "lon": -1.470984,
-        "nearestAnyKm": 1.7,
-        "nearestAnyName": "Sheffield ERF",
-        "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 36.2,
-        "nearestMajorName": "Thornhill",
-        "nearestMajorFuel": "Gas",
-        "nearestMajorCapacityMw": 50
-      },
-      "dataCentreFit": {
-        "score": 16,
-        "band": "unlikely",
-        "reasons": [
-          "36.2km to nearest major (>=50MW) power station",
-          "2,973 sq ft equivalent",
-          "subtype \"Office\""
-        ]
-      }
-    },
-    {
-      "address": "1 Amberley Street, Sheffield, S9 YO26 (Sheffield)",
-      "priceDisplay": "POA",
-      "priceAmount": 1,
-      "sizeLabel": "77,330 sq. ft.",
-      "sizeSqft": 77330,
-      "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
-      "score": 2,
-      "reasons": [
-        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
-        "size 77330 >= min 2000",
-        "keyword hit \"freehold\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/151292600#/?channel=COM_BUY",
-      "agent": "Knight Frank, Sheffield",
-      "propertyType": "Office",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/2eebef1a0/151292600/2eebef1a075b11cdb8a21c7a7490b108_max_476x317.jpeg",
-      "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
-        "nearestAnyName": "Sheffield ERF",
-        "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 36.1,
-        "nearestMajorName": "Thornhill",
-        "nearestMajorFuel": "Gas",
-        "nearestMajorCapacityMw": 50
-      },
-      "dataCentreFit": {
-        "score": 29,
-        "band": "unlikely",
-        "reasons": [
-          "36.1km to nearest major (>=50MW) power station",
-          "77,330 sq ft equivalent",
-          "subtype \"Office\""
-        ]
-      }
-    },
-    {
-      "address": "South West Centre, Troutbeck Road, Sheffield, S8 0JR (Sheffield)",
-      "priceDisplay": "POA",
-      "priceAmount": 1,
-      "sizeLabel": "42,195 sq. ft.",
-      "sizeSqft": 42195,
-      "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
-      "score": 2,
-      "reasons": [
-        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
-        "size 42195 >= min 2000",
-        "keyword hit \"freehold\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/88345509#/?channel=COM_BUY",
-      "agent": "Avison Young (UK) Limited, Land & Development",
-      "propertyType": "Office",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/d8ddf4434/88345509/d8ddf443461bf614a87ebc4ef16b8bff_max_476x317.jpeg",
-      "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
-        "nearestAnyName": "Sheffield ERF",
-        "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 36.1,
-        "nearestMajorName": "Thornhill",
-        "nearestMajorFuel": "Gas",
-        "nearestMajorCapacityMw": 50
-      },
-      "dataCentreFit": {
-        "score": 29,
-        "band": "unlikely",
-        "reasons": [
-          "36.1km to nearest major (>=50MW) power station",
-          "42,195 sq ft equivalent",
-          "subtype \"Office\""
-        ]
-      }
-    },
-    {
-      "address": "13 Birley Vale Avenue, Sheffield S12 (Sheffield)",
-      "priceDisplay": "POA",
-      "priceAmount": 1,
-      "sizeLabel": "17,630 sq. ft.",
-      "sizeSqft": 17630,
-      "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
-      "score": 2,
-      "reasons": [
-        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
-        "size 17630 >= min 2000",
-        "keyword hit \"freehold\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/87778536#/?channel=COM_BUY",
-      "agent": "Knight Frank, Sheffield",
-      "propertyType": "Distribution Warehouse",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/22a06c5ef/87778536/22a06c5ef1a16e41f584c3d40f3d8df4_max_476x317.jpeg",
-      "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
-        "nearestAnyName": "Sheffield ERF",
-        "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 36.1,
-        "nearestMajorName": "Thornhill",
-        "nearestMajorFuel": "Gas",
-        "nearestMajorCapacityMw": 50
-      },
-      "dataCentreFit": {
-        "score": 33,
-        "band": "unlikely",
-        "reasons": [
-          "36.1km to nearest major (>=50MW) power station",
-          "17,630 sq ft equivalent",
-          "subtype \"Distribution Warehouse\""
-        ]
-      }
-    },
-    {
-      "address": "No.1 Midpoint Business Park, 1 Mid Point, Thornbury, Bradford, BD3 7AY (Bradford)",
-      "priceDisplay": "£4,000,000 Offers in Excess of",
-      "priceAmount": 4000000,
-      "sizeLabel": "39,178 sq. ft.",
-      "sizeSqft": 39178,
-      "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
-      "score": 2,
-      "reasons": [
-        "geography \"Bradford Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
-        "size 39178 >= min 2000",
-        "keyword hit \"freehold\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/89501259#/?channel=COM_BUY",
-      "agent": "Northcap, Leeds",
-      "propertyType": "Office",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/3d58e68e7/89501259/3d58e68e76db59e0202af0a88974b17a_max_476x317.jpeg",
-      "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 6.2,
-        "nearestAnyName": "Esholt WWTW",
-        "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 14.3,
         "nearestMajorName": "Thornhill",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 50
@@ -3102,9 +3306,9 @@
         "score": 41,
         "band": "possible",
         "reasons": [
-          "14.3km to nearest major (>=50MW) power station",
-          "39,178 sq ft equivalent",
-          "subtype \"Office\""
+          "36.1km to nearest major (>=50MW) power station",
+          "20,000 sq ft equivalent",
+          "subtype \"Industrial Development\""
         ]
       }
     },
@@ -3187,17 +3391,55 @@
       }
     },
     {
+      "address": "No.1 Midpoint Business Park, 1 Mid Point, Thornbury, Bradford, BD3 7AY (Bradford)",
+      "priceDisplay": "£4,000,000 Offers in Excess of",
+      "priceAmount": 4000000,
+      "sizeLabel": "39,178 sq. ft.",
+      "sizeSqft": 39178,
+      "source": "Rightmove Commercial",
+      "requirement": "Data Centre Sites",
+      "score": 2,
+      "reasons": [
+        "geography \"Bradford Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "size 39178 >= min 20000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/89501259#/?channel=COM_BUY",
+      "agent": "Northcap, Leeds",
+      "propertyType": "Office",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/3d58e68e7/89501259/3d58e68e76db59e0202af0a88974b17a_max_476x317.jpeg",
+      "powerStation": {
+        "geocodePrecision": "city-centroid",
+        "nearestAnyKm": 6.2,
+        "nearestAnyName": "Esholt WWTW",
+        "nearestAnyFuel": "Waste",
+        "nearestMajorKm": 14.3,
+        "nearestMajorName": "Thornhill",
+        "nearestMajorFuel": "Gas",
+        "nearestMajorCapacityMw": 50
+      },
+      "dataCentreFit": {
+        "score": 41,
+        "band": "possible",
+        "reasons": [
+          "14.3km to nearest major (>=50MW) power station",
+          "39,178 sq ft equivalent",
+          "subtype \"Office\""
+        ]
+      }
+    },
+    {
       "address": "Futures Way, Off Bolling Road, Bradford, West Yorkshire, BD4 7EB (Bradford)",
       "priceDisplay": "£4,500,000 Offers in Region of",
       "priceAmount": 4500000,
       "sizeLabel": "72,564 sq. ft.",
       "sizeSqft": 72564,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Data Centre Sites",
       "score": 2,
       "reasons": [
-        "geography \"Bradford Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
-        "size 72564 >= min 2000",
+        "geography \"Bradford Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "size 72564 >= min 20000",
         "keyword hit \"freehold\""
       ],
       "url": "https://www.rightmove.co.uk/properties/760556347259392#/?channel=COM_BUY",
@@ -3233,11 +3475,11 @@
       "sizeLabel": "29,351 sq. ft.",
       "sizeSqft": 29351,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Data Centre Sites",
       "score": 2,
       "reasons": [
-        "geography \"Bradford Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
-        "size 29351 >= min 2000",
+        "geography \"Bradford Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "size 29351 >= min 20000",
         "keyword hit \"freehold\""
       ],
       "url": "https://www.rightmove.co.uk/properties/750945672314128#/?channel=COM_BUY",
@@ -3283,7 +3525,7 @@
       "url": "https://www.rightmove.co.uk/properties/763457220195440#/?channel=COM_BUY",
       "agent": "Savills, City Offices",
       "propertyType": "Commercial Property",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/e54386834/763457220195440/e5438683475a558055c95c83b5c6f2f8_max_476x317.jpeg",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/b19c0a3a3/763457220195440/b19c0a3a323cebe0994e3442ab2fee81_max_476x317.jpeg",
       "powerStation": {
         "geocodePrecision": "exact",
         "lat": 53.805288,
@@ -3593,11 +3835,11 @@
       "sizeLabel": "28,079 sq. ft.",
       "sizeSqft": 28079,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Data Centre Sites",
       "score": 2,
       "reasons": [
-        "geography \"Bradford Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
-        "size 28079 >= min 2000",
+        "geography \"Bradford Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "size 28079 >= min 20000",
         "keyword hit \"vacant\""
       ],
       "url": "https://www.rightmove.co.uk/properties/746607883263889#/?channel=COM_BUY",
@@ -3623,6 +3865,126 @@
           "10.5km to nearest major (>=50MW) power station",
           "28,079 sq ft equivalent",
           "subtype \"Light Industrial\""
+        ]
+      }
+    },
+    {
+      "address": "4-11 Station Mills, Station Road, Wyke, Bradford, BD12 8LA (Bradford)",
+      "priceDisplay": "POA",
+      "priceAmount": 1,
+      "sizeLabel": "53,884–69,415 sq. ft.",
+      "sizeSqft": 69415,
+      "source": "Rightmove Commercial",
+      "requirement": "Data Centre Sites",
+      "score": 2,
+      "reasons": [
+        "geography \"Bradford Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "size 69415 >= min 20000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/722867770130913#/?channel=COM_BUY",
+      "agent": "Dove Haigh Phillips LLP, Leeds",
+      "propertyType": "Light Industrial",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/b105c7bfc/722867770130913/b105c7bfc56b094a443a60890b1bc1ce_max_476x317.jpeg",
+      "powerStation": {
+        "geocodePrecision": "exact",
+        "lat": 53.73814,
+        "lon": -1.775743,
+        "nearestAnyKm": 9.1,
+        "nearestAnyName": "Vine Street EfW",
+        "nearestAnyFuel": "Waste",
+        "nearestMajorKm": 11,
+        "nearestMajorName": "Thornhill",
+        "nearestMajorFuel": "Gas",
+        "nearestMajorCapacityMw": 50
+      },
+      "dataCentreFit": {
+        "score": 53,
+        "band": "possible",
+        "reasons": [
+          "11.0km to nearest major (>=50MW) power station",
+          "69,415 sq ft equivalent",
+          "subtype \"Light Industrial\""
+        ]
+      }
+    },
+    {
+      "address": "Unit 3 Interchange 26, Junction 26 M62, Cliff Hollins Lane, Cleckheaton, Bradford, BD12 7EZ (Bradford)",
+      "priceDisplay": "POA",
+      "priceAmount": 1,
+      "sizeLabel": "50,000–105,000 sq. ft.",
+      "sizeSqft": 105000,
+      "source": "Rightmove Commercial",
+      "requirement": "Data Centre Sites",
+      "score": 2,
+      "reasons": [
+        "geography \"Bradford Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "size 105000 >= min 20000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/722867839314801#/?channel=COM_BUY",
+      "agent": "Dove Haigh Phillips LLP, Leeds",
+      "propertyType": "Light Industrial",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/f1c03b7a1/722867839314801/f1c03b7a1d18bcae0f7f1b7cb907eac6_max_476x317.jpeg",
+      "powerStation": {
+        "geocodePrecision": "exact",
+        "lat": 53.749351,
+        "lon": -1.733803,
+        "nearestAnyKm": 9.5,
+        "nearestAnyName": "Soothills Landfill",
+        "nearestAnyFuel": "Waste",
+        "nearestMajorKm": 9.5,
+        "nearestMajorName": "Thornhill",
+        "nearestMajorFuel": "Gas",
+        "nearestMajorCapacityMw": 50
+      },
+      "dataCentreFit": {
+        "score": 75,
+        "band": "strong",
+        "reasons": [
+          "9.5km to nearest major (>=50MW) power station",
+          "105,000 sq ft equivalent",
+          "subtype \"Light Industrial\""
+        ]
+      }
+    },
+    {
+      "address": "Hillam Road, Off Canal Road, Bradford, BD2 1QL (Bradford)",
+      "priceDisplay": "POA",
+      "priceAmount": 1,
+      "sizeLabel": "20,405 sq. ft.",
+      "sizeSqft": 20405,
+      "source": "Rightmove Commercial",
+      "requirement": "Data Centre Sites",
+      "score": 2,
+      "reasons": [
+        "geography \"Bradford Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "size 20405 >= min 20000",
+        "keyword hit \"industrial\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/760557131759280#/?channel=COM_BUY",
+      "agent": "Eddisons Commercial Limited, Bradford",
+      "propertyType": "Warehouse",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/d5d3916c7/760557131759280/d5d3916c782d772df4ac41d685d3b091_max_476x317.jpeg",
+      "powerStation": {
+        "geocodePrecision": "exact",
+        "lat": 53.810589,
+        "lon": -1.760858,
+        "nearestAnyKm": 5.1,
+        "nearestAnyName": "Esholt WWTW",
+        "nearestAnyFuel": "Waste",
+        "nearestMajorKm": 15.9,
+        "nearestMajorName": "Thornhill",
+        "nearestMajorFuel": "Gas",
+        "nearestMajorCapacityMw": 50
+      },
+      "dataCentreFit": {
+        "score": 53,
+        "band": "possible",
+        "reasons": [
+          "15.9km to nearest major (>=50MW) power station",
+          "20,405 sq ft equivalent",
+          "subtype \"Warehouse\""
         ]
       }
     },
@@ -3663,126 +4025,6 @@
           "14.9km to nearest major (>=50MW) power station",
           "16,165 sq ft equivalent",
           "subtype \"Warehouse\""
-        ]
-      }
-    },
-    {
-      "address": "4-11 Station Mills, Station Road, Wyke, Bradford, BD12 8LA (Bradford)",
-      "priceDisplay": "POA",
-      "priceAmount": 1,
-      "sizeLabel": "53,884–69,415 sq. ft.",
-      "sizeSqft": 69415,
-      "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
-      "score": 2,
-      "reasons": [
-        "geography \"Bradford Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
-        "size 69415 >= min 2000",
-        "keyword hit \"freehold\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/722867770130913#/?channel=COM_BUY",
-      "agent": "Dove Haigh Phillips LLP, Leeds",
-      "propertyType": "Light Industrial",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/b105c7bfc/722867770130913/b105c7bfc56b094a443a60890b1bc1ce_max_476x317.jpeg",
-      "powerStation": {
-        "geocodePrecision": "exact",
-        "lat": 53.73814,
-        "lon": -1.775743,
-        "nearestAnyKm": 9.1,
-        "nearestAnyName": "Vine Street EfW",
-        "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 11,
-        "nearestMajorName": "Thornhill",
-        "nearestMajorFuel": "Gas",
-        "nearestMajorCapacityMw": 50
-      },
-      "dataCentreFit": {
-        "score": 53,
-        "band": "possible",
-        "reasons": [
-          "11.0km to nearest major (>=50MW) power station",
-          "69,415 sq ft equivalent",
-          "subtype \"Light Industrial\""
-        ]
-      }
-    },
-    {
-      "address": "Hillam Road, Off Canal Road, Bradford, BD2 1QL (Bradford)",
-      "priceDisplay": "POA",
-      "priceAmount": 1,
-      "sizeLabel": "20,405 sq. ft.",
-      "sizeSqft": 20405,
-      "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
-      "score": 2,
-      "reasons": [
-        "geography \"Bradford Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
-        "size 20405 >= min 2000",
-        "keyword hit \"office\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/760557131759280#/?channel=COM_BUY",
-      "agent": "Eddisons Commercial Limited, Bradford",
-      "propertyType": "Warehouse",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/d5d3916c7/760557131759280/d5d3916c782d772df4ac41d685d3b091_max_476x317.jpeg",
-      "powerStation": {
-        "geocodePrecision": "exact",
-        "lat": 53.810589,
-        "lon": -1.760858,
-        "nearestAnyKm": 5.1,
-        "nearestAnyName": "Esholt WWTW",
-        "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 15.9,
-        "nearestMajorName": "Thornhill",
-        "nearestMajorFuel": "Gas",
-        "nearestMajorCapacityMw": 50
-      },
-      "dataCentreFit": {
-        "score": 53,
-        "band": "possible",
-        "reasons": [
-          "15.9km to nearest major (>=50MW) power station",
-          "20,405 sq ft equivalent",
-          "subtype \"Warehouse\""
-        ]
-      }
-    },
-    {
-      "address": "Unit 3 Interchange 26, Junction 26 M62, Cliff Hollins Lane, Cleckheaton, Bradford, BD12 7EZ (Bradford)",
-      "priceDisplay": "POA",
-      "priceAmount": 1,
-      "sizeLabel": "50,000–105,000 sq. ft.",
-      "sizeSqft": 105000,
-      "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
-      "score": 2,
-      "reasons": [
-        "geography \"Bradford Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
-        "size 105000 >= min 2000",
-        "keyword hit \"freehold\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/722867839314801#/?channel=COM_BUY",
-      "agent": "Dove Haigh Phillips LLP, Leeds",
-      "propertyType": "Light Industrial",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/f1c03b7a1/722867839314801/f1c03b7a1d18bcae0f7f1b7cb907eac6_max_476x317.jpeg",
-      "powerStation": {
-        "geocodePrecision": "exact",
-        "lat": 53.749351,
-        "lon": -1.733803,
-        "nearestAnyKm": 9.5,
-        "nearestAnyName": "Soothills Landfill",
-        "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 9.5,
-        "nearestMajorName": "Thornhill",
-        "nearestMajorFuel": "Gas",
-        "nearestMajorCapacityMw": 50
-      },
-      "dataCentreFit": {
-        "score": 75,
-        "band": "strong",
-        "reasons": [
-          "9.5km to nearest major (>=50MW) power station",
-          "105,000 sq ft equivalent",
-          "subtype \"Light Industrial\""
         ]
       }
     },
@@ -3871,17 +4113,17 @@
       "sizeLabel": "67,082 sq. ft.",
       "sizeSqft": 67082,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Data Centre Sites",
       "score": 2,
       "reasons": [
-        "geography \"Huddersfield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
-        "size 67082 >= min 2000",
+        "geography \"Huddersfield Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "size 67082 >= min 20000",
         "keyword hit \"freehold\""
       ],
-      "url": "https://www.rightmove.co.uk/properties/721600211753729#/?channel=COM_BUY",
+      "url": "https://www.rightmove.co.uk/properties/764373711221313#/?channel=COM_BUY",
       "agent": "Fox Lloyd Jones, Leeds",
       "propertyType": "Commercial Development",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/52cfb66fb/721600211753729/52cfb66fb560be77e2bcdeffc42902da_max_476x317.jpeg",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/f77c7d6c3/764373711221313/f77c7d6c3550628ac8ee1de9f00d0b6b_max_476x317.png",
       "powerStation": {
         "geocodePrecision": "exact",
         "lat": 53.648525,
@@ -4099,46 +4341,6 @@
       }
     },
     {
-      "address": "Development Site to rear of 72 & 74 New North Road, Huddersfield, West Yorkshire, HD1 5NE (Huddersfield)",
-      "priceDisplay": "£200,000 Offers in Excess of",
-      "priceAmount": 200000,
-      "sizeLabel": "11,761 sq. ft.",
-      "sizeSqft": 11761,
-      "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
-      "score": 2,
-      "reasons": [
-        "geography \"Huddersfield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
-        "size 11761 >= min 2000",
-        "keyword hit \"planning\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/742063384158624#/?channel=COM_BUY",
-      "agent": "BRAMLEYS LLP, Huddersfield",
-      "propertyType": "Residential Development",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/cbc65a4a0/742063384158624/cbc65a4a05a10935c7928387626db06b_max_476x317.jpeg",
-      "powerStation": {
-        "geocodePrecision": "exact",
-        "lat": 53.65164,
-        "lon": -1.792891,
-        "nearestAnyKm": 1.1,
-        "nearestAnyName": "Vine Street EfW",
-        "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 11.6,
-        "nearestMajorName": "Thornhill",
-        "nearestMajorFuel": "Gas",
-        "nearestMajorCapacityMw": 50
-      },
-      "dataCentreFit": {
-        "score": 45,
-        "band": "possible",
-        "reasons": [
-          "11.6km to nearest major (>=50MW) power station",
-          "11,761 sq ft equivalent",
-          "subtype \"Residential Development\""
-        ]
-      }
-    },
-    {
       "address": "Land to rear of 72 & 74 New North Road, Huddersfield, West Yorkshire, HD1 5NE (Huddersfield)",
       "priceDisplay": "£200,000 Offers in Excess of",
       "priceAmount": 200000,
@@ -4179,17 +4381,57 @@
       }
     },
     {
+      "address": "Development Site to rear of 72 & 74 New North Road, Huddersfield, West Yorkshire, HD1 5NE (Huddersfield)",
+      "priceDisplay": "£200,000 Offers in Excess of",
+      "priceAmount": 200000,
+      "sizeLabel": "11,761 sq. ft.",
+      "sizeSqft": 11761,
+      "source": "Rightmove Commercial",
+      "requirement": "Educating Excellence",
+      "score": 2,
+      "reasons": [
+        "geography \"Huddersfield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "size 11761 >= min 2000",
+        "keyword hit \"planning\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/742063384158624#/?channel=COM_BUY",
+      "agent": "BRAMLEYS LLP, Huddersfield",
+      "propertyType": "Residential Development",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/cbc65a4a0/742063384158624/cbc65a4a05a10935c7928387626db06b_max_476x317.jpeg",
+      "powerStation": {
+        "geocodePrecision": "exact",
+        "lat": 53.65164,
+        "lon": -1.792891,
+        "nearestAnyKm": 1.1,
+        "nearestAnyName": "Vine Street EfW",
+        "nearestAnyFuel": "Waste",
+        "nearestMajorKm": 11.6,
+        "nearestMajorName": "Thornhill",
+        "nearestMajorFuel": "Gas",
+        "nearestMajorCapacityMw": 50
+      },
+      "dataCentreFit": {
+        "score": 45,
+        "band": "possible",
+        "reasons": [
+          "11.6km to nearest major (>=50MW) power station",
+          "11,761 sq ft equivalent",
+          "subtype \"Residential Development\""
+        ]
+      }
+    },
+    {
       "address": "Land Adjacent To 84, Longwood Gate, Longwood, Huddersfield, West Yorkshire, HD3 4US (Huddersfield)",
       "priceDisplay": "£160,000",
       "priceAmount": 160000,
       "sizeLabel": "161,172 sq. ft.",
       "sizeSqft": 161172,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Data Centre Sites",
       "score": 2,
       "reasons": [
-        "geography \"Huddersfield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
-        "size 161172 >= min 2000",
+        "geography \"Huddersfield Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "size 161172 >= min 20000",
         "keyword hit \"freehold\""
       ],
       "url": "https://www.rightmove.co.uk/properties/742063671410129#/?channel=COM_BUY",
@@ -4341,11 +4583,11 @@
       "sizeLabel": "161,172 sq. ft.",
       "sizeSqft": 161172,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Data Centre Sites",
       "score": 2,
       "reasons": [
-        "geography \"Huddersfield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
-        "size 161172 >= min 2000",
+        "geography \"Huddersfield Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "size 161172 >= min 20000",
         "keyword hit \"freehold\""
       ],
       "url": "https://www.rightmove.co.uk/properties/173625812#/?channel=COM_BUY",
@@ -4369,6 +4611,46 @@
           "11.6km to nearest major (>=50MW) power station",
           "161,172 sq ft equivalent",
           "subtype \"Land\""
+        ]
+      }
+    },
+    {
+      "address": "Q90, Quest Park, Silk Road, Wheatley, Doncaster (Doncaster)",
+      "priceDisplay": "POA",
+      "priceAmount": 9500000,
+      "sizeLabel": "92,440 sq. ft.",
+      "sizeSqft": 92440,
+      "source": "Rightmove Commercial",
+      "requirement": "Data Centre Sites",
+      "score": 2,
+      "reasons": [
+        "geography \"Doncaster Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "size 92440 >= min 20000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/749490007600321#/?channel=COM_BUY",
+      "agent": "TFC, Deansgate",
+      "propertyType": "Distribution Warehouse",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/121fa7316/749490007600321/121fa73168c14da97e394fa5d4a2a599_max_476x317.jpeg",
+      "powerStation": {
+        "geocodePrecision": "exact",
+        "lat": 53.539699,
+        "lon": -1.121167,
+        "nearestAnyKm": 1.1,
+        "nearestAnyName": "Prosper Demulder Limited Anaerobic Digestion Plant (Waste AD)",
+        "nearestAnyFuel": "Biomass",
+        "nearestMajorKm": 19.1,
+        "nearestMajorName": "Eggborough",
+        "nearestMajorFuel": "Coal",
+        "nearestMajorCapacityMw": 1960
+      },
+      "dataCentreFit": {
+        "score": 53,
+        "band": "possible",
+        "reasons": [
+          "19.1km to nearest major (>=50MW) power station",
+          "92,440 sq ft equivalent",
+          "subtype \"Distribution Warehouse\""
         ]
       }
     },
@@ -4409,6 +4691,46 @@
           "21.1km to nearest major (>=50MW) power station",
           "12,389 sq ft equivalent",
           "subtype \"Office\""
+        ]
+      }
+    },
+    {
+      "address": "Grand St Leger Hotel, Bennetthorpe, Doncaster, South Yorkshire, DN2 6AX (Doncaster)",
+      "priceDisplay": "POA",
+      "priceAmount": 1,
+      "sizeLabel": "57,064 sq. ft.",
+      "sizeSqft": 57064,
+      "source": "Rightmove Commercial",
+      "requirement": "Data Centre Sites",
+      "score": 2,
+      "reasons": [
+        "geography \"Doncaster Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "size 57064 >= min 20000",
+        "keyword hit \"planning\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/760550448149856#/?channel=COM_BUY",
+      "agent": "Flint Real Estate, Doncaster",
+      "propertyType": "Shop",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/3483228ee/760550448149856/3483228ee2c965c8df397932162a097d_max_476x317.jpeg",
+      "powerStation": {
+        "geocodePrecision": "exact",
+        "lat": 53.518684,
+        "lon": -1.109935,
+        "nearestAnyKm": 2.7,
+        "nearestAnyName": "Prosper Demulder Limited Anaerobic Digestion Plant (Waste AD)",
+        "nearestAnyFuel": "Biomass",
+        "nearestMajorKm": 21.5,
+        "nearestMajorName": "Eggborough",
+        "nearestMajorFuel": "Coal",
+        "nearestMajorCapacityMw": 1960
+      },
+      "dataCentreFit": {
+        "score": 31,
+        "band": "unlikely",
+        "reasons": [
+          "21.5km to nearest major (>=50MW) power station",
+          "57,064 sq ft equivalent",
+          "subtype \"Shop\" — no specific rule, neutral"
         ]
       }
     },
@@ -4609,6 +4931,206 @@
       }
     },
     {
+      "address": "Phase 2, Total Park, Balby Carr Bank, Doncaster (Doncaster)",
+      "priceDisplay": "POA",
+      "priceAmount": 10,
+      "sizeLabel": "46,238–250,000 sq. ft.",
+      "sizeSqft": 250000,
+      "source": "Rightmove Commercial",
+      "requirement": "Data Centre Sites",
+      "score": 2,
+      "reasons": [
+        "geography \"Doncaster Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "size 250000 >= min 20000",
+        "keyword hit \"industrial\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/760534555854880#/?channel=COM_BUY",
+      "agent": "CBRE, Leeds",
+      "propertyType": "Light Industrial",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/82b7de887/760534555854880/82b7de887c750531a03f9f4beb8e4496_max_476x317.jpeg",
+      "powerStation": {
+        "geocodePrecision": "exact",
+        "lat": 53.504124,
+        "lon": -1.14128,
+        "nearestAnyKm": 3.7,
+        "nearestAnyName": "Prosper Demulder Limited Anaerobic Digestion Plant (Waste AD)",
+        "nearestAnyFuel": "Biomass",
+        "nearestMajorKm": 23.1,
+        "nearestMajorName": "Eggborough",
+        "nearestMajorFuel": "Coal",
+        "nearestMajorCapacityMw": 1960
+      },
+      "dataCentreFit": {
+        "score": 48,
+        "band": "possible",
+        "reasons": [
+          "23.1km to nearest major (>=50MW) power station",
+          "250,000 sq ft equivalent",
+          "subtype \"Light Industrial\""
+        ]
+      }
+    },
+    {
+      "address": "Doncaster 130, Balby Carr Bank, Doncaster (Doncaster)",
+      "priceDisplay": "POA",
+      "priceAmount": 10,
+      "sizeLabel": "131,041 sq. ft.",
+      "sizeSqft": 131041,
+      "source": "Rightmove Commercial",
+      "requirement": "Data Centre Sites",
+      "score": 2,
+      "reasons": [
+        "geography \"Doncaster Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "size 131041 >= min 20000",
+        "keyword hit \"industrial\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/760585636207552#/?channel=COM_BUY",
+      "agent": "CBRE, Leeds",
+      "propertyType": "Light Industrial",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/ab6e68fcc/760585636207552/ab6e68fccb882b49bd81f3ffe01b3eb7_max_476x317.jpeg",
+      "powerStation": {
+        "geocodePrecision": "exact",
+        "lat": 53.506013,
+        "lon": -1.140551,
+        "nearestAnyKm": 3.4,
+        "nearestAnyName": "Prosper Demulder Limited Anaerobic Digestion Plant (Waste AD)",
+        "nearestAnyFuel": "Biomass",
+        "nearestMajorKm": 22.9,
+        "nearestMajorName": "Eggborough",
+        "nearestMajorFuel": "Coal",
+        "nearestMajorCapacityMw": 1960
+      },
+      "dataCentreFit": {
+        "score": 48,
+        "band": "possible",
+        "reasons": [
+          "22.9km to nearest major (>=50MW) power station",
+          "131,041 sq ft equivalent",
+          "subtype \"Light Industrial\""
+        ]
+      }
+    },
+    {
+      "address": "Unit 1 Total Park, Balby Carr Bank, Doncaster (Doncaster)",
+      "priceDisplay": "POA",
+      "priceAmount": 10,
+      "sizeLabel": "66,737 sq. ft.",
+      "sizeSqft": 66737,
+      "source": "Rightmove Commercial",
+      "requirement": "Data Centre Sites",
+      "score": 2,
+      "reasons": [
+        "geography \"Doncaster Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "size 66737 >= min 20000",
+        "keyword hit \"industrial\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/760577929236145#/?channel=COM_BUY",
+      "agent": "CBRE, Leeds",
+      "propertyType": "Light Industrial",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/ef3601137/760577929236145/ef3601137f5eba6519aa87cef413c2be_max_476x317.jpeg",
+      "powerStation": {
+        "geocodePrecision": "exact",
+        "lat": 53.50683,
+        "lon": -1.14068,
+        "nearestAnyKm": 3.4,
+        "nearestAnyName": "Prosper Demulder Limited Anaerobic Digestion Plant (Waste AD)",
+        "nearestAnyFuel": "Biomass",
+        "nearestMajorKm": 22.8,
+        "nearestMajorName": "Eggborough",
+        "nearestMajorFuel": "Coal",
+        "nearestMajorCapacityMw": 1960
+      },
+      "dataCentreFit": {
+        "score": 41,
+        "band": "possible",
+        "reasons": [
+          "22.8km to nearest major (>=50MW) power station",
+          "66,737 sq ft equivalent",
+          "subtype \"Light Industrial\""
+        ]
+      }
+    },
+    {
+      "address": "Unit 1 Total Park, Water Vole Way, Doncaster, South Yorkshire, DN4 5JP (Doncaster)",
+      "priceDisplay": "POA",
+      "priceAmount": 1,
+      "sizeLabel": "66,737 sq. ft.",
+      "sizeSqft": 66737,
+      "source": "Rightmove Commercial",
+      "requirement": "Data Centre Sites",
+      "score": 2,
+      "reasons": [
+        "geography \"Doncaster Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "size 66737 >= min 20000",
+        "keyword hit \"industrial\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/760578690478512#/?channel=COM_BUY",
+      "agent": "GV&Co, Leeds",
+      "propertyType": "Light Industrial",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/b0e5c1bf1/760578690478512/b0e5c1bf116529f211789c22ddfce54c_max_476x317.jpeg",
+      "powerStation": {
+        "geocodePrecision": "exact",
+        "lat": 53.500305,
+        "lon": -1.129737,
+        "nearestAnyKm": 4.1,
+        "nearestAnyName": "Prosper Demulder Limited Anaerobic Digestion Plant (Waste AD)",
+        "nearestAnyFuel": "Biomass",
+        "nearestMajorKm": 23.5,
+        "nearestMajorName": "Eggborough",
+        "nearestMajorFuel": "Coal",
+        "nearestMajorCapacityMw": 1960
+      },
+      "dataCentreFit": {
+        "score": 41,
+        "band": "possible",
+        "reasons": [
+          "23.5km to nearest major (>=50MW) power station",
+          "66,737 sq ft equivalent",
+          "subtype \"Light Industrial\""
+        ]
+      }
+    },
+    {
+      "address": "Doncaster 130, Water Vole Way, Doncaster, South Yorkshire, DN4 5JP (Doncaster)",
+      "priceDisplay": "POA",
+      "priceAmount": 1,
+      "sizeLabel": "131,041 sq. ft.",
+      "sizeSqft": 131041,
+      "source": "Rightmove Commercial",
+      "requirement": "Data Centre Sites",
+      "score": 2,
+      "reasons": [
+        "geography \"Doncaster Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "size 131041 >= min 20000",
+        "keyword hit \"industrial\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/760578669344497#/?channel=COM_BUY",
+      "agent": "GV&Co, Leeds",
+      "propertyType": "Light Industrial",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/90811fca4/760578669344497/90811fca40b71d8d34cea2ff84db1853_max_476x317.jpeg",
+      "powerStation": {
+        "geocodePrecision": "exact",
+        "lat": 53.500305,
+        "lon": -1.129737,
+        "nearestAnyKm": 4.1,
+        "nearestAnyName": "Prosper Demulder Limited Anaerobic Digestion Plant (Waste AD)",
+        "nearestAnyFuel": "Biomass",
+        "nearestMajorKm": 23.5,
+        "nearestMajorName": "Eggborough",
+        "nearestMajorFuel": "Coal",
+        "nearestMajorCapacityMw": 1960
+      },
+      "dataCentreFit": {
+        "score": 48,
+        "band": "possible",
+        "reasons": [
+          "23.5km to nearest major (>=50MW) power station",
+          "131,041 sq ft equivalent",
+          "subtype \"Light Industrial\""
+        ]
+      }
+    },
+    {
       "address": "Hall Gate, Doncaster, DN1 (Doncaster)",
       "priceDisplay": "£1,500,000",
       "priceAmount": 1500000,
@@ -4647,42 +5169,80 @@
       }
     },
     {
-      "address": "Sherborne Street, Manchester (Manchester)",
-      "priceDisplay": "POA",
-      "priceAmount": 5500000,
-      "sizeLabel": "80,000 sq. ft.",
-      "sizeSqft": 80000,
+      "address": "Broughton Street, Manchester, Greater Manchester, M8 (Manchester)",
+      "priceDisplay": "£675,000 Offers in Excess of",
+      "priceAmount": 675000,
+      "sizeLabel": "8,500 sq. ft.",
+      "sizeSqft": 8500,
       "source": "Rightmove Commercial",
       "requirement": "Educating Excellence",
       "score": 2,
       "reasons": [
         "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
-        "size 80000 >= min 2000",
+        "size 8500 >= min 2000",
         "keyword hit \"freehold\""
       ],
-      "url": "https://www.rightmove.co.uk/properties/738315773469473#/?channel=COM_BUY",
-      "agent": "Citrus Commercial Circle, Manchester",
-      "propertyType": "Light Industrial",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/5a7c8ea2a/738315773469473/5a7c8ea2ad50e2563220e185a6386797_max_476x317.png",
+      "url": "https://www.rightmove.co.uk/properties/756213044978816#/?channel=COM_BUY",
+      "agent": "NQ Commercial Limited, Manchester",
+      "propertyType": "Commercial Property",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/034887b62/756213044978816/034887b62ff788d051a28fa026bce8c3_max_476x317.jpeg",
       "powerStation": {
         "geocodePrecision": "exact",
-        "lat": 53.494379,
-        "lon": -2.245741,
-        "nearestAnyKm": 2.8,
+        "lat": 53.49628,
+        "lon": -2.24099,
+        "nearestAnyKm": 3.1,
         "nearestAnyName": "Salford Refuse Treatment Plant (AD)",
         "nearestAnyFuel": "Biomass",
-        "nearestMajorKm": 12.5,
+        "nearestMajorKm": 12.9,
         "nearestMajorName": "Carrington",
         "nearestMajorFuel": "Gas",
         "nearestMajorCapacityMw": 900
       },
       "dataCentreFit": {
-        "score": 53,
+        "score": 35,
         "band": "possible",
         "reasons": [
-          "12.5km to nearest major (>=50MW) power station",
-          "80,000 sq ft equivalent",
-          "subtype \"Light Industrial\""
+          "12.9km to nearest major (>=50MW) power station",
+          "8,500 sq ft equivalent",
+          "subtype \"Commercial Property\" — no specific rule, neutral"
+        ]
+      }
+    },
+    {
+      "address": "Unit D2, Meadowbank Business Park, Tweedle Way, Oldham, OL9 8EH (Manchester)",
+      "priceDisplay": "£1,000,000",
+      "priceAmount": 1000000,
+      "sizeLabel": "7,615 sq. ft.",
+      "sizeSqft": 7615,
+      "source": "Rightmove Commercial",
+      "requirement": "Educating Excellence",
+      "score": 2,
+      "reasons": [
+        "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
+        "size 7615 >= min 2000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/170286875#/?channel=COM_BUY",
+      "agent": "MBRE, Stockport",
+      "propertyType": "Distribution Warehouse",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/b611d9dea/170286875/b611d9dea65aa55eeb790721ea62e5b3_max_476x317.jpeg",
+      "powerStation": {
+        "geocodePrecision": "city-centroid",
+        "nearestAnyKm": 1.9,
+        "nearestAnyName": "Ardwick Railway Goods Yard Incinerator (Newhaven EFW Plant)",
+        "nearestAnyFuel": "Waste",
+        "nearestMajorKm": 12.2,
+        "nearestMajorName": "Carrington",
+        "nearestMajorFuel": "Gas",
+        "nearestMajorCapacityMw": 900
+      },
+      "dataCentreFit": {
+        "score": 45,
+        "band": "possible",
+        "reasons": [
+          "12.2km to nearest major (>=50MW) power station",
+          "7,615 sq ft equivalent",
+          "subtype \"Distribution Warehouse\""
         ]
       }
     },
@@ -4693,12 +5253,12 @@
       "sizeLabel": "186,872 sq. ft.",
       "sizeSqft": 186872,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Data Centre Sites",
       "score": 2,
       "reasons": [
-        "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
-        "size 186872 >= min 2000",
-        "keyword hit \"office\""
+        "geography \"Manchester Greater Manchester\" in Data Centre Sites territory (prescoped — not scored)",
+        "size 186872 >= min 20000",
+        "keyword hit \"industrial\""
       ],
       "url": "https://www.rightmove.co.uk/properties/749898455249585#/?channel=COM_BUY",
       "agent": "Citrus Commercial Circle, Manchester",
@@ -4727,55 +5287,17 @@
       }
     },
     {
-      "address": "51-53 Richmond Street, Manchester, Lancashire, M1 3WB (Manchester)",
-      "priceDisplay": "£675,000 Offers in Region of",
-      "priceAmount": 675000,
-      "sizeLabel": "",
-      "sizeSqft": null,
-      "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
-      "score": 2,
-      "reasons": [
-        "geography \"Manchester Greater Manchester\" in Citywide Investors territory (prescoped — not scored)",
-        "price 675000 within budget 500000-2000000",
-        "keyword hit \"freehold\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/162129293#/?channel=COM_BUY",
-      "agent": "Landwood Group, Manchester",
-      "propertyType": "Residential Development",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/6cdeef6d7/162129293/6cdeef6d76c8523464b20c7eb61fc035_max_476x317.jpeg",
-      "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.9,
-        "nearestAnyName": "Ardwick Railway Goods Yard Incinerator (Newhaven EFW Plant)",
-        "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 12.2,
-        "nearestMajorName": "Carrington",
-        "nearestMajorFuel": "Gas",
-        "nearestMajorCapacityMw": 900
-      },
-      "dataCentreFit": {
-        "score": 35,
-        "band": "possible",
-        "reasons": [
-          "12.2km to nearest major (>=50MW) power station",
-          "size unknown",
-          "subtype \"Residential Development\""
-        ]
-      }
-    },
-    {
       "address": "Wakefield House, 7-13 New Wakefield Street, Manchester, Greater Manchester, M1 5NP (Manchester)",
       "priceDisplay": "£6,250,000",
       "priceAmount": 6250000,
       "sizeLabel": "31,330 sq. ft.",
       "sizeSqft": 31330,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Data Centre Sites",
       "score": 2,
       "reasons": [
-        "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
-        "size 31330 >= min 2000",
+        "geography \"Manchester Greater Manchester\" in Data Centre Sites territory (prescoped — not scored)",
+        "size 31330 >= min 20000",
         "keyword hit \"freehold\""
       ],
       "url": "https://www.rightmove.co.uk/properties/759472245651296#/?channel=COM_BUY",
@@ -4811,11 +5333,11 @@
       "sizeLabel": "26,275 sq. ft.",
       "sizeSqft": 26275,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Data Centre Sites",
       "score": 2,
       "reasons": [
-        "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
-        "size 26275 >= min 2000",
+        "geography \"Manchester Greater Manchester\" in Data Centre Sites territory (prescoped — not scored)",
+        "size 26275 >= min 20000",
         "keyword hit \"freehold\""
       ],
       "url": "https://www.rightmove.co.uk/properties/87528609#/?channel=COM_BUY",
@@ -4849,11 +5371,11 @@
       "sizeLabel": "65,340 sq. ft.",
       "sizeSqft": 65340,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Data Centre Sites",
       "score": 2,
       "reasons": [
-        "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
-        "size 65340 >= min 2000",
+        "geography \"Manchester Greater Manchester\" in Data Centre Sites territory (prescoped — not scored)",
+        "size 65340 >= min 20000",
         "keyword hit \"freehold\""
       ],
       "url": "https://www.rightmove.co.uk/properties/161828498#/?channel=COM_BUY",
@@ -4881,17 +5403,57 @@
       }
     },
     {
+      "address": "Sherborne Street, Manchester (Manchester)",
+      "priceDisplay": "POA",
+      "priceAmount": 5500000,
+      "sizeLabel": "80,000 sq. ft.",
+      "sizeSqft": 80000,
+      "source": "Rightmove Commercial",
+      "requirement": "Data Centre Sites",
+      "score": 2,
+      "reasons": [
+        "geography \"Manchester Greater Manchester\" in Data Centre Sites territory (prescoped — not scored)",
+        "size 80000 >= min 20000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/738315773469473#/?channel=COM_BUY",
+      "agent": "Citrus Commercial Circle, Manchester",
+      "propertyType": "Light Industrial",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/5a7c8ea2a/738315773469473/5a7c8ea2ad50e2563220e185a6386797_max_476x317.png",
+      "powerStation": {
+        "geocodePrecision": "exact",
+        "lat": 53.494379,
+        "lon": -2.245741,
+        "nearestAnyKm": 2.8,
+        "nearestAnyName": "Salford Refuse Treatment Plant (AD)",
+        "nearestAnyFuel": "Biomass",
+        "nearestMajorKm": 12.5,
+        "nearestMajorName": "Carrington",
+        "nearestMajorFuel": "Gas",
+        "nearestMajorCapacityMw": 900
+      },
+      "dataCentreFit": {
+        "score": 53,
+        "band": "possible",
+        "reasons": [
+          "12.5km to nearest major (>=50MW) power station",
+          "80,000 sq ft equivalent",
+          "subtype \"Light Industrial\""
+        ]
+      }
+    },
+    {
       "address": "Seaford Road, Manchester M6 (Manchester)",
       "priceDisplay": "£5,500,000 Guide Price",
       "priceAmount": 5500000,
       "sizeLabel": "154,388 sq. ft.",
       "sizeSqft": 154388,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Data Centre Sites",
       "score": 2,
       "reasons": [
-        "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
-        "size 154388 >= min 2000",
+        "geography \"Manchester Greater Manchester\" in Data Centre Sites territory (prescoped — not scored)",
+        "size 154388 >= min 20000",
         "keyword hit \"freehold\""
       ],
       "url": "https://www.rightmove.co.uk/properties/755829050114448#/?channel=COM_BUY",
@@ -5081,46 +5643,6 @@
       }
     },
     {
-      "address": "Bury Street, Manchester, Greater Manchester, M3 (Manchester)",
-      "priceDisplay": "£1,550,000 Offers in Excess of",
-      "priceAmount": 1550000,
-      "sizeLabel": "5,814 sq. ft.",
-      "sizeSqft": 5814,
-      "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
-      "score": 2,
-      "reasons": [
-        "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
-        "size 5814 >= min 2000",
-        "keyword hit \"office\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/754591526994001#/?channel=COM_BUY",
-      "agent": "OBI PROPERTY LIMITED, Manchester",
-      "propertyType": "Office",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/73aaae20a/754591526994001/73aaae20ac89cbee6bf4a9c264bfa3ec_max_476x317.jpeg",
-      "powerStation": {
-        "geocodePrecision": "exact",
-        "lat": 53.48529,
-        "lon": -2.25178,
-        "nearestAnyKm": 2.6,
-        "nearestAnyName": "Salford Refuse Treatment Plant (AD)",
-        "nearestAnyFuel": "Biomass",
-        "nearestMajorKm": 11.7,
-        "nearestMajorName": "Carrington",
-        "nearestMajorFuel": "Gas",
-        "nearestMajorCapacityMw": 900
-      },
-      "dataCentreFit": {
-        "score": 33,
-        "band": "unlikely",
-        "reasons": [
-          "11.7km to nearest major (>=50MW) power station",
-          "5,814 sq ft equivalent",
-          "subtype \"Office\""
-        ]
-      }
-    },
-    {
       "address": "Former Chapel St & Hope United Reformed Church, 146 Chapel Street, Salford, M3 6AF (Manchester)",
       "priceDisplay": "£1,500,000 Offers in Excess of",
       "priceAmount": 1500000,
@@ -5199,6 +5721,44 @@
       }
     },
     {
+      "address": "Unit 5, Brightgate Way, Trafford Park, M32 0TB (Manchester)",
+      "priceDisplay": "POA",
+      "priceAmount": 1300000,
+      "sizeLabel": "6,520 sq. ft.",
+      "sizeSqft": 6520,
+      "source": "Rightmove Commercial",
+      "requirement": "Educating Excellence",
+      "score": 2,
+      "reasons": [
+        "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
+        "size 6520 >= min 2000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/173747120#/?channel=COM_BUY",
+      "agent": "B8 Real Estate LLP, Warrington",
+      "propertyType": "Warehouse",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/f27b77c9b/173747120/f27b77c9bfe2cf0872cd6f3b4cbc8068_max_476x317.jpeg",
+      "powerStation": {
+        "geocodePrecision": "city-centroid",
+        "nearestAnyKm": 1.9,
+        "nearestAnyName": "Ardwick Railway Goods Yard Incinerator (Newhaven EFW Plant)",
+        "nearestAnyFuel": "Waste",
+        "nearestMajorKm": 12.2,
+        "nearestMajorName": "Carrington",
+        "nearestMajorFuel": "Gas",
+        "nearestMajorCapacityMw": 900
+      },
+      "dataCentreFit": {
+        "score": 45,
+        "band": "possible",
+        "reasons": [
+          "12.2km to nearest major (>=50MW) power station",
+          "6,520 sq ft equivalent",
+          "subtype \"Warehouse\""
+        ]
+      }
+    },
+    {
       "address": "Stretford Road, Hulme, Manchester, M15 (Manchester)",
       "priceDisplay": "£1,300,000",
       "priceAmount": 1300000,
@@ -5235,44 +5795,6 @@
           "10.5km to nearest major (>=50MW) power station",
           "size unknown",
           "subtype \"Residential Development\""
-        ]
-      }
-    },
-    {
-      "address": "Unit 5, Brightgate Way, Trafford Park, M32 0TB (Manchester)",
-      "priceDisplay": "POA",
-      "priceAmount": 1300000,
-      "sizeLabel": "6,520 sq. ft.",
-      "sizeSqft": 6520,
-      "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
-      "score": 2,
-      "reasons": [
-        "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
-        "size 6520 >= min 2000",
-        "keyword hit \"freehold\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/173747120#/?channel=COM_BUY",
-      "agent": "B8 Real Estate LLP, Warrington",
-      "propertyType": "Warehouse",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/f27b77c9b/173747120/f27b77c9bfe2cf0872cd6f3b4cbc8068_max_476x317.jpeg",
-      "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.9,
-        "nearestAnyName": "Ardwick Railway Goods Yard Incinerator (Newhaven EFW Plant)",
-        "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 12.2,
-        "nearestMajorName": "Carrington",
-        "nearestMajorFuel": "Gas",
-        "nearestMajorCapacityMw": 900
-      },
-      "dataCentreFit": {
-        "score": 45,
-        "band": "possible",
-        "reasons": [
-          "12.2km to nearest major (>=50MW) power station",
-          "6,520 sq ft equivalent",
-          "subtype \"Warehouse\""
         ]
       }
     },
@@ -5355,57 +5877,17 @@
       }
     },
     {
-      "address": "Broughton Street, Manchester, Greater Manchester, M8 (Manchester)",
-      "priceDisplay": "£675,000 Offers in Excess of",
-      "priceAmount": 675000,
-      "sizeLabel": "8,500 sq. ft.",
-      "sizeSqft": 8500,
-      "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
-      "score": 2,
-      "reasons": [
-        "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
-        "size 8500 >= min 2000",
-        "keyword hit \"freehold\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/756213044978816#/?channel=COM_BUY",
-      "agent": "NQ Commercial Limited, Manchester",
-      "propertyType": "Commercial Property",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/034887b62/756213044978816/034887b62ff788d051a28fa026bce8c3_max_476x317.jpeg",
-      "powerStation": {
-        "geocodePrecision": "exact",
-        "lat": 53.49628,
-        "lon": -2.24099,
-        "nearestAnyKm": 3.1,
-        "nearestAnyName": "Salford Refuse Treatment Plant (AD)",
-        "nearestAnyFuel": "Biomass",
-        "nearestMajorKm": 12.9,
-        "nearestMajorName": "Carrington",
-        "nearestMajorFuel": "Gas",
-        "nearestMajorCapacityMw": 900
-      },
-      "dataCentreFit": {
-        "score": 35,
-        "band": "possible",
-        "reasons": [
-          "12.9km to nearest major (>=50MW) power station",
-          "8,500 sq ft equivalent",
-          "subtype \"Commercial Property\" — no specific rule, neutral"
-        ]
-      }
-    },
-    {
       "address": "Land At New Viaduct Street And 266 Bradford Road, Manchester, Greater Manchester (Manchester)",
       "priceDisplay": "£1,045,000",
       "priceAmount": 1045000,
       "sizeLabel": "47,916 sq. ft.",
       "sizeSqft": 47916,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Data Centre Sites",
       "score": 2,
       "reasons": [
-        "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
-        "size 47916 >= min 2000",
+        "geography \"Manchester Greater Manchester\" in Data Centre Sites territory (prescoped — not scored)",
+        "size 47916 >= min 20000",
         "keyword hit \"freehold\""
       ],
       "url": "https://www.rightmove.co.uk/properties/760768027462464#/?channel=COM_BUY",
@@ -5431,6 +5913,46 @@
           "14.6km to nearest major (>=50MW) power station",
           "47,916 sq ft equivalent",
           "subtype \"Commercial Property\" — no specific rule, neutral"
+        ]
+      }
+    },
+    {
+      "address": "Meadow Industrial Estate, Water Street, Manchester (Manchester)",
+      "priceDisplay": "£280,000",
+      "priceAmount": 280000,
+      "sizeLabel": "2,400–2,450 sq. ft.",
+      "sizeSqft": 2450,
+      "source": "Rightmove Commercial",
+      "requirement": "Educating Excellence",
+      "score": 2,
+      "reasons": [
+        "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
+        "size 2450 >= min 2000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/763457499288288#/?channel=COM_BUY",
+      "agent": "Portfolio Lets Limited, Manchester",
+      "propertyType": "Light Industrial",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/e953203ec/763457499288288/e953203ec84a0d17a2bccc58288f940b_max_476x317.jpeg",
+      "powerStation": {
+        "geocodePrecision": "exact",
+        "lat": 53.41805,
+        "lon": -2.15343,
+        "nearestAnyKm": 2.8,
+        "nearestAnyName": "Bredbury Park Way - AD Stockport (Waste AD)",
+        "nearestAnyFuel": "Biomass",
+        "nearestMajorKm": 17,
+        "nearestMajorName": "Carrington",
+        "nearestMajorFuel": "Gas",
+        "nearestMajorCapacityMw": 900
+      },
+      "dataCentreFit": {
+        "score": 40,
+        "band": "possible",
+        "reasons": [
+          "17.0km to nearest major (>=50MW) power station",
+          "2,450 sq ft equivalent",
+          "subtype \"Light Industrial\""
         ]
       }
     },
@@ -5469,44 +5991,6 @@
           "12.2km to nearest major (>=50MW) power station",
           "size unknown",
           "subtype \"Commercial Property\" — no specific rule, neutral"
-        ]
-      }
-    },
-    {
-      "address": "Unit D2, Meadowbank Business Park, Tweedle Way, Oldham, OL9 8EH (Manchester)",
-      "priceDisplay": "£1,000,000",
-      "priceAmount": 1000000,
-      "sizeLabel": "7,615 sq. ft.",
-      "sizeSqft": 7615,
-      "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
-      "score": 2,
-      "reasons": [
-        "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
-        "size 7615 >= min 2000",
-        "keyword hit \"freehold\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/170286875#/?channel=COM_BUY",
-      "agent": "MBRE, Stockport",
-      "propertyType": "Distribution Warehouse",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/b611d9dea/170286875/b611d9dea65aa55eeb790721ea62e5b3_max_476x317.jpeg",
-      "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.9,
-        "nearestAnyName": "Ardwick Railway Goods Yard Incinerator (Newhaven EFW Plant)",
-        "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 12.2,
-        "nearestMajorName": "Carrington",
-        "nearestMajorFuel": "Gas",
-        "nearestMajorCapacityMw": 900
-      },
-      "dataCentreFit": {
-        "score": 45,
-        "band": "possible",
-        "reasons": [
-          "12.2km to nearest major (>=50MW) power station",
-          "7,615 sq ft equivalent",
-          "subtype \"Distribution Warehouse\""
         ]
       }
     },
@@ -5589,44 +6073,6 @@
       }
     },
     {
-      "address": "500 Styal Road, Manchester, M22 5HQ (Manchester)",
-      "priceDisplay": "£995,000 Offers in Region of",
-      "priceAmount": 995000,
-      "sizeLabel": "6,379 sq. ft.",
-      "sizeSqft": 6379,
-      "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
-      "score": 2,
-      "reasons": [
-        "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
-        "size 6379 >= min 2000",
-        "keyword hit \"office\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/89204469#/?channel=COM_BUY",
-      "agent": "Canning O'Neill, Manchester",
-      "propertyType": "Office",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/fff17ec2a/89204469/fff17ec2a4e6fcf5b4af366862d63c6b_max_476x317.jpeg",
-      "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.9,
-        "nearestAnyName": "Ardwick Railway Goods Yard Incinerator (Newhaven EFW Plant)",
-        "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 12.2,
-        "nearestMajorName": "Carrington",
-        "nearestMajorFuel": "Gas",
-        "nearestMajorCapacityMw": 900
-      },
-      "dataCentreFit": {
-        "score": 33,
-        "band": "unlikely",
-        "reasons": [
-          "12.2km to nearest major (>=50MW) power station",
-          "6,379 sq ft equivalent",
-          "subtype \"Office\""
-        ]
-      }
-    },
-    {
       "address": "498-500 Wilbraham Road, Manchester, M21 9AP (Manchester)",
       "priceDisplay": "£985,000",
       "priceAmount": 985000,
@@ -5671,11 +6117,11 @@
       "sizeLabel": "21,507 sq. ft.",
       "sizeSqft": 21507,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Data Centre Sites",
       "score": 2,
       "reasons": [
-        "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
-        "size 21507 >= min 2000",
+        "geography \"Manchester Greater Manchester\" in Data Centre Sites territory (prescoped — not scored)",
+        "size 21507 >= min 20000",
         "keyword hit \"freehold\""
       ],
       "url": "https://www.rightmove.co.uk/properties/759312467830369#/?channel=COM_BUY",
@@ -5903,6 +6349,44 @@
       }
     },
     {
+      "address": "51-53 Richmond Street, Manchester, Lancashire, M1 3WB (Manchester)",
+      "priceDisplay": "£675,000 Offers in Region of",
+      "priceAmount": 675000,
+      "sizeLabel": "",
+      "sizeSqft": null,
+      "source": "Rightmove Commercial",
+      "requirement": "Citywide Investors",
+      "score": 2,
+      "reasons": [
+        "geography \"Manchester Greater Manchester\" in Citywide Investors territory (prescoped — not scored)",
+        "price 675000 within budget 500000-2000000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/162129293#/?channel=COM_BUY",
+      "agent": "Landwood Group, Manchester",
+      "propertyType": "Residential Development",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/6cdeef6d7/162129293/6cdeef6d76c8523464b20c7eb61fc035_max_476x317.jpeg",
+      "powerStation": {
+        "geocodePrecision": "city-centroid",
+        "nearestAnyKm": 1.9,
+        "nearestAnyName": "Ardwick Railway Goods Yard Incinerator (Newhaven EFW Plant)",
+        "nearestAnyFuel": "Waste",
+        "nearestMajorKm": 12.2,
+        "nearestMajorName": "Carrington",
+        "nearestMajorFuel": "Gas",
+        "nearestMajorCapacityMw": 900
+      },
+      "dataCentreFit": {
+        "score": 35,
+        "band": "possible",
+        "reasons": [
+          "12.2km to nearest major (>=50MW) power station",
+          "size unknown",
+          "subtype \"Residential Development\""
+        ]
+      }
+    },
+    {
       "address": "Unit 1 and 2, Moho, Arundel Street, Manchester, M15 4JY (Manchester)",
       "priceDisplay": "£650,000",
       "priceAmount": 650000,
@@ -5975,82 +6459,6 @@
           "12.2km to nearest major (>=50MW) power station",
           "2,252 sq ft equivalent",
           "subtype \"Retail Property (high street)\""
-        ]
-      }
-    },
-    {
-      "address": "20 St. Anns Square, Manchester, M2 7HG (Manchester)",
-      "priceDisplay": "POA",
-      "priceAmount": 1,
-      "sizeLabel": "2,289–7,493 sq. ft.",
-      "sizeSqft": 7493,
-      "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
-      "score": 2,
-      "reasons": [
-        "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
-        "size 7493 >= min 2000",
-        "keyword hit \"office\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/90800277#/?channel=COM_BUY",
-      "agent": "Shape and Sate, Manchester",
-      "propertyType": "Retail Property (high street)",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/2293eece8/90800277/2293eece849ebf844396601616c7750d_max_476x317.jpeg",
-      "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.9,
-        "nearestAnyName": "Ardwick Railway Goods Yard Incinerator (Newhaven EFW Plant)",
-        "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 12.2,
-        "nearestMajorName": "Carrington",
-        "nearestMajorFuel": "Gas",
-        "nearestMajorCapacityMw": 900
-      },
-      "dataCentreFit": {
-        "score": 30,
-        "band": "unlikely",
-        "reasons": [
-          "12.2km to nearest major (>=50MW) power station",
-          "7,493 sq ft equivalent",
-          "subtype \"Retail Property (high street)\""
-        ]
-      }
-    },
-    {
-      "address": "4 The Stables, Wilmslow Road, Parrs Wood, East Didsbury, M20 5PG (Manchester)",
-      "priceDisplay": "£525,000",
-      "priceAmount": 525000,
-      "sizeLabel": "1,319 sq. ft.",
-      "sizeSqft": 1319,
-      "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
-      "score": 2,
-      "reasons": [
-        "geography \"Manchester Greater Manchester\" in Citywide Investors territory (prescoped — not scored)",
-        "price 525000 within budget 500000-2000000",
-        "keyword hit \"freehold\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/171599399#/?channel=COM_BUY",
-      "agent": "Williams Sillitoe, Cheshire",
-      "propertyType": "Office",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/734e99007/171599399/734e9900746460d2132ee3796d9cf76c_max_476x317.jpeg",
-      "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.9,
-        "nearestAnyName": "Ardwick Railway Goods Yard Incinerator (Newhaven EFW Plant)",
-        "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 12.2,
-        "nearestMajorName": "Carrington",
-        "nearestMajorFuel": "Gas",
-        "nearestMajorCapacityMw": 900
-      },
-      "dataCentreFit": {
-        "score": 23,
-        "band": "unlikely",
-        "reasons": [
-          "12.2km to nearest major (>=50MW) power station",
-          "1,319 sq ft equivalent",
-          "subtype \"Office\""
         ]
       }
     },
@@ -6173,6 +6581,44 @@
       }
     },
     {
+      "address": "Belmont Oil Works, Lancashire Hill, Stockport, SK4 1RP (Manchester)",
+      "priceDisplay": "POA",
+      "priceAmount": 300000,
+      "sizeLabel": "6,824 sq. ft.",
+      "sizeSqft": 6824,
+      "source": "Rightmove Commercial",
+      "requirement": "Educating Excellence",
+      "score": 2,
+      "reasons": [
+        "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
+        "size 6824 >= min 2000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/158222384#/?channel=COM_BUY",
+      "agent": "MBRE, Stockport",
+      "propertyType": "Distribution Warehouse",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/1ffdd58e2/158222384/1ffdd58e2ae6e596f859932badb513b7_max_476x317.jpeg",
+      "powerStation": {
+        "geocodePrecision": "city-centroid",
+        "nearestAnyKm": 1.9,
+        "nearestAnyName": "Ardwick Railway Goods Yard Incinerator (Newhaven EFW Plant)",
+        "nearestAnyFuel": "Waste",
+        "nearestMajorKm": 12.2,
+        "nearestMajorName": "Carrington",
+        "nearestMajorFuel": "Gas",
+        "nearestMajorCapacityMw": 900
+      },
+      "dataCentreFit": {
+        "score": 45,
+        "band": "possible",
+        "reasons": [
+          "12.2km to nearest major (>=50MW) power station",
+          "6,824 sq ft equivalent",
+          "subtype \"Distribution Warehouse\""
+        ]
+      }
+    },
+    {
       "address": "Manchester Road, Manchester (Manchester)",
       "priceDisplay": "£600,000 Offers in Region of",
       "priceAmount": 600000,
@@ -6285,6 +6731,44 @@
           "12.2km to nearest major (>=50MW) power station",
           "size unknown",
           "subtype \"Commercial Development\""
+        ]
+      }
+    },
+    {
+      "address": "4 The Stables, Wilmslow Road, Parrs Wood, East Didsbury, M20 5PG (Manchester)",
+      "priceDisplay": "£525,000",
+      "priceAmount": 525000,
+      "sizeLabel": "1,319 sq. ft.",
+      "sizeSqft": 1319,
+      "source": "Rightmove Commercial",
+      "requirement": "Citywide Investors",
+      "score": 2,
+      "reasons": [
+        "geography \"Manchester Greater Manchester\" in Citywide Investors territory (prescoped — not scored)",
+        "price 525000 within budget 500000-2000000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/171599399#/?channel=COM_BUY",
+      "agent": "Williams Sillitoe, Cheshire",
+      "propertyType": "Office",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/734e99007/171599399/734e9900746460d2132ee3796d9cf76c_max_476x317.jpeg",
+      "powerStation": {
+        "geocodePrecision": "city-centroid",
+        "nearestAnyKm": 1.9,
+        "nearestAnyName": "Ardwick Railway Goods Yard Incinerator (Newhaven EFW Plant)",
+        "nearestAnyFuel": "Waste",
+        "nearestMajorKm": 12.2,
+        "nearestMajorName": "Carrington",
+        "nearestMajorFuel": "Gas",
+        "nearestMajorCapacityMw": 900
+      },
+      "dataCentreFit": {
+        "score": 23,
+        "band": "unlikely",
+        "reasons": [
+          "12.2km to nearest major (>=50MW) power station",
+          "1,319 sq ft equivalent",
+          "subtype \"Office\""
         ]
       }
     },
@@ -6483,84 +6967,6 @@
       }
     },
     {
-      "address": "Belmont Oil Works, Lancashire Hill, Stockport, SK4 1RP (Manchester)",
-      "priceDisplay": "POA",
-      "priceAmount": 300000,
-      "sizeLabel": "6,824 sq. ft.",
-      "sizeSqft": 6824,
-      "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
-      "score": 2,
-      "reasons": [
-        "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
-        "size 6824 >= min 2000",
-        "keyword hit \"freehold\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/158222384#/?channel=COM_BUY",
-      "agent": "MBRE, Stockport",
-      "propertyType": "Distribution Warehouse",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/1ffdd58e2/158222384/1ffdd58e2ae6e596f859932badb513b7_max_476x317.jpeg",
-      "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.9,
-        "nearestAnyName": "Ardwick Railway Goods Yard Incinerator (Newhaven EFW Plant)",
-        "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 12.2,
-        "nearestMajorName": "Carrington",
-        "nearestMajorFuel": "Gas",
-        "nearestMajorCapacityMw": 900
-      },
-      "dataCentreFit": {
-        "score": 45,
-        "band": "possible",
-        "reasons": [
-          "12.2km to nearest major (>=50MW) power station",
-          "6,824 sq ft equivalent",
-          "subtype \"Distribution Warehouse\""
-        ]
-      }
-    },
-    {
-      "address": "Meadow Industrial Estate, Water Street, Manchester (Manchester)",
-      "priceDisplay": "£280,000",
-      "priceAmount": 280000,
-      "sizeLabel": "2,400–2,450 sq. ft.",
-      "sizeSqft": 2450,
-      "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
-      "score": 2,
-      "reasons": [
-        "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
-        "size 2450 >= min 2000",
-        "keyword hit \"freehold\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/763457499288288#/?channel=COM_BUY",
-      "agent": "Portfolio Lets Limited, Manchester",
-      "propertyType": "Light Industrial",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/e953203ec/763457499288288/e953203ec84a0d17a2bccc58288f940b_max_476x317.jpeg",
-      "powerStation": {
-        "geocodePrecision": "exact",
-        "lat": 53.41805,
-        "lon": -2.15343,
-        "nearestAnyKm": 2.8,
-        "nearestAnyName": "Bredbury Park Way - AD Stockport (Waste AD)",
-        "nearestAnyFuel": "Biomass",
-        "nearestMajorKm": 17,
-        "nearestMajorName": "Carrington",
-        "nearestMajorFuel": "Gas",
-        "nearestMajorCapacityMw": 900
-      },
-      "dataCentreFit": {
-        "score": 40,
-        "band": "possible",
-        "reasons": [
-          "17.0km to nearest major (>=50MW) power station",
-          "2,450 sq ft equivalent",
-          "subtype \"Light Industrial\""
-        ]
-      }
-    },
-    {
       "address": "Chadwick Road, Eccles, Manchester, Greater Manchester, M30 0WU (Manchester)",
       "priceDisplay": "£265,000 Guide Price",
       "priceAmount": 265000,
@@ -6675,17 +7081,57 @@
       }
     },
     {
+      "address": "225 Folds Road, Bolton, Lancashire, BL1 (Bolton)",
+      "priceDisplay": "£1,950,000",
+      "priceAmount": 1950000,
+      "sizeLabel": "74,960 sq. ft.",
+      "sizeSqft": 74960,
+      "source": "Rightmove Commercial",
+      "requirement": "Data Centre Sites",
+      "score": 2,
+      "reasons": [
+        "geography \"Bolton Greater Manchester\" in Data Centre Sites territory (prescoped — not scored)",
+        "size 74960 >= min 20000",
+        "keyword hit \"industrial\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/763058824350608#/?channel=COM_BUY",
+      "agent": "Fletcher CRE LTD, Bolton",
+      "propertyType": "Commercial Development",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/3b69d51bd/763058824350608/3b69d51bd0e48e1c5646ff638c149e1f_max_476x317.jpeg",
+      "powerStation": {
+        "geocodePrecision": "exact",
+        "lat": 53.585835,
+        "lon": -2.418433,
+        "nearestAnyKm": 0.9,
+        "nearestAnyName": "Salford Road",
+        "nearestAnyFuel": "Solar",
+        "nearestMajorKm": 13.6,
+        "nearestMajorName": "Scout Moor",
+        "nearestMajorFuel": "Wind",
+        "nearestMajorCapacityMw": 65
+      },
+      "dataCentreFit": {
+        "score": 53,
+        "band": "possible",
+        "reasons": [
+          "13.6km to nearest major (>=50MW) power station",
+          "74,960 sq ft equivalent",
+          "subtype \"Commercial Development\""
+        ]
+      }
+    },
+    {
       "address": "Bridgeman Place Works, Salop Street, Bolton, Lancashire (Bolton)",
       "priceDisplay": "£1,800,000",
       "priceAmount": 1800000,
       "sizeLabel": "28,211 sq. ft.",
       "sizeSqft": 28211,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Data Centre Sites",
       "score": 2,
       "reasons": [
-        "geography \"Bolton Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
-        "size 28211 >= min 2000",
+        "geography \"Bolton Greater Manchester\" in Data Centre Sites territory (prescoped — not scored)",
+        "size 28211 >= min 20000",
         "keyword hit \"planning\""
       ],
       "url": "https://www.rightmove.co.uk/properties/759313315085665#/?channel=COM_BUY",
@@ -6711,46 +7157,6 @@
           "14.5km to nearest major (>=50MW) power station",
           "28,211 sq ft equivalent",
           "subtype \"Commercial Development\""
-        ]
-      }
-    },
-    {
-      "address": "The Swan & Barristers, 2-4 Churchgate, Bolton, BL1 1HJ (Bolton)",
-      "priceDisplay": "£1,200,000",
-      "priceAmount": 1200000,
-      "sizeLabel": "",
-      "sizeSqft": null,
-      "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
-      "score": 2,
-      "reasons": [
-        "geography \"Bolton Greater Manchester\" in Citywide Investors territory (prescoped — not scored)",
-        "price 1200000 within budget 500000-2000000",
-        "keyword hit \"freehold\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/730294920018513#/?channel=COM_BUY",
-      "agent": "Christie & Co, Pubs & Restaurants",
-      "propertyType": "Pub",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/9b49a0749/730294920018513/9b49a074989848cee3b7edf142c377d7_max_476x317.jpeg",
-      "powerStation": {
-        "geocodePrecision": "exact",
-        "lat": 53.579382,
-        "lon": -2.426438,
-        "nearestAnyKm": 0.1,
-        "nearestAnyName": "Salford Road",
-        "nearestAnyFuel": "Solar",
-        "nearestMajorKm": 14.4,
-        "nearestMajorName": "Scout Moor",
-        "nearestMajorFuel": "Wind",
-        "nearestMajorCapacityMw": 65
-      },
-      "dataCentreFit": {
-        "score": 25,
-        "band": "unlikely",
-        "reasons": [
-          "14.4km to nearest major (>=50MW) power station",
-          "size unknown",
-          "subtype \"Pub\" — no specific rule, neutral"
         ]
       }
     },
@@ -6790,6 +7196,46 @@
         "reasons": [
           "14.4km to nearest major (>=50MW) power station",
           "11,326 sq ft equivalent",
+          "subtype \"Pub\" — no specific rule, neutral"
+        ]
+      }
+    },
+    {
+      "address": "The Swan & Barristers, 2-4 Churchgate, Bolton, BL1 1HJ (Bolton)",
+      "priceDisplay": "£1,200,000",
+      "priceAmount": 1200000,
+      "sizeLabel": "",
+      "sizeSqft": null,
+      "source": "Rightmove Commercial",
+      "requirement": "Citywide Investors",
+      "score": 2,
+      "reasons": [
+        "geography \"Bolton Greater Manchester\" in Citywide Investors territory (prescoped — not scored)",
+        "price 1200000 within budget 500000-2000000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/730294920018513#/?channel=COM_BUY",
+      "agent": "Christie & Co, Pubs & Restaurants",
+      "propertyType": "Pub",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/9b49a0749/730294920018513/9b49a074989848cee3b7edf142c377d7_max_476x317.jpeg",
+      "powerStation": {
+        "geocodePrecision": "exact",
+        "lat": 53.579382,
+        "lon": -2.426438,
+        "nearestAnyKm": 0.1,
+        "nearestAnyName": "Salford Road",
+        "nearestAnyFuel": "Solar",
+        "nearestMajorKm": 14.4,
+        "nearestMajorName": "Scout Moor",
+        "nearestMajorFuel": "Wind",
+        "nearestMajorCapacityMw": 65
+      },
+      "dataCentreFit": {
+        "score": 25,
+        "band": "unlikely",
+        "reasons": [
+          "14.4km to nearest major (>=50MW) power station",
+          "size unknown",
           "subtype \"Pub\" — no specific rule, neutral"
         ]
       }
@@ -6835,6 +7281,46 @@
       }
     },
     {
+      "address": "Red Lion, 1-3 Salford Road, Bolton, BL5 1BJ (Bolton)",
+      "priceDisplay": "£750,000 Offers in Region of",
+      "priceAmount": 750000,
+      "sizeLabel": "35,719 sq. ft.",
+      "sizeSqft": 35719,
+      "source": "Rightmove Commercial",
+      "requirement": "Data Centre Sites",
+      "score": 2,
+      "reasons": [
+        "geography \"Bolton Greater Manchester\" in Data Centre Sites territory (prescoped — not scored)",
+        "size 35719 >= min 20000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/757452912626721#/?channel=COM_BUY",
+      "agent": "Savills, Manchester - Licensed Leisure",
+      "propertyType": "Pub",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/f39f58ab5/757452912626721/f39f58ab536f56a29ada93f25842b83b_max_476x317.jpeg",
+      "powerStation": {
+        "geocodePrecision": "exact",
+        "lat": 53.54805,
+        "lon": -2.468227,
+        "nearestAnyKm": 4.5,
+        "nearestAnyName": "Salford Road",
+        "nearestAnyFuel": "Solar",
+        "nearestMajorKm": 13,
+        "nearestMajorName": "Carrington",
+        "nearestMajorFuel": "Gas",
+        "nearestMajorCapacityMw": 900
+      },
+      "dataCentreFit": {
+        "score": 43,
+        "band": "possible",
+        "reasons": [
+          "13.0km to nearest major (>=50MW) power station",
+          "35,719 sq ft equivalent",
+          "subtype \"Pub\" — no specific rule, neutral"
+        ]
+      }
+    },
+    {
       "address": "Unit 3 & Car Park, 178/200 Lever Street, Bolton, Bolton, Bolton, Lancashire, BL3 6NZ (Bolton)",
       "priceDisplay": "£750,000",
       "priceAmount": 750000,
@@ -6871,86 +7357,6 @@
           "14.7km to nearest major (>=50MW) power station",
           "size unknown",
           "subtype \"Light Industrial\""
-        ]
-      }
-    },
-    {
-      "address": "Red Lion, 1-3 Salford Road, Bolton, BL5 1BJ (Bolton)",
-      "priceDisplay": "£750,000 Offers in Region of",
-      "priceAmount": 750000,
-      "sizeLabel": "35,719 sq. ft.",
-      "sizeSqft": 35719,
-      "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
-      "score": 2,
-      "reasons": [
-        "geography \"Bolton Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
-        "size 35719 >= min 2000",
-        "keyword hit \"freehold\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/757452912626721#/?channel=COM_BUY",
-      "agent": "Savills, Manchester - Licensed Leisure",
-      "propertyType": "Pub",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/f39f58ab5/757452912626721/f39f58ab536f56a29ada93f25842b83b_max_476x317.jpeg",
-      "powerStation": {
-        "geocodePrecision": "exact",
-        "lat": 53.54805,
-        "lon": -2.468227,
-        "nearestAnyKm": 4.5,
-        "nearestAnyName": "Salford Road",
-        "nearestAnyFuel": "Solar",
-        "nearestMajorKm": 13,
-        "nearestMajorName": "Carrington",
-        "nearestMajorFuel": "Gas",
-        "nearestMajorCapacityMw": 900
-      },
-      "dataCentreFit": {
-        "score": 43,
-        "band": "possible",
-        "reasons": [
-          "13.0km to nearest major (>=50MW) power station",
-          "35,719 sq ft equivalent",
-          "subtype \"Pub\" — no specific rule, neutral"
-        ]
-      }
-    },
-    {
-      "address": "BEDFORD HOUSE, 60 CHORLEY NEW ROAD , BOLTON, GREATER MANCHESTER, BL1 4DA (Bolton)",
-      "priceDisplay": "£650,000",
-      "priceAmount": 650000,
-      "sizeLabel": "5,346 sq. ft.",
-      "sizeSqft": 5346,
-      "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
-      "score": 2,
-      "reasons": [
-        "geography \"Bolton Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
-        "size 5346 >= min 2000",
-        "keyword hit \"office\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/760714627810529#/?channel=COM_BUY",
-      "agent": "Lamb & Swift Commercial, Bolton",
-      "propertyType": "Office",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/868501ea5/760714627810529/868501ea578cdbf131234598cca2aa9c_max_476x317.jpeg",
-      "powerStation": {
-        "geocodePrecision": "exact",
-        "lat": 53.581787,
-        "lon": -2.445777,
-        "nearestAnyKm": 1.3,
-        "nearestAnyName": "Salford Road",
-        "nearestAnyFuel": "Solar",
-        "nearestMajorKm": 15.2,
-        "nearestMajorName": "Scout Moor",
-        "nearestMajorFuel": "Wind",
-        "nearestMajorCapacityMw": 65
-      },
-      "dataCentreFit": {
-        "score": 33,
-        "band": "unlikely",
-        "reasons": [
-          "15.2km to nearest major (>=50MW) power station",
-          "5,346 sq ft equivalent",
-          "subtype \"Office\""
         ]
       }
     },
@@ -6995,31 +7401,31 @@
       }
     },
     {
-      "address": "Beacon House, 69-73 Manchester Road, Bolton, BL2 1ES (Bolton)",
-      "priceDisplay": "£450,000 Offers in Region of",
-      "priceAmount": 450000,
-      "sizeLabel": "5,213 sq. ft.",
-      "sizeSqft": 5213,
+      "address": "BEDFORD HOUSE, 60 CHORLEY NEW ROAD , BOLTON, GREATER MANCHESTER, BL1 4DA (Bolton)",
+      "priceDisplay": "£595,000",
+      "priceAmount": 595000,
+      "sizeLabel": "5,346 sq. ft.",
+      "sizeSqft": 5346,
       "source": "Rightmove Commercial",
       "requirement": "Educating Excellence",
       "score": 2,
       "reasons": [
         "geography \"Bolton Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
-        "size 5213 >= min 2000",
+        "size 5346 >= min 2000",
         "keyword hit \"office\""
       ],
-      "url": "https://www.rightmove.co.uk/properties/760715670176049#/?channel=COM_BUY",
+      "url": "https://www.rightmove.co.uk/properties/760714627810529#/?channel=COM_BUY",
       "agent": "Lamb & Swift Commercial, Bolton",
       "propertyType": "Office",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/18deb02a9/760715670176049/18deb02a917f09a0fb580e389bbd96b1_max_476x317.jpeg",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/868501ea5/760714627810529/868501ea578cdbf131234598cca2aa9c_max_476x317.jpeg",
       "powerStation": {
         "geocodePrecision": "exact",
-        "lat": 53.572803,
-        "lon": -2.422004,
-        "nearestAnyKm": 0.9,
+        "lat": 53.581787,
+        "lon": -2.445777,
+        "nearestAnyKm": 1.3,
         "nearestAnyName": "Salford Road",
         "nearestAnyFuel": "Solar",
-        "nearestMajorKm": 14.8,
+        "nearestMajorKm": 15.2,
         "nearestMajorName": "Scout Moor",
         "nearestMajorFuel": "Wind",
         "nearestMajorCapacityMw": 65
@@ -7028,8 +7434,8 @@
         "score": 33,
         "band": "unlikely",
         "reasons": [
-          "14.8km to nearest major (>=50MW) power station",
-          "5,213 sq ft equivalent",
+          "15.2km to nearest major (>=50MW) power station",
+          "5,346 sq ft equivalent",
           "subtype \"Office\""
         ]
       }
@@ -7161,11 +7567,11 @@
       "sizeLabel": "25,700 sq. ft.",
       "sizeSqft": 25700,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Data Centre Sites",
       "score": 2,
       "reasons": [
-        "geography \"Bolton Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
-        "size 25700 >= min 2000",
+        "geography \"Bolton Greater Manchester\" in Data Centre Sites territory (prescoped — not scored)",
+        "size 25700 >= min 20000",
         "keyword hit \"planning\""
       ],
       "url": "https://www.rightmove.co.uk/properties/88636776#/?channel=COM_BUY",
@@ -7189,46 +7595,6 @@
           "14.6km to nearest major (>=50MW) power station",
           "25,700 sq ft equivalent",
           "subtype \"Commercial Development\""
-        ]
-      }
-    },
-    {
-      "address": "477 Leigh Road, Westhoughton, Bolton, Lancashire, BL5 (Bolton)",
-      "priceDisplay": "£215,000",
-      "priceAmount": 215000,
-      "sizeLabel": "2,088 sq. ft.",
-      "sizeSqft": 2088,
-      "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
-      "score": 2,
-      "reasons": [
-        "geography \"Bolton Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
-        "size 2088 >= min 2000",
-        "keyword hit \"office\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/759313776288321#/?channel=COM_BUY",
-      "agent": "Fletcher CRE LTD, Bolton",
-      "propertyType": "Office",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/13a1eb872/759313776288321/13a1eb87249847a8b0a1012a5c7c0253_max_476x317.jpeg",
-      "powerStation": {
-        "geocodePrecision": "exact",
-        "lat": 53.535641,
-        "lon": -2.517565,
-        "nearestAnyKm": 5,
-        "nearestAnyName": "Kirkless Power",
-        "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 13.2,
-        "nearestMajorName": "Carrington",
-        "nearestMajorFuel": "Gas",
-        "nearestMajorCapacityMw": 900
-      },
-      "dataCentreFit": {
-        "score": 28,
-        "band": "unlikely",
-        "reasons": [
-          "13.2km to nearest major (>=50MW) power station",
-          "2,088 sq ft equivalent",
-          "subtype \"Office\""
         ]
       }
     },
@@ -7269,6 +7635,46 @@
           "16.0km to nearest major (>=50MW) power station",
           "2,000 sq ft equivalent",
           "subtype \"Mixed Use\""
+        ]
+      }
+    },
+    {
+      "address": "477 Leigh Road, Westhoughton, Bolton, Lancashire, BL5 (Bolton)",
+      "priceDisplay": "£215,000",
+      "priceAmount": 215000,
+      "sizeLabel": "2,088 sq. ft.",
+      "sizeSqft": 2088,
+      "source": "Rightmove Commercial",
+      "requirement": "Educating Excellence",
+      "score": 2,
+      "reasons": [
+        "geography \"Bolton Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
+        "size 2088 >= min 2000",
+        "keyword hit \"office\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/759313776288321#/?channel=COM_BUY",
+      "agent": "Fletcher CRE LTD, Bolton",
+      "propertyType": "Office",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/13a1eb872/759313776288321/13a1eb87249847a8b0a1012a5c7c0253_max_476x317.jpeg",
+      "powerStation": {
+        "geocodePrecision": "exact",
+        "lat": 53.535641,
+        "lon": -2.517565,
+        "nearestAnyKm": 5,
+        "nearestAnyName": "Kirkless Power",
+        "nearestAnyFuel": "Waste",
+        "nearestMajorKm": 13.2,
+        "nearestMajorName": "Carrington",
+        "nearestMajorFuel": "Gas",
+        "nearestMajorCapacityMw": 900
+      },
+      "dataCentreFit": {
+        "score": 28,
+        "band": "unlikely",
+        "reasons": [
+          "13.2km to nearest major (>=50MW) power station",
+          "2,088 sq ft equivalent",
+          "subtype \"Office\""
         ]
       }
     },

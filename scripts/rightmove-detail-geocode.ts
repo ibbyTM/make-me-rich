@@ -14,13 +14,29 @@
  *
  * Scope, deliberately bounded:
  *   - Only the listings that already passed Stage-0 and are sitting in
- *     dashboard/data/rightmove.json (188 at time of writing) — NOT the full
- *     ~554-listing raw pull.
+ *     dashboard/data/rightmove.json — NOT the full raw pull.
  *   - Same 1.5s delay between requests as fetchCityListings elsewhere in this
- *     scraper (src/scrapers/rightmoveCommercial.ts).
+ *     scraper (src/scrapers/rightmoveCommercial.ts) — applied only to
+ *     listings this run actually has to fetch (see cache below).
  *   - A listing whose detail page fetch fails, or whose page has no Place
  *     ld+json block, is left on its existing city-centroid approximation and
  *     counted as "not upgraded" — never guessed at or estimated.
+ *
+ * Cache (added 2026-07-19, second run): rightmove-commercial-report.ts fully
+ * regenerates dashboard/data/rightmove.json on every run (documented ordering
+ * note below), which wipes this script's enrichment fields along with it —
+ * so every re-run used to mean re-fetching all ~190 detail pages from
+ * scratch, ~20-30 minutes, even for listings whose coordinates we already
+ * know. dashboard/data/.rightmove-coords-cache.json persists { url: {lat,lon}
+ * | null } across runs (null = confirmed no Place block, not "not checked
+ * yet") so a re-run after a fresh base pull only fetches genuinely new
+ * listing URLs.
+ *
+ * IMPORTANT ordering note: this must run AFTER rightmove-commercial-
+ * report.ts, every time — if you refresh listings and don't re-run this
+ * script, the dashboard will show stale/missing power-station data on the
+ * new rows. There's no dependency-tracking here yet; the cache reduces the
+ * cost of that but doesn't remove the need to re-run.
  *
  *   NODE_USE_ENV_PROXY=1 NODE_EXTRA_CA_CERTS=/root/.ccr/ca-bundle.crt \
  *     node --import tsx scripts/rightmove-detail-geocode.ts
@@ -42,37 +58,60 @@ interface DashboardRow {
   [key: string]: unknown;
 }
 
+type Coords = { lat: number; lon: number } | null;
+
 const PATH = 'dashboard/data/rightmove.json';
+const CACHE_PATH = 'dashboard/data/.rightmove-coords-cache.json';
 const DELAY_MS = 1500;
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
+
+async function loadCache(): Promise<Record<string, Coords>> {
+  try {
+    return JSON.parse(await readFile(CACHE_PATH, 'utf8'));
+  } catch {
+    return {};
+  }
+}
 
 async function main() {
   const data = JSON.parse(await readFile(PATH, 'utf8')) as { rows: DashboardRow[]; [k: string]: unknown };
   const stations: PowerStation[] = await loadGbPowerStations();
+  const cache = await loadCache();
 
   let upgraded = 0;
   let noBlock = 0;
   let fetchFailed = 0;
+  let fromCache = 0;
+  let freshlyFetched = 0;
   const bandBefore: Record<string, number> = {};
   const bandAfter: Record<string, number> = {};
 
   for (let i = 0; i < data.rows.length; i++) {
     const row = data.rows[i]!;
-    if (i > 0) await sleep(DELAY_MS);
 
     const before = (row.dataCentreFit as { band?: string } | undefined)?.band ?? 'unknown';
     bandBefore[before] = (bandBefore[before] ?? 0) + 1;
 
     process.stderr.write(`[${i + 1}/${data.rows.length}] ${row.url} ... `);
-    let coords: { lat: number; lon: number } | null = null;
-    try {
-      coords = await fetchListingCoordinates(row.url);
-    } catch (e) {
-      fetchFailed++;
-      process.stderr.write(`fetch failed (${e instanceof Error ? e.message : e})\n`);
-      const after = (row.dataCentreFit as { band?: string } | undefined)?.band ?? 'unknown';
-      bandAfter[after] = (bandAfter[after] ?? 0) + 1;
-      continue;
+
+    let coords: Coords;
+    if (Object.prototype.hasOwnProperty.call(cache, row.url)) {
+      coords = cache[row.url]!;
+      fromCache++;
+      process.stderr.write('(cached) ');
+    } else {
+      if (freshlyFetched > 0) await sleep(DELAY_MS);
+      freshlyFetched++;
+      try {
+        coords = await fetchListingCoordinates(row.url);
+        cache[row.url] = coords;
+      } catch (e) {
+        fetchFailed++;
+        process.stderr.write(`fetch failed (${e instanceof Error ? e.message : e})\n`);
+        const after = (row.dataCentreFit as { band?: string } | undefined)?.band ?? 'unknown';
+        bandAfter[after] = (bandAfter[after] ?? 0) + 1;
+        continue; // don't cache a transient failure — retry next run
+      }
     }
 
     if (!coords) {
@@ -112,11 +151,14 @@ async function main() {
   }
 
   await writeFile(PATH, JSON.stringify(data, null, 2) + '\n', 'utf8');
+  await writeFile(CACHE_PATH, JSON.stringify(cache, null, 2) + '\n', 'utf8');
 
   console.log(
     JSON.stringify(
       {
         totalRows: data.rows.length,
+        fromCache,
+        freshlyFetched,
         upgradedToExact: upgraded,
         noPlaceBlock: noBlock,
         fetchFailed,

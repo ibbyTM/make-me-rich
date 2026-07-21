@@ -34,13 +34,29 @@ import { createPersistentHarness } from '../src/db/pglite.js';
 import { ensureSeeded, listActiveRequirements } from '../src/db/requirementsRepo.js';
 import type { Listing } from '../src/types.js';
 
-// Same postcode-area → region mapping as the Barnsdales report.
+// Yorkshire/Greater Manchester mapping matches the Barnsdales report (its
+// sources are Yorkshire-only agents, so it doesn't need the rest of this).
+// Extended 2026-07-19 for the Data Centre Sites requirement: this script's
+// PROPERTY_HIVE_SOURCES now includes agents outside Yorkshire/Greater
+// Manchester (Bromwich Hardy/Coventry, Wood Moore & Co/Notts+Lincs,
+// Connect Property North East/Teesside+Durham, Shepherd Commercial/
+// Birmingham+Leicestershire) — without these, every one of their listings
+// got an empty region string and could never pass a geoPrescoped
+// requirement (a latent gap: Bromwich Hardy and Wood Moore & Co scored 0
+// passed listings against Citywide/Educating every run, not because they
+// had no qualifying stock, but because their geography could never match).
 const YORKSHIRE = new Set(['BD', 'DN', 'HD', 'HG', 'HU', 'HX', 'LS', 'S', 'WF', 'YO']);
 const GTR_MANCHESTER = new Set(['M', 'BL', 'OL', 'SK', 'WN']);
+const WEST_MIDLANDS = new Set(['B', 'CV', 'DY', 'WV', 'WS', 'WR']);
+const EAST_MIDLANDS = new Set(['NG', 'LE', 'DE', 'LN', 'NN']);
+const NORTH_EAST = new Set(['NE', 'SR', 'DH', 'DL', 'TS']);
 function region(pc: string): string {
   const area = (/^([A-Za-z]{1,2})/.exec(pc.trim())?.[1] ?? '').toUpperCase();
   if (YORKSHIRE.has(area)) return 'Yorkshire';
   if (GTR_MANCHESTER.has(area)) return 'Greater Manchester';
+  if (WEST_MIDLANDS.has(area)) return 'West Midlands';
+  if (EAST_MIDLANDS.has(area)) return 'East Midlands';
+  if (NORTH_EAST.has(area)) return 'North East';
   return '';
 }
 
@@ -68,7 +84,19 @@ async function main() {
 
   for (const source of PROPERTY_HIVE_SOURCES) {
     process.stderr.write(`pulling ${source.name} ...\n`);
-    const pull = await fetchPropertyHiveListings(source);
+    let pull: Awaited<ReturnType<typeof fetchPropertyHiveListings>>;
+    try {
+      pull = await fetchPropertyHiveListings(source);
+    } catch (e) {
+      // One source failing (site-side bot-challenge, transient outage, ...)
+      // must not lose every other source's freshly-pulled results — log
+      // plainly and move on, same "don't work around a block" discipline as
+      // the discovery pipeline (src/classifier/detectors.ts).
+      const detail = e instanceof Error ? e.message : String(e);
+      process.stderr.write(`  SKIPPED ${source.name}: ${detail}\n`);
+      summary.push({ source: source.name, skipped: true, reason: detail });
+      continue;
+    }
 
     // Classifier gate with API evidence: real endpoint response in the network log.
     const apiUrl = `${source.baseUrl}/wp-json/wp/v2/${source.postType}?per_page=100`;

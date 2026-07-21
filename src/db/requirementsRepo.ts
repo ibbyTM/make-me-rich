@@ -105,14 +105,20 @@ export async function getRequirement(h: Harness, id: string): Promise<Requiremen
 }
 
 /**
- * Idempotently insert the two original seed requirements (Citywide Investors,
- * Educating Excellence) if the table is empty. Matched by name so re-running
- * this against an already-seeded store is a no-op.
+ * Idempotently insert each seed requirement (Citywide Investors, Educating
+ * Excellence, Data Centre Sites) that isn't already present, matched by
+ * name — so this is safe to call on every report-script run regardless of
+ * whether the store already has some seeds, all seeds, or custom
+ * requirements too (2026-07-19 fix: previously gated on total row count, so
+ * adding a new seed to SEED_REQUIREMENTS never reached an
+ * already-seeded store — any count > 0, including just custom requirements,
+ * short-circuited the whole function).
  */
 export async function ensureSeeded(h: Harness): Promise<void> {
-  const existing = await h.asAdminBypass<{ n: number }>(`select count(*)::int n from requirements`);
-  if (existing.rows[0]!.n > 0) return;
+  const existing = await h.asAdminBypass<{ name: string }>(`select name from requirements`);
+  const existingNames = new Set(existing.rows.map((r) => r.name));
   for (const r of SEED_REQUIREMENTS) {
+    if (existingNames.has(r.name)) continue;
     const [budgetMin, budgetMax] = r.budgetRange ?? [null, null];
     await h.asAdminBypass(
       `insert into requirements (name, active, geographies, min_size, budget_min, budget_max, keywords)

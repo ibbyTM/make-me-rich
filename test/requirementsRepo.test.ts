@@ -16,15 +16,19 @@ afterEach(async () => {
 });
 
 describe('requirementsRepo', () => {
-  it('ensureSeeded inserts the two seed requirements once, idempotently', async () => {
+  it('ensureSeeded inserts the three seed requirements once, idempotently', async () => {
     h = await createHarness();
     await ensureSeeded(h);
     const first = await listRequirements(h);
-    expect(first.map((r) => r.name).sort()).toEqual(['Citywide Investors', 'Educating Excellence']);
+    expect(first.map((r) => r.name).sort()).toEqual([
+      'Citywide Investors',
+      'Data Centre Sites',
+      'Educating Excellence',
+    ]);
 
     await ensureSeeded(h); // second call must be a no-op
     const second = await listRequirements(h);
-    expect(second).toHaveLength(2);
+    expect(second).toHaveLength(3);
   }, 15000); // two full PGlite bootstraps in one test; default 5s timeout flakes under load
 
   it('inserts a custom requirement and it round-trips correctly', async () => {
@@ -55,6 +59,7 @@ describe('requirementsRepo', () => {
     const active = await listActiveRequirements(h);
     expect(active.map((r) => r.name).sort()).toEqual([
       'Citywide Investors',
+      'Data Centre Sites',
       'Educating Excellence',
       'New One',
     ]);

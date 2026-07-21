@@ -1,6 +1,6 @@
 {
   "source": "Discovered agents",
-  "generatedAt": "2026-07-19T16:38:46.413Z",
+  "generatedAt": "2026-07-21T16:32:38.499Z",
   "rows": [
     {
       "address": "1 Scotland Street, Sheffield, S3 7AT",
@@ -221,6 +221,450 @@
           "9.5km to nearest major (>=50MW) power station",
           "2,336 sq ft equivalent",
           "subtype \"Leisure, Office, Restaurant / Cafe, Retail\""
+        ]
+      }
+    },
+    {
+      "address": "Unit 5, Dutton Road, Coventry, CV2 2LE",
+      "priceDisplay": "£6,500,000",
+      "priceAmount": 6500000,
+      "sizeLabel": "87876 sqft",
+      "sizeSqft": 87876,
+      "source": "Bromwich Hardy",
+      "requirement": "Data Centre Sites",
+      "score": 2,
+      "reasons": [
+        "geography \"Coventry West Midlands\" in Data Centre Sites territory (prescoped — not scored)",
+        "size 87876 >= min 20000",
+        "keyword hit \"industrial\""
+      ],
+      "url": "https://www.bromwichhardy.com/property/unit-5-dutton-road-coventry-west-midlands-cv2-2le/",
+      "propertyType": "Industrial / Warehouse",
+      "imageUrl": "https://www.bromwichhardy.com/wp-content/uploads/2025/08/0791ed9b08fd82529a78a48dd864d30d-dji-0447edit-300x200.jpg",
+      "powerStation": {
+        "geocodePrecision": "postcode",
+        "nearestAnyKm": 5.8,
+        "nearestAnyName": "Coventry",
+        "nearestAnyFuel": "Waste",
+        "nearestMajorKm": 48.8,
+        "nearestMajorName": "Ratcliffe",
+        "nearestMajorFuel": "Coal",
+        "nearestMajorCapacityMw": 2000
+      },
+      "dataCentreFit": {
+        "score": 33,
+        "band": "unlikely",
+        "reasons": [
+          "48.8km to nearest major (>=50MW) power station",
+          "87,876 sq ft equivalent",
+          "subtype \"Industrial / Warehouse\""
+        ]
+      }
+    },
+    {
+      "address": "Units 1-3 Carlton Road, Coventry, CV6 7FL",
+      "priceDisplay": "POA",
+      "priceAmount": 0,
+      "sizeLabel": "74754 sqft",
+      "sizeSqft": 74754,
+      "source": "Bromwich Hardy",
+      "requirement": "Data Centre Sites",
+      "score": 2,
+      "reasons": [
+        "geography \"Coventry West Midlands\" in Data Centre Sites territory (prescoped — not scored)",
+        "size 74754 >= min 20000",
+        "keyword hit \"warehouse\""
+      ],
+      "url": "https://www.bromwichhardy.com/property/units-1-3-carlton-road-and-units-1a-and-1b-st-lawrence-works-coventry-west-midlands-cv6-7fl/",
+      "propertyType": "Industrial / Warehouse",
+      "imageUrl": "https://www.bromwichhardy.com/wp-content/uploads/2026/02/45c7c0186186eeacb31679d89d41498b-dji-20260128100026-0067-d-300x200.jpg",
+      "powerStation": {
+        "geocodePrecision": "postcode",
+        "nearestAnyKm": 4.4,
+        "nearestAnyName": "Coventry",
+        "nearestAnyFuel": "Waste",
+        "nearestMajorKm": 50.3,
+        "nearestMajorName": "Ratcliffe",
+        "nearestMajorFuel": "Coal",
+        "nearestMajorCapacityMw": 2000
+      },
+      "dataCentreFit": {
+        "score": 33,
+        "band": "unlikely",
+        "reasons": [
+          "50.3km to nearest major (>=50MW) power station",
+          "74,754 sq ft equivalent",
+          "subtype \"Industrial / Warehouse\""
+        ]
+      }
+    },
+    {
+      "address": "Coventry, Coventry, CV4 9UT",
+      "priceDisplay": "£5,750,000",
+      "priceAmount": 5750000,
+      "sizeLabel": "60433 sqft",
+      "sizeSqft": 60433,
+      "source": "Bromwich Hardy",
+      "requirement": "Data Centre Sites",
+      "score": 2,
+      "reasons": [
+        "geography \"Coventry West Midlands\" in Data Centre Sites territory (prescoped — not scored)",
+        "size 60433 >= min 20000",
+        "keyword hit \"industrial\""
+      ],
+      "url": "https://www.bromwichhardy.com/property/west-park-trade-centre-coventry-coventry-cv4-9ut/",
+      "propertyType": "Industrial / Warehouse",
+      "imageUrl": "https://www.bromwichhardy.com/wp-content/uploads/2026/06/390f60aa9815249ee842f929e90c1e28-358-18c-12148217-1343609720-3-300x200.jpg",
+      "powerStation": {
+        "geocodePrecision": "postcode",
+        "nearestAnyKm": 5.9,
+        "nearestAnyName": "Coventry",
+        "nearestAnyFuel": "Waste",
+        "nearestMajorKm": 56.4,
+        "nearestMajorName": "Ratcliffe",
+        "nearestMajorFuel": "Coal",
+        "nearestMajorCapacityMw": 2000
+      },
+      "dataCentreFit": {
+        "score": 33,
+        "band": "unlikely",
+        "reasons": [
+          "56.4km to nearest major (>=50MW) power station",
+          "60,433 sq ft equivalent",
+          "subtype \"Industrial / Warehouse\""
+        ]
+      }
+    },
+    {
+      "address": "Broad March, Daventry, NN11 4HE",
+      "priceDisplay": "£4,000,000",
+      "priceAmount": 4000000,
+      "sizeLabel": "48625 sqft",
+      "sizeSqft": 48625,
+      "source": "Bromwich Hardy",
+      "requirement": "Data Centre Sites",
+      "score": 2,
+      "reasons": [
+        "geography \"Daventry East Midlands\" in Data Centre Sites territory (prescoped — not scored)",
+        "size 48625 >= min 20000",
+        "keyword hit \"industrial\""
+      ],
+      "url": "https://www.bromwichhardy.com/property/the-die-pat-centre-broad-march-long-march-industrial-estate-daventry-northamptonshire-nn11-4he/",
+      "propertyType": "Industrial / Warehouse",
+      "imageUrl": "https://www.bromwichhardy.com/wp-content/uploads/2026/05/654fcd72e388c52cda33e7cc3893b3b1-dji-20260511131922-0836-d-300x200.jpg",
+      "powerStation": {
+        "geocodePrecision": "postcode",
+        "nearestAnyKm": 2.3,
+        "nearestAnyName": "Daventry",
+        "nearestAnyFuel": "Biomass",
+        "nearestMajorKm": 43.1,
+        "nearestMajorName": "Corby",
+        "nearestMajorFuel": "Gas",
+        "nearestMajorCapacityMw": 401
+      },
+      "dataCentreFit": {
+        "score": 33,
+        "band": "unlikely",
+        "reasons": [
+          "43.1km to nearest major (>=50MW) power station",
+          "48,625 sq ft equivalent",
+          "subtype \"Industrial / Warehouse\""
+        ]
+      }
+    },
+    {
+      "address": "Alcester, Alcester, B49 5JG",
+      "priceDisplay": "POA",
+      "priceAmount": 0,
+      "sizeLabel": "47064 sqft",
+      "sizeSqft": 47064,
+      "source": "Bromwich Hardy",
+      "requirement": "Data Centre Sites",
+      "score": 2,
+      "reasons": [
+        "geography \"Alcester West Midlands\" in Data Centre Sites territory (prescoped — not scored)",
+        "size 47064 >= min 20000",
+        "keyword hit \"distribution\""
+      ],
+      "url": "https://www.bromwichhardy.com/property/abbey-mills-alcester-alcester-warwickshire-b49-5jg/",
+      "propertyType": "Industrial / Warehouse",
+      "imageUrl": "https://www.bromwichhardy.com/wp-content/uploads/2026/06/9d469f64c9449ada15df50d002dabb6c-dji-20260429112207-0734-d-300x200.jpg",
+      "powerStation": {
+        "geocodePrecision": "postcode",
+        "nearestAnyKm": 7.1,
+        "nearestAnyName": "Morton Wood Farm",
+        "nearestAnyFuel": "Solar",
+        "nearestMajorKm": 77.3,
+        "nearestMajorName": "EFDA JJET Fusion Flywheel",
+        "nearestMajorFuel": "Storage",
+        "nearestMajorCapacityMw": 400
+      },
+      "dataCentreFit": {
+        "score": 33,
+        "band": "unlikely",
+        "reasons": [
+          "77.3km to nearest major (>=50MW) power station",
+          "47,064 sq ft equivalent",
+          "subtype \"Industrial / Warehouse\""
+        ]
+      }
+    },
+    {
+      "address": "Walsingham Drive, Nuneaton, CV10 7RW",
+      "priceDisplay": "POA",
+      "priceAmount": 0,
+      "sizeLabel": "36872 sqft",
+      "sizeSqft": 36872,
+      "source": "Bromwich Hardy",
+      "requirement": "Data Centre Sites",
+      "score": 2,
+      "reasons": [
+        "geography \"Nuneaton West Midlands\" in Data Centre Sites territory (prescoped — not scored)",
+        "size 36872 >= min 20000",
+        "keyword hit \"power\""
+      ],
+      "url": "https://www.bromwichhardy.com/property/nuneaton-37-walsingham-drive-bermuda-park-nuneaton-warwickshire-cv10-7rw/",
+      "propertyType": "Industrial / Warehouse",
+      "imageUrl": "https://www.bromwichhardy.com/wp-content/uploads/2025/11/50fb4473a691e05357ef702c8f668f1c-20260128parkway01-300x169.jpg",
+      "powerStation": {
+        "geocodePrecision": "postcode",
+        "nearestAnyKm": 3,
+        "nearestAnyName": "Judkins Landfill Scheme",
+        "nearestAnyFuel": "Waste",
+        "nearestMajorKm": 43,
+        "nearestMajorName": "Ratcliffe",
+        "nearestMajorFuel": "Coal",
+        "nearestMajorCapacityMw": 2000
+      },
+      "dataCentreFit": {
+        "score": 33,
+        "band": "unlikely",
+        "reasons": [
+          "43.0km to nearest major (>=50MW) power station",
+          "36,872 sq ft equivalent",
+          "subtype \"Industrial / Warehouse\""
+        ]
+      }
+    },
+    {
+      "address": "Wood Yard, Lincoln, LN4 4BL",
+      "priceDisplay": "£2,250,000",
+      "priceAmount": 2250000,
+      "sizeLabel": "62016 sqft",
+      "sizeSqft": 62016,
+      "source": "Wood Moore & Co",
+      "requirement": "Data Centre Sites",
+      "score": 2,
+      "reasons": [
+        "geography \"Lincoln East Midlands\" in Data Centre Sites territory (prescoped — not scored)",
+        "size 62016 >= min 20000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.woodmoore.co.uk/property/billinghay-sawmill-wood-yard-first-hurn-drove-lincoln-lincolnshire-ln4-4bl/",
+      "propertyType": "Industrial",
+      "imageUrl": "https://www.woodmoore.co.uk/wp-content/uploads/2025/10/ff8606ac4a2bb261fa2cd897f7612765-front-with-red-outline-300x169.jpg",
+      "powerStation": {
+        "geocodePrecision": "postcode",
+        "nearestAnyKm": 9,
+        "nearestAnyName": "SPD 3 Grange Farm",
+        "nearestAnyFuel": "Solar",
+        "nearestMajorKm": 35.8,
+        "nearestMajorName": "Spalding",
+        "nearestMajorFuel": "Gas",
+        "nearestMajorCapacityMw": 880
+      },
+      "dataCentreFit": {
+        "score": 41,
+        "band": "possible",
+        "reasons": [
+          "35.8km to nearest major (>=50MW) power station",
+          "62,016 sq ft equivalent",
+          "subtype \"Industrial\""
+        ]
+      }
+    },
+    {
+      "address": "Logistics Park, Darlington, DL1 1RW",
+      "priceDisplay": "POA",
+      "priceAmount": 0,
+      "sizeLabel": "92467 sqft",
+      "sizeSqft": 92467,
+      "source": "Connect Property North East",
+      "requirement": "Data Centre Sites",
+      "score": 2,
+      "reasons": [
+        "geography \"Darlington North East\" in Data Centre Sites territory (prescoped — not scored)",
+        "size 92467 >= min 20000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://cpne.co.uk/property/tornado-logistics-park-darlington-dl1-1rw-2/",
+      "propertyType": "Industrial",
+      "imageUrl": "https://cpne.co.uk/wp-content/uploads/2024/06/CPNE_G73761S_IMG_00-300x185.jpg",
+      "powerStation": {
+        "geocodePrecision": "postcode",
+        "nearestAnyKm": 3.1,
+        "nearestAnyName": "Land West Of Hunger Hill Farm",
+        "nearestAnyFuel": "Solar",
+        "nearestMajorKm": 24.5,
+        "nearestMajorName": "Hartlepool",
+        "nearestMajorFuel": "Nuclear",
+        "nearestMajorCapacityMw": 1180
+      },
+      "dataCentreFit": {
+        "score": 41,
+        "band": "possible",
+        "reasons": [
+          "24.5km to nearest major (>=50MW) power station",
+          "92,467 sq ft equivalent",
+          "subtype \"Industrial\""
+        ]
+      }
+    },
+    {
+      "address": "Debtford Terrace, Sunderland, SR4 6DD",
+      "priceDisplay": "£350,000",
+      "priceAmount": 350000,
+      "sizeLabel": "78408 sqft",
+      "sizeSqft": 78408,
+      "source": "Connect Property North East",
+      "requirement": "Data Centre Sites",
+      "score": 2,
+      "reasons": [
+        "geography \"Sunderland North East\" in Data Centre Sites territory (prescoped — not scored)",
+        "size 78408 >= min 20000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://cpne.co.uk/property/ayres-quay-debtford-terrace-sunderland-sr4-6dd-2/",
+      "propertyType": "Industrial",
+      "imageUrl": "https://cpne.co.uk/wp-content/uploads/2026/05/CPNE_104253S_IMG_00.jpg",
+      "powerStation": {
+        "geocodePrecision": "postcode",
+        "nearestAnyKm": 4.3,
+        "nearestAnyName": "Nissan Test Track",
+        "nearestAnyFuel": "Solar",
+        "nearestMajorKm": 34.2,
+        "nearestMajorName": "Hartlepool",
+        "nearestMajorFuel": "Nuclear",
+        "nearestMajorCapacityMw": 1180
+      },
+      "dataCentreFit": {
+        "score": 41,
+        "band": "possible",
+        "reasons": [
+          "34.2km to nearest major (>=50MW) power station",
+          "78,408 sq ft equivalent",
+          "subtype \"Industrial\""
+        ]
+      }
+    },
+    {
+      "address": "Admiralty Way, Seaham, SR7 7DN",
+      "priceDisplay": "POA",
+      "priceAmount": 0,
+      "sizeLabel": "38293 sqft",
+      "sizeSqft": 38293,
+      "source": "Connect Property North East",
+      "requirement": "Data Centre Sites",
+      "score": 2,
+      "reasons": [
+        "geography \"Seaham North East\" in Data Centre Sites territory (prescoped — not scored)",
+        "size 38293 >= min 20000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://cpne.co.uk/property/foxcover-business-park-unit-4-admiralty-way-seaham-sr7-7dn-3/",
+      "propertyType": "Industrial",
+      "imageUrl": "https://cpne.co.uk/wp-content/uploads/2026/02/CPNE_104150S_IMG_00-300x166.jpg",
+      "powerStation": {
+        "geocodePrecision": "postcode",
+        "nearestAnyKm": 1.9,
+        "nearestAnyName": "High Sharpley",
+        "nearestAnyFuel": "Wind",
+        "nearestMajorKm": 23.3,
+        "nearestMajorName": "Hartlepool",
+        "nearestMajorFuel": "Nuclear",
+        "nearestMajorCapacityMw": 1180
+      },
+      "dataCentreFit": {
+        "score": 41,
+        "band": "possible",
+        "reasons": [
+          "23.3km to nearest major (>=50MW) power station",
+          "38,293 sq ft equivalent",
+          "subtype \"Industrial\""
+        ]
+      }
+    },
+    {
+      "address": "Carlbury Road, Newton Aycliffe, DL5 6BH",
+      "priceDisplay": "POA",
+      "priceAmount": 0,
+      "sizeLabel": "35811 sqft",
+      "sizeSqft": 35811,
+      "source": "Connect Property North East",
+      "requirement": "Data Centre Sites",
+      "score": 2,
+      "reasons": [
+        "geography \"Newton Aycliffe North East\" in Data Centre Sites territory (prescoped — not scored)",
+        "size 35811 >= min 20000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://cpne.co.uk/property/unit-a-prime-point-carlbury-road-newton-aycliffe-dl5-6bh-2/",
+      "propertyType": "Industrial",
+      "imageUrl": "https://cpne.co.uk/wp-content/uploads/2026/04/CPNE_104175S_IMG_00-1-300x190.jpg",
+      "powerStation": {
+        "geocodePrecision": "postcode",
+        "nearestAnyKm": 1,
+        "nearestAnyName": "Preston Road AD Plant (Waste AD)",
+        "nearestAnyFuel": "Biomass",
+        "nearestMajorKm": 25.1,
+        "nearestMajorName": "Hartlepool",
+        "nearestMajorFuel": "Nuclear",
+        "nearestMajorCapacityMw": 1180
+      },
+      "dataCentreFit": {
+        "score": 41,
+        "band": "possible",
+        "reasons": [
+          "25.1km to nearest major (>=50MW) power station",
+          "35,811 sq ft equivalent",
+          "subtype \"Industrial\""
+        ]
+      }
+    },
+    {
+      "address": "Prince Regent Street, Stockton on Tees, TS18 1DB",
+      "priceDisplay": "£600,000",
+      "priceAmount": 600000,
+      "sizeLabel": "30010 sqft",
+      "sizeSqft": 30010,
+      "source": "Connect Property North East",
+      "requirement": "Data Centre Sites",
+      "score": 2,
+      "reasons": [
+        "geography \"Stockton on Tees North East\" in Data Centre Sites territory (prescoped — not scored)",
+        "size 30010 >= min 20000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://cpne.co.uk/property/bayheath-house-5-prince-regent-street-stockton-on-tees-ts18-1db/",
+      "propertyType": "Office",
+      "imageUrl": "https://cpne.co.uk/wp-content/uploads/2026/04/CPNE_104180_IMG_00-300x225.jpg",
+      "powerStation": {
+        "geocodePrecision": "postcode",
+        "nearestAnyKm": 2,
+        "nearestAnyName": "Lambs Hill",
+        "nearestAnyFuel": "Wind",
+        "nearestMajorKm": 11.7,
+        "nearestMajorName": "Hartlepool",
+        "nearestMajorFuel": "Nuclear",
+        "nearestMajorCapacityMw": 1180
+      },
+      "dataCentreFit": {
+        "score": 41,
+        "band": "possible",
+        "reasons": [
+          "11.7km to nearest major (>=50MW) power station",
+          "30,010 sq ft equivalent",
+          "subtype \"Office\""
         ]
       }
     },
