@@ -1,0 +1,614 @@
+[
+  {
+    "name": "Rodley",
+    "lat": 53.8212134,
+    "lon": -1.6642775,
+    "voltageV": 132000
+  },
+  {
+    "name": "Bradford",
+    "lat": 53.8025321,
+    "lon": -1.7525464,
+    "voltageV": 132000
+  },
+  {
+    "name": "Pool",
+    "lat": 53.9023294,
+    "lon": -1.6442623,
+    "voltageV": 33000
+  },
+  {
+    "name": "Chevin End",
+    "lat": 53.89148,
+    "lon": -1.7196004,
+    "voltageV": 33000
+  },
+  {
+    "name": "Menston Substation",
+    "lat": 53.885229,
+    "lon": -1.7260327,
+    "voltageV": 132000
+  },
+  {
+    "name": "Halifax substation",
+    "lat": 53.7262669,
+    "lon": -1.8582294,
+    "voltageV": 132000
+  },
+  {
+    "name": "Hebden Bridge",
+    "lat": 53.7397282,
+    "lon": -2.029991,
+    "voltageV": 33000
+  },
+  {
+    "name": "Bradford West Substation",
+    "lat": 53.8103656,
+    "lon": -1.8659921,
+    "voltageV": 400000
+  },
+  {
+    "name": "Harden",
+    "lat": 53.8338663,
+    "lon": -1.8675583,
+    "voltageV": 33000
+  },
+  {
+    "name": "Keighley",
+    "lat": 53.8648115,
+    "lon": -1.9058547,
+    "voltageV": 132000
+  },
+  {
+    "name": "Airedale Road",
+    "lat": 53.8702964,
+    "lon": -1.8887145,
+    "voltageV": 33000
+  },
+  {
+    "name": "Ring Rd Horsforth",
+    "lat": 53.8362877,
+    "lon": -1.6153899,
+    "voltageV": 132000
+  },
+  {
+    "name": "Elland Substation",
+    "lat": 53.6943967,
+    "lon": -1.8227449,
+    "voltageV": 275000
+  },
+  {
+    "name": "Silsden",
+    "lat": 53.9089618,
+    "lon": -1.9236856,
+    "voltageV": 132000
+  },
+  {
+    "name": "Holmfield",
+    "lat": 53.7506874,
+    "lon": -1.8750257,
+    "voltageV": 132000
+  },
+  {
+    "name": "Bolton Rd",
+    "lat": 53.9168192,
+    "lon": -1.9332427,
+    "voltageV": 33000
+  },
+  {
+    "name": "St Andrews Road",
+    "lat": 53.651079,
+    "lon": -1.772656,
+    "voltageV": 132000
+  },
+  {
+    "name": "Girlington",
+    "lat": 53.7955129,
+    "lon": -1.7904324,
+    "voltageV": 132000
+  },
+  {
+    "name": "Staygate",
+    "lat": 53.7666809,
+    "lon": -1.7492572,
+    "voltageV": 132000
+  },
+  {
+    "name": "Four Lane Ends",
+    "lat": 53.8001752,
+    "lon": -1.7955607,
+    "voltageV": 33000
+  },
+  {
+    "name": "Mytholmroyd",
+    "lat": 53.7348335,
+    "lon": -1.9976249,
+    "voltageV": 33000
+  },
+  {
+    "name": "Heckmondwike Substation",
+    "lat": 53.7114267,
+    "lon": -1.6799696,
+    "voltageV": 132000
+  },
+  {
+    "name": "Nabwood",
+    "lat": 53.8337068,
+    "lon": -1.811695,
+    "voltageV": 33000
+  },
+  {
+    "name": "Lindley",
+    "lat": 53.6554815,
+    "lon": -1.8283297,
+    "voltageV": 132000
+  },
+  {
+    "name": "Thornhill 132",
+    "lat": 53.6777456,
+    "lon": -1.6534161,
+    "voltageV": 132000
+  },
+  {
+    "name": "Bingley Grid",
+    "lat": 53.8529577,
+    "lon": -1.8408048,
+    "voltageV": 132000
+  },
+  {
+    "name": "Apperley MPTSL",
+    "lat": 53.83958,
+    "lon": -1.690343,
+    "voltageV": 25000
+  },
+  {
+    "name": "Rodley Lane",
+    "lat": 53.824232,
+    "lon": -1.6663713,
+    "voltageV": 33000
+  },
+  {
+    "name": "substation 397784722",
+    "lat": 53.9269619,
+    "lon": -1.8356814,
+    "voltageV": 33000
+  },
+  {
+    "name": "Varley Street",
+    "lat": 53.8038595,
+    "lon": -1.6675011,
+    "voltageV": 33000
+  },
+  {
+    "name": "Hallam Street",
+    "lat": 53.8731961,
+    "lon": -1.7132576,
+    "voltageV": 33000
+  },
+  {
+    "name": "Iveson House",
+    "lat": 53.8397688,
+    "lon": -1.610365,
+    "voltageV": 33000
+  },
+  {
+    "name": "Bramhope",
+    "lat": 53.8825284,
+    "lon": -1.6253381,
+    "voltageV": 33000
+  },
+  {
+    "name": "Swinnow Moor",
+    "lat": 53.8016614,
+    "lon": -1.6452157,
+    "voltageV": 33000
+  },
+  {
+    "name": "Bramley",
+    "lat": 53.8066817,
+    "lon": -1.6241681,
+    "voltageV": 33000
+  },
+  {
+    "name": "Mirfield",
+    "lat": 53.6704812,
+    "lon": -1.6920565,
+    "voltageV": 33000
+  },
+  {
+    "name": "Rawdon",
+    "lat": 53.8585757,
+    "lon": -1.691471,
+    "voltageV": 33000
+  },
+  {
+    "name": "Brighouse",
+    "lat": 53.6992398,
+    "lon": -1.7670421,
+    "voltageV": 132000
+  },
+  {
+    "name": "Abbey Rd",
+    "lat": 53.8279609,
+    "lon": -1.6283888,
+    "voltageV": 33000
+  },
+  {
+    "name": "Sowerby Bridge",
+    "lat": 53.7087993,
+    "lon": -1.9239673,
+    "voltageV": 132000
+  },
+  {
+    "name": "Spring Mill Street",
+    "lat": 53.7828069,
+    "lon": -1.7531287,
+    "voltageV": 33000
+  },
+  {
+    "name": "substation 918039041",
+    "lat": 53.6965568,
+    "lon": -1.8562978,
+    "voltageV": 33000
+  },
+  {
+    "name": "Crosshills",
+    "lat": 53.8959402,
+    "lon": -1.9787226,
+    "voltageV": 33000
+  },
+  {
+    "name": "substation 961740418",
+    "lat": 53.6850393,
+    "lon": -1.830519,
+    "voltageV": 33000
+  },
+  {
+    "name": "Harworth 1690",
+    "lat": 53.8382955,
+    "lon": -1.9389656,
+    "voltageV": 33000
+  },
+  {
+    "name": "Bingley FS",
+    "lat": 53.8541404,
+    "lon": -1.8409349,
+    "voltageV": 25000
+  },
+  {
+    "name": "Farnley Crescent",
+    "lat": 53.7905669,
+    "lon": -1.6155744,
+    "voltageV": 33000
+  },
+  {
+    "name": "North Avenue",
+    "lat": 53.909095,
+    "lon": -1.6891801,
+    "voltageV": 33000
+  },
+  {
+    "name": "Gildersome Bradford Rd",
+    "lat": 53.7505277,
+    "lon": -1.6351518,
+    "voltageV": 33000
+  },
+  {
+    "name": "Nab Lane",
+    "lat": 53.7381536,
+    "lon": -1.6433221,
+    "voltageV": 33000
+  },
+  {
+    "name": "Batley",
+    "lat": 53.7071264,
+    "lon": -1.6273172,
+    "voltageV": 33000
+  },
+  {
+    "name": "Calder Wharf",
+    "lat": 53.6794488,
+    "lon": -1.6544361,
+    "voltageV": 33000
+  },
+  {
+    "name": "Burnleyville",
+    "lat": 53.7321618,
+    "lon": -1.6886851,
+    "voltageV": 33000
+  },
+  {
+    "name": "Spenborough",
+    "lat": 53.7219616,
+    "lon": -1.7058555,
+    "voltageV": 33000
+  },
+  {
+    "name": "Snelsins Lane",
+    "lat": 53.7318571,
+    "lon": -1.7216896,
+    "voltageV": 33000
+  },
+  {
+    "name": "South Street",
+    "lat": 53.8581995,
+    "lon": -1.9131315,
+    "voltageV": 33000
+  },
+  {
+    "name": "Tong Street",
+    "lat": 53.7705252,
+    "lon": -1.7198575,
+    "voltageV": 33000
+  },
+  {
+    "name": "Park Road",
+    "lat": 53.6847522,
+    "lon": -1.6323413,
+    "voltageV": 33000
+  },
+  {
+    "name": "Liversedge",
+    "lat": 53.7080285,
+    "lon": -1.6938015,
+    "voltageV": 33000
+  },
+  {
+    "name": "Low Moor",
+    "lat": 53.7547356,
+    "lon": -1.7622594,
+    "voltageV": 33000
+  },
+  {
+    "name": "Yew Green Road",
+    "lat": 53.6350904,
+    "lon": -1.8012132,
+    "voltageV": 33000
+  },
+  {
+    "name": "Shipley TSL",
+    "lat": 53.8372388,
+    "lon": -1.7645465,
+    "voltageV": 25000
+  },
+  {
+    "name": "Idle",
+    "lat": 53.8258932,
+    "lon": -1.7343337,
+    "voltageV": 33000
+  },
+  {
+    "name": "Moorside Rd",
+    "lat": 53.814347,
+    "lon": -1.7223988,
+    "voltageV": 33000
+  },
+  {
+    "name": "Thornbury",
+    "lat": 53.7985831,
+    "lon": -1.710125,
+    "voltageV": 33000
+  },
+  {
+    "name": "Killinghall Rd",
+    "lat": 53.7966306,
+    "lon": -1.7191106,
+    "voltageV": 33000
+  },
+  {
+    "name": "Mount Street",
+    "lat": 53.788365,
+    "lon": -1.7291741,
+    "voltageV": 33000
+  },
+  {
+    "name": "Dudley Hill",
+    "lat": 53.7749005,
+    "lon": -1.7273072,
+    "voltageV": 33000
+  },
+  {
+    "name": "Odsal",
+    "lat": 53.7637842,
+    "lon": -1.7623496,
+    "voltageV": 33000
+  },
+  {
+    "name": "Wibsey",
+    "lat": 53.7691627,
+    "lon": -1.7843545,
+    "voltageV": 33000
+  },
+  {
+    "name": "Saint Street",
+    "lat": 53.780478,
+    "lon": -1.7869765,
+    "voltageV": 33000
+  },
+  {
+    "name": "Legrams Mill Lane",
+    "lat": 53.7890766,
+    "lon": -1.787361,
+    "voltageV": 33000
+  },
+  {
+    "name": "Toller Lane",
+    "lat": 53.8104529,
+    "lon": -1.7914538,
+    "voltageV": 33000
+  },
+  {
+    "name": "Gaisby Lane",
+    "lat": 53.8198807,
+    "lon": -1.7637485,
+    "voltageV": 33000
+  },
+  {
+    "name": "Rawson Rd",
+    "lat": 53.7965064,
+    "lon": -1.7587371,
+    "voltageV": 33000
+  },
+  {
+    "name": "Crown Street",
+    "lat": 53.79732,
+    "lon": -1.7683154,
+    "voltageV": 33000
+  },
+  {
+    "name": "Balme Street",
+    "lat": 53.7973911,
+    "lon": -1.748442,
+    "voltageV": 33000
+  },
+  {
+    "name": "Manchester Rd",
+    "lat": 53.7892154,
+    "lon": -1.7551336,
+    "voltageV": 33000
+  },
+  {
+    "name": "Townhead",
+    "lat": 53.9174555,
+    "lon": -1.9315469,
+    "voltageV": 33000
+  },
+  {
+    "name": "Thornton",
+    "lat": 53.792606,
+    "lon": -1.8323881,
+    "voltageV": 33000
+  },
+  {
+    "name": "Denholme",
+    "lat": 53.8048695,
+    "lon": -1.8977416,
+    "voltageV": 33000
+  },
+  {
+    "name": "Linthwaite Traction",
+    "lat": 53.6217055,
+    "lon": -1.8763712,
+    "voltageV": 11000
+  },
+  {
+    "name": "Wilsden BESS",
+    "lat": 53.8096035,
+    "lon": -1.8625582,
+    "voltageV": 132000
+  },
+  {
+    "name": "Steeton TSL",
+    "lat": 53.8990062,
+    "lon": -1.9415678,
+    "voltageV": 25000
+  },
+  {
+    "name": "Greenbottom TSL",
+    "lat": 53.8689954,
+    "lon": -1.7065787,
+    "voltageV": 25000
+  },
+  {
+    "name": "Ilkley TSL",
+    "lat": 53.9243881,
+    "lon": -1.8145195,
+    "voltageV": 25000
+  },
+  {
+    "name": "Folly Hall",
+    "lat": 53.6382967,
+    "lon": -1.7879465,
+    "voltageV": 33000
+  },
+  {
+    "name": "Grove Street",
+    "lat": 53.6432963,
+    "lon": -1.78766,
+    "voltageV": 33000
+  },
+  {
+    "name": "Honley Substation",
+    "lat": 53.6037638,
+    "lon": -1.8016531,
+    "voltageV": 33000
+  },
+  {
+    "name": "Scissett Substation",
+    "lat": 53.5891893,
+    "lon": -1.6220803,
+    "voltageV": 66000
+  },
+  {
+    "name": "substation 203603800",
+    "lat": 53.614344,
+    "lon": -1.9030506,
+    "voltageV": 33000
+  },
+  {
+    "name": "Penistone Substation",
+    "lat": 53.5214931,
+    "lon": -1.6164603,
+    "voltageV": 66000
+  },
+  {
+    "name": "Hazelhead Substation",
+    "lat": 53.5402584,
+    "lon": -1.73423,
+    "voltageV": 33000
+  },
+  {
+    "name": "Scholes Substation",
+    "lat": 53.5630879,
+    "lon": -1.7578934,
+    "voltageV": 33000
+  },
+  {
+    "name": "substation 783423558",
+    "lat": 53.551998,
+    "lon": -1.6702128,
+    "voltageV": 11000
+  },
+  {
+    "name": "substation 918222029",
+    "lat": 53.5958235,
+    "lon": -1.8379448,
+    "voltageV": 33000
+  },
+  {
+    "name": "High St",
+    "lat": 53.5504599,
+    "lon": -2.0048662,
+    "voltageV": 11000
+  },
+  {
+    "name": "McCARTHY & STONE UPPERMILL",
+    "lat": 53.5496496,
+    "lon": -2.0046318,
+    "voltageV": 11000
+  },
+  {
+    "name": "substation 955899669",
+    "lat": 53.5048484,
+    "lon": -2.0144768,
+    "voltageV": 6600
+  },
+  {
+    "name": "substation 955901367",
+    "lat": 53.5249288,
+    "lon": -2.0272526,
+    "voltageV": 1100
+  },
+  {
+    "name": "Wogden Foot Cable Sealing End Compound",
+    "lat": 53.520152,
+    "lon": -1.7397322,
+    "voltageV": 400000
+  },
+  {
+    "name": "Rusby Wood",
+    "lat": 53.5658689,
+    "lon": -1.7051836,
+    "voltageV": 11000
+  }
+]

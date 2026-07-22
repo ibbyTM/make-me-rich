@@ -27,6 +27,8 @@ import { haversineKm } from './powerStations.js';
 import type { LatLon } from './postcodes.js';
 
 export interface Substation {
+  /** OSM element id — present on freshly-fetched records, used only to dedupe/merge across scripts/substations-fetch.ts runs. Not used by scoring. */
+  id?: number;
   name: string;
   lat: number;
   lon: number;

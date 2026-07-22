@@ -173,7 +173,19 @@ async function main() {
   const boxes = clusterIntoBoxes(points);
   process.stderr.write(`Querying Overpass for ${boxes.length} bounding box(es)...\n`);
 
+  // Seed from any existing output so a re-run (after some boxes failed last
+  // time) MERGES with prior progress instead of gambling on the same set of
+  // boxes succeeding again — the shared public Overpass instance's load
+  // varies run to run, so which boxes succeed isn't consistent.
   const substationsById = new Map<number, Substation>();
+  try {
+    const existing: Substation[] = JSON.parse(await readFile(OUTPUT_PATH, 'utf8'));
+    for (const s of existing) if (s.id !== undefined) substationsById.set(s.id, s);
+    process.stderr.write(`Seeded ${substationsById.size} substations from existing ${OUTPUT_PATH}.\n`);
+  } catch {
+    // no existing output — first run, start empty
+  }
+
   const failedBoxes: BoundingBox[] = [];
   for (let i = 0; i < boxes.length; i++) {
     if (i > 0) await sleep(DELAY_BETWEEN_QUERIES_MS);
@@ -203,6 +215,7 @@ async function main() {
       if (voltageV === null) continue;
       if (substationsById.has(el.id)) continue;
       substationsById.set(el.id, {
+        id: el.id,
         name: el.tags?.name ?? el.tags?.operator ?? `substation ${el.id}`,
         lat,
         lon,
