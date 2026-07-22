@@ -41,6 +41,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 15,
+        "band": "unlikely",
+        "reasons": [
+          "182% above postcode median (premium)",
+          "Zone 1 — low flood risk"
+        ],
+        "floodZone": 1,
+        "floodReason": "postcode district — low historical flood risk"
       }
     },
     {
@@ -84,6 +94,16 @@
         "duplicateCount": 1,
         "groupId": "575000:12000#0",
         "reason": "same price (£575,000) and size (12,000 sq ft), overlapping address"
+      },
+      "valueAdd": {
+        "score": 15,
+        "band": "unlikely",
+        "reasons": [
+          "145% above postcode median (premium)",
+          "Zone 1 — low flood risk"
+        ],
+        "floodZone": 1,
+        "floodReason": "postcode district — low historical flood risk"
       }
     }
   ]

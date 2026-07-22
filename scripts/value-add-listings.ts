@@ -14,6 +14,7 @@
 import { readFile, writeFile } from 'node:fs/promises';
 import { scoreValueAdd, type ValueAddInput } from '../src/scoring/valueAdd.js';
 import { estimateFloodRiskByPostcode } from '../src/geo/floodRisk.js';
+import { extractPostcode } from '../src/geo/postcodes.js';
 
 interface ComparablesData {
   postcodes: Record<string, { medianPrice: number; sampleCount: number }>;
@@ -24,7 +25,6 @@ interface DashboardRow {
   url: string;
   source: string;
   address: string;
-  postcode?: string;
   priceAmount?: number;
   sizeSqft?: number | null;
   powerStation?: { geocodePrecision?: string };
@@ -63,7 +63,7 @@ async function main() {
   let skippedCount = 0;
 
   for (const row of allRows) {
-    const postcode = row.postcode?.toUpperCase() ?? null;
+    const postcode = extractPostcode(row.address ?? '');
     const comparableData = postcode ? comparables[postcode] : null;
 
     const floodRisk = postcode ? estimateFloodRiskByPostcode(postcode) : { zone: null, reason: 'postcode unknown' };

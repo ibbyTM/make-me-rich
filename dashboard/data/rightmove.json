@@ -45,6 +45,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -90,6 +100,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -133,6 +153,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -180,6 +210,16 @@
         "duplicateCount": 1,
         "groupId": "1500000:5856#0",
         "reason": "same price (£1,500,000) and size (5,856 sq ft), overlapping address"
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -225,6 +265,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -270,6 +320,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -313,6 +373,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -358,6 +428,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -403,6 +483,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -448,6 +538,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -491,6 +591,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -534,6 +644,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -577,6 +697,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -624,6 +754,16 @@
         "duplicateCount": 1,
         "groupId": "1500000:5856#0",
         "reason": "same price (£1,500,000) and size (5,856 sq ft), overlapping address"
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -667,6 +807,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -710,6 +860,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -753,6 +913,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -798,6 +968,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -843,6 +1023,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -888,6 +1078,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -931,6 +1131,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -974,6 +1184,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -1017,6 +1237,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -1060,6 +1290,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -1103,6 +1343,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -1148,6 +1398,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -1193,6 +1453,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -1238,6 +1508,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -1281,6 +1561,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -1326,6 +1616,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -1371,6 +1671,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -1416,6 +1726,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -1461,6 +1781,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -1506,6 +1836,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -1551,6 +1891,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -1596,6 +1946,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -1641,6 +2001,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -1686,6 +2056,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -1731,6 +2111,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -1776,6 +2166,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -1821,6 +2221,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -1866,6 +2276,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -1911,6 +2331,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -1954,6 +2384,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -1999,6 +2439,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -2044,6 +2494,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -2089,6 +2549,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -2134,6 +2604,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -2179,6 +2659,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -2222,6 +2712,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -2267,6 +2767,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -2312,6 +2822,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -2357,6 +2877,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -2402,6 +2932,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -2445,6 +2985,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -2490,6 +3040,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -2535,6 +3095,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -2580,6 +3150,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -2625,6 +3205,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -2670,6 +3260,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -2715,6 +3315,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -2760,6 +3370,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -2803,6 +3423,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -2848,6 +3478,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -2895,6 +3535,16 @@
         "duplicateCount": 1,
         "groupId": "335000:2343#0",
         "reason": "same price (£335,000) and size (2,343 sq ft), overlapping address"
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -2940,6 +3590,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -2985,6 +3645,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -3030,6 +3700,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -3075,6 +3755,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -3122,6 +3812,16 @@
         "duplicateCount": 1,
         "groupId": "299950:2783#0",
         "reason": "same price (£299,950) and size (2,783 sq ft), overlapping address"
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -3167,6 +3867,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -3212,6 +3922,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -3257,6 +3977,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -3302,6 +4032,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -3347,6 +4087,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -3390,6 +4140,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -3435,6 +4195,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -3478,6 +4248,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -3521,6 +4301,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -3566,6 +4356,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -3609,6 +4409,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -3654,6 +4464,16 @@
         "duplicateCount": 1,
         "groupId": "1:3546#0",
         "reason": "same price (£1) and size (3,546 sq ft), overlapping address"
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -3699,6 +4519,16 @@
         "duplicateCount": 1,
         "groupId": "1:3546#0",
         "reason": "same price (£1) and size (3,546 sq ft), overlapping address"
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -3742,6 +4572,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -3785,6 +4625,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -3830,6 +4680,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -3873,6 +4733,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -3918,6 +4788,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -3963,6 +4843,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -4008,6 +4898,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -4053,6 +4953,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -4098,6 +5008,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -4143,6 +5063,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -4188,6 +5118,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -4233,6 +5173,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -4278,6 +5228,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -4323,6 +5283,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -4368,6 +5338,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -4413,6 +5393,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -4458,6 +5448,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -4503,6 +5503,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -4548,6 +5558,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -4591,6 +5611,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -4636,6 +5666,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -4681,6 +5721,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -4724,6 +5774,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -4767,6 +5827,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -4810,6 +5880,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -4855,6 +5935,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -4900,6 +5990,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -4947,6 +6047,16 @@
         "duplicateCount": 2,
         "groupId": "200000:11761#0",
         "reason": "same price (£200,000) and size (11,761 sq ft), overlapping address"
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -4994,6 +6104,16 @@
         "duplicateCount": 2,
         "groupId": "200000:11761#0",
         "reason": "same price (£200,000) and size (11,761 sq ft), overlapping address"
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -5041,6 +6161,16 @@
         "duplicateCount": 1,
         "groupId": "160000:161172#0",
         "reason": "same price (£160,000) and size (161,172 sq ft), overlapping address"
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -5086,6 +6216,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -5129,6 +6269,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -5174,6 +6324,16 @@
         "duplicateCount": 2,
         "groupId": "200000:11761#0",
         "reason": "same price (£200,000) and size (11,761 sq ft), overlapping address"
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -5219,6 +6379,16 @@
         "duplicateCount": 1,
         "groupId": "160000:161172#0",
         "reason": "same price (£160,000) and size (161,172 sq ft), overlapping address"
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -5264,6 +6434,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -5309,6 +6489,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -5354,6 +6544,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -5399,6 +6599,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -5444,6 +6654,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -5487,6 +6707,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -5532,6 +6762,16 @@
         "duplicateCount": 1,
         "groupId": "575000:12000#0",
         "reason": "same price (£575,000) and size (12,000 sq ft), overlapping address"
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -5577,6 +6817,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -5622,6 +6872,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -5667,6 +6927,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -5712,6 +6982,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -5757,6 +7037,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -5802,6 +7092,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -5845,6 +7145,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -5890,6 +7200,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -5933,6 +7253,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -5978,6 +7308,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -6023,6 +7363,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -6066,6 +7416,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -6109,6 +7469,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -6154,6 +7524,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -6199,6 +7579,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -6244,6 +7634,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -6289,6 +7689,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -6334,6 +7744,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -6379,6 +7799,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -6424,6 +7854,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -6467,6 +7907,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -6510,6 +7960,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -6555,6 +8015,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -6600,6 +8070,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -6643,6 +8123,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -6688,6 +8178,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -6733,6 +8233,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -6776,6 +8286,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -6819,6 +8339,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -6864,6 +8394,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -6907,6 +8447,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -6952,6 +8502,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -6995,6 +8555,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -7040,6 +8610,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -7085,6 +8665,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -7130,6 +8720,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -7175,6 +8775,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -7218,6 +8828,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -7261,6 +8881,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -7304,6 +8934,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -7349,6 +8989,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -7392,6 +9042,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -7437,6 +9097,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -7480,6 +9150,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -7525,6 +9205,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -7568,6 +9258,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -7611,6 +9311,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -7654,6 +9364,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -7697,6 +9417,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -7742,6 +9472,16 @@
         "duplicateCount": 1,
         "groupId": "500000:2336#0",
         "reason": "same price (£500,000) and size (2,336 sq ft), overlapping address"
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -7787,6 +9527,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -7830,6 +9580,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -7875,6 +9635,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -7918,6 +9688,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -7961,6 +9741,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -8004,6 +9794,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -8049,6 +9849,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -8094,6 +9904,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -8139,6 +9959,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -8184,6 +10014,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -8229,6 +10069,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -8274,6 +10124,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -8319,6 +10179,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -8364,6 +10234,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -8409,6 +10289,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -8454,6 +10344,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -8499,6 +10399,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -8544,6 +10454,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -8587,6 +10507,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -8632,6 +10562,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -8677,6 +10617,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -8720,6 +10670,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -8763,6 +10723,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     },
     {
@@ -8806,6 +10776,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or comparables unknown",
+          "flood risk unknown (neutral)"
+        ],
+        "floodZone": null,
+        "floodReason": "postcode unknown"
       }
     }
   ]

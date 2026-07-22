@@ -44,6 +44,16 @@
         "duplicateCount": 1,
         "groupId": "335000:2343#0",
         "reason": "same price (£335,000) and size (2,343 sq ft), overlapping address"
+      },
+      "valueAdd": {
+        "score": 15,
+        "band": "unlikely",
+        "reasons": [
+          "36% above postcode median (premium)",
+          "Zone 1 — low flood risk"
+        ],
+        "floodZone": 1,
+        "floodReason": "postcode district — low historical flood risk"
       }
     },
     {
@@ -86,6 +96,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 15,
+        "band": "unlikely",
+        "reasons": [
+          "1% above postcode median (premium)",
+          "Zone 1 — low flood risk"
+        ],
+        "floodZone": 1,
+        "floodReason": "postcode district — low historical flood risk"
       }
     },
     {
@@ -128,6 +148,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 15,
+        "band": "unlikely",
+        "reasons": [
+          "297% above postcode median (premium)",
+          "Zone 1 — low flood risk"
+        ],
+        "floodZone": 1,
+        "floodReason": "postcode district — low historical flood risk"
       }
     },
     {
@@ -172,6 +202,16 @@
         "duplicateCount": 1,
         "groupId": "299950:2783#0",
         "reason": "same price (£299,950) and size (2,783 sq ft), overlapping address"
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "unlikely",
+        "reasons": [
+          "21% above postcode median (premium)",
+          "Zone 3 — high flood risk"
+        ],
+        "floodZone": 3,
+        "floodReason": "postcode district \"S2\" — known flood-risk area"
       }
     },
     {
@@ -214,6 +254,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 15,
+        "band": "unlikely",
+        "reasons": [
+          "584% above postcode median (premium)",
+          "Zone 1 — low flood risk"
+        ],
+        "floodZone": 1,
+        "floodReason": "postcode district — low historical flood risk"
       }
     },
     {
@@ -258,6 +308,16 @@
         "duplicateCount": 1,
         "groupId": "500000:2336#0",
         "reason": "same price (£500,000) and size (2,336 sq ft), overlapping address"
+      },
+      "valueAdd": {
+        "score": 15,
+        "band": "unlikely",
+        "reasons": [
+          "69% above postcode median (premium)",
+          "Zone 1 — low flood risk"
+        ],
+        "floodZone": 1,
+        "floodReason": "postcode district — low historical flood risk"
       }
     },
     {
@@ -300,6 +360,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 15,
+        "band": "unlikely",
+        "reasons": [
+          "3040% above postcode median (premium)",
+          "Zone 1 — low flood risk"
+        ],
+        "floodZone": 1,
+        "floodReason": "postcode district — low historical flood risk"
       }
     },
     {
@@ -342,6 +412,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "100% below postcode median (£213,422)",
+          "Zone 1 — low flood risk"
+        ],
+        "floodZone": 1,
+        "floodReason": "postcode district — low historical flood risk"
       }
     },
     {
@@ -384,6 +464,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 15,
+        "band": "unlikely",
+        "reasons": [
+          "2451% above postcode median (premium)",
+          "Zone 1 — low flood risk"
+        ],
+        "floodZone": 1,
+        "floodReason": "postcode district — low historical flood risk"
       }
     },
     {
@@ -426,6 +516,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 15,
+        "band": "unlikely",
+        "reasons": [
+          "1845% above postcode median (premium)",
+          "Zone 1 — low flood risk"
+        ],
+        "floodZone": 1,
+        "floodReason": "postcode district — low historical flood risk"
       }
     },
     {
@@ -468,6 +568,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "100% below postcode median (£223,867)",
+          "Zone 1 — low flood risk"
+        ],
+        "floodZone": 1,
+        "floodReason": "postcode district — low historical flood risk"
       }
     },
     {
@@ -510,6 +620,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "100% below postcode median (£236,539)",
+          "Zone 1 — low flood risk"
+        ],
+        "floodZone": 1,
+        "floodReason": "postcode district — low historical flood risk"
       }
     },
     {
@@ -552,6 +672,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 15,
+        "band": "unlikely",
+        "reasons": [
+          "935% above postcode median (premium)",
+          "Zone 1 — low flood risk"
+        ],
+        "floodZone": 1,
+        "floodReason": "postcode district — low historical flood risk"
       }
     },
     {
@@ -594,6 +724,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "100% below postcode median (£211,286)",
+          "Zone 1 — low flood risk"
+        ],
+        "floodZone": 1,
+        "floodReason": "postcode district — low historical flood risk"
       }
     },
     {
@@ -636,6 +776,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 15,
+        "band": "unlikely",
+        "reasons": [
+          "40% above postcode median (premium)",
+          "Zone 1 — low flood risk"
+        ],
+        "floodZone": 1,
+        "floodReason": "postcode district — low historical flood risk"
       }
     },
     {
@@ -678,6 +828,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "100% below postcode median (£235,910)",
+          "Zone 1 — low flood risk"
+        ],
+        "floodZone": 1,
+        "floodReason": "postcode district — low historical flood risk"
       }
     },
     {
@@ -720,6 +880,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "100% below postcode median (£217,213)",
+          "Zone 1 — low flood risk"
+        ],
+        "floodZone": 1,
+        "floodReason": "postcode district — low historical flood risk"
       }
     },
     {
@@ -762,6 +932,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 15,
+        "band": "unlikely",
+        "reasons": [
+          "155% above postcode median (premium)",
+          "Zone 1 — low flood risk"
+        ],
+        "floodZone": 1,
+        "floodReason": "postcode district — low historical flood risk"
       }
     },
     {
@@ -804,6 +984,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 15,
+        "band": "unlikely",
+        "reasons": [
+          "224% above postcode median (premium)",
+          "Zone 1 — low flood risk"
+        ],
+        "floodZone": 1,
+        "floodReason": "postcode district — low historical flood risk"
       }
     },
     {
@@ -846,6 +1036,16 @@
         "isDuplicate": false,
         "duplicateCount": 0,
         "groupId": null
+      },
+      "valueAdd": {
+        "score": 15,
+        "band": "unlikely",
+        "reasons": [
+          "144% above postcode median (premium)",
+          "Zone 1 — low flood risk"
+        ],
+        "floodZone": 1,
+        "floodReason": "postcode district — low historical flood risk"
       }
     }
   ]

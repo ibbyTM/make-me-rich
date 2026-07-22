@@ -11,9 +11,7 @@
  */
 
 import { readFile, writeFile } from 'node:fs/promises';
-import { execSync } from 'node:child_process';
-import * as fs from 'node:fs';
-import * as path from 'node:path';
+import { extractPostcode } from '../src/geo/postcodes.js';
 
 interface DashboardRow {
   url: string;
@@ -21,7 +19,6 @@ interface DashboardRow {
   address: string;
   priceAmount?: number;
   sizeSqft?: number | null;
-  postcode?: string;
   [key: string]: unknown;
 }
 
@@ -54,7 +51,8 @@ async function extractPostcodesFromDashboard(): Promise<Set<string>> {
       const data = JSON.parse(await readFile(filePath, 'utf8'));
       if (data.rows) {
         for (const row of data.rows) {
-          if (row.postcode) postcodes.add(row.postcode.toUpperCase());
+          const postcode = extractPostcode(row.address ?? '');
+          if (postcode) postcodes.add(postcode);
         }
       }
     } catch {
