@@ -143,9 +143,27 @@ const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
 const MAX_RETRIES = 5;
 
+/**
+ * One box per HTTP request turned out to be the wrong tradeoff: the shared
+ * public mirror's 429s tracked REQUEST COUNT more than query cost (small
+ * single-box queries failed just as often as the original oversized one),
+ * so batching several boxes into one combined query cuts round-trips
+ * (and rate-limit exposure) roughly BATCH_SIZE-fold for the same coverage.
+ */
+const BATCH_SIZE = 4;
+
+function batchBoxes(boxes: BoundingBox[]): BoundingBox[][] {
+  const batches: BoundingBox[][] = [];
+  for (let i = 0; i < boxes.length; i += BATCH_SIZE) batches.push(boxes.slice(i, i + BATCH_SIZE));
+  return batches;
+}
+
 /** Overpass's shared public instances rate-limit and occasionally 406 under load — retry with exponential backoff rather than fail the whole run over a transient block. */
-async function queryOverpassBox(box: BoundingBox): Promise<OverpassElement[]> {
-  const query = `[out:json][timeout:60];(node["power"="substation"]["voltage"](${box.south},${box.west},${box.north},${box.east});way["power"="substation"]["voltage"](${box.south},${box.west},${box.north},${box.east}););out center tags;`;
+async function queryOverpassBoxes(boxes: BoundingBox[]): Promise<OverpassElement[]> {
+  const clauses = boxes
+    .map((b) => `node["power"="substation"]["voltage"](${b.south},${b.west},${b.north},${b.east});way["power"="substation"]["voltage"](${b.south},${b.west},${b.north},${b.east});`)
+    .join('');
+  const query = `[out:json][timeout:90];(${clauses});out center tags;`;
   const url = `${OVERPASS_URL}?data=${encodeURIComponent(query)}`;
 
   let lastError: Error | null = null;
@@ -186,21 +204,24 @@ async function main() {
     // no existing output — first run, start empty
   }
 
-  const failedBoxes: BoundingBox[] = [];
-  for (let i = 0; i < boxes.length; i++) {
+  const batches = batchBoxes(boxes);
+  process.stderr.write(`Grouped into ${batches.length} batch(es) of up to ${BATCH_SIZE} box(es) each.\n`);
+
+  let failedBatchCount = 0;
+  for (let i = 0; i < batches.length; i++) {
     if (i > 0) await sleep(DELAY_BETWEEN_QUERIES_MS);
-    const box = boxes[i]!;
-    process.stderr.write(`  box ${i + 1}/${boxes.length}: [${box.south.toFixed(2)},${box.west.toFixed(2)},${box.north.toFixed(2)},${box.east.toFixed(2)}] ... `);
+    const batch = batches[i]!;
+    process.stderr.write(`  batch ${i + 1}/${batches.length} (${batch.length} boxes) ... `);
 
     let elements: OverpassElement[];
     try {
-      elements = await queryOverpassBox(box);
+      elements = await queryOverpassBoxes(batch);
     } catch (e) {
       // Shared public Overpass mirrors can stay congested well past this
-      // box's retry budget — don't let one stubborn box lose every other
-      // box's already-fetched data. Log it, keep going, write what we have.
-      process.stderr.write(`giving up on this box (${e instanceof Error ? e.message : e}) — continuing\n`);
-      failedBoxes.push(box);
+      // batch's retry budget — don't let one stubborn batch lose every
+      // other batch's already-fetched data. Log it, keep going.
+      process.stderr.write(`giving up on this batch (${e instanceof Error ? e.message : e}) — continuing\n`);
+      failedBatchCount++;
       await writeFile(OUTPUT_PATH, JSON.stringify([...substationsById.values()], null, 2) + '\n', 'utf8');
       continue;
     }
@@ -224,9 +245,9 @@ async function main() {
       added++;
     }
     process.stderr.write(`${elements.length} elements, ${added} new substations\n`);
-    // Write after every box, not just at the end — a later box failing (or
-    // the process being interrupted) still leaves every earlier box's data
-    // on disk instead of losing the whole run.
+    // Write after every batch, not just at the end — a later batch failing
+    // (or the process being interrupted) still leaves every earlier batch's
+    // data on disk instead of losing the whole run.
     await writeFile(OUTPUT_PATH, JSON.stringify([...substationsById.values()], null, 2) + '\n', 'utf8');
   }
 
@@ -244,10 +265,10 @@ async function main() {
   console.log(
     JSON.stringify(
       {
-        status: failedBoxes.length ? 'partial_success' : 'success',
+        status: failedBatchCount ? 'partial_success' : 'success',
         boundingBoxesQueried: boxes.length,
-        boundingBoxesFailed: failedBoxes.length,
-        failedBoxes: failedBoxes.length ? failedBoxes : undefined,
+        batchesQueried: batches.length,
+        batchesFailed: failedBatchCount,
         totalSubstations: substations.length,
         byTier: byTierCount,
         outputPath: OUTPUT_PATH,
