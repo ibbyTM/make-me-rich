@@ -46,10 +46,10 @@
         "reason": "same price (£335,000) and size (2,343 sq ft), overlapping address"
       },
       "valueAdd": {
-        "score": 15,
-        "band": "unlikely",
+        "score": 35,
+        "band": "possible",
         "reasons": [
-          "36% above postcode median (premium)",
+          "£143/sqft vs local VOA benchmark £8.07/sqft (ratio 17.7×) — 73th percentile among scored listings (lower = cheaper)",
           "Zone 1 — low flood risk"
         ],
         "floodZone": 1,
@@ -98,10 +98,10 @@
         "groupId": null
       },
       "valueAdd": {
-        "score": 15,
-        "band": "unlikely",
+        "score": 85,
+        "band": "strong",
         "reasons": [
-          "1% above postcode median (premium)",
+          "£61/sqft vs local VOA benchmark £8.28/sqft (ratio 7.3×) — 27th percentile among scored listings (lower = cheaper)",
           "Zone 1 — low flood risk"
         ],
         "floodZone": 1,
@@ -150,10 +150,10 @@
         "groupId": null
       },
       "valueAdd": {
-        "score": 15,
-        "band": "unlikely",
+        "score": 50,
+        "band": "possible",
         "reasons": [
-          "297% above postcode median (premium)",
+          "£107/sqft vs local VOA benchmark £8.28/sqft (ratio 12.9×) — 53th percentile among scored listings (lower = cheaper)",
           "Zone 1 — low flood risk"
         ],
         "floodZone": 1,
@@ -204,10 +204,10 @@
         "reason": "same price (£299,950) and size (2,783 sq ft), overlapping address"
       },
       "valueAdd": {
-        "score": 0,
+        "score": 10,
         "band": "unlikely",
         "reasons": [
-          "21% above postcode median (premium)",
+          "£108/sqft vs local VOA benchmark £6.70/sqft (ratio 16.1×) — 67th percentile among scored listings (lower = cheaper)",
           "Zone 3 — high flood risk"
         ],
         "floodZone": 3,
@@ -256,10 +256,10 @@
         "groupId": null
       },
       "valueAdd": {
-        "score": 15,
-        "band": "unlikely",
+        "score": 35,
+        "band": "possible",
         "reasons": [
-          "584% above postcode median (premium)",
+          "£417/sqft vs local VOA benchmark £17.69/sqft (ratio 23.6×) — 80th percentile among scored listings (lower = cheaper)",
           "Zone 1 — low flood risk"
         ],
         "floodZone": 1,
@@ -310,10 +310,10 @@
         "reason": "same price (£500,000) and size (2,336 sq ft), overlapping address"
       },
       "valueAdd": {
-        "score": 15,
-        "band": "unlikely",
+        "score": 50,
+        "band": "possible",
         "reasons": [
-          "69% above postcode median (premium)",
+          "£214/sqft vs local VOA benchmark £13.46/sqft (ratio 15.9×) — 60th percentile among scored listings (lower = cheaper)",
           "Zone 1 — low flood risk"
         ],
         "floodZone": 1,
@@ -362,10 +362,10 @@
         "groupId": null
       },
       "valueAdd": {
-        "score": 15,
-        "band": "unlikely",
+        "score": 85,
+        "band": "strong",
         "reasons": [
-          "3040% above postcode median (premium)",
+          "£74/sqft vs local VOA benchmark £8.33/sqft (ratio 8.9×) — 33th percentile among scored listings (lower = cheaper)",
           "Zone 1 — low flood risk"
         ],
         "floodZone": 1,
@@ -417,7 +417,7 @@
         "score": 0,
         "band": "insufficient_data",
         "reasons": [
-          "100% below postcode median (£213,422)",
+          "price or size unknown",
           "Zone 1 — low flood risk"
         ],
         "floodZone": 1,
@@ -466,10 +466,10 @@
         "groupId": null
       },
       "valueAdd": {
-        "score": 15,
-        "band": "unlikely",
+        "score": 70,
+        "band": "strong",
         "reasons": [
-          "2451% above postcode median (premium)",
+          "£95/sqft vs local VOA benchmark £9.47/sqft (ratio 10.0×) — 40th percentile among scored listings (lower = cheaper)",
           "Zone 1 — low flood risk"
         ],
         "floodZone": 1,
@@ -518,10 +518,10 @@
         "groupId": null
       },
       "valueAdd": {
-        "score": 15,
-        "band": "unlikely",
+        "score": 70,
+        "band": "strong",
         "reasons": [
-          "1845% above postcode median (premium)",
+          "£82/sqft vs local VOA benchmark £7.57/sqft (ratio 10.9×) — 47th percentile among scored listings (lower = cheaper)",
           "Zone 1 — low flood risk"
         ],
         "floodZone": 1,
@@ -573,7 +573,7 @@
         "score": 0,
         "band": "insufficient_data",
         "reasons": [
-          "100% below postcode median (£223,867)",
+          "price or size unknown",
           "Zone 1 — low flood risk"
         ],
         "floodZone": 1,
@@ -625,7 +625,7 @@
         "score": 0,
         "band": "insufficient_data",
         "reasons": [
-          "100% below postcode median (£236,539)",
+          "price or size unknown",
           "Zone 1 — low flood risk"
         ],
         "floodZone": 1,
@@ -674,10 +674,10 @@
         "groupId": null
       },
       "valueAdd": {
-        "score": 15,
-        "band": "unlikely",
+        "score": 100,
+        "band": "strong",
         "reasons": [
-          "935% above postcode median (premium)",
+          "£36/sqft vs local VOA benchmark £5.18/sqft (ratio 7.0×) — 20th percentile among scored listings (lower = cheaper)",
           "Zone 1 — low flood risk"
         ],
         "floodZone": 1,
@@ -729,7 +729,7 @@
         "score": 0,
         "band": "insufficient_data",
         "reasons": [
-          "100% below postcode median (£211,286)",
+          "price or size unknown",
           "Zone 1 — low flood risk"
         ],
         "floodZone": 1,
@@ -778,10 +778,10 @@
         "groupId": null
       },
       "valueAdd": {
-        "score": 15,
-        "band": "unlikely",
+        "score": 100,
+        "band": "strong",
         "reasons": [
-          "40% above postcode median (premium)",
+          "£4/sqft vs local VOA benchmark £9.70/sqft (ratio 0.5×) — 0th percentile among scored listings (lower = cheaper)",
           "Zone 1 — low flood risk"
         ],
         "floodZone": 1,
@@ -833,7 +833,7 @@
         "score": 0,
         "band": "insufficient_data",
         "reasons": [
-          "100% below postcode median (£235,910)",
+          "price or size unknown",
           "Zone 1 — low flood risk"
         ],
         "floodZone": 1,
@@ -885,7 +885,7 @@
         "score": 0,
         "band": "insufficient_data",
         "reasons": [
-          "100% below postcode median (£217,213)",
+          "price or size unknown",
           "Zone 1 — low flood risk"
         ],
         "floodZone": 1,
@@ -934,10 +934,10 @@
         "groupId": null
       },
       "valueAdd": {
-        "score": 15,
-        "band": "unlikely",
+        "score": 100,
+        "band": "strong",
         "reasons": [
-          "155% above postcode median (premium)",
+          "£20/sqft vs local VOA benchmark £6.74/sqft (ratio 3.0×) — 7th percentile among scored listings (lower = cheaper)",
           "Zone 1 — low flood risk"
         ],
         "floodZone": 1,
@@ -986,10 +986,10 @@
         "groupId": null
       },
       "valueAdd": {
-        "score": 15,
+        "score": 25,
         "band": "unlikely",
         "reasons": [
-          "224% above postcode median (premium)",
+          "£150/sqft vs local VOA benchmark £5.55/sqft (ratio 27.0×) — 93th percentile among scored listings (lower = cheaper)",
           "Zone 1 — low flood risk"
         ],
         "floodZone": 1,
@@ -1038,10 +1038,10 @@
         "groupId": null
       },
       "valueAdd": {
-        "score": 15,
+        "score": 25,
         "band": "unlikely",
         "reasons": [
-          "144% above postcode median (premium)",
+          "£141/sqft vs local VOA benchmark £5.55/sqft (ratio 25.4×) — 87th percentile among scored listings (lower = cheaper)",
           "Zone 1 — low flood risk"
         ],
         "floodZone": 1,

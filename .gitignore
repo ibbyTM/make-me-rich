@@ -8,3 +8,8 @@ dist/
 *.log
 coverage/
 .DS_Store
+# Cached national VOA business-rates download (scripts/voa-rates-fetch.ts) —
+# ~90MB compressed / ~730MB uncompressed, re-downloaded on demand, never
+# committed. Only the small filtered dashboard/data/voa-rates-comparables.json
+# output is checked in.
+.cache/
