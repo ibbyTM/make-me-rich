@@ -36,6 +36,11 @@
           "47,916 sq ft equivalent",
           "subtype \"Land · Mixed Use\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -72,6 +77,13 @@
           "12,000 sq ft equivalent",
           "subtype \"Retail Development · Retail · Pub / Bar / Club\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "canonicalUrl": "https://www.barnsdales.co.uk/properties/319692",
+        "duplicateCount": 1,
+        "groupId": "575000:12000#0",
+        "reason": "same price (£575,000) and size (12,000 sq ft), overlapping address"
       }
     }
   ]

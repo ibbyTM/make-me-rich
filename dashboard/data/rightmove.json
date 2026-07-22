@@ -40,6 +40,11 @@
           "2,141 sq ft equivalent",
           "subtype \"Mixed Use\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -80,6 +85,11 @@
           "5,242 sq ft equivalent",
           "subtype \"Office\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -118,6 +128,11 @@
           "5,858 sq ft equivalent",
           "subtype \"Office\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -158,6 +173,13 @@
           "5,856 sq ft equivalent",
           "subtype \"Office\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "canonicalUrl": "https://www.rightmove.co.uk/properties/698589182145520#/?channel=COM_BUY",
+        "duplicateCount": 1,
+        "groupId": "1500000:5856#0",
+        "reason": "same price (£1,500,000) and size (5,856 sq ft), overlapping address"
       }
     },
     {
@@ -198,6 +220,11 @@
           "57,675 sq ft equivalent",
           "subtype \"Industrial Park\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -238,6 +265,11 @@
           "88,670 sq ft equivalent",
           "subtype \"Commercial Development\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -276,6 +308,11 @@
           "48,943 sq ft equivalent",
           "subtype \"Distribution Warehouse\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -316,6 +353,11 @@
           "40,808 sq ft equivalent",
           "subtype \"Light Industrial\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -356,6 +398,11 @@
           "7,811 sq ft equivalent",
           "subtype \"Commercial Property\" — no specific rule, neutral"
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -396,6 +443,11 @@
           "53,252 sq ft equivalent",
           "subtype \"Light Industrial\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -434,6 +486,11 @@
           "size unknown",
           "subtype \"Commercial Development\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -472,6 +529,11 @@
           "8,997 sq ft equivalent",
           "subtype \"Office\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -510,6 +572,11 @@
           "size unknown",
           "subtype \"Light Industrial\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -550,6 +617,13 @@
           "5,856 sq ft equivalent",
           "subtype \"Office\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": true,
+        "canonicalUrl": "https://www.rightmove.co.uk/properties/698589182145520#/?channel=COM_BUY",
+        "duplicateCount": 1,
+        "groupId": "1500000:5856#0",
+        "reason": "same price (£1,500,000) and size (5,856 sq ft), overlapping address"
       }
     },
     {
@@ -588,6 +662,11 @@
           "9,765 sq ft equivalent",
           "subtype \"Office\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -626,6 +705,11 @@
           "size unknown",
           "subtype \"Residential Development\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -664,6 +748,11 @@
           "18,818 sq ft equivalent",
           "subtype \"Industrial Park\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -704,6 +793,11 @@
           "9,210 sq ft equivalent",
           "subtype \"Office\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -744,6 +838,11 @@
           "12,447 sq ft equivalent",
           "subtype \"Office\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -784,6 +883,11 @@
           "6,800 sq ft equivalent",
           "subtype \"Office\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -822,6 +926,11 @@
           "6,055 sq ft equivalent",
           "subtype \"Office\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -860,6 +969,11 @@
           "size unknown",
           "subtype \"Land\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -898,6 +1012,11 @@
           "3,003 sq ft equivalent",
           "subtype \"Office\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -936,6 +1055,11 @@
           "3,887 sq ft equivalent",
           "subtype \"Office\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -974,6 +1098,11 @@
           "5,275 sq ft equivalent",
           "subtype \"Office\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -1014,6 +1143,11 @@
           "14,488 sq ft equivalent",
           "subtype \"Light Industrial\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -1054,6 +1188,11 @@
           "3,779 sq ft equivalent",
           "subtype \"Commercial Development\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -1094,6 +1233,11 @@
           "9,596 sq ft equivalent",
           "subtype \"Warehouse\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -1132,6 +1276,11 @@
           "5,982 sq ft equivalent",
           "subtype \"Retail Property (high street)\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -1172,6 +1321,11 @@
           "36,791 sq ft equivalent",
           "subtype \"Commercial Development\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -1212,6 +1366,11 @@
           "30,742 sq ft equivalent",
           "subtype \"Light Industrial\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -1252,6 +1411,11 @@
           "3,022 sq ft equivalent",
           "subtype \"Office\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -1292,6 +1456,11 @@
           "3,850 sq ft equivalent",
           "subtype \"Office\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -1332,6 +1501,11 @@
           "22,881 sq ft equivalent",
           "subtype \"Commercial Development\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -1372,6 +1546,11 @@
           "17,685 sq ft equivalent",
           "subtype \"Residential Development\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -1412,6 +1591,11 @@
           "65,511 sq ft equivalent",
           "subtype \"Office\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -1452,6 +1636,11 @@
           "85,000 sq ft equivalent",
           "subtype \"Office\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -1492,6 +1681,11 @@
           "57,842 sq ft equivalent",
           "subtype \"Office\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -1532,6 +1726,11 @@
           "35,523 sq ft equivalent",
           "subtype \"Light Industrial\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -1572,6 +1771,11 @@
           "22,259 sq ft equivalent",
           "subtype \"Residential Development\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -1612,6 +1816,11 @@
           "4,521 sq ft equivalent",
           "subtype \"Hotel\" — no specific rule, neutral"
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -1652,6 +1861,11 @@
           "size unknown",
           "subtype \"Healthcare Facility\" — no specific rule, neutral"
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -1692,6 +1906,11 @@
           "44,910 sq ft equivalent",
           "subtype \"Warehouse\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -1730,6 +1949,11 @@
           "28,497 sq ft equivalent",
           "subtype \"Distribution Warehouse\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -1770,6 +1994,11 @@
           "97,574 sq ft equivalent",
           "subtype \"Commercial Development\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -1810,6 +2039,11 @@
           "12,656 sq ft equivalent",
           "subtype \"Light Industrial\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -1850,6 +2084,11 @@
           "6,992 sq ft equivalent",
           "subtype \"Shop\" — no specific rule, neutral"
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -1890,6 +2129,11 @@
           "35,000 sq ft equivalent",
           "subtype \"Mixed Use\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -1930,6 +2174,11 @@
           "13,625 sq ft equivalent",
           "subtype \"Light Industrial\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -1968,6 +2217,11 @@
           "size unknown",
           "subtype \"Commercial Property\" — no specific rule, neutral"
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -2008,6 +2262,11 @@
           "10,387 sq ft equivalent",
           "subtype \"Office\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -2048,6 +2307,11 @@
           "14,175 sq ft equivalent",
           "subtype \"Commercial Property\" — no specific rule, neutral"
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -2088,6 +2352,11 @@
           "10,836 sq ft equivalent",
           "subtype \"Warehouse\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -2128,6 +2397,11 @@
           "11,403 sq ft equivalent",
           "subtype \"Leisure Facility\" — no specific rule, neutral"
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -2166,6 +2440,11 @@
           "size unknown",
           "subtype \"Office\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -2206,6 +2485,11 @@
           "44,179 sq ft equivalent",
           "subtype \"Light Industrial\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -2246,6 +2530,11 @@
           "19,873 sq ft equivalent",
           "subtype \"Serviced Office\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -2286,6 +2575,11 @@
           "5,022 sq ft equivalent",
           "subtype \"Residential Development\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -2326,6 +2620,11 @@
           "4,580 sq ft equivalent",
           "subtype \"Mixed Use\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -2366,6 +2665,11 @@
           "21,489 sq ft equivalent",
           "subtype \"Warehouse\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -2406,6 +2710,11 @@
           "8,196 sq ft equivalent",
           "subtype \"Office\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -2446,6 +2755,11 @@
           "5,765 sq ft equivalent",
           "subtype \"Commercial Development\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -2484,6 +2798,11 @@
           "5,500 sq ft equivalent",
           "subtype \"Office\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -2524,6 +2843,11 @@
           "4,820 sq ft equivalent",
           "subtype \"Warehouse\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -2564,6 +2888,13 @@
           "2,343 sq ft equivalent",
           "subtype \"Office\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "canonicalUrl": "https://www.rightmove.co.uk/properties/761307952034992#/?channel=COM_BUY",
+        "duplicateCount": 1,
+        "groupId": "335000:2343#0",
+        "reason": "same price (£335,000) and size (2,343 sq ft), overlapping address"
       }
     },
     {
@@ -2604,6 +2935,11 @@
           "4,390 sq ft equivalent",
           "subtype \"Office\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -2644,6 +2980,11 @@
           "6,286 sq ft equivalent",
           "subtype \"Showroom\" — no specific rule, neutral"
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -2684,6 +3025,11 @@
           "5,743 sq ft equivalent",
           "subtype \"Office\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -2724,6 +3070,11 @@
           "2,458 sq ft equivalent",
           "subtype \"Shop\" — no specific rule, neutral"
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -2764,6 +3115,13 @@
           "2,783 sq ft equivalent",
           "subtype \"Commercial Development\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "canonicalUrl": "https://www.rightmove.co.uk/properties/719250187282449#/?channel=COM_BUY",
+        "duplicateCount": 1,
+        "groupId": "299950:2783#0",
+        "reason": "same price (£299,950) and size (2,783 sq ft), overlapping address"
       }
     },
     {
@@ -2804,6 +3162,11 @@
           "20,042 sq ft equivalent",
           "subtype \"Residential Development\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -2844,6 +3207,11 @@
           "2,655 sq ft equivalent",
           "subtype \"Commercial Property\" — no specific rule, neutral"
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -2884,6 +3252,11 @@
           "2,602 sq ft equivalent",
           "subtype \"Retail Property (high street)\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -2924,6 +3297,11 @@
           "46,139 sq ft equivalent",
           "subtype \"Light Industrial\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -2964,6 +3342,11 @@
           "350,000 sq ft equivalent",
           "subtype \"Residential Development\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -3002,6 +3385,11 @@
           "11,421 sq ft equivalent",
           "subtype \"Distribution Warehouse\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -3042,6 +3430,11 @@
           "367,935 sq ft equivalent",
           "subtype \"Light Industrial\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -3080,6 +3473,11 @@
           "80,000 sq ft equivalent",
           "subtype \"Distribution Warehouse\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -3118,6 +3516,11 @@
           "12,413 sq ft equivalent",
           "subtype \"Distribution Warehouse\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -3158,6 +3561,11 @@
           "10,890 sq ft equivalent",
           "subtype \"Warehouse\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -3196,6 +3604,11 @@
           "19,873 sq ft equivalent",
           "subtype \"Office\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -3234,6 +3647,13 @@
           "3,546 sq ft equivalent",
           "subtype \"Distribution Warehouse\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "canonicalUrl": "https://www.rightmove.co.uk/properties/174802055#/?channel=COM_BUY",
+        "duplicateCount": 1,
+        "groupId": "1:3546#0",
+        "reason": "same price (£1) and size (3,546 sq ft), overlapping address"
       }
     },
     {
@@ -3272,6 +3692,13 @@
           "3,546 sq ft equivalent",
           "subtype \"Office\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": true,
+        "canonicalUrl": "https://www.rightmove.co.uk/properties/174802055#/?channel=COM_BUY",
+        "duplicateCount": 1,
+        "groupId": "1:3546#0",
+        "reason": "same price (£1) and size (3,546 sq ft), overlapping address"
       }
     },
     {
@@ -3310,6 +3737,11 @@
           "20,000 sq ft equivalent",
           "subtype \"Industrial Development\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -3348,6 +3780,11 @@
           "11,356 sq ft equivalent",
           "subtype \"Retail Property (high street)\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -3388,6 +3825,11 @@
           "2,476 sq ft equivalent",
           "subtype \"Light Industrial\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -3426,6 +3868,11 @@
           "39,178 sq ft equivalent",
           "subtype \"Office\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -3466,6 +3913,11 @@
           "72,564 sq ft equivalent",
           "subtype \"Warehouse\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -3506,6 +3958,11 @@
           "29,351 sq ft equivalent",
           "subtype \"Office\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -3546,6 +4003,11 @@
           "12,623 sq ft equivalent",
           "subtype \"Commercial Property\" — no specific rule, neutral"
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -3586,6 +4048,11 @@
           "16,266 sq ft equivalent",
           "subtype \"Office\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -3626,6 +4093,11 @@
           "11,814 sq ft equivalent",
           "subtype \"Light Industrial\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -3666,6 +4138,11 @@
           "11,194 sq ft equivalent",
           "subtype \"Office\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -3706,6 +4183,11 @@
           "9,015 sq ft equivalent",
           "subtype \"Commercial Development\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -3746,6 +4228,11 @@
           "3,297 sq ft equivalent",
           "subtype \"Office\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -3786,6 +4273,11 @@
           "5,761 sq ft equivalent",
           "subtype \"Light Industrial\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -3826,6 +4318,11 @@
           "3,083 sq ft equivalent",
           "subtype \"Commercial Development\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -3866,6 +4363,11 @@
           "28,079 sq ft equivalent",
           "subtype \"Light Industrial\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -3906,6 +4408,11 @@
           "69,415 sq ft equivalent",
           "subtype \"Light Industrial\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -3946,6 +4453,11 @@
           "105,000 sq ft equivalent",
           "subtype \"Light Industrial\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -3986,6 +4498,11 @@
           "20,405 sq ft equivalent",
           "subtype \"Warehouse\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -4026,6 +4543,11 @@
           "16,165 sq ft equivalent",
           "subtype \"Warehouse\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -4064,6 +4586,11 @@
           "2,546 sq ft equivalent",
           "subtype \"Mixed Use\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -4104,6 +4631,11 @@
           "14,128 sq ft equivalent",
           "subtype \"Leisure Facility\" — no specific rule, neutral"
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -4144,6 +4676,11 @@
           "67,082 sq ft equivalent",
           "subtype \"Commercial Development\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -4182,6 +4719,11 @@
           "3,616 sq ft equivalent",
           "subtype \"Commercial Development\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -4220,6 +4762,11 @@
           "5,813 sq ft equivalent",
           "subtype \"Retail Property (high street)\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -4258,6 +4805,11 @@
           "size unknown",
           "subtype \"Commercial Property\" — no specific rule, neutral"
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -4298,6 +4850,11 @@
           "5,422 sq ft equivalent",
           "subtype \"Commercial Development\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -4338,6 +4895,11 @@
           "2,415 sq ft equivalent",
           "subtype \"Retail Property (out of town)\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -4378,6 +4940,13 @@
           "11,761 sq ft equivalent",
           "subtype \"Residential Development\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": true,
+        "canonicalUrl": "https://www.rightmove.co.uk/properties/742063384158624#/?channel=COM_BUY",
+        "duplicateCount": 2,
+        "groupId": "200000:11761#0",
+        "reason": "same price (£200,000) and size (11,761 sq ft), overlapping address"
       }
     },
     {
@@ -4418,6 +4987,13 @@
           "11,761 sq ft equivalent",
           "subtype \"Residential Development\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "canonicalUrl": "https://www.rightmove.co.uk/properties/742063384158624#/?channel=COM_BUY",
+        "duplicateCount": 2,
+        "groupId": "200000:11761#0",
+        "reason": "same price (£200,000) and size (11,761 sq ft), overlapping address"
       }
     },
     {
@@ -4458,6 +5034,13 @@
           "161,172 sq ft equivalent",
           "subtype \"Residential Development\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "canonicalUrl": "https://www.rightmove.co.uk/properties/742063671410129#/?channel=COM_BUY",
+        "duplicateCount": 1,
+        "groupId": "160000:161172#0",
+        "reason": "same price (£160,000) and size (161,172 sq ft), overlapping address"
       }
     },
     {
@@ -4498,6 +5081,11 @@
           "10,698 sq ft equivalent",
           "subtype \"Bar / Nightclub\" — no specific rule, neutral"
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -4536,6 +5124,11 @@
           "size unknown",
           "subtype \"Light Industrial\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -4574,6 +5167,13 @@
           "11,761 sq ft equivalent",
           "subtype \"Land\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": true,
+        "canonicalUrl": "https://www.rightmove.co.uk/properties/742063384158624#/?channel=COM_BUY",
+        "duplicateCount": 2,
+        "groupId": "200000:11761#0",
+        "reason": "same price (£200,000) and size (11,761 sq ft), overlapping address"
       }
     },
     {
@@ -4612,6 +5212,13 @@
           "161,172 sq ft equivalent",
           "subtype \"Land\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": true,
+        "canonicalUrl": "https://www.rightmove.co.uk/properties/742063671410129#/?channel=COM_BUY",
+        "duplicateCount": 1,
+        "groupId": "160000:161172#0",
+        "reason": "same price (£160,000) and size (161,172 sq ft), overlapping address"
       }
     },
     {
@@ -4652,6 +5259,11 @@
           "92,440 sq ft equivalent",
           "subtype \"Distribution Warehouse\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -4692,6 +5304,11 @@
           "12,389 sq ft equivalent",
           "subtype \"Office\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -4732,6 +5349,11 @@
           "57,064 sq ft equivalent",
           "subtype \"Shop\" — no specific rule, neutral"
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -4772,6 +5394,11 @@
           "11,038 sq ft equivalent",
           "subtype \"Office\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -4812,6 +5439,11 @@
           "5,241 sq ft equivalent",
           "subtype \"Commercial Property\" — no specific rule, neutral"
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -4850,6 +5482,11 @@
           "size unknown",
           "subtype \"Pub\" — no specific rule, neutral"
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -4888,6 +5525,13 @@
           "12,000 sq ft equivalent",
           "subtype \"Retail Property (high street)\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": true,
+        "canonicalUrl": "https://www.barnsdales.co.uk/properties/319692",
+        "duplicateCount": 1,
+        "groupId": "575000:12000#0",
+        "reason": "same price (£575,000) and size (12,000 sq ft), overlapping address"
       }
     },
     {
@@ -4928,6 +5572,11 @@
           "11,326 sq ft equivalent",
           "subtype \"Pub\" — no specific rule, neutral"
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -4968,6 +5617,11 @@
           "250,000 sq ft equivalent",
           "subtype \"Light Industrial\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -5008,6 +5662,11 @@
           "131,041 sq ft equivalent",
           "subtype \"Light Industrial\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -5048,6 +5707,11 @@
           "66,737 sq ft equivalent",
           "subtype \"Light Industrial\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -5088,6 +5752,11 @@
           "66,737 sq ft equivalent",
           "subtype \"Light Industrial\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -5128,6 +5797,11 @@
           "131,041 sq ft equivalent",
           "subtype \"Light Industrial\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -5166,6 +5840,11 @@
           "size unknown",
           "subtype \"Commercial Property\" — no specific rule, neutral"
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -5206,6 +5885,11 @@
           "8,500 sq ft equivalent",
           "subtype \"Commercial Property\" — no specific rule, neutral"
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -5244,6 +5928,11 @@
           "7,615 sq ft equivalent",
           "subtype \"Distribution Warehouse\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -5284,6 +5973,11 @@
           "186,872 sq ft equivalent",
           "subtype \"Light Industrial\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -5324,6 +6018,11 @@
           "31,330 sq ft equivalent",
           "subtype \"Mixed Use\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -5362,6 +6061,11 @@
           "26,275 sq ft equivalent",
           "subtype \"Distribution Warehouse\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -5400,6 +6104,11 @@
           "65,340 sq ft equivalent",
           "subtype \"Residential Development\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -5440,6 +6149,11 @@
           "80,000 sq ft equivalent",
           "subtype \"Light Industrial\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -5480,6 +6194,11 @@
           "154,388 sq ft equivalent",
           "subtype \"Residential Development\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -5520,6 +6239,11 @@
           "17,197 sq ft equivalent",
           "subtype \"Distribution Warehouse\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -5560,6 +6284,11 @@
           "2,914 sq ft equivalent",
           "subtype \"Retail Property (high street)\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -5600,6 +6329,11 @@
           "10,430 sq ft equivalent",
           "subtype \"Office\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -5640,6 +6374,11 @@
           "10,033 sq ft equivalent",
           "subtype \"Retail Property (high street)\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -5680,6 +6419,11 @@
           "9,766 sq ft equivalent",
           "subtype \"Place of Worship\" — no specific rule, neutral"
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -5718,6 +6462,11 @@
           "15,685 sq ft equivalent",
           "subtype \"Warehouse\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -5756,6 +6505,11 @@
           "6,520 sq ft equivalent",
           "subtype \"Warehouse\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -5796,6 +6550,11 @@
           "size unknown",
           "subtype \"Residential Development\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -5836,6 +6595,11 @@
           "size unknown",
           "subtype \"Retail Property (high street)\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -5874,6 +6638,11 @@
           "6,352 sq ft equivalent",
           "subtype \"Warehouse\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -5914,6 +6683,11 @@
           "47,916 sq ft equivalent",
           "subtype \"Commercial Property\" — no specific rule, neutral"
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -5954,6 +6728,11 @@
           "2,450 sq ft equivalent",
           "subtype \"Light Industrial\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -5992,6 +6771,11 @@
           "size unknown",
           "subtype \"Commercial Property\" — no specific rule, neutral"
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -6030,6 +6814,11 @@
           "3,062 sq ft equivalent",
           "subtype \"Office\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -6070,6 +6859,11 @@
           "6,208 sq ft equivalent",
           "subtype \"Warehouse\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -6108,6 +6902,11 @@
           "5,266 sq ft equivalent",
           "subtype \"Leisure Facility\" — no specific rule, neutral"
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -6148,6 +6947,11 @@
           "21,507 sq ft equivalent",
           "subtype \"Commercial Development\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -6186,6 +6990,11 @@
           "11,080 sq ft equivalent",
           "subtype \"Warehouse\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -6226,6 +7035,11 @@
           "9,107 sq ft equivalent",
           "subtype \"Light Industrial\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -6266,6 +7080,11 @@
           "1,133 sq ft equivalent",
           "subtype \"Commercial Property\" — no specific rule, neutral"
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -6306,6 +7125,11 @@
           "7,798 sq ft equivalent",
           "subtype \"Warehouse\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -6346,6 +7170,11 @@
           "5,542 sq ft equivalent",
           "subtype \"Retail Property (high street)\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -6384,6 +7213,11 @@
           "size unknown",
           "subtype \"Residential Development\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -6422,6 +7256,11 @@
           "4,047 sq ft equivalent",
           "subtype \"Retail Property (high street)\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -6460,6 +7299,11 @@
           "2,252 sq ft equivalent",
           "subtype \"Retail Property (high street)\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -6500,6 +7344,11 @@
           "size unknown",
           "subtype \"Pub\" — no specific rule, neutral"
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -6538,6 +7387,11 @@
           "2,242 sq ft equivalent",
           "subtype \"Office\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -6578,6 +7432,11 @@
           "5,960 sq ft equivalent",
           "subtype \"Commercial Development\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -6616,6 +7475,11 @@
           "6,824 sq ft equivalent",
           "subtype \"Distribution Warehouse\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -6656,6 +7520,11 @@
           "1,432 sq ft equivalent",
           "subtype \"Shop\" — no specific rule, neutral"
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -6694,6 +7563,11 @@
           "3,245 sq ft equivalent",
           "subtype \"Office\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -6732,6 +7606,11 @@
           "size unknown",
           "subtype \"Commercial Development\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -6770,6 +7649,11 @@
           "1,319 sq ft equivalent",
           "subtype \"Office\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -6808,6 +7692,11 @@
           "size unknown",
           "subtype \"Mixed Use\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -6846,6 +7735,13 @@
           "2,336 sq ft equivalent",
           "subtype \"Retail Property (high street)\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": true,
+        "canonicalUrl": "https://gifforddixoncommercialproperty.co.uk/property/riverside-unit-at-bridgewater-wharf-257-ordsall-lane-salford-m5-3ng/",
+        "duplicateCount": 1,
+        "groupId": "500000:2336#0",
+        "reason": "same price (£500,000) and size (2,336 sq ft), overlapping address"
       }
     },
     {
@@ -6886,6 +7782,11 @@
           "2,229 sq ft equivalent",
           "subtype \"Retail Property (high street)\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -6924,6 +7825,11 @@
           "2,076 sq ft equivalent",
           "subtype \"Office\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -6964,6 +7870,11 @@
           "2,877 sq ft equivalent",
           "subtype \"Warehouse\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -7002,6 +7913,11 @@
           "3,046 sq ft equivalent",
           "subtype \"Heavy Industrial\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -7040,6 +7956,11 @@
           "2,634 sq ft equivalent",
           "subtype \"Industrial Park\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -7078,6 +7999,11 @@
           "2,012 sq ft equivalent",
           "subtype \"Land\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -7118,6 +8044,11 @@
           "74,960 sq ft equivalent",
           "subtype \"Commercial Development\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -7158,6 +8089,11 @@
           "28,211 sq ft equivalent",
           "subtype \"Commercial Development\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -7198,6 +8134,11 @@
           "11,326 sq ft equivalent",
           "subtype \"Pub\" — no specific rule, neutral"
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -7238,6 +8179,11 @@
           "size unknown",
           "subtype \"Pub\" — no specific rule, neutral"
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -7278,6 +8224,11 @@
           "7,000 sq ft equivalent",
           "subtype \"Office\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -7318,6 +8269,11 @@
           "35,719 sq ft equivalent",
           "subtype \"Pub\" — no specific rule, neutral"
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -7358,6 +8314,11 @@
           "size unknown",
           "subtype \"Light Industrial\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -7398,6 +8359,11 @@
           "4,668 sq ft equivalent",
           "subtype \"Office\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -7438,6 +8404,11 @@
           "5,346 sq ft equivalent",
           "subtype \"Office\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -7478,6 +8449,11 @@
           "8,288 sq ft equivalent",
           "subtype \"Leisure Facility\" — no specific rule, neutral"
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -7518,6 +8494,11 @@
           "3,625 sq ft equivalent",
           "subtype \"Office\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -7558,6 +8539,11 @@
           "3,645 sq ft equivalent",
           "subtype \"Office\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -7596,6 +8582,11 @@
           "25,700 sq ft equivalent",
           "subtype \"Commercial Development\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -7636,6 +8627,11 @@
           "2,000 sq ft equivalent",
           "subtype \"Mixed Use\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -7676,6 +8672,11 @@
           "2,088 sq ft equivalent",
           "subtype \"Office\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -7714,6 +8715,11 @@
           "8,793 sq ft equivalent",
           "subtype \"Industrial Park\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -7752,6 +8758,11 @@
           "3,000 sq ft equivalent",
           "subtype \"Commercial Property\" — no specific rule, neutral"
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -7790,6 +8801,11 @@
           "4,897 sq ft equivalent",
           "subtype \"Commercial Property\" — no specific rule, neutral"
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     }
   ]

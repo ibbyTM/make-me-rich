@@ -37,6 +37,13 @@
           "2,343 sq ft equivalent",
           "subtype \"Office\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": true,
+        "canonicalUrl": "https://www.rightmove.co.uk/properties/761307952034992#/?channel=COM_BUY",
+        "duplicateCount": 1,
+        "groupId": "335000:2343#0",
+        "reason": "same price (£335,000) and size (2,343 sq ft), overlapping address"
       }
     },
     {
@@ -74,6 +81,11 @@
           "3,863 sq ft equivalent",
           "subtype \"Leisure\" — no specific rule, neutral"
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -111,6 +123,11 @@
           "8,918 sq ft equivalent",
           "subtype \"Development, Industrial\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -148,6 +165,13 @@
           "2,783 sq ft equivalent",
           "subtype \"Development, Office, Retail\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": true,
+        "canonicalUrl": "https://www.rightmove.co.uk/properties/719250187282449#/?channel=COM_BUY",
+        "duplicateCount": 1,
+        "groupId": "299950:2783#0",
+        "reason": "same price (£299,950) and size (2,783 sq ft), overlapping address"
       }
     },
     {
@@ -185,6 +209,11 @@
           "4,674 sq ft equivalent",
           "subtype \"Office\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -222,6 +251,13 @@
           "2,336 sq ft equivalent",
           "subtype \"Leisure, Office, Restaurant / Cafe, Retail\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "canonicalUrl": "https://gifforddixoncommercialproperty.co.uk/property/riverside-unit-at-bridgewater-wharf-257-ordsall-lane-salford-m5-3ng/",
+        "duplicateCount": 1,
+        "groupId": "500000:2336#0",
+        "reason": "same price (£500,000) and size (2,336 sq ft), overlapping address"
       }
     },
     {
@@ -259,6 +295,11 @@
           "87,876 sq ft equivalent",
           "subtype \"Industrial / Warehouse\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -296,6 +337,11 @@
           "74,754 sq ft equivalent",
           "subtype \"Industrial / Warehouse\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -333,6 +379,11 @@
           "60,433 sq ft equivalent",
           "subtype \"Industrial / Warehouse\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -370,6 +421,11 @@
           "48,625 sq ft equivalent",
           "subtype \"Industrial / Warehouse\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -407,6 +463,11 @@
           "47,064 sq ft equivalent",
           "subtype \"Industrial / Warehouse\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -444,6 +505,11 @@
           "36,872 sq ft equivalent",
           "subtype \"Industrial / Warehouse\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -481,6 +547,11 @@
           "62,016 sq ft equivalent",
           "subtype \"Industrial\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -518,6 +589,11 @@
           "92,467 sq ft equivalent",
           "subtype \"Industrial\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -555,6 +631,11 @@
           "78,408 sq ft equivalent",
           "subtype \"Industrial\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -592,6 +673,11 @@
           "38,293 sq ft equivalent",
           "subtype \"Industrial\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -629,6 +715,11 @@
           "35,811 sq ft equivalent",
           "subtype \"Industrial\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -666,6 +757,11 @@
           "30,010 sq ft equivalent",
           "subtype \"Office\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -703,6 +799,11 @@
           "4,520 sq ft equivalent",
           "subtype \"Industrial\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     },
     {
@@ -740,6 +841,11 @@
           "3,616 sq ft equivalent",
           "subtype \"Industrial\""
         ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
       }
     }
   ]
