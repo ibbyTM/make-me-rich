@@ -2,9 +2,12 @@
  * Value-Add scoring (2026-07-22, rebuilt on VOA data) — read-only enrichment
  * layer, same pattern as data-centre-fit.ts and dedup-listings.ts: reads the
  * 3 dashboard data files, loads the VOA business-rates comparables table
- * (scripts/voa-rates-fetch.ts), looks up flood risk, computes each listing's
- * price/sqft-to-local-VOA-rate ratio, ranks that ratio's percentile across
- * every scoreable listing, then computes the final Value-Add score.
+ * (scripts/voa-rates-fetch.ts), computes each listing's price/sqft-to-local-
+ * VOA-rate ratio, ranks that ratio's percentile across every scoreable
+ * listing, then computes the final Value-Add score. (Flood risk was dropped
+ * from this score at the user's direction — not a priority, and it was only
+ * ever a coarse postcode-prefix placeholder. src/geo/floodRisk.ts and its
+ * data are no longer used anywhere.)
  *
  * IMPORTANT ordering note: the 3 base report scripts fully regenerate their
  * files, which wipes this enrichment — run this (and the other enrichment
@@ -17,7 +20,6 @@
 
 import { readFile, writeFile } from 'node:fs/promises';
 import { scoreValueAdd, type ValueAddInput } from '../src/scoring/valueAdd.js';
-import { estimateFloodRiskByPostcode } from '../src/geo/floodRisk.js';
 import { extractPostcode } from '../src/geo/postcodes.js';
 
 interface VoaComparablesData {
@@ -95,7 +97,6 @@ async function main() {
     const postcode = extractPostcode(row.address ?? '');
     const district = postcode?.split(/\s+/)[0] ?? null;
     const voa = district ? voaDistricts[district] : null;
-    const floodRisk = postcode ? estimateFloodRiskByPostcode(postcode) : { zone: null, reason: 'postcode unknown' };
 
     const ratio = ratios.get(row);
     const ratioPercentile = ratio !== undefined ? percentileRank(sortedRatios, ratio) : null;
@@ -103,7 +104,6 @@ async function main() {
     const input: ValueAddInput = {
       priceAmount: row.priceAmount ?? null,
       sizeSqft: row.sizeSqft ?? null,
-      floodRiskZone: floodRisk.zone,
       localVoaRatePerSqft: voa?.medianRatePerSqft ?? null,
       voaSampleCount: voa?.sampleCount ?? 0,
       ratioPercentile,
@@ -115,8 +115,6 @@ async function main() {
       score: result.score,
       band: result.band,
       reasons: result.reasons,
-      floodZone: floodRisk.zone,
-      floodReason: floodRisk.reason,
     };
 
     if (result.band !== 'insufficient_data') scoredCount++;

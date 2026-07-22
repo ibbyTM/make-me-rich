@@ -1,8 +1,8 @@
 /**
  * Value-Add score (Phase 2, 2026-07-22) — read-only analysis layer measuring
- * price attractiveness vs. a local commercial rental-value benchmark, plus
- * flood risk. Pure function, same discipline as dataCentreFit.ts: inputs in,
- * a score + reasons out.
+ * price attractiveness vs. a local commercial rental-value benchmark. Pure
+ * function, same discipline as dataCentreFit.ts: inputs in, a score + reasons
+ * out.
  *
  * The price component was originally built against Land Registry Price Paid
  * Data, then rebuilt against VOA business rates data after discovering Land
@@ -25,23 +25,15 @@
  * relative "better value, controlling for location" signal, without
  * pretending to know the area's true cap rate.
  *
- * Two weighted components, 100 points total:
- *   - Price attractiveness (75 pts): percentile rank of the price/VOA-rate
- *     ratio across the scored dataset (lower percentile = cheaper = more
- *     points). Gated on having a real VOA district benchmark with enough
- *     samples, plus a price and size on the listing itself.
- *   - Flood risk (25 pts): Zone 1 (low) = 25, Zone 2 (medium) = 10, Zone 3
- *     (high) = 0. (Still the coarse postcode-district placeholder from the
- *     original build — a real Environment Agency WFS lookup is still a
- *     pending next step, unrelated to this VOA rebuild.)
+ * Flood risk was scored here in the first build (25 of 100 pts) but dropped
+ * 2026-07-22 at the user's direction — not a priority, and it was only ever
+ * a coarse postcode-prefix guess-list anyway (never a real Environment
+ * Agency lookup). Score is now 100% the price-percentile signal.
  */
-
-export type FloodRiskZone = 1 | 2 | 3 | null;
 
 export interface ValueAddInput {
   priceAmount: number | null;
   sizeSqft: number | null;
-  floodRiskZone: FloodRiskZone;
   /** District median rateable-value-per-sqft from VOA business rates data, or null if no district benchmark. */
   localVoaRatePerSqft: number | null;
   /** Sample size behind that district median (should be reasonably large — VOA districts typically carry hundreds of records). */
@@ -65,11 +57,11 @@ export interface ValueAddResult {
 const MIN_VOA_SAMPLES = 10;
 
 const PERCENTILE_BANDS: { maxPercentile: number; points: number }[] = [
-  { maxPercentile: 20, points: 75 },
-  { maxPercentile: 35, points: 60 },
-  { maxPercentile: 50, points: 45 },
-  { maxPercentile: 65, points: 25 },
-  { maxPercentile: 80, points: 10 },
+  { maxPercentile: 20, points: 100 },
+  { maxPercentile: 35, points: 80 },
+  { maxPercentile: 50, points: 60 },
+  { maxPercentile: 65, points: 35 },
+  { maxPercentile: 80, points: 15 },
   { maxPercentile: 100, points: 0 },
 ];
 
@@ -101,21 +93,7 @@ function priceAttractivenessPoints(
   };
 }
 
-function floodRiskPoints(zone: FloodRiskZone): { points: number; reason: string } {
-  switch (zone) {
-    case 1:
-      return { points: 25, reason: 'Zone 1 — low flood risk' };
-    case 2:
-      return { points: 10, reason: 'Zone 2 — medium flood risk' };
-    case 3:
-      return { points: 0, reason: 'Zone 3 — high flood risk' };
-    case null:
-      return { points: 5, reason: 'flood risk unknown (neutral)' };
-  }
-}
-
-function bandOf(score: number, hasComparables: boolean): ValueAddResult['band'] {
-  if (!hasComparables) return 'insufficient_data';
+function bandOf(score: number): ValueAddResult['band'] {
   if (score >= 65) return 'strong';
   if (score >= 35) return 'possible';
   return 'unlikely';
@@ -129,14 +107,10 @@ export function scoreValueAdd(input: ValueAddInput): ValueAddResult {
     input.voaSampleCount,
     input.ratioPercentile,
   );
-  const flood = floodRiskPoints(input.floodRiskZone);
 
   if (!price.hasData) {
-    return { score: 0, band: 'insufficient_data', reasons: [price.reason, flood.reason] };
+    return { score: 0, band: 'insufficient_data', reasons: [price.reason] };
   }
 
-  const rawScore = price.points + flood.points;
-  const score = Math.max(0, Math.min(100, rawScore));
-
-  return { score, band: bandOf(score, true), reasons: [price.reason, flood.reason] };
+  return { score: price.points, band: bandOf(price.points), reasons: [price.reason] };
 }

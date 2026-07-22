@@ -300,7 +300,7 @@
         <option value="priceAmount">Price</option>
         <option value="fitScore">Data Centre Fit</option>
         <option value="valueAddScore">Value-Add Score</option>
-        <option value="distanceKm">Distance to power station</option>
+        <option value="distanceKm">Distance to substation</option>
       </select>
       <button class="secondary" id="sortBtn" type="button">⇅</button>
     </div>
@@ -403,7 +403,7 @@
       if (sortField === 'fitScore') return (r.dataCentreFit || {}).score ?? -1;
       if (sortField === 'valueAddScore') return (r.valueAdd || {}).score ?? -1;
       if (sortField === 'distanceKm') {
-        const km = (r.powerStation || {}).nearestMajorKm;
+        const km = (r.substation || {}).distanceKm;
         return km == null ? Infinity : km; // unknown distance sorts last regardless of direction
       }
       return r.priceAmount || 0;
@@ -423,12 +423,13 @@
       const price = gbp(r.priceAmount) || esc(r.priceDisplay || 'POA');
       const types = typeList(r).slice(0, 3);
       const ps = r.powerStation || {};
+      const sub = r.substation || {};
       const fit = r.dataCentreFit || {};
       const va = r.valueAdd || {};
-      const powerLine = ps.nearestMajorKm != null
+      const powerLine = sub.distanceKm != null
         ? '<div class="card-power"><span' + (ps.geocodePrecision === 'city-centroid' ? ' class="approx"' : '') + '>' +
-            ps.nearestMajorKm + 'km to ' + esc(ps.nearestMajorName || 'nearest station') +
-            (ps.nearestMajorFuel ? ' (' + esc(ps.nearestMajorFuel) + ')' : '') +
+            sub.distanceKm + 'km to ' + esc(sub.name || 'nearest substation') +
+            (sub.voltageKv ? ' (' + sub.voltageKv + 'kV)' : '') +
           '</span></div>'
         : '';
       const fitTag = fit.band ? '<span class="tag fit-' + esc(fit.band) + '" title="' + esc((fit.reasons || []).join('; ')) + '">DC fit: ' + esc(fit.band) + ' (' + esc(fit.score) + ')</span>' : '';

@@ -34,9 +34,9 @@
  *
  * IMPORTANT ordering note: this must run AFTER rightmove-commercial-
  * report.ts, every time — if you refresh listings and don't re-run this
- * script, the dashboard will show stale/missing power-station data on the
- * new rows. There's no dependency-tracking here yet; the cache reduces the
- * cost of that but doesn't remove the need to re-run.
+ * script, the dashboard will show stale/missing substation data on the new
+ * rows. There's no dependency-tracking here yet; the cache reduces the cost
+ * of that but doesn't remove the need to re-run.
  *
  *   NODE_USE_ENV_PROXY=1 NODE_EXTRA_CA_CERTS=/root/.ccr/ca-bundle.crt \
  *     node --import tsx scripts/rightmove-detail-geocode.ts
@@ -45,7 +45,14 @@
 import { readFile, writeFile } from 'node:fs/promises';
 import { fetchListingCoordinates } from '../src/scrapers/rightmoveCommercial.js';
 import { loadGbPowerStations, nearestStation, type PowerStation } from '../src/geo/powerStations.js';
-import { scoreDataCentreFit, sizeSqftEquivalent, MAJOR_STATION_MIN_MW } from '../src/scoring/dataCentreFit.js';
+import { loadGbSubstations, bestSubstationScore, type Substation } from '../src/geo/substations.js';
+import { scoreDataCentreFit, sizeSqftEquivalent } from '../src/scoring/dataCentreFit.js';
+
+function substationReason(match: ReturnType<typeof bestSubstationScore>): string {
+  if (!match) return 'no substation with a usable voltage (>=33kV) found nearby';
+  const kv = Math.round(match.substation.voltageV / 1000);
+  return `${match.distanceKm.toFixed(1)}km to ${match.substation.name} (${kv}kV, ${match.tier})`;
+}
 
 interface DashboardRow {
   address: string;
@@ -76,6 +83,7 @@ async function loadCache(): Promise<Record<string, Coords>> {
 async function main() {
   const data = JSON.parse(await readFile(PATH, 'utf8')) as { rows: DashboardRow[]; [k: string]: unknown };
   const stations: PowerStation[] = await loadGbPowerStations();
+  const substations: Substation[] = await loadGbSubstations();
   const cache = await loadCache();
 
   let upgraded = 0;
@@ -123,10 +131,11 @@ async function main() {
     }
 
     const anyStation = nearestStation(coords, stations);
-    const majorStation = nearestStation(coords, stations, { minCapacityMw: MAJOR_STATION_MIN_MW });
+    const substationMatch = bestSubstationScore(coords, substations);
     const sqft = sizeSqftEquivalent(row.sizeLabel ?? '', row.sizeSqft ?? null);
     const fit = scoreDataCentreFit({
-      nearestMajorStationKm: majorStation?.distanceKm ?? null,
+      substationPoints: substationMatch?.points ?? 0,
+      substationReason: substationReason(substationMatch),
       sizeSqftEquivalent: sqft,
       propertyType: row.propertyType ?? '',
     });
@@ -138,11 +147,15 @@ async function main() {
       nearestAnyKm: anyStation ? Number(anyStation.distanceKm.toFixed(1)) : null,
       nearestAnyName: anyStation?.station.name ?? null,
       nearestAnyFuel: anyStation?.station.fuel ?? null,
-      nearestMajorKm: majorStation ? Number(majorStation.distanceKm.toFixed(1)) : null,
-      nearestMajorName: majorStation?.station.name ?? null,
-      nearestMajorFuel: majorStation?.station.fuel ?? null,
-      nearestMajorCapacityMw: majorStation?.station.capacityMw ?? null,
     };
+    row.substation = substationMatch
+      ? {
+          distanceKm: Number(substationMatch.distanceKm.toFixed(1)),
+          name: substationMatch.substation.name,
+          voltageKv: Math.round(substationMatch.substation.voltageV / 1000),
+          tier: substationMatch.tier,
+        }
+      : null;
     row.dataCentreFit = fit;
     upgraded++;
     process.stderr.write(`exact: ${coords.lat},${coords.lon} — ${fit.band} (${fit.score})\n`);

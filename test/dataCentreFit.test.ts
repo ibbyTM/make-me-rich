@@ -17,9 +17,10 @@ describe('sizeSqftEquivalent', () => {
 });
 
 describe('scoreDataCentreFit', () => {
-  it('scores a close, large, industrial site as a strong fit', () => {
+  it('scores a close-to-a-transmission-substation, large, industrial site as a strong fit', () => {
     const res = scoreDataCentreFit({
-      nearestMajorStationKm: 1.2,
+      substationPoints: 60,
+      substationReason: '1.2km to Thorpe Marsh Substation (400kV)',
       sizeSqftEquivalent: 150_000,
       propertyType: 'Industrial / Warehouse',
     });
@@ -27,9 +28,10 @@ describe('scoreDataCentreFit', () => {
     expect(res.band).toBe('strong');
   });
 
-  it('scores a far, small, retail unit as unlikely', () => {
+  it('scores a far-from-any-substation, small, retail unit as unlikely', () => {
     const res = scoreDataCentreFit({
-      nearestMajorStationKm: 60,
+      substationPoints: 0,
+      substationReason: 'no substation with a usable voltage found within range',
       sizeSqftEquivalent: 800,
       propertyType: 'Retail',
     });
@@ -37,9 +39,10 @@ describe('scoreDataCentreFit', () => {
     expect(res.band).toBe('unlikely');
   });
 
-  it('scores a moderate-distance, modestly sized plot as possible', () => {
+  it('scores a moderate substation match, modestly sized plot as possible', () => {
     const res = scoreDataCentreFit({
-      nearestMajorStationKm: 8,
+      substationPoints: 35,
+      substationReason: '3km to a 66kV substation',
       sizeSqftEquivalent: 3_000,
       propertyType: 'Land',
     });
@@ -49,7 +52,8 @@ describe('scoreDataCentreFit', () => {
 
   it('treats missing location/size/subtype data as low/neutral rather than throwing', () => {
     const res = scoreDataCentreFit({
-      nearestMajorStationKm: null,
+      substationPoints: null,
+      substationReason: 'no location data — distance to substation unknown',
       sizeSqftEquivalent: null,
       propertyType: '',
     });
@@ -57,10 +61,17 @@ describe('scoreDataCentreFit', () => {
     expect(res.reasons).toHaveLength(3);
   });
 
+  it('clamps substationPoints to [0, 60] defensively', () => {
+    const over = scoreDataCentreFit({ substationPoints: 999, substationReason: 'x', sizeSqftEquivalent: null, propertyType: '' });
+    const under = scoreDataCentreFit({ substationPoints: -10, substationReason: 'x', sizeSqftEquivalent: null, propertyType: '' });
+    expect(over.score).toBe(60 + 0 + 5);
+    expect(under.score).toBe(0 + 0 + 5);
+  });
+
   it('office and mixed-use land between retail and industrial/land in weight', () => {
-    const office = scoreDataCentreFit({ nearestMajorStationKm: 1, sizeSqftEquivalent: 100_000, propertyType: 'Office' });
-    const mixed = scoreDataCentreFit({ nearestMajorStationKm: 1, sizeSqftEquivalent: 100_000, propertyType: 'Mixed Use' });
-    const industrial = scoreDataCentreFit({ nearestMajorStationKm: 1, sizeSqftEquivalent: 100_000, propertyType: 'Industrial' });
+    const office = scoreDataCentreFit({ substationPoints: 60, substationReason: 'x', sizeSqftEquivalent: 100_000, propertyType: 'Office' });
+    const mixed = scoreDataCentreFit({ substationPoints: 60, substationReason: 'x', sizeSqftEquivalent: 100_000, propertyType: 'Mixed Use' });
+    const industrial = scoreDataCentreFit({ substationPoints: 60, substationReason: 'x', sizeSqftEquivalent: 100_000, propertyType: 'Industrial' });
     expect(office.score).toBeLessThan(mixed.score);
     expect(mixed.score).toBeLessThan(industrial.score);
   });

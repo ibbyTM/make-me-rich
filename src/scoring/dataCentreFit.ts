@@ -1,19 +1,22 @@
 /**
- * "Data Centre Fit" score (Phase 1, 2026-07-19) — read-only analysis layer on
- * top of listings already in the dashboard. Pure function, same discipline as
- * src/filter/stageZero.ts: inputs in, a score + human-readable reasons out, so
- * the "why" is inspectable rather than a black box, and every weight/threshold
- * below is a named constant specifically so it's easy to sanity-check and
- * retune once real distance/size numbers are in hand (that's the explicit
- * point of this pass — see docs/data-centre-fit-2026-07-19.md).
+ * "Data Centre Fit" score (Phase 1, 2026-07-19; grid-signal rebuilt
+ * 2026-07-22) — read-only analysis layer on top of listings already in the
+ * dashboard. Pure function, same discipline as src/filter/stageZero.ts:
+ * inputs in, a score + human-readable reasons out, so the "why" is
+ * inspectable rather than a black box, and every weight/threshold below is a
+ * named constant specifically so it's easy to sanity-check and retune.
  *
  * Three weighted components, 100 points total:
- *   - proximity to the nearest MAJOR power station (>=50MW) — 60 pts, by far
- *     the heaviest weight per the brief ("weight heavily on proximity").
- *     Deliberately keyed to major stations, not any generation site: a data
- *     centre needs a meaningful nearby grid connection, and a 1MW rooftop
- *     solar array a few hundred metres away isn't evidence of one the way a
- *     ex-coal/gas/nuclear/large-wind-farm site is.
+ *   - proximity to a high-voltage electricity SUBSTATION — 60 pts, by far
+ *     the heaviest weight ("weight heavily on proximity" per the original
+ *     brief). This replaced power-station proximity as the primary signal
+ *     2026-07-22: checked against the live dataset, half of the 185 GB power
+ *     stations >=50MW are wind farms, which sit in remote/rural locations
+ *     far from substantial grid infrastructure — "near a big wind farm"
+ *     isn't strong evidence of "near spare grid capacity" the way "near a
+ *     275kV substation" is. A data centre physically connects to a
+ *     substation, not a generation site, so that's the more direct signal.
+ *     See src/geo/substations.ts and docs/data-centre-fit-substations-2026-07-22.md.
  *   - property size — 25 pts, favouring large plots (industrial/warehouse/
  *     land scale, acres or tens of thousands of sq ft) over small retail/
  *     office units.
@@ -21,11 +24,11 @@
  *     Development, deprioritising Retail/Office, per the brief.
  */
 
-export const MAJOR_STATION_MIN_MW = 50;
-
 export interface DataCentreFitInput {
-  /** Distance in km to the nearest power station with capacity >= MAJOR_STATION_MIN_MW, or null if no location data. */
-  nearestMajorStationKm: number | null;
+  /** Points (0-60) already computed for the nearest usable substation by src/geo/substations.ts's bestSubstationScore — tier (voltage) × distance decay, folded into one number so this function doesn't need to know about voltage tiers itself. Null if no location data or no substation found nearby. */
+  substationPoints: number | null;
+  /** Human-readable description of the substation match, for the reasons array (e.g. "1.2km to Thorpe Marsh Substation (400kV)"). */
+  substationReason: string;
   /** Best-effort size in sq ft (acres already converted), or null if unknown. */
   sizeSqftEquivalent: number | null;
   /** Raw property type/subtype string as stored on the listing (may be blank). */
@@ -44,21 +47,6 @@ export function sizeSqftEquivalent(sizeLabel: string, sizeSqft: number | null): 
   const acres = /([\d.]+)\s*acres?/i.exec(sizeLabel ?? '');
   if (acres) return Math.round(Number(acres[1]) * 43560);
   return null;
-}
-
-const DISTANCE_BANDS: { maxKm: number; points: number }[] = [
-  { maxKm: 2, points: 60 },
-  { maxKm: 5, points: 50 },
-  { maxKm: 10, points: 35 },
-  { maxKm: 20, points: 20 },
-  { maxKm: 40, points: 8 },
-  { maxKm: Infinity, points: 0 },
-];
-
-function distancePoints(km: number | null): { points: number; reason: string } {
-  if (km === null) return { points: 0, reason: 'no location data — distance to power station unknown' };
-  const band = DISTANCE_BANDS.find((b) => km <= b.maxKm)!;
-  return { points: band.points, reason: `${km.toFixed(1)}km to nearest major (>=${MAJOR_STATION_MIN_MW}MW) power station` };
 }
 
 const SIZE_BANDS: { minSqft: number; points: number }[] = [
@@ -100,9 +88,9 @@ function bandOf(score: number): DataCentreFitResult['band'] {
 }
 
 export function scoreDataCentreFit(input: DataCentreFitInput): DataCentreFitResult {
-  const d = distancePoints(input.nearestMajorStationKm);
+  const substationPts = Math.max(0, Math.min(60, input.substationPoints ?? 0));
   const s = sizePoints(input.sizeSqftEquivalent);
   const t = subtypePoints(input.propertyType);
-  const score = d.points + s.points + t.points;
-  return { score, band: bandOf(score), reasons: [d.reason, s.reason, t.reason] };
+  const score = substationPts + s.points + t.points;
+  return { score, band: bandOf(score), reasons: [input.substationReason, s.reason, t.reason] };
 }

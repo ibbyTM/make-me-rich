@@ -1,18 +1,23 @@
 /**
- * "Data Centre Fit" analysis (Phase 1, 2026-07-19) — read-only enrichment of
- * listings already sitting in dashboard/data/*.json. No new scraping, no new
- * sites: this reads the same three files the existing report scripts already
- * write, geocodes each listing, finds its nearest power station, scores it,
- * and writes the same three files back out with two new fields per row
- * (`powerStation`, `dataCentreFit`) — every existing field is preserved.
+ * "Data Centre Fit" analysis (Phase 1, 2026-07-19; grid-signal rebuilt
+ * 2026-07-22) — read-only enrichment of listings already sitting in
+ * dashboard/data/*.json. No new scraping, no new sites: this reads the same
+ * three files the existing report scripts already write, geocodes each
+ * listing, finds its nearest usable-voltage substation (the scored grid-
+ * connection signal — see src/geo/substations.ts for why this replaced
+ * power-station proximity), scores it, and writes the same three files back
+ * out with three fields per row (`powerStation` — informational only now,
+ * `substation`, `dataCentreFit`) — every existing field is preserved.
  *
  * IMPORTANT ordering note: barnsdales-report.ts / rightmove-commercial-
  * report.ts / discovered-agents-report.ts each fully REGENERATE their JSON
  * file from a fresh live pull (spec: one script, one file, full overwrite).
  * This script has to run AFTER them, every time — if you refresh listings and
- * don't re-run this script, the dashboard will show stale/missing power-
- * station data on the new rows. There's no dependency-tracking here yet
- * (Phase 1 scope); this is a known, documented limitation, not a bug.
+ * don't re-run this script, the dashboard will show stale/missing substation
+ * data on the new rows. There's no dependency-tracking here yet (Phase 1
+ * scope); this is a known, documented limitation, not a bug. Also run
+ * scripts/substations-fetch.ts first (or whenever the dataset's geographic
+ * spread changes) so data/gb-substations.json covers every listing.
  *
  * Geocoding precision (see src/geo/postcodes.ts for the full reasoning):
  *   - Barnsdales / PropertyHive-sourced rows carry a real postcode in their
@@ -40,7 +45,15 @@ import {
   type LatLon,
 } from '../src/geo/postcodes.js';
 import { loadGbPowerStations, nearestStation, type PowerStation } from '../src/geo/powerStations.js';
-import { scoreDataCentreFit, sizeSqftEquivalent, MAJOR_STATION_MIN_MW } from '../src/scoring/dataCentreFit.js';
+import { loadGbSubstations, bestSubstationScore, type Substation } from '../src/geo/substations.js';
+import { scoreDataCentreFit, sizeSqftEquivalent } from '../src/scoring/dataCentreFit.js';
+
+/** Human-readable substation-match reason for the score's reasons array. */
+function substationReason(match: ReturnType<typeof bestSubstationScore>): string {
+  if (!match) return 'no substation with a usable voltage (>=33kV) found nearby';
+  const kv = Math.round(match.substation.voltageV / 1000);
+  return `${match.distanceKm.toFixed(1)}km to ${match.substation.name} (${kv}kV, ${match.tier})`;
+}
 
 /** Rightmove rows only ever carry these 7 city names (src/scrapers/rightmoveCommercial.ts CITYWIDE_CITIES) — a representative central outcode per city, for the approximate fallback. */
 const CITY_CENTRE_OUTCODE: Record<string, string> = {
@@ -102,6 +115,10 @@ async function main() {
   const stations: PowerStation[] = await loadGbPowerStations();
   process.stderr.write(`${stations.length} generation sites loaded.\n`);
 
+  process.stderr.write('loading GB substation dataset ...\n');
+  const substations: Substation[] = await loadGbSubstations();
+  process.stderr.write(`${substations.length} substations loaded.\n`);
+
   // --- Enrich every row ----------------------------------------------------
   const distScoreRows: { score: number; distanceKm: number | null; sqft: number | null; precision: string }[] = [];
 
@@ -122,12 +139,16 @@ async function main() {
         }
       }
 
+      // Power station info is kept on the row as informational context only
+      // (shown on the card) — it no longer feeds the score; substation
+      // proximity is the scored grid-connection signal (see dataCentreFit.ts).
       const anyStation = point ? nearestStation(point, stations) : null;
-      const majorStation = point ? nearestStation(point, stations, { minCapacityMw: MAJOR_STATION_MIN_MW }) : null;
+      const substationMatch = point ? bestSubstationScore(point, substations) : null;
 
       const sqft = sizeSqftEquivalent(row.sizeLabel ?? '', row.sizeSqft ?? null);
       const fit = scoreDataCentreFit({
-        nearestMajorStationKm: majorStation?.distanceKm ?? null,
+        substationPoints: point ? (substationMatch?.points ?? 0) : null,
+        substationReason: point ? substationReason(substationMatch) : 'no location data — distance to substation unknown',
         sizeSqftEquivalent: sqft,
         propertyType: row.propertyType ?? '',
       });
@@ -137,14 +158,18 @@ async function main() {
         nearestAnyKm: anyStation ? Number(anyStation.distanceKm.toFixed(1)) : null,
         nearestAnyName: anyStation?.station.name ?? null,
         nearestAnyFuel: anyStation?.station.fuel ?? null,
-        nearestMajorKm: majorStation ? Number(majorStation.distanceKm.toFixed(1)) : null,
-        nearestMajorName: majorStation?.station.name ?? null,
-        nearestMajorFuel: majorStation?.station.fuel ?? null,
-        nearestMajorCapacityMw: majorStation?.station.capacityMw ?? null,
       };
+      row.substation = substationMatch
+        ? {
+            distanceKm: Number(substationMatch.distanceKm.toFixed(1)),
+            name: substationMatch.substation.name,
+            voltageKv: Math.round(substationMatch.substation.voltageV / 1000),
+            tier: substationMatch.tier,
+          }
+        : null;
       row.dataCentreFit = fit;
 
-      distScoreRows.push({ score: fit.score, distanceKm: majorStation?.distanceKm ?? null, sqft, precision });
+      distScoreRows.push({ score: fit.score, distanceKm: substationMatch?.distanceKm ?? null, sqft, precision });
     }
   }
 
