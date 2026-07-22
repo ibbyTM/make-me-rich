@@ -23,17 +23,13 @@
         "geocodePrecision": "postcode",
         "nearestAnyKm": 1.6,
         "nearestAnyName": "Sheffield ERF",
-        "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 35.6,
-        "nearestMajorName": "Thornhill",
-        "nearestMajorFuel": "Gas",
-        "nearestMajorCapacityMw": 50
+        "nearestAnyFuel": "Waste"
       },
       "dataCentreFit": {
-        "score": 16,
-        "band": "unlikely",
+        "score": 68,
+        "band": "strong",
         "reasons": [
-          "35.6km to nearest major (>=50MW) power station",
+          "1.2km to Sheffield City Substation (275kV, transmission)",
           "2,343 sq ft equivalent",
           "subtype \"Office\""
         ]
@@ -46,14 +42,17 @@
         "reason": "same price (£335,000) and size (2,343 sq ft), overlapping address"
       },
       "valueAdd": {
-        "score": 35,
-        "band": "possible",
+        "score": 15,
+        "band": "unlikely",
         "reasons": [
-          "£143/sqft vs local VOA benchmark £8.07/sqft (ratio 17.7×) — 73th percentile among scored listings (lower = cheaper)",
-          "Zone 1 — low flood risk"
-        ],
-        "floodZone": 1,
-        "floodReason": "postcode district — low historical flood risk"
+          "£143/sqft vs local VOA benchmark £8.07/sqft (ratio 17.7×) — 73th percentile among scored listings (lower = cheaper)"
+        ]
+      },
+      "substation": {
+        "distanceKm": 1.2,
+        "name": "Sheffield City Substation",
+        "voltageKv": 275,
+        "tier": "transmission"
       }
     },
     {
@@ -77,17 +76,13 @@
         "geocodePrecision": "postcode",
         "nearestAnyKm": 8.5,
         "nearestAnyName": "Loicher Lane",
-        "nearestAnyFuel": "Biomass",
-        "nearestMajorKm": 24,
-        "nearestMajorName": "Thornhill",
-        "nearestMajorFuel": "Gas",
-        "nearestMajorCapacityMw": 50
+        "nearestAnyFuel": "Biomass"
       },
       "dataCentreFit": {
-        "score": 18,
-        "band": "unlikely",
+        "score": 61,
+        "band": "possible",
         "reasons": [
-          "24.0km to nearest major (>=50MW) power station",
+          "2.5km to Stocksbridge (400kV, transmission)",
           "3,863 sq ft equivalent",
           "subtype \"Leisure\" — no specific rule, neutral"
         ]
@@ -98,14 +93,17 @@
         "groupId": null
       },
       "valueAdd": {
-        "score": 85,
+        "score": 80,
         "band": "strong",
         "reasons": [
-          "£61/sqft vs local VOA benchmark £8.28/sqft (ratio 7.3×) — 27th percentile among scored listings (lower = cheaper)",
-          "Zone 1 — low flood risk"
-        ],
-        "floodZone": 1,
-        "floodReason": "postcode district — low historical flood risk"
+          "£61/sqft vs local VOA benchmark £8.28/sqft (ratio 7.3×) — 27th percentile among scored listings (lower = cheaper)"
+        ]
+      },
+      "substation": {
+        "distanceKm": 2.5,
+        "name": "Stocksbridge",
+        "voltageKv": 400,
+        "tier": "transmission"
       }
     },
     {
@@ -129,17 +127,13 @@
         "geocodePrecision": "postcode",
         "nearestAnyKm": 8.8,
         "nearestAnyName": "Royd Moor",
-        "nearestAnyFuel": "Wind",
-        "nearestMajorKm": 24.1,
-        "nearestMajorName": "Thornhill",
-        "nearestMajorFuel": "Gas",
-        "nearestMajorCapacityMw": 50
+        "nearestAnyFuel": "Wind"
       },
       "dataCentreFit": {
-        "score": 33,
-        "band": "unlikely",
+        "score": 76,
+        "band": "strong",
         "reasons": [
-          "24.1km to nearest major (>=50MW) power station",
+          "2.1km to Stocksbridge (400kV, transmission)",
           "8,918 sq ft equivalent",
           "subtype \"Development, Industrial\""
         ]
@@ -150,14 +144,17 @@
         "groupId": null
       },
       "valueAdd": {
-        "score": 50,
+        "score": 35,
         "band": "possible",
         "reasons": [
-          "£107/sqft vs local VOA benchmark £8.28/sqft (ratio 12.9×) — 53th percentile among scored listings (lower = cheaper)",
-          "Zone 1 — low flood risk"
-        ],
-        "floodZone": 1,
-        "floodReason": "postcode district — low historical flood risk"
+          "£107/sqft vs local VOA benchmark £8.28/sqft (ratio 12.9×) — 53th percentile among scored listings (lower = cheaper)"
+        ]
+      },
+      "substation": {
+        "distanceKm": 2.1,
+        "name": "Stocksbridge",
+        "voltageKv": 400,
+        "tier": "transmission"
       }
     },
     {
@@ -181,17 +178,13 @@
         "geocodePrecision": "postcode",
         "nearestAnyKm": 3.5,
         "nearestAnyName": "Loscar",
-        "nearestAnyFuel": "Wind",
-        "nearestMajorKm": 30.1,
-        "nearestMajorName": "West Burton",
-        "nearestMajorFuel": "Coal",
-        "nearestMajorCapacityMw": 2012
+        "nearestAnyFuel": "Wind"
       },
       "dataCentreFit": {
-        "score": 28,
-        "band": "unlikely",
+        "score": 56,
+        "band": "possible",
         "reasons": [
-          "30.1km to nearest major (>=50MW) power station",
+          "7.0km to Thurcroft Substation (275kV, transmission)",
           "2,783 sq ft equivalent",
           "subtype \"Development, Office, Retail\""
         ]
@@ -204,14 +197,17 @@
         "reason": "same price (£299,950) and size (2,783 sq ft), overlapping address"
       },
       "valueAdd": {
-        "score": 10,
+        "score": 15,
         "band": "unlikely",
         "reasons": [
-          "£108/sqft vs local VOA benchmark £6.70/sqft (ratio 16.1×) — 67th percentile among scored listings (lower = cheaper)",
-          "Zone 3 — high flood risk"
-        ],
-        "floodZone": 3,
-        "floodReason": "postcode district \"S2\" — known flood-risk area"
+          "£108/sqft vs local VOA benchmark £6.70/sqft (ratio 16.1×) — 67th percentile among scored listings (lower = cheaper)"
+        ]
+      },
+      "substation": {
+        "distanceKm": 7,
+        "name": "Thurcroft Substation",
+        "voltageKv": 275,
+        "tier": "transmission"
       }
     },
     {
@@ -235,17 +231,13 @@
         "geocodePrecision": "postcode",
         "nearestAnyKm": 1.8,
         "nearestAnyName": "Ardwick Railway Goods Yard Incinerator (Newhaven EFW Plant)",
-        "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 13.2,
-        "nearestMajorName": "Carrington",
-        "nearestMajorFuel": "Gas",
-        "nearestMajorCapacityMw": 900
+        "nearestAnyFuel": "Waste"
       },
       "dataCentreFit": {
-        "score": 28,
-        "band": "unlikely",
+        "score": 58,
+        "band": "possible",
         "reasons": [
-          "13.2km to nearest major (>=50MW) power station",
+          "1.4km to Bloom Street Substation (132kV, grid-supply)",
           "4,674 sq ft equivalent",
           "subtype \"Office\""
         ]
@@ -256,14 +248,17 @@
         "groupId": null
       },
       "valueAdd": {
-        "score": 35,
-        "band": "possible",
+        "score": 15,
+        "band": "unlikely",
         "reasons": [
-          "£417/sqft vs local VOA benchmark £17.69/sqft (ratio 23.6×) — 80th percentile among scored listings (lower = cheaper)",
-          "Zone 1 — low flood risk"
-        ],
-        "floodZone": 1,
-        "floodReason": "postcode district — low historical flood risk"
+          "£417/sqft vs local VOA benchmark £17.69/sqft (ratio 23.6×) — 80th percentile among scored listings (lower = cheaper)"
+        ]
+      },
+      "substation": {
+        "distanceKm": 1.4,
+        "name": "Bloom Street Substation",
+        "voltageKv": 132,
+        "tier": "grid-supply"
       }
     },
     {
@@ -287,17 +282,13 @@
         "geocodePrecision": "postcode",
         "nearestAnyKm": 2.9,
         "nearestAnyName": "Salford Refuse Treatment Plant (AD)",
-        "nearestAnyFuel": "Biomass",
-        "nearestMajorKm": 9.5,
-        "nearestMajorName": "Carrington",
-        "nearestMajorFuel": "Gas",
-        "nearestMajorCapacityMw": 900
+        "nearestAnyFuel": "Biomass"
       },
       "dataCentreFit": {
-        "score": 43,
+        "score": 51,
         "band": "possible",
         "reasons": [
-          "9.5km to nearest major (>=50MW) power station",
+          "2.5km to Bloom Street Substation (132kV, grid-supply)",
           "2,336 sq ft equivalent",
           "subtype \"Leisure, Office, Restaurant / Cafe, Retail\""
         ]
@@ -310,14 +301,17 @@
         "reason": "same price (£500,000) and size (2,336 sq ft), overlapping address"
       },
       "valueAdd": {
-        "score": 50,
+        "score": 35,
         "band": "possible",
         "reasons": [
-          "£214/sqft vs local VOA benchmark £13.46/sqft (ratio 15.9×) — 60th percentile among scored listings (lower = cheaper)",
-          "Zone 1 — low flood risk"
-        ],
-        "floodZone": 1,
-        "floodReason": "postcode district — low historical flood risk"
+          "£214/sqft vs local VOA benchmark £13.46/sqft (ratio 15.9×) — 60th percentile among scored listings (lower = cheaper)"
+        ]
+      },
+      "substation": {
+        "distanceKm": 2.5,
+        "name": "Bloom Street Substation",
+        "voltageKv": 132,
+        "tier": "grid-supply"
       }
     },
     {
@@ -341,17 +335,13 @@
         "geocodePrecision": "postcode",
         "nearestAnyKm": 5.8,
         "nearestAnyName": "Coventry",
-        "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 48.8,
-        "nearestMajorName": "Ratcliffe",
-        "nearestMajorFuel": "Coal",
-        "nearestMajorCapacityMw": 2000
+        "nearestAnyFuel": "Waste"
       },
       "dataCentreFit": {
-        "score": 33,
-        "band": "unlikely",
+        "score": 93,
+        "band": "strong",
         "reasons": [
-          "48.8km to nearest major (>=50MW) power station",
+          "1.3km to Coventry Substation (275kV, transmission)",
           "87,876 sq ft equivalent",
           "subtype \"Industrial / Warehouse\""
         ]
@@ -362,14 +352,17 @@
         "groupId": null
       },
       "valueAdd": {
-        "score": 85,
+        "score": 80,
         "band": "strong",
         "reasons": [
-          "£74/sqft vs local VOA benchmark £8.33/sqft (ratio 8.9×) — 33th percentile among scored listings (lower = cheaper)",
-          "Zone 1 — low flood risk"
-        ],
-        "floodZone": 1,
-        "floodReason": "postcode district — low historical flood risk"
+          "£74/sqft vs local VOA benchmark £8.33/sqft (ratio 8.9×) — 33th percentile among scored listings (lower = cheaper)"
+        ]
+      },
+      "substation": {
+        "distanceKm": 1.3,
+        "name": "Coventry Substation",
+        "voltageKv": 275,
+        "tier": "transmission"
       }
     },
     {
@@ -393,17 +386,13 @@
         "geocodePrecision": "postcode",
         "nearestAnyKm": 4.4,
         "nearestAnyName": "Coventry",
-        "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 50.3,
-        "nearestMajorName": "Ratcliffe",
-        "nearestMajorFuel": "Coal",
-        "nearestMajorCapacityMw": 2000
+        "nearestAnyFuel": "Waste"
       },
       "dataCentreFit": {
-        "score": 33,
-        "band": "unlikely",
+        "score": 84,
+        "band": "strong",
         "reasons": [
-          "50.3km to nearest major (>=50MW) power station",
+          "2.9km to Coventry Substation (275kV, transmission)",
           "74,754 sq ft equivalent",
           "subtype \"Industrial / Warehouse\""
         ]
@@ -417,11 +406,14 @@
         "score": 0,
         "band": "insufficient_data",
         "reasons": [
-          "price or size unknown",
-          "Zone 1 — low flood risk"
-        ],
-        "floodZone": 1,
-        "floodReason": "postcode district — low historical flood risk"
+          "price or size unknown"
+        ]
+      },
+      "substation": {
+        "distanceKm": 2.9,
+        "name": "Coventry Substation",
+        "voltageKv": 275,
+        "tier": "transmission"
       }
     },
     {
@@ -445,17 +437,13 @@
         "geocodePrecision": "postcode",
         "nearestAnyKm": 5.9,
         "nearestAnyName": "Coventry",
-        "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 56.4,
-        "nearestMajorName": "Ratcliffe",
-        "nearestMajorFuel": "Coal",
-        "nearestMajorCapacityMw": 2000
+        "nearestAnyFuel": "Waste"
       },
       "dataCentreFit": {
-        "score": 33,
-        "band": "unlikely",
+        "score": 84,
+        "band": "strong",
         "reasons": [
-          "56.4km to nearest major (>=50MW) power station",
+          "2.8km to Berkswell 275kV (275kV, transmission)",
           "60,433 sq ft equivalent",
           "subtype \"Industrial / Warehouse\""
         ]
@@ -466,14 +454,17 @@
         "groupId": null
       },
       "valueAdd": {
-        "score": 70,
-        "band": "strong",
+        "score": 60,
+        "band": "possible",
         "reasons": [
-          "£95/sqft vs local VOA benchmark £9.47/sqft (ratio 10.0×) — 40th percentile among scored listings (lower = cheaper)",
-          "Zone 1 — low flood risk"
-        ],
-        "floodZone": 1,
-        "floodReason": "postcode district — low historical flood risk"
+          "£95/sqft vs local VOA benchmark £9.47/sqft (ratio 10.0×) — 40th percentile among scored listings (lower = cheaper)"
+        ]
+      },
+      "substation": {
+        "distanceKm": 2.8,
+        "name": "Berkswell 275kV",
+        "voltageKv": 275,
+        "tier": "transmission"
       }
     },
     {
@@ -497,17 +488,13 @@
         "geocodePrecision": "postcode",
         "nearestAnyKm": 2.3,
         "nearestAnyName": "Daventry",
-        "nearestAnyFuel": "Biomass",
-        "nearestMajorKm": 43.1,
-        "nearestMajorName": "Corby",
-        "nearestMajorFuel": "Gas",
-        "nearestMajorCapacityMw": 401
+        "nearestAnyFuel": "Biomass"
       },
       "dataCentreFit": {
-        "score": 33,
-        "band": "unlikely",
+        "score": 83,
+        "band": "strong",
         "reasons": [
-          "43.1km to nearest major (>=50MW) power station",
+          "0.9km to Daventry Substation (132kV, grid-supply)",
           "48,625 sq ft equivalent",
           "subtype \"Industrial / Warehouse\""
         ]
@@ -518,14 +505,17 @@
         "groupId": null
       },
       "valueAdd": {
-        "score": 70,
-        "band": "strong",
+        "score": 60,
+        "band": "possible",
         "reasons": [
-          "£82/sqft vs local VOA benchmark £7.57/sqft (ratio 10.9×) — 47th percentile among scored listings (lower = cheaper)",
-          "Zone 1 — low flood risk"
-        ],
-        "floodZone": 1,
-        "floodReason": "postcode district — low historical flood risk"
+          "£82/sqft vs local VOA benchmark £7.57/sqft (ratio 10.9×) — 47th percentile among scored listings (lower = cheaper)"
+        ]
+      },
+      "substation": {
+        "distanceKm": 0.9,
+        "name": "Daventry Substation",
+        "voltageKv": 132,
+        "tier": "grid-supply"
       }
     },
     {
@@ -549,17 +539,13 @@
         "geocodePrecision": "postcode",
         "nearestAnyKm": 7.1,
         "nearestAnyName": "Morton Wood Farm",
-        "nearestAnyFuel": "Solar",
-        "nearestMajorKm": 77.3,
-        "nearestMajorName": "EFDA JJET Fusion Flywheel",
-        "nearestMajorFuel": "Storage",
-        "nearestMajorCapacityMw": 400
+        "nearestAnyFuel": "Solar"
       },
       "dataCentreFit": {
-        "score": 33,
-        "band": "unlikely",
+        "score": 69,
+        "band": "strong",
         "reasons": [
-          "77.3km to nearest major (>=50MW) power station",
+          "6.9km to Feckenham Substation (400kV, transmission)",
           "47,064 sq ft equivalent",
           "subtype \"Industrial / Warehouse\""
         ]
@@ -573,11 +559,14 @@
         "score": 0,
         "band": "insufficient_data",
         "reasons": [
-          "price or size unknown",
-          "Zone 1 — low flood risk"
-        ],
-        "floodZone": 1,
-        "floodReason": "postcode district — low historical flood risk"
+          "price or size unknown"
+        ]
+      },
+      "substation": {
+        "distanceKm": 6.9,
+        "name": "Feckenham Substation",
+        "voltageKv": 400,
+        "tier": "transmission"
       }
     },
     {
@@ -601,17 +590,13 @@
         "geocodePrecision": "postcode",
         "nearestAnyKm": 3,
         "nearestAnyName": "Judkins Landfill Scheme",
-        "nearestAnyFuel": "Waste",
-        "nearestMajorKm": 43,
-        "nearestMajorName": "Ratcliffe",
-        "nearestMajorFuel": "Coal",
-        "nearestMajorCapacityMw": 2000
+        "nearestAnyFuel": "Waste"
       },
       "dataCentreFit": {
-        "score": 33,
-        "band": "unlikely",
+        "score": 83,
+        "band": "strong",
         "reasons": [
-          "43.0km to nearest major (>=50MW) power station",
+          "0.8km to Nuneaton Substation (132kV, grid-supply)",
           "36,872 sq ft equivalent",
           "subtype \"Industrial / Warehouse\""
         ]
@@ -625,11 +610,14 @@
         "score": 0,
         "band": "insufficient_data",
         "reasons": [
-          "price or size unknown",
-          "Zone 1 — low flood risk"
-        ],
-        "floodZone": 1,
-        "floodReason": "postcode district — low historical flood risk"
+          "price or size unknown"
+        ]
+      },
+      "substation": {
+        "distanceKm": 0.8,
+        "name": "Nuneaton Substation",
+        "voltageKv": 132,
+        "tier": "grid-supply"
       }
     },
     {
@@ -653,17 +641,13 @@
         "geocodePrecision": "postcode",
         "nearestAnyKm": 9,
         "nearestAnyName": "SPD 3 Grange Farm",
-        "nearestAnyFuel": "Solar",
-        "nearestMajorKm": 35.8,
-        "nearestMajorName": "Spalding",
-        "nearestMajorFuel": "Gas",
-        "nearestMajorCapacityMw": 880
+        "nearestAnyFuel": "Solar"
       },
       "dataCentreFit": {
-        "score": 41,
+        "score": 54,
         "band": "possible",
         "reasons": [
-          "35.8km to nearest major (>=50MW) power station",
+          "16.0km to Triton Knoll Wind Farm Substation (400kV, transmission)",
           "62,016 sq ft equivalent",
           "subtype \"Industrial\""
         ]
@@ -677,11 +661,14 @@
         "score": 100,
         "band": "strong",
         "reasons": [
-          "£36/sqft vs local VOA benchmark £5.18/sqft (ratio 7.0×) — 20th percentile among scored listings (lower = cheaper)",
-          "Zone 1 — low flood risk"
-        ],
-        "floodZone": 1,
-        "floodReason": "postcode district — low historical flood risk"
+          "£36/sqft vs local VOA benchmark £5.18/sqft (ratio 7.0×) — 20th percentile among scored listings (lower = cheaper)"
+        ]
+      },
+      "substation": {
+        "distanceKm": 16,
+        "name": "Triton Knoll Wind Farm Substation",
+        "voltageKv": 400,
+        "tier": "transmission"
       }
     },
     {
@@ -705,17 +692,13 @@
         "geocodePrecision": "postcode",
         "nearestAnyKm": 3.1,
         "nearestAnyName": "Land West Of Hunger Hill Farm",
-        "nearestAnyFuel": "Solar",
-        "nearestMajorKm": 24.5,
-        "nearestMajorName": "Hartlepool",
-        "nearestMajorFuel": "Nuclear",
-        "nearestMajorCapacityMw": 1180
+        "nearestAnyFuel": "Solar"
       },
       "dataCentreFit": {
-        "score": 41,
-        "band": "possible",
+        "score": 83,
+        "band": "strong",
         "reasons": [
-          "24.5km to nearest major (>=50MW) power station",
+          "1.7km to Darlington Central (132kV, grid-supply)",
           "92,467 sq ft equivalent",
           "subtype \"Industrial\""
         ]
@@ -729,11 +712,14 @@
         "score": 0,
         "band": "insufficient_data",
         "reasons": [
-          "price or size unknown",
-          "Zone 1 — low flood risk"
-        ],
-        "floodZone": 1,
-        "floodReason": "postcode district — low historical flood risk"
+          "price or size unknown"
+        ]
+      },
+      "substation": {
+        "distanceKm": 1.7,
+        "name": "Darlington Central",
+        "voltageKv": 132,
+        "tier": "grid-supply"
       }
     },
     {
@@ -757,17 +743,13 @@
         "geocodePrecision": "postcode",
         "nearestAnyKm": 4.3,
         "nearestAnyName": "Nissan Test Track",
-        "nearestAnyFuel": "Solar",
-        "nearestMajorKm": 34.2,
-        "nearestMajorName": "Hartlepool",
-        "nearestMajorFuel": "Nuclear",
-        "nearestMajorCapacityMw": 1180
+        "nearestAnyFuel": "Solar"
       },
       "dataCentreFit": {
-        "score": 41,
-        "band": "possible",
+        "score": 69,
+        "band": "strong",
         "reasons": [
-          "34.2km to nearest major (>=50MW) power station",
+          "5.4km to West Boldon Substation (275kV, transmission)",
           "78,408 sq ft equivalent",
           "subtype \"Industrial\""
         ]
@@ -781,11 +763,14 @@
         "score": 100,
         "band": "strong",
         "reasons": [
-          "£4/sqft vs local VOA benchmark £9.70/sqft (ratio 0.5×) — 0th percentile among scored listings (lower = cheaper)",
-          "Zone 1 — low flood risk"
-        ],
-        "floodZone": 1,
-        "floodReason": "postcode district — low historical flood risk"
+          "£4/sqft vs local VOA benchmark £9.70/sqft (ratio 0.5×) — 0th percentile among scored listings (lower = cheaper)"
+        ]
+      },
+      "substation": {
+        "distanceKm": 5.4,
+        "name": "West Boldon Substation",
+        "voltageKv": 275,
+        "tier": "transmission"
       }
     },
     {
@@ -809,17 +794,13 @@
         "geocodePrecision": "postcode",
         "nearestAnyKm": 1.9,
         "nearestAnyName": "High Sharpley",
-        "nearestAnyFuel": "Wind",
-        "nearestMajorKm": 23.3,
-        "nearestMajorName": "Hartlepool",
-        "nearestMajorFuel": "Nuclear",
-        "nearestMajorCapacityMw": 1180
+        "nearestAnyFuel": "Wind"
       },
       "dataCentreFit": {
-        "score": 41,
-        "band": "possible",
+        "score": 84,
+        "band": "strong",
         "reasons": [
-          "23.3km to nearest major (>=50MW) power station",
+          "4.8km to Hawthorn Pit Substation (275kV, transmission)",
           "38,293 sq ft equivalent",
           "subtype \"Industrial\""
         ]
@@ -833,11 +814,14 @@
         "score": 0,
         "band": "insufficient_data",
         "reasons": [
-          "price or size unknown",
-          "Zone 1 — low flood risk"
-        ],
-        "floodZone": 1,
-        "floodReason": "postcode district — low historical flood risk"
+          "price or size unknown"
+        ]
+      },
+      "substation": {
+        "distanceKm": 4.8,
+        "name": "Hawthorn Pit Substation",
+        "voltageKv": 275,
+        "tier": "transmission"
       }
     },
     {
@@ -861,17 +845,13 @@
         "geocodePrecision": "postcode",
         "nearestAnyKm": 1,
         "nearestAnyName": "Preston Road AD Plant (Waste AD)",
-        "nearestAnyFuel": "Biomass",
-        "nearestMajorKm": 25.1,
-        "nearestMajorName": "Hartlepool",
-        "nearestMajorFuel": "Nuclear",
-        "nearestMajorCapacityMw": 1180
+        "nearestAnyFuel": "Biomass"
       },
       "dataCentreFit": {
-        "score": 41,
+        "score": 63,
         "band": "possible",
         "reasons": [
-          "25.1km to nearest major (>=50MW) power station",
+          "5.2km to Darlington North Substation (132kV, grid-supply)",
           "35,811 sq ft equivalent",
           "subtype \"Industrial\""
         ]
@@ -885,11 +865,14 @@
         "score": 0,
         "band": "insufficient_data",
         "reasons": [
-          "price or size unknown",
-          "Zone 1 — low flood risk"
-        ],
-        "floodZone": 1,
-        "floodReason": "postcode district — low historical flood risk"
+          "price or size unknown"
+        ]
+      },
+      "substation": {
+        "distanceKm": 5.2,
+        "name": "Darlington North Substation",
+        "voltageKv": 132,
+        "tier": "grid-supply"
       }
     },
     {
@@ -913,17 +896,13 @@
         "geocodePrecision": "postcode",
         "nearestAnyKm": 2,
         "nearestAnyName": "Lambs Hill",
-        "nearestAnyFuel": "Wind",
-        "nearestMajorKm": 11.7,
-        "nearestMajorName": "Hartlepool",
-        "nearestMajorFuel": "Nuclear",
-        "nearestMajorCapacityMw": 1180
+        "nearestAnyFuel": "Wind"
       },
       "dataCentreFit": {
-        "score": 41,
-        "band": "possible",
+        "score": 72,
+        "band": "strong",
         "reasons": [
-          "11.7km to nearest major (>=50MW) power station",
+          "4.5km to Norton Substation (400kV, transmission)",
           "30,010 sq ft equivalent",
           "subtype \"Office\""
         ]
@@ -937,11 +916,14 @@
         "score": 100,
         "band": "strong",
         "reasons": [
-          "£20/sqft vs local VOA benchmark £6.74/sqft (ratio 3.0×) — 7th percentile among scored listings (lower = cheaper)",
-          "Zone 1 — low flood risk"
-        ],
-        "floodZone": 1,
-        "floodReason": "postcode district — low historical flood risk"
+          "£20/sqft vs local VOA benchmark £6.74/sqft (ratio 3.0×) — 7th percentile among scored listings (lower = cheaper)"
+        ]
+      },
+      "substation": {
+        "distanceKm": 4.5,
+        "name": "Norton Substation",
+        "voltageKv": 400,
+        "tier": "transmission"
       }
     },
     {
@@ -965,17 +947,13 @@
         "geocodePrecision": "postcode",
         "nearestAnyKm": 3.4,
         "nearestAnyName": "Land North of Sandhutton Lane",
-        "nearestAnyFuel": "Solar",
-        "nearestMajorKm": 47.6,
-        "nearestMajorName": "Hartlepool",
-        "nearestMajorFuel": "Nuclear",
-        "nearestMajorCapacityMw": 1180
+        "nearestAnyFuel": "Solar"
       },
       "dataCentreFit": {
-        "score": 20,
-        "band": "unlikely",
+        "score": 40,
+        "band": "possible",
         "reasons": [
-          "47.6km to nearest major (>=50MW) power station",
+          "0.6km to Sowerby (33kV, local-primary)",
           "4,520 sq ft equivalent",
           "subtype \"Industrial\""
         ]
@@ -986,14 +964,17 @@
         "groupId": null
       },
       "valueAdd": {
-        "score": 25,
+        "score": 0,
         "band": "unlikely",
         "reasons": [
-          "£150/sqft vs local VOA benchmark £5.55/sqft (ratio 27.0×) — 93th percentile among scored listings (lower = cheaper)",
-          "Zone 1 — low flood risk"
-        ],
-        "floodZone": 1,
-        "floodReason": "postcode district — low historical flood risk"
+          "£150/sqft vs local VOA benchmark £5.55/sqft (ratio 27.0×) — 93th percentile among scored listings (lower = cheaper)"
+        ]
+      },
+      "substation": {
+        "distanceKm": 0.6,
+        "name": "Sowerby",
+        "voltageKv": 33,
+        "tier": "local-primary"
       }
     },
     {
@@ -1017,17 +998,13 @@
         "geocodePrecision": "postcode",
         "nearestAnyKm": 3.4,
         "nearestAnyName": "Land North of Sandhutton Lane",
-        "nearestAnyFuel": "Solar",
-        "nearestMajorKm": 47.6,
-        "nearestMajorName": "Hartlepool",
-        "nearestMajorFuel": "Nuclear",
-        "nearestMajorCapacityMw": 1180
+        "nearestAnyFuel": "Solar"
       },
       "dataCentreFit": {
-        "score": 20,
-        "band": "unlikely",
+        "score": 40,
+        "band": "possible",
         "reasons": [
-          "47.6km to nearest major (>=50MW) power station",
+          "0.6km to Sowerby (33kV, local-primary)",
           "3,616 sq ft equivalent",
           "subtype \"Industrial\""
         ]
@@ -1038,14 +1015,17 @@
         "groupId": null
       },
       "valueAdd": {
-        "score": 25,
+        "score": 0,
         "band": "unlikely",
         "reasons": [
-          "£141/sqft vs local VOA benchmark £5.55/sqft (ratio 25.4×) — 87th percentile among scored listings (lower = cheaper)",
-          "Zone 1 — low flood risk"
-        ],
-        "floodZone": 1,
-        "floodReason": "postcode district — low historical flood risk"
+          "£141/sqft vs local VOA benchmark £5.55/sqft (ratio 25.4×) — 87th percentile among scored listings (lower = cheaper)"
+        ]
+      },
+      "substation": {
+        "distanceKm": 0.6,
+        "name": "Sowerby",
+        "voltageKv": 33,
+        "tier": "local-primary"
       }
     }
   ]

@@ -22,17 +22,13 @@
         "geocodePrecision": "postcode",
         "nearestAnyKm": 2.4,
         "nearestAnyName": "Castleford",
-        "nearestAnyFuel": "Gas",
-        "nearestMajorKm": 2.4,
-        "nearestMajorName": "Castleford",
-        "nearestMajorFuel": "Gas",
-        "nearestMajorCapacityMw": 56
+        "nearestAnyFuel": "Gas"
       },
       "dataCentreFit": {
-        "score": 83,
+        "score": 84,
         "band": "strong",
         "reasons": [
-          "2.4km to nearest major (>=50MW) power station",
+          "4.2km to substation 193460868 (400kV, transmission)",
           "47,916 sq ft equivalent",
           "subtype \"Land · Mixed Use\""
         ]
@@ -46,11 +42,14 @@
         "score": 0,
         "band": "insufficient_data",
         "reasons": [
-          "price or size unknown",
-          "Zone 1 — low flood risk"
-        ],
-        "floodZone": 1,
-        "floodReason": "postcode district — low historical flood risk"
+          "price or size unknown"
+        ]
+      },
+      "substation": {
+        "distanceKm": 4.2,
+        "name": "substation 193460868",
+        "voltageKv": 400,
+        "tier": "transmission"
       }
     },
     {
@@ -73,17 +72,13 @@
         "geocodePrecision": "postcode",
         "nearestAnyKm": 1.6,
         "nearestAnyName": "Prosper Demulder Limited Anaerobic Digestion Plant (Waste AD)",
-        "nearestAnyFuel": "Biomass",
-        "nearestMajorKm": 21,
-        "nearestMajorName": "Eggborough",
-        "nearestMajorFuel": "Coal",
-        "nearestMajorCapacityMw": 1960
+        "nearestAnyFuel": "Biomass"
       },
       "dataCentreFit": {
-        "score": 33,
-        "band": "unlikely",
+        "score": 75,
+        "band": "strong",
         "reasons": [
-          "21.0km to nearest major (>=50MW) power station",
+          "0.6km to Doncaster Central 132/33/25kV (132kV, grid-supply)",
           "12,000 sq ft equivalent",
           "subtype \"Retail Development · Retail · Pub / Bar / Club\""
         ]
@@ -99,11 +94,14 @@
         "score": 100,
         "band": "strong",
         "reasons": [
-          "£48/sqft vs local VOA benchmark £8.86/sqft (ratio 5.4×) — 13th percentile among scored listings (lower = cheaper)",
-          "Zone 1 — low flood risk"
-        ],
-        "floodZone": 1,
-        "floodReason": "postcode district — low historical flood risk"
+          "£48/sqft vs local VOA benchmark £8.86/sqft (ratio 5.4×) — 13th percentile among scored listings (lower = cheaper)"
+        ]
+      },
+      "substation": {
+        "distanceKm": 0.6,
+        "name": "Doncaster Central 132/33/25kV",
+        "voltageKv": 132,
+        "tier": "grid-supply"
       }
     }
   ]

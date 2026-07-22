@@ -44,13 +44,18 @@ const CITY_CENTRE_OUTCODE: Record<string, string> = {
 
 const FILES = ['dashboard/data/barnsdales.json', 'dashboard/data/rightmove.json', 'dashboard/data/discovered.json'];
 const OUTPUT_PATH = 'data/gb-substations.json';
-// overpass-api.de intermittently 406s on this environment's requests (its load
-// balancer announces a different backend hostname than the one dialed —
-// confirmed 2026-07-22, same query succeeds seconds later on the mirror
-// below); overpass.kumi.systems is a well-established public Overpass mirror,
-// same free/no-auth OSM data, and answered reliably in testing.
-const OVERPASS_URL = 'https://overpass.kumi.systems/api/interpreter';
-const DELAY_BETWEEN_QUERIES_MS = 8000; // Overpass etiquette — avoid hammering the shared public instance
+// No single free public Overpass mirror was reliable in this environment on
+// 2026-07-22 — overpass-api.de intermittently 406s (its load balancer routes
+// to inconsistent backends), overpass.kumi.systems intermittently 429s/times
+// out under its own load, both otherwise legitimate. Rather than pick one
+// and hope, rotate through several on each retry attempt — same free/no-auth
+// OSM data on all of them, so any single one succeeding is enough.
+const OVERPASS_URLS = [
+  'https://overpass-api.de/api/interpreter',
+  'https://maps.mail.ru/osm/tools/overpass/api/interpreter',
+  'https://overpass.kumi.systems/api/interpreter',
+];
+const DELAY_BETWEEN_QUERIES_MS = 8000; // Overpass etiquette — avoid hammering the shared public instances
 
 interface DashboardRow {
   address: string;
@@ -141,7 +146,7 @@ interface OverpassElement {
 
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
-const MAX_RETRIES = 5;
+const MAX_RETRIES = 4; // 5s/10s/20s/40s backoff — bounds a batch's worst case to 75s so a full run stays inside a single foreground call
 
 /**
  * One box per HTTP request turned out to be the wrong tradeoff: the shared
@@ -158,27 +163,38 @@ function batchBoxes(boxes: BoundingBox[]): BoundingBox[][] {
   return batches;
 }
 
-/** Overpass's shared public instances rate-limit and occasionally 406 under load — retry with exponential backoff rather than fail the whole run over a transient block. */
+/**
+ * Overpass's shared public instances rate-limit and occasionally 406/504
+ * under load — retries rotate through OVERPASS_URLS (a different mirror
+ * each attempt) rather than hammering the same one, since which mirror is
+ * currently healthy varies minute to minute (confirmed 2026-07-22: three
+ * consecutive requests to overpass-api.de alone went 200, 406, 406).
+ */
 async function queryOverpassBoxes(boxes: BoundingBox[]): Promise<OverpassElement[]> {
   const clauses = boxes
     .map((b) => `node["power"="substation"]["voltage"](${b.south},${b.west},${b.north},${b.east});way["power"="substation"]["voltage"](${b.south},${b.west},${b.north},${b.east});`)
     .join('');
   const query = `[out:json][timeout:90];(${clauses});out center tags;`;
-  const url = `${OVERPASS_URL}?data=${encodeURIComponent(query)}`;
 
   let lastError: Error | null = null;
   for (let attempt = 0; attempt <= MAX_RETRIES; attempt++) {
+    const mirror = OVERPASS_URLS[attempt % OVERPASS_URLS.length]!;
     if (attempt > 0) {
-      const backoffMs = 5000 * 2 ** (attempt - 1); // 5s, 10s, 20s, 40s, 80s
-      process.stderr.write(`retry ${attempt}/${MAX_RETRIES} after ${backoffMs / 1000}s ... `);
+      const backoffMs = 5000 * 2 ** (attempt - 1); // 5s, 10s, 20s, 40s
+      process.stderr.write(`retry ${attempt}/${MAX_RETRIES} (${new URL(mirror).hostname}) after ${backoffMs / 1000}s ... `);
       await sleep(backoffMs);
     }
-    const res = await fetch(url);
-    if (res.ok) {
-      const body = (await res.json()) as { elements: OverpassElement[] };
-      return body.elements;
+    const url = `${mirror}?data=${encodeURIComponent(query)}`;
+    try {
+      const res = await fetch(url, { signal: AbortSignal.timeout(30_000) });
+      if (res.ok) {
+        const body = (await res.json()) as { elements: OverpassElement[] };
+        return body.elements;
+      }
+      lastError = new Error(`Overpass query failed: HTTP ${res.status} (${new URL(mirror).hostname})`);
+    } catch (e) {
+      lastError = e instanceof Error ? e : new Error(String(e));
     }
-    lastError = new Error(`Overpass query failed: HTTP ${res.status}`);
   }
   throw lastError;
 }
@@ -192,14 +208,18 @@ async function main() {
   process.stderr.write(`Querying Overpass for ${boxes.length} bounding box(es)...\n`);
 
   // Seed from any existing output so a re-run (after some boxes failed last
-  // time) MERGES with prior progress instead of gambling on the same set of
-  // boxes succeeding again — the shared public Overpass instance's load
-  // varies run to run, so which boxes succeed isn't consistent.
-  const substationsById = new Map<number, Substation>();
+  // time, or the process got killed outright — confirmed happens: a
+  // container restart killed a run mid-batch 2026-07-22) MERGES with prior
+  // progress instead of gambling on the same set of boxes succeeding again.
+  // Keyed by OSM id when present, else a coordinate-based fallback key, so
+  // entries written before the `id` field existed still merge instead of
+  // being silently dropped on the next run.
+  const keyOf = (s: Substation) => (s.id !== undefined ? `id:${s.id}` : `xy:${s.lat},${s.lon}`);
+  const substationsByKey = new Map<string, Substation>();
   try {
     const existing: Substation[] = JSON.parse(await readFile(OUTPUT_PATH, 'utf8'));
-    for (const s of existing) if (s.id !== undefined) substationsById.set(s.id, s);
-    process.stderr.write(`Seeded ${substationsById.size} substations from existing ${OUTPUT_PATH}.\n`);
+    for (const s of existing) substationsByKey.set(keyOf(s), s);
+    process.stderr.write(`Seeded ${substationsByKey.size} substations from existing ${OUTPUT_PATH}.\n`);
   } catch {
     // no existing output — first run, start empty
   }
@@ -222,7 +242,7 @@ async function main() {
       // other batch's already-fetched data. Log it, keep going.
       process.stderr.write(`giving up on this batch (${e instanceof Error ? e.message : e}) — continuing\n`);
       failedBatchCount++;
-      await writeFile(OUTPUT_PATH, JSON.stringify([...substationsById.values()], null, 2) + '\n', 'utf8');
+      await writeFile(OUTPUT_PATH, JSON.stringify([...substationsByKey.values()], null, 2) + '\n', 'utf8');
       continue;
     }
 
@@ -234,24 +254,21 @@ async function main() {
       if (lat == null || lon == null || !voltageRaw) continue;
       const voltageV = parseVoltageTag(voltageRaw);
       if (voltageV === null) continue;
-      if (substationsById.has(el.id)) continue;
-      substationsById.set(el.id, {
-        id: el.id,
-        name: el.tags?.name ?? el.tags?.operator ?? `substation ${el.id}`,
-        lat,
-        lon,
-        voltageV,
-      });
+      const s: Substation = { id: el.id, name: el.tags?.name ?? el.tags?.operator ?? `substation ${el.id}`, lat, lon, voltageV };
+      const key = keyOf(s);
+      if (substationsByKey.has(key)) continue;
+      substationsByKey.set(key, s);
       added++;
     }
     process.stderr.write(`${elements.length} elements, ${added} new substations\n`);
     // Write after every batch, not just at the end — a later batch failing
-    // (or the process being interrupted) still leaves every earlier batch's
-    // data on disk instead of losing the whole run.
-    await writeFile(OUTPUT_PATH, JSON.stringify([...substationsById.values()], null, 2) + '\n', 'utf8');
+    // (or the process being interrupted, e.g. a container restart —
+    // confirmed happened mid-run 2026-07-22) still leaves every earlier
+    // batch's data on disk instead of losing the whole run.
+    await writeFile(OUTPUT_PATH, JSON.stringify([...substationsByKey.values()], null, 2) + '\n', 'utf8');
   }
 
-  const substations = [...substationsById.values()];
+  const substations = [...substationsByKey.values()];
 
   const byTierCount = { transmission: 0, gridSupply: 0, primary: 0, localPrimary: 0, excluded: 0 };
   for (const s of substations) {
