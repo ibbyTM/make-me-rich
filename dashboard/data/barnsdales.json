@@ -1,6 +1,6 @@
 {
   "source": "Barnsdales",
-  "generatedAt": "2026-07-22T21:45:27.254Z",
+  "generatedAt": "2026-07-22T22:03:55.667Z",
   "rows": [
     {
       "address": "Castleford, WF10 5HX",
@@ -106,10 +106,10 @@
         "reason": "same price (£575,000) and size (12,000 sq ft), overlapping address"
       },
       "valueAdd": {
-        "score": 80,
+        "score": 100,
         "band": "strong",
         "reasons": [
-          "£48/sqft vs local VOA benchmark £8.86/sqft (ratio 5.4×) — 25th percentile among scored listings (lower = cheaper)"
+          "£48/sqft vs local VOA benchmark £8.86/sqft (ratio 5.4×) — 18th percentile among scored listings (lower = cheaper)"
         ]
       },
       "schoolReadiness": {

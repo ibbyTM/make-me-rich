@@ -26,6 +26,27 @@ export const CITYWIDE: Requirement = {
  * src/scoring/schoolReadiness.ts, a separate signal scored from the
  * listing's own marketing text after Stage-0, same pattern as Data Centre
  * Fit / Value-Add.
+ *
+ * Extended further 2026-07-22, same day, per the user's follow-up ("what
+ * other things can we use to identify a school"):
+ *   - UK planning use class terms (D1 — the pre-Sept-2020 classification,
+ *     F1/F.1 — "Learning and non-residential institutions" post-reform).
+ *     This is the single strongest signal available: a property already in
+ *     that use class needs far less planning work to become a school than
+ *     one zoned pure retail/office, and agents do sometimes state it
+ *     directly in listing text.
+ *   - Broadened "similar bones" building types — community centres,
+ *     libraries, leisure centres, gyms, day nurseries — which share the
+ *     large-open-space layout church/chapel conversions do and are often
+ *     already D1/F1-adjacent in planning terms.
+ *   - Outdoor space wording ("playground", "outdoor space", "grounds") —
+ *     schools need it, most commercial units don't advertise it, so a hit
+ *     is a genuinely distinctive signal. Deliberately did NOT add "car
+ *     park" — too generic (most commercial listings mention parking
+ *     regardless of use) to carry any real signal.
+ * Same caveat as School Readiness: these are still just better keyword
+ * matching on text agents may or may not have written — real, free, and
+ * an improvement, not a claim of certainty.
  */
 export const EDUCATING: Requirement = {
   id: 'educating',
@@ -43,6 +64,26 @@ export const EDUCATING: Requirement = {
     'church',
     'chapel',
     'former church',
+    'class d1',
+    'use class d1',
+    'd1 use',
+    'class f1',
+    'class f.1',
+    'use class f1',
+    'f1 use',
+    'non-residential institution',
+    'community centre',
+    'community center',
+    'library',
+    'leisure centre',
+    'leisure center',
+    'gym',
+    'gymnasium',
+    'day nursery',
+    'nursery',
+    'playground',
+    'outdoor space',
+    'grounds',
   ],
 };
 

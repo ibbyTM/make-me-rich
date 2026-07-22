@@ -1,7 +1,186 @@
 {
   "source": "Discovered agents",
-  "generatedAt": "2026-07-22T21:50:20.168Z",
+  "generatedAt": "2026-07-22T22:05:56.927Z",
   "rows": [
+    {
+      "address": "31 Manchester Road, Sheffield, S36 2QX",
+      "priceDisplay": "£235,000",
+      "priceAmount": 235000,
+      "sizeLabel": "3863 sqft",
+      "sizeSqft": 3863,
+      "source": "SMC Brownill Vickers",
+      "requirement": "School Conversion",
+      "score": 2,
+      "reasons": [
+        "geography \"Sheffield Yorkshire\" in School Conversion territory (prescoped — not scored)",
+        "size 3863 >= min 2000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://smcbrownillvickers.com/properties/298873-31-manchester-road-sheffield/",
+      "propertyType": "Leisure",
+      "imageUrl": "https://smcbrownillvickers.com/wp-content/uploads/2026/01/6b81fc5b40252b0f5e1cf2a36760cd86-4-300x225.jpg",
+      "marketingText": "31 Manchester Road, Deepcar, Sheffield Substantial Freehold Property Potential for Redevelopment Prominent Roadside Location Stone-built pub with bar, lounge, dining area, function room, private accommodation, and redevelopment potential in central Deepcar.",
+      "powerStation": {
+        "geocodePrecision": "postcode",
+        "nearestAnyKm": 8.5,
+        "nearestAnyName": "Loicher Lane",
+        "nearestAnyFuel": "Biomass"
+      },
+      "substation": {
+        "distanceKm": 2.5,
+        "name": "Stocksbridge",
+        "voltageKv": 400,
+        "tier": "transmission"
+      },
+      "dataCentreFit": {
+        "score": 61,
+        "band": "possible",
+        "reasons": [
+          "2.5km to Stocksbridge (400kV, transmission)",
+          "3,863 sq ft equivalent",
+          "subtype \"Leisure\" — no specific rule, neutral"
+        ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
+      },
+      "valueAdd": {
+        "score": 80,
+        "band": "strong",
+        "reasons": [
+          "£61/sqft vs local VOA benchmark £8.28/sqft (ratio 7.3×) — 27th percentile among scored listings (lower = cheaper)"
+        ]
+      },
+      "schoolReadiness": {
+        "score": 0,
+        "band": "unknown",
+        "reasons": [
+          "no condition language found in listing text"
+        ]
+      }
+    },
+    {
+      "address": "Carr Road, Deepcar, S36 2NR",
+      "priceDisplay": "£950,000",
+      "priceAmount": 950000,
+      "sizeLabel": "8918 sqft",
+      "sizeSqft": 8918,
+      "source": "SMC Brownill Vickers",
+      "requirement": "Residential Conversion",
+      "score": 2,
+      "reasons": [
+        "geography \"Deepcar Yorkshire\" in Residential Conversion territory (prescoped — not scored)",
+        "price 950000 within budget 500000-2000000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://smcbrownillvickers.com/properties/207416-carr-road-deepcar/",
+      "propertyType": "Development, Industrial",
+      "imageUrl": "https://smcbrownillvickers.com/wp-content/uploads/2024/09/2ee45bec05b4557f3d33e0871e850311-dji-0803-edit-red-line-300x225.jpg",
+      "marketingText": "Carr Road, Deepcar Freehold site (4.11 acres) consisting of workshops and storage land / yard space Let to tenants on contracted out leases & producing a gross income of £81,500 pa Potential for residential development (STP) Located in Deepcar village, close to Stocksbridge & 7 miles north Sheffield city centre Located within an area undergoing significant regeneration Opportunity for accessible onsite Biodiversity Net Gain (BNG) initiatives Income producing Industrial site with Residential Development Potential located in the Deepcar area of South Yorkshire",
+      "powerStation": {
+        "geocodePrecision": "postcode",
+        "nearestAnyKm": 8.8,
+        "nearestAnyName": "Royd Moor",
+        "nearestAnyFuel": "Wind"
+      },
+      "substation": {
+        "distanceKm": 2.1,
+        "name": "Stocksbridge",
+        "voltageKv": 400,
+        "tier": "transmission"
+      },
+      "dataCentreFit": {
+        "score": 76,
+        "band": "strong",
+        "reasons": [
+          "2.1km to Stocksbridge (400kV, transmission)",
+          "8,918 sq ft equivalent",
+          "subtype \"Development, Industrial\""
+        ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
+      },
+      "valueAdd": {
+        "score": 35,
+        "band": "possible",
+        "reasons": [
+          "£107/sqft vs local VOA benchmark £8.28/sqft (ratio 12.9×) — 64th percentile among scored listings (lower = cheaper)"
+        ]
+      },
+      "schoolReadiness": {
+        "score": 0,
+        "band": "unknown",
+        "reasons": [
+          "no condition language found in listing text"
+        ]
+      }
+    },
+    {
+      "address": "21 Station Road, Sheffield, S26 6QP",
+      "priceDisplay": "£299,950",
+      "priceAmount": 299950,
+      "sizeLabel": "2783 sqft",
+      "sizeSqft": 2783,
+      "source": "SMC Brownill Vickers",
+      "requirement": "School Conversion",
+      "score": 2,
+      "reasons": [
+        "geography \"Sheffield Yorkshire\" in School Conversion territory (prescoped — not scored)",
+        "size 2783 >= min 2000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://smcbrownillvickers.com/properties/189781-21-station-road-sheffield/",
+      "propertyType": "Development, Office, Retail",
+      "imageUrl": "https://smcbrownillvickers.com/wp-content/uploads/2023/12/be526381eedd44304f7ae7cbc33d6d7e-img-0756-300x225.jpg",
+      "marketingText": "21 Station Road, Kiveton Park, Sheffield Substantial freehold premises comprising retail with ancillary accommodation and separate flat Located in Kiveton Park, South Yorkshire - close to Kiveton Bridge train station, Kiveton Park Infant School Most recently used for specialist retail use although may be suitable for a variety of uses (STP) High quality fit out over ground, 1st and basement levels Potential to split or reconfigure depending on buyer requirements Suitable for owner occupation in full or part, reconfiguration or investment Substantial freehold retail premises with separate residential accommodation potential for owner occupation, reconfiguration or investment",
+      "powerStation": {
+        "geocodePrecision": "postcode",
+        "nearestAnyKm": 3.5,
+        "nearestAnyName": "Loscar",
+        "nearestAnyFuel": "Wind"
+      },
+      "substation": {
+        "distanceKm": 7,
+        "name": "Thurcroft Substation",
+        "voltageKv": 275,
+        "tier": "transmission"
+      },
+      "dataCentreFit": {
+        "score": 56,
+        "band": "possible",
+        "reasons": [
+          "7.0km to Thurcroft Substation (275kV, transmission)",
+          "2,783 sq ft equivalent",
+          "subtype \"Development, Office, Retail\""
+        ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "canonicalUrl": "https://smcbrownillvickers.com/properties/189781-21-station-road-sheffield/",
+        "duplicateCount": 1,
+        "groupId": "299950:2783#0",
+        "reason": "same price (£299,950) and size (2,783 sq ft), overlapping address"
+      },
+      "valueAdd": {
+        "score": 15,
+        "band": "unlikely",
+        "reasons": [
+          "£108/sqft vs local VOA benchmark £6.70/sqft (ratio 16.1×) — 73th percentile among scored listings (lower = cheaper)"
+        ]
+      },
+      "schoolReadiness": {
+        "score": 0,
+        "band": "unknown",
+        "reasons": [
+          "no condition language found in listing text"
+        ]
+      }
+    },
     {
       "address": "Unit 5, Dutton Road, Coventry, CV2 2LE",
       "priceDisplay": "£6,500,000",
@@ -50,7 +229,7 @@
         "score": 60,
         "band": "possible",
         "reasons": [
-          "£74/sqft vs local VOA benchmark £8.33/sqft (ratio 8.9×) — 38th percentile among scored listings (lower = cheaper)"
+          "£74/sqft vs local VOA benchmark £8.33/sqft (ratio 8.9×) — 36th percentile among scored listings (lower = cheaper)"
         ]
       },
       "schoolReadiness": {
@@ -168,7 +347,7 @@
         "score": 60,
         "band": "possible",
         "reasons": [
-          "£95/sqft vs local VOA benchmark £9.47/sqft (ratio 10.0×) — 50th percentile among scored listings (lower = cheaper)"
+          "£95/sqft vs local VOA benchmark £9.47/sqft (ratio 10.0×) — 45th percentile among scored listings (lower = cheaper)"
         ]
       },
       "schoolReadiness": {
@@ -227,7 +406,7 @@
         "score": 35,
         "band": "possible",
         "reasons": [
-          "£82/sqft vs local VOA benchmark £7.57/sqft (ratio 10.9×) — 63th percentile among scored listings (lower = cheaper)"
+          "£82/sqft vs local VOA benchmark £7.57/sqft (ratio 10.9×) — 55th percentile among scored listings (lower = cheaper)"
         ]
       },
       "schoolReadiness": {
@@ -640,7 +819,7 @@
         "score": 100,
         "band": "strong",
         "reasons": [
-          "£20/sqft vs local VOA benchmark £6.74/sqft (ratio 3.0×) — 13th percentile among scored listings (lower = cheaper)"
+          "£20/sqft vs local VOA benchmark £6.74/sqft (ratio 3.0×) — 9th percentile among scored listings (lower = cheaper)"
         ]
       },
       "schoolReadiness": {
@@ -699,7 +878,7 @@
         "score": 0,
         "band": "unlikely",
         "reasons": [
-          "£150/sqft vs local VOA benchmark £5.55/sqft (ratio 27.0×) — 88th percentile among scored listings (lower = cheaper)"
+          "£150/sqft vs local VOA benchmark £5.55/sqft (ratio 27.0×) — 91th percentile among scored listings (lower = cheaper)"
         ]
       },
       "schoolReadiness": {
@@ -755,10 +934,10 @@
         "groupId": null
       },
       "valueAdd": {
-        "score": 15,
+        "score": 0,
         "band": "unlikely",
         "reasons": [
-          "£141/sqft vs local VOA benchmark £5.55/sqft (ratio 25.4×) — 75th percentile among scored listings (lower = cheaper)"
+          "£141/sqft vs local VOA benchmark £5.55/sqft (ratio 25.4×) — 82th percentile among scored listings (lower = cheaper)"
         ]
       },
       "schoolReadiness": {

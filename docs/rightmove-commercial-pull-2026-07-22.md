@@ -2,7 +2,7 @@
 
 **Date:** 2026-07-22 · **Source:** rightmove.co.uk commercial-property-for-sale (search pages, `__NEXT_DATA__` plain JSON) · **Mode:** read-only live pull
 
-Searched **7 cities** (Citywide footprint: Yorkshire + Greater Manchester). Portal reports **864** matching results across those searches; fetched a capped **559** (max 5 pages/city, 1.5 s between requests), **559** after cross-city dedupe. **97** business-for-sale going concerns excluded by subtype, leaving **462** investable listings. Stage-0 (minimum bar **2**, geography excluded from scoring — see below) passed **188**.
+Searched **7 cities** (Citywide footprint: Yorkshire + Greater Manchester). Portal reports **864** matching results across those searches; fetched a capped **558** (max 5 pages/city, 1.5 s between requests), **558** after cross-city dedupe. **98** business-for-sale going concerns excluded by subtype, leaving **460** investable listings. Stage-0 (minimum bar **2**, geography excluded from scoring — see below) passed **188**.
 
 ## Corrections applied in this run (vs the first 2026-07-14 pull)
 
@@ -15,7 +15,7 @@ Excluded by subtype:
 
 | Subtype | Excluded |
 |---|---|
-| Restaurant | 38 |
+| Restaurant | 39 |
 | Cafe | 30 |
 | Takeaway | 20 |
 | Convenience Store | 7 |
@@ -25,7 +25,7 @@ Excluded by subtype:
 | City | Region | Portal results | Fetched (deduped) |
 |---|---|---|---|
 | Leeds | Yorkshire | 217 | 118 |
-| Sheffield | Yorkshire | 167 | 115 |
+| Sheffield | Yorkshire | 167 | 114 |
 | Bradford | Yorkshire | 80 | 61 |
 | Huddersfield | Yorkshire | 58 | 44 |
 | Doncaster | Yorkshire | 47 | 44 |
@@ -36,7 +36,7 @@ Excluded by subtype:
 
 ## Agent coverage
 
-**153 distinct agents/branches** appear in the 559 fetched listings (counted before the subtype filter — coverage is a property of the portal, not of our filtering) — vs one agent per bespoke source. 87 distinct agents appear in the Stage-0-passed set.
+**151 distinct agents/branches** appear in the 558 fetched listings (counted before the subtype filter — coverage is a property of the portal, not of our filtering) — vs one agent per bespoke source. 87 distinct agents appear in the Stage-0-passed set.
 
 Top agents by listing count:
 
@@ -44,43 +44,21 @@ Top agents by listing count:
 |---|---|
 | Ernest Wilson & Co Limited, EW Leeds | 105 |
 | BTG Eddisons Property Auctions, Commercial Nationwide | 22 |
+| Harvey Silver Hodgkinson, Hale | 19 |
 | Crosthwaite Commercial Limited, Sheffield | 18 |
-| Harvey Silver Hodgkinson, Hale | 18 |
+| Knight Frank, Sheffield | 13 |
 | Alan J Picken, Ilkley | 12 |
 | Eddisons Commercial Limited, Sheffield | 12 |
-| Knight Frank, Sheffield | 12 |
 | Carter Towler, Leeds | 10 |
 | Christie & Co, Pubs & Restaurants | 10 |
 | W T Gunson, Manchester - BPG | 9 |
 | JBrown International, London | 9 |
-| Knight Frank, Leeds - Commercial | 8 |
 | BRAMLEYS LLP, Huddersfield | 8 |
 | PPH Commercial Limited, Doncaster | 8 |
 | Sanderson Weatherall, Leeds | 7 |
+| Eddisons Commercial Limited, Bradford | 7 |
 
 ## Passed the filter
-
-### 1-2 Deanhurst Park, Gelderd Road, Gildersome, Morley, Leeds — £725,000
-
-- **Address:** 1-2 Deanhurst Park, Gelderd Road, Gildersome, Morley, Leeds (Leeds, Yorkshire)
-- **Price:** £725,000 _(£725,000)_
-- **Size:** 5,242 sq. ft. (5,242 sq ft)
-- **Type:** Office · FREEHOLD
-- **Agent:** Crans Property Consultants, Huddersfield
-- **Matched requirement:** Residential Conversion (score 2/2+)
-- **Why:** geography "Leeds Yorkshire" in Residential Conversion territory (prescoped — not scored); price 725000 within budget 500000-2000000; keyword hit "freehold"
-- **Listing:** https://www.rightmove.co.uk/properties/747152224116992#/?channel=COM_BUY
-
-### 26-27 Park Square West, Leeds, LS1 2PL — £1,500,000 Offers in Excess of
-
-- **Address:** 26-27 Park Square West, Leeds, LS1 2PL (Leeds, Yorkshire)
-- **Price:** £1,500,000 Offers in Excess of _(£1,500,000)_
-- **Size:** 5,856 sq. ft. (5,856 sq ft)
-- **Type:** Office · FREEHOLD
-- **Agent:** Sanderson Weatherall, Leeds
-- **Matched requirement:** Residential Conversion (score 2/2+)
-- **Why:** geography "Leeds Yorkshire" in Residential Conversion territory (prescoped — not scored); price 1500000 within budget 500000-2000000; keyword hit "freehold"
-- **Listing:** https://www.rightmove.co.uk/properties/698589182145520#/?channel=COM_BUY
 
 ### 13-14 Park Place, Leeds, LS1 2SJ — £1,013,000 Offers in Excess of
 
@@ -92,17 +70,6 @@ Top agents by listing count:
 - **Matched requirement:** Residential Conversion (score 2/2+)
 - **Why:** geography "Leeds Yorkshire" in Residential Conversion territory (prescoped — not scored); price 1013000 within budget 500000-2000000; keyword hit "freehold"
 - **Listing:** https://www.rightmove.co.uk/properties/90125763#/?channel=COM_BUY
-
-### Carlton Trading Estate, Pickering Street, Armley, Leeds — £1,660,000 Offers in Region of
-
-- **Address:** Carlton Trading Estate, Pickering Street, Armley, Leeds (Leeds, Yorkshire)
-- **Price:** £1,660,000 Offers in Region of _(£1,660,000)_
-- **Size:** 57,675 sq. ft. (57,675 sq ft)
-- **Type:** Industrial Park · FREEHOLD
-- **Agent:** Northcap, Leeds
-- **Matched requirement:** Data Centre Development (score 2/2+)
-- **Why:** geography "Leeds Yorkshire" in Data Centre Development territory (prescoped — not scored); size 57675 >= min 20000; keyword hit "freehold"
-- **Listing:** https://www.rightmove.co.uk/properties/747888028746705#/?channel=COM_BUY
 
 ### Fulneck School, Fulneck, Pudsey, Leeds — POA
 
@@ -137,17 +104,6 @@ Top agents by listing count:
 - **Why:** geography "Leeds Yorkshire" in Data Centre Development territory (prescoped — not scored); size 40808 >= min 20000; keyword hit "freehold"
 - **Listing:** https://www.rightmove.co.uk/properties/754922371454161#/?channel=COM_BUY
 
-### Laurel House 146-148 Garnet Road, Leeds, LS11 5HP — £2,000,000 Offers in Region of
-
-- **Address:** Laurel House 146-148 Garnet Road, Leeds, LS11 5HP (Leeds, Yorkshire)
-- **Price:** £2,000,000 Offers in Region of _(£2,000,000)_
-- **Size:** 575–53,252 sq. ft. (53,252 sq ft)
-- **Type:** Light Industrial · FREEHOLD
-- **Agent:** Sanderson Weatherall, Leeds
-- **Matched requirement:** Data Centre Development (score 2/2+)
-- **Why:** geography "Leeds Yorkshire" in Data Centre Development territory (prescoped — not scored); size 53252 >= min 20000; keyword hit "freehold"
-- **Listing:** https://www.rightmove.co.uk/properties/698587804331425#/?channel=COM_BUY
-
 ### Tannery Square, Meanwood, Leeds, LS6 4LT — £2,000,000 Offers in Region of
 
 - **Address:** Tannery Square, Meanwood, Leeds, LS6 4LT (Leeds, Yorkshire)
@@ -158,6 +114,17 @@ Top agents by listing count:
 - **Matched requirement:** Residential Conversion (score 2/2+)
 - **Why:** geography "Leeds Yorkshire" in Residential Conversion territory (prescoped — not scored); price 2000000 within budget 500000-2000000; keyword hit "freehold"
 - **Listing:** https://www.rightmove.co.uk/properties/751133814140048#/?channel=COM_BUY
+
+### Laurel House 146-148 Garnet Road, Leeds, LS11 5HP — £2,000,000 Offers in Region of
+
+- **Address:** Laurel House 146-148 Garnet Road, Leeds, LS11 5HP (Leeds, Yorkshire)
+- **Price:** £2,000,000 Offers in Region of _(£2,000,000)_
+- **Size:** 575–53,252 sq. ft. (53,252 sq ft)
+- **Type:** Light Industrial · FREEHOLD
+- **Agent:** Sanderson Weatherall, Leeds
+- **Matched requirement:** Data Centre Development (score 2/2+)
+- **Why:** geography "Leeds Yorkshire" in Data Centre Development territory (prescoped — not scored); size 53252 >= min 20000; keyword hit "freehold"
+- **Listing:** https://www.rightmove.co.uk/properties/698587804331425#/?channel=COM_BUY
 
 ### Haigh House, The Grange, Three Cottages, Barn, Stables, Lake and 14 Acres of Land, Wakefield Road, Rothwell Haigh, LS26 — £1,850,000 Offers in Region of
 
@@ -180,6 +147,28 @@ Top agents by listing count:
 - **Matched requirement:** Residential Conversion (score 2/2+)
 - **Why:** geography "Leeds Yorkshire" in Residential Conversion territory (prescoped — not scored); price 1800000 within budget 500000-2000000; keyword hit "freehold"
 - **Listing:** https://www.rightmove.co.uk/properties/154042034#/?channel=COM_BUY
+
+### Carlton Trading Estate, Pickering Street, Armley, Leeds — £1,660,000 Offers in Region of
+
+- **Address:** Carlton Trading Estate, Pickering Street, Armley, Leeds (Leeds, Yorkshire)
+- **Price:** £1,660,000 Offers in Region of _(£1,660,000)_
+- **Size:** 57,675 sq. ft. (57,675 sq ft)
+- **Type:** Industrial Park · FREEHOLD
+- **Agent:** Northcap, Leeds
+- **Matched requirement:** Data Centre Development (score 2/2+)
+- **Why:** geography "Leeds Yorkshire" in Data Centre Development territory (prescoped — not scored); size 57675 >= min 20000; keyword hit "freehold"
+- **Listing:** https://www.rightmove.co.uk/properties/747888028746705#/?channel=COM_BUY
+
+### 26-27 Park Square West, Leeds, LS1 2PL — £1,500,000 Offers in Excess of
+
+- **Address:** 26-27 Park Square West, Leeds, LS1 2PL (Leeds, Yorkshire)
+- **Price:** £1,500,000 Offers in Excess of _(£1,500,000)_
+- **Size:** 5,856 sq. ft. (5,856 sq ft)
+- **Type:** Office · FREEHOLD
+- **Agent:** Sanderson Weatherall, Leeds
+- **Matched requirement:** Residential Conversion (score 2/2+)
+- **Why:** geography "Leeds Yorkshire" in Residential Conversion territory (prescoped — not scored); price 1500000 within budget 500000-2000000; keyword hit "freehold"
+- **Listing:** https://www.rightmove.co.uk/properties/698589182145520#/?channel=COM_BUY
 
 ### 26/27 Park Square West, Leeds, LS1 2PL — £1,500,000 Offers in Excess of
 
@@ -258,17 +247,6 @@ Top agents by listing count:
 - **Why:** geography "Leeds Yorkshire" in Residential Conversion territory (prescoped — not scored); price 995000 within budget 500000-2000000; keyword hit "freehold"
 - **Listing:** https://www.rightmove.co.uk/properties/762214045440304#/?channel=COM_BUY
 
-### Hawthorn Park, Coal Road, Whinmoor, Leeds — £900,000
-
-- **Address:** Hawthorn Park, Coal Road, Whinmoor, Leeds (Leeds, Yorkshire)
-- **Price:** £900,000 _(£900,000)_
-- **Size:** 6,800 sq. ft. (6,800 sq ft)
-- **Type:** Office · FREEHOLD
-- **Agent:** NABARRO MCALLISTER & CO LIMITED, Leeds
-- **Matched requirement:** Residential Conversion (score 2/2+)
-- **Why:** geography "Leeds Yorkshire" in Residential Conversion territory (prescoped — not scored); price 900000 within budget 500000-2000000; keyword hit "freehold"
-- **Listing:** https://www.rightmove.co.uk/properties/758741004284305#/?channel=COM_BUY
-
 ### Pavilion Court, Green Lane, Garforth, Leeds, LS25 2AF — £900,000
 
 - **Address:** Pavilion Court, Green Lane, Garforth, Leeds, LS25 2AF (Leeds, Yorkshire)
@@ -279,6 +257,17 @@ Top agents by listing count:
 - **Matched requirement:** Residential Conversion (score 2/2+)
 - **Why:** geography "Leeds Yorkshire" in Residential Conversion territory (prescoped — not scored); price 900000 within budget 500000-2000000; keyword hit "freehold"
 - **Listing:** https://www.rightmove.co.uk/properties/91093677#/?channel=COM_BUY
+
+### Hawthorn Park, Coal Road, Whinmoor, Leeds — £900,000
+
+- **Address:** Hawthorn Park, Coal Road, Whinmoor, Leeds (Leeds, Yorkshire)
+- **Price:** £900,000 _(£900,000)_
+- **Size:** 6,800 sq. ft. (6,800 sq ft)
+- **Type:** Office · FREEHOLD
+- **Agent:** NABARRO MCALLISTER & CO LIMITED, Leeds
+- **Matched requirement:** Residential Conversion (score 2/2+)
+- **Why:** geography "Leeds Yorkshire" in Residential Conversion territory (prescoped — not scored); price 900000 within budget 500000-2000000; keyword hit "freehold"
+- **Listing:** https://www.rightmove.co.uk/properties/758741004284305#/?channel=COM_BUY
 
 ### Oxford Chambers, Oxford Place, Leeds, LS1 3AX — £850,000
 
@@ -334,6 +323,17 @@ Top agents by listing count:
 - **Matched requirement:** Residential Conversion (score 2/2+)
 - **Why:** geography "Leeds Yorkshire" in Residential Conversion territory (prescoped — not scored); price 725000 within budget 500000-2000000; keyword hit "freehold"
 - **Listing:** https://www.rightmove.co.uk/properties/173139890#/?channel=COM_BUY
+
+### 1-2 Deanhurst Park, Gelderd Road, Gildersome, Morley, Leeds — £725,000
+
+- **Address:** 1-2 Deanhurst Park, Gelderd Road, Gildersome, Morley, Leeds (Leeds, Yorkshire)
+- **Price:** £725,000 _(£725,000)_
+- **Size:** 5,242 sq. ft. (5,242 sq ft)
+- **Type:** Office · FREEHOLD
+- **Agent:** Crans Property Consultants, Huddersfield
+- **Matched requirement:** Residential Conversion (score 2/2+)
+- **Why:** geography "Leeds Yorkshire" in Residential Conversion territory (prescoped — not scored); price 725000 within budget 500000-2000000; keyword hit "freehold"
+- **Listing:** https://www.rightmove.co.uk/properties/747152224116992#/?channel=COM_BUY
 
 ### Unit 7 Weaver Street, Leeds, West Yorkshire, LS4 2AU — £695,000 From
 
@@ -434,17 +434,6 @@ Top agents by listing count:
 - **Why:** geography "Sheffield Yorkshire" in School Conversion territory (prescoped — not scored); size 10836 >= min 2000; keyword hit "freehold"
 - **Listing:** https://www.rightmove.co.uk/properties/760571314744881#/?channel=COM_BUY
 
-### 24 Meadowhall Road, Sheffield, South Yorkshire, S9 1BS — POA
-
-- **Address:** 24 Meadowhall Road, Sheffield, South Yorkshire, S9 1BS (Sheffield, Yorkshire)
-- **Price:** POA _(£1)_
-- **Size:** 6,286 sq. ft. (6,286 sq ft)
-- **Type:** Showroom
-- **Agent:** Flint Real Estate, Doncaster
-- **Matched requirement:** School Conversion (score 2/2+)
-- **Why:** geography "Sheffield Yorkshire" in School Conversion territory (prescoped — not scored); size 6286 >= min 2000; keyword hit "freehold"
-- **Listing:** https://www.rightmove.co.uk/properties/760551129667441#/?channel=COM_BUY
-
 ### Unit 3 Waterside Court, Bold Street, Sheffield, South Yorkshire, S9 2LR — £650,000 Guide Price
 
 - **Address:** Unit 3 Waterside Court, Bold Street, Sheffield, South Yorkshire, S9 2LR (Sheffield, Yorkshire)
@@ -456,17 +445,6 @@ Top agents by listing count:
 - **Why:** geography "Sheffield Yorkshire" in Residential Conversion territory (prescoped — not scored); price 650000 within budget 500000-2000000; keyword hit "freehold"
 - **Listing:** https://www.rightmove.co.uk/properties/90471561#/?channel=COM_BUY
 
-### Aspect Court, Pond Street, Sheffield, S1 2BG — £6,000,000
-
-- **Address:** Aspect Court, Pond Street, Sheffield, S1 2BG (Sheffield, Yorkshire)
-- **Price:** £6,000,000 _(£6,000,000)_
-- **Size:** 57,842 sq. ft. (57,842 sq ft)
-- **Type:** Office
-- **Agent:** Eddisons Commercial Limited, Sheffield
-- **Matched requirement:** Data Centre Development (score 2/2+)
-- **Why:** geography "Sheffield Yorkshire" in Data Centre Development territory (prescoped — not scored); size 57842 >= min 20000; keyword hit "planning"
-- **Listing:** https://www.rightmove.co.uk/properties/760571878944801#/?channel=COM_BUY
-
 ### WILSON CARLILE CENTRE, 50 CAVENDISH STREET, SHEFFIELD, YORKSHIRE, S3 — £3,000,000 Guide Price
 
 - **Address:** WILSON CARLILE CENTRE, 50 CAVENDISH STREET, SHEFFIELD, YORKSHIRE, S3 (Sheffield, Yorkshire)
@@ -477,6 +455,17 @@ Top agents by listing count:
 - **Matched requirement:** Data Centre Development (score 2/2+)
 - **Why:** geography "Sheffield Yorkshire" in Data Centre Development territory (prescoped — not scored); size 22881 >= min 20000; keyword hit "freehold"
 - **Listing:** https://www.rightmove.co.uk/properties/760730285095312#/?channel=COM_BUY
+
+### Aspect Court, Pond Street, Sheffield, S1 2BG — £6,000,000
+
+- **Address:** Aspect Court, Pond Street, Sheffield, S1 2BG (Sheffield, Yorkshire)
+- **Price:** £6,000,000 _(£6,000,000)_
+- **Size:** 57,842 sq. ft. (57,842 sq ft)
+- **Type:** Office
+- **Agent:** Eddisons Commercial Limited, Sheffield
+- **Matched requirement:** Data Centre Development (score 2/2+)
+- **Why:** geography "Sheffield Yorkshire" in Data Centre Development territory (prescoped — not scored); size 57842 >= min 20000; keyword hit "planning"
+- **Listing:** https://www.rightmove.co.uk/properties/760571878944801#/?channel=COM_BUY
 
 ### Pheasant Works, Surbiton Street, Sheffield, South Yorkshire, S9 5AQ — £2,800,000
 
@@ -544,17 +533,6 @@ Top agents by listing count:
 - **Why:** geography "Sheffield Yorkshire" in Data Centre Development territory (prescoped — not scored); size 28497 >= min 20000; keyword hit "freehold"
 - **Listing:** https://www.rightmove.co.uk/properties/165618794#/?channel=COM_BUY
 
-### Poplar Way, Rotherham — £1,500,000 Offers in Region of
-
-- **Address:** Poplar Way, Rotherham (Sheffield, Yorkshire)
-- **Price:** £1,500,000 Offers in Region of _(£1,500,000)_
-- **Size:** 97,574 sq. ft. (97,574 sq ft)
-- **Type:** Commercial Development · FREEHOLD
-- **Agent:** BARKER PROUDLOVE LIMITED, Manchester
-- **Matched requirement:** Data Centre Development (score 2/2+)
-- **Why:** geography "Sheffield Yorkshire" in Data Centre Development territory (prescoped — not scored); size 97574 >= min 20000; keyword hit "freehold"
-- **Listing:** https://www.rightmove.co.uk/properties/760015858866432#/?channel=COM_BUY
-
 ### Lifestyle House 2 Melbourne Avenue, Sheffield, S10 2QH — £1,500,000 Offers in Excess of
 
 - **Address:** Lifestyle House 2 Melbourne Avenue, Sheffield, S10 2QH (Sheffield, Yorkshire)
@@ -565,6 +543,17 @@ Top agents by listing count:
 - **Matched requirement:** School Conversion (score 2/2+)
 - **Why:** geography "Sheffield Yorkshire" in School Conversion territory (prescoped — not scored); size 17685 >= min 2000; keyword hit "freehold"
 - **Listing:** https://www.rightmove.co.uk/properties/698589255316017#/?channel=COM_BUY
+
+### Poplar Way, Rotherham — £1,500,000 Offers in Region of
+
+- **Address:** Poplar Way, Rotherham (Sheffield, Yorkshire)
+- **Price:** £1,500,000 Offers in Region of _(£1,500,000)_
+- **Size:** 97,574 sq. ft. (97,574 sq ft)
+- **Type:** Commercial Development · FREEHOLD
+- **Agent:** BARKER PROUDLOVE LIMITED, Manchester
+- **Matched requirement:** Data Centre Development (score 2/2+)
+- **Why:** geography "Sheffield Yorkshire" in Data Centre Development territory (prescoped — not scored); size 97574 >= min 20000; keyword hit "freehold"
+- **Listing:** https://www.rightmove.co.uk/properties/760015858866432#/?channel=COM_BUY
 
 ### 386 Coleridge Road, Sheffield, S9 — POA
 
@@ -753,6 +742,17 @@ Top agents by listing count:
 - **Why:** geography "Sheffield Yorkshire" in School Conversion territory (prescoped — not scored); size 4390 >= min 2000; keyword hit "freehold"
 - **Listing:** https://www.rightmove.co.uk/properties/759323486182768#/?channel=COM_BUY
 
+### 24 Meadowhall Road, Sheffield, South Yorkshire, S9 1BS — POA
+
+- **Address:** 24 Meadowhall Road, Sheffield, South Yorkshire, S9 1BS (Sheffield, Yorkshire)
+- **Price:** POA _(£1)_
+- **Size:** 6,286 sq. ft. (6,286 sq ft)
+- **Type:** Showroom
+- **Agent:** Flint Real Estate, Doncaster
+- **Matched requirement:** School Conversion (score 2/2+)
+- **Why:** geography "Sheffield Yorkshire" in School Conversion territory (prescoped — not scored); size 6286 >= min 2000; keyword hit "freehold"
+- **Listing:** https://www.rightmove.co.uk/properties/760551129667441#/?channel=COM_BUY
+
 ### Alliance House, Roman Ridge Road, Sheffield S9 1GB — £325,000
 
 - **Address:** Alliance House, Roman Ridge Road, Sheffield S9 1GB (Sheffield, Yorkshire)
@@ -819,27 +819,27 @@ Top agents by listing count:
 - **Why:** geography "Sheffield Yorkshire" in Data Centre Development territory (prescoped — not scored); size 46139 >= min 20000; keyword hit "industrial"
 - **Listing:** https://www.rightmove.co.uk/properties/744042179075025#/?channel=COM_BUY
 
-### CORE Sheffield, Shepcote Lane, Sheffield, South Yorkshire, S9 1TP — POA
+### Milton Street, Sheffield, S3 7UF — POA
 
-- **Address:** CORE Sheffield, Shepcote Lane, Sheffield, South Yorkshire, S9 1TP (Sheffield, Yorkshire)
+- **Address:** Milton Street, Sheffield, S3 7UF (Sheffield, Yorkshire)
 - **Price:** POA _(£1)_
-- **Size:** 367,935 sq. ft. (367,935 sq ft)
-- **Type:** Light Industrial · FREEHOLD
+- **Size:** 275,000–350,000 sq. ft. (350,000 sq ft)
+- **Type:** Residential Development
 - **Agent:** Commercial Property Partners Ltd, Sheffield
 - **Matched requirement:** Data Centre Development (score 2/2+)
-- **Why:** geography "Sheffield Yorkshire" in Data Centre Development territory (prescoped — not scored); size 367935 >= min 20000; keyword hit "freehold"
-- **Listing:** https://www.rightmove.co.uk/properties/759291900865216#/?channel=COM_BUY
+- **Why:** geography "Sheffield Yorkshire" in Data Centre Development territory (prescoped — not scored); size 350000 >= min 20000; keyword hit "planning"
+- **Listing:** https://www.rightmove.co.uk/properties/759292704103920#/?channel=COM_BUY
 
-### Highfield at Waverley, Highfield Spring, Waverley, Rotherham, S60 — POA
+### 13 Birley Vale Avenue, Sheffield S12 — POA
 
-- **Address:** Highfield at Waverley, Highfield Spring, Waverley, Rotherham, S60 (Sheffield, Yorkshire)
+- **Address:** 13 Birley Vale Avenue, Sheffield S12 (Sheffield, Yorkshire)
 - **Price:** POA _(£1)_
-- **Size:** 10,000–80,000 sq. ft. (80,000 sq ft)
-- **Type:** Land · FREEHOLD
+- **Size:** 17,630 sq. ft. (17,630 sq ft)
+- **Type:** Distribution Warehouse · FREEHOLD
 - **Agent:** Knight Frank, Sheffield
-- **Matched requirement:** Data Centre Development (score 2/2+)
-- **Why:** geography "Sheffield Yorkshire" in Data Centre Development territory (prescoped — not scored); size 80000 >= min 20000; keyword hit "freehold"
-- **Listing:** https://www.rightmove.co.uk/properties/168968636#/?channel=COM_BUY
+- **Matched requirement:** School Conversion (score 2/2+)
+- **Why:** geography "Sheffield Yorkshire" in School Conversion territory (prescoped — not scored); size 17630 >= min 2000; keyword hit "freehold"
+- **Listing:** https://www.rightmove.co.uk/properties/87778536#/?channel=COM_BUY
 
 ### Unit 3, President Way, President Park Sheffield, S4 7UR — POA
 
@@ -852,49 +852,16 @@ Top agents by listing count:
 - **Why:** geography "Sheffield Yorkshire" in School Conversion territory (prescoped — not scored); size 12413 >= min 2000; keyword hit "freehold"
 - **Listing:** https://www.rightmove.co.uk/properties/171086972#/?channel=COM_BUY
 
-### Yards C And D, Old Station Drive, Millhouses, Sheffield, S7 2PY — POA
+### 160 Solly Street, Sheffield, S1 4BF — POA
 
-- **Address:** Yards C And D, Old Station Drive, Millhouses, Sheffield, S7 2PY (Sheffield, Yorkshire)
+- **Address:** 160 Solly Street, Sheffield, S1 4BF (Sheffield, Yorkshire)
 - **Price:** POA _(£1)_
-- **Size:** 10,890 sq. ft. (10,890 sq ft)
-- **Type:** Warehouse · FREEHOLD
-- **Agent:** Eddisons Commercial Limited, Sheffield
-- **Matched requirement:** School Conversion (score 2/2+)
-- **Why:** geography "Sheffield Yorkshire" in School Conversion territory (prescoped — not scored); size 10890 >= min 2000; keyword hit "freehold"
-- **Listing:** https://www.rightmove.co.uk/properties/760571922917472#/?channel=COM_BUY
-
-### Athol House, Heart of The City II, Pinstone Street, Sheffield, S1 2HZ — POA
-
-- **Address:** Athol House, Heart of The City II, Pinstone Street, Sheffield, S1 2HZ (Sheffield, Yorkshire)
-- **Price:** POA _(£1)_
-- **Size:** 968–2,973 sq. ft. (2,973 sq ft)
-- **Type:** Office · FREEHOLD
-- **Agent:** Savills, Leeds Offices
-- **Matched requirement:** School Conversion (score 2/2+)
-- **Why:** geography "Sheffield Yorkshire" in School Conversion territory (prescoped — not scored); size 2973 >= min 2000; keyword hit "freehold"
-- **Listing:** https://www.rightmove.co.uk/properties/758217253130032#/?channel=COM_BUY
-
-### 1 Amberley Street, Sheffield, S9 YO26 — POA
-
-- **Address:** 1 Amberley Street, Sheffield, S9 YO26 (Sheffield, Yorkshire)
-- **Price:** POA _(£1)_
-- **Size:** 77,330 sq. ft. (77,330 sq ft)
-- **Type:** Office · FREEHOLD
+- **Size:** 11,421 sq. ft. (11,421 sq ft)
+- **Type:** Distribution Warehouse · FREEHOLD
 - **Agent:** Knight Frank, Sheffield
-- **Matched requirement:** Data Centre Development (score 2/2+)
-- **Why:** geography "Sheffield Yorkshire" in Data Centre Development territory (prescoped — not scored); size 77330 >= min 20000; keyword hit "freehold"
-- **Listing:** https://www.rightmove.co.uk/properties/151292600#/?channel=COM_BUY
-
-### South West Centre, Troutbeck Road, Sheffield, S8 0JR — POA
-
-- **Address:** South West Centre, Troutbeck Road, Sheffield, S8 0JR (Sheffield, Yorkshire)
-- **Price:** POA _(£1)_
-- **Size:** 42,195 sq. ft. (42,195 sq ft)
-- **Type:** Office · FREEHOLD
-- **Agent:** Avison Young (UK) Limited, Land & Development
-- **Matched requirement:** Data Centre Development (score 2/2+)
-- **Why:** geography "Sheffield Yorkshire" in Data Centre Development territory (prescoped — not scored); size 42195 >= min 20000; keyword hit "freehold"
-- **Listing:** https://www.rightmove.co.uk/properties/88345509#/?channel=COM_BUY
+- **Matched requirement:** School Conversion (score 2/2+)
+- **Why:** geography "Sheffield Yorkshire" in School Conversion territory (prescoped — not scored); size 11421 >= min 2000; keyword hit "freehold"
+- **Listing:** https://www.rightmove.co.uk/properties/164601068#/?channel=COM_BUY
 
 ### 50, Broadfield Road, Sheffield, S8 0XJ — POA
 
@@ -918,38 +885,82 @@ Top agents by listing count:
 - **Why:** geography "Sheffield Yorkshire" in School Conversion territory (prescoped — not scored); size 3546 >= min 2000; keyword hit "freehold"
 - **Listing:** https://www.rightmove.co.uk/properties/174801437#/?channel=COM_BUY
 
-### 13 Birley Vale Avenue, Sheffield S12 — POA
+### Highfield at Waverley, Highfield Spring, Waverley, Rotherham, S60 — POA
 
-- **Address:** 13 Birley Vale Avenue, Sheffield S12 (Sheffield, Yorkshire)
+- **Address:** Highfield at Waverley, Highfield Spring, Waverley, Rotherham, S60 (Sheffield, Yorkshire)
 - **Price:** POA _(£1)_
-- **Size:** 17,630 sq. ft. (17,630 sq ft)
+- **Size:** 10,000–80,000 sq. ft. (80,000 sq ft)
 - **Type:** Distribution Warehouse · FREEHOLD
 - **Agent:** Knight Frank, Sheffield
-- **Matched requirement:** School Conversion (score 2/2+)
-- **Why:** geography "Sheffield Yorkshire" in School Conversion territory (prescoped — not scored); size 17630 >= min 2000; keyword hit "freehold"
-- **Listing:** https://www.rightmove.co.uk/properties/87778536#/?channel=COM_BUY
+- **Matched requirement:** Data Centre Development (score 2/2+)
+- **Why:** geography "Sheffield Yorkshire" in Data Centre Development territory (prescoped — not scored); size 80000 >= min 20000; keyword hit "freehold"
+- **Listing:** https://www.rightmove.co.uk/properties/168968804#/?channel=COM_BUY
 
-### Advantage House, Poplar Way, Catcliffe, Rotherham, Yorkshire S60 — POA
+### Yards C And D, Old Station Drive, Millhouses, Sheffield, S7 2PY — POA
 
-- **Address:** Advantage House, Poplar Way, Catcliffe, Rotherham, Yorkshire S60 (Sheffield, Yorkshire)
+- **Address:** Yards C And D, Old Station Drive, Millhouses, Sheffield, S7 2PY (Sheffield, Yorkshire)
 - **Price:** POA _(£1)_
-- **Size:** 19,873 sq. ft. (19,873 sq ft)
+- **Size:** 10,890 sq. ft. (10,890 sq ft)
+- **Type:** Warehouse · FREEHOLD
+- **Agent:** Eddisons Commercial Limited, Sheffield
+- **Matched requirement:** School Conversion (score 2/2+)
+- **Why:** geography "Sheffield Yorkshire" in School Conversion territory (prescoped — not scored); size 10890 >= min 2000; keyword hit "freehold"
+- **Listing:** https://www.rightmove.co.uk/properties/760571922917472#/?channel=COM_BUY
+
+### South West Centre, Troutbeck Road, Sheffield, S8 0JR — POA
+
+- **Address:** South West Centre, Troutbeck Road, Sheffield, S8 0JR (Sheffield, Yorkshire)
+- **Price:** POA _(£1)_
+- **Size:** 42,195 sq. ft. (42,195 sq ft)
+- **Type:** Office · FREEHOLD
+- **Agent:** Avison Young (UK) Limited, Land & Development
+- **Matched requirement:** Data Centre Development (score 2/2+)
+- **Why:** geography "Sheffield Yorkshire" in Data Centre Development territory (prescoped — not scored); size 42195 >= min 20000; keyword hit "freehold"
+- **Listing:** https://www.rightmove.co.uk/properties/88345509#/?channel=COM_BUY
+
+### Pennine House, 35a Business Park, Churchill Way, Ecclesfield, Sheffield, S35 — POA
+
+- **Address:** Pennine House, 35a Business Park, Churchill Way, Ecclesfield, Sheffield, S35 (Sheffield, Yorkshire)
+- **Price:** POA _(£1)_
+- **Size:** 9,360 sq. ft. (9,360 sq ft)
+- **Type:** Office
+- **Agent:** Knight Frank, Sheffield
+- **Matched requirement:** School Conversion (score 2/2+)
+- **Why:** geography "Sheffield Yorkshire" in School Conversion territory (prescoped — not scored); size 9360 >= min 2000; keyword hit "church"
+- **Listing:** https://www.rightmove.co.uk/properties/157397378#/?channel=COM_BUY
+
+### 1 Amberley Street, Sheffield, S9 YO26 — POA
+
+- **Address:** 1 Amberley Street, Sheffield, S9 YO26 (Sheffield, Yorkshire)
+- **Price:** POA _(£1)_
+- **Size:** 77,330 sq. ft. (77,330 sq ft)
 - **Type:** Office · FREEHOLD
 - **Agent:** Knight Frank, Sheffield
-- **Matched requirement:** School Conversion (score 2/2+)
-- **Why:** geography "Sheffield Yorkshire" in School Conversion territory (prescoped — not scored); size 19873 >= min 2000; keyword hit "freehold"
-- **Listing:** https://www.rightmove.co.uk/properties/89589720#/?channel=COM_BUY
+- **Matched requirement:** Data Centre Development (score 2/2+)
+- **Why:** geography "Sheffield Yorkshire" in Data Centre Development territory (prescoped — not scored); size 77330 >= min 20000; keyword hit "freehold"
+- **Listing:** https://www.rightmove.co.uk/properties/151292600#/?channel=COM_BUY
 
-### 160 Solly Street, Sheffield, S1 4BF — POA
+### Plot 10 R-evolution 4 at Advanced Manufacturing Park, Rotherham S60 — POA
 
-- **Address:** 160 Solly Street, Sheffield, S1 4BF (Sheffield, Yorkshire)
+- **Address:** Plot 10 R-evolution 4 at Advanced Manufacturing Park, Rotherham S60 (Sheffield, Yorkshire)
 - **Price:** POA _(£1)_
-- **Size:** 11,421 sq. ft. (11,421 sq ft)
-- **Type:** Distribution Warehouse · FREEHOLD
+- **Size:** 20,000 sq. ft. (20,000 sq ft)
+- **Type:** Industrial Development · FREEHOLD
 - **Agent:** Knight Frank, Sheffield
+- **Matched requirement:** Data Centre Development (score 2/2+)
+- **Why:** geography "Sheffield Yorkshire" in Data Centre Development territory (prescoped — not scored); size 20000 >= min 20000; keyword hit "freehold"
+- **Listing:** https://www.rightmove.co.uk/properties/170842886#/?channel=COM_BUY
+
+### Land at Hartington Terrace, Bradford — £40,000 Guide Price
+
+- **Address:** Land at Hartington Terrace, Bradford (Bradford, Yorkshire)
+- **Price:** £40,000 Guide Price _(£40,000)_ · auction
+- **Size:** 2,476 sq. ft. (2,476 sq ft)
+- **Type:** Light Industrial · FREEHOLD
+- **Agent:** Palace Auctions, London
 - **Matched requirement:** School Conversion (score 2/2+)
-- **Why:** geography "Sheffield Yorkshire" in School Conversion territory (prescoped — not scored); size 11421 >= min 2000; keyword hit "freehold"
-- **Listing:** https://www.rightmove.co.uk/properties/164601068#/?channel=COM_BUY
+- **Why:** geography "Bradford Yorkshire" in School Conversion territory (prescoped — not scored); size 2476 >= min 2000; keyword hit "freehold"
+- **Listing:** https://www.rightmove.co.uk/properties/754780241191488#/?channel=COM_BUY
 
 ### No.1 Midpoint Business Park, 1 Mid Point, Thornbury, Bradford, BD3 7AY — £4,000,000 Offers in Excess of
 
@@ -1072,17 +1083,6 @@ Top agents by listing count:
 - **Why:** geography "Bradford Yorkshire" in School Conversion territory (prescoped — not scored); size 3083 >= min 2000; keyword hit "planning"
 - **Listing:** https://www.rightmove.co.uk/properties/760771181578336#/?channel=COM_BUY
 
-### Land at Hartington Terrace, Bradford — £40,000 Guide Price
-
-- **Address:** Land at Hartington Terrace, Bradford (Bradford, Yorkshire)
-- **Price:** £40,000 Guide Price _(£40,000)_ · auction
-- **Size:** 2,476 sq. ft. (2,476 sq ft)
-- **Type:** Light Industrial · FREEHOLD
-- **Agent:** Palace Auctions, London
-- **Matched requirement:** School Conversion (score 2/2+)
-- **Why:** geography "Bradford Yorkshire" in School Conversion territory (prescoped — not scored); size 2476 >= min 2000; keyword hit "freehold"
-- **Listing:** https://www.rightmove.co.uk/properties/754780241191488#/?channel=COM_BUY
-
 ### Wharfedale Road, Bradford — POA
 
 - **Address:** Wharfedale Road, Bradford (Bradford, Yorkshire)
@@ -1093,17 +1093,6 @@ Top agents by listing count:
 - **Matched requirement:** Data Centre Development (score 2/2+)
 - **Why:** geography "Bradford Yorkshire" in Data Centre Development territory (prescoped — not scored); size 28079 >= min 20000; keyword hit "vacant"
 - **Listing:** https://www.rightmove.co.uk/properties/746607883263889#/?channel=COM_BUY
-
-### 221 Sunbridge Road, Bradford, BD1 2LG — POA
-
-- **Address:** 221 Sunbridge Road, Bradford, BD1 2LG (Bradford, Yorkshire)
-- **Price:** POA _(£1)_
-- **Size:** 16,165 sq. ft. (16,165 sq ft)
-- **Type:** Warehouse · FREEHOLD
-- **Agent:** Eddisons Commercial Limited, Bradford
-- **Matched requirement:** School Conversion (score 2/2+)
-- **Why:** geography "Bradford Yorkshire" in School Conversion territory (prescoped — not scored); size 16165 >= min 2000; keyword hit "freehold"
-- **Listing:** https://www.rightmove.co.uk/properties/760557421122001#/?channel=COM_BUY
 
 ### Unit 3 Interchange 26, Junction 26 M62, Cliff Hollins Lane, Cleckheaton, Bradford, BD12 7EZ — POA
 
@@ -1137,6 +1126,17 @@ Top agents by listing count:
 - **Matched requirement:** Data Centre Development (score 2/2+)
 - **Why:** geography "Bradford Yorkshire" in Data Centre Development territory (prescoped — not scored); size 20405 >= min 20000; keyword hit "industrial"
 - **Listing:** https://www.rightmove.co.uk/properties/760557131759280#/?channel=COM_BUY
+
+### 221 Sunbridge Road, Bradford, BD1 2LG — POA
+
+- **Address:** 221 Sunbridge Road, Bradford, BD1 2LG (Bradford, Yorkshire)
+- **Price:** POA _(£1)_
+- **Size:** 16,165 sq. ft. (16,165 sq ft)
+- **Type:** Warehouse · FREEHOLD
+- **Agent:** Eddisons Commercial Limited, Bradford
+- **Matched requirement:** School Conversion (score 2/2+)
+- **Why:** geography "Bradford Yorkshire" in School Conversion territory (prescoped — not scored); size 16165 >= min 2000; keyword hit "freehold"
+- **Listing:** https://www.rightmove.co.uk/properties/760557421122001#/?channel=COM_BUY
 
 ### King Street Works, King Street, Drighlington — £225,000 Guide Price
 
@@ -1237,17 +1237,6 @@ Top agents by listing count:
 - **Why:** geography "Huddersfield Yorkshire" in School Conversion territory (prescoped — not scored); size 3448 >= min 2000; keyword hit "planning"
 - **Listing:** https://www.rightmove.co.uk/properties/742077927848224#/?channel=COM_BUY
 
-### Development Site to rear of 72 & 74 New North Road, Huddersfield, West Yorkshire, HD1 5NE — £200,000 Offers in Excess of
-
-- **Address:** Development Site to rear of 72 & 74 New North Road, Huddersfield, West Yorkshire, HD1 5NE (Huddersfield, Yorkshire)
-- **Price:** £200,000 Offers in Excess of _(£200,000)_
-- **Size:** 11,761 sq. ft. (11,761 sq ft)
-- **Type:** Residential Development
-- **Agent:** BRAMLEYS LLP, Huddersfield
-- **Matched requirement:** School Conversion (score 2/2+)
-- **Why:** geography "Huddersfield Yorkshire" in School Conversion territory (prescoped — not scored); size 11761 >= min 2000; keyword hit "planning"
-- **Listing:** https://www.rightmove.co.uk/properties/742063384158624#/?channel=COM_BUY
-
 ### Land to rear of 72 & 74 New North Road, Huddersfield, West Yorkshire, HD1 5NE — £200,000 Offers in Excess of
 
 - **Address:** Land to rear of 72 & 74 New North Road, Huddersfield, West Yorkshire, HD1 5NE (Huddersfield, Yorkshire)
@@ -1258,6 +1247,17 @@ Top agents by listing count:
 - **Matched requirement:** School Conversion (score 2/2+)
 - **Why:** geography "Huddersfield Yorkshire" in School Conversion territory (prescoped — not scored); size 11761 >= min 2000; keyword hit "planning"
 - **Listing:** https://www.rightmove.co.uk/properties/742063304407872#/?channel=COM_BUY
+
+### Development Site to rear of 72 & 74 New North Road, Huddersfield, West Yorkshire, HD1 5NE — £200,000 Offers in Excess of
+
+- **Address:** Development Site to rear of 72 & 74 New North Road, Huddersfield, West Yorkshire, HD1 5NE (Huddersfield, Yorkshire)
+- **Price:** £200,000 Offers in Excess of _(£200,000)_
+- **Size:** 11,761 sq. ft. (11,761 sq ft)
+- **Type:** Residential Development
+- **Agent:** BRAMLEYS LLP, Huddersfield
+- **Matched requirement:** School Conversion (score 2/2+)
+- **Why:** geography "Huddersfield Yorkshire" in School Conversion territory (prescoped — not scored); size 11761 >= min 2000; keyword hit "planning"
+- **Listing:** https://www.rightmove.co.uk/properties/742063384158624#/?channel=COM_BUY
 
 ### Land Adjacent To 84, Longwood Gate, Longwood, Huddersfield, West Yorkshire, HD3 4US — £160,000
 
@@ -1490,38 +1490,38 @@ Top agents by listing count:
 - **Why:** geography "Doncaster Yorkshire" in Residential Conversion territory (prescoped — not scored); price 1500000 within budget 500000-2000000; keyword hit "freehold"
 - **Listing:** https://www.rightmove.co.uk/properties/90530232#/?channel=COM_BUY
 
-### 51-53 Richmond Street, Manchester, Lancashire, M1 3WB — £675,000 Offers in Region of
+### 13 Shaw Road, Heaton Moor, Stockport, SK4 4AG — £650,000
 
-- **Address:** 51-53 Richmond Street, Manchester, Lancashire, M1 3WB (Manchester, Greater Manchester)
-- **Price:** £675,000 Offers in Region of _(£675,000)_
-- **Size:** n/a
-- **Type:** Residential Development · FREEHOLD
-- **Agent:** Landwood Group, Manchester
-- **Matched requirement:** Residential Conversion (score 2/2+)
-- **Why:** geography "Manchester Greater Manchester" in Residential Conversion territory (prescoped — not scored); price 675000 within budget 500000-2000000; keyword hit "freehold"
-- **Listing:** https://www.rightmove.co.uk/properties/162129293#/?channel=COM_BUY
-
-### Unit 5, Brightgate Way, Trafford Park, M32 0TB — POA
-
-- **Address:** Unit 5, Brightgate Way, Trafford Park, M32 0TB (Manchester, Greater Manchester)
-- **Price:** POA _(£1,300,000)_
-- **Size:** 6,520 sq. ft. (6,520 sq ft)
-- **Type:** Warehouse · FREEHOLD
-- **Agent:** B8 Real Estate LLP, Warrington
+- **Address:** 13 Shaw Road, Heaton Moor, Stockport, SK4 4AG (Manchester, Greater Manchester)
+- **Price:** £650,000 _(£650,000)_
+- **Size:** 2,252 sq. ft. (2,252 sq ft)
+- **Type:** Retail Property (high street) · FREEHOLD
+- **Agent:** MBRE, Stockport
 - **Matched requirement:** School Conversion (score 2/2+)
-- **Why:** geography "Manchester Greater Manchester" in School Conversion territory (prescoped — not scored); size 6520 >= min 2000; keyword hit "freehold"
-- **Listing:** https://www.rightmove.co.uk/properties/173747120#/?channel=COM_BUY
+- **Why:** geography "Manchester Greater Manchester" in School Conversion territory (prescoped — not scored); size 2252 >= min 2000; keyword hit "freehold"
+- **Listing:** https://www.rightmove.co.uk/properties/162163484#/?channel=COM_BUY
 
-### Sherborne Street, Manchester — POA
+### Meadow Industrial Estate, Water Street, Manchester — £280,000
 
-- **Address:** Sherborne Street, Manchester (Manchester, Greater Manchester)
-- **Price:** POA _(£5,500,000)_
-- **Size:** 80,000 sq. ft. (80,000 sq ft)
+- **Address:** Meadow Industrial Estate, Water Street, Manchester (Manchester, Greater Manchester)
+- **Price:** £280,000 _(£280,000)_
+- **Size:** 2,400–2,450 sq. ft. (2,450 sq ft)
 - **Type:** Light Industrial · FREEHOLD
-- **Agent:** Citrus Commercial Circle, Manchester
-- **Matched requirement:** Data Centre Development (score 2/2+)
-- **Why:** geography "Manchester Greater Manchester" in Data Centre Development territory (prescoped — not scored); size 80000 >= min 20000; keyword hit "freehold"
-- **Listing:** https://www.rightmove.co.uk/properties/738315773469473#/?channel=COM_BUY
+- **Agent:** Portfolio Lets Limited, Manchester
+- **Matched requirement:** School Conversion (score 2/2+)
+- **Why:** geography "Manchester Greater Manchester" in School Conversion territory (prescoped — not scored); size 2450 >= min 2000; keyword hit "freehold"
+- **Listing:** https://www.rightmove.co.uk/properties/763457499288288#/?channel=COM_BUY
+
+### Unit D2, Meadowbank Business Park, Tweedle Way, Oldham, OL9 8EH — £1,000,000
+
+- **Address:** Unit D2, Meadowbank Business Park, Tweedle Way, Oldham, OL9 8EH (Manchester, Greater Manchester)
+- **Price:** £1,000,000 _(£1,000,000)_
+- **Size:** 7,615 sq. ft. (7,615 sq ft)
+- **Type:** Distribution Warehouse · FREEHOLD
+- **Agent:** MBRE, Stockport
+- **Matched requirement:** School Conversion (score 2/2+)
+- **Why:** geography "Manchester Greater Manchester" in School Conversion territory (prescoped — not scored); size 7615 >= min 2000; keyword hit "freehold"
+- **Listing:** https://www.rightmove.co.uk/properties/170286875#/?channel=COM_BUY
 
 ### Briscoe Lane, Manchester, M40 — £7,000,000 Offers in Excess of
 
@@ -1567,6 +1567,17 @@ Top agents by listing count:
 - **Why:** geography "Manchester Greater Manchester" in Data Centre Development territory (prescoped — not scored); size 65340 >= min 20000; keyword hit "freehold"
 - **Listing:** https://www.rightmove.co.uk/properties/161828498#/?channel=COM_BUY
 
+### Sherborne Street, Manchester — POA
+
+- **Address:** Sherborne Street, Manchester (Manchester, Greater Manchester)
+- **Price:** POA _(£5,500,000)_
+- **Size:** 80,000 sq. ft. (80,000 sq ft)
+- **Type:** Light Industrial · FREEHOLD
+- **Agent:** Citrus Commercial Circle, Manchester
+- **Matched requirement:** Data Centre Development (score 2/2+)
+- **Why:** geography "Manchester Greater Manchester" in Data Centre Development territory (prescoped — not scored); size 80000 >= min 20000; keyword hit "freehold"
+- **Listing:** https://www.rightmove.co.uk/properties/738315773469473#/?channel=COM_BUY
+
 ### Seaford Road, Manchester M6 — £5,500,000 Guide Price
 
 - **Address:** Seaford Road, Manchester M6 (Manchester, Greater Manchester)
@@ -1610,6 +1621,17 @@ Top agents by listing count:
 - **Matched requirement:** School Conversion (score 2/2+)
 - **Why:** geography "Manchester Greater Manchester" in School Conversion territory (prescoped — not scored); size 9766 >= min 2000; keyword hit "planning"
 - **Listing:** https://www.rightmove.co.uk/properties/759473348749040#/?channel=COM_BUY
+
+### Unit 5, Brightgate Way, Trafford Park, M32 0TB — POA
+
+- **Address:** Unit 5, Brightgate Way, Trafford Park, M32 0TB (Manchester, Greater Manchester)
+- **Price:** POA _(£1,300,000)_
+- **Size:** 6,520 sq. ft. (6,520 sq ft)
+- **Type:** Warehouse · FREEHOLD
+- **Agent:** B8 Real Estate LLP, Warrington
+- **Matched requirement:** School Conversion (score 2/2+)
+- **Why:** geography "Manchester Greater Manchester" in School Conversion territory (prescoped — not scored); size 6520 >= min 2000; keyword hit "freehold"
+- **Listing:** https://www.rightmove.co.uk/properties/173747120#/?channel=COM_BUY
 
 ### Stretford Road, Hulme, Manchester, M15 — £1,300,000
 
@@ -1655,27 +1677,16 @@ Top agents by listing count:
 - **Why:** geography "Manchester Greater Manchester" in Residential Conversion territory (prescoped — not scored); price 1000000 within budget 500000-2000000; keyword hit "freehold"
 - **Listing:** https://www.rightmove.co.uk/properties/167035448#/?channel=COM_BUY
 
-### Broughton Street, Manchester, Greater Manchester, M8 — £675,000 Offers in Excess of
+### 51-53 Richmond Street, Manchester, Lancashire, M1 3WB — £675,000 Offers in Region of
 
-- **Address:** Broughton Street, Manchester, Greater Manchester, M8 (Manchester, Greater Manchester)
-- **Price:** £675,000 Offers in Excess of _(£675,000)_
-- **Size:** 8,500 sq. ft. (8,500 sq ft)
-- **Type:** Commercial Property · FREEHOLD
-- **Agent:** NQ Commercial Limited, Manchester
-- **Matched requirement:** School Conversion (score 2/2+)
-- **Why:** geography "Manchester Greater Manchester" in School Conversion territory (prescoped — not scored); size 8500 >= min 2000; keyword hit "freehold"
-- **Listing:** https://www.rightmove.co.uk/properties/756213044978816#/?channel=COM_BUY
-
-### Unit D2, Meadowbank Business Park, Tweedle Way, Oldham, OL9 8EH — £1,000,000
-
-- **Address:** Unit D2, Meadowbank Business Park, Tweedle Way, Oldham, OL9 8EH (Manchester, Greater Manchester)
-- **Price:** £1,000,000 _(£1,000,000)_
-- **Size:** 7,615 sq. ft. (7,615 sq ft)
-- **Type:** Distribution Warehouse · FREEHOLD
-- **Agent:** MBRE, Stockport
-- **Matched requirement:** School Conversion (score 2/2+)
-- **Why:** geography "Manchester Greater Manchester" in School Conversion territory (prescoped — not scored); size 7615 >= min 2000; keyword hit "freehold"
-- **Listing:** https://www.rightmove.co.uk/properties/170286875#/?channel=COM_BUY
+- **Address:** 51-53 Richmond Street, Manchester, Lancashire, M1 3WB (Manchester, Greater Manchester)
+- **Price:** £675,000 Offers in Region of _(£675,000)_
+- **Size:** n/a
+- **Type:** Residential Development · FREEHOLD
+- **Agent:** Landwood Group, Manchester
+- **Matched requirement:** Residential Conversion (score 2/2+)
+- **Why:** geography "Manchester Greater Manchester" in Residential Conversion territory (prescoped — not scored); price 675000 within budget 500000-2000000; keyword hit "freehold"
+- **Listing:** https://www.rightmove.co.uk/properties/162129293#/?channel=COM_BUY
 
 ### 498-500 Wilbraham Road, Manchester, M21 9AP — £985,000
 
@@ -1732,17 +1743,6 @@ Top agents by listing count:
 - **Why:** geography "Manchester Greater Manchester" in School Conversion territory (prescoped — not scored); size 7798 >= min 2000; keyword hit "vacant"
 - **Listing:** https://www.rightmove.co.uk/properties/738114440579633#/?channel=COM_BUY
 
-### 64-68 Bury Old Road, Manchester — £750,000 Offers in Region of
-
-- **Address:** 64-68 Bury Old Road, Manchester (Manchester, Greater Manchester)
-- **Price:** £750,000 Offers in Region of _(£750,000)_
-- **Size:** 5,542 sq. ft. (5,542 sq ft)
-- **Type:** Retail Property (high street) · FREEHOLD
-- **Agent:** BARKER PROUDLOVE LIMITED, Manchester
-- **Matched requirement:** School Conversion (score 2/2+)
-- **Why:** geography "Manchester Greater Manchester" in School Conversion territory (prescoped — not scored); size 5542 >= min 2000; keyword hit "freehold"
-- **Listing:** https://www.rightmove.co.uk/properties/752027355996960#/?channel=COM_BUY
-
 ### BEECH HOUSE BOWLING & SOCIAL CLUB, ROSS AVENUE, LEVENSHULME, MANCHESTER, M19 — £750,000
 
 - **Address:** BEECH HOUSE BOWLING & SOCIAL CLUB, ROSS AVENUE, LEVENSHULME, MANCHESTER, M19 (Manchester, Greater Manchester)
@@ -1754,16 +1754,27 @@ Top agents by listing count:
 - **Why:** geography "Manchester Greater Manchester" in Data Centre Development territory (prescoped — not scored); size 23522 >= min 20000; keyword hit "planning"
 - **Listing:** https://www.rightmove.co.uk/properties/763840569263440#/?channel=COM_BUY
 
-### 13 Shaw Road, Heaton Moor, Stockport, SK4 4AG — £650,000
+### 64-68 Bury Old Road, Manchester — £750,000 Offers in Region of
 
-- **Address:** 13 Shaw Road, Heaton Moor, Stockport, SK4 4AG (Manchester, Greater Manchester)
-- **Price:** £650,000 _(£650,000)_
-- **Size:** 2,252 sq. ft. (2,252 sq ft)
+- **Address:** 64-68 Bury Old Road, Manchester (Manchester, Greater Manchester)
+- **Price:** £750,000 Offers in Region of _(£750,000)_
+- **Size:** 5,542 sq. ft. (5,542 sq ft)
 - **Type:** Retail Property (high street) · FREEHOLD
-- **Agent:** MBRE, Stockport
+- **Agent:** BARKER PROUDLOVE LIMITED, Manchester
 - **Matched requirement:** School Conversion (score 2/2+)
-- **Why:** geography "Manchester Greater Manchester" in School Conversion territory (prescoped — not scored); size 2252 >= min 2000; keyword hit "freehold"
-- **Listing:** https://www.rightmove.co.uk/properties/162163484#/?channel=COM_BUY
+- **Why:** geography "Manchester Greater Manchester" in School Conversion territory (prescoped — not scored); size 5542 >= min 2000; keyword hit "freehold"
+- **Listing:** https://www.rightmove.co.uk/properties/752027355996960#/?channel=COM_BUY
+
+### Broughton Street, Manchester, Greater Manchester, M8 — £675,000 Offers in Excess of
+
+- **Address:** Broughton Street, Manchester, Greater Manchester, M8 (Manchester, Greater Manchester)
+- **Price:** £675,000 Offers in Excess of _(£675,000)_
+- **Size:** 8,500 sq. ft. (8,500 sq ft)
+- **Type:** Commercial Property · FREEHOLD
+- **Agent:** NQ Commercial Limited, Manchester
+- **Matched requirement:** School Conversion (score 2/2+)
+- **Why:** geography "Manchester Greater Manchester" in School Conversion territory (prescoped — not scored); size 8500 >= min 2000; keyword hit "freehold"
+- **Listing:** https://www.rightmove.co.uk/properties/756213044978816#/?channel=COM_BUY
 
 ### Unit 1 and 2, Moho, Arundel Street, Manchester, M15 4JY — £650,000
 
@@ -1842,6 +1853,17 @@ Top agents by listing count:
 - **Why:** geography "Manchester Greater Manchester" in Residential Conversion territory (prescoped — not scored); price 525000 within budget 500000-2000000; keyword hit "freehold"
 - **Listing:** https://www.rightmove.co.uk/properties/96676537#/?channel=COM_BUY
 
+### Riverside Unit at Bridgewater Wharf, 257 Ordsall Lane, Salford, M5 3NG — £500,000 Offers in Excess of
+
+- **Address:** Riverside Unit at Bridgewater Wharf, 257 Ordsall Lane, Salford, M5 3NG (Manchester, Greater Manchester)
+- **Price:** £500,000 Offers in Excess of _(£500,000)_
+- **Size:** 2,336 sq. ft. (2,336 sq ft)
+- **Type:** Retail Property (high street) · LEASEHOLD
+- **Agent:** Gifford Dixon Commercial Property, Manchester
+- **Matched requirement:** School Conversion (score 2/2+)
+- **Why:** geography "Manchester Greater Manchester" in School Conversion territory (prescoped — not scored); size 2336 >= min 2000; keyword hit "gym"
+- **Listing:** https://www.rightmove.co.uk/properties/160038089#/?channel=COM_BUY
+
 ### 11 & 11A Shaw Road, Heaton Moor, Stockport SK4 4AG — £450,000
 
 - **Address:** 11 & 11A Shaw Road, Heaton Moor, Stockport SK4 4AG (Manchester, Greater Manchester)
@@ -1864,17 +1886,6 @@ Top agents by listing count:
 - **Why:** geography "Manchester Greater Manchester" in School Conversion territory (prescoped — not scored); size 2877 >= min 2000; keyword hit "freehold"
 - **Listing:** https://www.rightmove.co.uk/properties/759312782239104#/?channel=COM_BUY
 
-### 50 Leestone Road, Sharston Industrial Estate, Wythenshawe, M22 4RN — POA
-
-- **Address:** 50 Leestone Road, Sharston Industrial Estate, Wythenshawe, M22 4RN (Manchester, Greater Manchester)
-- **Price:** POA _(£1)_
-- **Size:** 42,370 sq. ft. (42,370 sq ft)
-- **Type:** Warehouse · LEASEHOLD
-- **Agent:** Williams Sillitoe, Cheshire
-- **Matched requirement:** Data Centre Development (score 2/2+)
-- **Why:** geography "Manchester Greater Manchester" in Data Centre Development territory (prescoped — not scored); size 42370 >= min 20000; keyword hit "industrial"
-- **Listing:** https://www.rightmove.co.uk/properties/89888580#/?channel=COM_BUY
-
 ### Meadow Mill, Water Street, Stockport, Cheshire, SK1 — £350,000 Guide Price
 
 - **Address:** Meadow Mill, Water Street, Stockport, Cheshire, SK1 (Manchester, Greater Manchester)
@@ -1896,17 +1907,6 @@ Top agents by listing count:
 - **Matched requirement:** School Conversion (score 2/2+)
 - **Why:** geography "Manchester Greater Manchester" in School Conversion territory (prescoped — not scored); size 6824 >= min 2000; keyword hit "freehold"
 - **Listing:** https://www.rightmove.co.uk/properties/158222384#/?channel=COM_BUY
-
-### Meadow Industrial Estate, Water Street, Manchester — £280,000
-
-- **Address:** Meadow Industrial Estate, Water Street, Manchester (Manchester, Greater Manchester)
-- **Price:** £280,000 _(£280,000)_
-- **Size:** 2,400–2,450 sq. ft. (2,450 sq ft)
-- **Type:** Light Industrial · FREEHOLD
-- **Agent:** Portfolio Lets Limited, Manchester
-- **Matched requirement:** School Conversion (score 2/2+)
-- **Why:** geography "Manchester Greater Manchester" in School Conversion territory (prescoped — not scored); size 2450 >= min 2000; keyword hit "freehold"
-- **Listing:** https://www.rightmove.co.uk/properties/763457499288288#/?channel=COM_BUY
 
 ### Chadwick Road, Eccles, Manchester, Greater Manchester, M30 0WU — £265,000 Guide Price
 
@@ -1941,6 +1941,17 @@ Top agents by listing count:
 - **Why:** geography "Manchester Greater Manchester" in School Conversion territory (prescoped — not scored); size 2012 >= min 2000; keyword hit "freehold"
 - **Listing:** https://www.rightmove.co.uk/properties/159892385#/?channel=COM_BUY
 
+### New Hall Lane, Bolton — £195,000 Offers in Region of
+
+- **Address:** New Hall Lane, Bolton (Bolton, Greater Manchester)
+- **Price:** £195,000 Offers in Region of _(£195,000)_
+- **Size:** 1,000–2,000 sq. ft. (2,000 sq ft)
+- **Type:** Mixed Use · LEASEHOLD
+- **Agent:** Regency Estates, Bolton
+- **Matched requirement:** School Conversion (score 2/2+)
+- **Why:** geography "Bolton Greater Manchester" in School Conversion territory (prescoped — not scored); size 2000 >= min 2000; keyword hit "vacant"
+- **Listing:** https://www.rightmove.co.uk/properties/758269323414560#/?channel=COM_BUY
+
 ### 225 Folds Road, Bolton, Lancashire, BL1 — £1,950,000
 
 - **Address:** 225 Folds Road, Bolton, Lancashire, BL1 (Bolton, Greater Manchester)
@@ -1963,17 +1974,6 @@ Top agents by listing count:
 - **Why:** geography "Bolton Greater Manchester" in Data Centre Development territory (prescoped — not scored); size 28211 >= min 20000; keyword hit "planning"
 - **Listing:** https://www.rightmove.co.uk/properties/759313315085665#/?channel=COM_BUY
 
-### The Swan & Barristers, 2-4 Churchgate, Bolton, BL1 1HJ — £1,200,000
-
-- **Address:** The Swan & Barristers, 2-4 Churchgate, Bolton, BL1 1HJ (Bolton, Greater Manchester)
-- **Price:** £1,200,000 _(£1,200,000)_
-- **Size:** n/a
-- **Type:** Pub · FREEHOLD
-- **Agent:** Christie & Co, Pubs & Restaurants
-- **Matched requirement:** Residential Conversion (score 2/2+)
-- **Why:** geography "Bolton Greater Manchester" in Residential Conversion territory (prescoped — not scored); price 1200000 within budget 500000-2000000; keyword hit "freehold"
-- **Listing:** https://www.rightmove.co.uk/properties/730294920018513#/?channel=COM_BUY
-
 ### Swan  Barristers, 2-4 Churchgate, Bolton, BL1 1HJ — £1,200,000 Offers in Excess of
 
 - **Address:** Swan  Barristers, 2-4 Churchgate, Bolton, BL1 1HJ (Bolton, Greater Manchester)
@@ -1984,6 +1984,17 @@ Top agents by listing count:
 - **Matched requirement:** School Conversion (score 2/2+)
 - **Why:** geography "Bolton Greater Manchester" in School Conversion territory (prescoped — not scored); size 11326 >= min 2000; keyword hit "freehold"
 - **Listing:** https://www.rightmove.co.uk/properties/723062151173152#/?channel=COM_BUY
+
+### The Swan & Barristers, 2-4 Churchgate, Bolton, BL1 1HJ — £1,200,000
+
+- **Address:** The Swan & Barristers, 2-4 Churchgate, Bolton, BL1 1HJ (Bolton, Greater Manchester)
+- **Price:** £1,200,000 _(£1,200,000)_
+- **Size:** n/a
+- **Type:** Pub · FREEHOLD
+- **Agent:** Christie & Co, Pubs & Restaurants
+- **Matched requirement:** Residential Conversion (score 2/2+)
+- **Why:** geography "Bolton Greater Manchester" in Residential Conversion territory (prescoped — not scored); price 1200000 within budget 500000-2000000; keyword hit "freehold"
+- **Listing:** https://www.rightmove.co.uk/properties/730294920018513#/?channel=COM_BUY
 
 ### WESTGATE HOUSE, 1 WESTGATE AVENUE, BOLTON, BL1 — £850,000
 
@@ -2073,17 +2084,6 @@ Top agents by listing count:
 - **Why:** geography "Bolton Greater Manchester" in Data Centre Development territory (prescoped — not scored); size 25700 >= min 20000; keyword hit "planning"
 - **Listing:** https://www.rightmove.co.uk/properties/88636776#/?channel=COM_BUY
 
-### New Hall Lane, Bolton — £195,000 Offers in Region of
-
-- **Address:** New Hall Lane, Bolton (Bolton, Greater Manchester)
-- **Price:** £195,000 Offers in Region of _(£195,000)_
-- **Size:** 1,000–2,000 sq. ft. (2,000 sq ft)
-- **Type:** Mixed Use · LEASEHOLD
-- **Agent:** Regency Estates, Bolton
-- **Matched requirement:** School Conversion (score 2/2+)
-- **Why:** geography "Bolton Greater Manchester" in School Conversion territory (prescoped — not scored); size 2000 >= min 2000; keyword hit "vacant"
-- **Listing:** https://www.rightmove.co.uk/properties/758269323414560#/?channel=COM_BUY
-
 ### Travis Perkins  Bark Street  Bolton  BL1 2BB  United Kingdom — POA
 
 - **Address:** Travis Perkins  Bark Street  Bolton  BL1 2BB  United Kingdom (Bolton, Greater Manchester)
@@ -2130,10 +2130,10 @@ Top agents by listing count:
 
 ## Scraped but did not pass Stage-0
 
-274 investable listings scored below the bar (geography not scored — these counts reflect price/size/keyword signals only).
+272 investable listings scored below the bar (geography not scored — these counts reflect price/size/keyword signals only).
 
 | Best score | Listings | Typical shortfall |
 |---|---|---|
-| 0/2 | 85 | no non-geo signal at all (POA price, no size given, no keyword hit) |
-| 1/2 | 189 | one signal only — e.g. keyword but price outside budget / size unknown |
+| 0/2 | 81 | no non-geo signal at all (POA price, no size given, no keyword hit) |
+| 1/2 | 191 | one signal only — e.g. keyword but price outside budget / size unknown |
 

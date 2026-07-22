@@ -1,129 +1,7 @@
 {
   "source": "Rightmove Commercial",
-  "generatedAt": "2026-07-22T21:49:28.148Z",
+  "generatedAt": "2026-07-22T22:04:56.854Z",
   "rows": [
-    {
-      "address": "1-2 Deanhurst Park, Gelderd Road, Gildersome, Morley, Leeds (Leeds)",
-      "priceDisplay": "£725,000",
-      "priceAmount": 725000,
-      "sizeLabel": "5,242 sq. ft.",
-      "sizeSqft": 5242,
-      "source": "Rightmove Commercial",
-      "requirement": "Residential Conversion",
-      "score": 2,
-      "reasons": [
-        "geography \"Leeds Yorkshire\" in Residential Conversion territory (prescoped — not scored)",
-        "price 725000 within budget 500000-2000000",
-        "keyword hit \"freehold\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/747152224116992#/?channel=COM_BUY",
-      "agent": "Crans Property Consultants, Huddersfield",
-      "propertyType": "Office",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/86e42cc2b/747152224116992/86e42cc2bfe0cfc5a28c4905f11e1792_max_476x317.jpeg",
-      "marketingText": "Office for sale Modern, semi-detached officed building with 4 individual suites across 2 floors, near to J27 of the M62 and just 10 minutes from Leeds City Centre. Close to J27 of the M62 and Leeds City Centre Adjacent carpark with 18 allocated spaces 4 individual suites located across 2 semi-detached buildings Raised floors for services Step free access to the ground floor offices and accessible facilities Manual shutters to each individual suite Available with vacant possession Suitable for investors and owner occupiers FREEHOLD",
-      "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.9,
-        "nearestAnyName": "Buslingthorpe Power Station (Leeds North)",
-        "nearestAnyFuel": "Biomass"
-      },
-      "substation": {
-        "distanceKm": 3.2,
-        "name": "Kirkstall A",
-        "voltageKv": 275,
-        "tier": "transmission"
-      },
-      "dataCentreFit": {
-        "score": 64,
-        "band": "possible",
-        "reasons": [
-          "3.2km to Kirkstall A (275kV, transmission)",
-          "5,242 sq ft equivalent",
-          "subtype \"Office\""
-        ]
-      },
-      "dedup": {
-        "isDuplicate": false,
-        "duplicateCount": 0,
-        "groupId": null
-      },
-      "valueAdd": {
-        "score": 0,
-        "band": "insufficient_data",
-        "reasons": [
-          "no VOA business-rates benchmark for this district (need ≥10 samples)"
-        ]
-      },
-      "schoolReadiness": {
-        "score": 0,
-        "band": "unknown",
-        "reasons": [
-          "no condition language found in listing text"
-        ]
-      }
-    },
-    {
-      "address": "26-27 Park Square West, Leeds, LS1 2PL (Leeds)",
-      "priceDisplay": "£1,500,000 Offers in Excess of",
-      "priceAmount": 1500000,
-      "sizeLabel": "5,856 sq. ft.",
-      "sizeSqft": 5856,
-      "source": "Rightmove Commercial",
-      "requirement": "Residential Conversion",
-      "score": 2,
-      "reasons": [
-        "geography \"Leeds Yorkshire\" in Residential Conversion territory (prescoped — not scored)",
-        "price 1500000 within budget 500000-2000000",
-        "keyword hit \"freehold\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/698589182145520#/?channel=COM_BUY",
-      "agent": "Sanderson Weatherall, Leeds",
-      "propertyType": "Office",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/00e2395ad/698589182145520/00e2395ad3adc907109d8884d5204d00_max_476x317.jpeg",
-      "marketingText": "Office for sale Rare Freehold Opportunity - Period Office Building with Substantial Refurbishment / Redevelopment Opportunity (STP) Substantial refurbishment / redevelopment opportunity Suitable for a variety of uses (stp) Grade II Listed, mid terrace, Georgian property Excellent location Desirable views of manicured gardens and period buildings Pleasant courtyard area Self-contained 'own front door opportunity' Garage & storage space + electric roller shutter door FREEHOLD",
-      "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.9,
-        "nearestAnyName": "Buslingthorpe Power Station (Leeds North)",
-        "nearestAnyFuel": "Biomass"
-      },
-      "substation": {
-        "distanceKm": 3.2,
-        "name": "Kirkstall A",
-        "voltageKv": 275,
-        "tier": "transmission"
-      },
-      "dataCentreFit": {
-        "score": 64,
-        "band": "possible",
-        "reasons": [
-          "3.2km to Kirkstall A (275kV, transmission)",
-          "5,856 sq ft equivalent",
-          "subtype \"Office\""
-        ]
-      },
-      "dedup": {
-        "isDuplicate": false,
-        "canonicalUrl": "https://www.rightmove.co.uk/properties/698589182145520#/?channel=COM_BUY",
-        "duplicateCount": 1,
-        "groupId": "1500000:5856#0",
-        "reason": "same price (£1,500,000) and size (5,856 sq ft), overlapping address"
-      },
-      "valueAdd": {
-        "score": 0,
-        "band": "insufficient_data",
-        "reasons": [
-          "no VOA business-rates benchmark for this district (need ≥10 samples)"
-        ]
-      },
-      "schoolReadiness": {
-        "score": 0,
-        "band": "major_work",
-        "reasons": [
-          "work-needed language: \"development opportunity\", \"redevelopment opportunity\""
-        ]
-      }
-    },
     {
       "address": "13-14 Park Place, Leeds, LS1 2SJ (Leeds)",
       "priceDisplay": "£1,013,000 Offers in Excess of",
@@ -162,66 +40,6 @@
           "3.2km to Kirkstall A (275kV, transmission)",
           "5,858 sq ft equivalent",
           "subtype \"Office\""
-        ]
-      },
-      "dedup": {
-        "isDuplicate": false,
-        "duplicateCount": 0,
-        "groupId": null
-      },
-      "valueAdd": {
-        "score": 0,
-        "band": "insufficient_data",
-        "reasons": [
-          "no VOA business-rates benchmark for this district (need ≥10 samples)"
-        ]
-      },
-      "schoolReadiness": {
-        "score": 0,
-        "band": "unknown",
-        "reasons": [
-          "no condition language found in listing text"
-        ]
-      }
-    },
-    {
-      "address": "Carlton Trading Estate, Pickering Street, Armley, Leeds (Leeds)",
-      "priceDisplay": "£1,660,000 Offers in Region of",
-      "priceAmount": 1660000,
-      "sizeLabel": "57,675 sq. ft.",
-      "sizeSqft": 57675,
-      "source": "Rightmove Commercial",
-      "requirement": "Data Centre Development",
-      "score": 2,
-      "reasons": [
-        "geography \"Leeds Yorkshire\" in Data Centre Development territory (prescoped — not scored)",
-        "size 57675 >= min 20000",
-        "keyword hit \"freehold\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/747888028746705#/?channel=COM_BUY",
-      "agent": "Northcap, Leeds",
-      "propertyType": "Industrial Park",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/f3dcc19b3/747888028746705/f3dcc19b38846ff4ad118f2d377b7cbd_max_476x317.jpeg",
-      "marketingText": "Industrial park for sale High yielding mixed use former mill buildings near to Leeds city center. Low overall capital value of £28.80 psf. Well-located freehold industrial and commercial estate situated approximately one mile west of Leeds city centre, within the established mixed-use area of Armley. Substantial multi-let property of traditional mill and industrial buildings providing a total site area of approximately 1.11 acres. Fifteen tenants currently in occupation, producing a current rent of £176,370 per annum, reflecting a low average rent of £4.41 per sq ft. Estimated Rental Value of £255,620 per annum, offering significant reversionary potential and future income growth. Demonstrated consistently high occupancy and strong re-letting performance, underpinned by affordable rents and the estate’s accessible location. Freehold. The transaction is to be treated as a Transfer of a Going Concern (TOGC). Offers invited in excess of £1,660,000, subject to contract and exclusive of VAT, reflecting an attractive initial yield of 10.00% and a reversionary yield of 14.5%, assuming standard purchaser’s cost Low capital value of £28.80 per sq ft. FREEHOLD",
-      "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.9,
-        "nearestAnyName": "Buslingthorpe Power Station (Leeds North)",
-        "nearestAnyFuel": "Biomass"
-      },
-      "substation": {
-        "distanceKm": 3.2,
-        "name": "Kirkstall A",
-        "voltageKv": 275,
-        "tier": "transmission"
-      },
-      "dataCentreFit": {
-        "score": 84,
-        "band": "strong",
-        "reasons": [
-          "3.2km to Kirkstall A (275kV, transmission)",
-          "57,675 sq ft equivalent",
-          "subtype \"Industrial Park\""
         ]
       },
       "dedup": {
@@ -425,66 +243,6 @@
       }
     },
     {
-      "address": "Laurel House 146-148 Garnet Road, Leeds, LS11 5HP (Leeds)",
-      "priceDisplay": "£2,000,000 Offers in Region of",
-      "priceAmount": 2000000,
-      "sizeLabel": "575–53,252 sq. ft.",
-      "sizeSqft": 53252,
-      "source": "Rightmove Commercial",
-      "requirement": "Data Centre Development",
-      "score": 2,
-      "reasons": [
-        "geography \"Leeds Yorkshire\" in Data Centre Development territory (prescoped — not scored)",
-        "size 53252 >= min 20000",
-        "keyword hit \"freehold\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/698587804331425#/?channel=COM_BUY",
-      "agent": "Sanderson Weatherall, Leeds",
-      "propertyType": "Light Industrial",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/c1dd4a417/698587804331425/c1dd4a417b993794e57bfefd6e9d9676_max_476x317.png",
-      "marketingText": "Light industrial for sale Industrial Warehouse - Ideal Opportunity for Owner Occupiers or Investors in Leeds Prominently located fronting Dewsbury Road Total Site Area - 1.346 acres (0.545 ha) Let in Part - currently producing £38,000 per annum Vacant Space - GIA 4,947 sq m (53,252 sq ft) Available to Purchase as a whole or Lease in part Potential for a variety of uses (STP) EPC Rating - 'D' (92) FREEHOLD",
-      "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.9,
-        "nearestAnyName": "Buslingthorpe Power Station (Leeds North)",
-        "nearestAnyFuel": "Biomass"
-      },
-      "substation": {
-        "distanceKm": 3.2,
-        "name": "Kirkstall A",
-        "voltageKv": 275,
-        "tier": "transmission"
-      },
-      "dataCentreFit": {
-        "score": 84,
-        "band": "strong",
-        "reasons": [
-          "3.2km to Kirkstall A (275kV, transmission)",
-          "53,252 sq ft equivalent",
-          "subtype \"Light Industrial\""
-        ]
-      },
-      "dedup": {
-        "isDuplicate": false,
-        "duplicateCount": 0,
-        "groupId": null
-      },
-      "valueAdd": {
-        "score": 0,
-        "band": "insufficient_data",
-        "reasons": [
-          "no VOA business-rates benchmark for this district (need ≥10 samples)"
-        ]
-      },
-      "schoolReadiness": {
-        "score": 0,
-        "band": "unknown",
-        "reasons": [
-          "no condition language found in listing text"
-        ]
-      }
-    },
-    {
       "address": "Tannery Square, Meanwood, Leeds, LS6 4LT (Leeds)",
       "priceDisplay": "£2,000,000 Offers in Region of",
       "priceAmount": 2000000,
@@ -522,6 +280,66 @@
           "3.2km to Kirkstall A (275kV, transmission)",
           "7,811 sq ft equivalent",
           "subtype \"Commercial Property\" — no specific rule, neutral"
+        ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "no VOA business-rates benchmark for this district (need ≥10 samples)"
+        ]
+      },
+      "schoolReadiness": {
+        "score": 0,
+        "band": "unknown",
+        "reasons": [
+          "no condition language found in listing text"
+        ]
+      }
+    },
+    {
+      "address": "Laurel House 146-148 Garnet Road, Leeds, LS11 5HP (Leeds)",
+      "priceDisplay": "£2,000,000 Offers in Region of",
+      "priceAmount": 2000000,
+      "sizeLabel": "575–53,252 sq. ft.",
+      "sizeSqft": 53252,
+      "source": "Rightmove Commercial",
+      "requirement": "Data Centre Development",
+      "score": 2,
+      "reasons": [
+        "geography \"Leeds Yorkshire\" in Data Centre Development territory (prescoped — not scored)",
+        "size 53252 >= min 20000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/698587804331425#/?channel=COM_BUY",
+      "agent": "Sanderson Weatherall, Leeds",
+      "propertyType": "Light Industrial",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/c1dd4a417/698587804331425/c1dd4a417b993794e57bfefd6e9d9676_max_476x317.png",
+      "marketingText": "Light industrial for sale Industrial Warehouse - Ideal Opportunity for Owner Occupiers or Investors in Leeds Prominently located fronting Dewsbury Road Total Site Area - 1.346 acres (0.545 ha) Let in Part - currently producing £38,000 per annum Vacant Space - GIA 4,947 sq m (53,252 sq ft) Available to Purchase as a whole or Lease in part Potential for a variety of uses (STP) EPC Rating - 'D' (92) FREEHOLD",
+      "powerStation": {
+        "geocodePrecision": "city-centroid",
+        "nearestAnyKm": 1.9,
+        "nearestAnyName": "Buslingthorpe Power Station (Leeds North)",
+        "nearestAnyFuel": "Biomass"
+      },
+      "substation": {
+        "distanceKm": 3.2,
+        "name": "Kirkstall A",
+        "voltageKv": 275,
+        "tier": "transmission"
+      },
+      "dataCentreFit": {
+        "score": 84,
+        "band": "strong",
+        "reasons": [
+          "3.2km to Kirkstall A (275kV, transmission)",
+          "53,252 sq ft equivalent",
+          "subtype \"Light Industrial\""
         ]
       },
       "dedup": {
@@ -661,6 +479,128 @@
         "band": "unknown",
         "reasons": [
           "no condition language found in listing text"
+        ]
+      }
+    },
+    {
+      "address": "Carlton Trading Estate, Pickering Street, Armley, Leeds (Leeds)",
+      "priceDisplay": "£1,660,000 Offers in Region of",
+      "priceAmount": 1660000,
+      "sizeLabel": "57,675 sq. ft.",
+      "sizeSqft": 57675,
+      "source": "Rightmove Commercial",
+      "requirement": "Data Centre Development",
+      "score": 2,
+      "reasons": [
+        "geography \"Leeds Yorkshire\" in Data Centre Development territory (prescoped — not scored)",
+        "size 57675 >= min 20000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/747888028746705#/?channel=COM_BUY",
+      "agent": "Northcap, Leeds",
+      "propertyType": "Industrial Park",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/f3dcc19b3/747888028746705/f3dcc19b38846ff4ad118f2d377b7cbd_max_476x317.jpeg",
+      "marketingText": "Industrial park for sale High yielding mixed use former mill buildings near to Leeds city center. Low overall capital value of £28.80 psf. Well-located freehold industrial and commercial estate situated approximately one mile west of Leeds city centre, within the established mixed-use area of Armley. Substantial multi-let property of traditional mill and industrial buildings providing a total site area of approximately 1.11 acres. Fifteen tenants currently in occupation, producing a current rent of £176,370 per annum, reflecting a low average rent of £4.41 per sq ft. Estimated Rental Value of £255,620 per annum, offering significant reversionary potential and future income growth. Demonstrated consistently high occupancy and strong re-letting performance, underpinned by affordable rents and the estate’s accessible location. Freehold. The transaction is to be treated as a Transfer of a Going Concern (TOGC). Offers invited in excess of £1,660,000, subject to contract and exclusive of VAT, reflecting an attractive initial yield of 10.00% and a reversionary yield of 14.5%, assuming standard purchaser’s cost Low capital value of £28.80 per sq ft. FREEHOLD",
+      "powerStation": {
+        "geocodePrecision": "city-centroid",
+        "nearestAnyKm": 1.9,
+        "nearestAnyName": "Buslingthorpe Power Station (Leeds North)",
+        "nearestAnyFuel": "Biomass"
+      },
+      "substation": {
+        "distanceKm": 3.2,
+        "name": "Kirkstall A",
+        "voltageKv": 275,
+        "tier": "transmission"
+      },
+      "dataCentreFit": {
+        "score": 84,
+        "band": "strong",
+        "reasons": [
+          "3.2km to Kirkstall A (275kV, transmission)",
+          "57,675 sq ft equivalent",
+          "subtype \"Industrial Park\""
+        ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "no VOA business-rates benchmark for this district (need ≥10 samples)"
+        ]
+      },
+      "schoolReadiness": {
+        "score": 0,
+        "band": "unknown",
+        "reasons": [
+          "no condition language found in listing text"
+        ]
+      }
+    },
+    {
+      "address": "26-27 Park Square West, Leeds, LS1 2PL (Leeds)",
+      "priceDisplay": "£1,500,000 Offers in Excess of",
+      "priceAmount": 1500000,
+      "sizeLabel": "5,856 sq. ft.",
+      "sizeSqft": 5856,
+      "source": "Rightmove Commercial",
+      "requirement": "Residential Conversion",
+      "score": 2,
+      "reasons": [
+        "geography \"Leeds Yorkshire\" in Residential Conversion territory (prescoped — not scored)",
+        "price 1500000 within budget 500000-2000000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/698589182145520#/?channel=COM_BUY",
+      "agent": "Sanderson Weatherall, Leeds",
+      "propertyType": "Office",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/00e2395ad/698589182145520/00e2395ad3adc907109d8884d5204d00_max_476x317.jpeg",
+      "marketingText": "Office for sale Rare Freehold Opportunity - Period Office Building with Substantial Refurbishment / Redevelopment Opportunity (STP) Substantial refurbishment / redevelopment opportunity Suitable for a variety of uses (stp) Grade II Listed, mid terrace, Georgian property Excellent location Desirable views of manicured gardens and period buildings Pleasant courtyard area Self-contained 'own front door opportunity' Garage & storage space + electric roller shutter door FREEHOLD",
+      "powerStation": {
+        "geocodePrecision": "city-centroid",
+        "nearestAnyKm": 1.9,
+        "nearestAnyName": "Buslingthorpe Power Station (Leeds North)",
+        "nearestAnyFuel": "Biomass"
+      },
+      "substation": {
+        "distanceKm": 3.2,
+        "name": "Kirkstall A",
+        "voltageKv": 275,
+        "tier": "transmission"
+      },
+      "dataCentreFit": {
+        "score": 64,
+        "band": "possible",
+        "reasons": [
+          "3.2km to Kirkstall A (275kV, transmission)",
+          "5,856 sq ft equivalent",
+          "subtype \"Office\""
+        ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "canonicalUrl": "https://www.rightmove.co.uk/properties/698589182145520#/?channel=COM_BUY",
+        "duplicateCount": 1,
+        "groupId": "1500000:5856#0",
+        "reason": "same price (£1,500,000) and size (5,856 sq ft), overlapping address"
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "no VOA business-rates benchmark for this district (need ≥10 samples)"
+        ]
+      },
+      "schoolReadiness": {
+        "score": 0,
+        "band": "major_work",
+        "reasons": [
+          "work-needed language: \"development opportunity\", \"redevelopment opportunity\""
         ]
       }
     },
@@ -1087,66 +1027,6 @@
       }
     },
     {
-      "address": "Hawthorn Park, Coal Road, Whinmoor, Leeds (Leeds)",
-      "priceDisplay": "£900,000",
-      "priceAmount": 900000,
-      "sizeLabel": "6,800 sq. ft.",
-      "sizeSqft": 6800,
-      "source": "Rightmove Commercial",
-      "requirement": "Residential Conversion",
-      "score": 2,
-      "reasons": [
-        "geography \"Leeds Yorkshire\" in Residential Conversion territory (prescoped — not scored)",
-        "price 900000 within budget 500000-2000000",
-        "keyword hit \"freehold\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/758741004284305#/?channel=COM_BUY",
-      "agent": "NABARRO MCALLISTER & CO LIMITED, Leeds",
-      "propertyType": "Office",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/dcdc78950/758741004284305/dcdc78950697ee0b00fc6cb8fd4161bf_max_476x317.jpeg",
-      "marketingText": "Office for sale Detached 2-storey office building Popular office park Good sized car park Fully raised floors Passenger lift FREEHOLD",
-      "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.9,
-        "nearestAnyName": "Buslingthorpe Power Station (Leeds North)",
-        "nearestAnyFuel": "Biomass"
-      },
-      "substation": {
-        "distanceKm": 3.2,
-        "name": "Kirkstall A",
-        "voltageKv": 275,
-        "tier": "transmission"
-      },
-      "dataCentreFit": {
-        "score": 64,
-        "band": "possible",
-        "reasons": [
-          "3.2km to Kirkstall A (275kV, transmission)",
-          "6,800 sq ft equivalent",
-          "subtype \"Office\""
-        ]
-      },
-      "dedup": {
-        "isDuplicate": false,
-        "duplicateCount": 0,
-        "groupId": null
-      },
-      "valueAdd": {
-        "score": 0,
-        "band": "insufficient_data",
-        "reasons": [
-          "no VOA business-rates benchmark for this district (need ≥10 samples)"
-        ]
-      },
-      "schoolReadiness": {
-        "score": 0,
-        "band": "unknown",
-        "reasons": [
-          "no condition language found in listing text"
-        ]
-      }
-    },
-    {
       "address": "Pavilion Court, Green Lane, Garforth, Leeds, LS25 2AF (Leeds)",
       "priceDisplay": "£900,000",
       "priceAmount": 900000,
@@ -1183,6 +1063,66 @@
         "reasons": [
           "3.2km to Kirkstall A (275kV, transmission)",
           "6,055 sq ft equivalent",
+          "subtype \"Office\""
+        ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "no VOA business-rates benchmark for this district (need ≥10 samples)"
+        ]
+      },
+      "schoolReadiness": {
+        "score": 0,
+        "band": "unknown",
+        "reasons": [
+          "no condition language found in listing text"
+        ]
+      }
+    },
+    {
+      "address": "Hawthorn Park, Coal Road, Whinmoor, Leeds (Leeds)",
+      "priceDisplay": "£900,000",
+      "priceAmount": 900000,
+      "sizeLabel": "6,800 sq. ft.",
+      "sizeSqft": 6800,
+      "source": "Rightmove Commercial",
+      "requirement": "Residential Conversion",
+      "score": 2,
+      "reasons": [
+        "geography \"Leeds Yorkshire\" in Residential Conversion territory (prescoped — not scored)",
+        "price 900000 within budget 500000-2000000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/758741004284305#/?channel=COM_BUY",
+      "agent": "NABARRO MCALLISTER & CO LIMITED, Leeds",
+      "propertyType": "Office",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/dcdc78950/758741004284305/dcdc78950697ee0b00fc6cb8fd4161bf_max_476x317.jpeg",
+      "marketingText": "Office for sale Detached 2-storey office building Popular office park Good sized car park Fully raised floors Passenger lift FREEHOLD",
+      "powerStation": {
+        "geocodePrecision": "city-centroid",
+        "nearestAnyKm": 1.9,
+        "nearestAnyName": "Buslingthorpe Power Station (Leeds North)",
+        "nearestAnyFuel": "Biomass"
+      },
+      "substation": {
+        "distanceKm": 3.2,
+        "name": "Kirkstall A",
+        "voltageKv": 275,
+        "tier": "transmission"
+      },
+      "dataCentreFit": {
+        "score": 64,
+        "band": "possible",
+        "reasons": [
+          "3.2km to Kirkstall A (275kV, transmission)",
+          "6,800 sq ft equivalent",
           "subtype \"Office\""
         ]
       },
@@ -1503,6 +1443,66 @@
         "band": "ready",
         "reasons": [
           "ready-condition language: \"recently refurbished\""
+        ]
+      }
+    },
+    {
+      "address": "1-2 Deanhurst Park, Gelderd Road, Gildersome, Morley, Leeds (Leeds)",
+      "priceDisplay": "£725,000",
+      "priceAmount": 725000,
+      "sizeLabel": "5,242 sq. ft.",
+      "sizeSqft": 5242,
+      "source": "Rightmove Commercial",
+      "requirement": "Residential Conversion",
+      "score": 2,
+      "reasons": [
+        "geography \"Leeds Yorkshire\" in Residential Conversion territory (prescoped — not scored)",
+        "price 725000 within budget 500000-2000000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/747152224116992#/?channel=COM_BUY",
+      "agent": "Crans Property Consultants, Huddersfield",
+      "propertyType": "Office",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/86e42cc2b/747152224116992/86e42cc2bfe0cfc5a28c4905f11e1792_max_476x317.jpeg",
+      "marketingText": "Office for sale Modern, semi-detached officed building with 4 individual suites across 2 floors, near to J27 of the M62 and just 10 minutes from Leeds City Centre. Close to J27 of the M62 and Leeds City Centre Adjacent carpark with 18 allocated spaces 4 individual suites located across 2 semi-detached buildings Raised floors for services Step free access to the ground floor offices and accessible facilities Manual shutters to each individual suite Available with vacant possession Suitable for investors and owner occupiers FREEHOLD",
+      "powerStation": {
+        "geocodePrecision": "city-centroid",
+        "nearestAnyKm": 1.9,
+        "nearestAnyName": "Buslingthorpe Power Station (Leeds North)",
+        "nearestAnyFuel": "Biomass"
+      },
+      "substation": {
+        "distanceKm": 3.2,
+        "name": "Kirkstall A",
+        "voltageKv": 275,
+        "tier": "transmission"
+      },
+      "dataCentreFit": {
+        "score": 64,
+        "band": "possible",
+        "reasons": [
+          "3.2km to Kirkstall A (275kV, transmission)",
+          "5,242 sq ft equivalent",
+          "subtype \"Office\""
+        ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "no VOA business-rates benchmark for this district (need ≥10 samples)"
+        ]
+      },
+      "schoolReadiness": {
+        "score": 0,
+        "band": "unknown",
+        "reasons": [
+          "no condition language found in listing text"
         ]
       }
     },
@@ -2047,66 +2047,6 @@
       }
     },
     {
-      "address": "24 Meadowhall Road, Sheffield, South Yorkshire, S9 1BS (Sheffield)",
-      "priceDisplay": "POA",
-      "priceAmount": 1,
-      "sizeLabel": "6,286 sq. ft.",
-      "sizeSqft": 6286,
-      "source": "Rightmove Commercial",
-      "requirement": "School Conversion",
-      "score": 2,
-      "reasons": [
-        "geography \"Sheffield Yorkshire\" in School Conversion territory (prescoped — not scored)",
-        "size 6286 >= min 2000",
-        "keyword hit \"freehold\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/760551129667441#/?channel=COM_BUY",
-      "agent": "Flint Real Estate, Doncaster",
-      "propertyType": "Showroom",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/e6a9af0d5/760551129667441/e6a9af0d580de81d08abda8403391405_max_476x317.jpeg",
-      "marketingText": "Showroom for sale FOR SALE / TO LET - WELL LOCATED SHOWROOM / TRADE COUNTER / WORKSHOP PREMISES SUITABLE FOR A RANGE OF USES STP SUMMARY - Studio Style Workshop & Showroom\n- Suit Various Uses STPP - Useful Workshop Area & 5-Ton Crane\n- 584.03 Sq M (6,286 Sq Ft) - Located to the Rear of Meadowhall\n- Prominent Location - 18,000 vehicles passing the site per day\n- Price on Application LOCATION\nHighly prominent and highly visible location fronting the A6109 Meadowhall Road. This is the main arterial route between the M1 at Junction 34 and Sheffield City Centre. There is lots of passing vehicular traffic with around 18,000 vehicles pass the site daily.\nThe property is located directly behind Meadowhall Shopping Centre, which provides excellent levels of passing traffic and amenities. DESCRIPTION\nProminent commercial building suitable for a range of uses most recently used as a showroom / trade counter and workshop benefiting from the below specification:\n- Traditional ground and first floor showroom and workshop space - Suit various uses STP (showroom, gallery, trade counter, workshop, retail, restaurant, design studio etc)\n- Excellent location to the rear of Meadowhall - On site parking - Roadside position - 5-ton working crane in situ - Useful workshop and storage areas\n- Polished concrete flooring - Quirky studio / warehouse style\n- Freehold FLOOR AREAS\nGround Floor: 3959 Sq Ft\nFirst Floor: 2,327 Sq Ft Total: 6,286 Sq Ft LEASE TERMS\nThe property is available to lease on FRI... FOR SALE / TO LET - PRIME TRADE COUNTER / SHOWROOM / WORKSHOP UNIT SUIT VARIOUS USES STPP GROUND AND FIRST FLOOR AREAS 5-TON CRANE IN SITU RECENTLY REFURBISHED OFF STREET PARKING LOCATED TO THE REAR OF MEADOWHALL PRICE & RENT ON APPLICATION",
-      "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
-        "nearestAnyName": "Sheffield ERF",
-        "nearestAnyFuel": "Waste"
-      },
-      "substation": {
-        "distanceKm": 0.8,
-        "name": "Sheffield City Substation",
-        "voltageKv": 275,
-        "tier": "transmission"
-      },
-      "dataCentreFit": {
-        "score": 75,
-        "band": "strong",
-        "reasons": [
-          "0.8km to Sheffield City Substation (275kV, transmission)",
-          "6,286 sq ft equivalent",
-          "subtype \"Showroom\" — no specific rule, neutral"
-        ]
-      },
-      "dedup": {
-        "isDuplicate": false,
-        "duplicateCount": 0,
-        "groupId": null
-      },
-      "valueAdd": {
-        "score": 0,
-        "band": "insufficient_data",
-        "reasons": [
-          "no VOA business-rates benchmark for this district (need ≥10 samples)"
-        ]
-      },
-      "schoolReadiness": {
-        "score": 70,
-        "band": "ready",
-        "reasons": [
-          "ready-condition language: \"recently refurbished\""
-        ]
-      }
-    },
-    {
       "address": "Unit 3 Waterside Court, Bold Street, Sheffield, South Yorkshire, S9 2LR (Sheffield)",
       "priceDisplay": "£650,000 Guide Price",
       "priceAmount": 650000,
@@ -2167,66 +2107,6 @@
       }
     },
     {
-      "address": "Aspect Court, Pond Street, Sheffield, S1 2BG (Sheffield)",
-      "priceDisplay": "£6,000,000",
-      "priceAmount": 6000000,
-      "sizeLabel": "57,842 sq. ft.",
-      "sizeSqft": 57842,
-      "source": "Rightmove Commercial",
-      "requirement": "Data Centre Development",
-      "score": 2,
-      "reasons": [
-        "geography \"Sheffield Yorkshire\" in Data Centre Development territory (prescoped — not scored)",
-        "size 57842 >= min 20000",
-        "keyword hit \"planning\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/760571878944801#/?channel=COM_BUY",
-      "agent": "Eddisons Commercial Limited, Sheffield",
-      "propertyType": "Office",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/49fd8d0d6/760571878944801/49fd8d0d64bc29e79c2bf65909b4f76b_max_476x317.jpeg",
-      "marketingText": "Office for sale Aspect Court provides seven floors of open planned and partitioned office accommodation arranged over ground to six upper floors. The property benefits from a spacious reception foyer and the specification includes: VRV air conditioning system and ceiling mounted cassettes, suspended ceilings incorporating CAT II lighting, two 10 person passenger lifts, male and female toilets on each floor. It could be attractive to office occupiers and subject to planning permitted development for residential conversion. The site has 35 surface car parking spaces and has a site area of approximately 0.45 acres (.18 hectares). The property has an EPC rating of D.",
-      "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
-        "nearestAnyName": "Sheffield ERF",
-        "nearestAnyFuel": "Waste"
-      },
-      "substation": {
-        "distanceKm": 0.8,
-        "name": "Sheffield City Substation",
-        "voltageKv": 275,
-        "tier": "transmission"
-      },
-      "dataCentreFit": {
-        "score": 81,
-        "band": "strong",
-        "reasons": [
-          "0.8km to Sheffield City Substation (275kV, transmission)",
-          "57,842 sq ft equivalent",
-          "subtype \"Office\""
-        ]
-      },
-      "dedup": {
-        "isDuplicate": false,
-        "duplicateCount": 0,
-        "groupId": null
-      },
-      "valueAdd": {
-        "score": 0,
-        "band": "insufficient_data",
-        "reasons": [
-          "no VOA business-rates benchmark for this district (need ≥10 samples)"
-        ]
-      },
-      "schoolReadiness": {
-        "score": 0,
-        "band": "unknown",
-        "reasons": [
-          "no condition language found in listing text"
-        ]
-      }
-    },
-    {
       "address": "WILSON CARLILE CENTRE, 50 CAVENDISH STREET, SHEFFIELD, YORKSHIRE, S3 (Sheffield)",
       "priceDisplay": "£3,000,000 Guide Price",
       "priceAmount": 3000000,
@@ -2264,6 +2144,66 @@
           "0.8km to Sheffield City Substation (275kV, transmission)",
           "22,881 sq ft equivalent",
           "subtype \"Commercial Development\""
+        ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "no VOA business-rates benchmark for this district (need ≥10 samples)"
+        ]
+      },
+      "schoolReadiness": {
+        "score": 0,
+        "band": "unknown",
+        "reasons": [
+          "no condition language found in listing text"
+        ]
+      }
+    },
+    {
+      "address": "Aspect Court, Pond Street, Sheffield, S1 2BG (Sheffield)",
+      "priceDisplay": "£6,000,000",
+      "priceAmount": 6000000,
+      "sizeLabel": "57,842 sq. ft.",
+      "sizeSqft": 57842,
+      "source": "Rightmove Commercial",
+      "requirement": "Data Centre Development",
+      "score": 2,
+      "reasons": [
+        "geography \"Sheffield Yorkshire\" in Data Centre Development territory (prescoped — not scored)",
+        "size 57842 >= min 20000",
+        "keyword hit \"planning\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/760571878944801#/?channel=COM_BUY",
+      "agent": "Eddisons Commercial Limited, Sheffield",
+      "propertyType": "Office",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/49fd8d0d6/760571878944801/49fd8d0d64bc29e79c2bf65909b4f76b_max_476x317.jpeg",
+      "marketingText": "Office for sale Aspect Court provides seven floors of open planned and partitioned office accommodation arranged over ground to six upper floors. The property benefits from a spacious reception foyer and the specification includes: VRV air conditioning system and ceiling mounted cassettes, suspended ceilings incorporating CAT II lighting, two 10 person passenger lifts, male and female toilets on each floor. It could be attractive to office occupiers and subject to planning permitted development for residential conversion. The site has 35 surface car parking spaces and has a site area of approximately 0.45 acres (.18 hectares). The property has an EPC rating of D.",
+      "powerStation": {
+        "geocodePrecision": "city-centroid",
+        "nearestAnyKm": 1.7,
+        "nearestAnyName": "Sheffield ERF",
+        "nearestAnyFuel": "Waste"
+      },
+      "substation": {
+        "distanceKm": 0.8,
+        "name": "Sheffield City Substation",
+        "voltageKv": 275,
+        "tier": "transmission"
+      },
+      "dataCentreFit": {
+        "score": 81,
+        "band": "strong",
+        "reasons": [
+          "0.8km to Sheffield City Substation (275kV, transmission)",
+          "57,842 sq ft equivalent",
+          "subtype \"Office\""
         ]
       },
       "dedup": {
@@ -2647,66 +2587,6 @@
       }
     },
     {
-      "address": "Poplar Way, Rotherham (Sheffield)",
-      "priceDisplay": "£1,500,000 Offers in Region of",
-      "priceAmount": 1500000,
-      "sizeLabel": "97,574 sq. ft.",
-      "sizeSqft": 97574,
-      "source": "Rightmove Commercial",
-      "requirement": "Data Centre Development",
-      "score": 2,
-      "reasons": [
-        "geography \"Sheffield Yorkshire\" in Data Centre Development territory (prescoped — not scored)",
-        "size 97574 >= min 20000",
-        "keyword hit \"freehold\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/760015858866432#/?channel=COM_BUY",
-      "agent": "BARKER PROUDLOVE LIMITED, Manchester",
-      "propertyType": "Commercial Development",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/410f828e4/760015858866432/410f828e4da175e84aeef58fa288b22c_max_476x317.jpeg",
-      "marketingText": "Commercial development for sale Advantage House comprises a detached office building originally built in 1998 of steel frame construction with brick and block elevations and a large surfaced car park.The accommodation is split over ground, first and second floor totalling 24,706 sq ft GIA. (19,873 sqft NIA Freehold Disposal with Vacant Possession OIRO £1.5M Includes a vacant detached office building extending to circa 20,000sq.ft on three floors Site area 2.24 acres Extremely prominent location, close to Junction 33 of M1 motorway, just of Sheffield Parkway Suitable for existing use or for a variety of alternative uses, subject to planning Office building includes generous reception, lift access, large floorplates, raised access floors, suspended ceilings with recessed lighting 105 on site car parking spaces inc 11 EV spaces Occupiers close by include Morrisons, Boundary Mills and a newly built Marriott Hotel Please see brochure for full sales details FREEHOLD",
-      "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
-        "nearestAnyName": "Sheffield ERF",
-        "nearestAnyFuel": "Waste"
-      },
-      "substation": {
-        "distanceKm": 0.8,
-        "name": "Sheffield City Substation",
-        "voltageKv": 275,
-        "tier": "transmission"
-      },
-      "dataCentreFit": {
-        "score": 93,
-        "band": "strong",
-        "reasons": [
-          "0.8km to Sheffield City Substation (275kV, transmission)",
-          "97,574 sq ft equivalent",
-          "subtype \"Commercial Development\""
-        ]
-      },
-      "dedup": {
-        "isDuplicate": false,
-        "duplicateCount": 0,
-        "groupId": null
-      },
-      "valueAdd": {
-        "score": 0,
-        "band": "insufficient_data",
-        "reasons": [
-          "no VOA business-rates benchmark for this district (need ≥10 samples)"
-        ]
-      },
-      "schoolReadiness": {
-        "score": 0,
-        "band": "unknown",
-        "reasons": [
-          "no condition language found in listing text"
-        ]
-      }
-    },
-    {
       "address": "Lifestyle House 2 Melbourne Avenue, Sheffield, S10 2QH (Sheffield)",
       "priceDisplay": "£1,500,000 Offers in Excess of",
       "priceAmount": 1500000,
@@ -2744,6 +2624,66 @@
           "0.8km to Sheffield City Substation (275kV, transmission)",
           "17,685 sq ft equivalent",
           "subtype \"Residential Development\""
+        ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "no VOA business-rates benchmark for this district (need ≥10 samples)"
+        ]
+      },
+      "schoolReadiness": {
+        "score": 0,
+        "band": "unknown",
+        "reasons": [
+          "no condition language found in listing text"
+        ]
+      }
+    },
+    {
+      "address": "Poplar Way, Rotherham (Sheffield)",
+      "priceDisplay": "£1,500,000 Offers in Region of",
+      "priceAmount": 1500000,
+      "sizeLabel": "97,574 sq. ft.",
+      "sizeSqft": 97574,
+      "source": "Rightmove Commercial",
+      "requirement": "Data Centre Development",
+      "score": 2,
+      "reasons": [
+        "geography \"Sheffield Yorkshire\" in Data Centre Development territory (prescoped — not scored)",
+        "size 97574 >= min 20000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/760015858866432#/?channel=COM_BUY",
+      "agent": "BARKER PROUDLOVE LIMITED, Manchester",
+      "propertyType": "Commercial Development",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/410f828e4/760015858866432/410f828e4da175e84aeef58fa288b22c_max_476x317.jpeg",
+      "marketingText": "Commercial development for sale Advantage House comprises a detached office building originally built in 1998 of steel frame construction with brick and block elevations and a large surfaced car park.The accommodation is split over ground, first and second floor totalling 24,706 sq ft GIA. (19,873 sqft NIA Freehold Disposal with Vacant Possession OIRO £1.5M Includes a vacant detached office building extending to circa 20,000sq.ft on three floors Site area 2.24 acres Extremely prominent location, close to Junction 33 of M1 motorway, just of Sheffield Parkway Suitable for existing use or for a variety of alternative uses, subject to planning Office building includes generous reception, lift access, large floorplates, raised access floors, suspended ceilings with recessed lighting 105 on site car parking spaces inc 11 EV spaces Occupiers close by include Morrisons, Boundary Mills and a newly built Marriott Hotel Please see brochure for full sales details FREEHOLD",
+      "powerStation": {
+        "geocodePrecision": "city-centroid",
+        "nearestAnyKm": 1.7,
+        "nearestAnyName": "Sheffield ERF",
+        "nearestAnyFuel": "Waste"
+      },
+      "substation": {
+        "distanceKm": 0.8,
+        "name": "Sheffield City Substation",
+        "voltageKv": 275,
+        "tier": "transmission"
+      },
+      "dataCentreFit": {
+        "score": 93,
+        "band": "strong",
+        "reasons": [
+          "0.8km to Sheffield City Substation (275kV, transmission)",
+          "97,574 sq ft equivalent",
+          "subtype \"Commercial Development\""
         ]
       },
       "dedup": {
@@ -3787,6 +3727,66 @@
       }
     },
     {
+      "address": "24 Meadowhall Road, Sheffield, South Yorkshire, S9 1BS (Sheffield)",
+      "priceDisplay": "POA",
+      "priceAmount": 1,
+      "sizeLabel": "6,286 sq. ft.",
+      "sizeSqft": 6286,
+      "source": "Rightmove Commercial",
+      "requirement": "School Conversion",
+      "score": 2,
+      "reasons": [
+        "geography \"Sheffield Yorkshire\" in School Conversion territory (prescoped — not scored)",
+        "size 6286 >= min 2000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/760551129667441#/?channel=COM_BUY",
+      "agent": "Flint Real Estate, Doncaster",
+      "propertyType": "Showroom",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/e6a9af0d5/760551129667441/e6a9af0d580de81d08abda8403391405_max_476x317.jpeg",
+      "marketingText": "Showroom for sale FOR SALE / TO LET - WELL LOCATED SHOWROOM / TRADE COUNTER / WORKSHOP PREMISES SUITABLE FOR A RANGE OF USES STP SUMMARY - Studio Style Workshop & Showroom\n- Suit Various Uses STPP - Useful Workshop Area & 5-Ton Crane\n- 584.03 Sq M (6,286 Sq Ft) - Located to the Rear of Meadowhall\n- Prominent Location - 18,000 vehicles passing the site per day\n- Price on Application LOCATION\nHighly prominent and highly visible location fronting the A6109 Meadowhall Road. This is the main arterial route between the M1 at Junction 34 and Sheffield City Centre. There is lots of passing vehicular traffic with around 18,000 vehicles pass the site daily.\nThe property is located directly behind Meadowhall Shopping Centre, which provides excellent levels of passing traffic and amenities. DESCRIPTION\nProminent commercial building suitable for a range of uses most recently used as a showroom / trade counter and workshop benefiting from the below specification:\n- Traditional ground and first floor showroom and workshop space - Suit various uses STP (showroom, gallery, trade counter, workshop, retail, restaurant, design studio etc)\n- Excellent location to the rear of Meadowhall - On site parking - Roadside position - 5-ton working crane in situ - Useful workshop and storage areas\n- Polished concrete flooring - Quirky studio / warehouse style\n- Freehold FLOOR AREAS\nGround Floor: 3959 Sq Ft\nFirst Floor: 2,327 Sq Ft Total: 6,286 Sq Ft LEASE TERMS\nThe property is available to lease on FRI... FOR SALE / TO LET - PRIME TRADE COUNTER / SHOWROOM / WORKSHOP UNIT SUIT VARIOUS USES STPP GROUND AND FIRST FLOOR AREAS 5-TON CRANE IN SITU RECENTLY REFURBISHED OFF STREET PARKING LOCATED TO THE REAR OF MEADOWHALL PRICE & RENT ON APPLICATION",
+      "powerStation": {
+        "geocodePrecision": "city-centroid",
+        "nearestAnyKm": 1.7,
+        "nearestAnyName": "Sheffield ERF",
+        "nearestAnyFuel": "Waste"
+      },
+      "substation": {
+        "distanceKm": 0.8,
+        "name": "Sheffield City Substation",
+        "voltageKv": 275,
+        "tier": "transmission"
+      },
+      "dataCentreFit": {
+        "score": 75,
+        "band": "strong",
+        "reasons": [
+          "0.8km to Sheffield City Substation (275kV, transmission)",
+          "6,286 sq ft equivalent",
+          "subtype \"Showroom\" — no specific rule, neutral"
+        ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "no VOA business-rates benchmark for this district (need ≥10 samples)"
+        ]
+      },
+      "schoolReadiness": {
+        "score": 70,
+        "band": "ready",
+        "reasons": [
+          "ready-condition language: \"recently refurbished\""
+        ]
+      }
+    },
+    {
       "address": "Alliance House, Roman Ridge Road, Sheffield S9 1GB (Sheffield)",
       "priceDisplay": "£325,000",
       "priceAmount": 325000,
@@ -3887,9 +3887,11 @@
         ]
       },
       "dedup": {
-        "isDuplicate": false,
-        "duplicateCount": 0,
-        "groupId": null
+        "isDuplicate": true,
+        "canonicalUrl": "https://smcbrownillvickers.com/properties/189781-21-station-road-sheffield/",
+        "duplicateCount": 1,
+        "groupId": "299950:2783#0",
+        "reason": "same price (£299,950) and size (2,783 sq ft), overlapping address"
       },
       "valueAdd": {
         "score": 0,
@@ -4147,24 +4149,24 @@
       }
     },
     {
-      "address": "CORE Sheffield, Shepcote Lane, Sheffield, South Yorkshire, S9 1TP (Sheffield)",
+      "address": "Milton Street, Sheffield, S3 7UF (Sheffield)",
       "priceDisplay": "POA",
       "priceAmount": 1,
-      "sizeLabel": "367,935 sq. ft.",
-      "sizeSqft": 367935,
+      "sizeLabel": "275,000–350,000 sq. ft.",
+      "sizeSqft": 350000,
       "source": "Rightmove Commercial",
       "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
         "geography \"Sheffield Yorkshire\" in Data Centre Development territory (prescoped — not scored)",
-        "size 367935 >= min 20000",
-        "keyword hit \"freehold\""
+        "size 350000 >= min 20000",
+        "keyword hit \"planning\""
       ],
-      "url": "https://www.rightmove.co.uk/properties/759291900865216#/?channel=COM_BUY",
+      "url": "https://www.rightmove.co.uk/properties/759292704103920#/?channel=COM_BUY",
       "agent": "Commercial Property Partners Ltd, Sheffield",
-      "propertyType": "Light Industrial",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/af48af030/759291900865216/af48af03053f1d03555854cd7ed6fee8_max_476x317.jpeg",
-      "marketingText": "Light industrial for sale AVAILABLE IMMEDIATELY This development provides a Grade A, new build logistics/warehouse unit situated in close proximity to J34 of the M1. The unit benefits from the following :\n- 18m to underside of haunch\n- 35 dock level loading doors - 4 ground level loading doors - 8MVA power supply available - 60 kN/m2 floor loading\n- Large & secure yard up to 85m deep\n- Direct access to Junction 34 M1\n- 184 car parking spaces\n- 26 HGV spaces - Net Zero Carbon development Grade A new build high bay logistics facility Available immediately - 18M Eaves Height Up to 8MVA power supply available Prime location next to J34 M1 29% greater pallet capacity than a 15M eaves building 17,966 pallet spaces - saving of £391,000 pa compared to 15M building Carbon Net Zero development FREEHOLD",
+      "propertyType": "Residential Development",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/6e4e872de/759292704103920/6e4e872deeb21bb9b98e1cba8e3718f6_max_476x317.jpeg",
+      "marketingText": "Residential development for sale PRIME CITY CENTRE RESIDENTIAL DEVELOPMENT OPPORTUNITY > Cleared level site\n> Prime residential location\n> Implemented planning consent\n> 1.45 acres The site sits within The Devonshire Quarter in Sheffield City Centre. This is a vibrant and eclectic area known for its mix of independent shops, cafes, and lively nightlife. The area boasts a wide variety of residential uses as well as numerous green spaces, including the popular Devonshire Green, within close proximity to the subject site. The property comprises the mainly cleared site of former industrial and commercial buildings (and earlier housing) currently in use as a public car park. The site has implemented planning consent for mixed-use development between 4 and 26 storeys incorporating 410 residential apartments, retail/commercial floorspace (A1/A2/A3/A4/B1), ancillary facilities, amenity space and associated parking. Prominent City Centre Location Mixed-use Development 4-26 Storey incorporating 410 residential apartments",
       "powerStation": {
         "geocodePrecision": "city-centroid",
         "nearestAnyKm": 1.7,
@@ -4182,8 +4184,8 @@
         "band": "strong",
         "reasons": [
           "0.8km to Sheffield City Substation (275kV, transmission)",
-          "367,935 sq ft equivalent",
-          "subtype \"Light Industrial\""
+          "350,000 sq ft equivalent",
+          "subtype \"Residential Development\""
         ]
       },
       "dedup": {
@@ -4199,32 +4201,32 @@
         ]
       },
       "schoolReadiness": {
-        "score": 0,
-        "band": "unknown",
+        "score": 25,
+        "band": "major_work",
         "reasons": [
-          "no condition language found in listing text"
+          "work-needed language: \"development opportunity\""
         ]
       }
     },
     {
-      "address": "Highfield at Waverley, Highfield Spring, Waverley, Rotherham, S60 (Sheffield)",
+      "address": "13 Birley Vale Avenue, Sheffield S12 (Sheffield)",
       "priceDisplay": "POA",
       "priceAmount": 1,
-      "sizeLabel": "10,000–80,000 sq. ft.",
-      "sizeSqft": 80000,
+      "sizeLabel": "17,630 sq. ft.",
+      "sizeSqft": 17630,
       "source": "Rightmove Commercial",
-      "requirement": "Data Centre Development",
+      "requirement": "School Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Data Centre Development territory (prescoped — not scored)",
-        "size 80000 >= min 20000",
+        "geography \"Sheffield Yorkshire\" in School Conversion territory (prescoped — not scored)",
+        "size 17630 >= min 2000",
         "keyword hit \"freehold\""
       ],
-      "url": "https://www.rightmove.co.uk/properties/168968636#/?channel=COM_BUY",
+      "url": "https://www.rightmove.co.uk/properties/87778536#/?channel=COM_BUY",
       "agent": "Knight Frank, Sheffield",
-      "propertyType": "Land",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/7a5af7c3e/168968636/7a5af7c3e50bb8a5caf86225da35cbdd_max_476x317.jpeg",
-      "marketingText": "Land for sale For Sale / To Let - Commercial and Road Side Opportunities, ideally located at the Gateway to the AMP, J33 M1 Highfield at Waverley, is a prime commercial park offering build to suit opportunities adaptable to a range of purposes, including roadside, offices, retail, leisure, industrial, and log... 0.86 acres FREEHOLD",
+      "propertyType": "Distribution Warehouse",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/22a06c5ef/87778536/22a06c5ef1a16e41f584c3d40f3d8df4_max_476x317.jpeg",
+      "marketingText": "Distribution warehouse for sale Detached industrial / warehouse unit - ideally located South East Sheffield The premises comprise a detached industrial / warehouse unit fronting Birley Vale Avenue. The specification include -\n- Detached unit arranged in 3 bays\n- 4.45m eaves\n- 3 ground floor loading doors\n- Lighting to the... FREEHOLD",
       "powerStation": {
         "geocodePrecision": "city-centroid",
         "nearestAnyKm": 1.7,
@@ -4238,12 +4240,12 @@
         "tier": "transmission"
       },
       "dataCentreFit": {
-        "score": 93,
+        "score": 85,
         "band": "strong",
         "reasons": [
           "0.8km to Sheffield City Substation (275kV, transmission)",
-          "80,000 sq ft equivalent",
-          "subtype \"Land\""
+          "17,630 sq ft equivalent",
+          "subtype \"Distribution Warehouse\""
         ]
       },
       "dedup": {
@@ -4327,24 +4329,24 @@
       }
     },
     {
-      "address": "Yards C And D, Old Station Drive, Millhouses, Sheffield, S7 2PY (Sheffield)",
+      "address": "160 Solly Street, Sheffield, S1 4BF (Sheffield)",
       "priceDisplay": "POA",
       "priceAmount": 1,
-      "sizeLabel": "10,890 sq. ft.",
-      "sizeSqft": 10890,
+      "sizeLabel": "11,421 sq. ft.",
+      "sizeSqft": 11421,
       "source": "Rightmove Commercial",
       "requirement": "School Conversion",
       "score": 2,
       "reasons": [
         "geography \"Sheffield Yorkshire\" in School Conversion territory (prescoped — not scored)",
-        "size 10890 >= min 2000",
+        "size 11421 >= min 2000",
         "keyword hit \"freehold\""
       ],
-      "url": "https://www.rightmove.co.uk/properties/760571922917472#/?channel=COM_BUY",
-      "agent": "Eddisons Commercial Limited, Sheffield",
-      "propertyType": "Warehouse",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/f18f2642a/760571922917472/f18f2642ac3095bdb98cd51d030ca35e_max_476x317.jpeg",
-      "marketingText": "Warehouse for sale Secure gravel surfaced yards extending in total to 0.25 acres or thereabouts with vehicle access direct from Old Station Drive. The property has no EPC being open land. FREEHOLD",
+      "url": "https://www.rightmove.co.uk/properties/164601068#/?channel=COM_BUY",
+      "agent": "Knight Frank, Sheffield",
+      "propertyType": "Distribution Warehouse",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/bdffe613c/164601068/bdffe613cd049276341f52688e742a68_max_476x317.jpeg",
+      "marketingText": "Distribution warehouse for sale Hybrid industrial / office unit arranged over 3 floors located in Sheffield City Centre, with potential for redevelopment (subject to planning) - Available For Sale The available premises comprise an L-shaped semi-detached hybrid workshop / office building, of brick construction with a flat para... Concrete floor Car Park FREEHOLD",
       "powerStation": {
         "geocodePrecision": "city-centroid",
         "nearestAnyKm": 1.7,
@@ -4362,188 +4364,8 @@
         "band": "strong",
         "reasons": [
           "0.8km to Sheffield City Substation (275kV, transmission)",
-          "10,890 sq ft equivalent",
-          "subtype \"Warehouse\""
-        ]
-      },
-      "dedup": {
-        "isDuplicate": false,
-        "duplicateCount": 0,
-        "groupId": null
-      },
-      "valueAdd": {
-        "score": 0,
-        "band": "insufficient_data",
-        "reasons": [
-          "no VOA business-rates benchmark for this district (need ≥10 samples)"
-        ]
-      },
-      "schoolReadiness": {
-        "score": 0,
-        "band": "unknown",
-        "reasons": [
-          "no condition language found in listing text"
-        ]
-      }
-    },
-    {
-      "address": "Athol House, Heart of The City II, Pinstone Street, Sheffield, S1 2HZ (Sheffield)",
-      "priceDisplay": "POA",
-      "priceAmount": 1,
-      "sizeLabel": "968–2,973 sq. ft.",
-      "sizeSqft": 2973,
-      "source": "Rightmove Commercial",
-      "requirement": "School Conversion",
-      "score": 2,
-      "reasons": [
-        "geography \"Sheffield Yorkshire\" in School Conversion territory (prescoped — not scored)",
-        "size 2973 >= min 2000",
-        "keyword hit \"freehold\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/758217253130032#/?channel=COM_BUY",
-      "agent": "Savills, Leeds Offices",
-      "propertyType": "Office",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/abde0a33a/758217253130032/abde0a33a209961f7c2452e431c96ec1_max_476x317.jpeg",
-      "marketingText": "Office for sale Grade A office space across three floors in the Heart of the City II development, Sheffield city centre Iconic architecture Open plan layout Lift access Air conditioned throughout Direct access to charter square public realm LED lighting FREEHOLD",
-      "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
-        "nearestAnyName": "Sheffield ERF",
-        "nearestAnyFuel": "Waste"
-      },
-      "substation": {
-        "distanceKm": 0.8,
-        "name": "Sheffield City Substation",
-        "voltageKv": 275,
-        "tier": "transmission"
-      },
-      "dataCentreFit": {
-        "score": 68,
-        "band": "strong",
-        "reasons": [
-          "0.8km to Sheffield City Substation (275kV, transmission)",
-          "2,973 sq ft equivalent",
-          "subtype \"Office\""
-        ]
-      },
-      "dedup": {
-        "isDuplicate": false,
-        "duplicateCount": 0,
-        "groupId": null
-      },
-      "valueAdd": {
-        "score": 0,
-        "band": "insufficient_data",
-        "reasons": [
-          "no VOA business-rates benchmark for this district (need ≥10 samples)"
-        ]
-      },
-      "schoolReadiness": {
-        "score": 0,
-        "band": "unknown",
-        "reasons": [
-          "no condition language found in listing text"
-        ]
-      }
-    },
-    {
-      "address": "1 Amberley Street, Sheffield, S9 YO26 (Sheffield)",
-      "priceDisplay": "POA",
-      "priceAmount": 1,
-      "sizeLabel": "77,330 sq. ft.",
-      "sizeSqft": 77330,
-      "source": "Rightmove Commercial",
-      "requirement": "Data Centre Development",
-      "score": 2,
-      "reasons": [
-        "geography \"Sheffield Yorkshire\" in Data Centre Development territory (prescoped — not scored)",
-        "size 77330 >= min 20000",
-        "keyword hit \"freehold\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/151292600#/?channel=COM_BUY",
-      "agent": "Knight Frank, Sheffield",
-      "propertyType": "Office",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/2eebef1a0/151292600/2eebef1a075b11cdb8a21c7a7490b108_max_476x317.jpeg",
-      "marketingText": "Office for sale Detached office of 77,300 sq ft located close to Meadowhall and J34 M1 Available as is or suitable for redevelopment\nThe site could accommodate an industrial unit up to 90,000 sq ft STP. The existing premises provide a detached office / call centre of steel framed construction with clad and gla... FREEHOLD",
-      "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
-        "nearestAnyName": "Sheffield ERF",
-        "nearestAnyFuel": "Waste"
-      },
-      "substation": {
-        "distanceKm": 0.8,
-        "name": "Sheffield City Substation",
-        "voltageKv": 275,
-        "tier": "transmission"
-      },
-      "dataCentreFit": {
-        "score": 81,
-        "band": "strong",
-        "reasons": [
-          "0.8km to Sheffield City Substation (275kV, transmission)",
-          "77,330 sq ft equivalent",
-          "subtype \"Office\""
-        ]
-      },
-      "dedup": {
-        "isDuplicate": false,
-        "duplicateCount": 0,
-        "groupId": null
-      },
-      "valueAdd": {
-        "score": 0,
-        "band": "insufficient_data",
-        "reasons": [
-          "no VOA business-rates benchmark for this district (need ≥10 samples)"
-        ]
-      },
-      "schoolReadiness": {
-        "score": 0,
-        "band": "unknown",
-        "reasons": [
-          "no condition language found in listing text"
-        ]
-      }
-    },
-    {
-      "address": "South West Centre, Troutbeck Road, Sheffield, S8 0JR (Sheffield)",
-      "priceDisplay": "POA",
-      "priceAmount": 1,
-      "sizeLabel": "42,195 sq. ft.",
-      "sizeSqft": 42195,
-      "source": "Rightmove Commercial",
-      "requirement": "Data Centre Development",
-      "score": 2,
-      "reasons": [
-        "geography \"Sheffield Yorkshire\" in Data Centre Development territory (prescoped — not scored)",
-        "size 42195 >= min 20000",
-        "keyword hit \"freehold\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/88345509#/?channel=COM_BUY",
-      "agent": "Avison Young (UK) Limited, Land & Development",
-      "propertyType": "Office",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/d8ddf4434/88345509/d8ddf443461bf614a87ebc4ef16b8bff_max_476x317.jpeg",
-      "marketingText": "Office for sale For SALE or PART LET\nReuse, redevelopment or conversion opportunity suitable for a range of uses subject to planning consent. FOR SALE (Vacant Possession) or PART LET The deadline for offers is 30th June 2026 Potential reuse, redevelopment or conversion opportunity for a mix of uses, subject to the necessary consents Popular commercial, residential and care location FREEHOLD",
-      "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
-        "nearestAnyName": "Sheffield ERF",
-        "nearestAnyFuel": "Waste"
-      },
-      "substation": {
-        "distanceKm": 0.8,
-        "name": "Sheffield City Substation",
-        "voltageKv": 275,
-        "tier": "transmission"
-      },
-      "dataCentreFit": {
-        "score": 81,
-        "band": "strong",
-        "reasons": [
-          "0.8km to Sheffield City Substation (275kV, transmission)",
-          "42,195 sq ft equivalent",
-          "subtype \"Office\""
+          "11,421 sq ft equivalent",
+          "subtype \"Distribution Warehouse\""
         ]
       },
       "dedup": {
@@ -4691,24 +4513,24 @@
       }
     },
     {
-      "address": "13 Birley Vale Avenue, Sheffield S12 (Sheffield)",
+      "address": "Highfield at Waverley, Highfield Spring, Waverley, Rotherham, S60 (Sheffield)",
       "priceDisplay": "POA",
       "priceAmount": 1,
-      "sizeLabel": "17,630 sq. ft.",
-      "sizeSqft": 17630,
+      "sizeLabel": "10,000–80,000 sq. ft.",
+      "sizeSqft": 80000,
       "source": "Rightmove Commercial",
-      "requirement": "School Conversion",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in School Conversion territory (prescoped — not scored)",
-        "size 17630 >= min 2000",
+        "geography \"Sheffield Yorkshire\" in Data Centre Development territory (prescoped — not scored)",
+        "size 80000 >= min 20000",
         "keyword hit \"freehold\""
       ],
-      "url": "https://www.rightmove.co.uk/properties/87778536#/?channel=COM_BUY",
+      "url": "https://www.rightmove.co.uk/properties/168968804#/?channel=COM_BUY",
       "agent": "Knight Frank, Sheffield",
       "propertyType": "Distribution Warehouse",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/22a06c5ef/87778536/22a06c5ef1a16e41f584c3d40f3d8df4_max_476x317.jpeg",
-      "marketingText": "Distribution warehouse for sale Detached industrial / warehouse unit - ideally located South East Sheffield The premises comprise a detached industrial / warehouse unit fronting Birley Vale Avenue. The specification include -\n- Detached unit arranged in 3 bays\n- 4.45m eaves\n- 3 ground floor loading doors\n- Lighting to the... FREEHOLD",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/7a5af7c3e/168968804/7a5af7c3e50bb8a5caf86225da35cbdd_max_476x317.jpeg",
+      "marketingText": "Distribution warehouse for sale For Sale / To Let - Commercial and Road Side Opportunities, ideally located at the Gateway to the AMP, J33 M1 Highfield at Waverley, is a prime commercial park offering build to suit opportunities adaptable to a range of purposes, including roadside, offices, retail, leisure, industrial, and log... 0.86 acres FREEHOLD",
       "powerStation": {
         "geocodePrecision": "city-centroid",
         "nearestAnyKm": 1.7,
@@ -4722,11 +4544,11 @@
         "tier": "transmission"
       },
       "dataCentreFit": {
-        "score": 85,
+        "score": 93,
         "band": "strong",
         "reasons": [
           "0.8km to Sheffield City Substation (275kV, transmission)",
-          "17,630 sq ft equivalent",
+          "80,000 sq ft equivalent",
           "subtype \"Distribution Warehouse\""
         ]
       },
@@ -4751,24 +4573,24 @@
       }
     },
     {
-      "address": "Advantage House, Poplar Way, Catcliffe, Rotherham, Yorkshire S60 (Sheffield)",
+      "address": "Yards C And D, Old Station Drive, Millhouses, Sheffield, S7 2PY (Sheffield)",
       "priceDisplay": "POA",
       "priceAmount": 1,
-      "sizeLabel": "19,873 sq. ft.",
-      "sizeSqft": 19873,
+      "sizeLabel": "10,890 sq. ft.",
+      "sizeSqft": 10890,
       "source": "Rightmove Commercial",
       "requirement": "School Conversion",
       "score": 2,
       "reasons": [
         "geography \"Sheffield Yorkshire\" in School Conversion territory (prescoped — not scored)",
-        "size 19873 >= min 2000",
+        "size 10890 >= min 2000",
         "keyword hit \"freehold\""
       ],
-      "url": "https://www.rightmove.co.uk/properties/89589720#/?channel=COM_BUY",
-      "agent": "Knight Frank, Sheffield",
-      "propertyType": "Office",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/519f9a876/89589720/519f9a876e590baf6bf2cfe782f9f857_max_476x317.jpeg",
-      "marketingText": "Office for sale For Sale - Office / Development site ideally located fronting Sheffield Parkway at the entrance to the Advanced Manufacturing Park.\nThe premises extend to 19,873 sq ft on a site of 2.24 acres Advantage House provides a detached office fronting Sheffield Parkway at the entrance to the Advanced Ma... Comfort cooling FREEHOLD",
+      "url": "https://www.rightmove.co.uk/properties/760571922917472#/?channel=COM_BUY",
+      "agent": "Eddisons Commercial Limited, Sheffield",
+      "propertyType": "Warehouse",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/f18f2642a/760571922917472/f18f2642ac3095bdb98cd51d030ca35e_max_476x317.jpeg",
+      "marketingText": "Warehouse for sale Secure gravel surfaced yards extending in total to 0.25 acres or thereabouts with vehicle access direct from Old Station Drive. The property has no EPC being open land. FREEHOLD",
       "powerStation": {
         "geocodePrecision": "city-centroid",
         "nearestAnyKm": 1.7,
@@ -4782,11 +4604,71 @@
         "tier": "transmission"
       },
       "dataCentreFit": {
-        "score": 73,
+        "score": 85,
         "band": "strong",
         "reasons": [
           "0.8km to Sheffield City Substation (275kV, transmission)",
-          "19,873 sq ft equivalent",
+          "10,890 sq ft equivalent",
+          "subtype \"Warehouse\""
+        ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "no VOA business-rates benchmark for this district (need ≥10 samples)"
+        ]
+      },
+      "schoolReadiness": {
+        "score": 0,
+        "band": "unknown",
+        "reasons": [
+          "no condition language found in listing text"
+        ]
+      }
+    },
+    {
+      "address": "South West Centre, Troutbeck Road, Sheffield, S8 0JR (Sheffield)",
+      "priceDisplay": "POA",
+      "priceAmount": 1,
+      "sizeLabel": "42,195 sq. ft.",
+      "sizeSqft": 42195,
+      "source": "Rightmove Commercial",
+      "requirement": "Data Centre Development",
+      "score": 2,
+      "reasons": [
+        "geography \"Sheffield Yorkshire\" in Data Centre Development territory (prescoped — not scored)",
+        "size 42195 >= min 20000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/88345509#/?channel=COM_BUY",
+      "agent": "Avison Young (UK) Limited, Land & Development",
+      "propertyType": "Office",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/d8ddf4434/88345509/d8ddf443461bf614a87ebc4ef16b8bff_max_476x317.jpeg",
+      "marketingText": "Office for sale For SALE or PART LET\nReuse, redevelopment or conversion opportunity suitable for a range of uses subject to planning consent. FOR SALE (Vacant Possession) or PART LET The deadline for offers is 30th June 2026 Potential reuse, redevelopment or conversion opportunity for a mix of uses, subject to the necessary consents Popular commercial, residential and care location FREEHOLD",
+      "powerStation": {
+        "geocodePrecision": "city-centroid",
+        "nearestAnyKm": 1.7,
+        "nearestAnyName": "Sheffield ERF",
+        "nearestAnyFuel": "Waste"
+      },
+      "substation": {
+        "distanceKm": 0.8,
+        "name": "Sheffield City Substation",
+        "voltageKv": 275,
+        "tier": "transmission"
+      },
+      "dataCentreFit": {
+        "score": 81,
+        "band": "strong",
+        "reasons": [
+          "0.8km to Sheffield City Substation (275kV, transmission)",
+          "42,195 sq ft equivalent",
           "subtype \"Office\""
         ]
       },
@@ -4811,24 +4693,24 @@
       }
     },
     {
-      "address": "160 Solly Street, Sheffield, S1 4BF (Sheffield)",
+      "address": "Pennine House, 35a Business Park, Churchill Way, Ecclesfield, Sheffield, S35 (Sheffield)",
       "priceDisplay": "POA",
       "priceAmount": 1,
-      "sizeLabel": "11,421 sq. ft.",
-      "sizeSqft": 11421,
+      "sizeLabel": "9,360 sq. ft.",
+      "sizeSqft": 9360,
       "source": "Rightmove Commercial",
       "requirement": "School Conversion",
       "score": 2,
       "reasons": [
         "geography \"Sheffield Yorkshire\" in School Conversion territory (prescoped — not scored)",
-        "size 11421 >= min 2000",
-        "keyword hit \"freehold\""
+        "size 9360 >= min 2000",
+        "keyword hit \"church\""
       ],
-      "url": "https://www.rightmove.co.uk/properties/164601068#/?channel=COM_BUY",
+      "url": "https://www.rightmove.co.uk/properties/157397378#/?channel=COM_BUY",
       "agent": "Knight Frank, Sheffield",
-      "propertyType": "Distribution Warehouse",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/bdffe613c/164601068/bdffe613cd049276341f52688e742a68_max_476x317.jpeg",
-      "marketingText": "Distribution warehouse for sale Hybrid industrial / office unit arranged over 3 floors located in Sheffield City Centre, with potential for redevelopment (subject to planning) - Available For Sale The available premises comprise an L-shaped semi-detached hybrid workshop / office building, of brick construction with a flat para... Concrete floor Car Park FREEHOLD",
+      "propertyType": "Office",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/b5436d519/157397378/b5436d519b92ab0685bb13d1dee204f0_max_476x317.jpeg",
+      "marketingText": "Office for sale Modern office building with car parking on established estate in North Sheffield The property briefly comprises a detached two storey modern office building occupying a profile position on to the main estate road. There is a self contained car park to the centre of the site, providing 29 car s... 24 hour access Car Park Comfort cooling Parking Raised access flooring Recessed lighting (non cat2) Shower facility Suspended ceilings Lift access, staircase, male, female and accessible toilets",
       "powerStation": {
         "geocodePrecision": "city-centroid",
         "nearestAnyKm": 1.7,
@@ -4842,12 +4724,192 @@
         "tier": "transmission"
       },
       "dataCentreFit": {
-        "score": 85,
+        "score": 73,
         "band": "strong",
         "reasons": [
           "0.8km to Sheffield City Substation (275kV, transmission)",
-          "11,421 sq ft equivalent",
-          "subtype \"Distribution Warehouse\""
+          "9,360 sq ft equivalent",
+          "subtype \"Office\""
+        ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "no VOA business-rates benchmark for this district (need ≥10 samples)"
+        ]
+      },
+      "schoolReadiness": {
+        "score": 0,
+        "band": "unknown",
+        "reasons": [
+          "no condition language found in listing text"
+        ]
+      }
+    },
+    {
+      "address": "1 Amberley Street, Sheffield, S9 YO26 (Sheffield)",
+      "priceDisplay": "POA",
+      "priceAmount": 1,
+      "sizeLabel": "77,330 sq. ft.",
+      "sizeSqft": 77330,
+      "source": "Rightmove Commercial",
+      "requirement": "Data Centre Development",
+      "score": 2,
+      "reasons": [
+        "geography \"Sheffield Yorkshire\" in Data Centre Development territory (prescoped — not scored)",
+        "size 77330 >= min 20000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/151292600#/?channel=COM_BUY",
+      "agent": "Knight Frank, Sheffield",
+      "propertyType": "Office",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/2eebef1a0/151292600/2eebef1a075b11cdb8a21c7a7490b108_max_476x317.jpeg",
+      "marketingText": "Office for sale Detached office of 77,300 sq ft located close to Meadowhall and J34 M1 Available as is or suitable for redevelopment\nThe site could accommodate an industrial unit up to 90,000 sq ft STP. The existing premises provide a detached office / call centre of steel framed construction with clad and gla... FREEHOLD",
+      "powerStation": {
+        "geocodePrecision": "city-centroid",
+        "nearestAnyKm": 1.7,
+        "nearestAnyName": "Sheffield ERF",
+        "nearestAnyFuel": "Waste"
+      },
+      "substation": {
+        "distanceKm": 0.8,
+        "name": "Sheffield City Substation",
+        "voltageKv": 275,
+        "tier": "transmission"
+      },
+      "dataCentreFit": {
+        "score": 81,
+        "band": "strong",
+        "reasons": [
+          "0.8km to Sheffield City Substation (275kV, transmission)",
+          "77,330 sq ft equivalent",
+          "subtype \"Office\""
+        ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "no VOA business-rates benchmark for this district (need ≥10 samples)"
+        ]
+      },
+      "schoolReadiness": {
+        "score": 0,
+        "band": "unknown",
+        "reasons": [
+          "no condition language found in listing text"
+        ]
+      }
+    },
+    {
+      "address": "Plot 10 R-evolution 4 at Advanced Manufacturing Park, Rotherham S60 (Sheffield)",
+      "priceDisplay": "POA",
+      "priceAmount": 1,
+      "sizeLabel": "20,000 sq. ft.",
+      "sizeSqft": 20000,
+      "source": "Rightmove Commercial",
+      "requirement": "Data Centre Development",
+      "score": 2,
+      "reasons": [
+        "geography \"Sheffield Yorkshire\" in Data Centre Development territory (prescoped — not scored)",
+        "size 20000 >= min 20000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/170842886#/?channel=COM_BUY",
+      "agent": "Knight Frank, Sheffield",
+      "propertyType": "Industrial Development",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/d7b50488a/170842886/d7b50488abbe54e14aeca5ab2689bdf3_max_476x317.jpeg",
+      "marketingText": "Industrial development for sale Plot 10 – 1.1 acres able to offer up to 20,000 sq ft on a build to suit basis - For Sale / To Let The Advanced Manufacturing Park is an established advanced manufacturing campus, home to leading sector specific research and development. The AMP offers a range of options where bespoke development... 1 space to 870 sq ft FREEHOLD",
+      "powerStation": {
+        "geocodePrecision": "city-centroid",
+        "nearestAnyKm": 1.7,
+        "nearestAnyName": "Sheffield ERF",
+        "nearestAnyFuel": "Waste"
+      },
+      "substation": {
+        "distanceKm": 0.8,
+        "name": "Sheffield City Substation",
+        "voltageKv": 275,
+        "tier": "transmission"
+      },
+      "dataCentreFit": {
+        "score": 93,
+        "band": "strong",
+        "reasons": [
+          "0.8km to Sheffield City Substation (275kV, transmission)",
+          "20,000 sq ft equivalent",
+          "subtype \"Industrial Development\""
+        ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "no VOA business-rates benchmark for this district (need ≥10 samples)"
+        ]
+      },
+      "schoolReadiness": {
+        "score": 0,
+        "band": "unknown",
+        "reasons": [
+          "no condition language found in listing text"
+        ]
+      }
+    },
+    {
+      "address": "Land at Hartington Terrace, Bradford (Bradford)",
+      "priceDisplay": "£40,000 Guide Price",
+      "priceAmount": 40000,
+      "sizeLabel": "2,476 sq. ft.",
+      "sizeSqft": 2476,
+      "source": "Rightmove Commercial",
+      "requirement": "School Conversion",
+      "score": 2,
+      "reasons": [
+        "geography \"Bradford Yorkshire\" in School Conversion territory (prescoped — not scored)",
+        "size 2476 >= min 2000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/754780241191488#/?channel=COM_BUY",
+      "agent": "Palace Auctions, London",
+      "propertyType": "Light Industrial",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/2a277b2bb/754780241191488/2a277b2bb55c8ae49638d136ec4f0694_max_476x317.png",
+      "marketingText": "Light industrial for sale Prime Bradford BD7 land for auction on 12th August . Exceptional long-term development potential in a regeneration hotspot. Ideal for investors and developers seeking capital growth and strong rental yields. View full details and register to bid online. Prime land parcel in sought-after Bradford BD7 regeneration zone Auction date: 12th August – secure your investment opportunity Outstanding long-term development and capital growth potential Close to Bradford city centre, universities, and major amenities Benefits from City of Culture 2025 and Southern Gateway regeneration Excellent transport links: future HS2, mass transit, and improved road access High local housing demand: 18,105+ on Bradford housing register Strong rental yields (6.8–7.2%) and 48% five-year capital growth in BD7 Flexible site suitable for residential or mixed-use development (STPP) Legal pack and auction registration available via Palace Auctions website FREEHOLD",
+      "powerStation": {
+        "geocodePrecision": "city-centroid",
+        "nearestAnyKm": 6.2,
+        "nearestAnyName": "Esholt WWTW",
+        "nearestAnyFuel": "Waste"
+      },
+      "substation": {
+        "distanceKm": 0.7,
+        "name": "Bradford",
+        "voltageKv": 132,
+        "tier": "grid-supply"
+      },
+      "dataCentreFit": {
+        "score": 70,
+        "band": "strong",
+        "reasons": [
+          "0.7km to Bradford (132kV, grid-supply)",
+          "2,476 sq ft equivalent",
+          "subtype \"Light Industrial\""
         ]
       },
       "dedup": {
@@ -5531,66 +5593,6 @@
       }
     },
     {
-      "address": "Land at Hartington Terrace, Bradford (Bradford)",
-      "priceDisplay": "£40,000 Guide Price",
-      "priceAmount": 40000,
-      "sizeLabel": "2,476 sq. ft.",
-      "sizeSqft": 2476,
-      "source": "Rightmove Commercial",
-      "requirement": "School Conversion",
-      "score": 2,
-      "reasons": [
-        "geography \"Bradford Yorkshire\" in School Conversion territory (prescoped — not scored)",
-        "size 2476 >= min 2000",
-        "keyword hit \"freehold\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/754780241191488#/?channel=COM_BUY",
-      "agent": "Palace Auctions, London",
-      "propertyType": "Light Industrial",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/2a277b2bb/754780241191488/2a277b2bb55c8ae49638d136ec4f0694_max_476x317.png",
-      "marketingText": "Light industrial for sale Prime Bradford BD7 land for auction on 12th August . Exceptional long-term development potential in a regeneration hotspot. Ideal for investors and developers seeking capital growth and strong rental yields. View full details and register to bid online. Prime land parcel in sought-after Bradford BD7 regeneration zone Auction date: 12th August – secure your investment opportunity Outstanding long-term development and capital growth potential Close to Bradford city centre, universities, and major amenities Benefits from City of Culture 2025 and Southern Gateway regeneration Excellent transport links: future HS2, mass transit, and improved road access High local housing demand: 18,105+ on Bradford housing register Strong rental yields (6.8–7.2%) and 48% five-year capital growth in BD7 Flexible site suitable for residential or mixed-use development (STPP) Legal pack and auction registration available via Palace Auctions website FREEHOLD",
-      "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 6.2,
-        "nearestAnyName": "Esholt WWTW",
-        "nearestAnyFuel": "Waste"
-      },
-      "substation": {
-        "distanceKm": 0.7,
-        "name": "Bradford",
-        "voltageKv": 132,
-        "tier": "grid-supply"
-      },
-      "dataCentreFit": {
-        "score": 70,
-        "band": "strong",
-        "reasons": [
-          "0.7km to Bradford (132kV, grid-supply)",
-          "2,476 sq ft equivalent",
-          "subtype \"Light Industrial\""
-        ]
-      },
-      "dedup": {
-        "isDuplicate": false,
-        "duplicateCount": 0,
-        "groupId": null
-      },
-      "valueAdd": {
-        "score": 0,
-        "band": "insufficient_data",
-        "reasons": [
-          "no VOA business-rates benchmark for this district (need ≥10 samples)"
-        ]
-      },
-      "schoolReadiness": {
-        "score": 0,
-        "band": "unknown",
-        "reasons": [
-          "no condition language found in listing text"
-        ]
-      }
-    },
-    {
       "address": "Wharfedale Road, Bradford (Bradford)",
       "priceDisplay": "POA",
       "priceAmount": 10,
@@ -5628,66 +5630,6 @@
           "0.7km to Bradford (132kV, grid-supply)",
           "28,079 sq ft equivalent",
           "subtype \"Light Industrial\""
-        ]
-      },
-      "dedup": {
-        "isDuplicate": false,
-        "duplicateCount": 0,
-        "groupId": null
-      },
-      "valueAdd": {
-        "score": 0,
-        "band": "insufficient_data",
-        "reasons": [
-          "no VOA business-rates benchmark for this district (need ≥10 samples)"
-        ]
-      },
-      "schoolReadiness": {
-        "score": 0,
-        "band": "unknown",
-        "reasons": [
-          "no condition language found in listing text"
-        ]
-      }
-    },
-    {
-      "address": "221 Sunbridge Road, Bradford, BD1 2LG (Bradford)",
-      "priceDisplay": "POA",
-      "priceAmount": 1,
-      "sizeLabel": "16,165 sq. ft.",
-      "sizeSqft": 16165,
-      "source": "Rightmove Commercial",
-      "requirement": "School Conversion",
-      "score": 2,
-      "reasons": [
-        "geography \"Bradford Yorkshire\" in School Conversion territory (prescoped — not scored)",
-        "size 16165 >= min 2000",
-        "keyword hit \"freehold\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/760557421122001#/?channel=COM_BUY",
-      "agent": "Eddisons Commercial Limited, Bradford",
-      "propertyType": "Warehouse",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/56d3bdb84/760557421122001/56d3bdb842519549a769c5915a5a8959_max_476x317.jpeg",
-      "marketingText": "Warehouse for sale The property consists of a single storey part brick part metal sheet clad industrial building split into 6 separate units. All units have their own utility supply and benefit from generous yard space as well as approx. 4 meter eaves. Externally the site benefits from a secure and surfaced yard/car parks with the overall site area of c1.43 acres. The current rental income from the site is £101,071 per annum with scope for increase as the site includes a vacant 2,233 sq ft unit. A tenancy schedule is available on request. All leases come to expiry on April 2028 and are outside the Landlord & Tenant Act 1954. Highly prominent position. Five tenanted units. Rare freehold opportunity. FREEHOLD",
-      "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 6.2,
-        "nearestAnyName": "Esholt WWTW",
-        "nearestAnyFuel": "Waste"
-      },
-      "substation": {
-        "distanceKm": 0.7,
-        "name": "Bradford",
-        "voltageKv": 132,
-        "tier": "grid-supply"
-      },
-      "dataCentreFit": {
-        "score": 75,
-        "band": "strong",
-        "reasons": [
-          "0.7km to Bradford (132kV, grid-supply)",
-          "16,165 sq ft equivalent",
-          "subtype \"Warehouse\""
         ]
       },
       "dedup": {
@@ -5867,6 +5809,66 @@
         "reasons": [
           "0.7km to Bradford (132kV, grid-supply)",
           "20,405 sq ft equivalent",
+          "subtype \"Warehouse\""
+        ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "no VOA business-rates benchmark for this district (need ≥10 samples)"
+        ]
+      },
+      "schoolReadiness": {
+        "score": 0,
+        "band": "unknown",
+        "reasons": [
+          "no condition language found in listing text"
+        ]
+      }
+    },
+    {
+      "address": "221 Sunbridge Road, Bradford, BD1 2LG (Bradford)",
+      "priceDisplay": "POA",
+      "priceAmount": 1,
+      "sizeLabel": "16,165 sq. ft.",
+      "sizeSqft": 16165,
+      "source": "Rightmove Commercial",
+      "requirement": "School Conversion",
+      "score": 2,
+      "reasons": [
+        "geography \"Bradford Yorkshire\" in School Conversion territory (prescoped — not scored)",
+        "size 16165 >= min 2000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/760557421122001#/?channel=COM_BUY",
+      "agent": "Eddisons Commercial Limited, Bradford",
+      "propertyType": "Warehouse",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/56d3bdb84/760557421122001/56d3bdb842519549a769c5915a5a8959_max_476x317.jpeg",
+      "marketingText": "Warehouse for sale The property consists of a single storey part brick part metal sheet clad industrial building split into 6 separate units. All units have their own utility supply and benefit from generous yard space as well as approx. 4 meter eaves. Externally the site benefits from a secure and surfaced yard/car parks with the overall site area of c1.43 acres. The current rental income from the site is £101,071 per annum with scope for increase as the site includes a vacant 2,233 sq ft unit. A tenancy schedule is available on request. All leases come to expiry on April 2028 and are outside the Landlord & Tenant Act 1954. Highly prominent position. Five tenanted units. Rare freehold opportunity. FREEHOLD",
+      "powerStation": {
+        "geocodePrecision": "city-centroid",
+        "nearestAnyKm": 6.2,
+        "nearestAnyName": "Esholt WWTW",
+        "nearestAnyFuel": "Waste"
+      },
+      "substation": {
+        "distanceKm": 0.7,
+        "name": "Bradford",
+        "voltageKv": 132,
+        "tier": "grid-supply"
+      },
+      "dataCentreFit": {
+        "score": 75,
+        "band": "strong",
+        "reasons": [
+          "0.7km to Bradford (132kV, grid-supply)",
+          "16,165 sq ft equivalent",
           "subtype \"Warehouse\""
         ]
       },
@@ -6431,68 +6433,6 @@
       }
     },
     {
-      "address": "Development Site to rear of 72 & 74 New North Road, Huddersfield, West Yorkshire, HD1 5NE (Huddersfield)",
-      "priceDisplay": "£200,000 Offers in Excess of",
-      "priceAmount": 200000,
-      "sizeLabel": "11,761 sq. ft.",
-      "sizeSqft": 11761,
-      "source": "Rightmove Commercial",
-      "requirement": "School Conversion",
-      "score": 2,
-      "reasons": [
-        "geography \"Huddersfield Yorkshire\" in School Conversion territory (prescoped — not scored)",
-        "size 11761 >= min 2000",
-        "keyword hit \"planning\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/742063384158624#/?channel=COM_BUY",
-      "agent": "BRAMLEYS LLP, Huddersfield",
-      "propertyType": "Residential Development",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/cbc65a4a0/742063384158624/cbc65a4a05a10935c7928387626db06b_max_476x317.jpeg",
-      "marketingText": "Residential development for sale The site is positioned to the rear of Proxima House, which is a Grade II Listed former office building which was subsequently converted to provide self-contained apartments. The site extends to 0.265 acres and has access across the driveway of 72 New North Road. Planning permission was been granted under Application No. 2019/60/92111 for the erection of 3 houses which, based on the plans, will provide a total gross development area of 5,633ft. The proposed dwellings include two 4 bedroom and one 5 bedroom houses. This is a rare opportunity to acquire development land with planning permission within a short proximity to the town centre in what is a sought after residential area. RESIDENTIAL DEVELOPMENT OPPORTUNITY Planning permission for the development of 3 houses has been granted under planning application number 2019/60/92111/W Positioned in the popular area of Edgerton, approximately 0.5 miles to the northeast of Huddersfield town centre. Within walking distance of the town's train and bus stations.",
-      "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.3,
-        "nearestAnyName": "Vine Street EfW",
-        "nearestAnyFuel": "Waste"
-      },
-      "substation": {
-        "distanceKm": 1.2,
-        "name": "St Andrews Road",
-        "voltageKv": 132,
-        "tier": "grid-supply"
-      },
-      "dataCentreFit": {
-        "score": 75,
-        "band": "strong",
-        "reasons": [
-          "1.2km to St Andrews Road (132kV, grid-supply)",
-          "11,761 sq ft equivalent",
-          "subtype \"Residential Development\""
-        ]
-      },
-      "dedup": {
-        "isDuplicate": false,
-        "canonicalUrl": "https://www.rightmove.co.uk/properties/742063384158624#/?channel=COM_BUY",
-        "duplicateCount": 2,
-        "groupId": "200000:11761#0",
-        "reason": "same price (£200,000) and size (11,761 sq ft), overlapping address"
-      },
-      "valueAdd": {
-        "score": 0,
-        "band": "insufficient_data",
-        "reasons": [
-          "no VOA business-rates benchmark for this district (need ≥10 samples)"
-        ]
-      },
-      "schoolReadiness": {
-        "score": 25,
-        "band": "major_work",
-        "reasons": [
-          "work-needed language: \"development opportunity\""
-        ]
-      }
-    },
-    {
       "address": "Land to rear of 72 & 74 New North Road, Huddersfield, West Yorkshire, HD1 5NE (Huddersfield)",
       "priceDisplay": "£200,000 Offers in Excess of",
       "priceAmount": 200000,
@@ -6534,6 +6474,68 @@
       },
       "dedup": {
         "isDuplicate": true,
+        "canonicalUrl": "https://www.rightmove.co.uk/properties/742063384158624#/?channel=COM_BUY",
+        "duplicateCount": 2,
+        "groupId": "200000:11761#0",
+        "reason": "same price (£200,000) and size (11,761 sq ft), overlapping address"
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "no VOA business-rates benchmark for this district (need ≥10 samples)"
+        ]
+      },
+      "schoolReadiness": {
+        "score": 25,
+        "band": "major_work",
+        "reasons": [
+          "work-needed language: \"development opportunity\""
+        ]
+      }
+    },
+    {
+      "address": "Development Site to rear of 72 & 74 New North Road, Huddersfield, West Yorkshire, HD1 5NE (Huddersfield)",
+      "priceDisplay": "£200,000 Offers in Excess of",
+      "priceAmount": 200000,
+      "sizeLabel": "11,761 sq. ft.",
+      "sizeSqft": 11761,
+      "source": "Rightmove Commercial",
+      "requirement": "School Conversion",
+      "score": 2,
+      "reasons": [
+        "geography \"Huddersfield Yorkshire\" in School Conversion territory (prescoped — not scored)",
+        "size 11761 >= min 2000",
+        "keyword hit \"planning\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/742063384158624#/?channel=COM_BUY",
+      "agent": "BRAMLEYS LLP, Huddersfield",
+      "propertyType": "Residential Development",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/cbc65a4a0/742063384158624/cbc65a4a05a10935c7928387626db06b_max_476x317.jpeg",
+      "marketingText": "Residential development for sale The site is positioned to the rear of Proxima House, which is a Grade II Listed former office building which was subsequently converted to provide self-contained apartments. The site extends to 0.265 acres and has access across the driveway of 72 New North Road. Planning permission was been granted under Application No. 2019/60/92111 for the erection of 3 houses which, based on the plans, will provide a total gross development area of 5,633ft. The proposed dwellings include two 4 bedroom and one 5 bedroom houses. This is a rare opportunity to acquire development land with planning permission within a short proximity to the town centre in what is a sought after residential area. RESIDENTIAL DEVELOPMENT OPPORTUNITY Planning permission for the development of 3 houses has been granted under planning application number 2019/60/92111/W Positioned in the popular area of Edgerton, approximately 0.5 miles to the northeast of Huddersfield town centre. Within walking distance of the town's train and bus stations.",
+      "powerStation": {
+        "geocodePrecision": "city-centroid",
+        "nearestAnyKm": 1.3,
+        "nearestAnyName": "Vine Street EfW",
+        "nearestAnyFuel": "Waste"
+      },
+      "substation": {
+        "distanceKm": 1.2,
+        "name": "St Andrews Road",
+        "voltageKv": 132,
+        "tier": "grid-supply"
+      },
+      "dataCentreFit": {
+        "score": 75,
+        "band": "strong",
+        "reasons": [
+          "1.2km to St Andrews Road (132kV, grid-supply)",
+          "11,761 sq ft equivalent",
+          "subtype \"Residential Development\""
+        ]
+      },
+      "dedup": {
+        "isDuplicate": false,
         "canonicalUrl": "https://www.rightmove.co.uk/properties/742063384158624#/?channel=COM_BUY",
         "duplicateCount": 2,
         "groupId": "200000:11761#0",
@@ -7823,84 +7825,24 @@
       }
     },
     {
-      "address": "51-53 Richmond Street, Manchester, Lancashire, M1 3WB (Manchester)",
-      "priceDisplay": "£675,000 Offers in Region of",
-      "priceAmount": 675000,
-      "sizeLabel": "",
-      "sizeSqft": null,
-      "source": "Rightmove Commercial",
-      "requirement": "Residential Conversion",
-      "score": 2,
-      "reasons": [
-        "geography \"Manchester Greater Manchester\" in Residential Conversion territory (prescoped — not scored)",
-        "price 675000 within budget 500000-2000000",
-        "keyword hit \"freehold\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/162129293#/?channel=COM_BUY",
-      "agent": "Landwood Group, Manchester",
-      "propertyType": "Residential Development",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/6cdeef6d7/162129293/6cdeef6d76c8523464b20c7eb61fc035_max_476x317.jpeg",
-      "marketingText": "Residential development for sale Grade II listed former textile workshop/warehouse. One of the last such opportunities in Manchester City Centre. Fantastic location in the city centre and within the vibrant Village community. UNIQUE CITY CENTRE DEVELOPMENT OPPORTUNITY: Grade II listed former textile workshop/warehouse with Devel... Grade II listed former textile workshop/warehouse One of the last such opportunities in Manchester City Centre Fantastic location in the city centre and within the vibrant Village community Within 15 minutes' walk of St Annes Square, Deansgate and Spinningfields Renovation, Alternative Use and Development potential STP. Site approximately 0.013 Hectare (0.032 Acres) Building approximately 310.55 sq. m (3.342 sq. ft) FREEHOLD",
-      "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.9,
-        "nearestAnyName": "Ardwick Railway Goods Yard Incinerator (Newhaven EFW Plant)",
-        "nearestAnyFuel": "Waste"
-      },
-      "substation": {
-        "distanceKm": 0.3,
-        "name": "Bloom Street Substation",
-        "voltageKv": 132,
-        "tier": "grid-supply"
-      },
-      "dataCentreFit": {
-        "score": 65,
-        "band": "strong",
-        "reasons": [
-          "0.3km to Bloom Street Substation (132kV, grid-supply)",
-          "size unknown",
-          "subtype \"Residential Development\""
-        ]
-      },
-      "dedup": {
-        "isDuplicate": false,
-        "duplicateCount": 0,
-        "groupId": null
-      },
-      "valueAdd": {
-        "score": 0,
-        "band": "insufficient_data",
-        "reasons": [
-          "price or size unknown"
-        ]
-      },
-      "schoolReadiness": {
-        "score": 25,
-        "band": "major_work",
-        "reasons": [
-          "work-needed language: \"development opportunity\""
-        ]
-      }
-    },
-    {
-      "address": "Unit 5, Brightgate Way, Trafford Park, M32 0TB (Manchester)",
-      "priceDisplay": "POA",
-      "priceAmount": 1300000,
-      "sizeLabel": "6,520 sq. ft.",
-      "sizeSqft": 6520,
+      "address": "13 Shaw Road, Heaton Moor, Stockport, SK4 4AG (Manchester)",
+      "priceDisplay": "£650,000",
+      "priceAmount": 650000,
+      "sizeLabel": "2,252 sq. ft.",
+      "sizeSqft": 2252,
       "source": "Rightmove Commercial",
       "requirement": "School Conversion",
       "score": 2,
       "reasons": [
         "geography \"Manchester Greater Manchester\" in School Conversion territory (prescoped — not scored)",
-        "size 6520 >= min 2000",
+        "size 2252 >= min 2000",
         "keyword hit \"freehold\""
       ],
-      "url": "https://www.rightmove.co.uk/properties/173747120#/?channel=COM_BUY",
-      "agent": "B8 Real Estate LLP, Warrington",
-      "propertyType": "Warehouse",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/f27b77c9b/173747120/f27b77c9bfe2cf0872cd6f3b4cbc8068_max_476x317.jpeg",
-      "marketingText": "Warehouse for sale Industrial / Warehouse To Let, Manchester Steel portal frame construction Clear headroom of 7m Large, fully self-contained concrete yard Three phase electricity Level access loading Office space FREEHOLD",
+      "url": "https://www.rightmove.co.uk/properties/162163484#/?channel=COM_BUY",
+      "agent": "MBRE, Stockport",
+      "propertyType": "Retail Property (high street)",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/4a66318ed/162163484/4a66318ed2860a2444b7231b8a0815e6_max_476x317.jpeg",
+      "marketingText": "Retail property (high street) for sale For Sale: 2,252 Sq.ft Mixed use retail/residential investment premises Fully let commercial & residential investment GF/Lower GF: 1,275 Sq.ft overall plus terrace First Floor 2 bedroom Flat:542 Sq.ft Second Floor 1 bedroom Flat: 435 Sq.ft Council Tax Band A for flats: £1,650.21 13 Shaw Road RV: £17,750 - Tenant to pay Total income: £46,200 - 7.11% Yield Freehold property - Title No: GM664083 FREEHOLD",
       "powerStation": {
         "geocodePrecision": "city-centroid",
         "nearestAnyKm": 1.9,
@@ -7914,12 +7856,12 @@
         "tier": "grid-supply"
       },
       "dataCentreFit": {
-        "score": 75,
-        "band": "strong",
+        "score": 55,
+        "band": "possible",
         "reasons": [
           "0.3km to Bloom Street Substation (132kV, grid-supply)",
-          "6,520 sq ft equivalent",
-          "subtype \"Warehouse\""
+          "2,252 sq ft equivalent",
+          "subtype \"Retail Property (high street)\""
         ]
       },
       "dedup": {
@@ -7943,24 +7885,24 @@
       }
     },
     {
-      "address": "Sherborne Street, Manchester (Manchester)",
-      "priceDisplay": "POA",
-      "priceAmount": 5500000,
-      "sizeLabel": "80,000 sq. ft.",
-      "sizeSqft": 80000,
+      "address": "Meadow Industrial Estate, Water Street, Manchester (Manchester)",
+      "priceDisplay": "£280,000",
+      "priceAmount": 280000,
+      "sizeLabel": "2,400–2,450 sq. ft.",
+      "sizeSqft": 2450,
       "source": "Rightmove Commercial",
-      "requirement": "Data Centre Development",
+      "requirement": "School Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Manchester Greater Manchester\" in Data Centre Development territory (prescoped — not scored)",
-        "size 80000 >= min 20000",
+        "geography \"Manchester Greater Manchester\" in School Conversion territory (prescoped — not scored)",
+        "size 2450 >= min 2000",
         "keyword hit \"freehold\""
       ],
-      "url": "https://www.rightmove.co.uk/properties/738315773469473#/?channel=COM_BUY",
-      "agent": "Citrus Commercial Circle, Manchester",
+      "url": "https://www.rightmove.co.uk/properties/763457499288288#/?channel=COM_BUY",
+      "agent": "Portfolio Lets Limited, Manchester",
       "propertyType": "Light Industrial",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/5a7c8ea2a/738315773469473/5a7c8ea2ad50e2563220e185a6386797_max_476x317.png",
-      "marketingText": "Light industrial for sale A substantial industrial investment opportunity positioned in the heart of Cheetham Hill, one of Manchester’s most established commercial and distribution locations.  Total site extending to approximately 80,000 sq ft Prominent frontage onto Sherborne Street Located in the heart of Cheetham Hill Approximately 1 mile north of Manchester city centre Established industrial and commercial area Popular location for storage and distribution users Direct access to A665 Cheetham Hill Road Close proximity to A56 Bury New Road Strong urban logistics position Asset management and investment potential FREEHOLD",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/e953203ec/763457499288288/e953203ec84a0d17a2bccc58288f940b_max_476x317.jpeg",
+      "marketingText": "Light industrial for sale Freehold light industrial unit in the prominent Meadow Industrail Estate, featuring a main open plan area, 2nd open plan area, storage room with roller shutter access. The premises also include toilets. Externally, there are parking spaces for four cars. Light Industrial Unit Prominently Located in Meadow Industrial Estate Approx. Ground Floor GIA of 2,450 sq. ft. (227 sq. m) Ideal for Owner Occupier Forecourt Parking Freehold Convenient Access to M60 Motorway FREEHOLD",
       "powerStation": {
         "geocodePrecision": "city-centroid",
         "nearestAnyKm": 1.9,
@@ -7974,12 +7916,72 @@
         "tier": "grid-supply"
       },
       "dataCentreFit": {
-        "score": 83,
+        "score": 70,
         "band": "strong",
         "reasons": [
           "0.3km to Bloom Street Substation (132kV, grid-supply)",
-          "80,000 sq ft equivalent",
+          "2,450 sq ft equivalent",
           "subtype \"Light Industrial\""
+        ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "no VOA business-rates benchmark for this district (need ≥10 samples)"
+        ]
+      },
+      "schoolReadiness": {
+        "score": 0,
+        "band": "unknown",
+        "reasons": [
+          "no condition language found in listing text"
+        ]
+      }
+    },
+    {
+      "address": "Unit D2, Meadowbank Business Park, Tweedle Way, Oldham, OL9 8EH (Manchester)",
+      "priceDisplay": "£1,000,000",
+      "priceAmount": 1000000,
+      "sizeLabel": "7,615 sq. ft.",
+      "sizeSqft": 7615,
+      "source": "Rightmove Commercial",
+      "requirement": "School Conversion",
+      "score": 2,
+      "reasons": [
+        "geography \"Manchester Greater Manchester\" in School Conversion territory (prescoped — not scored)",
+        "size 7615 >= min 2000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/170286875#/?channel=COM_BUY",
+      "agent": "MBRE, Stockport",
+      "propertyType": "Distribution Warehouse",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/b611d9dea/170286875/b611d9dea65aa55eeb790721ea62e5b3_max_476x317.jpeg",
+      "marketingText": "Distribution warehouse for sale To Let & For Sale: 7,615 Sq.ft Modern semi-detached warehouse premises with 9 car parking spaces Modern semi-detached warehouse premises High quality internal two storey offices Staff/customer toilets and welfare facilities Eaves Height: 21’4’’ / Ridge Height: 27’5’’ Electronic roller shutter main bay door External yard for loading/parking for 9 cars Located close to J21 & J22 of the M60 New Lease / No premium / Terms TBA FREEHOLD",
+      "powerStation": {
+        "geocodePrecision": "city-centroid",
+        "nearestAnyKm": 1.9,
+        "nearestAnyName": "Ardwick Railway Goods Yard Incinerator (Newhaven EFW Plant)",
+        "nearestAnyFuel": "Waste"
+      },
+      "substation": {
+        "distanceKm": 0.3,
+        "name": "Bloom Street Substation",
+        "voltageKv": 132,
+        "tier": "grid-supply"
+      },
+      "dataCentreFit": {
+        "score": 75,
+        "band": "strong",
+        "reasons": [
+          "0.3km to Bloom Street Substation (132kV, grid-supply)",
+          "7,615 sq ft equivalent",
+          "subtype \"Distribution Warehouse\""
         ]
       },
       "dedup": {
@@ -8243,6 +8245,66 @@
       }
     },
     {
+      "address": "Sherborne Street, Manchester (Manchester)",
+      "priceDisplay": "POA",
+      "priceAmount": 5500000,
+      "sizeLabel": "80,000 sq. ft.",
+      "sizeSqft": 80000,
+      "source": "Rightmove Commercial",
+      "requirement": "Data Centre Development",
+      "score": 2,
+      "reasons": [
+        "geography \"Manchester Greater Manchester\" in Data Centre Development territory (prescoped — not scored)",
+        "size 80000 >= min 20000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/738315773469473#/?channel=COM_BUY",
+      "agent": "Citrus Commercial Circle, Manchester",
+      "propertyType": "Light Industrial",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/5a7c8ea2a/738315773469473/5a7c8ea2ad50e2563220e185a6386797_max_476x317.png",
+      "marketingText": "Light industrial for sale A substantial industrial investment opportunity positioned in the heart of Cheetham Hill, one of Manchester’s most established commercial and distribution locations.  Total site extending to approximately 80,000 sq ft Prominent frontage onto Sherborne Street Located in the heart of Cheetham Hill Approximately 1 mile north of Manchester city centre Established industrial and commercial area Popular location for storage and distribution users Direct access to A665 Cheetham Hill Road Close proximity to A56 Bury New Road Strong urban logistics position Asset management and investment potential FREEHOLD",
+      "powerStation": {
+        "geocodePrecision": "city-centroid",
+        "nearestAnyKm": 1.9,
+        "nearestAnyName": "Ardwick Railway Goods Yard Incinerator (Newhaven EFW Plant)",
+        "nearestAnyFuel": "Waste"
+      },
+      "substation": {
+        "distanceKm": 0.3,
+        "name": "Bloom Street Substation",
+        "voltageKv": 132,
+        "tier": "grid-supply"
+      },
+      "dataCentreFit": {
+        "score": 83,
+        "band": "strong",
+        "reasons": [
+          "0.3km to Bloom Street Substation (132kV, grid-supply)",
+          "80,000 sq ft equivalent",
+          "subtype \"Light Industrial\""
+        ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "no VOA business-rates benchmark for this district (need ≥10 samples)"
+        ]
+      },
+      "schoolReadiness": {
+        "score": 0,
+        "band": "unknown",
+        "reasons": [
+          "no condition language found in listing text"
+        ]
+      }
+    },
+    {
       "address": "Seaford Road, Manchester M6 (Manchester)",
       "priceDisplay": "£5,500,000 Guide Price",
       "priceAmount": 5500000,
@@ -8460,6 +8522,66 @@
           "0.3km to Bloom Street Substation (132kV, grid-supply)",
           "9,766 sq ft equivalent",
           "subtype \"Place of Worship\" — no specific rule, neutral"
+        ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "no VOA business-rates benchmark for this district (need ≥10 samples)"
+        ]
+      },
+      "schoolReadiness": {
+        "score": 0,
+        "band": "unknown",
+        "reasons": [
+          "no condition language found in listing text"
+        ]
+      }
+    },
+    {
+      "address": "Unit 5, Brightgate Way, Trafford Park, M32 0TB (Manchester)",
+      "priceDisplay": "POA",
+      "priceAmount": 1300000,
+      "sizeLabel": "6,520 sq. ft.",
+      "sizeSqft": 6520,
+      "source": "Rightmove Commercial",
+      "requirement": "School Conversion",
+      "score": 2,
+      "reasons": [
+        "geography \"Manchester Greater Manchester\" in School Conversion territory (prescoped — not scored)",
+        "size 6520 >= min 2000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/173747120#/?channel=COM_BUY",
+      "agent": "B8 Real Estate LLP, Warrington",
+      "propertyType": "Warehouse",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/f27b77c9b/173747120/f27b77c9bfe2cf0872cd6f3b4cbc8068_max_476x317.jpeg",
+      "marketingText": "Warehouse for sale Industrial / Warehouse To Let, Manchester Steel portal frame construction Clear headroom of 7m Large, fully self-contained concrete yard Three phase electricity Level access loading Office space FREEHOLD",
+      "powerStation": {
+        "geocodePrecision": "city-centroid",
+        "nearestAnyKm": 1.9,
+        "nearestAnyName": "Ardwick Railway Goods Yard Incinerator (Newhaven EFW Plant)",
+        "nearestAnyFuel": "Waste"
+      },
+      "substation": {
+        "distanceKm": 0.3,
+        "name": "Bloom Street Substation",
+        "voltageKv": 132,
+        "tier": "grid-supply"
+      },
+      "dataCentreFit": {
+        "score": 75,
+        "band": "strong",
+        "reasons": [
+          "0.3km to Bloom Street Substation (132kV, grid-supply)",
+          "6,520 sq ft equivalent",
+          "subtype \"Warehouse\""
         ]
       },
       "dedup": {
@@ -8723,24 +8845,24 @@
       }
     },
     {
-      "address": "Broughton Street, Manchester, Greater Manchester, M8 (Manchester)",
-      "priceDisplay": "£675,000 Offers in Excess of",
+      "address": "51-53 Richmond Street, Manchester, Lancashire, M1 3WB (Manchester)",
+      "priceDisplay": "£675,000 Offers in Region of",
       "priceAmount": 675000,
-      "sizeLabel": "8,500 sq. ft.",
-      "sizeSqft": 8500,
+      "sizeLabel": "",
+      "sizeSqft": null,
       "source": "Rightmove Commercial",
-      "requirement": "School Conversion",
+      "requirement": "Residential Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Manchester Greater Manchester\" in School Conversion territory (prescoped — not scored)",
-        "size 8500 >= min 2000",
+        "geography \"Manchester Greater Manchester\" in Residential Conversion territory (prescoped — not scored)",
+        "price 675000 within budget 500000-2000000",
         "keyword hit \"freehold\""
       ],
-      "url": "https://www.rightmove.co.uk/properties/756213044978816#/?channel=COM_BUY",
-      "agent": "NQ Commercial Limited, Manchester",
-      "propertyType": "Commercial Property",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/034887b62/756213044978816/034887b62ff788d051a28fa026bce8c3_max_476x317.jpeg",
-      "marketingText": "Commercial property for sale Commercial Premises for Sale - Cheetham hill manAn excellent opportunity to acquire a commercial property of approximately 8,000 sq ft, ideally located just 1 mile from Manchester City Centre.The premises offer generous floor space suitable for a variety of commercial uses (subject to planning), 1 mile from Manchester City centre Excellent location Ideal commercial size Secured gated car park FREEHOLD",
+      "url": "https://www.rightmove.co.uk/properties/162129293#/?channel=COM_BUY",
+      "agent": "Landwood Group, Manchester",
+      "propertyType": "Residential Development",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/6cdeef6d7/162129293/6cdeef6d76c8523464b20c7eb61fc035_max_476x317.jpeg",
+      "marketingText": "Residential development for sale Grade II listed former textile workshop/warehouse. One of the last such opportunities in Manchester City Centre. Fantastic location in the city centre and within the vibrant Village community. UNIQUE CITY CENTRE DEVELOPMENT OPPORTUNITY: Grade II listed former textile workshop/warehouse with Devel... Grade II listed former textile workshop/warehouse One of the last such opportunities in Manchester City Centre Fantastic location in the city centre and within the vibrant Village community Within 15 minutes' walk of St Annes Square, Deansgate and Spinningfields Renovation, Alternative Use and Development potential STP. Site approximately 0.013 Hectare (0.032 Acres) Building approximately 310.55 sq. m (3.342 sq. ft) FREEHOLD",
       "powerStation": {
         "geocodePrecision": "city-centroid",
         "nearestAnyKm": 1.9,
@@ -8758,8 +8880,8 @@
         "band": "strong",
         "reasons": [
           "0.3km to Bloom Street Substation (132kV, grid-supply)",
-          "8,500 sq ft equivalent",
-          "subtype \"Commercial Property\" — no specific rule, neutral"
+          "size unknown",
+          "subtype \"Residential Development\""
         ]
       },
       "dedup": {
@@ -8771,74 +8893,14 @@
         "score": 0,
         "band": "insufficient_data",
         "reasons": [
-          "no VOA business-rates benchmark for this district (need ≥10 samples)"
+          "price or size unknown"
         ]
       },
       "schoolReadiness": {
-        "score": 0,
-        "band": "unknown",
+        "score": 25,
+        "band": "major_work",
         "reasons": [
-          "no condition language found in listing text"
-        ]
-      }
-    },
-    {
-      "address": "Unit D2, Meadowbank Business Park, Tweedle Way, Oldham, OL9 8EH (Manchester)",
-      "priceDisplay": "£1,000,000",
-      "priceAmount": 1000000,
-      "sizeLabel": "7,615 sq. ft.",
-      "sizeSqft": 7615,
-      "source": "Rightmove Commercial",
-      "requirement": "School Conversion",
-      "score": 2,
-      "reasons": [
-        "geography \"Manchester Greater Manchester\" in School Conversion territory (prescoped — not scored)",
-        "size 7615 >= min 2000",
-        "keyword hit \"freehold\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/170286875#/?channel=COM_BUY",
-      "agent": "MBRE, Stockport",
-      "propertyType": "Distribution Warehouse",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/b611d9dea/170286875/b611d9dea65aa55eeb790721ea62e5b3_max_476x317.jpeg",
-      "marketingText": "Distribution warehouse for sale To Let & For Sale: 7,615 Sq.ft Modern semi-detached warehouse premises with 9 car parking spaces Modern semi-detached warehouse premises High quality internal two storey offices Staff/customer toilets and welfare facilities Eaves Height: 21’4’’ / Ridge Height: 27’5’’ Electronic roller shutter main bay door External yard for loading/parking for 9 cars Located close to J21 & J22 of the M60 New Lease / No premium / Terms TBA FREEHOLD",
-      "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.9,
-        "nearestAnyName": "Ardwick Railway Goods Yard Incinerator (Newhaven EFW Plant)",
-        "nearestAnyFuel": "Waste"
-      },
-      "substation": {
-        "distanceKm": 0.3,
-        "name": "Bloom Street Substation",
-        "voltageKv": 132,
-        "tier": "grid-supply"
-      },
-      "dataCentreFit": {
-        "score": 75,
-        "band": "strong",
-        "reasons": [
-          "0.3km to Bloom Street Substation (132kV, grid-supply)",
-          "7,615 sq ft equivalent",
-          "subtype \"Distribution Warehouse\""
-        ]
-      },
-      "dedup": {
-        "isDuplicate": false,
-        "duplicateCount": 0,
-        "groupId": null
-      },
-      "valueAdd": {
-        "score": 0,
-        "band": "insufficient_data",
-        "reasons": [
-          "no VOA business-rates benchmark for this district (need ≥10 samples)"
-        ]
-      },
-      "schoolReadiness": {
-        "score": 0,
-        "band": "unknown",
-        "reasons": [
-          "no condition language found in listing text"
+          "work-needed language: \"development opportunity\""
         ]
       }
     },
@@ -9143,66 +9205,6 @@
       }
     },
     {
-      "address": "64-68 Bury Old Road, Manchester (Manchester)",
-      "priceDisplay": "£750,000 Offers in Region of",
-      "priceAmount": 750000,
-      "sizeLabel": "5,542 sq. ft.",
-      "sizeSqft": 5542,
-      "source": "Rightmove Commercial",
-      "requirement": "School Conversion",
-      "score": 2,
-      "reasons": [
-        "geography \"Manchester Greater Manchester\" in School Conversion territory (prescoped — not scored)",
-        "size 5542 >= min 2000",
-        "keyword hit \"freehold\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/752027355996960#/?channel=COM_BUY",
-      "agent": "BARKER PROUDLOVE LIMITED, Manchester",
-      "propertyType": "Retail Property (high street)",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/aa41ff255/752027355996960/aa41ff25550dfda81610f039ea3a3fc1_max_476x317.jpeg",
-      "marketingText": "Retail property (high street) for sale The subject property is well located on Bury Old Road near to the entrance of Cheetham Hill Shopping Centre and Tesco Superstore. Nearby occupiers include Chaiiwala, Betfred and Players. The property is comprised over ground, first and second floors with private gated car park to the rear.  Cheetham Hill is located 2 miles north of Manchester City Centre Bury Old Road provides direct vehicular access into Manchester and easy access to the M60 motorway via Junction 17 Subject property is well located on Bury Old Road Cheetham Hill Shopping Centre and Tesco are located closeby The property is arranged over 3 floors with a private gated car park to the rear Total Area: 5,542 sq ft Freehold with vacant possession OIRO £750,000 RV: £47,000 Please see brochure for full details FREEHOLD",
-      "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.9,
-        "nearestAnyName": "Ardwick Railway Goods Yard Incinerator (Newhaven EFW Plant)",
-        "nearestAnyFuel": "Waste"
-      },
-      "substation": {
-        "distanceKm": 0.3,
-        "name": "Bloom Street Substation",
-        "voltageKv": 132,
-        "tier": "grid-supply"
-      },
-      "dataCentreFit": {
-        "score": 60,
-        "band": "possible",
-        "reasons": [
-          "0.3km to Bloom Street Substation (132kV, grid-supply)",
-          "5,542 sq ft equivalent",
-          "subtype \"Retail Property (high street)\""
-        ]
-      },
-      "dedup": {
-        "isDuplicate": false,
-        "duplicateCount": 0,
-        "groupId": null
-      },
-      "valueAdd": {
-        "score": 0,
-        "band": "insufficient_data",
-        "reasons": [
-          "no VOA business-rates benchmark for this district (need ≥10 samples)"
-        ]
-      },
-      "schoolReadiness": {
-        "score": 0,
-        "band": "unknown",
-        "reasons": [
-          "no condition language found in listing text"
-        ]
-      }
-    },
-    {
       "address": "BEECH HOUSE BOWLING & SOCIAL CLUB, ROSS AVENUE, LEVENSHULME, MANCHESTER, M19 (Manchester)",
       "priceDisplay": "£750,000",
       "priceAmount": 750000,
@@ -9263,24 +9265,24 @@
       }
     },
     {
-      "address": "13 Shaw Road, Heaton Moor, Stockport, SK4 4AG (Manchester)",
-      "priceDisplay": "£650,000",
-      "priceAmount": 650000,
-      "sizeLabel": "2,252 sq. ft.",
-      "sizeSqft": 2252,
+      "address": "64-68 Bury Old Road, Manchester (Manchester)",
+      "priceDisplay": "£750,000 Offers in Region of",
+      "priceAmount": 750000,
+      "sizeLabel": "5,542 sq. ft.",
+      "sizeSqft": 5542,
       "source": "Rightmove Commercial",
       "requirement": "School Conversion",
       "score": 2,
       "reasons": [
         "geography \"Manchester Greater Manchester\" in School Conversion territory (prescoped — not scored)",
-        "size 2252 >= min 2000",
+        "size 5542 >= min 2000",
         "keyword hit \"freehold\""
       ],
-      "url": "https://www.rightmove.co.uk/properties/162163484#/?channel=COM_BUY",
-      "agent": "MBRE, Stockport",
+      "url": "https://www.rightmove.co.uk/properties/752027355996960#/?channel=COM_BUY",
+      "agent": "BARKER PROUDLOVE LIMITED, Manchester",
       "propertyType": "Retail Property (high street)",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/4a66318ed/162163484/4a66318ed2860a2444b7231b8a0815e6_max_476x317.jpeg",
-      "marketingText": "Retail property (high street) for sale For Sale: 2,252 Sq.ft Mixed use retail/residential investment premises Fully let commercial & residential investment GF/Lower GF: 1,275 Sq.ft overall plus terrace First Floor 2 bedroom Flat:542 Sq.ft Second Floor 1 bedroom Flat: 435 Sq.ft Council Tax Band A for flats: £1,650.21 13 Shaw Road RV: £17,750 - Tenant to pay Total income: £46,200 - 7.11% Yield Freehold property - Title No: GM664083 FREEHOLD",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/aa41ff255/752027355996960/aa41ff25550dfda81610f039ea3a3fc1_max_476x317.jpeg",
+      "marketingText": "Retail property (high street) for sale The subject property is well located on Bury Old Road near to the entrance of Cheetham Hill Shopping Centre and Tesco Superstore. Nearby occupiers include Chaiiwala, Betfred and Players. The property is comprised over ground, first and second floors with private gated car park to the rear.  Cheetham Hill is located 2 miles north of Manchester City Centre Bury Old Road provides direct vehicular access into Manchester and easy access to the M60 motorway via Junction 17 Subject property is well located on Bury Old Road Cheetham Hill Shopping Centre and Tesco are located closeby The property is arranged over 3 floors with a private gated car park to the rear Total Area: 5,542 sq ft Freehold with vacant possession OIRO £750,000 RV: £47,000 Please see brochure for full details FREEHOLD",
       "powerStation": {
         "geocodePrecision": "city-centroid",
         "nearestAnyKm": 1.9,
@@ -9294,12 +9296,72 @@
         "tier": "grid-supply"
       },
       "dataCentreFit": {
-        "score": 55,
+        "score": 60,
         "band": "possible",
         "reasons": [
           "0.3km to Bloom Street Substation (132kV, grid-supply)",
-          "2,252 sq ft equivalent",
+          "5,542 sq ft equivalent",
           "subtype \"Retail Property (high street)\""
+        ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "no VOA business-rates benchmark for this district (need ≥10 samples)"
+        ]
+      },
+      "schoolReadiness": {
+        "score": 0,
+        "band": "unknown",
+        "reasons": [
+          "no condition language found in listing text"
+        ]
+      }
+    },
+    {
+      "address": "Broughton Street, Manchester, Greater Manchester, M8 (Manchester)",
+      "priceDisplay": "£675,000 Offers in Excess of",
+      "priceAmount": 675000,
+      "sizeLabel": "8,500 sq. ft.",
+      "sizeSqft": 8500,
+      "source": "Rightmove Commercial",
+      "requirement": "School Conversion",
+      "score": 2,
+      "reasons": [
+        "geography \"Manchester Greater Manchester\" in School Conversion territory (prescoped — not scored)",
+        "size 8500 >= min 2000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/756213044978816#/?channel=COM_BUY",
+      "agent": "NQ Commercial Limited, Manchester",
+      "propertyType": "Commercial Property",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/034887b62/756213044978816/034887b62ff788d051a28fa026bce8c3_max_476x317.jpeg",
+      "marketingText": "Commercial property for sale Commercial Premises for Sale - Cheetham hill manAn excellent opportunity to acquire a commercial property of approximately 8,000 sq ft, ideally located just 1 mile from Manchester City Centre.The premises offer generous floor space suitable for a variety of commercial uses (subject to planning), 1 mile from Manchester City centre Excellent location Ideal commercial size Secured gated car park FREEHOLD",
+      "powerStation": {
+        "geocodePrecision": "city-centroid",
+        "nearestAnyKm": 1.9,
+        "nearestAnyName": "Ardwick Railway Goods Yard Incinerator (Newhaven EFW Plant)",
+        "nearestAnyFuel": "Waste"
+      },
+      "substation": {
+        "distanceKm": 0.3,
+        "name": "Bloom Street Substation",
+        "voltageKv": 132,
+        "tier": "grid-supply"
+      },
+      "dataCentreFit": {
+        "score": 65,
+        "band": "strong",
+        "reasons": [
+          "0.3km to Bloom Street Substation (132kV, grid-supply)",
+          "8,500 sq ft equivalent",
+          "subtype \"Commercial Property\" — no specific rule, neutral"
         ]
       },
       "dedup": {
@@ -9743,6 +9805,66 @@
       }
     },
     {
+      "address": "Riverside Unit at Bridgewater Wharf, 257 Ordsall Lane, Salford, M5 3NG (Manchester)",
+      "priceDisplay": "£500,000 Offers in Excess of",
+      "priceAmount": 500000,
+      "sizeLabel": "2,336 sq. ft.",
+      "sizeSqft": 2336,
+      "source": "Rightmove Commercial",
+      "requirement": "School Conversion",
+      "score": 2,
+      "reasons": [
+        "geography \"Manchester Greater Manchester\" in School Conversion territory (prescoped — not scored)",
+        "size 2336 >= min 2000",
+        "keyword hit \"gym\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/160038089#/?channel=COM_BUY",
+      "agent": "Gifford Dixon Commercial Property, Manchester",
+      "propertyType": "Retail Property (high street)",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/bc8ea6559/160038089/bc8ea6559a1889e53558ac1c8cd19348_max_476x317.jpeg",
+      "marketingText": "Retail property (high street) for sale Beautiful outlook onto the River Irwell. Suitable for cafe, office or gymnasium use New development Attractive riverside view Frequent footfall area for walkers Scope to shape the unit to suit Part of the Bridgewater Wharf development Large residential population LEASEHOLD",
+      "powerStation": {
+        "geocodePrecision": "city-centroid",
+        "nearestAnyKm": 1.9,
+        "nearestAnyName": "Ardwick Railway Goods Yard Incinerator (Newhaven EFW Plant)",
+        "nearestAnyFuel": "Waste"
+      },
+      "substation": {
+        "distanceKm": 0.3,
+        "name": "Bloom Street Substation",
+        "voltageKv": 132,
+        "tier": "grid-supply"
+      },
+      "dataCentreFit": {
+        "score": 55,
+        "band": "possible",
+        "reasons": [
+          "0.3km to Bloom Street Substation (132kV, grid-supply)",
+          "2,336 sq ft equivalent",
+          "subtype \"Retail Property (high street)\""
+        ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "no VOA business-rates benchmark for this district (need ≥10 samples)"
+        ]
+      },
+      "schoolReadiness": {
+        "score": 0,
+        "band": "unknown",
+        "reasons": [
+          "no condition language found in listing text"
+        ]
+      }
+    },
+    {
       "address": "11 & 11A Shaw Road, Heaton Moor, Stockport SK4 4AG (Manchester)",
       "priceDisplay": "£450,000",
       "priceAmount": 450000,
@@ -9839,66 +9961,6 @@
         "reasons": [
           "0.3km to Bloom Street Substation (132kV, grid-supply)",
           "2,877 sq ft equivalent",
-          "subtype \"Warehouse\""
-        ]
-      },
-      "dedup": {
-        "isDuplicate": false,
-        "duplicateCount": 0,
-        "groupId": null
-      },
-      "valueAdd": {
-        "score": 0,
-        "band": "insufficient_data",
-        "reasons": [
-          "no VOA business-rates benchmark for this district (need ≥10 samples)"
-        ]
-      },
-      "schoolReadiness": {
-        "score": 0,
-        "band": "unknown",
-        "reasons": [
-          "no condition language found in listing text"
-        ]
-      }
-    },
-    {
-      "address": "50 Leestone Road, Sharston Industrial Estate, Wythenshawe, M22 4RN (Manchester)",
-      "priceDisplay": "POA",
-      "priceAmount": 1,
-      "sizeLabel": "42,370 sq. ft.",
-      "sizeSqft": 42370,
-      "source": "Rightmove Commercial",
-      "requirement": "Data Centre Development",
-      "score": 2,
-      "reasons": [
-        "geography \"Manchester Greater Manchester\" in Data Centre Development territory (prescoped — not scored)",
-        "size 42370 >= min 20000",
-        "keyword hit \"industrial\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/89888580#/?channel=COM_BUY",
-      "agent": "Williams Sillitoe, Cheshire",
-      "propertyType": "Warehouse",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/b34147a69/89888580/b34147a693c0dd2e0f40cae7245d7e55_max_476x317.jpeg",
-      "marketingText": "Warehouse for sale Flexible warehouse space - 42,370 sq ft. Detached unit 1 Level access loading door Steel truss frame construction Offices at ground and first floor All mains services provided Car parking to front of unit LEASEHOLD",
-      "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.9,
-        "nearestAnyName": "Ardwick Railway Goods Yard Incinerator (Newhaven EFW Plant)",
-        "nearestAnyFuel": "Waste"
-      },
-      "substation": {
-        "distanceKm": 0.3,
-        "name": "Bloom Street Substation",
-        "voltageKv": 132,
-        "tier": "grid-supply"
-      },
-      "dataCentreFit": {
-        "score": 83,
-        "band": "strong",
-        "reasons": [
-          "0.3km to Bloom Street Substation (132kV, grid-supply)",
-          "42,370 sq ft equivalent",
           "subtype \"Warehouse\""
         ]
       },
@@ -10020,66 +10082,6 @@
           "0.3km to Bloom Street Substation (132kV, grid-supply)",
           "6,824 sq ft equivalent",
           "subtype \"Distribution Warehouse\""
-        ]
-      },
-      "dedup": {
-        "isDuplicate": false,
-        "duplicateCount": 0,
-        "groupId": null
-      },
-      "valueAdd": {
-        "score": 0,
-        "band": "insufficient_data",
-        "reasons": [
-          "no VOA business-rates benchmark for this district (need ≥10 samples)"
-        ]
-      },
-      "schoolReadiness": {
-        "score": 0,
-        "band": "unknown",
-        "reasons": [
-          "no condition language found in listing text"
-        ]
-      }
-    },
-    {
-      "address": "Meadow Industrial Estate, Water Street, Manchester (Manchester)",
-      "priceDisplay": "£280,000",
-      "priceAmount": 280000,
-      "sizeLabel": "2,400–2,450 sq. ft.",
-      "sizeSqft": 2450,
-      "source": "Rightmove Commercial",
-      "requirement": "School Conversion",
-      "score": 2,
-      "reasons": [
-        "geography \"Manchester Greater Manchester\" in School Conversion territory (prescoped — not scored)",
-        "size 2450 >= min 2000",
-        "keyword hit \"freehold\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/763457499288288#/?channel=COM_BUY",
-      "agent": "Portfolio Lets Limited, Manchester",
-      "propertyType": "Light Industrial",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/e953203ec/763457499288288/e953203ec84a0d17a2bccc58288f940b_max_476x317.jpeg",
-      "marketingText": "Light industrial for sale Freehold light industrial unit in the prominent Meadow Industrail Estate, featuring a main open plan area, 2nd open plan area, storage room with roller shutter access. The premises also include toilets. Externally, there are parking spaces for four cars. Light Industrial Unit Prominently Located in Meadow Industrial Estate Approx. Ground Floor GIA of 2,450 sq. ft. (227 sq. m) Ideal for Owner Occupier Forecourt Parking Freehold Convenient Access to M60 Motorway FREEHOLD",
-      "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.9,
-        "nearestAnyName": "Ardwick Railway Goods Yard Incinerator (Newhaven EFW Plant)",
-        "nearestAnyFuel": "Waste"
-      },
-      "substation": {
-        "distanceKm": 0.3,
-        "name": "Bloom Street Substation",
-        "voltageKv": 132,
-        "tier": "grid-supply"
-      },
-      "dataCentreFit": {
-        "score": 70,
-        "band": "strong",
-        "reasons": [
-          "0.3km to Bloom Street Substation (132kV, grid-supply)",
-          "2,450 sq ft equivalent",
-          "subtype \"Light Industrial\""
         ]
       },
       "dedup": {
@@ -10283,6 +10285,66 @@
       }
     },
     {
+      "address": "New Hall Lane, Bolton (Bolton)",
+      "priceDisplay": "£195,000 Offers in Region of",
+      "priceAmount": 195000,
+      "sizeLabel": "1,000–2,000 sq. ft.",
+      "sizeSqft": 2000,
+      "source": "Rightmove Commercial",
+      "requirement": "School Conversion",
+      "score": 2,
+      "reasons": [
+        "geography \"Bolton Greater Manchester\" in School Conversion territory (prescoped — not scored)",
+        "size 2000 >= min 2000",
+        "keyword hit \"vacant\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/758269323414560#/?channel=COM_BUY",
+      "agent": "Regency Estates, Bolton",
+      "propertyType": "Mixed Use",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/37abe41b4/758269323414560/37abe41b4985535faf4ec177965856fa_max_476x317.jpeg",
+      "marketingText": "Mixed use for sale Rare opportunity to acquire a mixed use retail/residential property on a very popular parade in the centre of Bolton’s prestigious residential area. Ideal for further food offer or would suit hair and beauty. Offered with vacant possession, this gives any buyer full flexibility. Superb investment potential Ground floor shop Local parade in prestigious location Large forecourt to front Parking spaces to rear First floor flat LEASEHOLD",
+      "powerStation": {
+        "geocodePrecision": "city-centroid",
+        "nearestAnyKm": 1.7,
+        "nearestAnyName": "Salford Road",
+        "nearestAnyFuel": "Solar"
+      },
+      "substation": {
+        "distanceKm": 1.6,
+        "name": "Union Road Substation",
+        "voltageKv": 132,
+        "tier": "grid-supply"
+      },
+      "dataCentreFit": {
+        "score": 63,
+        "band": "possible",
+        "reasons": [
+          "1.6km to Union Road Substation (132kV, grid-supply)",
+          "2,000 sq ft equivalent",
+          "subtype \"Mixed Use\""
+        ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "no VOA business-rates benchmark for this district (need ≥10 samples)"
+        ]
+      },
+      "schoolReadiness": {
+        "score": 0,
+        "band": "unknown",
+        "reasons": [
+          "no condition language found in listing text"
+        ]
+      }
+    },
+    {
       "address": "225 Folds Road, Bolton, Lancashire, BL1 (Bolton)",
       "priceDisplay": "£1,950,000",
       "priceAmount": 1950000,
@@ -10403,66 +10465,6 @@
       }
     },
     {
-      "address": "The Swan & Barristers, 2-4 Churchgate, Bolton, BL1 1HJ (Bolton)",
-      "priceDisplay": "£1,200,000",
-      "priceAmount": 1200000,
-      "sizeLabel": "",
-      "sizeSqft": null,
-      "source": "Rightmove Commercial",
-      "requirement": "Residential Conversion",
-      "score": 2,
-      "reasons": [
-        "geography \"Bolton Greater Manchester\" in Residential Conversion territory (prescoped — not scored)",
-        "price 1200000 within budget 500000-2000000",
-        "keyword hit \"freehold\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/730294920018513#/?channel=COM_BUY",
-      "agent": "Christie & Co, Pubs & Restaurants",
-      "propertyType": "Pub",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/9b49a0749/730294920018513/9b49a074989848cee3b7edf142c377d7_max_476x317.jpeg",
-      "marketingText": "Pub for sale Freehold. Open plan lounge & public bars (200). Extensive undeveloped upper floors. Wet led 1000 + Brewers Barrels per annum. Grade II listed site extending to 0.26 acres. Licensed from 08:00 - 06:00am Open plan lounge & public bars (200) Extensive undeveloped upper floors Wet led 1000 + Brewers Barrels per annum Grade II listed site extending to 0.26 acres Licensed from 08:00 - 06:00am Energy Rating C Christie & Co Ref: 5652112 FREEHOLD",
-      "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
-        "nearestAnyName": "Salford Road",
-        "nearestAnyFuel": "Solar"
-      },
-      "substation": {
-        "distanceKm": 1.6,
-        "name": "Union Road Substation",
-        "voltageKv": 132,
-        "tier": "grid-supply"
-      },
-      "dataCentreFit": {
-        "score": 55,
-        "band": "possible",
-        "reasons": [
-          "1.6km to Union Road Substation (132kV, grid-supply)",
-          "size unknown",
-          "subtype \"Pub\" — no specific rule, neutral"
-        ]
-      },
-      "dedup": {
-        "isDuplicate": false,
-        "duplicateCount": 0,
-        "groupId": null
-      },
-      "valueAdd": {
-        "score": 0,
-        "band": "insufficient_data",
-        "reasons": [
-          "price or size unknown"
-        ]
-      },
-      "schoolReadiness": {
-        "score": 0,
-        "band": "unknown",
-        "reasons": [
-          "no condition language found in listing text"
-        ]
-      }
-    },
-    {
       "address": "Swan  Barristers, 2-4 Churchgate, Bolton, BL1 1HJ (Bolton)",
       "priceDisplay": "£1,200,000 Offers in Excess of",
       "priceAmount": 1200000,
@@ -10512,6 +10514,66 @@
         "band": "insufficient_data",
         "reasons": [
           "no VOA business-rates benchmark for this district (need ≥10 samples)"
+        ]
+      },
+      "schoolReadiness": {
+        "score": 0,
+        "band": "unknown",
+        "reasons": [
+          "no condition language found in listing text"
+        ]
+      }
+    },
+    {
+      "address": "The Swan & Barristers, 2-4 Churchgate, Bolton, BL1 1HJ (Bolton)",
+      "priceDisplay": "£1,200,000",
+      "priceAmount": 1200000,
+      "sizeLabel": "",
+      "sizeSqft": null,
+      "source": "Rightmove Commercial",
+      "requirement": "Residential Conversion",
+      "score": 2,
+      "reasons": [
+        "geography \"Bolton Greater Manchester\" in Residential Conversion territory (prescoped — not scored)",
+        "price 1200000 within budget 500000-2000000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://www.rightmove.co.uk/properties/730294920018513#/?channel=COM_BUY",
+      "agent": "Christie & Co, Pubs & Restaurants",
+      "propertyType": "Pub",
+      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/9b49a0749/730294920018513/9b49a074989848cee3b7edf142c377d7_max_476x317.jpeg",
+      "marketingText": "Pub for sale Freehold. Open plan lounge & public bars (200). Extensive undeveloped upper floors. Wet led 1000 + Brewers Barrels per annum. Grade II listed site extending to 0.26 acres. Licensed from 08:00 - 06:00am Open plan lounge & public bars (200) Extensive undeveloped upper floors Wet led 1000 + Brewers Barrels per annum Grade II listed site extending to 0.26 acres Licensed from 08:00 - 06:00am Energy Rating C Christie & Co Ref: 5652112 FREEHOLD",
+      "powerStation": {
+        "geocodePrecision": "city-centroid",
+        "nearestAnyKm": 1.7,
+        "nearestAnyName": "Salford Road",
+        "nearestAnyFuel": "Solar"
+      },
+      "substation": {
+        "distanceKm": 1.6,
+        "name": "Union Road Substation",
+        "voltageKv": 132,
+        "tier": "grid-supply"
+      },
+      "dataCentreFit": {
+        "score": 55,
+        "band": "possible",
+        "reasons": [
+          "1.6km to Union Road Substation (132kV, grid-supply)",
+          "size unknown",
+          "subtype \"Pub\" — no specific rule, neutral"
+        ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or size unknown"
         ]
       },
       "schoolReadiness": {
@@ -10980,66 +11042,6 @@
           "1.6km to Union Road Substation (132kV, grid-supply)",
           "25,700 sq ft equivalent",
           "subtype \"Commercial Development\""
-        ]
-      },
-      "dedup": {
-        "isDuplicate": false,
-        "duplicateCount": 0,
-        "groupId": null
-      },
-      "valueAdd": {
-        "score": 0,
-        "band": "insufficient_data",
-        "reasons": [
-          "no VOA business-rates benchmark for this district (need ≥10 samples)"
-        ]
-      },
-      "schoolReadiness": {
-        "score": 0,
-        "band": "unknown",
-        "reasons": [
-          "no condition language found in listing text"
-        ]
-      }
-    },
-    {
-      "address": "New Hall Lane, Bolton (Bolton)",
-      "priceDisplay": "£195,000 Offers in Region of",
-      "priceAmount": 195000,
-      "sizeLabel": "1,000–2,000 sq. ft.",
-      "sizeSqft": 2000,
-      "source": "Rightmove Commercial",
-      "requirement": "School Conversion",
-      "score": 2,
-      "reasons": [
-        "geography \"Bolton Greater Manchester\" in School Conversion territory (prescoped — not scored)",
-        "size 2000 >= min 2000",
-        "keyword hit \"vacant\""
-      ],
-      "url": "https://www.rightmove.co.uk/properties/758269323414560#/?channel=COM_BUY",
-      "agent": "Regency Estates, Bolton",
-      "propertyType": "Mixed Use",
-      "imageUrl": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/37abe41b4/758269323414560/37abe41b4985535faf4ec177965856fa_max_476x317.jpeg",
-      "marketingText": "Mixed use for sale Rare opportunity to acquire a mixed use retail/residential property on a very popular parade in the centre of Bolton’s prestigious residential area. Ideal for further food offer or would suit hair and beauty. Offered with vacant possession, this gives any buyer full flexibility. Superb investment potential Ground floor shop Local parade in prestigious location Large forecourt to front Parking spaces to rear First floor flat LEASEHOLD",
-      "powerStation": {
-        "geocodePrecision": "city-centroid",
-        "nearestAnyKm": 1.7,
-        "nearestAnyName": "Salford Road",
-        "nearestAnyFuel": "Solar"
-      },
-      "substation": {
-        "distanceKm": 1.6,
-        "name": "Union Road Substation",
-        "voltageKv": 132,
-        "tier": "grid-supply"
-      },
-      "dataCentreFit": {
-        "score": 63,
-        "band": "possible",
-        "reasons": [
-          "1.6km to Union Road Substation (132kV, grid-supply)",
-          "2,000 sq ft equivalent",
-          "subtype \"Mixed Use\""
         ]
       },
       "dedup": {
