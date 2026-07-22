@@ -1,6 +1,6 @@
 {
   "source": "Barnsdales",
-  "generatedAt": "2026-07-21T16:30:21.954Z",
+  "generatedAt": "2026-07-22T21:45:27.254Z",
   "rows": [
     {
       "address": "Castleford, WF10 5HX",
@@ -18,11 +18,18 @@
       "url": "https://www.barnsdales.co.uk/properties/319160",
       "propertyType": "Land · Mixed Use",
       "imageUrl": "https://s3.eu-west-2.amazonaws.com/altcms/barnsdales/media/44285/conversions/2f911a63864edf77042c7b435bcf92be-letting319160.jpeg-show.jpg",
+      "marketingText": null,
       "powerStation": {
         "geocodePrecision": "postcode",
         "nearestAnyKm": 2.4,
         "nearestAnyName": "Castleford",
         "nearestAnyFuel": "Gas"
+      },
+      "substation": {
+        "distanceKm": 4.2,
+        "name": "substation 193460868",
+        "voltageKv": 400,
+        "tier": "transmission"
       },
       "dataCentreFit": {
         "score": 84,
@@ -45,11 +52,12 @@
           "price or size unknown"
         ]
       },
-      "substation": {
-        "distanceKm": 4.2,
-        "name": "substation 193460868",
-        "voltageKv": 400,
-        "tier": "transmission"
+      "schoolReadiness": {
+        "score": 0,
+        "band": "unknown",
+        "reasons": [
+          "no marketing text available to assess condition"
+        ]
       }
     },
     {
@@ -68,11 +76,18 @@
       "url": "https://www.barnsdales.co.uk/properties/319692",
       "propertyType": "Retail Development · Retail · Pub / Bar / Club",
       "imageUrl": "https://s3.eu-west-2.amazonaws.com/altcms/barnsdales/media/44238/conversions/e4a219633115171143e6fd271133e82a-letting319692.jpeg-show.jpg",
+      "marketingText": null,
       "powerStation": {
         "geocodePrecision": "postcode",
         "nearestAnyKm": 1.6,
         "nearestAnyName": "Prosper Demulder Limited Anaerobic Digestion Plant (Waste AD)",
         "nearestAnyFuel": "Biomass"
+      },
+      "substation": {
+        "distanceKm": 0.6,
+        "name": "Doncaster Central 132/33/25kV",
+        "voltageKv": 132,
+        "tier": "grid-supply"
       },
       "dataCentreFit": {
         "score": 75,
@@ -91,17 +106,18 @@
         "reason": "same price (£575,000) and size (12,000 sq ft), overlapping address"
       },
       "valueAdd": {
-        "score": 100,
+        "score": 80,
         "band": "strong",
         "reasons": [
-          "£48/sqft vs local VOA benchmark £8.86/sqft (ratio 5.4×) — 13th percentile among scored listings (lower = cheaper)"
+          "£48/sqft vs local VOA benchmark £8.86/sqft (ratio 5.4×) — 25th percentile among scored listings (lower = cheaper)"
         ]
       },
-      "substation": {
-        "distanceKm": 0.6,
-        "name": "Doncaster Central 132/33/25kV",
-        "voltageKv": 132,
-        "tier": "grid-supply"
+      "schoolReadiness": {
+        "score": 0,
+        "band": "unknown",
+        "reasons": [
+          "no marketing text available to assess condition"
+        ]
       }
     }
   ]

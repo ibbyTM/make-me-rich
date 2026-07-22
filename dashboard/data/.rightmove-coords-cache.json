@@ -622,5 +622,35 @@
   "https://www.rightmove.co.uk/properties/763058824350608#/?channel=COM_BUY": {
     "lat": 53.585835,
     "lon": -2.418433
-  }
+  },
+  "https://www.rightmove.co.uk/properties/742243428792497#/?channel=COM_BUY": {
+    "lat": 53.81813,
+    "lon": -1.549239
+  },
+  "https://www.rightmove.co.uk/properties/753319440769232#/?channel=COM_BUY": {
+    "lat": 53.811977,
+    "lon": -1.671461
+  },
+  "https://www.rightmove.co.uk/properties/89364471#/?channel=COM_BUY": null,
+  "https://www.rightmove.co.uk/properties/742077927848224#/?channel=COM_BUY": {
+    "lat": 53.658874,
+    "lon": -1.786712
+  },
+  "https://www.rightmove.co.uk/properties/760556127239345#/?channel=COM_BUY": {
+    "lat": 53.654954,
+    "lon": -1.84524
+  },
+  "https://www.rightmove.co.uk/properties/762163510247120#/?channel=COM_BUY": {
+    "lat": 53.512042,
+    "lon": -1.131942
+  },
+  "https://www.rightmove.co.uk/properties/763840569263440#/?channel=COM_BUY": {
+    "lat": 53.443218,
+    "lon": -2.197692
+  },
+  "https://www.rightmove.co.uk/properties/89888580#/?channel=COM_BUY": null,
+  "https://www.rightmove.co.uk/properties/90807921#/?channel=COM_BUY": null,
+  "https://www.rightmove.co.uk/properties/91090023#/?channel=COM_BUY": null,
+  "https://www.rightmove.co.uk/properties/91203564#/?channel=COM_BUY": null,
+  "https://www.rightmove.co.uk/properties/91088457#/?channel=COM_BUY": null
 }

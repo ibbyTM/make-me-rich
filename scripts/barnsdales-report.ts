@@ -159,6 +159,12 @@ async function main() {
           url: l.url,
           propertyType: l.categories.join(' · '),
           imageUrl: l.imageUrl,
+          // BarnsdalesListing carries no marketing-text field (confirmed in
+          // src/scrapers/barnsdales.ts — categories/status only, no summary
+          // prose) — null here, not fabricated, so the school-readiness
+          // scorer correctly reports "no text available" rather than a
+          // silently-wrong score.
+          marketingText: null,
         })),
       },
       null,

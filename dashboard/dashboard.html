@@ -206,6 +206,9 @@
   .tag.va-strong { background: var(--good-bg); border-color: var(--good); color: var(--good); }
   .tag.va-possible { background: var(--flag-bg); border-color: var(--flag-line); color: var(--flag); }
   .tag.va-unlikely { color: var(--ink-faint); }
+  .tag.ready-ready { background: var(--good-bg); border-color: var(--good); color: var(--good); }
+  .tag.ready-some_work { background: var(--flag-bg); border-color: var(--flag-line); color: var(--flag); }
+  .tag.ready-major_work { background: var(--bad-bg); border-color: var(--bad-line); color: var(--bad); }
   .card-power { font-family: var(--font-mono); font-size: 11.5px; color: var(--ink-soft); }
   .card-power .approx::after { content: " (approx., city-level)"; color: var(--ink-faint); }
   .card-why { color: var(--ink-faint); font-size: 12px; line-height: 1.45; margin-top: auto; padding-top: 4px; border-top: 1px solid var(--paper-line); }
@@ -274,6 +277,7 @@
   <div class="field"><label for="fReq">Requirement</label><select id="fReq"><option value="">All</option></select></div>
   <div class="field"><label for="fFit">Data Centre Fit</label><select id="fFit"><option value="">All</option><option value="strong">Strong</option><option value="possible">Possible</option><option value="unlikely">Unlikely</option></select></div>
   <div class="field"><label for="fValueAdd">Value-Add Score</label><select id="fValueAdd"><option value="">All</option><option value="strong">Strong</option><option value="possible">Possible</option><option value="unlikely">Unlikely</option></select></div>
+  <div class="field"><label for="fReady">School Readiness</label><select id="fReady"><option value="">All</option><option value="ready">Ready</option><option value="some_work">Some work</option><option value="major_work">Major work</option><option value="unknown">Unknown</option></select></div>
   <div class="field"><label for="fShowDupes">&nbsp;</label>
     <label style="display:flex;align-items:center;gap:6px;font-size:13px;font-weight:400;text-transform:none;letter-spacing:normal;white-space:nowrap">
       <input type="checkbox" id="fShowDupes"> Show duplicates
@@ -380,6 +384,7 @@
 
     const fitFilter = $('fFit').value;
     const valueAddFilter = $('fValueAdd').value;
+    const readyFilter = $('fReady').value;
     const showDupes = $('fShowDupes').checked;
 
     let rows = all.filter(r => {
@@ -389,6 +394,7 @@
       if (typeFilter && !typeList(r).includes(typeFilter)) return false;
       if (fitFilter && (r.dataCentreFit || {}).band !== fitFilter) return false;
       if (valueAddFilter && (r.valueAdd || {}).band !== valueAddFilter) return false;
+      if (readyFilter && (r.schoolReadiness || {}).band !== readyFilter) return false;
       if ((pMin > 0 || pMax < Infinity) && !((r.priceAmount || 0) >= pMin && (r.priceAmount || 0) <= pMax && r.priceAmount > 0)) return false;
       if ((sMin > 0 || sMax < Infinity) && !(r.sizeSqft != null && r.sizeSqft >= sMin && r.sizeSqft <= sMax)) return false;
       if (q) {
@@ -432,8 +438,10 @@
             (sub.voltageKv ? ' (' + sub.voltageKv + 'kV)' : '') +
           '</span></div>'
         : '';
+      const ready = r.schoolReadiness || {};
       const fitTag = fit.band ? '<span class="tag fit-' + esc(fit.band) + '" title="' + esc((fit.reasons || []).join('; ')) + '">DC fit: ' + esc(fit.band) + ' (' + esc(fit.score) + ')</span>' : '';
       const valueAddTag = va.band && va.band !== 'insufficient_data' ? '<span class="tag va-' + esc(va.band) + '" title="' + esc((va.reasons || []).join('; ')) + '">Value-Add: ' + esc(va.band) + ' (' + esc(va.score) + ')</span>' : '';
+      const readyTag = ready.band && ready.band !== 'unknown' ? '<span class="tag ready-' + esc(ready.band) + '" title="' + esc((ready.reasons || []).join('; ')) + '">School readiness: ' + esc(ready.band.replace('_',' ')) + '</span>' : '';
       const dedup = r.dedup || {};
       const dupeTag = (!dedup.isDuplicate && dedup.duplicateCount > 0)
         ? '<span class="tag" title="' + esc(dedup.reason || '') + '">+' + dedup.duplicateCount + ' other listing' + (dedup.duplicateCount > 1 ? 's' : '') + '</span>'
@@ -450,6 +458,7 @@
             '<span class="tag ' + reqClass + '">' + esc(r.requirement) + '</span>' +
             fitTag +
             valueAddTag +
+            readyTag +
             dupeTag +
           '</div>' +
           '<div class="card-why">' + esc((r.reasons || []).join('; ')) + '</div>' +
@@ -646,9 +655,22 @@
   });
 
   // ---- filters -------------------------------------------------------------
-  for (const id of ['fSource', 'fReq', 'fType', 'fFit', 'fValueAdd', 'fShowDupes', 'sortField']) $(id).addEventListener('change', render);
+  for (const id of ['fSource', 'fType', 'fFit', 'fValueAdd', 'fReady', 'fShowDupes', 'sortField']) $(id).addEventListener('change', render);
   for (const id of ['fPriceMin', 'fPriceMax', 'fSizeMin', 'fSizeMax', 'fText']) $(id).addEventListener('input', render);
   $('sortBtn').addEventListener('click', () => { sortDir = sortDir === 1 ? -1 : 1; render(); });
+
+  // Filtering to "Residential Conversion" defaults the sort to Value-Add
+  // Score (highest first) — that's the primary ranking signal for this
+  // strategy (per user direction 2026-07-22), not price. Only applied the
+  // moment the filter changes TO that requirement, so a user who then picks
+  // a different sort manually isn't fought on every re-render.
+  $('fReq').addEventListener('change', () => {
+    if ($('fReq').value === 'Residential Conversion') {
+      $('sortField').value = 'valueAddScore';
+      sortDir = -1;
+    }
+    render();
+  });
 
   // ---- init ------------------------------------------------------------
   (async () => {

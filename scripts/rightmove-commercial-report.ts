@@ -229,6 +229,7 @@ async function main() {
           agent: l.agent,
           propertyType: l.subType,
           imageUrl: l.imageUrl,
+          marketingText: l.text || null,
         })),
       },
       null,

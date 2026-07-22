@@ -155,6 +155,7 @@ async function main() {
         url: l.url,
         propertyType: l.propertyType,
         imageUrl: l.imageUrl,
+        marketingText: l.text || null,
       });
     }
   }

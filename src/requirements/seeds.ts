@@ -15,24 +15,39 @@ export const CITYWIDE: Requirement = {
   keywords: ['vacant', 'c2r', 'commercial to residential'],
 };
 
+/**
+ * Renamed/retargeted 2026-07-22: the strategy is specifically converting a
+ * property into a SCHOOL, ready with little work — not "any change of use"
+ * for a former religious building. Keywords keep the former-church/chapel
+ * angle (a common, spacious, community-oriented source of school-conversion
+ * stock in the UK) but add direct school/education wording so a listing
+ * already labelled that way matches too. "Little work needed" isn't
+ * something Stage-0's keyword gate can assess — that's
+ * src/scoring/schoolReadiness.ts, a separate signal scored from the
+ * listing's own marketing text after Stage-0, same pattern as Data Centre
+ * Fit / Value-Add.
+ */
 export const EDUCATING: Requirement = {
   id: 'educating',
-  name: 'Church & Chapel Conversion',
+  name: 'School Conversion',
   active: true,
   geographies: ['manchester', 'bolton', 'sheffield', 'bradford', 'huddersfield'],
   minSize: 2000,
   keywords: [
+    'school',
+    'former school',
+    'academy',
+    'college',
+    'educational',
     'former place of worship',
     'church',
     'chapel',
-    'religious',
-    'office',
     'former church',
   ],
 };
 
 /**
- * Added 2026-07-19: unlike Citywide/Educating (residential and church
+ * Added 2026-07-19: unlike Citywide/Educating (residential and school
  * conversion respectively), this exists so Stage-0 also scores the full raw
  * pull for large industrial/warehouse/land stock suited to data-centre
  * siting — without it, a listing too big or wrongly-worded for the other two

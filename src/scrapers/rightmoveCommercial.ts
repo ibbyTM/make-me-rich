@@ -51,7 +51,8 @@ interface RawProperty {
   propertySubType?: string;
   propertyTypeFullDescription?: string;
   summary?: string;
-  keyFeatures?: string[];
+  /** Confirmed live 2026-07-22: each entry is `{order, description, htmlDescription}`, not a plain string — a bare `.join()` over this array silently produces "[object Object]" (caught after it had already been written into dashboard rows once). */
+  keyFeatures?: (string | { description?: string })[];
   /** String on some listings, `{ tenureType: ... }` object on others. */
   tenure?: string | { tenureType?: string | null } | null;
   customer?: { branchDisplayName?: string; brandTradingName?: string };
@@ -157,6 +158,7 @@ export function normalizeProperties(
         typeof p.tenure === 'string'
           ? p.tenure.trim()
           : (p.tenure?.tenureType ?? '').toString().trim();
+      const keyFeatureText = (p.keyFeatures ?? []).map((kf) => (typeof kf === 'string' ? kf : (kf?.description ?? ''))).filter(Boolean);
       return {
         id: String(p.id),
         address: (p.displayAddress ?? '').trim(),
@@ -169,7 +171,7 @@ export function normalizeProperties(
         subType: (p.propertySubType ?? p.propertyTypeFullDescription ?? '').trim(),
         agent: (p.customer?.branchDisplayName ?? p.customer?.brandTradingName ?? 'Unknown agent').trim(),
         tenure,
-        text: [p.propertyTypeFullDescription, p.summary, ...(p.keyFeatures ?? []), tenure]
+        text: [p.propertyTypeFullDescription, p.summary, ...keyFeatureText, tenure]
           .filter(Boolean)
           .join(' '),
         status: (p.displayStatus ?? '').trim(),
