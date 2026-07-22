@@ -65,12 +65,29 @@ export function stageZeroFilter(
     matchedRequirementId: null,
     reasons: ['no active requirements matched'],
   };
+  // Not part of the public result — only used to break ties below. See
+  // scoreAgainst's doc comment for why this exists.
+  let bestHasSpecificKeyword = false;
 
   for (const req of active) {
     const scored = scoreAgainst(listing, req, opts.geoPrescoped === true);
     if (scored === null) continue; // geo-prescoped and this requirement's territory doesn't match
-    const { score, reasons } = scored;
-    if (score > best.score) {
+    const { score, reasons, hasSpecificKeyword } = scored;
+    // A strictly higher score always wins. On a TIE, prefer whichever
+    // requirement matched on its OWN keyword list over one that only
+    // matched a GLOBAL keyword (freehold/vacant/planning/etc — present in
+    // most commercial listings regardless of use, so it doesn't actually
+    // discriminate between requirements the way a requirement-specific hit
+    // does). Without this, a tie silently went to whichever requirement
+    // happened to be evaluated first — determined by the Requirements
+    // Register's row order, which has nothing to do with relevance (caught
+    // 2026-07-22: "Fulneck School" — marketing text literally says "former
+    // school estate... former educational accommodation" — tied 2-2 between
+    // School Conversion and Data Centre Development, and lost purely
+    // because Data Centre Development's only keyword point came from
+    // "freehold" and happened to be the more recently created requirement).
+    const better = score > best.score || (score === best.score && hasSpecificKeyword && !bestHasSpecificKeyword);
+    if (better) {
       best = {
         pass: score >= opts.minimumBar,
         score,
@@ -78,6 +95,7 @@ export function stageZeroFilter(
         matchedRequirementId: req.id,
         reasons,
       };
+      bestHasSpecificKeyword = hasSpecificKeyword;
     }
   }
 
@@ -88,7 +106,7 @@ function scoreAgainst(
   listing: Listing,
   req: Requirement,
   geoPrescoped: boolean,
-): { score: number; reasons: string[] } | null {
+): { score: number; reasons: string[]; hasSpecificKeyword: boolean } | null {
   let score = 0;
   const reasons: string[] = [];
 
@@ -123,14 +141,25 @@ function scoreAgainst(
     }
   }
 
-  // keyword hit
-  const keywords = [...GLOBAL_KEYWORDS, ...(req.keywords ?? [])];
+  // keyword hit — checked separately from GLOBAL_KEYWORDS (not just
+  // `[...GLOBAL_KEYWORDS, ...req.keywords].find(...)`) so a requirement-
+  // specific match is never masked by an earlier, less meaningful global
+  // one: GLOBAL_KEYWORDS lists "freehold" first, and most commercial
+  // listings say "freehold" somewhere, so a naive combined-array .find()
+  // would report that as "the" hit even when the listing also matches a
+  // far more specific requirement keyword later in the text. Preferring
+  // the specific hit also makes `hasSpecificKeyword` meaningful for
+  // stageZeroFilter's tie-break, and makes the reasons text itself more
+  // informative (e.g. "school" instead of "freehold" on a listing that
+  // has both).
   const haystack = (listing.text ?? '').toLowerCase();
-  const hit = keywords.find((k) => haystack.includes(k.toLowerCase()));
+  const specificHit = (req.keywords ?? []).find((k) => haystack.includes(k.toLowerCase()));
+  const globalHit = GLOBAL_KEYWORDS.find((k) => haystack.includes(k.toLowerCase()));
+  const hit = specificHit ?? globalHit;
   if (hit) {
     score += 1;
     reasons.push(`keyword hit "${hit}"`);
   }
 
-  return { score, reasons };
+  return { score, reasons, hasSpecificKeyword: specificHit !== undefined };
 }

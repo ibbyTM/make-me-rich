@@ -1,7 +1,67 @@
 {
   "source": "Barnsdales",
-  "generatedAt": "2026-07-22T22:03:55.667Z",
+  "generatedAt": "2026-07-22T22:22:30.699Z",
   "rows": [
+    {
+      "address": "Doncaster, DN1 3EA",
+      "priceDisplay": "Offers in the region of £425,000 8% Gross Initial Yield",
+      "priceAmount": 425000,
+      "sizeLabel": "2776 sqft",
+      "sizeSqft": 2776,
+      "source": "Barnsdales",
+      "requirement": "School Conversion",
+      "score": 2,
+      "reasons": [
+        "geography \"Doncaster Yorkshire\" matches School Conversion",
+        "size 2776 >= min 2000"
+      ],
+      "url": "https://www.barnsdales.co.uk/properties/351680",
+      "propertyType": "Investment - Mixed use",
+      "imageUrl": "https://s3.eu-west-2.amazonaws.com/altcms/barnsdales/media/45033/conversions/c6c8fa08d000ae2d0e248260640bb863-20260216-145641-show.jpg",
+      "marketingText": null,
+      "powerStation": {
+        "geocodePrecision": "postcode",
+        "nearestAnyKm": 1.7,
+        "nearestAnyName": "Prosper Demulder Limited Anaerobic Digestion Plant (Waste AD)",
+        "nearestAnyFuel": "Biomass"
+      },
+      "substation": {
+        "distanceKm": 0.6,
+        "name": "Doncaster Central 132/33/25kV",
+        "voltageKv": 132,
+        "tier": "grid-supply"
+      },
+      "dataCentreFit": {
+        "score": 63,
+        "band": "possible",
+        "reasons": [
+          "0.6km to Doncaster Central 132/33/25kV (132kV, grid-supply)",
+          "2,776 sq ft equivalent",
+          "subtype \"Investment - Mixed use\""
+        ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "canonicalUrl": "https://www.barnsdales.co.uk/properties/351680",
+        "duplicateCount": 1,
+        "groupId": "425000:2776#0",
+        "reason": "same price (£425,000) and size (2,776 sq ft), overlapping address"
+      },
+      "valueAdd": {
+        "score": 60,
+        "band": "possible",
+        "reasons": [
+          "£153/sqft vs local VOA benchmark £8.86/sqft (ratio 17.3×) — 50th percentile among scored listings (lower = cheaper)"
+        ]
+      },
+      "schoolReadiness": {
+        "score": 0,
+        "band": "unknown",
+        "reasons": [
+          "no marketing text available to assess condition"
+        ]
+      }
+    },
     {
       "address": "Castleford, WF10 5HX",
       "priceDisplay": "£600,000",
@@ -67,11 +127,11 @@
       "sizeLabel": "12000 sqft",
       "sizeSqft": 12000,
       "source": "Barnsdales",
-      "requirement": "Residential Conversion",
+      "requirement": "School Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Doncaster Yorkshire\" matches Residential Conversion",
-        "price 575000 within budget 500000-2000000"
+        "geography \"Doncaster Yorkshire\" matches School Conversion",
+        "size 12000 >= min 2000"
       ],
       "url": "https://www.barnsdales.co.uk/properties/319692",
       "propertyType": "Retail Development · Retail · Pub / Bar / Club",
@@ -106,10 +166,10 @@
         "reason": "same price (£575,000) and size (12,000 sq ft), overlapping address"
       },
       "valueAdd": {
-        "score": 100,
+        "score": 80,
         "band": "strong",
         "reasons": [
-          "£48/sqft vs local VOA benchmark £8.86/sqft (ratio 5.4×) — 18th percentile among scored listings (lower = cheaper)"
+          "£48/sqft vs local VOA benchmark £8.86/sqft (ratio 5.4×) — 33th percentile among scored listings (lower = cheaper)"
         ]
       },
       "schoolReadiness": {

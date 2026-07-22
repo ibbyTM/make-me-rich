@@ -47,12 +47,28 @@ export const CITYWIDE: Requirement = {
  * Same caveat as School Readiness: these are still just better keyword
  * matching on text agents may or may not have written — real, free, and
  * an improvement, not a claim of certainty.
+ *
+ * Geography fixed 2026-07-22, same day: the original city-level list
+ * (manchester/bolton/sheffield/bradford/huddersfield) silently EXCLUDED
+ * Leeds and Doncaster — 2 of the 7 cities Rightmove Commercial actually
+ * scrapes (see CITYWIDE_CITIES in src/scrapers/rightmoveCommercial.ts) —
+ * even though this requirement is geo-prescoped: a geography mismatch
+ * disqualifies a requirement entirely before its keywords are even checked
+ * (src/filter/stageZero.ts). Caught via a real listing literally named
+ * "Fulneck School" whose marketing text said "former school estate...
+ * Substantial former educational accommodation" — a textbook School
+ * Conversion match — but it's in Leeds, so it was hard-excluded and fell
+ * through to Data Centre Development instead purely on a stale geography
+ * list, nothing to do with keyword relevance. Switched to the same
+ * region-level matching Residential Conversion and Data Centre Development
+ * already use, so a future new scraped city doesn't silently create this
+ * gap again.
  */
 export const EDUCATING: Requirement = {
   id: 'educating',
   name: 'School Conversion',
   active: true,
-  geographies: ['manchester', 'bolton', 'sheffield', 'bradford', 'huddersfield'],
+  geographies: ['yorkshire', 'greater manchester'],
   minSize: 2000,
   keywords: [
     'school',

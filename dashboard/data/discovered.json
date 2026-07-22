@@ -1,540 +1,7 @@
 {
   "source": "Discovered agents",
-  "generatedAt": "2026-07-22T22:05:56.927Z",
+  "generatedAt": "2026-07-22T22:22:53.327Z",
   "rows": [
-    {
-      "address": "31 Manchester Road, Sheffield, S36 2QX",
-      "priceDisplay": "£235,000",
-      "priceAmount": 235000,
-      "sizeLabel": "3863 sqft",
-      "sizeSqft": 3863,
-      "source": "SMC Brownill Vickers",
-      "requirement": "School Conversion",
-      "score": 2,
-      "reasons": [
-        "geography \"Sheffield Yorkshire\" in School Conversion territory (prescoped — not scored)",
-        "size 3863 >= min 2000",
-        "keyword hit \"freehold\""
-      ],
-      "url": "https://smcbrownillvickers.com/properties/298873-31-manchester-road-sheffield/",
-      "propertyType": "Leisure",
-      "imageUrl": "https://smcbrownillvickers.com/wp-content/uploads/2026/01/6b81fc5b40252b0f5e1cf2a36760cd86-4-300x225.jpg",
-      "marketingText": "31 Manchester Road, Deepcar, Sheffield Substantial Freehold Property Potential for Redevelopment Prominent Roadside Location Stone-built pub with bar, lounge, dining area, function room, private accommodation, and redevelopment potential in central Deepcar.",
-      "powerStation": {
-        "geocodePrecision": "postcode",
-        "nearestAnyKm": 8.5,
-        "nearestAnyName": "Loicher Lane",
-        "nearestAnyFuel": "Biomass"
-      },
-      "substation": {
-        "distanceKm": 2.5,
-        "name": "Stocksbridge",
-        "voltageKv": 400,
-        "tier": "transmission"
-      },
-      "dataCentreFit": {
-        "score": 61,
-        "band": "possible",
-        "reasons": [
-          "2.5km to Stocksbridge (400kV, transmission)",
-          "3,863 sq ft equivalent",
-          "subtype \"Leisure\" — no specific rule, neutral"
-        ]
-      },
-      "dedup": {
-        "isDuplicate": false,
-        "duplicateCount": 0,
-        "groupId": null
-      },
-      "valueAdd": {
-        "score": 80,
-        "band": "strong",
-        "reasons": [
-          "£61/sqft vs local VOA benchmark £8.28/sqft (ratio 7.3×) — 27th percentile among scored listings (lower = cheaper)"
-        ]
-      },
-      "schoolReadiness": {
-        "score": 0,
-        "band": "unknown",
-        "reasons": [
-          "no condition language found in listing text"
-        ]
-      }
-    },
-    {
-      "address": "Carr Road, Deepcar, S36 2NR",
-      "priceDisplay": "£950,000",
-      "priceAmount": 950000,
-      "sizeLabel": "8918 sqft",
-      "sizeSqft": 8918,
-      "source": "SMC Brownill Vickers",
-      "requirement": "Residential Conversion",
-      "score": 2,
-      "reasons": [
-        "geography \"Deepcar Yorkshire\" in Residential Conversion territory (prescoped — not scored)",
-        "price 950000 within budget 500000-2000000",
-        "keyword hit \"freehold\""
-      ],
-      "url": "https://smcbrownillvickers.com/properties/207416-carr-road-deepcar/",
-      "propertyType": "Development, Industrial",
-      "imageUrl": "https://smcbrownillvickers.com/wp-content/uploads/2024/09/2ee45bec05b4557f3d33e0871e850311-dji-0803-edit-red-line-300x225.jpg",
-      "marketingText": "Carr Road, Deepcar Freehold site (4.11 acres) consisting of workshops and storage land / yard space Let to tenants on contracted out leases & producing a gross income of £81,500 pa Potential for residential development (STP) Located in Deepcar village, close to Stocksbridge & 7 miles north Sheffield city centre Located within an area undergoing significant regeneration Opportunity for accessible onsite Biodiversity Net Gain (BNG) initiatives Income producing Industrial site with Residential Development Potential located in the Deepcar area of South Yorkshire",
-      "powerStation": {
-        "geocodePrecision": "postcode",
-        "nearestAnyKm": 8.8,
-        "nearestAnyName": "Royd Moor",
-        "nearestAnyFuel": "Wind"
-      },
-      "substation": {
-        "distanceKm": 2.1,
-        "name": "Stocksbridge",
-        "voltageKv": 400,
-        "tier": "transmission"
-      },
-      "dataCentreFit": {
-        "score": 76,
-        "band": "strong",
-        "reasons": [
-          "2.1km to Stocksbridge (400kV, transmission)",
-          "8,918 sq ft equivalent",
-          "subtype \"Development, Industrial\""
-        ]
-      },
-      "dedup": {
-        "isDuplicate": false,
-        "duplicateCount": 0,
-        "groupId": null
-      },
-      "valueAdd": {
-        "score": 35,
-        "band": "possible",
-        "reasons": [
-          "£107/sqft vs local VOA benchmark £8.28/sqft (ratio 12.9×) — 64th percentile among scored listings (lower = cheaper)"
-        ]
-      },
-      "schoolReadiness": {
-        "score": 0,
-        "band": "unknown",
-        "reasons": [
-          "no condition language found in listing text"
-        ]
-      }
-    },
-    {
-      "address": "21 Station Road, Sheffield, S26 6QP",
-      "priceDisplay": "£299,950",
-      "priceAmount": 299950,
-      "sizeLabel": "2783 sqft",
-      "sizeSqft": 2783,
-      "source": "SMC Brownill Vickers",
-      "requirement": "School Conversion",
-      "score": 2,
-      "reasons": [
-        "geography \"Sheffield Yorkshire\" in School Conversion territory (prescoped — not scored)",
-        "size 2783 >= min 2000",
-        "keyword hit \"freehold\""
-      ],
-      "url": "https://smcbrownillvickers.com/properties/189781-21-station-road-sheffield/",
-      "propertyType": "Development, Office, Retail",
-      "imageUrl": "https://smcbrownillvickers.com/wp-content/uploads/2023/12/be526381eedd44304f7ae7cbc33d6d7e-img-0756-300x225.jpg",
-      "marketingText": "21 Station Road, Kiveton Park, Sheffield Substantial freehold premises comprising retail with ancillary accommodation and separate flat Located in Kiveton Park, South Yorkshire - close to Kiveton Bridge train station, Kiveton Park Infant School Most recently used for specialist retail use although may be suitable for a variety of uses (STP) High quality fit out over ground, 1st and basement levels Potential to split or reconfigure depending on buyer requirements Suitable for owner occupation in full or part, reconfiguration or investment Substantial freehold retail premises with separate residential accommodation potential for owner occupation, reconfiguration or investment",
-      "powerStation": {
-        "geocodePrecision": "postcode",
-        "nearestAnyKm": 3.5,
-        "nearestAnyName": "Loscar",
-        "nearestAnyFuel": "Wind"
-      },
-      "substation": {
-        "distanceKm": 7,
-        "name": "Thurcroft Substation",
-        "voltageKv": 275,
-        "tier": "transmission"
-      },
-      "dataCentreFit": {
-        "score": 56,
-        "band": "possible",
-        "reasons": [
-          "7.0km to Thurcroft Substation (275kV, transmission)",
-          "2,783 sq ft equivalent",
-          "subtype \"Development, Office, Retail\""
-        ]
-      },
-      "dedup": {
-        "isDuplicate": false,
-        "canonicalUrl": "https://smcbrownillvickers.com/properties/189781-21-station-road-sheffield/",
-        "duplicateCount": 1,
-        "groupId": "299950:2783#0",
-        "reason": "same price (£299,950) and size (2,783 sq ft), overlapping address"
-      },
-      "valueAdd": {
-        "score": 15,
-        "band": "unlikely",
-        "reasons": [
-          "£108/sqft vs local VOA benchmark £6.70/sqft (ratio 16.1×) — 73th percentile among scored listings (lower = cheaper)"
-        ]
-      },
-      "schoolReadiness": {
-        "score": 0,
-        "band": "unknown",
-        "reasons": [
-          "no condition language found in listing text"
-        ]
-      }
-    },
-    {
-      "address": "Unit 5, Dutton Road, Coventry, CV2 2LE",
-      "priceDisplay": "£6,500,000",
-      "priceAmount": 6500000,
-      "sizeLabel": "87876 sqft",
-      "sizeSqft": 87876,
-      "source": "Bromwich Hardy",
-      "requirement": "Data Centre Development",
-      "score": 2,
-      "reasons": [
-        "geography \"Coventry West Midlands\" in Data Centre Development territory (prescoped — not scored)",
-        "size 87876 >= min 20000",
-        "keyword hit \"industrial\""
-      ],
-      "url": "https://www.bromwichhardy.com/property/unit-5-dutton-road-coventry-west-midlands-cv2-2le/",
-      "propertyType": "Industrial / Warehouse",
-      "imageUrl": "https://www.bromwichhardy.com/wp-content/uploads/2025/08/0791ed9b08fd82529a78a48dd864d30d-dji-0447edit-300x200.jpg",
-      "marketingText": ", Unit 5, Dutton Road, Coventry, West Midlands, CV2 2LE Eaves height 7.3 m 4 Dock Level Loading Doors Large site area of 2.06 hectares Prime Midlands industrial location 44 delineated car parking spaces 8.62 m clear internal heights 6 ground level roller shutter loading doors 2 storey office accommodation Secure flood lit yard with entrance barrier Direct access to the M6 and M69 The subject property comprises a detached twin bay steel portal frame industrial unit constructed in 1990. The elevations are a combination of brick and block work to circa 3m with steel profile clad sheeting above under a profiled sheet roof with circa 10% translucent roof lights. Internally the property benefits from a concrete screed floor, a mix of sodium spot lights and strip lighting, gas fired heaters and an eaves height of 7.3m (24’) rising to 8.62 m (28’3”) at the apex. Office accommodation is provided at both ground and 1st floor level together with mezzanine storage to the front of the property. The offices benefit from solid floors, a mix of strip lighting and suspended ceilings with Cat II lighting and central heating. A portacabin is located beside the unit providing staff lockers and a breakout room. Loading to the units is provided by way of 4 dock leveller loading doors to the front of the property and a further 6 ground level roller shutter loading doors to the side. The latter loading doors benefit from a canopy. Externally the property benefits from a secure yard with flood lights, CCTV and palisade fencing together with a security hut and barrier at the entrance. Within the site there are a total of 44 delineated car parking spaces of which 8 are along the side of the property and the remaining 36 are located to the east of the property.",
-      "powerStation": {
-        "geocodePrecision": "postcode",
-        "nearestAnyKm": 5.8,
-        "nearestAnyName": "Coventry",
-        "nearestAnyFuel": "Waste"
-      },
-      "substation": {
-        "distanceKm": 1.3,
-        "name": "Coventry Substation",
-        "voltageKv": 275,
-        "tier": "transmission"
-      },
-      "dataCentreFit": {
-        "score": 93,
-        "band": "strong",
-        "reasons": [
-          "1.3km to Coventry Substation (275kV, transmission)",
-          "87,876 sq ft equivalent",
-          "subtype \"Industrial / Warehouse\""
-        ]
-      },
-      "dedup": {
-        "isDuplicate": false,
-        "duplicateCount": 0,
-        "groupId": null
-      },
-      "valueAdd": {
-        "score": 60,
-        "band": "possible",
-        "reasons": [
-          "£74/sqft vs local VOA benchmark £8.33/sqft (ratio 8.9×) — 36th percentile among scored listings (lower = cheaper)"
-        ]
-      },
-      "schoolReadiness": {
-        "score": 0,
-        "band": "unknown",
-        "reasons": [
-          "no condition language found in listing text"
-        ]
-      }
-    },
-    {
-      "address": "Units 1-3 Carlton Road, Coventry, CV6 7FL",
-      "priceDisplay": "POA",
-      "priceAmount": 0,
-      "sizeLabel": "74754 sqft",
-      "sizeSqft": 74754,
-      "source": "Bromwich Hardy",
-      "requirement": "Data Centre Development",
-      "score": 2,
-      "reasons": [
-        "geography \"Coventry West Midlands\" in Data Centre Development territory (prescoped — not scored)",
-        "size 74754 >= min 20000",
-        "keyword hit \"warehouse\""
-      ],
-      "url": "https://www.bromwichhardy.com/property/units-1-3-carlton-road-and-units-1a-and-1b-st-lawrence-works-coventry-west-midlands-cv6-7fl/",
-      "propertyType": "Industrial / Warehouse",
-      "imageUrl": "https://www.bromwichhardy.com/wp-content/uploads/2026/02/45c7c0186186eeacb31679d89d41498b-dji-20260128100026-0067-d-300x200.jpg",
-      "marketingText": ", Units 1-3 Carlton Road, And Units 1A And 1B St Lawrence Works, Coventry, West Midlands, CV6 7FL Extensive and established warehouse accommodation Between Coventry City Centre and Junction 3, M6 Total site area: 2.935 acres (1.188 hectares) St Lawrence Works form a terrace fronting Carlton Road, Units 1A &amp; 1B being an end section of terrace, having north lit roofing and a working height of 3.56 metres, one loading door at ground floor level and one at dock level. The remainder are an extensive series of north lit bays with loading and access yards at each end. Working height is generally 4.82m. PLEASE NOTE: The first floor offices are in poor condition and in need of full refurbishment. In the case of a lease, these offices can be refurbished by the tenant or landlord (rent/cost to be agreed), or alternatively, may be removed from the Tenant’s repairing Liability.",
-      "powerStation": {
-        "geocodePrecision": "postcode",
-        "nearestAnyKm": 4.4,
-        "nearestAnyName": "Coventry",
-        "nearestAnyFuel": "Waste"
-      },
-      "substation": {
-        "distanceKm": 2.9,
-        "name": "Coventry Substation",
-        "voltageKv": 275,
-        "tier": "transmission"
-      },
-      "dataCentreFit": {
-        "score": 84,
-        "band": "strong",
-        "reasons": [
-          "2.9km to Coventry Substation (275kV, transmission)",
-          "74,754 sq ft equivalent",
-          "subtype \"Industrial / Warehouse\""
-        ]
-      },
-      "dedup": {
-        "isDuplicate": false,
-        "duplicateCount": 0,
-        "groupId": null
-      },
-      "valueAdd": {
-        "score": 0,
-        "band": "insufficient_data",
-        "reasons": [
-          "price or size unknown"
-        ]
-      },
-      "schoolReadiness": {
-        "score": 0,
-        "band": "unknown",
-        "reasons": [
-          "no condition language found in listing text"
-        ]
-      }
-    },
-    {
-      "address": "Coventry, Coventry, CV4 9UT",
-      "priceDisplay": "£5,750,000",
-      "priceAmount": 5750000,
-      "sizeLabel": "60433 sqft",
-      "sizeSqft": 60433,
-      "source": "Bromwich Hardy",
-      "requirement": "Data Centre Development",
-      "score": 2,
-      "reasons": [
-        "geography \"Coventry West Midlands\" in Data Centre Development territory (prescoped — not scored)",
-        "size 60433 >= min 20000",
-        "keyword hit \"industrial\""
-      ],
-      "url": "https://www.bromwichhardy.com/property/west-park-trade-centre-coventry-coventry-cv4-9ut/",
-      "propertyType": "Industrial / Warehouse",
-      "imageUrl": "https://www.bromwichhardy.com/wp-content/uploads/2026/06/390f60aa9815249ee842f929e90c1e28-358-18c-12148217-1343609720-3-300x200.jpg",
-      "marketingText": "West Park Trade Centre, Coventry, Coventry, CV4 9UT 3 acre site Asset Management Opportunities Parking Provision 24/7 access Central Service Yard Secure site with gated access West Park Trade Centre extends to 60,433 sq ft GIA across 17 industrial units, 3 offices and a café. The estate comprises a mix of industrial and trade counter units, which have been developed over a number of years. The units are predominantly constructed of steel portal frame with profile metal cladding and brick elevations. The three office buildings situated at the front of the estate are constructed of brick elevations under flat roofs. The estate occupies a site of approximately 3 acres, providing low site coverage and future asset management potential.",
-      "powerStation": {
-        "geocodePrecision": "postcode",
-        "nearestAnyKm": 5.9,
-        "nearestAnyName": "Coventry",
-        "nearestAnyFuel": "Waste"
-      },
-      "substation": {
-        "distanceKm": 2.8,
-        "name": "Berkswell 275kV",
-        "voltageKv": 275,
-        "tier": "transmission"
-      },
-      "dataCentreFit": {
-        "score": 84,
-        "band": "strong",
-        "reasons": [
-          "2.8km to Berkswell 275kV (275kV, transmission)",
-          "60,433 sq ft equivalent",
-          "subtype \"Industrial / Warehouse\""
-        ]
-      },
-      "dedup": {
-        "isDuplicate": false,
-        "duplicateCount": 0,
-        "groupId": null
-      },
-      "valueAdd": {
-        "score": 60,
-        "band": "possible",
-        "reasons": [
-          "£95/sqft vs local VOA benchmark £9.47/sqft (ratio 10.0×) — 45th percentile among scored listings (lower = cheaper)"
-        ]
-      },
-      "schoolReadiness": {
-        "score": 0,
-        "band": "unknown",
-        "reasons": [
-          "no condition language found in listing text"
-        ]
-      }
-    },
-    {
-      "address": "Broad March, Daventry, NN11 4HE",
-      "priceDisplay": "£4,000,000",
-      "priceAmount": 4000000,
-      "sizeLabel": "48625 sqft",
-      "sizeSqft": 48625,
-      "source": "Bromwich Hardy",
-      "requirement": "Data Centre Development",
-      "score": 2,
-      "reasons": [
-        "geography \"Daventry East Midlands\" in Data Centre Development territory (prescoped — not scored)",
-        "size 48625 >= min 20000",
-        "keyword hit \"industrial\""
-      ],
-      "url": "https://www.bromwichhardy.com/property/the-die-pat-centre-broad-march-long-march-industrial-estate-daventry-northamptonshire-nn11-4he/",
-      "propertyType": "Industrial / Warehouse",
-      "imageUrl": "https://www.bromwichhardy.com/wp-content/uploads/2026/05/654fcd72e388c52cda33e7cc3893b3b1-dji-20260511131922-0836-d-300x200.jpg",
-      "marketingText": "The Die-Pat Centre, Broad March, Long March Industrial Estate, Daventry, Northamptonshire, NN11 4HE 6m to 7.5m Height to Eaves 3 Level Access Loading Door Two Storey Office Space Large Wrap Around Yard Partial Mezzanine Extensive Parking Canteen and Kitchen Area Superbly Located Site with Main Road Visibility Less Than 1 Mile from Daventry Town Centre 10 Minutes from J16/M1, via NEW A45 Link Road The warehouse/industrial area comprises the original build and an extended part to the rear. The buildings are principally of steel frame construction with a trussed roof, metal clad elevations and a solid concrete floor. The eaves height ranges from 6m to 7.5m. There are 3 ground level loading doors. The original building is largely full height, whereas the newer part has a large mezzanine first floor installed in the back section of the property. There are also small side extensions which provide additional laboratory, workshop and storage space. At the front, the two storey offices are brick built, with double glazed windows and flat roof. Internally there is a good sized reception area, WC’s and kitchenette facilities. The offices are finished with carpets, suspended ceilings and inset LED lighting. There is a loading to the side of the warehouses, with a large concrete yard to the rear of the site, together with an additional landscaped area, potentially suited to hard surface (STPP). Further space is also offered in the car parking area to the front of the site.",
-      "powerStation": {
-        "geocodePrecision": "postcode",
-        "nearestAnyKm": 2.3,
-        "nearestAnyName": "Daventry",
-        "nearestAnyFuel": "Biomass"
-      },
-      "substation": {
-        "distanceKm": 0.9,
-        "name": "Daventry Substation",
-        "voltageKv": 132,
-        "tier": "grid-supply"
-      },
-      "dataCentreFit": {
-        "score": 83,
-        "band": "strong",
-        "reasons": [
-          "0.9km to Daventry Substation (132kV, grid-supply)",
-          "48,625 sq ft equivalent",
-          "subtype \"Industrial / Warehouse\""
-        ]
-      },
-      "dedup": {
-        "isDuplicate": false,
-        "duplicateCount": 0,
-        "groupId": null
-      },
-      "valueAdd": {
-        "score": 35,
-        "band": "possible",
-        "reasons": [
-          "£82/sqft vs local VOA benchmark £7.57/sqft (ratio 10.9×) — 55th percentile among scored listings (lower = cheaper)"
-        ]
-      },
-      "schoolReadiness": {
-        "score": 0,
-        "band": "unknown",
-        "reasons": [
-          "no condition language found in listing text"
-        ]
-      }
-    },
-    {
-      "address": "Alcester, Alcester, B49 5JG",
-      "priceDisplay": "POA",
-      "priceAmount": 0,
-      "sizeLabel": "47064 sqft",
-      "sizeSqft": 47064,
-      "source": "Bromwich Hardy",
-      "requirement": "Data Centre Development",
-      "score": 2,
-      "reasons": [
-        "geography \"Alcester West Midlands\" in Data Centre Development territory (prescoped — not scored)",
-        "size 47064 >= min 20000",
-        "keyword hit \"distribution\""
-      ],
-      "url": "https://www.bromwichhardy.com/property/abbey-mills-alcester-alcester-warwickshire-b49-5jg/",
-      "propertyType": "Industrial / Warehouse",
-      "imageUrl": "https://www.bromwichhardy.com/wp-content/uploads/2026/06/9d469f64c9449ada15df50d002dabb6c-dji-20260429112207-0734-d-300x200.jpg",
-      "marketingText": "Abbey Mills, Alcester, Alcester, Warwickshire, B49 5JG 6.3m Height To Chiller Ceiling Large Secure Yard 15 Dock Leveller Loading Bays Extensive Parking Two Storey Office Space The building was originally constructed in 1990 as a chilled distribution unit, but most recently used as a facilty manufacturing pre-fabricated roof sections. It is of steel portal construction with an approximate minimum eaves height of 7.5m and 6.3m to the ceiling still in situ from when the unit was refrigerated. The property benefits from 15 dock levellers, and 1 level access loading door. There is a two storey office block on the front of the building and a large yard measuring approximately 2 acres and with a maximum depth of approximately 67m. In addition, there is extensive car parking to the front of the offices.",
-      "powerStation": {
-        "geocodePrecision": "postcode",
-        "nearestAnyKm": 7.1,
-        "nearestAnyName": "Morton Wood Farm",
-        "nearestAnyFuel": "Solar"
-      },
-      "substation": {
-        "distanceKm": 6.9,
-        "name": "Feckenham Substation",
-        "voltageKv": 400,
-        "tier": "transmission"
-      },
-      "dataCentreFit": {
-        "score": 69,
-        "band": "strong",
-        "reasons": [
-          "6.9km to Feckenham Substation (400kV, transmission)",
-          "47,064 sq ft equivalent",
-          "subtype \"Industrial / Warehouse\""
-        ]
-      },
-      "dedup": {
-        "isDuplicate": false,
-        "duplicateCount": 0,
-        "groupId": null
-      },
-      "valueAdd": {
-        "score": 0,
-        "band": "insufficient_data",
-        "reasons": [
-          "price or size unknown"
-        ]
-      },
-      "schoolReadiness": {
-        "score": 0,
-        "band": "unknown",
-        "reasons": [
-          "no condition language found in listing text"
-        ]
-      }
-    },
-    {
-      "address": "Walsingham Drive, Nuneaton, CV10 7RW",
-      "priceDisplay": "POA",
-      "priceAmount": 0,
-      "sizeLabel": "36872 sqft",
-      "sizeSqft": 36872,
-      "source": "Bromwich Hardy",
-      "requirement": "Data Centre Development",
-      "score": 2,
-      "reasons": [
-        "geography \"Nuneaton West Midlands\" in Data Centre Development territory (prescoped — not scored)",
-        "size 36872 >= min 20000",
-        "keyword hit \"power\""
-      ],
-      "url": "https://www.bromwichhardy.com/property/nuneaton-37-walsingham-drive-bermuda-park-nuneaton-warwickshire-cv10-7rw/",
-      "propertyType": "Industrial / Warehouse",
-      "imageUrl": "https://www.bromwichhardy.com/wp-content/uploads/2025/11/50fb4473a691e05357ef702c8f668f1c-20260128parkway01-300x169.jpg",
-      "marketingText": "Nuneaton 37, Walsingham Drive, Bermuda Park, Nuneaton, Warwickshire, CV10 7RW Yard depth: 31.5m 3 loading doors 10m eaves height 300 kVA PV ready BREEAM Excellent EV charging The property features a 31.5m secure yard with three loading doors and 10m eaves height, offering robust 50 kN/m² floor loading and 300 kVA power. It provides 37 car parking spaces with EV charging, is PV-ready, and is designed to achieve EPC A and BREEAM Excellent standards. Practical completion is scheduled for December 2025.",
-      "powerStation": {
-        "geocodePrecision": "postcode",
-        "nearestAnyKm": 3,
-        "nearestAnyName": "Judkins Landfill Scheme",
-        "nearestAnyFuel": "Waste"
-      },
-      "substation": {
-        "distanceKm": 0.8,
-        "name": "Nuneaton Substation",
-        "voltageKv": 132,
-        "tier": "grid-supply"
-      },
-      "dataCentreFit": {
-        "score": 83,
-        "band": "strong",
-        "reasons": [
-          "0.8km to Nuneaton Substation (132kV, grid-supply)",
-          "36,872 sq ft equivalent",
-          "subtype \"Industrial / Warehouse\""
-        ]
-      },
-      "dedup": {
-        "isDuplicate": false,
-        "duplicateCount": 0,
-        "groupId": null
-      },
-      "valueAdd": {
-        "score": 0,
-        "band": "insufficient_data",
-        "reasons": [
-          "price or size unknown"
-        ]
-      },
-      "schoolReadiness": {
-        "score": 0,
-        "band": "unknown",
-        "reasons": [
-          "no condition language found in listing text"
-        ]
-      }
-    },
     {
       "address": "Logistics Park, Darlington, DL1 1RW",
       "priceDisplay": "POA",
@@ -547,7 +14,7 @@
       "reasons": [
         "geography \"Darlington North East\" in Data Centre Development territory (prescoped — not scored)",
         "size 92467 >= min 20000",
-        "keyword hit \"freehold\""
+        "keyword hit \"industrial\""
       ],
       "url": "https://cpne.co.uk/property/tornado-logistics-park-darlington-dl1-1rw-2/",
       "propertyType": "Industrial",
@@ -665,7 +132,7 @@
       "reasons": [
         "geography \"Seaham North East\" in Data Centre Development territory (prescoped — not scored)",
         "size 38293 >= min 20000",
-        "keyword hit \"freehold\""
+        "keyword hit \"distribution\""
       ],
       "url": "https://cpne.co.uk/property/foxcover-business-park-unit-4-admiralty-way-seaham-sr7-7dn-3/",
       "propertyType": "Industrial",
@@ -724,7 +191,7 @@
       "reasons": [
         "geography \"Newton Aycliffe North East\" in Data Centre Development territory (prescoped — not scored)",
         "size 35811 >= min 20000",
-        "keyword hit \"freehold\""
+        "keyword hit \"industrial\""
       ],
       "url": "https://cpne.co.uk/property/unit-a-prime-point-carlbury-road-newton-aycliffe-dl5-6bh-2/",
       "propertyType": "Industrial",
@@ -819,7 +286,7 @@
         "score": 100,
         "band": "strong",
         "reasons": [
-          "£20/sqft vs local VOA benchmark £6.74/sqft (ratio 3.0×) — 9th percentile among scored listings (lower = cheaper)"
+          "£20/sqft vs local VOA benchmark £6.74/sqft (ratio 3.0×) — 17th percentile among scored listings (lower = cheaper)"
         ]
       },
       "schoolReadiness": {
@@ -837,12 +304,12 @@
       "sizeLabel": "4520 sqft",
       "sizeSqft": 4520,
       "source": "Connect Property North East",
-      "requirement": "Residential Conversion",
+      "requirement": "School Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Thirsk Yorkshire\" in Residential Conversion territory (prescoped — not scored)",
-        "price 678000 within budget 500000-2000000",
-        "keyword hit \"freehold\""
+        "geography \"Thirsk Yorkshire\" in School Conversion territory (prescoped — not scored)",
+        "size 4520 >= min 2000",
+        "keyword hit \"school\""
       ],
       "url": "https://cpne.co.uk/property/unit-5-phase-2-sowerby-gate-cedar-road-thirsk-yo7-3ff-2/",
       "propertyType": "Industrial",
@@ -878,7 +345,7 @@
         "score": 0,
         "band": "unlikely",
         "reasons": [
-          "£150/sqft vs local VOA benchmark £5.55/sqft (ratio 27.0×) — 91th percentile among scored listings (lower = cheaper)"
+          "£150/sqft vs local VOA benchmark £5.55/sqft (ratio 27.0×) — 83th percentile among scored listings (lower = cheaper)"
         ]
       },
       "schoolReadiness": {
@@ -896,12 +363,12 @@
       "sizeLabel": "3616 sqft",
       "sizeSqft": 3616,
       "source": "Connect Property North East",
-      "requirement": "Residential Conversion",
+      "requirement": "School Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Thirsk Yorkshire\" in Residential Conversion territory (prescoped — not scored)",
-        "price 510000 within budget 500000-2000000",
-        "keyword hit \"freehold\""
+        "geography \"Thirsk Yorkshire\" in School Conversion territory (prescoped — not scored)",
+        "size 3616 >= min 2000",
+        "keyword hit \"school\""
       ],
       "url": "https://cpne.co.uk/property/unit-4-phase-2-sowerby-gate-cedar-road-thirsk-yo7-3ff-2/",
       "propertyType": "Industrial",
@@ -934,10 +401,10 @@
         "groupId": null
       },
       "valueAdd": {
-        "score": 0,
+        "score": 15,
         "band": "unlikely",
         "reasons": [
-          "£141/sqft vs local VOA benchmark £5.55/sqft (ratio 25.4×) — 82th percentile among scored listings (lower = cheaper)"
+          "£141/sqft vs local VOA benchmark £5.55/sqft (ratio 25.4×) — 67th percentile among scored listings (lower = cheaper)"
         ]
       },
       "schoolReadiness": {

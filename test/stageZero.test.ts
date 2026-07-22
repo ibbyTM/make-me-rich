@@ -86,6 +86,61 @@ describe('stageZeroFilter', () => {
   });
 });
 
+describe('stageZeroFilter — tie-breaking on equal scores', () => {
+  // Reproduces the real "Fulneck School" case (2026-07-22): a listing that
+  // ties 2-2 between two requirements, where one requirement's point came
+  // from a GLOBAL keyword ("freehold" — present in nearly every commercial
+  // listing) and the other's came from its OWN, far more specific keyword
+  // ("school"). The specific match should win the tie.
+  const tieReqs: Requirement[] = [
+    {
+      id: 'generic',
+      name: 'Generic (created later, evaluated first)',
+      active: true,
+      geographies: ['yorkshire'],
+      minSize: 20000,
+      keywords: ['industrial', 'warehouse'], // won't match this listing
+    },
+    {
+      id: 'specific',
+      name: 'Specific',
+      active: true,
+      geographies: ['yorkshire'],
+      minSize: 2000,
+      keywords: ['school', 'educational'],
+    },
+  ];
+  const PRESCOPED = { minimumBar: 2, geoPrescoped: true };
+
+  it('prefers the requirement matched on its own keyword over one matched only on a global keyword, on a tie', () => {
+    const listing: Listing = {
+      sourceId: 'portal',
+      externalId: 'fulneck',
+      geography: 'Leeds Yorkshire',
+      size: 88670,
+      text: 'Former school estate, substantial former educational accommodation. Offered freehold.',
+    };
+    const res = stageZeroFilter(listing, tieReqs, PRESCOPED);
+    // Both requirements score 2 (geo prescoped=0, size>=min for both, one keyword each) —
+    // 'generic' only via the global "freehold", 'specific' via its own "school"/"educational".
+    expect(res.score).toBe(2);
+    expect(res.matchedRequirementId).toBe('specific');
+  });
+
+  it('a genuine tie with no specific keyword on either side keeps the first-evaluated requirement (unchanged fallback behaviour)', () => {
+    const listing: Listing = {
+      sourceId: 'portal',
+      externalId: 'neither-specific',
+      geography: 'Leeds Yorkshire',
+      size: 88670,
+      text: 'Freehold premises, subject to planning.',
+    };
+    const res = stageZeroFilter(listing, tieReqs, PRESCOPED);
+    expect(res.score).toBe(2); // both hit only global keywords (freehold/planning)
+    expect(res.matchedRequirementId).toBe('generic'); // first in the array, neither has a specific hit
+  });
+});
+
 describe('stageZeroFilter — geoPrescoped (portal pulls)', () => {
   const PRESCOPED = { minimumBar: 2, geoPrescoped: true };
 
