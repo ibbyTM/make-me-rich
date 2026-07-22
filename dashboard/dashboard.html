@@ -418,7 +418,7 @@
     if (rows.length === 0) { grid.innerHTML = '<div class="empty">No matches for this filter.</div>'; return; }
 
     grid.innerHTML = rows.map(r => {
-      const reqClass = /citywide/i.test(r.requirement) ? 'citywide' : /educating/i.test(r.requirement) ? 'educating' : /data centre/i.test(r.requirement) ? 'datacentre' : '';
+      const reqClass = /residential conversion/i.test(r.requirement) ? 'citywide' : /church.*chapel/i.test(r.requirement) ? 'educating' : /data centre/i.test(r.requirement) ? 'datacentre' : '';
       const size = r.sizeSqft ? Number(r.sizeSqft).toLocaleString('en-GB') + ' sq ft' : (r.sizeLabel || '—');
       const price = gbp(r.priceAmount) || esc(r.priceDisplay || 'POA');
       const types = typeList(r).slice(0, 3);

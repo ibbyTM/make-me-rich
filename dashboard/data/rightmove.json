@@ -9,10 +9,10 @@
       "sizeLabel": "2,141 sq. ft.",
       "sizeSqft": 2141,
       "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
+      "requirement": "Residential Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Leeds Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
+        "geography \"Leeds Yorkshire\" in Residential Conversion territory (prescoped — not scored)",
         "price 595000 within budget 500000-2000000",
         "keyword hit \"freehold\""
       ],
@@ -63,10 +63,10 @@
       "sizeLabel": "5,242 sq. ft.",
       "sizeSqft": 5242,
       "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
+      "requirement": "Residential Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Leeds Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
+        "geography \"Leeds Yorkshire\" in Residential Conversion territory (prescoped — not scored)",
         "price 725000 within budget 500000-2000000",
         "keyword hit \"freehold\""
       ],
@@ -117,10 +117,10 @@
       "sizeLabel": "5,858 sq. ft.",
       "sizeSqft": 5858,
       "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
+      "requirement": "Residential Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Leeds Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
+        "geography \"Leeds Yorkshire\" in Residential Conversion territory (prescoped — not scored)",
         "price 1013000 within budget 500000-2000000",
         "keyword hit \"freehold\""
       ],
@@ -169,10 +169,10 @@
       "sizeLabel": "5,856 sq. ft.",
       "sizeSqft": 5856,
       "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
+      "requirement": "Residential Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Leeds Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
+        "geography \"Leeds Yorkshire\" in Residential Conversion territory (prescoped — not scored)",
         "price 1500000 within budget 500000-2000000",
         "keyword hit \"freehold\""
       ],
@@ -225,10 +225,10 @@
       "sizeLabel": "57,675 sq. ft.",
       "sizeSqft": 57675,
       "source": "Rightmove Commercial",
-      "requirement": "Data Centre Sites",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Leeds Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "geography \"Leeds Yorkshire\" in Data Centre Development territory (prescoped — not scored)",
         "size 57675 >= min 20000",
         "keyword hit \"freehold\""
       ],
@@ -279,10 +279,10 @@
       "sizeLabel": "88,670 sq. ft.",
       "sizeSqft": 88670,
       "source": "Rightmove Commercial",
-      "requirement": "Data Centre Sites",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Leeds Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "geography \"Leeds Yorkshire\" in Data Centre Development territory (prescoped — not scored)",
         "size 88670 >= min 20000",
         "keyword hit \"freehold\""
       ],
@@ -333,10 +333,10 @@
       "sizeLabel": "48,943 sq. ft.",
       "sizeSqft": 48943,
       "source": "Rightmove Commercial",
-      "requirement": "Data Centre Sites",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Leeds Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "geography \"Leeds Yorkshire\" in Data Centre Development territory (prescoped — not scored)",
         "size 48943 >= min 20000",
         "keyword hit \"freehold\""
       ],
@@ -385,10 +385,10 @@
       "sizeLabel": "4,419–40,808 sq. ft.",
       "sizeSqft": 40808,
       "source": "Rightmove Commercial",
-      "requirement": "Data Centre Sites",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Leeds Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "geography \"Leeds Yorkshire\" in Data Centre Development territory (prescoped — not scored)",
         "size 40808 >= min 20000",
         "keyword hit \"freehold\""
       ],
@@ -439,10 +439,10 @@
       "sizeLabel": "7,811 sq. ft.",
       "sizeSqft": 7811,
       "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
+      "requirement": "Residential Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Leeds Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
+        "geography \"Leeds Yorkshire\" in Residential Conversion territory (prescoped — not scored)",
         "price 2000000 within budget 500000-2000000",
         "keyword hit \"freehold\""
       ],
@@ -493,10 +493,10 @@
       "sizeLabel": "575–53,252 sq. ft.",
       "sizeSqft": 53252,
       "source": "Rightmove Commercial",
-      "requirement": "Data Centre Sites",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Leeds Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "geography \"Leeds Yorkshire\" in Data Centre Development territory (prescoped — not scored)",
         "size 53252 >= min 20000",
         "keyword hit \"freehold\""
       ],
@@ -547,10 +547,10 @@
       "sizeLabel": "",
       "sizeSqft": null,
       "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
+      "requirement": "Residential Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Leeds Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
+        "geography \"Leeds Yorkshire\" in Residential Conversion territory (prescoped — not scored)",
         "price 1850000 within budget 500000-2000000",
         "keyword hit \"freehold\""
       ],
@@ -599,10 +599,10 @@
       "sizeLabel": "8,997 sq. ft.",
       "sizeSqft": 8997,
       "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
+      "requirement": "Residential Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Leeds Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
+        "geography \"Leeds Yorkshire\" in Residential Conversion territory (prescoped — not scored)",
         "price 1800000 within budget 500000-2000000",
         "keyword hit \"freehold\""
       ],
@@ -651,10 +651,10 @@
       "sizeLabel": "",
       "sizeSqft": null,
       "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
+      "requirement": "Residential Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Leeds Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
+        "geography \"Leeds Yorkshire\" in Residential Conversion territory (prescoped — not scored)",
         "price 1500000 within budget 500000-2000000",
         "keyword hit \"freehold\""
       ],
@@ -703,10 +703,10 @@
       "sizeLabel": "5,856 sq. ft.",
       "sizeSqft": 5856,
       "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
+      "requirement": "Residential Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Leeds Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
+        "geography \"Leeds Yorkshire\" in Residential Conversion territory (prescoped — not scored)",
         "price 1500000 within budget 500000-2000000",
         "keyword hit \"freehold\""
       ],
@@ -759,10 +759,10 @@
       "sizeLabel": "9,765 sq. ft.",
       "sizeSqft": 9765,
       "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
+      "requirement": "Residential Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Leeds Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
+        "geography \"Leeds Yorkshire\" in Residential Conversion territory (prescoped — not scored)",
         "price 1450000 within budget 500000-2000000",
         "keyword hit \"freehold\""
       ],
@@ -811,10 +811,10 @@
       "sizeLabel": "",
       "sizeSqft": null,
       "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
+      "requirement": "Residential Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Leeds Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
+        "geography \"Leeds Yorkshire\" in Residential Conversion territory (prescoped — not scored)",
         "price 1400000 within budget 500000-2000000",
         "keyword hit \"freehold\""
       ],
@@ -863,10 +863,10 @@
       "sizeLabel": "18,818 sq. ft.",
       "sizeSqft": 18818,
       "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
+      "requirement": "Residential Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Leeds Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
+        "geography \"Leeds Yorkshire\" in Residential Conversion territory (prescoped — not scored)",
         "price 1000000 within budget 500000-2000000",
         "keyword hit \"freehold\""
       ],
@@ -915,10 +915,10 @@
       "sizeLabel": "550–9,210 sq. ft.",
       "sizeSqft": 9210,
       "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
+      "requirement": "Residential Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Leeds Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
+        "geography \"Leeds Yorkshire\" in Residential Conversion territory (prescoped — not scored)",
         "price 995000 within budget 500000-2000000",
         "keyword hit \"freehold\""
       ],
@@ -969,10 +969,10 @@
       "sizeLabel": "12,447 sq. ft.",
       "sizeSqft": 12447,
       "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
+      "requirement": "Residential Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Leeds Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
+        "geography \"Leeds Yorkshire\" in Residential Conversion territory (prescoped — not scored)",
         "price 1000000 within budget 500000-2000000",
         "keyword hit \"freehold\""
       ],
@@ -1023,10 +1023,10 @@
       "sizeLabel": "6,800 sq. ft.",
       "sizeSqft": 6800,
       "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
+      "requirement": "Residential Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Leeds Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
+        "geography \"Leeds Yorkshire\" in Residential Conversion territory (prescoped — not scored)",
         "price 900000 within budget 500000-2000000",
         "keyword hit \"freehold\""
       ],
@@ -1077,10 +1077,10 @@
       "sizeLabel": "6,055 sq. ft.",
       "sizeSqft": 6055,
       "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
+      "requirement": "Residential Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Leeds Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
+        "geography \"Leeds Yorkshire\" in Residential Conversion territory (prescoped — not scored)",
         "price 900000 within budget 500000-2000000",
         "keyword hit \"freehold\""
       ],
@@ -1129,10 +1129,10 @@
       "sizeLabel": "",
       "sizeSqft": null,
       "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
+      "requirement": "Residential Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Leeds Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
+        "geography \"Leeds Yorkshire\" in Residential Conversion territory (prescoped — not scored)",
         "price 850000 within budget 500000-2000000",
         "keyword hit \"freehold\""
       ],
@@ -1181,10 +1181,10 @@
       "sizeLabel": "3,003 sq. ft.",
       "sizeSqft": 3003,
       "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
+      "requirement": "Residential Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Leeds Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
+        "geography \"Leeds Yorkshire\" in Residential Conversion territory (prescoped — not scored)",
         "price 795000 within budget 500000-2000000",
         "keyword hit \"freehold\""
       ],
@@ -1233,10 +1233,10 @@
       "sizeLabel": "3,887 sq. ft.",
       "sizeSqft": 3887,
       "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
+      "requirement": "Residential Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Leeds Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
+        "geography \"Leeds Yorkshire\" in Residential Conversion territory (prescoped — not scored)",
         "price 775000 within budget 500000-2000000",
         "keyword hit \"freehold\""
       ],
@@ -1285,10 +1285,10 @@
       "sizeLabel": "5,275 sq. ft.",
       "sizeSqft": 5275,
       "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
+      "requirement": "Residential Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Leeds Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
+        "geography \"Leeds Yorkshire\" in Residential Conversion territory (prescoped — not scored)",
         "price 725000 within budget 500000-2000000",
         "keyword hit \"freehold\""
       ],
@@ -1337,10 +1337,10 @@
       "sizeLabel": "7,244–14,488 sq. ft.",
       "sizeSqft": 14488,
       "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
+      "requirement": "Residential Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Leeds Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
+        "geography \"Leeds Yorkshire\" in Residential Conversion territory (prescoped — not scored)",
         "price 695000 within budget 500000-2000000",
         "keyword hit \"freehold\""
       ],
@@ -1391,10 +1391,10 @@
       "sizeLabel": "3,779 sq. ft.",
       "sizeSqft": 3779,
       "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
+      "requirement": "Residential Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Leeds Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
+        "geography \"Leeds Yorkshire\" in Residential Conversion territory (prescoped — not scored)",
         "price 650000 within budget 500000-2000000",
         "keyword hit \"freehold\""
       ],
@@ -1445,10 +1445,10 @@
       "sizeLabel": "9,596 sq. ft.",
       "sizeSqft": 9596,
       "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
+      "requirement": "Residential Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Leeds Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
+        "geography \"Leeds Yorkshire\" in Residential Conversion territory (prescoped — not scored)",
         "price 625000 within budget 500000-2000000",
         "keyword hit \"freehold\""
       ],
@@ -1499,10 +1499,10 @@
       "sizeLabel": "5,982 sq. ft.",
       "sizeSqft": 5982,
       "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
+      "requirement": "Residential Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Leeds Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
+        "geography \"Leeds Yorkshire\" in Residential Conversion territory (prescoped — not scored)",
         "price 595000 within budget 500000-2000000",
         "keyword hit \"freehold\""
       ],
@@ -1551,10 +1551,10 @@
       "sizeLabel": "36,791 sq. ft.",
       "sizeSqft": 36791,
       "source": "Rightmove Commercial",
-      "requirement": "Data Centre Sites",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Leeds Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "geography \"Leeds Yorkshire\" in Data Centre Development territory (prescoped — not scored)",
         "size 36791 >= min 20000",
         "keyword hit \"freehold\""
       ],
@@ -1605,10 +1605,10 @@
       "sizeLabel": "30,742 sq. ft.",
       "sizeSqft": 30742,
       "source": "Rightmove Commercial",
-      "requirement": "Data Centre Sites",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Leeds Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "geography \"Leeds Yorkshire\" in Data Centre Development territory (prescoped — not scored)",
         "size 30742 >= min 20000",
         "keyword hit \"industrial\""
       ],
@@ -1659,10 +1659,10 @@
       "sizeLabel": "3,022 sq. ft.",
       "sizeSqft": 3022,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Sheffield Yorkshire\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 3022 >= min 2000",
         "keyword hit \"office\""
       ],
@@ -1713,10 +1713,10 @@
       "sizeLabel": "3,850 sq. ft.",
       "sizeSqft": 3850,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Sheffield Yorkshire\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 3850 >= min 2000",
         "keyword hit \"office\""
       ],
@@ -1767,10 +1767,10 @@
       "sizeLabel": "22,881 sq. ft.",
       "sizeSqft": 22881,
       "source": "Rightmove Commercial",
-      "requirement": "Data Centre Sites",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "geography \"Sheffield Yorkshire\" in Data Centre Development territory (prescoped — not scored)",
         "size 22881 >= min 20000",
         "keyword hit \"freehold\""
       ],
@@ -1821,10 +1821,10 @@
       "sizeLabel": "17,685 sq. ft.",
       "sizeSqft": 17685,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Sheffield Yorkshire\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 17685 >= min 2000",
         "keyword hit \"freehold\""
       ],
@@ -1875,10 +1875,10 @@
       "sizeLabel": "65,511 sq. ft.",
       "sizeSqft": 65511,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Sheffield Yorkshire\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 65511 >= min 2000",
         "keyword hit \"office\""
       ],
@@ -1929,10 +1929,10 @@
       "sizeLabel": "40,000–85,000 sq. ft.",
       "sizeSqft": 85000,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Sheffield Yorkshire\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 85000 >= min 2000",
         "keyword hit \"office\""
       ],
@@ -1983,10 +1983,10 @@
       "sizeLabel": "57,842 sq. ft.",
       "sizeSqft": 57842,
       "source": "Rightmove Commercial",
-      "requirement": "Data Centre Sites",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "geography \"Sheffield Yorkshire\" in Data Centre Development territory (prescoped — not scored)",
         "size 57842 >= min 20000",
         "keyword hit \"planning\""
       ],
@@ -2037,10 +2037,10 @@
       "sizeLabel": "35,523 sq. ft.",
       "sizeSqft": 35523,
       "source": "Rightmove Commercial",
-      "requirement": "Data Centre Sites",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "geography \"Sheffield Yorkshire\" in Data Centre Development territory (prescoped — not scored)",
         "size 35523 >= min 20000",
         "keyword hit \"industrial\""
       ],
@@ -2091,10 +2091,10 @@
       "sizeLabel": "1,222–22,259 sq. ft.",
       "sizeSqft": 22259,
       "source": "Rightmove Commercial",
-      "requirement": "Data Centre Sites",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "geography \"Sheffield Yorkshire\" in Data Centre Development territory (prescoped — not scored)",
         "size 22259 >= min 20000",
         "keyword hit \"freehold\""
       ],
@@ -2145,10 +2145,10 @@
       "sizeLabel": "4,521 sq. ft.",
       "sizeSqft": 4521,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Sheffield Yorkshire\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 4521 >= min 2000",
         "keyword hit \"freehold\""
       ],
@@ -2199,10 +2199,10 @@
       "sizeLabel": "",
       "sizeSqft": null,
       "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
+      "requirement": "Residential Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
+        "geography \"Sheffield Yorkshire\" in Residential Conversion territory (prescoped — not scored)",
         "price 2000000 within budget 500000-2000000",
         "keyword hit \"freehold\""
       ],
@@ -2253,10 +2253,10 @@
       "sizeLabel": "44,910 sq. ft.",
       "sizeSqft": 44910,
       "source": "Rightmove Commercial",
-      "requirement": "Data Centre Sites",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "geography \"Sheffield Yorkshire\" in Data Centre Development territory (prescoped — not scored)",
         "size 44910 >= min 20000",
         "keyword hit \"industrial\""
       ],
@@ -2307,10 +2307,10 @@
       "sizeLabel": "28,497 sq. ft.",
       "sizeSqft": 28497,
       "source": "Rightmove Commercial",
-      "requirement": "Data Centre Sites",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "geography \"Sheffield Yorkshire\" in Data Centre Development territory (prescoped — not scored)",
         "size 28497 >= min 20000",
         "keyword hit \"freehold\""
       ],
@@ -2359,10 +2359,10 @@
       "sizeLabel": "97,574 sq. ft.",
       "sizeSqft": 97574,
       "source": "Rightmove Commercial",
-      "requirement": "Data Centre Sites",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "geography \"Sheffield Yorkshire\" in Data Centre Development territory (prescoped — not scored)",
         "size 97574 >= min 20000",
         "keyword hit \"freehold\""
       ],
@@ -2413,10 +2413,10 @@
       "sizeLabel": "12,656 sq. ft.",
       "sizeSqft": 12656,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Sheffield Yorkshire\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 12656 >= min 2000",
         "keyword hit \"vacant\""
       ],
@@ -2467,10 +2467,10 @@
       "sizeLabel": "6,992 sq. ft.",
       "sizeSqft": 6992,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Sheffield Yorkshire\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 6992 >= min 2000",
         "keyword hit \"freehold\""
       ],
@@ -2521,10 +2521,10 @@
       "sizeLabel": "35,000 sq. ft.",
       "sizeSqft": 35000,
       "source": "Rightmove Commercial",
-      "requirement": "Data Centre Sites",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "geography \"Sheffield Yorkshire\" in Data Centre Development territory (prescoped — not scored)",
         "size 35000 >= min 20000",
         "keyword hit \"warehouse\""
       ],
@@ -2575,10 +2575,10 @@
       "sizeLabel": "13,625 sq. ft.",
       "sizeSqft": 13625,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Sheffield Yorkshire\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 13625 >= min 2000",
         "keyword hit \"office\""
       ],
@@ -2629,10 +2629,10 @@
       "sizeLabel": "",
       "sizeSqft": null,
       "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
+      "requirement": "Residential Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
+        "geography \"Sheffield Yorkshire\" in Residential Conversion territory (prescoped — not scored)",
         "price 975000 within budget 500000-2000000",
         "keyword hit \"freehold\""
       ],
@@ -2681,10 +2681,10 @@
       "sizeLabel": "10,387 sq. ft.",
       "sizeSqft": 10387,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Sheffield Yorkshire\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 10387 >= min 2000",
         "keyword hit \"vacant\""
       ],
@@ -2735,10 +2735,10 @@
       "sizeLabel": "14,175 sq. ft.",
       "sizeSqft": 14175,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Sheffield Yorkshire\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 14175 >= min 2000",
         "keyword hit \"office\""
       ],
@@ -2789,10 +2789,10 @@
       "sizeLabel": "10,836 sq. ft.",
       "sizeSqft": 10836,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Sheffield Yorkshire\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 10836 >= min 2000",
         "keyword hit \"freehold\""
       ],
@@ -2843,10 +2843,10 @@
       "sizeLabel": "11,403 sq. ft.",
       "sizeSqft": 11403,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Sheffield Yorkshire\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 11403 >= min 2000",
         "keyword hit \"freehold\""
       ],
@@ -2897,10 +2897,10 @@
       "sizeLabel": "",
       "sizeSqft": null,
       "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
+      "requirement": "Residential Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
+        "geography \"Sheffield Yorkshire\" in Residential Conversion territory (prescoped — not scored)",
         "price 650000 within budget 500000-2000000",
         "keyword hit \"freehold\""
       ],
@@ -2949,10 +2949,10 @@
       "sizeLabel": "44,179 sq. ft.",
       "sizeSqft": 44179,
       "source": "Rightmove Commercial",
-      "requirement": "Data Centre Sites",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "geography \"Sheffield Yorkshire\" in Data Centre Development territory (prescoped — not scored)",
         "size 44179 >= min 20000",
         "keyword hit \"development opportunity\""
       ],
@@ -3003,10 +3003,10 @@
       "sizeLabel": "19,873 sq. ft.",
       "sizeSqft": 19873,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Sheffield Yorkshire\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 19873 >= min 2000",
         "keyword hit \"freehold\""
       ],
@@ -3057,10 +3057,10 @@
       "sizeLabel": "5,022 sq. ft.",
       "sizeSqft": 5022,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Sheffield Yorkshire\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 5022 >= min 2000",
         "keyword hit \"freehold\""
       ],
@@ -3111,10 +3111,10 @@
       "sizeLabel": "4,580 sq. ft.",
       "sizeSqft": 4580,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Sheffield Yorkshire\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 4580 >= min 2000",
         "keyword hit \"freehold\""
       ],
@@ -3165,10 +3165,10 @@
       "sizeLabel": "21,489 sq. ft.",
       "sizeSqft": 21489,
       "source": "Rightmove Commercial",
-      "requirement": "Data Centre Sites",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "geography \"Sheffield Yorkshire\" in Data Centre Development territory (prescoped — not scored)",
         "size 21489 >= min 20000",
         "keyword hit \"industrial\""
       ],
@@ -3219,10 +3219,10 @@
       "sizeLabel": "8,196 sq. ft.",
       "sizeSqft": 8196,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Sheffield Yorkshire\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 8196 >= min 2000",
         "keyword hit \"planning\""
       ],
@@ -3273,10 +3273,10 @@
       "sizeLabel": "5,765 sq. ft.",
       "sizeSqft": 5765,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Sheffield Yorkshire\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 5765 >= min 2000",
         "keyword hit \"development opportunity\""
       ],
@@ -3327,10 +3327,10 @@
       "sizeLabel": "5,500 sq. ft.",
       "sizeSqft": 5500,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Sheffield Yorkshire\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 5500 >= min 2000",
         "keyword hit \"freehold\""
       ],
@@ -3379,10 +3379,10 @@
       "sizeLabel": "4,820 sq. ft.",
       "sizeSqft": 4820,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Sheffield Yorkshire\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 4820 >= min 2000",
         "keyword hit \"freehold\""
       ],
@@ -3433,10 +3433,10 @@
       "sizeLabel": "2,343 sq. ft.",
       "sizeSqft": 2343,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Sheffield Yorkshire\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 2343 >= min 2000",
         "keyword hit \"office\""
       ],
@@ -3489,10 +3489,10 @@
       "sizeLabel": "4,390 sq. ft.",
       "sizeSqft": 4390,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Sheffield Yorkshire\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 4390 >= min 2000",
         "keyword hit \"freehold\""
       ],
@@ -3543,10 +3543,10 @@
       "sizeLabel": "6,286 sq. ft.",
       "sizeSqft": 6286,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Sheffield Yorkshire\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 6286 >= min 2000",
         "keyword hit \"freehold\""
       ],
@@ -3597,10 +3597,10 @@
       "sizeLabel": "5,743 sq. ft.",
       "sizeSqft": 5743,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Sheffield Yorkshire\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 5743 >= min 2000",
         "keyword hit \"freehold\""
       ],
@@ -3651,10 +3651,10 @@
       "sizeLabel": "2,458 sq. ft.",
       "sizeSqft": 2458,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Sheffield Yorkshire\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 2458 >= min 2000",
         "keyword hit \"office\""
       ],
@@ -3705,10 +3705,10 @@
       "sizeLabel": "2,783 sq. ft.",
       "sizeSqft": 2783,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Sheffield Yorkshire\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 2783 >= min 2000",
         "keyword hit \"freehold\""
       ],
@@ -3761,10 +3761,10 @@
       "sizeLabel": "20,042 sq. ft.",
       "sizeSqft": 20042,
       "source": "Rightmove Commercial",
-      "requirement": "Data Centre Sites",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "geography \"Sheffield Yorkshire\" in Data Centre Development territory (prescoped — not scored)",
         "size 20042 >= min 20000",
         "keyword hit \"freehold\""
       ],
@@ -3815,10 +3815,10 @@
       "sizeLabel": "2,655 sq. ft.",
       "sizeSqft": 2655,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Sheffield Yorkshire\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 2655 >= min 2000",
         "keyword hit \"freehold\""
       ],
@@ -3869,10 +3869,10 @@
       "sizeLabel": "2,602 sq. ft.",
       "sizeSqft": 2602,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Sheffield Yorkshire\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 2602 >= min 2000",
         "keyword hit \"freehold\""
       ],
@@ -3923,10 +3923,10 @@
       "sizeLabel": "46,139 sq. ft.",
       "sizeSqft": 46139,
       "source": "Rightmove Commercial",
-      "requirement": "Data Centre Sites",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "geography \"Sheffield Yorkshire\" in Data Centre Development territory (prescoped — not scored)",
         "size 46139 >= min 20000",
         "keyword hit \"industrial\""
       ],
@@ -3977,10 +3977,10 @@
       "sizeLabel": "275,000–350,000 sq. ft.",
       "sizeSqft": 350000,
       "source": "Rightmove Commercial",
-      "requirement": "Data Centre Sites",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "geography \"Sheffield Yorkshire\" in Data Centre Development territory (prescoped — not scored)",
         "size 350000 >= min 20000",
         "keyword hit \"planning\""
       ],
@@ -4031,10 +4031,10 @@
       "sizeLabel": "11,421 sq. ft.",
       "sizeSqft": 11421,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Sheffield Yorkshire\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 11421 >= min 2000",
         "keyword hit \"freehold\""
       ],
@@ -4083,10 +4083,10 @@
       "sizeLabel": "367,935 sq. ft.",
       "sizeSqft": 367935,
       "source": "Rightmove Commercial",
-      "requirement": "Data Centre Sites",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "geography \"Sheffield Yorkshire\" in Data Centre Development territory (prescoped — not scored)",
         "size 367935 >= min 20000",
         "keyword hit \"freehold\""
       ],
@@ -4137,10 +4137,10 @@
       "sizeLabel": "10,000–80,000 sq. ft.",
       "sizeSqft": 80000,
       "source": "Rightmove Commercial",
-      "requirement": "Data Centre Sites",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "geography \"Sheffield Yorkshire\" in Data Centre Development territory (prescoped — not scored)",
         "size 80000 >= min 20000",
         "keyword hit \"freehold\""
       ],
@@ -4189,10 +4189,10 @@
       "sizeLabel": "12,413 sq. ft.",
       "sizeSqft": 12413,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Sheffield Yorkshire\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 12413 >= min 2000",
         "keyword hit \"freehold\""
       ],
@@ -4241,10 +4241,10 @@
       "sizeLabel": "10,890 sq. ft.",
       "sizeSqft": 10890,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Sheffield Yorkshire\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 10890 >= min 2000",
         "keyword hit \"freehold\""
       ],
@@ -4295,10 +4295,10 @@
       "sizeLabel": "19,873 sq. ft.",
       "sizeSqft": 19873,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Sheffield Yorkshire\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 19873 >= min 2000",
         "keyword hit \"freehold\""
       ],
@@ -4347,10 +4347,10 @@
       "sizeLabel": "3,546 sq. ft.",
       "sizeSqft": 3546,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Sheffield Yorkshire\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 3546 >= min 2000",
         "keyword hit \"freehold\""
       ],
@@ -4401,10 +4401,10 @@
       "sizeLabel": "3,546 sq. ft.",
       "sizeSqft": 3546,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Sheffield Yorkshire\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 3546 >= min 2000",
         "keyword hit \"freehold\""
       ],
@@ -4455,10 +4455,10 @@
       "sizeLabel": "20,000 sq. ft.",
       "sizeSqft": 20000,
       "source": "Rightmove Commercial",
-      "requirement": "Data Centre Sites",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "geography \"Sheffield Yorkshire\" in Data Centre Development territory (prescoped — not scored)",
         "size 20000 >= min 20000",
         "keyword hit \"freehold\""
       ],
@@ -4507,10 +4507,10 @@
       "sizeLabel": "11,356 sq. ft.",
       "sizeSqft": 11356,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Bradford Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Bradford Yorkshire\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 11356 >= min 2000",
         "keyword hit \"freehold\""
       ],
@@ -4559,10 +4559,10 @@
       "sizeLabel": "2,476 sq. ft.",
       "sizeSqft": 2476,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Bradford Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Bradford Yorkshire\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 2476 >= min 2000",
         "keyword hit \"freehold\""
       ],
@@ -4613,10 +4613,10 @@
       "sizeLabel": "39,178 sq. ft.",
       "sizeSqft": 39178,
       "source": "Rightmove Commercial",
-      "requirement": "Data Centre Sites",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Bradford Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "geography \"Bradford Yorkshire\" in Data Centre Development territory (prescoped — not scored)",
         "size 39178 >= min 20000",
         "keyword hit \"freehold\""
       ],
@@ -4665,10 +4665,10 @@
       "sizeLabel": "72,564 sq. ft.",
       "sizeSqft": 72564,
       "source": "Rightmove Commercial",
-      "requirement": "Data Centre Sites",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Bradford Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "geography \"Bradford Yorkshire\" in Data Centre Development territory (prescoped — not scored)",
         "size 72564 >= min 20000",
         "keyword hit \"freehold\""
       ],
@@ -4719,10 +4719,10 @@
       "sizeLabel": "29,351 sq. ft.",
       "sizeSqft": 29351,
       "source": "Rightmove Commercial",
-      "requirement": "Data Centre Sites",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Bradford Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "geography \"Bradford Yorkshire\" in Data Centre Development territory (prescoped — not scored)",
         "size 29351 >= min 20000",
         "keyword hit \"freehold\""
       ],
@@ -4773,10 +4773,10 @@
       "sizeLabel": "12,623 sq. ft.",
       "sizeSqft": 12623,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Bradford Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Bradford Yorkshire\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 12623 >= min 2000",
         "keyword hit \"freehold\""
       ],
@@ -4827,10 +4827,10 @@
       "sizeLabel": "16,266 sq. ft.",
       "sizeSqft": 16266,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Bradford Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Bradford Yorkshire\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 16266 >= min 2000",
         "keyword hit \"freehold\""
       ],
@@ -4881,10 +4881,10 @@
       "sizeLabel": "11,814 sq. ft.",
       "sizeSqft": 11814,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Bradford Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Bradford Yorkshire\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 11814 >= min 2000",
         "keyword hit \"freehold\""
       ],
@@ -4935,10 +4935,10 @@
       "sizeLabel": "11,194 sq. ft.",
       "sizeSqft": 11194,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Bradford Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Bradford Yorkshire\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 11194 >= min 2000",
         "keyword hit \"freehold\""
       ],
@@ -4989,10 +4989,10 @@
       "sizeLabel": "9,015 sq. ft.",
       "sizeSqft": 9015,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Bradford Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Bradford Yorkshire\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 9015 >= min 2000",
         "keyword hit \"church\""
       ],
@@ -5043,10 +5043,10 @@
       "sizeLabel": "3,297 sq. ft.",
       "sizeSqft": 3297,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Bradford Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Bradford Yorkshire\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 3297 >= min 2000",
         "keyword hit \"freehold\""
       ],
@@ -5097,10 +5097,10 @@
       "sizeLabel": "5,761 sq. ft.",
       "sizeSqft": 5761,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Bradford Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Bradford Yorkshire\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 5761 >= min 2000",
         "keyword hit \"office\""
       ],
@@ -5151,10 +5151,10 @@
       "sizeLabel": "3,083 sq. ft.",
       "sizeSqft": 3083,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Bradford Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Bradford Yorkshire\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 3083 >= min 2000",
         "keyword hit \"church\""
       ],
@@ -5205,10 +5205,10 @@
       "sizeLabel": "28,079 sq. ft.",
       "sizeSqft": 28079,
       "source": "Rightmove Commercial",
-      "requirement": "Data Centre Sites",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Bradford Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "geography \"Bradford Yorkshire\" in Data Centre Development territory (prescoped — not scored)",
         "size 28079 >= min 20000",
         "keyword hit \"vacant\""
       ],
@@ -5259,10 +5259,10 @@
       "sizeLabel": "53,884–69,415 sq. ft.",
       "sizeSqft": 69415,
       "source": "Rightmove Commercial",
-      "requirement": "Data Centre Sites",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Bradford Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "geography \"Bradford Yorkshire\" in Data Centre Development territory (prescoped — not scored)",
         "size 69415 >= min 20000",
         "keyword hit \"freehold\""
       ],
@@ -5313,10 +5313,10 @@
       "sizeLabel": "50,000–105,000 sq. ft.",
       "sizeSqft": 105000,
       "source": "Rightmove Commercial",
-      "requirement": "Data Centre Sites",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Bradford Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "geography \"Bradford Yorkshire\" in Data Centre Development territory (prescoped — not scored)",
         "size 105000 >= min 20000",
         "keyword hit \"freehold\""
       ],
@@ -5367,10 +5367,10 @@
       "sizeLabel": "20,405 sq. ft.",
       "sizeSqft": 20405,
       "source": "Rightmove Commercial",
-      "requirement": "Data Centre Sites",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Bradford Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "geography \"Bradford Yorkshire\" in Data Centre Development territory (prescoped — not scored)",
         "size 20405 >= min 20000",
         "keyword hit \"industrial\""
       ],
@@ -5421,10 +5421,10 @@
       "sizeLabel": "16,165 sq. ft.",
       "sizeSqft": 16165,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Bradford Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Bradford Yorkshire\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 16165 >= min 2000",
         "keyword hit \"freehold\""
       ],
@@ -5475,10 +5475,10 @@
       "sizeLabel": "2,546 sq. ft.",
       "sizeSqft": 2546,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Bradford Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Bradford Yorkshire\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 2546 >= min 2000",
         "keyword hit \"freehold\""
       ],
@@ -5527,10 +5527,10 @@
       "sizeLabel": "14,128 sq. ft.",
       "sizeSqft": 14128,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Huddersfield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Huddersfield Yorkshire\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 14128 >= min 2000",
         "keyword hit \"freehold\""
       ],
@@ -5581,10 +5581,10 @@
       "sizeLabel": "67,082 sq. ft.",
       "sizeSqft": 67082,
       "source": "Rightmove Commercial",
-      "requirement": "Data Centre Sites",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Huddersfield Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "geography \"Huddersfield Yorkshire\" in Data Centre Development territory (prescoped — not scored)",
         "size 67082 >= min 20000",
         "keyword hit \"freehold\""
       ],
@@ -5635,10 +5635,10 @@
       "sizeLabel": "452–3,616 sq. ft.",
       "sizeSqft": 3616,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Huddersfield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Huddersfield Yorkshire\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 3616 >= min 2000",
         "keyword hit \"freehold\""
       ],
@@ -5687,10 +5687,10 @@
       "sizeLabel": "5,813 sq. ft.",
       "sizeSqft": 5813,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Huddersfield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Huddersfield Yorkshire\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 5813 >= min 2000",
         "keyword hit \"freehold\""
       ],
@@ -5739,10 +5739,10 @@
       "sizeLabel": "",
       "sizeSqft": null,
       "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
+      "requirement": "Residential Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Huddersfield Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
+        "geography \"Huddersfield Yorkshire\" in Residential Conversion territory (prescoped — not scored)",
         "price 525000 within budget 500000-2000000",
         "keyword hit \"freehold\""
       ],
@@ -5791,10 +5791,10 @@
       "sizeLabel": "5,422 sq. ft.",
       "sizeSqft": 5422,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Huddersfield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Huddersfield Yorkshire\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 5422 >= min 2000",
         "keyword hit \"office\""
       ],
@@ -5845,10 +5845,10 @@
       "sizeLabel": "2,415 sq. ft.",
       "sizeSqft": 2415,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Huddersfield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Huddersfield Yorkshire\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 2415 >= min 2000",
         "keyword hit \"freehold\""
       ],
@@ -5899,10 +5899,10 @@
       "sizeLabel": "11,761 sq. ft.",
       "sizeSqft": 11761,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Huddersfield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Huddersfield Yorkshire\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 11761 >= min 2000",
         "keyword hit \"planning\""
       ],
@@ -5955,10 +5955,10 @@
       "sizeLabel": "11,761 sq. ft.",
       "sizeSqft": 11761,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Huddersfield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Huddersfield Yorkshire\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 11761 >= min 2000",
         "keyword hit \"planning\""
       ],
@@ -6011,10 +6011,10 @@
       "sizeLabel": "161,172 sq. ft.",
       "sizeSqft": 161172,
       "source": "Rightmove Commercial",
-      "requirement": "Data Centre Sites",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Huddersfield Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "geography \"Huddersfield Yorkshire\" in Data Centre Development territory (prescoped — not scored)",
         "size 161172 >= min 20000",
         "keyword hit \"freehold\""
       ],
@@ -6067,10 +6067,10 @@
       "sizeLabel": "10,698 sq. ft.",
       "sizeSqft": 10698,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Huddersfield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Huddersfield Yorkshire\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 10698 >= min 2000",
         "keyword hit \"freehold\""
       ],
@@ -6121,10 +6121,10 @@
       "sizeLabel": "",
       "sizeSqft": null,
       "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
+      "requirement": "Residential Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Huddersfield Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
+        "geography \"Huddersfield Yorkshire\" in Residential Conversion territory (prescoped — not scored)",
         "price 650000 within budget 500000-2000000",
         "keyword hit \"freehold\""
       ],
@@ -6173,10 +6173,10 @@
       "sizeLabel": "11,761 sq. ft.",
       "sizeSqft": 11761,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Huddersfield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Huddersfield Yorkshire\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 11761 >= min 2000",
         "keyword hit \"freehold\""
       ],
@@ -6227,10 +6227,10 @@
       "sizeLabel": "161,172 sq. ft.",
       "sizeSqft": 161172,
       "source": "Rightmove Commercial",
-      "requirement": "Data Centre Sites",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Huddersfield Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "geography \"Huddersfield Yorkshire\" in Data Centre Development territory (prescoped — not scored)",
         "size 161172 >= min 20000",
         "keyword hit \"freehold\""
       ],
@@ -6281,10 +6281,10 @@
       "sizeLabel": "92,440 sq. ft.",
       "sizeSqft": 92440,
       "source": "Rightmove Commercial",
-      "requirement": "Data Centre Sites",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Doncaster Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "geography \"Doncaster Yorkshire\" in Data Centre Development territory (prescoped — not scored)",
         "size 92440 >= min 20000",
         "keyword hit \"freehold\""
       ],
@@ -6335,10 +6335,10 @@
       "sizeLabel": "12,389 sq. ft.",
       "sizeSqft": 12389,
       "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
+      "requirement": "Residential Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Doncaster Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
+        "geography \"Doncaster Yorkshire\" in Residential Conversion territory (prescoped — not scored)",
         "price 695000 within budget 500000-2000000",
         "keyword hit \"development opportunity\""
       ],
@@ -6389,10 +6389,10 @@
       "sizeLabel": "57,064 sq. ft.",
       "sizeSqft": 57064,
       "source": "Rightmove Commercial",
-      "requirement": "Data Centre Sites",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Doncaster Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "geography \"Doncaster Yorkshire\" in Data Centre Development territory (prescoped — not scored)",
         "size 57064 >= min 20000",
         "keyword hit \"planning\""
       ],
@@ -6443,10 +6443,10 @@
       "sizeLabel": "11,038 sq. ft.",
       "sizeSqft": 11038,
       "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
+      "requirement": "Residential Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Doncaster Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
+        "geography \"Doncaster Yorkshire\" in Residential Conversion territory (prescoped — not scored)",
         "price 850000 within budget 500000-2000000",
         "keyword hit \"freehold\""
       ],
@@ -6497,10 +6497,10 @@
       "sizeLabel": "5,241 sq. ft.",
       "sizeSqft": 5241,
       "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
+      "requirement": "Residential Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Doncaster Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
+        "geography \"Doncaster Yorkshire\" in Residential Conversion territory (prescoped — not scored)",
         "price 725000 within budget 500000-2000000",
         "keyword hit \"planning\""
       ],
@@ -6551,10 +6551,10 @@
       "sizeLabel": "",
       "sizeSqft": null,
       "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
+      "requirement": "Residential Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Doncaster Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
+        "geography \"Doncaster Yorkshire\" in Residential Conversion territory (prescoped — not scored)",
         "price 700000 within budget 500000-2000000",
         "keyword hit \"freehold\""
       ],
@@ -6603,10 +6603,10 @@
       "sizeLabel": "12,000 sq. ft.",
       "sizeSqft": 12000,
       "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
+      "requirement": "Residential Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Doncaster Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
+        "geography \"Doncaster Yorkshire\" in Residential Conversion territory (prescoped — not scored)",
         "price 575000 within budget 500000-2000000",
         "keyword hit \"freehold\""
       ],
@@ -6657,10 +6657,10 @@
       "sizeLabel": "11,326 sq. ft.",
       "sizeSqft": 11326,
       "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
+      "requirement": "Residential Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Doncaster Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
+        "geography \"Doncaster Yorkshire\" in Residential Conversion territory (prescoped — not scored)",
         "price 500000 within budget 500000-2000000",
         "keyword hit \"freehold\""
       ],
@@ -6711,10 +6711,10 @@
       "sizeLabel": "46,238–250,000 sq. ft.",
       "sizeSqft": 250000,
       "source": "Rightmove Commercial",
-      "requirement": "Data Centre Sites",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Doncaster Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "geography \"Doncaster Yorkshire\" in Data Centre Development territory (prescoped — not scored)",
         "size 250000 >= min 20000",
         "keyword hit \"industrial\""
       ],
@@ -6765,10 +6765,10 @@
       "sizeLabel": "131,041 sq. ft.",
       "sizeSqft": 131041,
       "source": "Rightmove Commercial",
-      "requirement": "Data Centre Sites",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Doncaster Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "geography \"Doncaster Yorkshire\" in Data Centre Development territory (prescoped — not scored)",
         "size 131041 >= min 20000",
         "keyword hit \"industrial\""
       ],
@@ -6819,10 +6819,10 @@
       "sizeLabel": "66,737 sq. ft.",
       "sizeSqft": 66737,
       "source": "Rightmove Commercial",
-      "requirement": "Data Centre Sites",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Doncaster Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "geography \"Doncaster Yorkshire\" in Data Centre Development territory (prescoped — not scored)",
         "size 66737 >= min 20000",
         "keyword hit \"industrial\""
       ],
@@ -6873,10 +6873,10 @@
       "sizeLabel": "66,737 sq. ft.",
       "sizeSqft": 66737,
       "source": "Rightmove Commercial",
-      "requirement": "Data Centre Sites",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Doncaster Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "geography \"Doncaster Yorkshire\" in Data Centre Development territory (prescoped — not scored)",
         "size 66737 >= min 20000",
         "keyword hit \"industrial\""
       ],
@@ -6927,10 +6927,10 @@
       "sizeLabel": "131,041 sq. ft.",
       "sizeSqft": 131041,
       "source": "Rightmove Commercial",
-      "requirement": "Data Centre Sites",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Doncaster Yorkshire\" in Data Centre Sites territory (prescoped — not scored)",
+        "geography \"Doncaster Yorkshire\" in Data Centre Development territory (prescoped — not scored)",
         "size 131041 >= min 20000",
         "keyword hit \"industrial\""
       ],
@@ -6981,10 +6981,10 @@
       "sizeLabel": "",
       "sizeSqft": null,
       "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
+      "requirement": "Residential Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Doncaster Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
+        "geography \"Doncaster Yorkshire\" in Residential Conversion territory (prescoped — not scored)",
         "price 1500000 within budget 500000-2000000",
         "keyword hit \"freehold\""
       ],
@@ -7033,10 +7033,10 @@
       "sizeLabel": "8,500 sq. ft.",
       "sizeSqft": 8500,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Manchester Greater Manchester\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 8500 >= min 2000",
         "keyword hit \"freehold\""
       ],
@@ -7087,10 +7087,10 @@
       "sizeLabel": "7,615 sq. ft.",
       "sizeSqft": 7615,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Manchester Greater Manchester\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 7615 >= min 2000",
         "keyword hit \"freehold\""
       ],
@@ -7139,10 +7139,10 @@
       "sizeLabel": "186,872 sq. ft.",
       "sizeSqft": 186872,
       "source": "Rightmove Commercial",
-      "requirement": "Data Centre Sites",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Manchester Greater Manchester\" in Data Centre Sites territory (prescoped — not scored)",
+        "geography \"Manchester Greater Manchester\" in Data Centre Development territory (prescoped — not scored)",
         "size 186872 >= min 20000",
         "keyword hit \"industrial\""
       ],
@@ -7193,10 +7193,10 @@
       "sizeLabel": "31,330 sq. ft.",
       "sizeSqft": 31330,
       "source": "Rightmove Commercial",
-      "requirement": "Data Centre Sites",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Manchester Greater Manchester\" in Data Centre Sites territory (prescoped — not scored)",
+        "geography \"Manchester Greater Manchester\" in Data Centre Development territory (prescoped — not scored)",
         "size 31330 >= min 20000",
         "keyword hit \"freehold\""
       ],
@@ -7247,10 +7247,10 @@
       "sizeLabel": "26,275 sq. ft.",
       "sizeSqft": 26275,
       "source": "Rightmove Commercial",
-      "requirement": "Data Centre Sites",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Manchester Greater Manchester\" in Data Centre Sites territory (prescoped — not scored)",
+        "geography \"Manchester Greater Manchester\" in Data Centre Development territory (prescoped — not scored)",
         "size 26275 >= min 20000",
         "keyword hit \"freehold\""
       ],
@@ -7299,10 +7299,10 @@
       "sizeLabel": "65,340 sq. ft.",
       "sizeSqft": 65340,
       "source": "Rightmove Commercial",
-      "requirement": "Data Centre Sites",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Manchester Greater Manchester\" in Data Centre Sites territory (prescoped — not scored)",
+        "geography \"Manchester Greater Manchester\" in Data Centre Development territory (prescoped — not scored)",
         "size 65340 >= min 20000",
         "keyword hit \"freehold\""
       ],
@@ -7351,10 +7351,10 @@
       "sizeLabel": "80,000 sq. ft.",
       "sizeSqft": 80000,
       "source": "Rightmove Commercial",
-      "requirement": "Data Centre Sites",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Manchester Greater Manchester\" in Data Centre Sites territory (prescoped — not scored)",
+        "geography \"Manchester Greater Manchester\" in Data Centre Development territory (prescoped — not scored)",
         "size 80000 >= min 20000",
         "keyword hit \"freehold\""
       ],
@@ -7405,10 +7405,10 @@
       "sizeLabel": "154,388 sq. ft.",
       "sizeSqft": 154388,
       "source": "Rightmove Commercial",
-      "requirement": "Data Centre Sites",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Manchester Greater Manchester\" in Data Centre Sites territory (prescoped — not scored)",
+        "geography \"Manchester Greater Manchester\" in Data Centre Development territory (prescoped — not scored)",
         "size 154388 >= min 20000",
         "keyword hit \"freehold\""
       ],
@@ -7459,10 +7459,10 @@
       "sizeLabel": "17,197 sq. ft.",
       "sizeSqft": 17197,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Manchester Greater Manchester\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 17197 >= min 2000",
         "keyword hit \"office\""
       ],
@@ -7513,10 +7513,10 @@
       "sizeLabel": "2,914 sq. ft.",
       "sizeSqft": 2914,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Manchester Greater Manchester\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 2914 >= min 2000",
         "keyword hit \"freehold\""
       ],
@@ -7567,10 +7567,10 @@
       "sizeLabel": "10,430 sq. ft.",
       "sizeSqft": 10430,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Manchester Greater Manchester\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 10430 >= min 2000",
         "keyword hit \"freehold\""
       ],
@@ -7621,10 +7621,10 @@
       "sizeLabel": "10,033 sq. ft.",
       "sizeSqft": 10033,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Manchester Greater Manchester\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 10033 >= min 2000",
         "keyword hit \"freehold\""
       ],
@@ -7675,10 +7675,10 @@
       "sizeLabel": "9,766 sq. ft.",
       "sizeSqft": 9766,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Manchester Greater Manchester\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 9766 >= min 2000",
         "keyword hit \"planning\""
       ],
@@ -7729,10 +7729,10 @@
       "sizeLabel": "15,685 sq. ft.",
       "sizeSqft": 15685,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Manchester Greater Manchester\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 15685 >= min 2000",
         "keyword hit \"office\""
       ],
@@ -7781,10 +7781,10 @@
       "sizeLabel": "6,520 sq. ft.",
       "sizeSqft": 6520,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Manchester Greater Manchester\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 6520 >= min 2000",
         "keyword hit \"freehold\""
       ],
@@ -7833,10 +7833,10 @@
       "sizeLabel": "",
       "sizeSqft": null,
       "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
+      "requirement": "Residential Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Manchester Greater Manchester\" in Citywide Investors territory (prescoped — not scored)",
+        "geography \"Manchester Greater Manchester\" in Residential Conversion territory (prescoped — not scored)",
         "price 1300000 within budget 500000-2000000",
         "keyword hit \"freehold\""
       ],
@@ -7887,10 +7887,10 @@
       "sizeLabel": "",
       "sizeSqft": null,
       "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
+      "requirement": "Residential Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Manchester Greater Manchester\" in Citywide Investors territory (prescoped — not scored)",
+        "geography \"Manchester Greater Manchester\" in Residential Conversion territory (prescoped — not scored)",
         "price 1275000 within budget 500000-2000000",
         "keyword hit \"freehold\""
       ],
@@ -7941,10 +7941,10 @@
       "sizeLabel": "6,352 sq. ft.",
       "sizeSqft": 6352,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Manchester Greater Manchester\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 6352 >= min 2000",
         "keyword hit \"office\""
       ],
@@ -7993,10 +7993,10 @@
       "sizeLabel": "47,916 sq. ft.",
       "sizeSqft": 47916,
       "source": "Rightmove Commercial",
-      "requirement": "Data Centre Sites",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Manchester Greater Manchester\" in Data Centre Sites territory (prescoped — not scored)",
+        "geography \"Manchester Greater Manchester\" in Data Centre Development territory (prescoped — not scored)",
         "size 47916 >= min 20000",
         "keyword hit \"freehold\""
       ],
@@ -8047,10 +8047,10 @@
       "sizeLabel": "2,400–2,450 sq. ft.",
       "sizeSqft": 2450,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Manchester Greater Manchester\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 2450 >= min 2000",
         "keyword hit \"freehold\""
       ],
@@ -8101,10 +8101,10 @@
       "sizeLabel": "",
       "sizeSqft": null,
       "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
+      "requirement": "Residential Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Manchester Greater Manchester\" in Citywide Investors territory (prescoped — not scored)",
+        "geography \"Manchester Greater Manchester\" in Residential Conversion territory (prescoped — not scored)",
         "price 1000000 within budget 500000-2000000",
         "keyword hit \"freehold\""
       ],
@@ -8153,10 +8153,10 @@
       "sizeLabel": "3,062 sq. ft.",
       "sizeSqft": 3062,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Manchester Greater Manchester\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 3062 >= min 2000",
         "keyword hit \"office\""
       ],
@@ -8205,10 +8205,10 @@
       "sizeLabel": "6,208 sq. ft.",
       "sizeSqft": 6208,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Manchester Greater Manchester\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 6208 >= min 2000",
         "keyword hit \"office\""
       ],
@@ -8259,10 +8259,10 @@
       "sizeLabel": "5,266 sq. ft.",
       "sizeSqft": 5266,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Manchester Greater Manchester\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 5266 >= min 2000",
         "keyword hit \"freehold\""
       ],
@@ -8311,10 +8311,10 @@
       "sizeLabel": "21,507 sq. ft.",
       "sizeSqft": 21507,
       "source": "Rightmove Commercial",
-      "requirement": "Data Centre Sites",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Manchester Greater Manchester\" in Data Centre Sites territory (prescoped — not scored)",
+        "geography \"Manchester Greater Manchester\" in Data Centre Development territory (prescoped — not scored)",
         "size 21507 >= min 20000",
         "keyword hit \"freehold\""
       ],
@@ -8365,10 +8365,10 @@
       "sizeLabel": "1–11,080 sq. ft.",
       "sizeSqft": 11080,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Manchester Greater Manchester\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 11080 >= min 2000",
         "keyword hit \"office\""
       ],
@@ -8417,10 +8417,10 @@
       "sizeLabel": "9,107 sq. ft.",
       "sizeSqft": 9107,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Manchester Greater Manchester\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 9107 >= min 2000",
         "keyword hit \"freehold\""
       ],
@@ -8471,10 +8471,10 @@
       "sizeLabel": "1,133 sq. ft.",
       "sizeSqft": 1133,
       "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
+      "requirement": "Residential Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Manchester Greater Manchester\" in Citywide Investors territory (prescoped — not scored)",
+        "geography \"Manchester Greater Manchester\" in Residential Conversion territory (prescoped — not scored)",
         "price 885000 within budget 500000-2000000",
         "keyword hit \"freehold\""
       ],
@@ -8525,10 +8525,10 @@
       "sizeLabel": "1,992–7,798 sq. ft.",
       "sizeSqft": 7798,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Manchester Greater Manchester\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 7798 >= min 2000",
         "keyword hit \"vacant\""
       ],
@@ -8579,10 +8579,10 @@
       "sizeLabel": "5,542 sq. ft.",
       "sizeSqft": 5542,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Manchester Greater Manchester\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 5542 >= min 2000",
         "keyword hit \"freehold\""
       ],
@@ -8633,10 +8633,10 @@
       "sizeLabel": "",
       "sizeSqft": null,
       "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
+      "requirement": "Residential Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Manchester Greater Manchester\" in Citywide Investors territory (prescoped — not scored)",
+        "geography \"Manchester Greater Manchester\" in Residential Conversion territory (prescoped — not scored)",
         "price 675000 within budget 500000-2000000",
         "keyword hit \"freehold\""
       ],
@@ -8685,10 +8685,10 @@
       "sizeLabel": "4,047 sq. ft.",
       "sizeSqft": 4047,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Manchester Greater Manchester\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 4047 >= min 2000",
         "keyword hit \"office\""
       ],
@@ -8737,10 +8737,10 @@
       "sizeLabel": "2,252 sq. ft.",
       "sizeSqft": 2252,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Manchester Greater Manchester\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 2252 >= min 2000",
         "keyword hit \"freehold\""
       ],
@@ -8789,10 +8789,10 @@
       "sizeLabel": "",
       "sizeSqft": null,
       "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
+      "requirement": "Residential Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Manchester Greater Manchester\" in Citywide Investors territory (prescoped — not scored)",
+        "geography \"Manchester Greater Manchester\" in Residential Conversion territory (prescoped — not scored)",
         "price 640000 within budget 500000-2000000",
         "keyword hit \"freehold\""
       ],
@@ -8843,10 +8843,10 @@
       "sizeLabel": "2,242 sq. ft.",
       "sizeSqft": 2242,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Manchester Greater Manchester\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 2242 >= min 2000",
         "keyword hit \"office\""
       ],
@@ -8895,10 +8895,10 @@
       "sizeLabel": "5,960 sq. ft.",
       "sizeSqft": 5960,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Manchester Greater Manchester\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 5960 >= min 2000",
         "keyword hit \"development opportunity\""
       ],
@@ -8949,10 +8949,10 @@
       "sizeLabel": "6,824 sq. ft.",
       "sizeSqft": 6824,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Manchester Greater Manchester\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 6824 >= min 2000",
         "keyword hit \"freehold\""
       ],
@@ -9001,10 +9001,10 @@
       "sizeLabel": "1,431–1,432 sq. ft.",
       "sizeSqft": 1432,
       "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
+      "requirement": "Residential Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Manchester Greater Manchester\" in Citywide Investors territory (prescoped — not scored)",
+        "geography \"Manchester Greater Manchester\" in Residential Conversion territory (prescoped — not scored)",
         "price 600000 within budget 500000-2000000",
         "keyword hit \"freehold\""
       ],
@@ -9055,10 +9055,10 @@
       "sizeLabel": "3,245 sq. ft.",
       "sizeSqft": 3245,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Manchester Greater Manchester\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 3245 >= min 2000",
         "keyword hit \"office\""
       ],
@@ -9107,10 +9107,10 @@
       "sizeLabel": "",
       "sizeSqft": null,
       "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
+      "requirement": "Residential Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Manchester Greater Manchester\" in Citywide Investors territory (prescoped — not scored)",
+        "geography \"Manchester Greater Manchester\" in Residential Conversion territory (prescoped — not scored)",
         "price 560000 within budget 500000-2000000",
         "keyword hit \"freehold\""
       ],
@@ -9159,10 +9159,10 @@
       "sizeLabel": "1,319 sq. ft.",
       "sizeSqft": 1319,
       "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
+      "requirement": "Residential Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Manchester Greater Manchester\" in Citywide Investors territory (prescoped — not scored)",
+        "geography \"Manchester Greater Manchester\" in Residential Conversion territory (prescoped — not scored)",
         "price 525000 within budget 500000-2000000",
         "keyword hit \"freehold\""
       ],
@@ -9211,10 +9211,10 @@
       "sizeLabel": "",
       "sizeSqft": null,
       "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
+      "requirement": "Residential Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Manchester Greater Manchester\" in Citywide Investors territory (prescoped — not scored)",
+        "geography \"Manchester Greater Manchester\" in Residential Conversion territory (prescoped — not scored)",
         "price 525000 within budget 500000-2000000",
         "keyword hit \"freehold\""
       ],
@@ -9263,10 +9263,10 @@
       "sizeLabel": "2,336 sq. ft.",
       "sizeSqft": 2336,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Manchester Greater Manchester\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 2336 >= min 2000",
         "keyword hit \"office\""
       ],
@@ -9317,10 +9317,10 @@
       "sizeLabel": "2,229 sq. ft.",
       "sizeSqft": 2229,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Manchester Greater Manchester\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 2229 >= min 2000",
         "keyword hit \"freehold\""
       ],
@@ -9371,10 +9371,10 @@
       "sizeLabel": "2,076 sq. ft.",
       "sizeSqft": 2076,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Manchester Greater Manchester\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 2076 >= min 2000",
         "keyword hit \"office\""
       ],
@@ -9423,10 +9423,10 @@
       "sizeLabel": "2,877 sq. ft.",
       "sizeSqft": 2877,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Manchester Greater Manchester\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 2877 >= min 2000",
         "keyword hit \"freehold\""
       ],
@@ -9477,10 +9477,10 @@
       "sizeLabel": "3,046 sq. ft.",
       "sizeSqft": 3046,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Manchester Greater Manchester\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 3046 >= min 2000",
         "keyword hit \"freehold\""
       ],
@@ -9529,10 +9529,10 @@
       "sizeLabel": "2,634 sq. ft.",
       "sizeSqft": 2634,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Manchester Greater Manchester\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 2634 >= min 2000",
         "keyword hit \"freehold\""
       ],
@@ -9581,10 +9581,10 @@
       "sizeLabel": "2,012 sq. ft.",
       "sizeSqft": 2012,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Manchester Greater Manchester\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 2012 >= min 2000",
         "keyword hit \"freehold\""
       ],
@@ -9633,10 +9633,10 @@
       "sizeLabel": "74,960 sq. ft.",
       "sizeSqft": 74960,
       "source": "Rightmove Commercial",
-      "requirement": "Data Centre Sites",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Bolton Greater Manchester\" in Data Centre Sites territory (prescoped — not scored)",
+        "geography \"Bolton Greater Manchester\" in Data Centre Development territory (prescoped — not scored)",
         "size 74960 >= min 20000",
         "keyword hit \"industrial\""
       ],
@@ -9687,10 +9687,10 @@
       "sizeLabel": "28,211 sq. ft.",
       "sizeSqft": 28211,
       "source": "Rightmove Commercial",
-      "requirement": "Data Centre Sites",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Bolton Greater Manchester\" in Data Centre Sites territory (prescoped — not scored)",
+        "geography \"Bolton Greater Manchester\" in Data Centre Development territory (prescoped — not scored)",
         "size 28211 >= min 20000",
         "keyword hit \"planning\""
       ],
@@ -9741,10 +9741,10 @@
       "sizeLabel": "11,326 sq. ft.",
       "sizeSqft": 11326,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Bolton Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Bolton Greater Manchester\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 11326 >= min 2000",
         "keyword hit \"freehold\""
       ],
@@ -9795,10 +9795,10 @@
       "sizeLabel": "",
       "sizeSqft": null,
       "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
+      "requirement": "Residential Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Bolton Greater Manchester\" in Citywide Investors territory (prescoped — not scored)",
+        "geography \"Bolton Greater Manchester\" in Residential Conversion territory (prescoped — not scored)",
         "price 1200000 within budget 500000-2000000",
         "keyword hit \"freehold\""
       ],
@@ -9849,10 +9849,10 @@
       "sizeLabel": "7,000 sq. ft.",
       "sizeSqft": 7000,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Bolton Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Bolton Greater Manchester\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 7000 >= min 2000",
         "keyword hit \"office\""
       ],
@@ -9903,10 +9903,10 @@
       "sizeLabel": "35,719 sq. ft.",
       "sizeSqft": 35719,
       "source": "Rightmove Commercial",
-      "requirement": "Data Centre Sites",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Bolton Greater Manchester\" in Data Centre Sites territory (prescoped — not scored)",
+        "geography \"Bolton Greater Manchester\" in Data Centre Development territory (prescoped — not scored)",
         "size 35719 >= min 20000",
         "keyword hit \"freehold\""
       ],
@@ -9957,10 +9957,10 @@
       "sizeLabel": "",
       "sizeSqft": null,
       "source": "Rightmove Commercial",
-      "requirement": "Citywide Investors",
+      "requirement": "Residential Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Bolton Greater Manchester\" in Citywide Investors territory (prescoped — not scored)",
+        "geography \"Bolton Greater Manchester\" in Residential Conversion territory (prescoped — not scored)",
         "price 750000 within budget 500000-2000000",
         "keyword hit \"planning\""
       ],
@@ -10011,10 +10011,10 @@
       "sizeLabel": "4,668 sq. ft.",
       "sizeSqft": 4668,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Bolton Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Bolton Greater Manchester\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 4668 >= min 2000",
         "keyword hit \"office\""
       ],
@@ -10065,10 +10065,10 @@
       "sizeLabel": "5,346 sq. ft.",
       "sizeSqft": 5346,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Bolton Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Bolton Greater Manchester\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 5346 >= min 2000",
         "keyword hit \"office\""
       ],
@@ -10119,10 +10119,10 @@
       "sizeLabel": "8,288 sq. ft.",
       "sizeSqft": 8288,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Bolton Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Bolton Greater Manchester\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 8288 >= min 2000",
         "keyword hit \"office\""
       ],
@@ -10173,10 +10173,10 @@
       "sizeLabel": "3,625 sq. ft.",
       "sizeSqft": 3625,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Bolton Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Bolton Greater Manchester\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 3625 >= min 2000",
         "keyword hit \"office\""
       ],
@@ -10227,10 +10227,10 @@
       "sizeLabel": "3,645 sq. ft.",
       "sizeSqft": 3645,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Bolton Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Bolton Greater Manchester\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 3645 >= min 2000",
         "keyword hit \"freehold\""
       ],
@@ -10281,10 +10281,10 @@
       "sizeLabel": "25,700 sq. ft.",
       "sizeSqft": 25700,
       "source": "Rightmove Commercial",
-      "requirement": "Data Centre Sites",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Bolton Greater Manchester\" in Data Centre Sites territory (prescoped — not scored)",
+        "geography \"Bolton Greater Manchester\" in Data Centre Development territory (prescoped — not scored)",
         "size 25700 >= min 20000",
         "keyword hit \"planning\""
       ],
@@ -10333,10 +10333,10 @@
       "sizeLabel": "1,000–2,000 sq. ft.",
       "sizeSqft": 2000,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Bolton Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Bolton Greater Manchester\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 2000 >= min 2000",
         "keyword hit \"vacant\""
       ],
@@ -10387,10 +10387,10 @@
       "sizeLabel": "2,088 sq. ft.",
       "sizeSqft": 2088,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Bolton Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Bolton Greater Manchester\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 2088 >= min 2000",
         "keyword hit \"office\""
       ],
@@ -10441,10 +10441,10 @@
       "sizeLabel": "8,793 sq. ft.",
       "sizeSqft": 8793,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Bolton Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Bolton Greater Manchester\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 8793 >= min 2000",
         "keyword hit \"freehold\""
       ],
@@ -10493,10 +10493,10 @@
       "sizeLabel": "3,000 sq. ft.",
       "sizeSqft": 3000,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Bolton Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Bolton Greater Manchester\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 3000 >= min 2000",
         "keyword hit \"freehold\""
       ],
@@ -10545,10 +10545,10 @@
       "sizeLabel": "4,897 sq. ft.",
       "sizeSqft": 4897,
       "source": "Rightmove Commercial",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Bolton Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Bolton Greater Manchester\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 4897 >= min 2000",
         "keyword hit \"freehold\""
       ],

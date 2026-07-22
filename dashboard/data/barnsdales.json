@@ -9,10 +9,10 @@
       "sizeLabel": "1.1 acres",
       "sizeSqft": null,
       "source": "Barnsdales",
-      "requirement": "Citywide Investors",
+      "requirement": "Residential Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Castleford Yorkshire\" matches Citywide Investors",
+        "geography \"Castleford Yorkshire\" matches Residential Conversion",
         "price 600000 within budget 500000-2000000"
       ],
       "url": "https://www.barnsdales.co.uk/properties/319160",
@@ -59,10 +59,10 @@
       "sizeLabel": "12000 sqft",
       "sizeSqft": 12000,
       "source": "Barnsdales",
-      "requirement": "Citywide Investors",
+      "requirement": "Residential Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Doncaster Yorkshire\" matches Citywide Investors",
+        "geography \"Doncaster Yorkshire\" matches Residential Conversion",
         "price 575000 within budget 500000-2000000"
       ],
       "url": "https://www.barnsdales.co.uk/properties/319692",

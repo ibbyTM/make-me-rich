@@ -105,9 +105,9 @@ export async function getRequirement(h: Harness, id: string): Promise<Requiremen
 }
 
 /**
- * Idempotently insert each seed requirement (Citywide Investors, Educating
- * Excellence, Data Centre Sites) that isn't already present, matched by
- * name — so this is safe to call on every report-script run regardless of
+ * Idempotently insert each seed requirement (Residential Conversion, Church
+ * & Chapel Conversion, Data Centre Development) that isn't already present,
+ * matched by name — so this is safe to call on every report-script run regardless of
  * whether the store already has some seeds, all seeds, or custom
  * requirements too (2026-07-19 fix: previously gated on total row count, so
  * adding a new seed to SEED_REQUIREMENTS never reached an

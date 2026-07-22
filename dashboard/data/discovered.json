@@ -9,10 +9,10 @@
       "sizeLabel": "2342.65 sqft",
       "sizeSqft": 2343,
       "source": "SMC Brownill Vickers",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Sheffield Yorkshire\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 2343 >= min 2000",
         "keyword hit \"office\""
       ],
@@ -62,10 +62,10 @@
       "sizeLabel": "3863 sqft",
       "sizeSqft": 3863,
       "source": "SMC Brownill Vickers",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Sheffield Yorkshire\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 3863 >= min 2000",
         "keyword hit \"freehold\""
       ],
@@ -113,10 +113,10 @@
       "sizeLabel": "8918 sqft",
       "sizeSqft": 8918,
       "source": "SMC Brownill Vickers",
-      "requirement": "Citywide Investors",
+      "requirement": "Residential Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Deepcar Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
+        "geography \"Deepcar Yorkshire\" in Residential Conversion territory (prescoped — not scored)",
         "price 950000 within budget 500000-2000000",
         "keyword hit \"freehold\""
       ],
@@ -164,10 +164,10 @@
       "sizeLabel": "2783 sqft",
       "sizeSqft": 2783,
       "source": "SMC Brownill Vickers",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Sheffield Yorkshire\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Sheffield Yorkshire\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 2783 >= min 2000",
         "keyword hit \"freehold\""
       ],
@@ -217,10 +217,10 @@
       "sizeLabel": "4674 sqft",
       "sizeSqft": 4674,
       "source": "Gifford Dixon",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Manchester Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Manchester Greater Manchester\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 4674 >= min 2000",
         "keyword hit \"office\""
       ],
@@ -268,10 +268,10 @@
       "sizeLabel": "2336 sqft",
       "sizeSqft": 2336,
       "source": "Gifford Dixon",
-      "requirement": "Educating Excellence",
+      "requirement": "Church & Chapel Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Salford Greater Manchester\" in Educating Excellence territory (prescoped — not scored)",
+        "geography \"Salford Greater Manchester\" in Church & Chapel Conversion territory (prescoped — not scored)",
         "size 2336 >= min 2000",
         "keyword hit \"office\""
       ],
@@ -321,10 +321,10 @@
       "sizeLabel": "87876 sqft",
       "sizeSqft": 87876,
       "source": "Bromwich Hardy",
-      "requirement": "Data Centre Sites",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Coventry West Midlands\" in Data Centre Sites territory (prescoped — not scored)",
+        "geography \"Coventry West Midlands\" in Data Centre Development territory (prescoped — not scored)",
         "size 87876 >= min 20000",
         "keyword hit \"industrial\""
       ],
@@ -372,10 +372,10 @@
       "sizeLabel": "74754 sqft",
       "sizeSqft": 74754,
       "source": "Bromwich Hardy",
-      "requirement": "Data Centre Sites",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Coventry West Midlands\" in Data Centre Sites territory (prescoped — not scored)",
+        "geography \"Coventry West Midlands\" in Data Centre Development territory (prescoped — not scored)",
         "size 74754 >= min 20000",
         "keyword hit \"warehouse\""
       ],
@@ -423,10 +423,10 @@
       "sizeLabel": "60433 sqft",
       "sizeSqft": 60433,
       "source": "Bromwich Hardy",
-      "requirement": "Data Centre Sites",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Coventry West Midlands\" in Data Centre Sites territory (prescoped — not scored)",
+        "geography \"Coventry West Midlands\" in Data Centre Development territory (prescoped — not scored)",
         "size 60433 >= min 20000",
         "keyword hit \"industrial\""
       ],
@@ -474,10 +474,10 @@
       "sizeLabel": "48625 sqft",
       "sizeSqft": 48625,
       "source": "Bromwich Hardy",
-      "requirement": "Data Centre Sites",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Daventry East Midlands\" in Data Centre Sites territory (prescoped — not scored)",
+        "geography \"Daventry East Midlands\" in Data Centre Development territory (prescoped — not scored)",
         "size 48625 >= min 20000",
         "keyword hit \"industrial\""
       ],
@@ -525,10 +525,10 @@
       "sizeLabel": "47064 sqft",
       "sizeSqft": 47064,
       "source": "Bromwich Hardy",
-      "requirement": "Data Centre Sites",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Alcester West Midlands\" in Data Centre Sites territory (prescoped — not scored)",
+        "geography \"Alcester West Midlands\" in Data Centre Development territory (prescoped — not scored)",
         "size 47064 >= min 20000",
         "keyword hit \"distribution\""
       ],
@@ -576,10 +576,10 @@
       "sizeLabel": "36872 sqft",
       "sizeSqft": 36872,
       "source": "Bromwich Hardy",
-      "requirement": "Data Centre Sites",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Nuneaton West Midlands\" in Data Centre Sites territory (prescoped — not scored)",
+        "geography \"Nuneaton West Midlands\" in Data Centre Development territory (prescoped — not scored)",
         "size 36872 >= min 20000",
         "keyword hit \"power\""
       ],
@@ -627,10 +627,10 @@
       "sizeLabel": "62016 sqft",
       "sizeSqft": 62016,
       "source": "Wood Moore & Co",
-      "requirement": "Data Centre Sites",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Lincoln East Midlands\" in Data Centre Sites territory (prescoped — not scored)",
+        "geography \"Lincoln East Midlands\" in Data Centre Development territory (prescoped — not scored)",
         "size 62016 >= min 20000",
         "keyword hit \"freehold\""
       ],
@@ -678,10 +678,10 @@
       "sizeLabel": "92467 sqft",
       "sizeSqft": 92467,
       "source": "Connect Property North East",
-      "requirement": "Data Centre Sites",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Darlington North East\" in Data Centre Sites territory (prescoped — not scored)",
+        "geography \"Darlington North East\" in Data Centre Development territory (prescoped — not scored)",
         "size 92467 >= min 20000",
         "keyword hit \"freehold\""
       ],
@@ -729,10 +729,10 @@
       "sizeLabel": "78408 sqft",
       "sizeSqft": 78408,
       "source": "Connect Property North East",
-      "requirement": "Data Centre Sites",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Sunderland North East\" in Data Centre Sites territory (prescoped — not scored)",
+        "geography \"Sunderland North East\" in Data Centre Development territory (prescoped — not scored)",
         "size 78408 >= min 20000",
         "keyword hit \"freehold\""
       ],
@@ -780,10 +780,10 @@
       "sizeLabel": "38293 sqft",
       "sizeSqft": 38293,
       "source": "Connect Property North East",
-      "requirement": "Data Centre Sites",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Seaham North East\" in Data Centre Sites territory (prescoped — not scored)",
+        "geography \"Seaham North East\" in Data Centre Development territory (prescoped — not scored)",
         "size 38293 >= min 20000",
         "keyword hit \"freehold\""
       ],
@@ -831,10 +831,10 @@
       "sizeLabel": "35811 sqft",
       "sizeSqft": 35811,
       "source": "Connect Property North East",
-      "requirement": "Data Centre Sites",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Newton Aycliffe North East\" in Data Centre Sites territory (prescoped — not scored)",
+        "geography \"Newton Aycliffe North East\" in Data Centre Development territory (prescoped — not scored)",
         "size 35811 >= min 20000",
         "keyword hit \"freehold\""
       ],
@@ -882,10 +882,10 @@
       "sizeLabel": "30010 sqft",
       "sizeSqft": 30010,
       "source": "Connect Property North East",
-      "requirement": "Data Centre Sites",
+      "requirement": "Data Centre Development",
       "score": 2,
       "reasons": [
-        "geography \"Stockton on Tees North East\" in Data Centre Sites territory (prescoped — not scored)",
+        "geography \"Stockton on Tees North East\" in Data Centre Development territory (prescoped — not scored)",
         "size 30010 >= min 20000",
         "keyword hit \"freehold\""
       ],
@@ -933,10 +933,10 @@
       "sizeLabel": "4520 sqft",
       "sizeSqft": 4520,
       "source": "Connect Property North East",
-      "requirement": "Citywide Investors",
+      "requirement": "Residential Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Thirsk Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
+        "geography \"Thirsk Yorkshire\" in Residential Conversion territory (prescoped — not scored)",
         "price 678000 within budget 500000-2000000",
         "keyword hit \"freehold\""
       ],
@@ -984,10 +984,10 @@
       "sizeLabel": "3616 sqft",
       "sizeSqft": 3616,
       "source": "Connect Property North East",
-      "requirement": "Citywide Investors",
+      "requirement": "Residential Conversion",
       "score": 2,
       "reasons": [
-        "geography \"Thirsk Yorkshire\" in Citywide Investors territory (prescoped — not scored)",
+        "geography \"Thirsk Yorkshire\" in Residential Conversion territory (prescoped — not scored)",
         "price 510000 within budget 500000-2000000",
         "keyword hit \"freehold\""
       ],

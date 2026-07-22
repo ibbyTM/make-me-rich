@@ -21,9 +21,9 @@ describe('requirementsRepo', () => {
     await ensureSeeded(h);
     const first = await listRequirements(h);
     expect(first.map((r) => r.name).sort()).toEqual([
-      'Citywide Investors',
-      'Data Centre Sites',
-      'Educating Excellence',
+      'Church & Chapel Conversion',
+      'Data Centre Development',
+      'Residential Conversion',
     ]);
 
     await ensureSeeded(h); // second call must be a no-op
@@ -58,10 +58,10 @@ describe('requirementsRepo', () => {
     await insertRequirement(h, { name: 'New One', geographies: ['leicester'] });
     const active = await listActiveRequirements(h);
     expect(active.map((r) => r.name).sort()).toEqual([
-      'Citywide Investors',
-      'Data Centre Sites',
-      'Educating Excellence',
+      'Church & Chapel Conversion',
+      'Data Centre Development',
       'New One',
+      'Residential Conversion',
     ]);
   });
 

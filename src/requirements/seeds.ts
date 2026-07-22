@@ -8,7 +8,7 @@ import type { Requirement } from '../types.js';
 
 export const CITYWIDE: Requirement = {
   id: 'citywide',
-  name: 'Citywide Investors',
+  name: 'Residential Conversion',
   active: true,
   geographies: ['yorkshire', 'greater manchester'],
   budgetRange: [500000, 2000000],
@@ -17,7 +17,7 @@ export const CITYWIDE: Requirement = {
 
 export const EDUCATING: Requirement = {
   id: 'educating',
-  name: 'Educating Excellence',
+  name: 'Church & Chapel Conversion',
   active: true,
   geographies: ['manchester', 'bolton', 'sheffield', 'bradford', 'huddersfield'],
   minSize: 2000,
@@ -32,7 +32,7 @@ export const EDUCATING: Requirement = {
 };
 
 /**
- * Added 2026-07-19: unlike Citywide/Educating (C2R residential and church
+ * Added 2026-07-19: unlike Citywide/Educating (residential and church
  * conversion respectively), this exists so Stage-0 also scores the full raw
  * pull for large industrial/warehouse/land stock suited to data-centre
  * siting — without it, a listing too big or wrongly-worded for the other two
@@ -44,10 +44,16 @@ export const EDUCATING: Requirement = {
  * in (see the extended region() mapping in scripts/discovered-agents-
  * report.ts) — narrower than "everywhere" but as wide as the actual sources
  * cover, not just Yorkshire/Greater Manchester.
+ *
+ * Name changed 2026-07-22 (Citywide Investors/Educating Excellence/Data
+ * Centre Sites -> Residential Conversion/Church & Chapel Conversion/Data
+ * Centre Development) at the user's request: the dashboard's requirement
+ * tag should read as the STRATEGY for a property (what we'd do with it),
+ * not the brand name of the saved search that found it.
  */
 export const DATA_CENTRE: Requirement = {
   id: 'data-centre',
-  name: 'Data Centre Sites',
+  name: 'Data Centre Development',
   active: true,
   geographies: ['yorkshire', 'greater manchester', 'west midlands', 'east midlands', 'north east'],
   minSize: 20000,
