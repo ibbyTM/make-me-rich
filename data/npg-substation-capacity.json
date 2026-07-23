@@ -1,0 +1,6832 @@
+[
+  {
+    "name": "Bradford",
+    "lat": 53.80245007876948,
+    "lon": -1.7527924071649421,
+    "firmCapacityMva": 117,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "Yorkshire",
+    "postcode": "BD1 4RF"
+  },
+  {
+    "name": "Crown Street",
+    "lat": 53.79752873179523,
+    "lon": -1.7683521472709076,
+    "firmCapacityMva": 8,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "BD1  2LA"
+  },
+  {
+    "name": "Dalton",
+    "lat": 53.65387044661354,
+    "lon": -1.7496217836861339,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "HD2 1FF"
+  },
+  {
+    "name": "Deighton",
+    "lat": 53.67247111983536,
+    "lon": -1.7473016782318944,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "HD2  1UP"
+  },
+  {
+    "name": "Airedale Road",
+    "lat": 53.870143254852806,
+    "lon": -1.8889153225395492,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "BD21 4LJ"
+  },
+  {
+    "name": "Allerton Hill T2",
+    "lat": 53.830671359579,
+    "lon": -1.539124821749924,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS7 3QB"
+  },
+  {
+    "name": "Armouries Drive",
+    "lat": 53.79066604669437,
+    "lon": -1.5299547015469377,
+    "firmCapacityMva": 30,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS10 1LT"
+  },
+  {
+    "name": "Arundel Street",
+    "lat": 53.37567438806783,
+    "lon": -1.4701395413499967,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "S1 4PJ"
+  },
+  {
+    "name": "Askern",
+    "lat": 53.61891593163269,
+    "lon": -1.1596496051482803,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN6  0BY"
+  },
+  {
+    "name": "Attercliffe",
+    "lat": 53.390910230780925,
+    "lon": -1.4272911940451534,
+    "firmCapacityMva": 69,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "Yorkshire",
+    "postcode": "S9 3FA"
+  },
+  {
+    "name": "Aycliffe Industrial",
+    "lat": 54.611396254054505,
+    "lon": -1.5652050530216495,
+    "firmCapacityMva": 19,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "DL5  6HY"
+  },
+  {
+    "name": "Barden Friar",
+    "lat": 54.33773824870694,
+    "lon": -1.7945973889299134,
+    "firmCapacityMva": 5,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "DL8  5JR"
+  },
+  {
+    "name": "Barnsley Road",
+    "lat": 53.411123505111995,
+    "lon": -1.4536775911945594,
+    "firmCapacityMva": 30,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "S5 7AU"
+  },
+  {
+    "name": "Beighton",
+    "lat": 53.357128054213035,
+    "lon": -1.3268667448652565,
+    "firmCapacityMva": 25,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "S26 4TL"
+  },
+  {
+    "name": "Belmont Covert",
+    "lat": 53.338172281887076,
+    "lon": -0.16055671654232279,
+    "firmCapacityMva": 8,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LN11 9RA"
+  },
+  {
+    "name": "Benwell",
+    "lat": 54.97240423817559,
+    "lon": -1.6614665069242809,
+    "firmCapacityMva": 29,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "NE4  8XQ"
+  },
+  {
+    "name": "Billet Lane",
+    "lat": 53.6163680188226,
+    "lon": -0.6654381381087832,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN15 8QW"
+  },
+  {
+    "name": "Billingham Marsh House",
+    "lat": 54.61604506084608,
+    "lon": -1.2838710602042287,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "TS23 2AL"
+  },
+  {
+    "name": "Billy Mill",
+    "lat": 55.01551436591985,
+    "lon": -1.474865869581328,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "NE29 8LP"
+  },
+  {
+    "name": "Binbrook",
+    "lat": 53.41984508025604,
+    "lon": -0.17634103362326822,
+    "firmCapacityMva": 8,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LN8 6DR"
+  },
+  {
+    "name": "Blue Boy Street",
+    "lat": 53.38696056104855,
+    "lon": -1.4754272402604927,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "S3 7BA"
+  },
+  {
+    "name": "Blyth 132kV",
+    "lat": 55.14139794693114,
+    "lon": -1.5266629433220762,
+    "firmCapacityMva": 260,
+    "siteLevel": "GSP",
+    "primaryVoltageKv": 275,
+    "dnoArea": "North East",
+    "postcode": "NE22 7BL"
+  },
+  {
+    "name": "BOC Brinsworth",
+    "lat": 53.41118290862152,
+    "lon": -1.3862951210086185,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "S9   1WT"
+  },
+  {
+    "name": "Bottesford",
+    "lat": 53.560385495850966,
+    "lon": -0.6376089721346343,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN16 3UJ"
+  },
+  {
+    "name": "Bramhope",
+    "lat": 53.88248061371094,
+    "lon": -1.6251602574840387,
+    "firmCapacityMva": 8,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS16 9HA"
+  },
+  {
+    "name": "Bramley",
+    "lat": 53.80673667862797,
+    "lon": -1.624347625221988,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS13 3ST"
+  },
+  {
+    "name": "Brancepeth",
+    "lat": 54.719844460018955,
+    "lon": -1.7079721778361596,
+    "firmCapacityMva": 28,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "DL15 0TW"
+  },
+  {
+    "name": "Bridges Road",
+    "lat": 53.57155454373942,
+    "lon": -0.6683596740884384,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN17 1HA"
+  },
+  {
+    "name": "Brodsworth",
+    "lat": 53.565276867946395,
+    "lon": -1.2104784478377268,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN5  7XB"
+  },
+  {
+    "name": "BTP",
+    "lat": 53.58188050397593,
+    "lon": -0.10775319431129377,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN31 2RL"
+  },
+  {
+    "name": "Burmantofts",
+    "lat": 53.80247076164614,
+    "lon": -1.528532158981593,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS9 7SS"
+  },
+  {
+    "name": "Buslingthorpe Green",
+    "lat": 53.81384490741971,
+    "lon": -1.5435922484107412,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS7 2HG"
+  },
+  {
+    "name": "Catterick Camp",
+    "lat": 54.37482570447355,
+    "lon": -1.7294505244437341,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "DL9  3HE"
+  },
+  {
+    "name": "Claywheels Lane",
+    "lat": 53.41754052471101,
+    "lon": -1.5028864749877835,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "S6 1LY"
+  },
+  {
+    "name": "Coneythorpe",
+    "lat": 54.030302951382495,
+    "lon": -1.4064082625360765,
+    "firmCapacityMva": 22,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "HG5  0RZ"
+  },
+  {
+    "name": "Convamore Road",
+    "lat": 53.55779296590386,
+    "lon": -0.06925622021765619,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN32 9PG"
+  },
+  {
+    "name": "Corporation Street",
+    "lat": 54.97330492111621,
+    "lon": -1.6224509137207346,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "NE4  5SS"
+  },
+  {
+    "name": "Costhorpe",
+    "lat": 53.36968343543775,
+    "lon": -1.1266717996550437,
+    "firmCapacityMva": 10,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "S81 9QR"
+  },
+  {
+    "name": "Cramlington T1 T3",
+    "lat": 55.091913833896655,
+    "lon": -1.6055570810516426,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "NE23 8AJ"
+  },
+  {
+    "name": "Cramlington T2 T4",
+    "lat": 55.091913833896655,
+    "lon": -1.6055570810516426,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "NE23 8AJ"
+  },
+  {
+    "name": "Darlington 132/6kV",
+    "lat": 54.52755279142222,
+    "lon": -1.5467353388677365,
+    "firmCapacityMva": 12,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 6,
+    "dnoArea": "North East",
+    "postcode": "DL1  1SW"
+  },
+  {
+    "name": "Darlington West",
+    "lat": 54.52972440170788,
+    "lon": -1.5886021164736215,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "DL3  9QG"
+  },
+  {
+    "name": "Dearne Road",
+    "lat": 53.511275416996085,
+    "lon": -1.3301425711658226,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "S63 7DG"
+  },
+  {
+    "name": "Doughty Road",
+    "lat": 53.56264243409875,
+    "lon": -0.0823534447616626,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN32 0LR"
+  },
+  {
+    "name": "Driffield",
+    "lat": 53.99941875168722,
+    "lon": -0.4164817070479103,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "YO25 5XR"
+  },
+  {
+    "name": "Driffield/Beverley Group",
+    "lat": 53.99927566074689,
+    "lon": -0.41721946017383343,
+    "firmCapacityMva": 147,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "Yorkshire",
+    "postcode": "YO25 5NW"
+  },
+  {
+    "name": "Easington",
+    "lat": 53.660552010893774,
+    "lon": 0.11550079503804112,
+    "firmCapacityMva": 17,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "HU12 0SU"
+  },
+  {
+    "name": "Eastfield Road",
+    "lat": 53.64104148769103,
+    "lon": -0.2581670503864125,
+    "firmCapacityMva": 7,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN40 3LW"
+  },
+  {
+    "name": "Eastgate Cement",
+    "lat": 54.741961230079056,
+    "lon": -2.080179061335486,
+    "firmCapacityMva": 26,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "DL13 2LA"
+  },
+  {
+    "name": "Ecclesfield",
+    "lat": 53.444580983395625,
+    "lon": -1.4521044129925782,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "S35 9YR"
+  },
+  {
+    "name": "Educational Precinct",
+    "lat": 54.97931659624848,
+    "lon": -1.6081920547956816,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "NE5  4JQ"
+  },
+  {
+    "name": "Eggborough",
+    "lat": 53.70497673429621,
+    "lon": -1.1227760474210835,
+    "firmCapacityMva": 8,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN14 0QA"
+  },
+  {
+    "name": "Elgar Road",
+    "lat": 53.7352577864344,
+    "lon": -0.41751313413327285,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "HU4  7NY"
+  },
+  {
+    "name": "First Avenue",
+    "lat": 53.781454567912846,
+    "lon": -0.35948164965433343,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "HU6  9NE"
+  },
+  {
+    "name": "Girlington",
+    "lat": 53.79565414906382,
+    "lon": -1.7900257059343858,
+    "firmCapacityMva": 117,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "Yorkshire",
+    "postcode": "BD7 2NB"
+  },
+  {
+    "name": "Harden",
+    "lat": 53.83402650541833,
+    "lon": -1.8677379443169442,
+    "firmCapacityMva": 8,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "BD16 1BG"
+  },
+  {
+    "name": "Holderness",
+    "lat": 53.7740435051841,
+    "lon": -0.26594293992659807,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "HU9  4AU"
+  },
+  {
+    "name": "Moor Road",
+    "lat": 53.82789753095795,
+    "lon": -1.5818012259741943,
+    "firmCapacityMva": 20,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS6 4BJ"
+  },
+  {
+    "name": "Elland",
+    "lat": 53.69487926588612,
+    "lon": -1.8229365012372374,
+    "firmCapacityMva": 600,
+    "siteLevel": "GSP",
+    "primaryVoltageKv": 275,
+    "dnoArea": "Yorkshire",
+    "postcode": "HX5 9AE"
+  },
+  {
+    "name": "Elland 33/11kV",
+    "lat": 53.685048041718574,
+    "lon": -1.830396844231135,
+    "firmCapacityMva": 18,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "HX5 9AE"
+  },
+  {
+    "name": "Elmhirst Lane 2",
+    "lat": 53.54709972876618,
+    "lon": -1.5384212769934988,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "S75 4LS"
+  },
+  {
+    "name": "Epworth",
+    "lat": 53.52866751538169,
+    "lon": -0.8289718452098506,
+    "firmCapacityMva": 10,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN9  1JU"
+  },
+  {
+    "name": "Featherstone",
+    "lat": 53.686140619281,
+    "lon": -1.384547020565373,
+    "firmCapacityMva": 114.3,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "Yorkshire",
+    "postcode": "WF7 6HE"
+  },
+  {
+    "name": "Ferrybridge B",
+    "lat": 53.718876278566555,
+    "lon": -1.27084182416316,
+    "firmCapacityMva": 480,
+    "siteLevel": "GSP",
+    "primaryVoltageKv": 275,
+    "dnoArea": "Yorkshire",
+    "postcode": "WF11 8UL"
+  },
+  {
+    "name": "Flixborough",
+    "lat": 53.618716271391655,
+    "lon": -0.6949813459411813,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN15 8RR"
+  },
+  {
+    "name": "Foss Islands",
+    "lat": 53.96130166434603,
+    "lon": -1.0723505450971302,
+    "firmCapacityMva": 36,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "YO31 7US"
+  },
+  {
+    "name": "Fossway 33/11kV",
+    "lat": 54.9797979931954,
+    "lon": -1.5647356049392,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "NE6  4AN"
+  },
+  {
+    "name": "Foxhills",
+    "lat": 53.61258830704622,
+    "lon": -0.6642421970188123,
+    "firmCapacityMva": 18,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN15 8QW"
+  },
+  {
+    "name": "Furness Avenue",
+    "lat": 53.749288428795886,
+    "lon": -1.8956480854023652,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "WF8  3JA"
+  },
+  {
+    "name": "Fylands Bridge",
+    "lat": 54.64180692329412,
+    "lon": -1.680532553895028,
+    "firmCapacityMva": 25,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "DL14 9TA"
+  },
+  {
+    "name": "Goole",
+    "lat": 53.700874810536966,
+    "lon": -0.8864998882683082,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN14 6SX"
+  },
+  {
+    "name": "Grimethorpe",
+    "lat": 53.57083332379574,
+    "lon": -1.3819181837099674,
+    "firmCapacityMva": 25,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "S72  7BQ"
+  },
+  {
+    "name": "Halifax 33/11kV",
+    "lat": 53.72645600780067,
+    "lon": -1.8579053982382334,
+    "firmCapacityMva": 40,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "HX1  1XB"
+  },
+  {
+    "name": "Harraton",
+    "lat": 54.88420111720018,
+    "lon": -1.5402804341202125,
+    "firmCapacityMva": 36,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 11,
+    "dnoArea": "North East",
+    "postcode": "NE38 9BZ"
+  },
+  {
+    "name": "Harrogate 132/33kV",
+    "lat": 54.001092593148684,
+    "lon": -1.5540420001152702,
+    "firmCapacityMva": 120,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "North East",
+    "postcode": "HG1 2LA"
+  },
+  {
+    "name": "Harrogate West",
+    "lat": 53.988076812304634,
+    "lon": -1.56342307001387,
+    "firmCapacityMva": 30,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "HG2 0QB"
+  },
+  {
+    "name": "Hartmoor",
+    "lat": 54.70218138721344,
+    "lon": -1.2909985777078994,
+    "firmCapacityMva": 140,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 275,
+    "dnoArea": "North East",
+    "postcode": "TS27 3BG"
+  },
+  {
+    "name": "Hartmoor 66/20kV",
+    "lat": 54.70218138721344,
+    "lon": -1.2909985777078994,
+    "firmCapacityMva": 31,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "TS27 3BL"
+  },
+  {
+    "name": "Haworth 2",
+    "lat": 53.83834392664428,
+    "lon": -1.9388434078052343,
+    "firmCapacityMva": 30,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "BD22 9EP"
+  },
+  {
+    "name": "Hawthorn Pit",
+    "lat": 54.80622236341085,
+    "lon": -1.3977715195707063,
+    "firmCapacityMva": 27,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "SR7  9NX"
+  },
+  {
+    "name": "Hawthorn Pit Grid",
+    "lat": 54.80624143641626,
+    "lon": -1.4016295278638762,
+    "firmCapacityMva": 200,
+    "siteLevel": "GSP",
+    "primaryVoltageKv": 275,
+    "dnoArea": "North East",
+    "postcode": "SR7 9RN"
+  },
+  {
+    "name": "Haxby Road T2 T3",
+    "lat": 53.97669457410305,
+    "lon": -1.075378365166139,
+    "firmCapacityMva": 15,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "YO31 8FZ"
+  },
+  {
+    "name": "Hazlehead",
+    "lat": 53.540378141661954,
+    "lon": -1.734220894186295,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "S36 4HG"
+  },
+  {
+    "name": "Heckmondwike",
+    "lat": 53.711436602381696,
+    "lon": -1.680299541468602,
+    "firmCapacityMva": 58.9,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "Yorkshire",
+    "postcode": "WF16 9LU"
+  },
+  {
+    "name": "Hedley Chase",
+    "lat": 53.79550278216852,
+    "lon": -1.571056397537303,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS12 1YN"
+  },
+  {
+    "name": "Hedon Road",
+    "lat": 53.744117364525835,
+    "lon": -0.24488368041728323,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "HU12 8ED"
+  },
+  {
+    "name": "Heighington",
+    "lat": 54.5926659720274,
+    "lon": -1.5799983080176914,
+    "firmCapacityMva": 27,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "DL5  6JW"
+  },
+  {
+    "name": "Hexham",
+    "lat": 54.97735894197282,
+    "lon": -2.092975804101923,
+    "firmCapacityMva": 36,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "NE46 4NT"
+  },
+  {
+    "name": "Hibaldstow",
+    "lat": 53.48748959714112,
+    "lon": -0.5839685969789633,
+    "firmCapacityMva": 15,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN21 4NH"
+  },
+  {
+    "name": "Holmfield",
+    "lat": 53.75066218675214,
+    "lon": -1.875308803034583,
+    "firmCapacityMva": 117,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "Yorkshire",
+    "postcode": "HX2 9AY"
+  },
+  {
+    "name": "Hope",
+    "lat": 53.33942632619949,
+    "lon": -1.753132418721603,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "S33 6RP"
+  },
+  {
+    "name": "Houghton Main",
+    "lat": 53.5470818636953,
+    "lon": -1.3640177794601487,
+    "firmCapacityMva": 15,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "S72 0GX"
+  },
+  {
+    "name": "Howdon",
+    "lat": 54.99096660208098,
+    "lon": -1.481797302720864,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "NE28 0JX"
+  },
+  {
+    "name": "Hull East 33/11kV",
+    "lat": 53.748659411771335,
+    "lon": -0.25490114730049507,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "HU9  5NP"
+  },
+  {
+    "name": "Hull West",
+    "lat": 53.72296916236605,
+    "lon": -0.4630497578146384,
+    "firmCapacityMva": 101.3,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "Yorkshire",
+    "postcode": "HU13 0FA"
+  },
+  {
+    "name": "Humberston",
+    "lat": 53.53603987388565,
+    "lon": -0.04890828546723911,
+    "firmCapacityMva": 117,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN36 4AW"
+  },
+  {
+    "name": "Hunshelf",
+    "lat": 53.496159237012165,
+    "lon": -1.6054200086780535,
+    "firmCapacityMva": 156,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "Yorkshire",
+    "postcode": "S36 8WR"
+  },
+  {
+    "name": "ICI Fibres",
+    "lat": 53.53826738937577,
+    "lon": -1.1216831439902608,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN2  4LT"
+  },
+  {
+    "name": "Idle",
+    "lat": 53.82577103341903,
+    "lon": -1.7346377337212036,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "BD10 8SA"
+  },
+  {
+    "name": "Immingham",
+    "lat": 53.614977144637486,
+    "lon": -0.19243292860851027,
+    "firmCapacityMva": 117,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN40 1QT"
+  },
+  {
+    "name": "Ings Lane",
+    "lat": 53.95629217093639,
+    "lon": -2.035044542135826,
+    "firmCapacityMva": 8,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "BD23 1UP"
+  },
+  {
+    "name": "Iveson House",
+    "lat": 53.83996498757845,
+    "lon": -1.610175576703337,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS16 6RF"
+  },
+  {
+    "name": "Jarratt Street",
+    "lat": 53.517776205431,
+    "lon": -1.1307035850086962,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN1  2BS"
+  },
+  {
+    "name": "Jarrow",
+    "lat": 54.98025917378352,
+    "lon": -1.4999973669010007,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "NE32 5LD"
+  },
+  {
+    "name": "Keddington Road",
+    "lat": 53.37722113714209,
+    "lon": 0.015041101370372213,
+    "firmCapacityMva": 12,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LN11 0DE"
+  },
+  {
+    "name": "Kenton",
+    "lat": 55.00253027986301,
+    "lon": -1.6533807912772103,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "NE3  4UP"
+  },
+  {
+    "name": "Killinghall Road",
+    "lat": 53.79676717300373,
+    "lon": -1.7189713051080198,
+    "firmCapacityMva": 8,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "BD3  8HN"
+  },
+  {
+    "name": "Killingworth",
+    "lat": 55.03389440530091,
+    "lon": -1.5798892262794548,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "NE12 6QQ"
+  },
+  {
+    "name": "Kirbymoorside",
+    "lat": 54.252474998233076,
+    "lon": -0.9345657082709011,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "YO62 6EZ"
+  },
+  {
+    "name": "Kirk Sandall",
+    "lat": 53.558750332677086,
+    "lon": -1.076044910246914,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN3  1QP"
+  },
+  {
+    "name": "Kirkburn",
+    "lat": 53.97801459209416,
+    "lon": -0.5148860766319919,
+    "firmCapacityMva": 8,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "YO25 9EH"
+  },
+  {
+    "name": "Lackenby",
+    "lat": 54.56767524471104,
+    "lon": -1.1324631032870303,
+    "firmCapacityMva": 260,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 275,
+    "dnoArea": "North East",
+    "postcode": "TS6 7QR"
+  },
+  {
+    "name": "Lea Road",
+    "lat": 53.39082109434801,
+    "lon": -0.7743376192116845,
+    "firmCapacityMva": 16,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN21 1ND"
+  },
+  {
+    "name": "Leeds East",
+    "lat": 53.801675254205165,
+    "lon": -1.5094557078941044,
+    "firmCapacityMva": 117,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS9 6ED"
+  },
+  {
+    "name": "Leeds North",
+    "lat": 53.81389333821951,
+    "lon": -1.5421488939548618,
+    "firmCapacityMva": 117,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS7 2AU"
+  },
+  {
+    "name": "Leeds Road",
+    "lat": 53.90261770376821,
+    "lon": -1.424078171518087,
+    "firmCapacityMva": 8,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS22 5AA"
+  },
+  {
+    "name": "Low Road",
+    "lat": 53.780312692508815,
+    "lon": -1.5233475734972233,
+    "firmCapacityMva": 228,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS10 1RH"
+  },
+  {
+    "name": "Lynemouth",
+    "lat": 55.205525714740055,
+    "lon": -1.5346235256823497,
+    "firmCapacityMva": 38,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "NE61 5XH"
+  },
+  {
+    "name": "Maddison Street",
+    "lat": 55.12810383859199,
+    "lon": -1.5142898739732504,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "NE24 1HD"
+  },
+  {
+    "name": "Manchester Road",
+    "lat": 53.789304367685276,
+    "lon": -1.7545999853489842,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "BD5  0QL"
+  },
+  {
+    "name": "Meadowfield",
+    "lat": 54.745581080196,
+    "lon": -1.6114597856589057,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "DH7  8ER"
+  },
+  {
+    "name": "Menston",
+    "lat": 53.88551418366155,
+    "lon": -1.7268813347642287,
+    "firmCapacityMva": 117,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS29 6BP"
+  },
+  {
+    "name": "Middleton Town Street",
+    "lat": 53.751474573426066,
+    "lon": -1.5453904002197332,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS10 3TQ"
+  },
+  {
+    "name": "Millbank Lane",
+    "lat": 54.539829109703696,
+    "lon": -1.2981734974617585,
+    "firmCapacityMva": 21,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "TS17 0AX"
+  },
+  {
+    "name": "Millhouses",
+    "lat": 53.34577045157656,
+    "lon": -1.4953997077588672,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "S7 2QH"
+  },
+  {
+    "name": "Moor Monkton Pumps",
+    "lat": 54.01084117295632,
+    "lon": -1.1982403931351198,
+    "firmCapacityMva": 8,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "YO30 1BY"
+  },
+  {
+    "name": "Moorside Road",
+    "lat": 53.814202187764806,
+    "lon": -1.7221201496372887,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "BD2  3RJ"
+  },
+  {
+    "name": "Moss Road",
+    "lat": 53.56309192196917,
+    "lon": -0.0806721077065944,
+    "firmCapacityMva": 59,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN32 0LW"
+  },
+  {
+    "name": "Mount Road",
+    "lat": 54.896219320700204,
+    "lon": -1.402573406272688,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "SR4  7LJ"
+  },
+  {
+    "name": "Park Road",
+    "lat": 53.68473008548809,
+    "lon": -1.6323227254235158,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "WF12 9LW"
+  },
+  {
+    "name": "Prince of Wales",
+    "lat": 53.69851448112176,
+    "lon": -1.3191771500073453,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "WF8  4PR"
+  },
+  {
+    "name": "Prospect Road",
+    "lat": 53.64771508964682,
+    "lon": -1.8397592588752407,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "HD3 4UY"
+  },
+  {
+    "name": "Roman Avenue",
+    "lat": 53.84717666189229,
+    "lon": -1.508255402809992,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS8 2DY"
+  },
+  {
+    "name": "Neepsend",
+    "lat": 53.403593297341324,
+    "lon": -1.4866240031546485,
+    "firmCapacityMva": 140,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 275,
+    "dnoArea": "Yorkshire",
+    "postcode": "S6 2ET"
+  },
+  {
+    "name": "New Droppingwell Road",
+    "lat": 53.42927676526882,
+    "lon": -1.416737293179494,
+    "firmCapacityMva": 25,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "S61 2DL"
+  },
+  {
+    "name": "New Orchard Lane",
+    "lat": 53.402177098233835,
+    "lon": -1.2537946706870937,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "S66 9HY"
+  },
+  {
+    "name": "Newcastle Airport",
+    "lat": 55.03497475023581,
+    "lon": -1.7100834277180823,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "NE13 8DF"
+  },
+  {
+    "name": "Newton Aycliffe South",
+    "lat": 54.610179940821595,
+    "lon": -1.584819007356505,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "DL5  6EA"
+  },
+  {
+    "name": "Norfolk Park",
+    "lat": 53.366075273118554,
+    "lon": -1.4484830266450714,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "S2 3UU"
+  },
+  {
+    "name": "Norton 132/11kV",
+    "lat": 54.592292499449634,
+    "lon": -1.362673871922843,
+    "firmCapacityMva": 38,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 11,
+    "dnoArea": "North East",
+    "postcode": "TS21 1EG"
+  },
+  {
+    "name": "Norton Lees",
+    "lat": 53.34861601723589,
+    "lon": -1.4716466460310886,
+    "firmCapacityMva": 120,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 275,
+    "dnoArea": "Yorkshire",
+    "postcode": "S8 9BH"
+  },
+  {
+    "name": "Oakwood Lane",
+    "lat": 53.8160392192324,
+    "lon": -1.4903024832596057,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS8 3LF"
+  },
+  {
+    "name": "Oatlands",
+    "lat": 53.9768380097911,
+    "lon": -1.5312933790294876,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "HG2  8BY"
+  },
+  {
+    "name": "Orgreave",
+    "lat": 53.377707958811584,
+    "lon": -1.372270262188055,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "S13  9NA"
+  },
+  {
+    "name": "Osbaldwick",
+    "lat": 53.95632998737675,
+    "lon": -1.0245162101312506,
+    "firmCapacityMva": 480,
+    "siteLevel": "GSP",
+    "primaryVoltageKv": 400,
+    "dnoArea": "North East",
+    "postcode": "YO19 5UN"
+  },
+  {
+    "name": "Penistone Road",
+    "lat": 53.39708401568931,
+    "lon": -1.4883716226555166,
+    "firmCapacityMva": 20,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "S6 2FL"
+  },
+  {
+    "name": "Potter House T4 T5",
+    "lat": 54.799624606184054,
+    "lon": -1.5917782737737503,
+    "firmCapacityMva": 30,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "DH1  5FF"
+  },
+  {
+    "name": "Prissick",
+    "lat": 54.54200366177151,
+    "lon": -1.210602703039837,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "TS4  3SG"
+  },
+  {
+    "name": "Rawcliffe",
+    "lat": 53.68250597862967,
+    "lon": -0.9445202894612987,
+    "firmCapacityMva": 8,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN14 8PQ"
+  },
+  {
+    "name": "Rawmarsh Road 1_2",
+    "lat": 53.43625692720961,
+    "lon": -1.3564155122587092,
+    "firmCapacityMva": 39,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 11,
+    "dnoArea": "Yorkshire",
+    "postcode": "S60 1RR"
+  },
+  {
+    "name": "Rawson Road",
+    "lat": 53.79664666532374,
+    "lon": -1.7585954065220846,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "BD1  3SH"
+  },
+  {
+    "name": "Redcar",
+    "lat": 54.599981377920194,
+    "lon": -1.06219744300581,
+    "firmCapacityMva": 38,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "TS10 2PA"
+  },
+  {
+    "name": "Ripon",
+    "lat": 54.13312115052314,
+    "lon": -1.5213135254117223,
+    "firmCapacityMva": 19,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "HG4  1QE"
+  },
+  {
+    "name": "Romanby",
+    "lat": 54.32680579988951,
+    "lon": -1.4529360402687364,
+    "firmCapacityMva": 8,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "DL7  8HP"
+  },
+  {
+    "name": "Royds Lane",
+    "lat": 53.74637057093057,
+    "lon": -1.475254413386522,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS26 0BE"
+  },
+  {
+    "name": "Saltend North",
+    "lat": 53.74263133905893,
+    "lon": -0.23795502608891594,
+    "firmCapacityMva": 200,
+    "siteLevel": "GSP",
+    "primaryVoltageKv": 275,
+    "dnoArea": "Yorkshire",
+    "postcode": "HU12 8PP"
+  },
+  {
+    "name": "Saltshouse Road",
+    "lat": 53.77865410334665,
+    "lon": -0.2947102958775872,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "HU8  9HR"
+  },
+  {
+    "name": "Santon",
+    "lat": 53.59612543365839,
+    "lon": -0.5948146043863981,
+    "firmCapacityMva": 117,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN16 1XP"
+  },
+  {
+    "name": "Scartho",
+    "lat": 53.53485026929107,
+    "lon": -0.09951444720446262,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN33 3JL"
+  },
+  {
+    "name": "Scholes",
+    "lat": 53.56290741615537,
+    "lon": -1.7574960828515462,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "HD9  1UG"
+  },
+  {
+    "name": "Sculcoates A",
+    "lat": 53.76271342657861,
+    "lon": -0.34452552952699794,
+    "firmCapacityMva": 39,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 11,
+    "dnoArea": "Yorkshire",
+    "postcode": "HU5 1DA"
+  },
+  {
+    "name": "Seal Sands",
+    "lat": 54.607021054876405,
+    "lon": -1.2017595181013982,
+    "firmCapacityMva": 112,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "North East",
+    "postcode": "TS2 1FB"
+  },
+  {
+    "name": "Silsden",
+    "lat": 53.90918640573602,
+    "lon": -1.9236248894830266,
+    "firmCapacityMva": 108,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "Yorkshire",
+    "postcode": "BD20 0ND"
+  },
+  {
+    "name": "Silverwood",
+    "lat": 53.440681619832276,
+    "lon": -1.2796313422282433,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "S65 4PR"
+  },
+  {
+    "name": "Skeldergate",
+    "lat": 53.955463782966326,
+    "lon": -1.0846412454209973,
+    "firmCapacityMva": 32,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "YO1  6HN"
+  },
+  {
+    "name": "Skillings Lane",
+    "lat": 53.72522258810669,
+    "lon": -0.5740689058715255,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "HU15 1EQ"
+  },
+  {
+    "name": "Slaithwaite",
+    "lat": 53.6142661582275,
+    "lon": -1.9033872126118139,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "HD7 6LS"
+  },
+  {
+    "name": "Smithy Green",
+    "lat": 53.573387031600625,
+    "lon": -1.474301702054801,
+    "firmCapacityMva": 8,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "S71  1NQ"
+  },
+  {
+    "name": "South Elmsall",
+    "lat": 53.584317569619756,
+    "lon": -1.2823279893107866,
+    "firmCapacityMva": 30,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "WF9  2JH"
+  },
+  {
+    "name": "South Ferriby",
+    "lat": 53.67133603845228,
+    "lon": -0.5318384857369453,
+    "firmCapacityMva": 21,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN18 6JL"
+  },
+  {
+    "name": "South Reston",
+    "lat": 53.32306016825728,
+    "lon": 0.11294146389141302,
+    "firmCapacityMva": 8,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LN11 8JQ"
+  },
+  {
+    "name": "Sowerby Bridge 132/33kV",
+    "lat": 53.70887268547495,
+    "lon": -1.9244413629122112,
+    "firmCapacityMva": 117,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "Yorkshire",
+    "postcode": "HX6 1EL"
+  },
+  {
+    "name": "Spadeadam 20kV",
+    "lat": 55.02607820501998,
+    "lon": -2.6066473386701987,
+    "firmCapacityMva": 12,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "CA8 7AT"
+  },
+  {
+    "name": "Spadeadam 33kV",
+    "lat": 55.02766490292597,
+    "lon": -2.6092211700700565,
+    "firmCapacityMva": 12,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "CA8 7AT"
+  },
+  {
+    "name": "Spennymoor 66/20kV",
+    "lat": 54.706382220021204,
+    "lon": -1.5566634220122053,
+    "firmCapacityMva": 44,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "DH6  5JX"
+  },
+  {
+    "name": "Spennymoor GSP",
+    "lat": 54.706382220021204,
+    "lon": -1.5566634220122053,
+    "firmCapacityMva": 480,
+    "siteLevel": "GSP",
+    "primaryVoltageKv": 400,
+    "dnoArea": "North East",
+    "postcode": "DH6 5JX"
+  },
+  {
+    "name": "Stainforth",
+    "lat": 53.59457067137416,
+    "lon": -1.0196310491474037,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN7  5HG"
+  },
+  {
+    "name": "Stairfoot",
+    "lat": 53.55033129222259,
+    "lon": -1.4405068975972442,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "S71 5AD"
+  },
+  {
+    "name": "Starbeck",
+    "lat": 53.997090546507934,
+    "lon": -1.4986354356155682,
+    "firmCapacityMva": 21,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "HG2  7PT"
+  },
+  {
+    "name": "Stella North",
+    "lat": 54.97783789648063,
+    "lon": -1.7243999186178938,
+    "firmCapacityMva": 260,
+    "siteLevel": "GSP",
+    "primaryVoltageKv": 275,
+    "dnoArea": "North East",
+    "postcode": "NE15 9RT"
+  },
+  {
+    "name": "Stoke Street",
+    "lat": 53.390852001090416,
+    "lon": -1.4396521738868202,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "S9   3QN"
+  },
+  {
+    "name": "Stoney Cut",
+    "lat": 54.81562741919829,
+    "lon": -1.3584017520469822,
+    "firmCapacityMva": 32,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "SR7  8RQ"
+  },
+  {
+    "name": "Stourton 132/11kV",
+    "lat": 53.76517664421591,
+    "lon": -1.494771573674145,
+    "firmCapacityMva": 12,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 11,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS10 1SP"
+  },
+  {
+    "name": "Stourton 33/11kV",
+    "lat": 53.76518066567507,
+    "lon": -1.4957272427402963,
+    "firmCapacityMva": 19,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS10 1AX"
+  },
+  {
+    "name": "Stow",
+    "lat": 53.32267988745902,
+    "lon": -0.6943917302803259,
+    "firmCapacityMva": 6,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LN1  2AJ"
+  },
+  {
+    "name": "Sweet Street",
+    "lat": 53.788905192403995,
+    "lon": -1.5561271751540557,
+    "firmCapacityMva": 30,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS11 9TZ"
+  },
+  {
+    "name": "Swinnow Moor",
+    "lat": 53.801407721078036,
+    "lon": -1.6453327233935588,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS13 4RJ"
+  },
+  {
+    "name": "Tadcaster",
+    "lat": 53.87782916053984,
+    "lon": -1.2644599721362275,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS24 9PA"
+  },
+  {
+    "name": "Tanfield",
+    "lat": 54.8859715717608,
+    "lon": -1.7017692414582373,
+    "firmCapacityMva": 32,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "DH9  9DB"
+  },
+  {
+    "name": "Tees Industrial T1 T2",
+    "lat": 54.608766149439255,
+    "lon": -1.1725409528218211,
+    "firmCapacityMva": 19,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "TS23 3NF"
+  },
+  {
+    "name": "Temple Park",
+    "lat": 54.96256754378438,
+    "lon": -1.4195816478431245,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "NE34 8TH"
+  },
+  {
+    "name": "Thirsk",
+    "lat": 54.23016396419551,
+    "lon": -1.3891411225873131,
+    "firmCapacityMva": 15,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "YO7  4NH"
+  },
+  {
+    "name": "Thurcroft",
+    "lat": 53.40488729790842,
+    "lon": -1.2661417366183925,
+    "firmCapacityMva": 360,
+    "siteLevel": "GSP",
+    "primaryVoltageKv": 275,
+    "dnoArea": "Yorkshire",
+    "postcode": "S66 9JD"
+  },
+  {
+    "name": "Thurcroft",
+    "lat": 53.40488729790842,
+    "lon": -1.2661417366183925,
+    "firmCapacityMva": 360,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 275,
+    "dnoArea": "Yorkshire",
+    "postcode": "S66 9JD"
+  },
+  {
+    "name": "Tinsley Park Road",
+    "lat": 53.39889760197537,
+    "lon": -1.417257879188034,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "S9 5DL"
+  },
+  {
+    "name": "Toller Lane",
+    "lat": 53.81042323414031,
+    "lon": -1.7910909706089564,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "BD9  5LE"
+  },
+  {
+    "name": "Tong Street",
+    "lat": 53.77039864504419,
+    "lon": -1.7199513877160102,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "BD4 9PP"
+  },
+  {
+    "name": "Tunstall",
+    "lat": 54.87300753704346,
+    "lon": -1.3935665820189544,
+    "firmCapacityMva": 30,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "SR3  2BT"
+  },
+  {
+    "name": "Urlay Nook",
+    "lat": 54.524199189491384,
+    "lon": -1.3784429816835198,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "TS16 0QB"
+  },
+  {
+    "name": "Varley Street",
+    "lat": 53.80386276816305,
+    "lon": -1.6677843121878069,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS28 6AN"
+  },
+  {
+    "name": "York Road",
+    "lat": 53.80156425138743,
+    "lon": -1.4999826615318246,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS9 6TF"
+  },
+  {
+    "name": "Wath Upon Dearne",
+    "lat": 53.50292391122529,
+    "lon": -1.329942502238722,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "S63 7DX"
+  },
+  {
+    "name": "Wawne Road",
+    "lat": 53.8028516171147,
+    "lon": -0.3323300954428245,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "HU7  5BT"
+  },
+  {
+    "name": "Weeland Road",
+    "lat": 53.70639914312751,
+    "lon": -1.2416529386060997,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "WF11 0LA"
+  },
+  {
+    "name": "West Docks",
+    "lat": 53.73046279294094,
+    "lon": -0.3749139136848616,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "HU3  4UU"
+  },
+  {
+    "name": "West Melton / Thorpe Marsh",
+    "lat": 53.501165490271646,
+    "lon": -1.3788459943160973,
+    "firmCapacityMva": 360,
+    "siteLevel": "GSP",
+    "primaryVoltageKv": 275,
+    "dnoArea": "Yorkshire",
+    "postcode": "S63 6EZ"
+  },
+  {
+    "name": "West Park",
+    "lat": 53.83873950742789,
+    "lon": -1.5929843729135074,
+    "firmCapacityMva": 12,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS16 5PS"
+  },
+  {
+    "name": "Westoe",
+    "lat": 54.996399612434985,
+    "lon": -1.4192655811370884,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "NE33 3GE"
+  },
+  {
+    "name": "Wheatacre Road",
+    "lat": 53.47937859006656,
+    "lon": -1.5896488238442061,
+    "firmCapacityMva": 7,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "S36 2GQ"
+  },
+  {
+    "name": "Wheatley Park",
+    "lat": 53.54053816500845,
+    "lon": -1.1127028513057253,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN2  4PG"
+  },
+  {
+    "name": "Whingate",
+    "lat": 53.796205635922384,
+    "lon": -1.602914677398169,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS12 3QT"
+  },
+  {
+    "name": "Whitby T2",
+    "lat": 54.47800667911013,
+    "lon": -0.6126470852137954,
+    "firmCapacityMva": 19,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "YO22 4JE"
+  },
+  {
+    "name": "Whitby West T2",
+    "lat": 54.48010627828065,
+    "lon": -0.6352342464457756,
+    "firmCapacityMva": 19,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "YO21 1LY"
+  },
+  {
+    "name": "Whitehall Road 2/3",
+    "lat": 53.79530327845111,
+    "lon": -1.553327093517576,
+    "firmCapacityMva": 30,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS1  4HR"
+  },
+  {
+    "name": "Whitehall Road 4/5",
+    "lat": 53.79482608328595,
+    "lon": -1.553104449118475,
+    "firmCapacityMva": 19,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS1  4BN"
+  },
+  {
+    "name": "Wincobank",
+    "lat": 53.41571822248712,
+    "lon": -1.4141543675229165,
+    "firmCapacityMva": 120,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 275,
+    "dnoArea": "Yorkshire",
+    "postcode": "S9 1EH"
+  },
+  {
+    "name": "Wold Newton",
+    "lat": 53.478865727921864,
+    "lon": -0.16945561076167398,
+    "firmCapacityMva": 99,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN37 0SW"
+  },
+  {
+    "name": "Wormald Green 132/33kV",
+    "lat": 54.07492259291315,
+    "lon": -1.5225942604937643,
+    "firmCapacityMva": 72,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "North East",
+    "postcode": "HG3  3PS"
+  },
+  {
+    "name": "Wrawby",
+    "lat": 53.56044227065158,
+    "lon": -0.45304886324299015,
+    "firmCapacityMva": 30,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN20 8SX"
+  },
+  {
+    "name": "Wynyard",
+    "lat": 54.63961137504836,
+    "lon": -1.3170017064613915,
+    "firmCapacityMva": 40,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "TS2  2FB"
+  },
+  {
+    "name": "Yarborough Road 33/11kV",
+    "lat": 53.565860100266825,
+    "lon": -0.10884599536983323,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN34 4BL"
+  },
+  {
+    "name": "Yedingham",
+    "lat": 54.19079650031152,
+    "lon": -0.6237072351619348,
+    "firmCapacityMva": 8,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "YO17 8RR"
+  },
+  {
+    "name": "Butterwick",
+    "lat": 54.13164408149769,
+    "lon": -0.4894385765730559,
+    "firmCapacityMva": 6,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "YO17 8HF"
+  },
+  {
+    "name": "Clarence Road",
+    "lat": 53.79301272292589,
+    "lon": -1.5347709424870328,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS10 1JE"
+  },
+  {
+    "name": "Aldham",
+    "lat": 53.53347374163371,
+    "lon": -1.4170420903110643,
+    "firmCapacityMva": 25,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "S73 8SW"
+  },
+  {
+    "name": "Allerton Hill T1",
+    "lat": 53.830671359579,
+    "lon": -1.539124821749924,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS7 3QB"
+  },
+  {
+    "name": "Alverthorpe Road",
+    "lat": 53.68257987880811,
+    "lon": -1.519924233427221,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "WF2 9PB"
+  },
+  {
+    "name": "Annfield",
+    "lat": 54.850204453886846,
+    "lon": -1.7320913207827457,
+    "firmCapacityMva": 87.9,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "North East",
+    "postcode": "DH9  7XW"
+  },
+  {
+    "name": "Bailiff Bridge",
+    "lat": 53.721283717354915,
+    "lon": -1.7781209881894275,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "HD6  4DT"
+  },
+  {
+    "name": "Barnoldswick",
+    "lat": 53.92414251585042,
+    "lon": -2.183455302504861,
+    "firmCapacityMva": 15,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "BB18 5RU"
+  },
+  {
+    "name": "Barnsley",
+    "lat": 53.554330711407495,
+    "lon": -1.4761529387019945,
+    "firmCapacityMva": 22,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "S71  1AJ"
+  },
+  {
+    "name": "Barugh 132/66kV",
+    "lat": 53.5731735670361,
+    "lon": -1.5197592682288787,
+    "firmCapacityMva": 98,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "Yorkshire",
+    "postcode": "S75 1LR"
+  },
+  {
+    "name": "Barugh 66/11kV",
+    "lat": 53.572935148271675,
+    "lon": -1.5185840744448296,
+    "firmCapacityMva": 30,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "S75  1HT"
+  },
+  {
+    "name": "Bedale",
+    "lat": 54.29018854603682,
+    "lon": -1.5905305714322466,
+    "firmCapacityMva": 22,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "DL8  1AH"
+  },
+  {
+    "name": "Beeston Royds 132/33kV",
+    "lat": 53.775882358693885,
+    "lon": -1.5839569250382326,
+    "firmCapacityMva": 228,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS12 6NJ"
+  },
+  {
+    "name": "Beeston Royds 33/11kV",
+    "lat": 53.7764494812216,
+    "lon": -1.5842092800441372,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS12 6EY"
+  },
+  {
+    "name": "Belmont",
+    "lat": 54.78336052416487,
+    "lon": -1.5371016901147982,
+    "firmCapacityMva": 32,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "DH1  2HL"
+  },
+  {
+    "name": "Belthorpe Lane",
+    "lat": 53.981493925961715,
+    "lon": -0.7916972661456813,
+    "firmCapacityMva": 8,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "YO42 1SB"
+  },
+  {
+    "name": "Bentley",
+    "lat": 53.55863722445846,
+    "lon": -1.1417171062460127,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN5  0NG"
+  },
+  {
+    "name": "Bingley 132/33kV",
+    "lat": 53.853129059158384,
+    "lon": -1.8407859677438807,
+    "firmCapacityMva": 117,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "Yorkshire",
+    "postcode": "BD16 2RD"
+  },
+  {
+    "name": "Birtley Grove 66/20kV",
+    "lat": 54.90101213912364,
+    "lon": -1.5845163872669474,
+    "firmCapacityMva": 28,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "DH3  1JH"
+  },
+  {
+    "name": "Blackburn Meadows 33/11kV",
+    "lat": 53.41892429384259,
+    "lon": -1.4062860590051003,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "S9   1HF"
+  },
+  {
+    "name": "Blucher 33/11kV",
+    "lat": 54.988611669868874,
+    "lon": -1.7240917590552598,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "NE15 9SB"
+  },
+  {
+    "name": "Blyth 66kV",
+    "lat": 55.14139794693114,
+    "lon": -1.5266629433220762,
+    "firmCapacityMva": 140,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 275,
+    "dnoArea": "North East",
+    "postcode": "NE24 1QP"
+  },
+  {
+    "name": "Blyton",
+    "lat": 53.4354257181782,
+    "lon": -0.7136844615630016,
+    "firmCapacityMva": 78,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN21 3NS"
+  },
+  {
+    "name": "Boldon Downhill",
+    "lat": 54.93802197589859,
+    "lon": -1.4516982151344178,
+    "firmCapacityMva": 25,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "NE36 0AS"
+  },
+  {
+    "name": "Bolton Road",
+    "lat": 53.916688225114065,
+    "lon": -1.933781416996054,
+    "firmCapacityMva": 15,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "BD20 0JT"
+  },
+  {
+    "name": "Bowesfield",
+    "lat": 54.55195012341082,
+    "lon": -1.3181727537384325,
+    "firmCapacityMva": 108,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "North East",
+    "postcode": "TS18 3HP"
+  },
+  {
+    "name": "Bowesfield 33/11kV",
+    "lat": 54.55195012341082,
+    "lon": -1.3181727537384325,
+    "firmCapacityMva": 31,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "TS18 3HR"
+  },
+  {
+    "name": "Bowesfield 66/11kV",
+    "lat": 54.55195012341082,
+    "lon": -1.3181727537384325,
+    "firmCapacityMva": 32,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "TS23 1PX"
+  },
+  {
+    "name": "Bramham",
+    "lat": 53.87164436724416,
+    "lon": -1.327122197639087,
+    "firmCapacityMva": 117,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS24 9NT"
+  },
+  {
+    "name": "Breamish Street",
+    "lat": 54.972599615457,
+    "lon": -1.5959006324335447,
+    "firmCapacityMva": 18,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "NE1  2BL"
+  },
+  {
+    "name": "Brett Street",
+    "lat": 54.08907747769254,
+    "lon": -0.20439272834405642,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "YO16 4HW"
+  },
+  {
+    "name": "Brighouse 33/11kV",
+    "lat": 53.699656563222376,
+    "lon": -1.7676927163931424,
+    "firmCapacityMva": 12,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "HD6  1QE"
+  },
+  {
+    "name": "Calder Wharf",
+    "lat": 53.679539416707414,
+    "lon": -1.65500105943019,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "WF13 3JQ"
+  },
+  {
+    "name": "Carley Hill",
+    "lat": 54.92768686831829,
+    "lon": -1.3965053825521012,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "SR5  1SG"
+  },
+  {
+    "name": "Carlin How T3 T4",
+    "lat": 54.562182305550245,
+    "lon": -0.909976010439732,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "TS13 4DL"
+  },
+  {
+    "name": "Chevin End",
+    "lat": 53.89143866752952,
+    "lon": -1.7197218109542196,
+    "firmCapacityMva": 30,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS29 6BE"
+  },
+  {
+    "name": "Clarendon Road",
+    "lat": 53.80603134206512,
+    "lon": -1.559636315078535,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS2  9JT"
+  },
+  {
+    "name": "Close",
+    "lat": 54.96544465338424,
+    "lon": -1.6147151199845844,
+    "firmCapacityMva": 32,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "NE1  3NB"
+  },
+  {
+    "name": "Clough Lane",
+    "lat": 53.65477701281971,
+    "lon": -0.24767400863679664,
+    "firmCapacityMva": 8,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN40 3EH"
+  },
+  {
+    "name": "Conyard Road",
+    "lat": 53.56306388581415,
+    "lon": -0.03685295471191746,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN35 7LQ"
+  },
+  {
+    "name": "County Road North",
+    "lat": 53.75724323125528,
+    "lon": -0.3930536937619235,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "HU5  5DR"
+  },
+  {
+    "name": "Cowton",
+    "lat": 54.430481715818566,
+    "lon": -1.50492273691829,
+    "firmCapacityMva": 8,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "DL6  2NF"
+  },
+  {
+    "name": "Cracoe",
+    "lat": 54.046835445260186,
+    "lon": -2.0286763216657353,
+    "firmCapacityMva": 12,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "BD23 6BE"
+  },
+  {
+    "name": "Creyke Beck",
+    "lat": 53.80117865067852,
+    "lon": -0.41375651155375326,
+    "firmCapacityMva": 720,
+    "siteLevel": "GSP",
+    "primaryVoltageKv": 400,
+    "dnoArea": "Yorkshire",
+    "postcode": "HU16 5SB"
+  },
+  {
+    "name": "Crookesmoor Road",
+    "lat": 53.38703430451117,
+    "lon": -1.4903865147359374,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "S6 3FP"
+  },
+  {
+    "name": "Crosshills",
+    "lat": 53.89589774333871,
+    "lon": -1.978628944465126,
+    "firmCapacityMva": 15,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "BD20 7AQ"
+  },
+  {
+    "name": "Darley",
+    "lat": 54.032317199092695,
+    "lon": -1.6784557494812977,
+    "firmCapacityMva": 8,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "HG3  2PP"
+  },
+  {
+    "name": "Darlington 132/6kV",
+    "lat": 54.52755279142222,
+    "lon": -1.5467353388677365,
+    "firmCapacityMva": 12,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 6,
+    "dnoArea": "North East",
+    "postcode": "DL1  1SW"
+  },
+  {
+    "name": "Darlington Central 33/11kV",
+    "lat": 54.52604547121039,
+    "lon": -1.5402472415521211,
+    "firmCapacityMva": 32,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "DL1  1HG"
+  },
+  {
+    "name": "Darlington East",
+    "lat": 54.51930824675319,
+    "lon": -1.5179228996644614,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "DL1  4NP"
+  },
+  {
+    "name": "Darlington North",
+    "lat": 54.55575388797692,
+    "lon": -1.561405552279772,
+    "firmCapacityMva": 109,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "North East",
+    "postcode": "DL3 0XE"
+  },
+  {
+    "name": "Darnall",
+    "lat": 53.38538203676549,
+    "lon": -1.4106315959621647,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "S9   4JT"
+  },
+  {
+    "name": "Drax",
+    "lat": 53.7325015137193,
+    "lon": -0.9927169028448322,
+    "firmCapacityMva": 260,
+    "siteLevel": "GSP",
+    "primaryVoltageKv": 400,
+    "dnoArea": "Yorkshire",
+    "postcode": "YO8 8FP"
+  },
+  {
+    "name": "Drax Primary",
+    "lat": 53.729712344688586,
+    "lon": -1.0020601733861527,
+    "firmCapacityMva": 8,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "YO8  6PQ"
+  },
+  {
+    "name": "Dunston 66/11kV",
+    "lat": 54.95985780268754,
+    "lon": -1.6608847765900703,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "NE11 9DH"
+  },
+  {
+    "name": "Dunston 66/20kV",
+    "lat": 54.95985780268754,
+    "lon": -1.6608847765900703,
+    "firmCapacityMva": 30,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "NE11 9DH"
+  },
+  {
+    "name": "Durkar Low Lane",
+    "lat": 53.64840978142257,
+    "lon": -1.5118253255571024,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "WF4 3BJ"
+  },
+  {
+    "name": "Edlington",
+    "lat": 53.48463490671797,
+    "lon": -1.182966206810268,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN12 1SU"
+  },
+  {
+    "name": "Four Lane Ends",
+    "lat": 53.800122353096995,
+    "lon": -1.7959246186288027,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "BD8  0LJ"
+  },
+  {
+    "name": "Greenhill",
+    "lat": 53.32531172163202,
+    "lon": -1.4848011392012852,
+    "firmCapacityMva": 10,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "S8 7RJ"
+  },
+  {
+    "name": "Low Moor",
+    "lat": 53.754922643158686,
+    "lon": -1.7622620264498658,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "BD12 0NG"
+  },
+  {
+    "name": "Ellifoot Lane",
+    "lat": 53.738591276424465,
+    "lon": -0.13956692215343003,
+    "firmCapacityMva": 2,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "HU12 9EB"
+  },
+  {
+    "name": "Ellin Street 2",
+    "lat": 53.373573483780504,
+    "lon": -1.4747649732915393,
+    "firmCapacityMva": 41,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "S1 4QZ"
+  },
+  {
+    "name": "Elmhirst Lane 1",
+    "lat": 53.54709972876618,
+    "lon": -1.5384212769934988,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "S75  4LS"
+  },
+  {
+    "name": "Elsecar",
+    "lat": 53.49645788016137,
+    "lon": -1.413132986388448,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "S74 8AU"
+  },
+  {
+    "name": "Elvington",
+    "lat": 53.924431703516085,
+    "lon": -0.948935442569955,
+    "firmCapacityMva": 20,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "YO41 4DY"
+  },
+  {
+    "name": "Endike Lane",
+    "lat": 53.779737371640316,
+    "lon": -0.3892956019121705,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "HU6  8AY"
+  },
+  {
+    "name": "Farnley Crescent",
+    "lat": 53.79042249915607,
+    "lon": -1.615537595344171,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS12 5AN"
+  },
+  {
+    "name": "Fenton Lane",
+    "lat": 53.80382247486686,
+    "lon": -1.228903191081402,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS25 6EZ"
+  },
+  {
+    "name": "Ferrybridge A",
+    "lat": 53.718876278566555,
+    "lon": -1.27084182416316,
+    "firmCapacityMva": 200,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 275,
+    "dnoArea": "Yorkshire",
+    "postcode": "WF11 8PR"
+  },
+  {
+    "name": "Ferrybridge A 11kV",
+    "lat": 53.718876278566555,
+    "lon": -1.27084182416316,
+    "firmCapacityMva": 33,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "WF11 8RR"
+  },
+  {
+    "name": "Fishburn",
+    "lat": 54.69469581071204,
+    "lon": -1.434751025763085,
+    "firmCapacityMva": 31,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "TS29 6JQ"
+  },
+  {
+    "name": "Fourstones 20kV",
+    "lat": 55.011960060152944,
+    "lon": -2.1650013777636374,
+    "firmCapacityMva": 60,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 275,
+    "dnoArea": "North East",
+    "postcode": "NE47 5DY"
+  },
+  {
+    "name": "Fourstones 20kV",
+    "lat": 55.011960060152944,
+    "lon": -2.1650013777636374,
+    "firmCapacityMva": 60,
+    "siteLevel": "GSP",
+    "primaryVoltageKv": 275,
+    "dnoArea": "North East",
+    "postcode": "NE47 5DX"
+  },
+  {
+    "name": "Gale Lane",
+    "lat": 53.949172207551506,
+    "lon": -1.126925078418403,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "YO24 3AF"
+  },
+  {
+    "name": "Gateshead Central",
+    "lat": 54.96031434555615,
+    "lon": -1.6010368898976974,
+    "firmCapacityMva": 22,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "NE8  1HB"
+  },
+  {
+    "name": "Greatham",
+    "lat": 54.62792668397759,
+    "lon": -1.2075152501150204,
+    "firmCapacityMva": 35,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 11,
+    "dnoArea": "North East",
+    "postcode": "TS25 2DD"
+  },
+  {
+    "name": "Greyfriars Rd",
+    "lat": 53.52621510584491,
+    "lon": -1.1379526338914936,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN1  1QN"
+  },
+  {
+    "name": "Grove Street",
+    "lat": 53.64327439480728,
+    "lon": -1.787394087524091,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "HD1 2PB"
+  },
+  {
+    "name": "Guisborough T1 T2",
+    "lat": 54.54252058183299,
+    "lon": -1.056837632233562,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "TS14 6GQ"
+  },
+  {
+    "name": "Hackenthorpe",
+    "lat": 53.350642943732765,
+    "lon": -1.384385425279836,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "S12 4ET"
+  },
+  {
+    "name": "Halifax 132/33kV",
+    "lat": 53.72608713921078,
+    "lon": -1.857603521964663,
+    "firmCapacityMva": 72,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "Yorkshire",
+    "postcode": "HX1 1XB"
+  },
+  {
+    "name": "Hallam Street",
+    "lat": 53.87309658816167,
+    "lon": -1.7130154962573514,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS20 8AG"
+  },
+  {
+    "name": "Harlow Green",
+    "lat": 54.930469366825086,
+    "lon": -1.592468271528658,
+    "firmCapacityMva": 18,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "NE9  6NT"
+  },
+  {
+    "name": "Harmire Bridge",
+    "lat": 54.55370614720161,
+    "lon": -1.916245347600854,
+    "firmCapacityMva": 28,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "DL12 8QJ"
+  },
+  {
+    "name": "Harpswell",
+    "lat": 53.401167565965295,
+    "lon": -0.6086161742979083,
+    "firmCapacityMva": 8,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN21 5UT"
+  },
+  {
+    "name": "Harworth",
+    "lat": 53.416236223286745,
+    "lon": -1.0636988781591676,
+    "firmCapacityMva": 30,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN11 8JW"
+  },
+  {
+    "name": "Haworth 1",
+    "lat": 53.83834392664428,
+    "lon": -1.9388434078052343,
+    "firmCapacityMva": 30,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "BD22 9EP"
+  },
+  {
+    "name": "Hawthorn Pit Grid",
+    "lat": 54.80624143641626,
+    "lon": -1.4016295278638762,
+    "firmCapacityMva": 200,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 275,
+    "dnoArea": "North East",
+    "postcode": "SR7 9RN"
+  },
+  {
+    "name": "Haxey",
+    "lat": 53.48544287675462,
+    "lon": -0.8128912663340961,
+    "firmCapacityMva": 8,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN9  2LT"
+  },
+  {
+    "name": "Hayton",
+    "lat": 53.90827606947412,
+    "lon": -0.764431277879574,
+    "firmCapacityMva": 15,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "YO42 1RJ"
+  },
+  {
+    "name": "Hebburn West",
+    "lat": 54.97188598528828,
+    "lon": -1.5251894538390476,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "NE31 1NA"
+  },
+  {
+    "name": "Hebden Bridge",
+    "lat": 53.73970369231834,
+    "lon": -2.0296929377074706,
+    "firmCapacityMva": 8,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "HX7 6LX"
+  },
+  {
+    "name": "Hedworth",
+    "lat": 54.95880054186126,
+    "lon": -1.4872083707444181,
+    "firmCapacityMva": 32,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "NE32 4SW"
+  },
+  {
+    "name": "Hemsworth",
+    "lat": 53.635472186818426,
+    "lon": -1.3704632461428239,
+    "firmCapacityMva": 10,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "WF9  5BZ"
+  },
+  {
+    "name": "Hessle Road 1",
+    "lat": 53.72899355280664,
+    "lon": -0.39596539140322445,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "HU4  6SP"
+  },
+  {
+    "name": "Hickleton",
+    "lat": 53.54387773344132,
+    "lon": -1.2989179272787745,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "S63  0DE"
+  },
+  {
+    "name": "High Barmston",
+    "lat": 54.89591029816584,
+    "lon": -1.4927940363232544,
+    "firmCapacityMva": 20,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "NE38 8QA"
+  },
+  {
+    "name": "Horbury",
+    "lat": 53.66454221287751,
+    "lon": -1.5675891091023757,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "WF4 6EU"
+  },
+  {
+    "name": "Houghton",
+    "lat": 54.84618576029544,
+    "lon": -1.4858024419215692,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "DH4  5HP"
+  },
+  {
+    "name": "Hull East 132/33kV",
+    "lat": 53.74877856400557,
+    "lon": -0.25444122469422775,
+    "firmCapacityMva": 117,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "Yorkshire",
+    "postcode": "HU9 5NL"
+  },
+  {
+    "name": "Humber Road",
+    "lat": 53.633377819088885,
+    "lon": -0.2151352527223242,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN40 3LZ"
+  },
+  {
+    "name": "Hunningley",
+    "lat": 53.5484133683264,
+    "lon": -1.449466955296594,
+    "firmCapacityMva": 117,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "Yorkshire",
+    "postcode": "S70 3ET"
+  },
+  {
+    "name": "Huntington New Lane",
+    "lat": 53.979282083099385,
+    "lon": -1.05558986293056,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "YO32 9TA"
+  },
+  {
+    "name": "Jordanthorpe",
+    "lat": 53.330324131012866,
+    "lon": -1.4596500200791411,
+    "firmCapacityMva": 120,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 275,
+    "dnoArea": "Yorkshire",
+    "postcode": "S8 8JA"
+  },
+  {
+    "name": "Keighley",
+    "lat": 53.86488193509019,
+    "lon": -1.905990351419905,
+    "firmCapacityMva": 39,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 11,
+    "dnoArea": "Yorkshire",
+    "postcode": "BD21 5AJ"
+  },
+  {
+    "name": "Kenmore Road",
+    "lat": 53.71734080685506,
+    "lon": -1.5208167085113342,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "WF2 0XE"
+  },
+  {
+    "name": "Kielder",
+    "lat": 55.17559499672968,
+    "lon": -2.4620802746201313,
+    "firmCapacityMva": 4,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "NE48 1BH"
+  },
+  {
+    "name": "Kilnhurst",
+    "lat": 53.46782136651562,
+    "lon": -1.3168773691487132,
+    "firmCapacityMva": 30,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "S64 5TL"
+  },
+  {
+    "name": "King George Dock",
+    "lat": 53.747473656109754,
+    "lon": -0.2785783594593098,
+    "firmCapacityMva": 30,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "HU9 5PL"
+  },
+  {
+    "name": "Kirk Drive",
+    "lat": 53.85248758583456,
+    "lon": -1.7625309727178444,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "BD17 6SA"
+  },
+  {
+    "name": "Kirkhaw Lane",
+    "lat": 53.7197675241599,
+    "lon": -1.2770092279456473,
+    "firmCapacityMva": 117,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "Yorkshire",
+    "postcode": "WF11 8SB"
+  },
+  {
+    "name": "Kirkstall B",
+    "lat": 53.80564124531247,
+    "lon": -1.5969794922707383,
+    "firmCapacityMva": 480,
+    "siteLevel": "GSP",
+    "primaryVoltageKv": 275,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS4 2AL"
+  },
+  {
+    "name": "Kirkstall C 2/5",
+    "lat": 53.806729000381,
+    "lon": -1.5890880259619995,
+    "firmCapacityMva": 117,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS18 4EL"
+  },
+  {
+    "name": "Leeming Bar/Skeeby",
+    "lat": 54.327715095268864,
+    "lon": -1.5587135290012026,
+    "firmCapacityMva": 141,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "North East",
+    "postcode": "DL7 0RL"
+  },
+  {
+    "name": "Lindley",
+    "lat": 53.65490720620279,
+    "lon": -1.8279152342434113,
+    "firmCapacityMva": 117,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "Yorkshire",
+    "postcode": "HD3 3NY"
+  },
+  {
+    "name": "Liversedge",
+    "lat": 53.70798539120217,
+    "lon": -1.6941722580239917,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "WF15 7NY"
+  },
+  {
+    "name": "Longbenton",
+    "lat": 55.00709985602244,
+    "lon": -1.591129359732129,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "NE7  7LR"
+  },
+  {
+    "name": "Louth",
+    "lat": 53.382081112284226,
+    "lon": -0.012080020550777233,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LN11 0WA"
+  },
+  {
+    "name": "Lowfields",
+    "lat": 53.69160088763016,
+    "lon": -1.830749137707911,
+    "firmCapacityMva": 19,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "HX5  9DE"
+  },
+  {
+    "name": "Malton Grid",
+    "lat": 54.15052406254009,
+    "lon": -0.7808552168192258,
+    "firmCapacityMva": 82,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "North East",
+    "postcode": "YO17 6RD"
+  },
+  {
+    "name": "Mansfield Road 1",
+    "lat": 53.354703262709926,
+    "lon": -1.4087710576047112,
+    "firmCapacityMva": 16,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "S12 2DL"
+  },
+  {
+    "name": "Markham Gates",
+    "lat": 53.536607834861464,
+    "lon": -1.0732828656399271,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN3  2FS"
+  },
+  {
+    "name": "Marsden Road",
+    "lat": 53.57447753710743,
+    "lon": -0.05645804551766552,
+    "firmCapacityMva": 18,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN31 3SQ"
+  },
+  {
+    "name": "Melrosegate",
+    "lat": 53.95916307414937,
+    "lon": -1.0597023475962744,
+    "firmCapacityMva": 180,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "North East",
+    "postcode": "YO31 0YB"
+  },
+  {
+    "name": "Mexborough 1_2",
+    "lat": 53.49367526600995,
+    "lon": -1.2642937102414398,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "S64 0JD"
+  },
+  {
+    "name": "Mirfield",
+    "lat": 53.67037277586865,
+    "lon": -1.6917654007788316,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "WF14 8NF"
+  },
+  {
+    "name": "Monkseaton",
+    "lat": 55.04263257085052,
+    "lon": -1.470192219780313,
+    "firmCapacityMva": 20,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "NE25 9AF"
+  },
+  {
+    "name": "Mount Street",
+    "lat": 53.788512594726676,
+    "lon": -1.7291352430369569,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "BD4  8TB"
+  },
+  {
+    "name": "Nab Lane",
+    "lat": 53.738297146371714,
+    "lon": -1.6434836920783293,
+    "firmCapacityMva": 12,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "WF17 9NE"
+  },
+  {
+    "name": "North Avenue",
+    "lat": 53.90890725472084,
+    "lon": -1.6889630314626454,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS21 1SX"
+  },
+  {
+    "name": "Shipley",
+    "lat": 53.83784464236015,
+    "lon": -1.7662760220893268,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN21 5UT"
+  },
+  {
+    "name": "South Street",
+    "lat": 53.85811923442048,
+    "lon": -1.9128470599008454,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "BD21 1AH"
+  },
+  {
+    "name": "Station Road",
+    "lat": 53.58926341206323,
+    "lon": -0.6420135219359677,
+    "firmCapacityMva": 25,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN15 6BT"
+  },
+  {
+    "name": "Newburn Haugh",
+    "lat": 54.97237617740636,
+    "lon": -1.7173919618117275,
+    "firmCapacityMva": 38,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 11,
+    "dnoArea": "North East",
+    "postcode": "NE15 8SF"
+  },
+  {
+    "name": "Newby",
+    "lat": 54.28900516999646,
+    "lon": -0.433278222124109,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "YO12 6NL"
+  },
+  {
+    "name": "Newhall Road",
+    "lat": 53.40036089231288,
+    "lon": -1.4374969034208793,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "S9 2RS"
+  },
+  {
+    "name": "Normanton",
+    "lat": 53.695130407534705,
+    "lon": -1.428412138551284,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "WF6  2JA"
+  },
+  {
+    "name": "North Street",
+    "lat": 54.28420504120279,
+    "lon": -0.4010622189555971,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "YO11 1DU"
+  },
+  {
+    "name": "North Tees T1 T2",
+    "lat": 54.589805838786496,
+    "lon": -1.2604066574510109,
+    "firmCapacityMva": 34,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "TS23 1PX"
+  },
+  {
+    "name": "North Tees T3 T4",
+    "lat": 54.589805838786496,
+    "lon": -1.2604066574510109,
+    "firmCapacityMva": 31,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "TS23 1PX"
+  },
+  {
+    "name": "North Thoresby",
+    "lat": 53.454371122289345,
+    "lon": -0.07301749132754456,
+    "firmCapacityMva": 8,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN36 5SB"
+  },
+  {
+    "name": "Northallerton",
+    "lat": 54.34697355848831,
+    "lon": -1.4794358391403362,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "DL7  0QE"
+  },
+  {
+    "name": "Norton Lees",
+    "lat": 53.34861601723589,
+    "lon": -1.4716466460310886,
+    "firmCapacityMva": 120,
+    "siteLevel": "GSP",
+    "primaryVoltageKv": 275,
+    "dnoArea": "Yorkshire",
+    "postcode": "S8 9BH"
+  },
+  {
+    "name": "Norwood",
+    "lat": 53.850727899415226,
+    "lon": -0.4248361806742962,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "HU17 9JR"
+  },
+  {
+    "name": "Offerton",
+    "lat": 54.88254485076955,
+    "lon": -1.4568312957305696,
+    "firmCapacityMva": 120,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 275,
+    "dnoArea": "North East",
+    "postcode": "SR4 9NR"
+  },
+  {
+    "name": "Olympia Mills",
+    "lat": 53.78563660979293,
+    "lon": -1.0517014692939053,
+    "firmCapacityMva": 30,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "YO8  7AG"
+  },
+  {
+    "name": "Outwood",
+    "lat": 53.717975242167164,
+    "lon": -1.5109902859405273,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "WF3 3TA"
+  },
+  {
+    "name": "Pallion Trading",
+    "lat": 54.90925038446149,
+    "lon": -1.423187351009949,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "SR4  6SN"
+  },
+  {
+    "name": "Patrington Road",
+    "lat": 53.698909217279805,
+    "lon": -0.06898318738814306,
+    "firmCapacityMva": 8,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "HU12 0AD"
+  },
+  {
+    "name": "Penistone",
+    "lat": 53.521659925725835,
+    "lon": -1.6166160922019943,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "S36 6BG"
+  },
+  {
+    "name": "Peterlee West",
+    "lat": 54.75709521033139,
+    "lon": -1.3717428563767209,
+    "firmCapacityMva": 32,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "DH6  2RA"
+  },
+  {
+    "name": "Pilgrim",
+    "lat": 54.97166325267444,
+    "lon": -1.6091100616734673,
+    "firmCapacityMva": 32,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "NE1  2LA"
+  },
+  {
+    "name": "Pitsmoor 3/4",
+    "lat": 53.40104083007158,
+    "lon": -1.4444967313901556,
+    "firmCapacityMva": 120,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 275,
+    "dnoArea": "Yorkshire",
+    "postcode": "S4 8LL"
+  },
+  {
+    "name": "Plangeo",
+    "lat": 53.739970076391536,
+    "lon": -0.37600275135049005,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "HU3  6EG"
+  },
+  {
+    "name": "Pontefract Lane 1/2",
+    "lat": 53.787529777493035,
+    "lon": -1.5098786764896068,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS9 0JG"
+  },
+  {
+    "name": "Poppleton",
+    "lat": 53.97460772825801,
+    "lon": -1.1318060432433281,
+    "firmCapacityMva": 120,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 275,
+    "dnoArea": "North East",
+    "postcode": "YO26 6RJ"
+  },
+  {
+    "name": "Ravenscar",
+    "lat": 54.39472477829355,
+    "lon": -0.48758401466599816,
+    "firmCapacityMva": 8,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "YO13 0LZ"
+  },
+  {
+    "name": "Ravensworth",
+    "lat": 54.9090910643867,
+    "lon": -1.595226443807873,
+    "firmCapacityMva": 87.2,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "North East",
+    "postcode": "DH3 1RQ"
+  },
+  {
+    "name": "Rawcliffe Lane",
+    "lat": 53.97973427078087,
+    "lon": -1.1065092333887676,
+    "firmCapacityMva": 22,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "YO30 5SW"
+  },
+  {
+    "name": "Rawdon",
+    "lat": 53.858985597364146,
+    "lon": -1.6912639530631453,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS19 7BZ"
+  },
+  {
+    "name": "Rawmarsh Road 3_4",
+    "lat": 53.43625692720961,
+    "lon": -1.3564155122587092,
+    "firmCapacityMva": 39,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 11,
+    "dnoArea": "Yorkshire",
+    "postcode": "S60 1RR"
+  },
+  {
+    "name": "Rawson Spring Road",
+    "lat": 53.4113965181763,
+    "lon": -1.4953157579011713,
+    "firmCapacityMva": 20,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "S6 1PD"
+  },
+  {
+    "name": "Revill Lane",
+    "lat": 53.359081993181526,
+    "lon": -1.36862221630088,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "S13  7QX"
+  },
+  {
+    "name": "Rockware",
+    "lat": 53.55453593693073,
+    "lon": -1.0867485332748568,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN2  4RH"
+  },
+  {
+    "name": "Rodley",
+    "lat": 53.82156122523818,
+    "lon": -1.664955746833514,
+    "firmCapacityMva": 117,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS13 1PZ"
+  },
+  {
+    "name": "Rudby",
+    "lat": 54.462469408175345,
+    "lon": -1.2740581105773374,
+    "firmCapacityMva": 8,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "TS15 0JT"
+  },
+  {
+    "name": "Saint Street",
+    "lat": 53.78047697058825,
+    "lon": -1.7869297051031454,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "BD7  4EH"
+  },
+  {
+    "name": "Saltend 132/33kV",
+    "lat": 53.742965076045664,
+    "lon": -0.23803204712181975,
+    "firmCapacityMva": 50.8,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "Yorkshire",
+    "postcode": "HU12 8EY"
+  },
+  {
+    "name": "Sandhill Lane",
+    "lat": 53.917896722742235,
+    "lon": -0.8987165140262993,
+    "firmCapacityMva": 8,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "YO41 4DF"
+  },
+  {
+    "name": "Saxon Road",
+    "lat": 53.359396850862375,
+    "lon": -1.476486858283624,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "S8 0XQ"
+  },
+  {
+    "name": "Scunthorpe North",
+    "lat": 53.60240412413005,
+    "lon": -0.6514456261019151,
+    "firmCapacityMva": 150,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN15 8GN"
+  },
+  {
+    "name": "Scunthorpe South",
+    "lat": 53.57534358999431,
+    "lon": -0.622719743669071,
+    "firmCapacityMva": 112,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN16 1BD"
+  },
+  {
+    "name": "Seghill",
+    "lat": 55.06548090000869,
+    "lon": -1.5353720830494708,
+    "firmCapacityMva": 32,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "NE23 7EY"
+  },
+  {
+    "name": "Selby",
+    "lat": 53.76899728205196,
+    "lon": -1.0640470641786444,
+    "firmCapacityMva": 29,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "YO8  8NB"
+  },
+  {
+    "name": "Sharlston",
+    "lat": 53.67416220844722,
+    "lon": -1.4230798865424867,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "WF4  1BE"
+  },
+  {
+    "name": "Sherburn",
+    "lat": 53.792648485685184,
+    "lon": -1.2203035260702417,
+    "firmCapacityMva": 25,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS25 6PL"
+  },
+  {
+    "name": "Sheriff Hutton",
+    "lat": 54.09464673439195,
+    "lon": -1.035693659717951,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "YO60 6QN"
+  },
+  {
+    "name": "Silver Street",
+    "lat": 53.38450040337107,
+    "lon": -1.4719694680535573,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "S1 2DU"
+  },
+  {
+    "name": "Simonside",
+    "lat": 54.97351045422601,
+    "lon": -1.4641033605624827,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "NE34 9PD"
+  },
+  {
+    "name": "Smith Street",
+    "lat": 53.73192483459678,
+    "lon": -1.33861624834045,
+    "firmCapacityMva": 19,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "WF10 2RY"
+  },
+  {
+    "name": "South Kirkby",
+    "lat": 53.601014250177215,
+    "lon": -1.3329402454842767,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "WF9  3TJ"
+  },
+  {
+    "name": "South Shields",
+    "lat": 54.9733212924071,
+    "lon": -1.4499053921239111,
+    "firmCapacityMva": 100,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 275,
+    "dnoArea": "North East",
+    "postcode": "NE34 9BT"
+  },
+  {
+    "name": "South Shields",
+    "lat": 54.9733212924071,
+    "lon": -1.4499053921239111,
+    "firmCapacityMva": 100,
+    "siteLevel": "GSP",
+    "primaryVoltageKv": 275,
+    "dnoArea": "North East",
+    "postcode": "NE34 9BT"
+  },
+  {
+    "name": "Sowerby Bridge 33/11kV",
+    "lat": 53.70863830490817,
+    "lon": -1.9233510103153737,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "HX6 1EN"
+  },
+  {
+    "name": "Spadeadam",
+    "lat": 55.02766490292597,
+    "lon": -2.6092211700700565,
+    "firmCapacityMva": 12,
+    "siteLevel": "GSP",
+    "primaryVoltageKv": 20,
+    "dnoArea": "North East",
+    "postcode": "CA8 7AT"
+  },
+  {
+    "name": "Spenborough",
+    "lat": 53.72187371251353,
+    "lon": -1.7056192540824047,
+    "firmCapacityMva": 30,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "BD19 5BT"
+  },
+  {
+    "name": "Spencerbeck",
+    "lat": 54.57200452018838,
+    "lon": -1.189140779130761,
+    "firmCapacityMva": 38,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "TS3  8TE"
+  },
+  {
+    "name": "Spennymoor 132/66kV",
+    "lat": 54.704791754920585,
+    "lon": -1.5542598483328325,
+    "firmCapacityMva": 179.8,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "North East",
+    "postcode": "DH6 5LJ"
+  },
+  {
+    "name": "Staygate",
+    "lat": 53.76676164495374,
+    "lon": -1.74986156771212,
+    "firmCapacityMva": 123,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "Yorkshire",
+    "postcode": "BD6 1YA"
+  },
+  {
+    "name": "Stella South",
+    "lat": 54.97440549254378,
+    "lon": -1.7326095069841272,
+    "firmCapacityMva": 260,
+    "siteLevel": "GSP",
+    "primaryVoltageKv": 275,
+    "dnoArea": "North East",
+    "postcode": "NE21 4FF"
+  },
+  {
+    "name": "Stevenson Road",
+    "lat": 53.39502767420852,
+    "lon": -1.4368754376462582,
+    "firmCapacityMva": 19,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "S9 3XG"
+  },
+  {
+    "name": "Stokesley",
+    "lat": 54.47663199023074,
+    "lon": -1.1876788970217242,
+    "firmCapacityMva": 13,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "TS9  5HS"
+  },
+  {
+    "name": "Swan Bank Lane",
+    "lat": 53.717083048205936,
+    "lon": -1.851800111030471,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "HX3  9XT"
+  },
+  {
+    "name": "Tankersley Park",
+    "lat": 53.47811127808617,
+    "lon": -1.47070308354686,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "S35 2PT"
+  },
+  {
+    "name": "Team Valley",
+    "lat": 54.92709409973742,
+    "lon": -1.6185143473369625,
+    "firmCapacityMva": 41,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "NE11 0SX"
+  },
+  {
+    "name": "Templeborough 33/11kV",
+    "lat": 53.41776629804294,
+    "lon": -1.3817767748861751,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "S60  1AD"
+  },
+  {
+    "name": "Thornbury",
+    "lat": 53.79844394822121,
+    "lon": -1.7097446326864205,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "BD3 7AD"
+  },
+  {
+    "name": "Thorne",
+    "lat": 53.633256297821994,
+    "lon": -0.9342559296838736,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN8  4NA"
+  },
+  {
+    "name": "Thornton Dale",
+    "lat": 54.23099263733675,
+    "lon": -0.7422643224312466,
+    "firmCapacityMva": 20,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "YO18 7SJ"
+  },
+  {
+    "name": "Thorpe Road",
+    "lat": 53.75377870270522,
+    "lon": -0.8444090926232424,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN14 7PA"
+  },
+  {
+    "name": "Tickhill Road",
+    "lat": 53.42311485049405,
+    "lon": -1.1620397581375617,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "S66 7QN"
+  },
+  {
+    "name": "Tinsley Wire Industries",
+    "lat": 53.40794544681387,
+    "lon": -1.407356480994735,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "S9   1TY"
+  },
+  {
+    "name": "Tiverton Road",
+    "lat": 53.78961769844921,
+    "lon": -0.3296063978251502,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "HU7  4DA"
+  },
+  {
+    "name": "Toronto",
+    "lat": 54.67354107947762,
+    "lon": -1.7025512557628952,
+    "firmCapacityMva": 108,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "North East",
+    "postcode": "DL14 7RJ"
+  },
+  {
+    "name": "Tynemouth",
+    "lat": 55.024693544617136,
+    "lon": -1.4993352312428005,
+    "firmCapacityMva": 260,
+    "siteLevel": "GSP",
+    "primaryVoltageKv": 275,
+    "dnoArea": "North East",
+    "postcode": "NE27 0QG"
+  },
+  {
+    "name": "Upper Basinghall Street",
+    "lat": 53.79906873283249,
+    "lon": -1.5459995961730668,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS1  5JS"
+  },
+  {
+    "name": "Victoria Street",
+    "lat": 53.381001842910486,
+    "lon": -1.4817843325305489,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "S1 4DP"
+  },
+  {
+    "name": "York Street",
+    "lat": 53.68601586480566,
+    "lon": -1.4985808896212396,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "WF1 3AZ"
+  },
+  {
+    "name": "Wakefield North",
+    "lat": 53.70585623124488,
+    "lon": -1.4993904393806783,
+    "firmCapacityMva": 104,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "Yorkshire",
+    "postcode": "WF1 3HN"
+  },
+  {
+    "name": "Walesby",
+    "lat": 53.39539695647566,
+    "lon": -0.31999724523468864,
+    "firmCapacityMva": 8,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LN8 3UL"
+  },
+  {
+    "name": "Warren Lane",
+    "lat": 53.87118262919653,
+    "lon": -1.324924360626962,
+    "firmCapacityMva": 8,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS24 9NT"
+  },
+  {
+    "name": "Wensleydale",
+    "lat": 54.30799191469771,
+    "lon": -1.8505189890337965,
+    "firmCapacityMva": 19,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "DL8  5ED"
+  },
+  {
+    "name": "West Hartford",
+    "lat": 55.106379093779005,
+    "lon": -1.5966060139506024,
+    "firmCapacityMva": 16,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "NE23 3JP"
+  },
+  {
+    "name": "West Melton",
+    "lat": 53.50119053998194,
+    "lon": -1.3767500922867972,
+    "firmCapacityMva": 141,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "Yorkshire",
+    "postcode": "S63 6EZ"
+  },
+  {
+    "name": "West Moor Park",
+    "lat": 53.53780805071499,
+    "lon": -1.0408150067113795,
+    "firmCapacityMva": 25,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN3  3FE"
+  },
+  {
+    "name": "West Southwick",
+    "lat": 54.9212479919264,
+    "lon": -1.4158077243883014,
+    "firmCapacityMva": 32,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "SR5  3TX"
+  },
+  {
+    "name": "Whinmoor",
+    "lat": 53.83388820165023,
+    "lon": -1.4592097675004516,
+    "firmCapacityMva": 117,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS14 2DG"
+  },
+  {
+    "name": "Wibsey",
+    "lat": 53.76904936318484,
+    "lon": -1.7847724811233596,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "BD6 3BG"
+  },
+  {
+    "name": "Wincobank",
+    "lat": 53.41571822248712,
+    "lon": -1.4141543675229165,
+    "firmCapacityMva": 120,
+    "siteLevel": "GSP",
+    "primaryVoltageKv": 275,
+    "dnoArea": "Yorkshire",
+    "postcode": "S9 1EH"
+  },
+  {
+    "name": "Woodcock Street",
+    "lat": 53.667176550450506,
+    "lon": -1.4858641151182979,
+    "firmCapacityMva": 20,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "WF1 5LL"
+  },
+  {
+    "name": "Woodseats",
+    "lat": 53.33957847324521,
+    "lon": -1.478952242149328,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "S8 8QB"
+  },
+  {
+    "name": "Woolley",
+    "lat": 53.59684833033986,
+    "lon": -1.5309441383150617,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "S75  5JE"
+  },
+  {
+    "name": "Wormald Green 132/11kV",
+    "lat": 54.07492259291315,
+    "lon": -1.5225942604937643,
+    "firmCapacityMva": 36,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 11,
+    "dnoArea": "North East",
+    "postcode": "HG3  3PS"
+  },
+  {
+    "name": "Worsbrough Park",
+    "lat": 53.517485658841146,
+    "lon": -1.4616765939489273,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "S70 5LY"
+  },
+  {
+    "name": "Yarborough Road 132/33kV",
+    "lat": 53.56555705040299,
+    "lon": -0.10901052490717884,
+    "firmCapacityMva": 117,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN34 4JJ"
+  },
+  {
+    "name": "Barwick",
+    "lat": 53.81751522480669,
+    "lon": -1.4345560125544454,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS15 8SW"
+  },
+  {
+    "name": "Birkby",
+    "lat": 53.655594844820754,
+    "lon": -1.7911602223761562,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "HD1 5HB"
+  },
+  {
+    "name": "Denholme",
+    "lat": 53.80488064213368,
+    "lon": -1.8973781085775785,
+    "firmCapacityMva": 6,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "BD13 4JF"
+  },
+  {
+    "name": "Abbey Road",
+    "lat": 53.82815865179509,
+    "lon": -1.6283949202097203,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS5  3NF"
+  },
+  {
+    "name": "Acklam",
+    "lat": 54.54775847569454,
+    "lon": -1.246326278826524,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "TS5  7LD"
+  },
+  {
+    "name": "Alfred Gelder Street",
+    "lat": 53.744944627165886,
+    "lon": -0.3317579777074842,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "HU1  1EP"
+  },
+  {
+    "name": "Amberton Road",
+    "lat": 54.696603056952014,
+    "lon": -1.2141374157336735,
+    "firmCapacityMva": 40,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "TS24 8PQ"
+  },
+  {
+    "name": "Annfield 66/20kV",
+    "lat": 54.850204453886846,
+    "lon": -1.7320913207827457,
+    "firmCapacityMva": 28,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "DH9  7XW"
+  },
+  {
+    "name": "Armthorpe",
+    "lat": 53.53961334145194,
+    "lon": -1.0440034275296377,
+    "firmCapacityMva": 12,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN3  3DY"
+  },
+  {
+    "name": "Ashington",
+    "lat": 55.171704818448475,
+    "lon": -1.5695248666907988,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "NE63 8UJ"
+  },
+  {
+    "name": "Audby Lane",
+    "lat": 53.933034502941254,
+    "lon": -1.3792917101017133,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS22 7SU"
+  },
+  {
+    "name": "Austerfield",
+    "lat": 53.45911569666946,
+    "lon": -1.003987014921973,
+    "firmCapacityMva": 8,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN10 6HD"
+  },
+  {
+    "name": "Balby",
+    "lat": 53.50504010974897,
+    "lon": -1.1333011118168976,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN4  8DG"
+  },
+  {
+    "name": "Balme Street",
+    "lat": 53.79740880811079,
+    "lon": -1.748935530864528,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "BD1  4BA"
+  },
+  {
+    "name": "Barnburgh",
+    "lat": 53.52951582837444,
+    "lon": -1.2885647309417902,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "S63  9NT"
+  },
+  {
+    "name": "Barrack Road",
+    "lat": 54.97486621507527,
+    "lon": -1.624607814683639,
+    "firmCapacityMva": 114,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "North East",
+    "postcode": "NE4 6DB"
+  },
+  {
+    "name": "Barrow",
+    "lat": 53.67959821339581,
+    "lon": -0.36209502330661436,
+    "firmCapacityMva": 12,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN19 7EG"
+  },
+  {
+    "name": "Baslow Road",
+    "lat": 53.32048429374861,
+    "lon": -1.5236501080358762,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "S17 3LT"
+  },
+  {
+    "name": "Batley",
+    "lat": 53.70696879022329,
+    "lon": -1.6271449723216287,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "WF17 6HU"
+  },
+  {
+    "name": "Beal",
+    "lat": 53.707145988881464,
+    "lon": -1.2097801775992785,
+    "firmCapacityMva": 16,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "WF11 8DT"
+  },
+  {
+    "name": "Beeston Royds 6/7",
+    "lat": 53.776222261205476,
+    "lon": -1.583483170406729,
+    "firmCapacityMva": 26,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS12 6EY"
+  },
+  {
+    "name": "Bellhouse Road",
+    "lat": 53.42615207896349,
+    "lon": -1.4438384971478042,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "S5 0PL"
+  },
+  {
+    "name": "Belmont Avenue",
+    "lat": 53.51123200762924,
+    "lon": -1.139342374221945,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN4  8DF"
+  },
+  {
+    "name": "Bensham",
+    "lat": 54.952158744531815,
+    "lon": -1.6219776206271204,
+    "firmCapacityMva": 30,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "NE8  2XY"
+  },
+  {
+    "name": "Benton Square",
+    "lat": 55.02200423651662,
+    "lon": -1.5373450083695943,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "NE12 9SR"
+  },
+  {
+    "name": "Beverley 132/33kV",
+    "lat": 53.82100640169143,
+    "lon": -0.41565108221513525,
+    "firmCapacityMva": 104.3,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "Yorkshire",
+    "postcode": "HU17 0RW"
+  },
+  {
+    "name": "Bingley 33/11kV",
+    "lat": 53.85289547603423,
+    "lon": -1.8408628610718138,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "BD16 2RD"
+  },
+  {
+    "name": "Birtley Grove 66/11kV",
+    "lat": 54.90101213912364,
+    "lon": -1.5845163872669474,
+    "firmCapacityMva": 30,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "DH3  1JH"
+  },
+  {
+    "name": "Blackburn Meadows B",
+    "lat": 53.41880562294629,
+    "lon": -1.4023154034781173,
+    "firmCapacityMva": 78,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "Yorkshire",
+    "postcode": "S9 1DA"
+  },
+  {
+    "name": "Blaydon Burn",
+    "lat": 54.96282692081297,
+    "lon": -1.7266266070638046,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "NE21 4BG"
+  },
+  {
+    "name": "Blucher",
+    "lat": 54.988611669868874,
+    "lon": -1.7240917590552598,
+    "firmCapacityMva": 114,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "North East",
+    "postcode": "NE15 9SD"
+  },
+  {
+    "name": "Blyth 66kV",
+    "lat": 55.14139794693114,
+    "lon": -1.5266629433220762,
+    "firmCapacityMva": 140,
+    "siteLevel": "GSP",
+    "primaryVoltageKv": 275,
+    "dnoArea": "North East",
+    "postcode": "NE24 1QP"
+  },
+  {
+    "name": "Boroughbridge/Roecliffe Industrial",
+    "lat": 54.08706162904353,
+    "lon": -1.4140068682405411,
+    "firmCapacityMva": 15,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "YO51 9NS"
+  },
+  {
+    "name": "Bradford West",
+    "lat": 53.81002726447714,
+    "lon": -1.8664010398732451,
+    "firmCapacityMva": 720,
+    "siteLevel": "GSP",
+    "primaryVoltageKv": 275,
+    "dnoArea": "Yorkshire",
+    "postcode": "BD15 0BZ"
+  },
+  {
+    "name": "Bransholme",
+    "lat": 53.78974466621079,
+    "lon": -0.3053424796737963,
+    "firmCapacityMva": 117,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "Yorkshire",
+    "postcode": "HU7 4ZN"
+  },
+  {
+    "name": "Brenda Trading",
+    "lat": 54.6654548431175,
+    "lon": -1.2128161421270425,
+    "firmCapacityMva": 30,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "TS25 1PD"
+  },
+  {
+    "name": "Brighouse 132/33kV",
+    "lat": 53.69905471709589,
+    "lon": -1.7678777809249369,
+    "firmCapacityMva": 117,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "Yorkshire",
+    "postcode": "HD6 1PZ"
+  },
+  {
+    "name": "Brookfield Street",
+    "lat": 53.78705427372375,
+    "lon": -1.5326208421887422,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS10 1LD"
+  },
+  {
+    "name": "Burley Street",
+    "lat": 53.80090110344621,
+    "lon": -1.5626203471499973,
+    "firmCapacityMva": 35,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS3  1JY"
+  },
+  {
+    "name": "Burnleyville",
+    "lat": 53.73213231754774,
+    "lon": -1.6890707965908272,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "BD19 4RY"
+  },
+  {
+    "name": "Burton Pidsea",
+    "lat": 53.773732733591494,
+    "lon": -0.09559754809566692,
+    "firmCapacityMva": 9,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "HU12 9AE"
+  },
+  {
+    "name": "Burton Road",
+    "lat": 53.570782204364605,
+    "lon": -1.4390592744336541,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "S71 2QG"
+  },
+  {
+    "name": "Caistor",
+    "lat": 53.49954844290045,
+    "lon": -0.3211290671161527,
+    "firmCapacityMva": 10,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LN7 6RE"
+  },
+  {
+    "name": "Camblesforth",
+    "lat": 53.729397328706725,
+    "lon": -1.000930801109488,
+    "firmCapacityMva": 200,
+    "siteLevel": "GSP",
+    "primaryVoltageKv": 275,
+    "dnoArea": "Yorkshire",
+    "postcode": "YO8 8PJ"
+  },
+  {
+    "name": "Camblesforth",
+    "lat": 53.729397328706725,
+    "lon": -1.000930801109488,
+    "firmCapacityMva": 200,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 275,
+    "dnoArea": "Yorkshire",
+    "postcode": "YO8 8PJ"
+  },
+  {
+    "name": "Campleshon Road",
+    "lat": 53.943386646767415,
+    "lon": -1.0885620361087789,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "YO23 1HZ"
+  },
+  {
+    "name": "Carlton Hill",
+    "lat": 53.80570751307741,
+    "lon": -1.5451079439660842,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS7 1JB"
+  },
+  {
+    "name": "Carr Hill",
+    "lat": 54.94406298005679,
+    "lon": -1.5810912084634285,
+    "firmCapacityMva": 22,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "NE10 9SY"
+  },
+  {
+    "name": "Carr Lane",
+    "lat": 53.71389824613615,
+    "lon": -1.340944423833328,
+    "firmCapacityMva": 19,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "WF10 4PS"
+  },
+  {
+    "name": "Chelker Reservoir",
+    "lat": 53.9578713175896,
+    "lon": -1.9082354809545374,
+    "firmCapacityMva": 8,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS29 0JS"
+  },
+  {
+    "name": "Chirton Grange",
+    "lat": 55.02570075707033,
+    "lon": -1.4781115423020104,
+    "firmCapacityMva": 72,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "North East",
+    "postcode": "NE29 8EY"
+  },
+  {
+    "name": "Clarendon Street",
+    "lat": 53.74584338642564,
+    "lon": -0.3531958379499986,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "HU3  1AP"
+  },
+  {
+    "name": "Coalburns",
+    "lat": 54.93913806605089,
+    "lon": -1.8112767842745325,
+    "firmCapacityMva": 76.4,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "North East",
+    "postcode": "NE40 4JP"
+  },
+  {
+    "name": "Commonside Lane",
+    "lat": 53.6785415122434,
+    "lon": -1.376815724782304,
+    "firmCapacityMva": 19,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "WF7  5DF"
+  },
+  {
+    "name": "Consett",
+    "lat": 54.85448120260626,
+    "lon": -1.819366160098375,
+    "firmCapacityMva": 40,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "DH8  7ND"
+  },
+  {
+    "name": "Cornwall Street",
+    "lat": 53.756265492787655,
+    "lon": -0.3268497749901831,
+    "firmCapacityMva": 39,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 11,
+    "dnoArea": "Yorkshire",
+    "postcode": "HU8  8AQ"
+  },
+  {
+    "name": "Corringham Road",
+    "lat": 53.40554466692211,
+    "lon": -0.7577435997760821,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN21 1FT"
+  },
+  {
+    "name": "Crowle",
+    "lat": 53.60624427806435,
+    "lon": -0.8256029286256799,
+    "firmCapacityMva": 4,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN17 4BB"
+  },
+  {
+    "name": "Darlington 33/11kV",
+    "lat": 54.52755279142222,
+    "lon": -1.5467353388677365,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "DL1  1SW"
+  },
+  {
+    "name": "Darlington Central",
+    "lat": 54.52604547121039,
+    "lon": -1.5402472415521211,
+    "firmCapacityMva": 72,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "North East",
+    "postcode": "DL1 1HG"
+  },
+  {
+    "name": "Denby Dale Road",
+    "lat": 53.66427755918944,
+    "lon": -1.5082823510390035,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "WF2 7BH"
+  },
+  {
+    "name": "Denby Grange",
+    "lat": 53.63329303482237,
+    "lon": -1.5941312778112382,
+    "firmCapacityMva": 8,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "WF4 4JG"
+  },
+  {
+    "name": "Denwick",
+    "lat": 55.44069040478462,
+    "lon": -1.6694537696099065,
+    "firmCapacityMva": 28,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "NE66 3RG"
+  },
+  {
+    "name": "Dinnington",
+    "lat": 53.37534805420898,
+    "lon": -1.221795626358237,
+    "firmCapacityMva": 30,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "S25 3QT"
+  },
+  {
+    "name": "Doncaster B/Thorpe Marsh",
+    "lat": 53.52618209561932,
+    "lon": -1.1471400116495565,
+    "firmCapacityMva": 223,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN5 8UX"
+  },
+  {
+    "name": "Doncaster Central",
+    "lat": 53.52614008719145,
+    "lon": -1.1387687410847998,
+    "firmCapacityMva": 117,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN1 1RE"
+  },
+  {
+    "name": "Dowker Street",
+    "lat": 53.640944068115935,
+    "lon": -1.824825913577111,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "HD3 4JB"
+  },
+  {
+    "name": "Dronfield",
+    "lat": 53.30043200287706,
+    "lon": -1.4646637534387483,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "S18 2XU"
+  },
+  {
+    "name": "Dudley Hill",
+    "lat": 53.774774683089696,
+    "lon": -1.7272662374251184,
+    "firmCapacityMva": 30,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "BD4 9NW"
+  },
+  {
+    "name": "Dunkeswick",
+    "lat": 53.91847140565884,
+    "lon": -1.533682675334233,
+    "firmCapacityMva": 8,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS17 9LP"
+  },
+  {
+    "name": "Dunston",
+    "lat": 54.95985780268754,
+    "lon": -1.6608847765900703,
+    "firmCapacityMva": 195,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "North East",
+    "postcode": "NE11 9DH"
+  },
+  {
+    "name": "Durham East",
+    "lat": 54.7810326424767,
+    "lon": -1.576386508243394,
+    "firmCapacityMva": 22,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "DH1  5SU"
+  },
+  {
+    "name": "Eastfield",
+    "lat": 54.23701370780202,
+    "lon": -0.3995268159595138,
+    "firmCapacityMva": 26,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "YO11 3BY"
+  },
+  {
+    "name": "Mallard Way",
+    "lat": 53.50062960052062,
+    "lon": -1.114078873967846,
+    "firmCapacityMva": 144,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN4 8DB"
+  },
+  {
+    "name": "Morley",
+    "lat": 53.74355067585547,
+    "lon": -1.6047603690676477,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS27 9HS"
+  },
+  {
+    "name": "Ellin Street 1/3",
+    "lat": 53.373573483780504,
+    "lon": -1.4747649732915393,
+    "firmCapacityMva": 41,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "S1 4QZ"
+  },
+  {
+    "name": "Faraday Street",
+    "lat": 54.56934188311914,
+    "lon": -1.248650572169695,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "TS1  4JG"
+  },
+  {
+    "name": "Fawdon/Seaton Burn",
+    "lat": 55.01483410970371,
+    "lon": -1.6668798868615864,
+    "firmCapacityMva": 25,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "NE3  2SW"
+  },
+  {
+    "name": "Ferrybridge A",
+    "lat": 53.718876278566555,
+    "lon": -1.27084182416316,
+    "firmCapacityMva": 200,
+    "siteLevel": "GSP",
+    "primaryVoltageKv": 275,
+    "dnoArea": "Yorkshire",
+    "postcode": "WF11 8PR"
+  },
+  {
+    "name": "Fir Tree Lane",
+    "lat": 53.84915613002118,
+    "lon": -1.5358818251991393,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS17 7BZ"
+  },
+  {
+    "name": "Firth Brown",
+    "lat": 53.59372740600993,
+    "lon": -0.6165918096654682,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN16 1XP"
+  },
+  {
+    "name": "Fish Dam Lane",
+    "lat": 53.58181794227147,
+    "lon": -1.4405445258437803,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "S71 3HQ"
+  },
+  {
+    "name": "Flatworth",
+    "lat": 55.001461341787696,
+    "lon": -1.481505781730888,
+    "firmCapacityMva": 72,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "North East",
+    "postcode": "NE29 7FN"
+  },
+  {
+    "name": "Flatworth Central",
+    "lat": 55.00132222312375,
+    "lon": -1.4804914328942629,
+    "firmCapacityMva": 32,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "NE29 7SH"
+  },
+  {
+    "name": "Folly Hall",
+    "lat": 53.638440279610556,
+    "lon": -1.7882653350126878,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "HD1 3TF"
+  },
+  {
+    "name": "Fourstones 20kV",
+    "lat": 55.011960060152944,
+    "lon": -2.1650013777636374,
+    "firmCapacityMva": 60,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 275,
+    "dnoArea": "North East",
+    "postcode": "NE47 5DX"
+  },
+  {
+    "name": "Fullerton Road",
+    "lat": 53.41624043995305,
+    "lon": -1.366753156220113,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "S60 1DL"
+  },
+  {
+    "name": "Gaisby Lane",
+    "lat": 53.819828838033615,
+    "lon": -1.7642344227087061,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "BD2  1BB"
+  },
+  {
+    "name": "Garwood Street",
+    "lat": 54.98625790884074,
+    "lon": -1.443165192094086,
+    "firmCapacityMva": 32,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "NE33 5DQ"
+  },
+  {
+    "name": "Gateshead East",
+    "lat": 54.965722900825284,
+    "lon": -1.5845677131834883,
+    "firmCapacityMva": 34,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "NE8  3AH"
+  },
+  {
+    "name": "Gibraltar Road",
+    "lat": 53.721358627098326,
+    "lon": -1.8912314280472355,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "HX1  4HL"
+  },
+  {
+    "name": "Gibson Lane",
+    "lat": 53.721179434450356,
+    "lon": -0.5325279291692979,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "HU14 3HH"
+  },
+  {
+    "name": "Gildersome",
+    "lat": 53.750514313244224,
+    "lon": -1.6352975299282593,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS27 7HW"
+  },
+  {
+    "name": "Gleadless Valley",
+    "lat": 53.346915553631185,
+    "lon": -1.4435929318085656,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "S14 1FP"
+  },
+  {
+    "name": "Gosforth",
+    "lat": 55.00971697730079,
+    "lon": -1.6053941784606491,
+    "firmCapacityMva": 108,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "North East",
+    "postcode": "NE3 1XL"
+  },
+  {
+    "name": "Gosforth 33/11kV",
+    "lat": 55.00971697730079,
+    "lon": -1.6053941784606491,
+    "firmCapacityMva": 32,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "NE3  1RR"
+  },
+  {
+    "name": "Grainthorpe",
+    "lat": 53.44273106402543,
+    "lon": 0.09505477247063202,
+    "firmCapacityMva": 8,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LN11 7JU"
+  },
+  {
+    "name": "Grangetown",
+    "lat": 54.58159253531019,
+    "lon": -1.1496666158532984,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "TS6  7AS"
+  },
+  {
+    "name": "Great Coates",
+    "lat": 53.57499567873682,
+    "lon": -0.1284059981211928,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN37 9PN"
+  },
+  {
+    "name": "Greyfriars Road 3/4",
+    "lat": 53.5260798902815,
+    "lon": -1.1391470837184121,
+    "firmCapacityMva": 30,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN1  1QN"
+  },
+  {
+    "name": "Grimsby West",
+    "lat": 53.56604555065914,
+    "lon": -0.15118080078658172,
+    "firmCapacityMva": 260,
+    "siteLevel": "GSP",
+    "primaryVoltageKv": 400,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN37 9NU"
+  },
+  {
+    "name": "Guardian Glass",
+    "lat": 53.69358866388676,
+    "lon": -0.9073953929204054,
+    "firmCapacityMva": 30,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN14 8GA"
+  },
+  {
+    "name": "Harraton",
+    "lat": 54.88420111720018,
+    "lon": -1.5402804341202125,
+    "firmCapacityMva": 36,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 11,
+    "dnoArea": "North East",
+    "postcode": "NE38 9BZ"
+  },
+  {
+    "name": "Harrogate 132/11kV",
+    "lat": 54.001092593148684,
+    "lon": -1.5540420001152702,
+    "firmCapacityMva": 36,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 11,
+    "dnoArea": "North East",
+    "postcode": "HG1  2BN"
+  },
+  {
+    "name": "Hartmoor",
+    "lat": 54.70218138721344,
+    "lon": -1.2909985777078994,
+    "firmCapacityMva": 140,
+    "siteLevel": "GSP",
+    "primaryVoltageKv": 275,
+    "dnoArea": "North East",
+    "postcode": "TS27 3BG"
+  },
+  {
+    "name": "Hebburn",
+    "lat": 54.977496886759006,
+    "lon": -1.5192019195580866,
+    "firmCapacityMva": 12,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "NE31 1BD"
+  },
+  {
+    "name": "Hessle Road 2",
+    "lat": 53.72899355280664,
+    "lon": -0.39596539140322445,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "HU4  6SP"
+  },
+  {
+    "name": "High Flatts",
+    "lat": 54.86435865744022,
+    "lon": -1.5904239333161467,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "DH2  2LR"
+  },
+  {
+    "name": "Hillcrest",
+    "lat": 53.81745362183923,
+    "lon": -1.5149522389605636,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS8 3AA"
+  },
+  {
+    "name": "Holbeck",
+    "lat": 53.78695824590043,
+    "lon": -1.5498185156564936,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS11 9SZ"
+  },
+  {
+    "name": "Holme Upon Spalding Moor",
+    "lat": 53.80144513878823,
+    "lon": -0.7959983173794511,
+    "firmCapacityMva": 8,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "YO43 4BX"
+  },
+  {
+    "name": "Honley",
+    "lat": 53.60369678837346,
+    "lon": -1.8017224060730241,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "HD9 6RU"
+  },
+  {
+    "name": "Hull South",
+    "lat": 53.73307918079442,
+    "lon": -0.378936572108128,
+    "firmCapacityMva": 117,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "Yorkshire",
+    "postcode": "HU3 5JA"
+  },
+  {
+    "name": "Hunmanby",
+    "lat": 54.18873196669101,
+    "lon": -0.3264149921546659,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "YO14 0JY"
+  },
+  {
+    "name": "Husthwaite",
+    "lat": 54.15715400148383,
+    "lon": -1.227191238773367,
+    "firmCapacityMva": 54,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "North East",
+    "postcode": "YO61 4PN"
+  },
+  {
+    "name": "Husthwaite 33/11kV",
+    "lat": 54.15715400148383,
+    "lon": -1.227191238773367,
+    "firmCapacityMva": 15,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "YO61 4PN"
+  },
+  {
+    "name": "Ilkley",
+    "lat": 53.926939024619685,
+    "lon": -1.8355411682090308,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS29 9BE"
+  },
+  {
+    "name": "Jordanthorpe",
+    "lat": 53.330324131012866,
+    "lon": -1.4596500200791411,
+    "firmCapacityMva": 120,
+    "siteLevel": "GSP",
+    "primaryVoltageKv": 400,
+    "dnoArea": "Yorkshire",
+    "postcode": "S8 8JA"
+  },
+  {
+    "name": "Keadby",
+    "lat": 53.59727294475655,
+    "lon": -0.7501167918646148,
+    "firmCapacityMva": 480,
+    "siteLevel": "GSP",
+    "primaryVoltageKv": 275,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN17 4DG"
+  },
+  {
+    "name": "Kirkstall C/Ring Road Horsforth",
+    "lat": 53.80664296501945,
+    "lon": -1.5902125582428568,
+    "firmCapacityMva": 117,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS18 4EL"
+  },
+  {
+    "name": "Kiveton Park",
+    "lat": 53.33459209630564,
+    "lon": -1.259884976428469,
+    "firmCapacityMva": 15,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "S26 6RP"
+  },
+  {
+    "name": "Knaresborough",
+    "lat": 54.03164145928918,
+    "lon": -1.4884492415554795,
+    "firmCapacityMva": 260,
+    "siteLevel": "GSP",
+    "primaryVoltageKv": 275,
+    "dnoArea": "North East",
+    "postcode": "HG5 9JA"
+  },
+  {
+    "name": "Lackenby",
+    "lat": 54.56767524471104,
+    "lon": -1.1324631032870303,
+    "firmCapacityMva": 260,
+    "siteLevel": "GSP",
+    "primaryVoltageKv": 275,
+    "dnoArea": "North East",
+    "postcode": "TS6 7QR"
+  },
+  {
+    "name": "Leasowe Road",
+    "lat": 53.77243549596883,
+    "lon": -1.5246961029425437,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS10 2EY"
+  },
+  {
+    "name": "Ledston",
+    "lat": 53.74955281885838,
+    "lon": -1.3555058484785447,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "WF10 2AX"
+  },
+  {
+    "name": "Legrams Mill Lane",
+    "lat": 53.78934930448678,
+    "lon": -1.7875982038345013,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "BD7  2BA"
+  },
+  {
+    "name": "Leylands Road",
+    "lat": 53.80303437439584,
+    "lon": -1.5347663619883796,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS2 7QB"
+  },
+  {
+    "name": "Linton",
+    "lat": 55.22820669860082,
+    "lon": -1.6062858712359809,
+    "firmCapacityMva": 72,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "North East",
+    "postcode": "NE61 5DA"
+  },
+  {
+    "name": "Linton 66/20kV",
+    "lat": 55.22820669860082,
+    "lon": -1.6062858712359809,
+    "firmCapacityMva": 28,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "NE61 3AX"
+  },
+  {
+    "name": "Low Spennymoor",
+    "lat": 54.696814786974564,
+    "lon": -1.5908709466106048,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "DL16 7RS"
+  },
+  {
+    "name": "Loxley Road",
+    "lat": 53.41060960826594,
+    "lon": -1.5649319875834846,
+    "firmCapacityMva": 8,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "S6 6SJ"
+  },
+  {
+    "name": "Malleable",
+    "lat": 54.57165466519943,
+    "lon": -1.2893515231918735,
+    "firmCapacityMva": 32,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "TS18 2NR"
+  },
+  {
+    "name": "Malton",
+    "lat": 54.14192989756819,
+    "lon": -0.7967834118191094,
+    "firmCapacityMva": 32,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "YO17 6BT"
+  },
+  {
+    "name": "Marmion Road",
+    "lat": 53.36241376071563,
+    "lon": -1.507404865399081,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "S11 8TS"
+  },
+  {
+    "name": "Martongate",
+    "lat": 54.10364500447508,
+    "lon": -0.18201306910301876,
+    "firmCapacityMva": 14,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "YO16 6RX"
+  },
+  {
+    "name": "Melrosegate 33/11kV",
+    "lat": 53.95916307414937,
+    "lon": -1.0597023475962744,
+    "firmCapacityMva": 32,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "YO31 0YB"
+  },
+  {
+    "name": "Meltham",
+    "lat": 53.59578816863018,
+    "lon": -1.8383387994666096,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "HD9 4AL"
+  },
+  {
+    "name": "Millroyd Street",
+    "lat": 53.700344728977484,
+    "lon": -1.7799122782778738,
+    "firmCapacityMva": 15,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "HD6  1JZ"
+  },
+  {
+    "name": "Milton Place",
+    "lat": 53.685149495821406,
+    "lon": -1.579460904569337,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "WF5 9EG"
+  },
+  {
+    "name": "Monckton",
+    "lat": 53.608493066935104,
+    "lon": -1.4323933881975783,
+    "firmCapacityMva": 15,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "S71  4BG"
+  },
+  {
+    "name": "Morpeth",
+    "lat": 55.16293216439913,
+    "lon": -1.672993224866935,
+    "firmCapacityMva": 28,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "NE61 6JH"
+  },
+  {
+    "name": "Mytholmroyd",
+    "lat": 53.73468310416741,
+    "lon": -1.9979465116959316,
+    "firmCapacityMva": 15,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "HX7 8NE"
+  },
+  {
+    "name": "Nabwood",
+    "lat": 53.8338711871921,
+    "lon": -1.811897658976164,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "BD18 4AA"
+  },
+  {
+    "name": "Normanby",
+    "lat": 53.381245210171976,
+    "lon": -0.45773237141173767,
+    "firmCapacityMva": 8,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LN8  2HQ"
+  },
+  {
+    "name": "Queens Road",
+    "lat": 53.62178911284785,
+    "lon": -0.1768850482174702,
+    "firmCapacityMva": 37,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN40 2LZ"
+  },
+  {
+    "name": "National Avenue",
+    "lat": 53.755079822616366,
+    "lon": -0.38324667358663084,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "HU5  4JN"
+  },
+  {
+    "name": "Neepsend",
+    "lat": 53.403593297341324,
+    "lon": -1.4866240031546485,
+    "firmCapacityMva": 140,
+    "siteLevel": "GSP",
+    "primaryVoltageKv": 275,
+    "dnoArea": "Yorkshire",
+    "postcode": "S6 2ET"
+  },
+  {
+    "name": "Newport 1",
+    "lat": 53.76591222720453,
+    "lon": -0.6970210257298433,
+    "firmCapacityMva": 20,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "HU15 2QU"
+  },
+  {
+    "name": "Ninelands Lane",
+    "lat": 53.79286004564247,
+    "lon": -1.3763375878914639,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS25 2PE"
+  },
+  {
+    "name": "North Tees",
+    "lat": 54.589805838786496,
+    "lon": -1.2604066574510109,
+    "firmCapacityMva": 150.6,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "North East",
+    "postcode": "TS23 1PY"
+  },
+  {
+    "name": "Norton",
+    "lat": 54.592292499449634,
+    "lon": -1.362673871922843,
+    "firmCapacityMva": 720,
+    "siteLevel": "GSP",
+    "primaryVoltageKv": 275,
+    "dnoArea": "North East",
+    "postcode": "TS21 1EG"
+  },
+  {
+    "name": "Oakes Road",
+    "lat": 53.654300134681975,
+    "lon": -1.8245588143227904,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "HD3 3EW"
+  },
+  {
+    "name": "Odsal",
+    "lat": 53.76394749154923,
+    "lon": -1.7626965335773754,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "BD6  1BW"
+  },
+  {
+    "name": "Offerton",
+    "lat": 54.88254485076955,
+    "lon": -1.4568312957305696,
+    "firmCapacityMva": 120,
+    "siteLevel": "GSP",
+    "primaryVoltageKv": 275,
+    "dnoArea": "North East",
+    "postcode": "SR4 9NR"
+  },
+  {
+    "name": "Offerton 33/11kV",
+    "lat": 54.88254485076955,
+    "lon": -1.4568312957305696,
+    "firmCapacityMva": 32,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "SR4  9NR"
+  },
+  {
+    "name": "Osgodby 3/4",
+    "lat": 53.78792600501533,
+    "lon": -1.0311281371250933,
+    "firmCapacityMva": 108,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "Yorkshire",
+    "postcode": "YO8 5HY"
+  },
+  {
+    "name": "Park Hill",
+    "lat": 53.381907271395946,
+    "lon": -1.4589373675115862,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "S2 5QY"
+  },
+  {
+    "name": "Park Street",
+    "lat": 53.432592315214116,
+    "lon": -1.3738553605557198,
+    "firmCapacityMva": 39,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 11,
+    "dnoArea": "Yorkshire",
+    "postcode": "S61 1TF"
+  },
+  {
+    "name": "Pasture Road South",
+    "lat": 53.68822267113606,
+    "lon": -0.42265449822829215,
+    "firmCapacityMva": 20,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN18 5RX"
+  },
+  {
+    "name": "Peterlee Industrial",
+    "lat": 54.77269099291051,
+    "lon": -1.3587390665936592,
+    "firmCapacityMva": 20,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "SR8  2HR"
+  },
+  {
+    "name": "Pitsmoor 3/4",
+    "lat": 53.40104083007158,
+    "lon": -1.4444967313901556,
+    "firmCapacityMva": 120,
+    "siteLevel": "GSP",
+    "primaryVoltageKv": 275,
+    "dnoArea": "Yorkshire",
+    "postcode": "S4 8LL"
+  },
+  {
+    "name": "Pollington",
+    "lat": 53.680780708989445,
+    "lon": -1.0600686053214698,
+    "firmCapacityMva": 9,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN14 0RR"
+  },
+  {
+    "name": "Pool",
+    "lat": 53.90246471179574,
+    "lon": -1.6442344672890776,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS21 1RP"
+  },
+  {
+    "name": "Poppleton",
+    "lat": 53.97460772825801,
+    "lon": -1.1318060432433281,
+    "firmCapacityMva": 120,
+    "siteLevel": "GSP",
+    "primaryVoltageKv": 275,
+    "dnoArea": "North East",
+    "postcode": "YO26 6RJ"
+  },
+  {
+    "name": "Potter House",
+    "lat": 54.799624606184054,
+    "lon": -1.5917782737737503,
+    "firmCapacityMva": 96.3,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "North East",
+    "postcode": "DH1 5FF"
+  },
+  {
+    "name": "Potter House T1 T3",
+    "lat": 54.799624606184054,
+    "lon": -1.5917782737737503,
+    "firmCapacityMva": 26,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "DH1  5FF"
+  },
+  {
+    "name": "Queensbury",
+    "lat": 53.760995399567385,
+    "lon": -1.8290448350244124,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "HX3  7TJ"
+  },
+  {
+    "name": "Reservoir",
+    "lat": 55.13428153268573,
+    "lon": -1.5914312457606794,
+    "firmCapacityMva": 30,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "NE22 5QP"
+  },
+  {
+    "name": "Richmond T1",
+    "lat": 54.41110557863428,
+    "lon": -1.7210922453257638,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "DL10 5BJ"
+  },
+  {
+    "name": "Richmond T2",
+    "lat": 54.41110557863428,
+    "lon": -1.7210922453257638,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "DL10 5BJ"
+  },
+  {
+    "name": "Rise Carr",
+    "lat": 54.54627357593692,
+    "lon": -1.5591729616725991,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "DL3  0RP"
+  },
+  {
+    "name": "Rodley Lane",
+    "lat": 53.824224354908836,
+    "lon": -1.665921953859596,
+    "firmCapacityMva": 15,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS13 1LJ"
+  },
+  {
+    "name": "Saint Andrews Road 132/33kV",
+    "lat": 53.65105754061174,
+    "lon": -1.7723621663387958,
+    "firmCapacityMva": 64.4,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "Yorkshire",
+    "postcode": "HD1 6SE"
+  },
+  {
+    "name": "Saint Andrews Road 33/11kV",
+    "lat": 53.650735460064205,
+    "lon": -1.7731506001381196,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "HD1 6SE"
+  },
+  {
+    "name": "Salterforth",
+    "lat": 53.90875577454069,
+    "lon": -2.164634346520557,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "BB18 6JD"
+  },
+  {
+    "name": "Salterhebble",
+    "lat": 53.696263137638184,
+    "lon": -1.8563409429995463,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "HX3 0QH"
+  },
+  {
+    "name": "Saltholme",
+    "lat": 54.60565858338173,
+    "lon": -1.2386005458986904,
+    "firmCapacityMva": 260,
+    "siteLevel": "GSP",
+    "primaryVoltageKv": 275,
+    "dnoArea": "North East",
+    "postcode": "TS23 4EX"
+  },
+  {
+    "name": "Scarborough 33/11kV",
+    "lat": 54.27137806734849,
+    "lon": -0.4180523225227045,
+    "firmCapacityMva": 32,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "YO11 2YH"
+  },
+  {
+    "name": "Scarborough Grid",
+    "lat": 54.264786241217244,
+    "lon": -0.4143739412813021,
+    "firmCapacityMva": 100,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "North East",
+    "postcode": "YO11 2YH"
+  },
+  {
+    "name": "Scissett",
+    "lat": 53.58897430354222,
+    "lon": -1.6223977290807459,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "HD8  9UA"
+  },
+  {
+    "name": "Seacroft",
+    "lat": 53.8269753395284,
+    "lon": -1.462975333918021,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS14 1LU"
+  },
+  {
+    "name": "Seaton",
+    "lat": 53.90533067376674,
+    "lon": -0.22114315260965944,
+    "firmCapacityMva": 20,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "HU11 5RQ"
+  },
+  {
+    "name": "Selby Road",
+    "lat": 53.79627061551587,
+    "lon": -1.4666618244496255,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS15 0QE"
+  },
+  {
+    "name": "Sessay Bridge/Sowerby",
+    "lat": 54.174139091127685,
+    "lon": -1.3193130760969447,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "YO7  3NT"
+  },
+  {
+    "name": "Severus Hill",
+    "lat": 53.95946355103885,
+    "lon": -1.1183123676309201,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "YO26 4RR"
+  },
+  {
+    "name": "Sheffield City",
+    "lat": 53.37484856207096,
+    "lon": -1.4785671857026312,
+    "firmCapacityMva": 120,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 275,
+    "dnoArea": "Yorkshire",
+    "postcode": "S3 7WB"
+  },
+  {
+    "name": "Sheffield City",
+    "lat": 53.37484856207096,
+    "lon": -1.4785671857026312,
+    "firmCapacityMva": 120,
+    "siteLevel": "GSP",
+    "primaryVoltageKv": 275,
+    "dnoArea": "Yorkshire",
+    "postcode": "S3 7WB"
+  },
+  {
+    "name": "Shepcote Tinsley",
+    "lat": 53.40285439334299,
+    "lon": -1.4066601079973617,
+    "firmCapacityMva": 30,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "S9 1RF"
+  },
+  {
+    "name": "Shirland Lane",
+    "lat": 53.39068614862622,
+    "lon": -1.423685395963758,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "S9   3GD"
+  },
+  {
+    "name": "Shotton",
+    "lat": 54.765432363794325,
+    "lon": -1.3558386386759351,
+    "firmCapacityMva": 25,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "SR8  2EL"
+  },
+  {
+    "name": "Skelton Grange",
+    "lat": 53.778529085989014,
+    "lon": -1.493852552633951,
+    "firmCapacityMva": 720,
+    "siteLevel": "GSP",
+    "primaryVoltageKv": 275,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS10 1RS"
+  },
+  {
+    "name": "Skerneside",
+    "lat": 54.60951326835492,
+    "lon": -1.5325572762072752,
+    "firmCapacityMva": 34,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "DL5  6JH"
+  },
+  {
+    "name": "Skipton",
+    "lat": 53.957393807482056,
+    "lon": -2.003286090120964,
+    "firmCapacityMva": 19,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "BD23 2RR"
+  },
+  {
+    "name": "Sledmere Garth",
+    "lat": 53.825942858931,
+    "lon": -1.4473862566299547,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "LS14 5DS"
+  },
+  {
+    "name": "Snaithing Park Road",
+    "lat": 53.3724404778975,
+    "lon": -1.5330960944604124,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "S10 3LJ"
+  },
+  {
+    "name": "Snelsins Lane",
+    "lat": 53.73194328941903,
+    "lon": -1.7219044858500283,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "BD19 3UH"
+  },
+  {
+    "name": "Southgate",
+    "lat": 53.861805070328884,
+    "lon": -0.6612744697612207,
+    "firmCapacityMva": 8,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "YO43 3BE"
+  },
+  {
+    "name": "Southwood Road",
+    "lat": 53.776506702184356,
+    "lon": -0.42556803347210587,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "HU16 5AN"
+  },
+  {
+    "name": "Spark Mill Lane",
+    "lat": 53.83692900411982,
+    "lon": -0.41725375772489814,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "HU17 0TT"
+  },
+  {
+    "name": "Spring Mill Street",
+    "lat": 53.7827759850477,
+    "lon": -1.7530900515015853,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "BD5 7HF"
+  },
+  {
+    "name": "Stanley Street",
+    "lat": 53.388299475760626,
+    "lon": -1.4652014725102551,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "S3 8HG"
+  },
+  {
+    "name": "Stannington Road",
+    "lat": 53.3985069465786,
+    "lon": -1.5126732566752703,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "S6 5FH"
+  },
+  {
+    "name": "Sunderland T1 T2",
+    "lat": 54.91158634642113,
+    "lon": -1.3935329383524202,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "SR4  6BU"
+  },
+  {
+    "name": "Templeborough 275/33kV",
+    "lat": 53.41216079330427,
+    "lon": -1.3876801693340322,
+    "firmCapacityMva": 96,
+    "siteLevel": "GSP",
+    "primaryVoltageKv": 275,
+    "dnoArea": "Yorkshire",
+    "postcode": "S9 1WP"
+  },
+  {
+    "name": "Templeborough 275/33kV",
+    "lat": 53.41216079330427,
+    "lon": -1.3876801693340322,
+    "firmCapacityMva": 96,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 275,
+    "dnoArea": "Yorkshire",
+    "postcode": "S9 1WP"
+  },
+  {
+    "name": "Thornhill 132kV",
+    "lat": 53.67760259235987,
+    "lon": -1.653487881315149,
+    "firmCapacityMva": 114,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "Yorkshire",
+    "postcode": "WF13 3JQ"
+  },
+  {
+    "name": "Thornton",
+    "lat": 53.79253847671481,
+    "lon": -1.8320134868408342,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "BD13 3DP"
+  },
+  {
+    "name": "Tingley",
+    "lat": 53.73181438923067,
+    "lon": -1.5739025090827339,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "WF3  1SS"
+  },
+  {
+    "name": "Todmorden",
+    "lat": 53.708770709192706,
+    "lon": -2.1032830866789345,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "OL14 7NB"
+  },
+  {
+    "name": "Toronto 66/20kV",
+    "lat": 54.67354107947762,
+    "lon": -1.7025512557628952,
+    "firmCapacityMva": 40,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "DL14 7RJ"
+  },
+  {
+    "name": "Tynemouth Central",
+    "lat": 55.012690134830464,
+    "lon": -1.434182967717541,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "NE30 1JG"
+  },
+  {
+    "name": "University",
+    "lat": 54.981718512556256,
+    "lon": -1.6174813236290353,
+    "firmCapacityMva": 32,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "NE2  4PZ"
+  },
+  {
+    "name": "Usworth",
+    "lat": 54.91627261850323,
+    "lon": -1.496906120473945,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "NE37 3HY"
+  },
+  {
+    "name": "Wellington Street",
+    "lat": 53.7254768509325,
+    "lon": -1.3645734242015144,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "WF10 1NW"
+  },
+  {
+    "name": "Wakefield Monckton Road",
+    "lat": 53.666235913215985,
+    "lon": -1.5102119220644332,
+    "firmCapacityMva": 117,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 132,
+    "dnoArea": "Yorkshire",
+    "postcode": "WF2 7AL"
+  },
+  {
+    "name": "Walker",
+    "lat": 54.976321532464645,
+    "lon": -1.5382450153331018,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "NE6  3PZ"
+  },
+  {
+    "name": "Wansbeck",
+    "lat": 55.156458667286216,
+    "lon": -1.5455994325622624,
+    "firmCapacityMva": 32,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "NE22 7DH"
+  },
+  {
+    "name": "Wardley",
+    "lat": 54.95876745122894,
+    "lon": -1.5302007599943213,
+    "firmCapacityMva": 19,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "NE31 1LP"
+  },
+  {
+    "name": "Warkworth",
+    "lat": 55.34620011252192,
+    "lon": -1.6573104463033757,
+    "firmCapacityMva": 30,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "NE65 0YD"
+  },
+  {
+    "name": "Waverley Business Park",
+    "lat": 53.384624807134664,
+    "lon": -1.3782876460327902,
+    "firmCapacityMva": 38,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "S60 5BL"
+  },
+  {
+    "name": "Wesley Crescent",
+    "lat": 53.54693445173556,
+    "lon": -0.03183353193699323,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN35 0JU"
+  },
+  {
+    "name": "West Boldon",
+    "lat": 54.94011349077472,
+    "lon": -1.47147786535549,
+    "firmCapacityMva": 360,
+    "siteLevel": "GSP",
+    "primaryVoltageKv": 275,
+    "dnoArea": "North East",
+    "postcode": "NE36 0BG"
+  },
+  {
+    "name": "West Boldon",
+    "lat": 54.94011349077472,
+    "lon": -1.47147786535549,
+    "firmCapacityMva": 360,
+    "siteLevel": "BSP",
+    "primaryVoltageKv": 275,
+    "dnoArea": "North East",
+    "postcode": "NE36 0BG"
+  },
+  {
+    "name": "West End Lane",
+    "lat": 53.48009854173628,
+    "lon": -1.0888597638608888,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "Yorkshire",
+    "postcode": "DN11 0PU"
+  },
+  {
+    "name": "West Melton Section 3",
+    "lat": 53.501165490271646,
+    "lon": -1.3788459943160973,
+    "firmCapacityMva": 360,
+    "siteLevel": "GSP",
+    "primaryVoltageKv": 275,
+    "dnoArea": "Yorkshire",
+    "postcode": "S63 6EZ"
+  },
+  {
+    "name": "West Wylam",
+    "lat": 54.964868917618396,
+    "lon": -1.8385357671118174,
+    "firmCapacityMva": 30,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 66,
+    "dnoArea": "North East",
+    "postcode": "NE42 5EX"
+  },
+  {
+    "name": "Westcott Street",
+    "lat": 53.75948526810605,
+    "lon": -0.305848067666703,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "HU8  8JN"
+  },
+  {
+    "name": "Westerhope",
+    "lat": 55.00070106940336,
+    "lon": -1.6951824372025364,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "NE5  5HH"
+  },
+  {
+    "name": "Whitby T1",
+    "lat": 54.47800667911013,
+    "lon": -0.6126470852137954,
+    "firmCapacityMva": 19,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "YO22 4JE"
+  },
+  {
+    "name": "Whitby West T1",
+    "lat": 54.48010627828065,
+    "lon": -0.6352342464457756,
+    "firmCapacityMva": 19,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "YO21 1LY"
+  },
+  {
+    "name": "White Lee",
+    "lat": 53.71509594530543,
+    "lon": -1.6610894007418737,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "WF17 8AF"
+  },
+  {
+    "name": "Willington",
+    "lat": 55.0028904239555,
+    "lon": -1.512004052595452,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "NE28 7HS"
+  },
+  {
+    "name": "Withernsea",
+    "lat": 53.72624522752762,
+    "lon": 0.029011726811136285,
+    "firmCapacityMva": 10,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "HU19 2QA"
+  },
+  {
+    "name": "Yew Green Road",
+    "lat": 53.63531669733714,
+    "lon": -1.8012870303824744,
+    "firmCapacityMva": 23,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "Yorkshire",
+    "postcode": "HD4 5DD"
+  },
+  {
+    "name": "York University",
+    "lat": 53.94918108722552,
+    "lon": -1.0442324603548585,
+    "firmCapacityMva": 24,
+    "siteLevel": "Primary",
+    "primaryVoltageKv": 33,
+    "dnoArea": "North East",
+    "postcode": "YO10 5ZF"
+  }
+]

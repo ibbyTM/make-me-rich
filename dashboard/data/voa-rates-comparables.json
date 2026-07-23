@@ -1,0 +1,86 @@
+{
+  "generatedAt": "2026-07-22T19:56:49.263Z",
+  "dataSource": "VOA business rates compiled list (free, no auth)",
+  "districts": {
+    "TS18": {
+      "medianRatePerSqft": 6.74,
+      "sampleCount": 1964
+    },
+    "DL1": {
+      "medianRatePerSqft": 6.35,
+      "sampleCount": 2060
+    },
+    "DL5": {
+      "medianRatePerSqft": 5.64,
+      "sampleCount": 795
+    },
+    "SR7": {
+      "medianRatePerSqft": 6.96,
+      "sampleCount": 789
+    },
+    "B49": {
+      "medianRatePerSqft": 10.22,
+      "sampleCount": 604
+    },
+    "CV10": {
+      "medianRatePerSqft": 8.56,
+      "sampleCount": 714
+    },
+    "LN4": {
+      "medianRatePerSqft": 5.18,
+      "sampleCount": 613
+    },
+    "YO7": {
+      "medianRatePerSqft": 5.55,
+      "sampleCount": 853
+    },
+    "NN11": {
+      "medianRatePerSqft": 7.57,
+      "sampleCount": 1244
+    },
+    "CV2": {
+      "medianRatePerSqft": 8.33,
+      "sampleCount": 927
+    },
+    "CV6": {
+      "medianRatePerSqft": 9.38,
+      "sampleCount": 2070
+    },
+    "CV4": {
+      "medianRatePerSqft": 9.47,
+      "sampleCount": 735
+    },
+    "M5": {
+      "medianRatePerSqft": 13.46,
+      "sampleCount": 656
+    },
+    "M4": {
+      "medianRatePerSqft": 17.69,
+      "sampleCount": 1537
+    },
+    "S26": {
+      "medianRatePerSqft": 6.7,
+      "sampleCount": 419
+    },
+    "S36": {
+      "medianRatePerSqft": 8.28,
+      "sampleCount": 703
+    },
+    "DN1": {
+      "medianRatePerSqft": 8.86,
+      "sampleCount": 1613
+    },
+    "S3": {
+      "medianRatePerSqft": 8.07,
+      "sampleCount": 1313
+    },
+    "SR4": {
+      "medianRatePerSqft": 9.7,
+      "sampleCount": 908
+    },
+    "WF10": {
+      "medianRatePerSqft": 6.41,
+      "sampleCount": 2163
+    }
+  }
+}

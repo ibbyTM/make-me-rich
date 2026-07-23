@@ -1,0 +1,468 @@
+{
+  "source": "Discovered agents",
+  "generatedAt": "2026-07-22T22:22:53.327Z",
+  "rows": [
+    {
+      "address": "Logistics Park, Darlington, DL1 1RW",
+      "priceDisplay": "POA",
+      "priceAmount": 0,
+      "sizeLabel": "92467 sqft",
+      "sizeSqft": 92467,
+      "source": "Connect Property North East",
+      "requirement": "Data Centre Development",
+      "score": 2,
+      "reasons": [
+        "geography \"Darlington North East\" in Data Centre Development territory (prescoped — not scored)",
+        "size 92467 >= min 20000",
+        "keyword hit \"industrial\""
+      ],
+      "url": "https://cpne.co.uk/property/tornado-logistics-park-darlington-dl1-1rw-2/",
+      "propertyType": "Industrial",
+      "imageUrl": "https://cpne.co.uk/wp-content/uploads/2024/06/CPNE_G73761S_IMG_00-300x185.jpg",
+      "marketingText": "Tornado, Logistics Park, Darlington DL1 1RW New Logistics Industrial Space For Sale or To Let Just off A66 near Amazon Depot Plot size 4.45 acres Proposals for 3 x Warehouse Units Tornado Logistics Park is strategically positioned to access the Tees Valley and wider North East. Situated under a mile from the A66 and 5 miles to the both the A66 (M) A1 (M). warehouse space for the modern occupier. Initial proposal to provide 3x High Quality Logistics unit&#8230; Freehold",
+      "powerStation": {
+        "geocodePrecision": "postcode",
+        "nearestAnyKm": 3.1,
+        "nearestAnyName": "Land West Of Hunger Hill Farm",
+        "nearestAnyFuel": "Solar"
+      },
+      "substation": {
+        "distanceKm": 1.7,
+        "name": "Darlington Central",
+        "voltageKv": 132,
+        "tier": "grid-supply"
+      },
+      "dataCentreFit": {
+        "score": 83,
+        "band": "strong",
+        "reasons": [
+          "1.7km to Darlington Central (132kV, grid-supply)",
+          "92,467 sq ft equivalent",
+          "subtype \"Industrial\""
+        ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or size unknown"
+        ]
+      },
+      "schoolReadiness": {
+        "score": 0,
+        "band": "unknown",
+        "reasons": [
+          "no condition language found in listing text"
+        ]
+      },
+      "substationCapacity": {
+        "distanceKm": 1.2,
+        "name": "Darlington East",
+        "firmCapacityMva": 24,
+        "siteLevel": "Primary",
+        "source": "Northern Powergrid open data"
+      }
+    },
+    {
+      "address": "Debtford Terrace, Sunderland, SR4 6DD",
+      "priceDisplay": "£350,000",
+      "priceAmount": 350000,
+      "sizeLabel": "78408 sqft",
+      "sizeSqft": 78408,
+      "source": "Connect Property North East",
+      "requirement": "Data Centre Development",
+      "score": 2,
+      "reasons": [
+        "geography \"Sunderland North East\" in Data Centre Development territory (prescoped — not scored)",
+        "size 78408 >= min 20000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://cpne.co.uk/property/ayres-quay-debtford-terrace-sunderland-sr4-6dd-2/",
+      "propertyType": "Industrial",
+      "imageUrl": "https://cpne.co.uk/wp-content/uploads/2026/05/CPNE_104253S_IMG_00.jpg",
+      "marketingText": "Ayres Quay, Debtford Terrace, Sunderland SR4 6DD For Sale / To Let Established Commercial Location Large Secure Site Securely Fenced & Gated The site is located in the Ayres Quay/ Deptford area of Sunderland and sits adjacent to the &#8220;&#8221;Go Buses&#8221;&#8221; depot. The site is accessed directly from Hillfield Terrace and is located on Deptford Terrace which is adjacent to the A1231 Queen Alexandra Bridge on the approach to Sunderl&#8230; Freehold",
+      "powerStation": {
+        "geocodePrecision": "postcode",
+        "nearestAnyKm": 4.3,
+        "nearestAnyName": "Nissan Test Track",
+        "nearestAnyFuel": "Solar"
+      },
+      "substation": {
+        "distanceKm": 5.4,
+        "name": "West Boldon Substation",
+        "voltageKv": 275,
+        "tier": "transmission"
+      },
+      "dataCentreFit": {
+        "score": 69,
+        "band": "strong",
+        "reasons": [
+          "5.4km to West Boldon Substation (275kV, transmission)",
+          "78,408 sq ft equivalent",
+          "subtype \"Industrial\""
+        ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
+      },
+      "valueAdd": {
+        "score": 100,
+        "band": "strong",
+        "reasons": [
+          "£4/sqft vs local VOA benchmark £9.70/sqft (ratio 0.5×) — 0th percentile among scored listings (lower = cheaper)"
+        ]
+      },
+      "schoolReadiness": {
+        "score": 0,
+        "band": "unknown",
+        "reasons": [
+          "no condition language found in listing text"
+        ]
+      },
+      "substationCapacity": {
+        "distanceKm": 0.5,
+        "name": "Sunderland T1 T2",
+        "firmCapacityMva": 24,
+        "siteLevel": "Primary",
+        "source": "Northern Powergrid open data"
+      }
+    },
+    {
+      "address": "Admiralty Way, Seaham, SR7 7DN",
+      "priceDisplay": "POA",
+      "priceAmount": 0,
+      "sizeLabel": "38293 sqft",
+      "sizeSqft": 38293,
+      "source": "Connect Property North East",
+      "requirement": "Data Centre Development",
+      "score": 2,
+      "reasons": [
+        "geography \"Seaham North East\" in Data Centre Development territory (prescoped — not scored)",
+        "size 38293 >= min 20000",
+        "keyword hit \"distribution\""
+      ],
+      "url": "https://cpne.co.uk/property/foxcover-business-park-unit-4-admiralty-way-seaham-sr7-7dn-3/",
+      "propertyType": "Industrial",
+      "imageUrl": "https://cpne.co.uk/wp-content/uploads/2026/02/CPNE_104150S_IMG_00-300x166.jpg",
+      "marketingText": "Foxcover Business Park, Unit 4 Admiralty Way, Seaham SR7 7DN For Sale / To Let Excellent Location for A19 Dock and Ground Level Loading Large Power Supply Clear Internal Height = 10M Office Accommodation Staff Amenities Foxcover Distribution Park is situated to the south of Seaham, 1.5 miles to the east of the A19 which is accessed via the A182. The business park is approximately 12 miles east of Durham, 20 miles south east of Newcastle upon Tyne and 25 miles north of Middlesbrough and is thus &#8230; Freehold",
+      "powerStation": {
+        "geocodePrecision": "postcode",
+        "nearestAnyKm": 1.9,
+        "nearestAnyName": "High Sharpley",
+        "nearestAnyFuel": "Wind"
+      },
+      "substation": {
+        "distanceKm": 4.8,
+        "name": "Hawthorn Pit Substation",
+        "voltageKv": 275,
+        "tier": "transmission"
+      },
+      "dataCentreFit": {
+        "score": 84,
+        "band": "strong",
+        "reasons": [
+          "4.8km to Hawthorn Pit Substation (275kV, transmission)",
+          "38,293 sq ft equivalent",
+          "subtype \"Industrial\""
+        ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or size unknown"
+        ]
+      },
+      "schoolReadiness": {
+        "score": 0,
+        "band": "unknown",
+        "reasons": [
+          "no condition language found in listing text"
+        ]
+      },
+      "substationCapacity": {
+        "distanceKm": 1.6,
+        "name": "Stoney Cut",
+        "firmCapacityMva": 32,
+        "siteLevel": "Primary",
+        "source": "Northern Powergrid open data"
+      }
+    },
+    {
+      "address": "Carlbury Road, Newton Aycliffe, DL5 6BH",
+      "priceDisplay": "POA",
+      "priceAmount": 0,
+      "sizeLabel": "35811 sqft",
+      "sizeSqft": 35811,
+      "source": "Connect Property North East",
+      "requirement": "Data Centre Development",
+      "score": 2,
+      "reasons": [
+        "geography \"Newton Aycliffe North East\" in Data Centre Development territory (prescoped — not scored)",
+        "size 35811 >= min 20000",
+        "keyword hit \"industrial\""
+      ],
+      "url": "https://cpne.co.uk/property/unit-a-prime-point-carlbury-road-newton-aycliffe-dl5-6bh-2/",
+      "propertyType": "Industrial",
+      "imageUrl": "https://cpne.co.uk/wp-content/uploads/2026/04/CPNE_104175S_IMG_00-1-300x190.jpg",
+      "marketingText": "Unit A Prime Point, Carlbury Road, Newton Aycliffe DL5 6BH COMING SOON Q4 2026 2 x Industrial Warehouse Units To Let (May Sell) Office Accommodation Large Secure Yard Ideally situated on Aycliffe Industrial Park, off Durham Way and Carlbury Road. Within easy access for A1(M). â¢ Steel Portal Frame Construction â¢ 2 Dock Levellers â¢ 2 Level Access Doors â¢ Minimum 35 Car Parking Spaces (2 disabled / 2 electric vehicle charging) â¢ Eaves height &#8230; Freehold",
+      "powerStation": {
+        "geocodePrecision": "postcode",
+        "nearestAnyKm": 1,
+        "nearestAnyName": "Preston Road AD Plant (Waste AD)",
+        "nearestAnyFuel": "Biomass"
+      },
+      "substation": {
+        "distanceKm": 5.2,
+        "name": "Darlington North Substation",
+        "voltageKv": 132,
+        "tier": "grid-supply"
+      },
+      "dataCentreFit": {
+        "score": 63,
+        "band": "possible",
+        "reasons": [
+          "5.2km to Darlington North Substation (132kV, grid-supply)",
+          "35,811 sq ft equivalent",
+          "subtype \"Industrial\""
+        ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or size unknown"
+        ]
+      },
+      "schoolReadiness": {
+        "score": 0,
+        "band": "unknown",
+        "reasons": [
+          "no condition language found in listing text"
+        ]
+      },
+      "substationCapacity": {
+        "distanceKm": 1,
+        "name": "Aycliffe Industrial",
+        "firmCapacityMva": 19,
+        "siteLevel": "Primary",
+        "source": "Northern Powergrid open data"
+      }
+    },
+    {
+      "address": "Prince Regent Street, Stockton on Tees, TS18 1DB",
+      "priceDisplay": "£600,000",
+      "priceAmount": 600000,
+      "sizeLabel": "30010 sqft",
+      "sizeSqft": 30010,
+      "source": "Connect Property North East",
+      "requirement": "Data Centre Development",
+      "score": 2,
+      "reasons": [
+        "geography \"Stockton on Tees North East\" in Data Centre Development territory (prescoped — not scored)",
+        "size 30010 >= min 20000",
+        "keyword hit \"freehold\""
+      ],
+      "url": "https://cpne.co.uk/property/bayheath-house-5-prince-regent-street-stockton-on-tees-ts18-1db/",
+      "propertyType": "Office",
+      "imageUrl": "https://cpne.co.uk/wp-content/uploads/2026/04/CPNE_104180_IMG_00-300x225.jpg",
+      "marketingText": "Bayheath House, 5 Prince Regent Street, Stockton on Tees TS18 1DB Prominent Position Established Commercial Location Excellent Road Links Detached 6 Storey Building Car Park Solar PV Panels to the Roof Bayheath House is prominently located on Prince Regent Street within Stockton Town Centre with excellent road links to the A66(T) and A19(T). The premises comprise a 6-storey building with a flat roof interspersed with Solar PV Panels. Internally to premises is &#8230; Freehold",
+      "powerStation": {
+        "geocodePrecision": "postcode",
+        "nearestAnyKm": 2,
+        "nearestAnyName": "Lambs Hill",
+        "nearestAnyFuel": "Wind"
+      },
+      "substation": {
+        "distanceKm": 4.5,
+        "name": "Norton Substation",
+        "voltageKv": 400,
+        "tier": "transmission"
+      },
+      "dataCentreFit": {
+        "score": 72,
+        "band": "strong",
+        "reasons": [
+          "4.5km to Norton Substation (400kV, transmission)",
+          "30,010 sq ft equivalent",
+          "subtype \"Office\""
+        ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
+      },
+      "valueAdd": {
+        "score": 100,
+        "band": "strong",
+        "reasons": [
+          "£20/sqft vs local VOA benchmark £6.74/sqft (ratio 3.0×) — 17th percentile among scored listings (lower = cheaper)"
+        ]
+      },
+      "schoolReadiness": {
+        "score": 0,
+        "band": "unknown",
+        "reasons": [
+          "no condition language found in listing text"
+        ]
+      },
+      "substationCapacity": {
+        "distanceKm": 1.3,
+        "name": "Bowesfield",
+        "firmCapacityMva": 108,
+        "siteLevel": "BSP",
+        "source": "Northern Powergrid open data"
+      }
+    },
+    {
+      "address": "Cedar Road, Thirsk, YO7 3FF",
+      "priceDisplay": "£678,000",
+      "priceAmount": 678000,
+      "sizeLabel": "4520 sqft",
+      "sizeSqft": 4520,
+      "source": "Connect Property North East",
+      "requirement": "School Conversion",
+      "score": 2,
+      "reasons": [
+        "geography \"Thirsk Yorkshire\" in School Conversion territory (prescoped — not scored)",
+        "size 4520 >= min 2000",
+        "keyword hit \"school\""
+      ],
+      "url": "https://cpne.co.uk/property/unit-5-phase-2-sowerby-gate-cedar-road-thirsk-yo7-3ff-2/",
+      "propertyType": "Industrial",
+      "imageUrl": "https://cpne.co.uk/wp-content/uploads/2026/04/CPNE_104210S_IMG_00-300x225.jpg",
+      "marketingText": "Unit 5, Phase 2 Sowerby Gate, Cedar Road, Thirsk YO7 3FF For Sale or To Let AVAILABLE Summer 2026 Brand New Industrial Units 5M Eaves Height Roller Shutter Doors 3 Phase Electricity The site forms part of the larger Sowerby Gateway development which extends to some 70 acres incorporating 950 new homes, together with playing fields, open space, shops and leisure facilities including an Aldi and a Premier Inn, as well as a new primary school. Nearby occupiers&#8230; Freehold",
+      "powerStation": {
+        "geocodePrecision": "postcode",
+        "nearestAnyKm": 3.4,
+        "nearestAnyName": "Land North of Sandhutton Lane",
+        "nearestAnyFuel": "Solar"
+      },
+      "substation": {
+        "distanceKm": 0.6,
+        "name": "Sowerby",
+        "voltageKv": 33,
+        "tier": "local-primary"
+      },
+      "dataCentreFit": {
+        "score": 40,
+        "band": "possible",
+        "reasons": [
+          "0.6km to Sowerby (33kV, local-primary)",
+          "4,520 sq ft equivalent",
+          "subtype \"Industrial\""
+        ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "unlikely",
+        "reasons": [
+          "£150/sqft vs local VOA benchmark £5.55/sqft (ratio 27.0×) — 83th percentile among scored listings (lower = cheaper)"
+        ]
+      },
+      "schoolReadiness": {
+        "score": 0,
+        "band": "unknown",
+        "reasons": [
+          "no condition language found in listing text"
+        ]
+      },
+      "substationCapacity": {
+        "distanceKm": 2.5,
+        "name": "Thirsk",
+        "firmCapacityMva": 15,
+        "siteLevel": "Primary",
+        "source": "Northern Powergrid open data"
+      }
+    },
+    {
+      "address": "Cedar Road, Thirsk, YO7 3FF",
+      "priceDisplay": "£510,000",
+      "priceAmount": 510000,
+      "sizeLabel": "3616 sqft",
+      "sizeSqft": 3616,
+      "source": "Connect Property North East",
+      "requirement": "School Conversion",
+      "score": 2,
+      "reasons": [
+        "geography \"Thirsk Yorkshire\" in School Conversion territory (prescoped — not scored)",
+        "size 3616 >= min 2000",
+        "keyword hit \"school\""
+      ],
+      "url": "https://cpne.co.uk/property/unit-4-phase-2-sowerby-gate-cedar-road-thirsk-yo7-3ff-2/",
+      "propertyType": "Industrial",
+      "imageUrl": "https://cpne.co.uk/wp-content/uploads/2026/04/CPNE_104209S_IMG_00-300x225.jpg",
+      "marketingText": "Unit 4, Phase 2 Sowerby Gate, Cedar Road, Thirsk YO7 3FF For Sale or To Let AVAILABLE Summer 2026 Brand New Industrial Units 5M Eaves Height Roller Shutter Doors 3 Phase Electricity The site forms part of the larger Sowerby Gateway development which extends to some 70 acres incorporating 950 new homes, together with playing fields, open space, shops and leisure facilities including an Aldi and a Premier Inn, as well as a new primary school. Nearby occupiers&#8230; Freehold",
+      "powerStation": {
+        "geocodePrecision": "postcode",
+        "nearestAnyKm": 3.4,
+        "nearestAnyName": "Land North of Sandhutton Lane",
+        "nearestAnyFuel": "Solar"
+      },
+      "substation": {
+        "distanceKm": 0.6,
+        "name": "Sowerby",
+        "voltageKv": 33,
+        "tier": "local-primary"
+      },
+      "dataCentreFit": {
+        "score": 40,
+        "band": "possible",
+        "reasons": [
+          "0.6km to Sowerby (33kV, local-primary)",
+          "3,616 sq ft equivalent",
+          "subtype \"Industrial\""
+        ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
+      },
+      "valueAdd": {
+        "score": 15,
+        "band": "unlikely",
+        "reasons": [
+          "£141/sqft vs local VOA benchmark £5.55/sqft (ratio 25.4×) — 67th percentile among scored listings (lower = cheaper)"
+        ]
+      },
+      "schoolReadiness": {
+        "score": 0,
+        "band": "unknown",
+        "reasons": [
+          "no condition language found in listing text"
+        ]
+      },
+      "substationCapacity": {
+        "distanceKm": 2.5,
+        "name": "Thirsk",
+        "firmCapacityMva": 15,
+        "siteLevel": "Primary",
+        "source": "Northern Powergrid open data"
+      }
+    }
+  ]
+}

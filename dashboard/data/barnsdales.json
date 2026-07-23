@@ -1,0 +1,205 @@
+{
+  "source": "Barnsdales",
+  "generatedAt": "2026-07-22T22:22:30.699Z",
+  "rows": [
+    {
+      "address": "Doncaster, DN1 3EA",
+      "priceDisplay": "Offers in the region of £425,000 8% Gross Initial Yield",
+      "priceAmount": 425000,
+      "sizeLabel": "2776 sqft",
+      "sizeSqft": 2776,
+      "source": "Barnsdales",
+      "requirement": "School Conversion",
+      "score": 2,
+      "reasons": [
+        "geography \"Doncaster Yorkshire\" matches School Conversion",
+        "size 2776 >= min 2000"
+      ],
+      "url": "https://www.barnsdales.co.uk/properties/351680",
+      "propertyType": "Investment - Mixed use",
+      "imageUrl": "https://s3.eu-west-2.amazonaws.com/altcms/barnsdales/media/45033/conversions/c6c8fa08d000ae2d0e248260640bb863-20260216-145641-show.jpg",
+      "marketingText": null,
+      "powerStation": {
+        "geocodePrecision": "postcode",
+        "nearestAnyKm": 1.7,
+        "nearestAnyName": "Prosper Demulder Limited Anaerobic Digestion Plant (Waste AD)",
+        "nearestAnyFuel": "Biomass"
+      },
+      "substation": {
+        "distanceKm": 0.6,
+        "name": "Doncaster Central 132/33/25kV",
+        "voltageKv": 132,
+        "tier": "grid-supply"
+      },
+      "dataCentreFit": {
+        "score": 63,
+        "band": "possible",
+        "reasons": [
+          "0.6km to Doncaster Central 132/33/25kV (132kV, grid-supply)",
+          "2,776 sq ft equivalent",
+          "subtype \"Investment - Mixed use\""
+        ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "canonicalUrl": "https://www.barnsdales.co.uk/properties/351680",
+        "duplicateCount": 1,
+        "groupId": "425000:2776#0",
+        "reason": "same price (£425,000) and size (2,776 sq ft), overlapping address"
+      },
+      "valueAdd": {
+        "score": 60,
+        "band": "possible",
+        "reasons": [
+          "£153/sqft vs local VOA benchmark £8.86/sqft (ratio 17.3×) — 50th percentile among scored listings (lower = cheaper)"
+        ]
+      },
+      "schoolReadiness": {
+        "score": 0,
+        "band": "unknown",
+        "reasons": [
+          "no marketing text available to assess condition"
+        ]
+      },
+      "substationCapacity": {
+        "distanceKm": 0.5,
+        "name": "Jarratt Street",
+        "firmCapacityMva": 23,
+        "siteLevel": "Primary",
+        "source": "Northern Powergrid open data"
+      }
+    },
+    {
+      "address": "Castleford, WF10 5HX",
+      "priceDisplay": "£600,000",
+      "priceAmount": 600000,
+      "sizeLabel": "1.1 acres",
+      "sizeSqft": null,
+      "source": "Barnsdales",
+      "requirement": "Residential Conversion",
+      "score": 2,
+      "reasons": [
+        "geography \"Castleford Yorkshire\" matches Residential Conversion",
+        "price 600000 within budget 500000-2000000"
+      ],
+      "url": "https://www.barnsdales.co.uk/properties/319160",
+      "propertyType": "Land · Mixed Use",
+      "imageUrl": "https://s3.eu-west-2.amazonaws.com/altcms/barnsdales/media/44285/conversions/2f911a63864edf77042c7b435bcf92be-letting319160.jpeg-show.jpg",
+      "marketingText": null,
+      "powerStation": {
+        "geocodePrecision": "postcode",
+        "nearestAnyKm": 2.4,
+        "nearestAnyName": "Castleford",
+        "nearestAnyFuel": "Gas"
+      },
+      "substation": {
+        "distanceKm": 4.2,
+        "name": "substation 193460868",
+        "voltageKv": 400,
+        "tier": "transmission"
+      },
+      "dataCentreFit": {
+        "score": 84,
+        "band": "strong",
+        "reasons": [
+          "4.2km to substation 193460868 (400kV, transmission)",
+          "47,916 sq ft equivalent",
+          "subtype \"Land · Mixed Use\""
+        ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "duplicateCount": 0,
+        "groupId": null
+      },
+      "valueAdd": {
+        "score": 0,
+        "band": "insufficient_data",
+        "reasons": [
+          "price or size unknown"
+        ]
+      },
+      "schoolReadiness": {
+        "score": 0,
+        "band": "unknown",
+        "reasons": [
+          "no marketing text available to assess condition"
+        ]
+      },
+      "substationCapacity": {
+        "distanceKm": 0.9,
+        "name": "Carr Lane",
+        "firmCapacityMva": 19,
+        "siteLevel": "Primary",
+        "source": "Northern Powergrid open data"
+      }
+    },
+    {
+      "address": "Doncaster, DN1 1HQ",
+      "priceDisplay": "£575,000",
+      "priceAmount": 575000,
+      "sizeLabel": "12000 sqft",
+      "sizeSqft": 12000,
+      "source": "Barnsdales",
+      "requirement": "School Conversion",
+      "score": 2,
+      "reasons": [
+        "geography \"Doncaster Yorkshire\" matches School Conversion",
+        "size 12000 >= min 2000"
+      ],
+      "url": "https://www.barnsdales.co.uk/properties/319692",
+      "propertyType": "Retail Development · Retail · Pub / Bar / Club",
+      "imageUrl": "https://s3.eu-west-2.amazonaws.com/altcms/barnsdales/media/44238/conversions/e4a219633115171143e6fd271133e82a-letting319692.jpeg-show.jpg",
+      "marketingText": null,
+      "powerStation": {
+        "geocodePrecision": "postcode",
+        "nearestAnyKm": 1.6,
+        "nearestAnyName": "Prosper Demulder Limited Anaerobic Digestion Plant (Waste AD)",
+        "nearestAnyFuel": "Biomass"
+      },
+      "substation": {
+        "distanceKm": 0.6,
+        "name": "Doncaster Central 132/33/25kV",
+        "voltageKv": 132,
+        "tier": "grid-supply"
+      },
+      "dataCentreFit": {
+        "score": 75,
+        "band": "strong",
+        "reasons": [
+          "0.6km to Doncaster Central 132/33/25kV (132kV, grid-supply)",
+          "12,000 sq ft equivalent",
+          "subtype \"Retail Development · Retail · Pub / Bar / Club\""
+        ]
+      },
+      "dedup": {
+        "isDuplicate": false,
+        "canonicalUrl": "https://www.barnsdales.co.uk/properties/319692",
+        "duplicateCount": 1,
+        "groupId": "575000:12000#0",
+        "reason": "same price (£575,000) and size (12,000 sq ft), overlapping address"
+      },
+      "valueAdd": {
+        "score": 80,
+        "band": "strong",
+        "reasons": [
+          "£48/sqft vs local VOA benchmark £8.86/sqft (ratio 5.4×) — 33th percentile among scored listings (lower = cheaper)"
+        ]
+      },
+      "schoolReadiness": {
+        "score": 0,
+        "band": "unknown",
+        "reasons": [
+          "no marketing text available to assess condition"
+        ]
+      },
+      "substationCapacity": {
+        "distanceKm": 0.5,
+        "name": "Greyfriars Rd",
+        "firmCapacityMva": 24,
+        "siteLevel": "Primary",
+        "source": "Northern Powergrid open data"
+      }
+    }
+  ]
+}
