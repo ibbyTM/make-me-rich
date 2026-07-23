@@ -6,8 +6,14 @@
  * listing, finds its nearest usable-voltage substation (the scored grid-
  * connection signal — see src/geo/substations.ts for why this replaced
  * power-station proximity), scores it, and writes the same three files back
- * out with three fields per row (`powerStation` — informational only now,
- * `substation`, `dataCentreFit`) — every existing field is preserved.
+ * out with four fields per row (`powerStation` — informational only now,
+ * `substation`, `substationCapacity`, `dataCentreFit`) — every existing
+ * field is preserved. `substationCapacity` (added 2026-07-23) is real MVA
+ * capacity data, only populated where Northern Powergrid's open data
+ * covers (Yorkshire/North East) — see src/geo/substationCapacity.ts. It
+ * doesn't feed the score (that stays on `substation`'s GB-wide voltage-tier
+ * signal, one consistent scale nationally); it's a display-only upgrade
+ * over the kV badge where real capacity data actually exists.
  *
  * IMPORTANT ordering note: barnsdales-report.ts / rightmove-commercial-
  * report.ts / discovered-agents-report.ts each fully REGENERATE their JSON
@@ -46,6 +52,11 @@ import {
 } from '../src/geo/postcodes.js';
 import { loadGbPowerStations, nearestStation, type PowerStation } from '../src/geo/powerStations.js';
 import { loadGbSubstations, bestSubstationScore, type Substation } from '../src/geo/substations.js';
+import {
+  loadNpgSubstationCapacity,
+  nearestCapacitySubstation,
+  type SubstationCapacity,
+} from '../src/geo/substationCapacity.js';
 import { scoreDataCentreFit, sizeSqftEquivalent } from '../src/scoring/dataCentreFit.js';
 
 /** Human-readable substation-match reason for the score's reasons array. */
@@ -119,6 +130,10 @@ async function main() {
   const substations: Substation[] = await loadGbSubstations();
   process.stderr.write(`${substations.length} substations loaded.\n`);
 
+  process.stderr.write('loading Northern Powergrid real-capacity substation dataset ...\n');
+  const capacitySubstations: SubstationCapacity[] = await loadNpgSubstationCapacity();
+  process.stderr.write(`${capacitySubstations.length} real-capacity (MVA) substations loaded (Yorkshire/North East only).\n`);
+
   // --- Enrich every row ----------------------------------------------------
   const distScoreRows: { score: number; distanceKm: number | null; sqft: number | null; precision: string }[] = [];
 
@@ -144,6 +159,7 @@ async function main() {
       // proximity is the scored grid-connection signal (see dataCentreFit.ts).
       const anyStation = point ? nearestStation(point, stations) : null;
       const substationMatch = point ? bestSubstationScore(point, substations) : null;
+      const capacityMatch = point ? nearestCapacitySubstation(point, capacitySubstations) : null;
 
       const sqft = sizeSqftEquivalent(row.sizeLabel ?? '', row.sizeSqft ?? null);
       const fit = scoreDataCentreFit({
@@ -165,6 +181,20 @@ async function main() {
             name: substationMatch.substation.name,
             voltageKv: Math.round(substationMatch.substation.voltageV / 1000),
             tier: substationMatch.tier,
+          }
+        : null;
+      // Real MVA capacity, only available where Northern Powergrid's open
+      // data covers (Yorkshire/North East) — see src/geo/substationCapacity.ts.
+      // Independent of `row.substation` above (different dataset, not
+      // necessarily the same physical substation); the dashboard prefers
+      // this when present and falls back to the kV badge otherwise.
+      row.substationCapacity = capacityMatch
+        ? {
+            distanceKm: Number(capacityMatch.distanceKm.toFixed(1)),
+            name: capacityMatch.substation.name,
+            firmCapacityMva: capacityMatch.substation.firmCapacityMva,
+            siteLevel: capacityMatch.substation.siteLevel,
+            source: 'Northern Powergrid open data',
           }
         : null;
       row.dataCentreFit = fit;

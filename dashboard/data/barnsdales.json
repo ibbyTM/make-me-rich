@@ -60,6 +60,13 @@
         "reasons": [
           "no marketing text available to assess condition"
         ]
+      },
+      "substationCapacity": {
+        "distanceKm": 0.5,
+        "name": "Jarratt Street",
+        "firmCapacityMva": 23,
+        "siteLevel": "Primary",
+        "source": "Northern Powergrid open data"
       }
     },
     {
@@ -118,6 +125,13 @@
         "reasons": [
           "no marketing text available to assess condition"
         ]
+      },
+      "substationCapacity": {
+        "distanceKm": 0.9,
+        "name": "Carr Lane",
+        "firmCapacityMva": 19,
+        "siteLevel": "Primary",
+        "source": "Northern Powergrid open data"
       }
     },
     {
@@ -178,6 +192,13 @@
         "reasons": [
           "no marketing text available to assess condition"
         ]
+      },
+      "substationCapacity": {
+        "distanceKm": 0.5,
+        "name": "Greyfriars Rd",
+        "firmCapacityMva": 24,
+        "siteLevel": "Primary",
+        "source": "Northern Powergrid open data"
       }
     }
   ]

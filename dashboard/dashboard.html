@@ -430,9 +430,16 @@
       const types = typeList(r).slice(0, 3);
       const ps = r.powerStation || {};
       const sub = r.substation || {};
+      const cap = r.substationCapacity || {};
       const fit = r.dataCentreFit || {};
       const va = r.valueAdd || {};
-      const powerLine = sub.distanceKm != null
+      // Real MVA capacity (Northern Powergrid open data, Yorkshire/North East only) takes
+      // priority over the voltage-only badge when it's available for this listing.
+      const powerLine = cap.distanceKm != null
+        ? '<div class="card-power"><span title="' + esc(cap.source + ' — ' + cap.siteLevel + ' substation') + '">' +
+            cap.distanceKm + 'km to ' + esc(cap.name) + ' (' + cap.firmCapacityMva + ' MVA)' +
+          '</span></div>'
+        : sub.distanceKm != null
         ? '<div class="card-power"><span' + (ps.geocodePrecision === 'city-centroid' ? ' class="approx"' : '') + '>' +
             sub.distanceKm + 'km to ' + esc(sub.name || 'nearest substation') +
             (sub.voltageKv ? ' (' + sub.voltageKv + 'kV)' : '') +

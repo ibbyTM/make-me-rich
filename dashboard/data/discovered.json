@@ -59,6 +59,13 @@
         "reasons": [
           "no condition language found in listing text"
         ]
+      },
+      "substationCapacity": {
+        "distanceKm": 1.2,
+        "name": "Darlington East",
+        "firmCapacityMva": 24,
+        "siteLevel": "Primary",
+        "source": "Northern Powergrid open data"
       }
     },
     {
@@ -118,6 +125,13 @@
         "reasons": [
           "no condition language found in listing text"
         ]
+      },
+      "substationCapacity": {
+        "distanceKm": 0.5,
+        "name": "Sunderland T1 T2",
+        "firmCapacityMva": 24,
+        "siteLevel": "Primary",
+        "source": "Northern Powergrid open data"
       }
     },
     {
@@ -177,6 +191,13 @@
         "reasons": [
           "no condition language found in listing text"
         ]
+      },
+      "substationCapacity": {
+        "distanceKm": 1.6,
+        "name": "Stoney Cut",
+        "firmCapacityMva": 32,
+        "siteLevel": "Primary",
+        "source": "Northern Powergrid open data"
       }
     },
     {
@@ -236,6 +257,13 @@
         "reasons": [
           "no condition language found in listing text"
         ]
+      },
+      "substationCapacity": {
+        "distanceKm": 1,
+        "name": "Aycliffe Industrial",
+        "firmCapacityMva": 19,
+        "siteLevel": "Primary",
+        "source": "Northern Powergrid open data"
       }
     },
     {
@@ -295,6 +323,13 @@
         "reasons": [
           "no condition language found in listing text"
         ]
+      },
+      "substationCapacity": {
+        "distanceKm": 1.3,
+        "name": "Bowesfield",
+        "firmCapacityMva": 108,
+        "siteLevel": "BSP",
+        "source": "Northern Powergrid open data"
       }
     },
     {
@@ -354,6 +389,13 @@
         "reasons": [
           "no condition language found in listing text"
         ]
+      },
+      "substationCapacity": {
+        "distanceKm": 2.5,
+        "name": "Thirsk",
+        "firmCapacityMva": 15,
+        "siteLevel": "Primary",
+        "source": "Northern Powergrid open data"
       }
     },
     {
@@ -413,6 +455,13 @@
         "reasons": [
           "no condition language found in listing text"
         ]
+      },
+      "substationCapacity": {
+        "distanceKm": 2.5,
+        "name": "Thirsk",
+        "firmCapacityMva": 15,
+        "siteLevel": "Primary",
+        "source": "Northern Powergrid open data"
       }
     }
   ]
