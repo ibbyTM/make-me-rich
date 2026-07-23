@@ -50,6 +50,12 @@ const GTR_MANCHESTER = new Set(['M', 'BL', 'OL', 'SK', 'WN']);
 const WEST_MIDLANDS = new Set(['B', 'CV', 'DY', 'WV', 'WS', 'WR']);
 const EAST_MIDLANDS = new Set(['NG', 'LE', 'DE', 'LN', 'NN']);
 const NORTH_EAST = new Set(['NE', 'SR', 'DH', 'DL', 'TS']);
+// Added 2026-07-22 alongside Data Centre Development's new 'north west'
+// geography (Liverpool/Merseyside, Preston/Lancashire, Warrington/Chester
+// industrial corridor) — same "latent gap" risk as the note above: any
+// north-west agent source discovered later needs this mapping in place
+// before its listings can ever pass a geoPrescoped requirement.
+const NORTH_WEST = new Set(['L', 'PR', 'WA', 'CH', 'FY', 'BB', 'LA']);
 function region(pc: string): string {
   const area = (/^([A-Za-z]{1,2})/.exec(pc.trim())?.[1] ?? '').toUpperCase();
   if (YORKSHIRE.has(area)) return 'Yorkshire';
@@ -57,6 +63,7 @@ function region(pc: string): string {
   if (WEST_MIDLANDS.has(area)) return 'West Midlands';
   if (EAST_MIDLANDS.has(area)) return 'East Midlands';
   if (NORTH_EAST.has(area)) return 'North East';
+  if (NORTH_WEST.has(area)) return 'North West';
   return '';
 }
 

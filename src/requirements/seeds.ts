@@ -122,12 +122,57 @@ export const EDUCATING: Requirement = {
  * Centre Development) at the user's request: the dashboard's requirement
  * tag should read as the STRATEGY for a property (what we'd do with it),
  * not the brand name of the saved search that found it.
+ *
+ * Geography extended 2026-07-22, same day, at the user's direction ("only
+ * expand search for data centres, look around the north for sites near
+ * stations"): added Liverpool/Merseyside and Lancashire — genuinely
+ * uncovered ground (no existing geography term or agent source touches it)
+ * with real legacy grid capacity from former heavy industry/docks.
+ *
+ * Added 'liverpool'/'merseyside'/'lancashire' specifically, not just a
+ * broad 'north west' — tried the broad term alone first and it silently
+ * found nothing: the discovery search provider (src/discovery/
+ * searchProviders.ts's curated-directory fallback, used whenever
+ * BING_SEARCH_API_KEY isn't set) matches by "does the query string CONTAIN
+ * this entry's tag" — the directory's real North West entries are tagged
+ * with actual city/region names ('liverpool', 'merseyside', 'wirral',
+ * 'lancashire', 'blackburn', 'chorley'), never the literal string "north
+ * west", so a query built from the broad term alone matched zero of them
+ * even though real candidates exist in the directory.
+ *
+ * Kept 'north west' too, alongside the specific names: for THIS discovery
+ * query mechanism, specific place names are what actually match; but for
+ * future Stage-0 matching once a north-west agent is scraped, the broader
+ * regional suffix scripts/discovered-agents-report.ts's region() appends
+ * (e.g. a Preston-based agent's geography becomes "Preston North West")
+ * is more robust than requiring one of these exact 3 words to appear —
+ * same pattern already used for every other region here (West Midlands,
+ * East Midlands, North East all rely on that suffix, not individual town
+ * names). Discovery's MAX_QUERIES cap (8) means 'north west' likely won't
+ * get its own query in a single run with 8 other entries ahead of it, but
+ * it stays available for Stage-0 geography matching regardless (that check
+ * iterates the full list, unsliced).
+ *
+ * This only widens the search net (discovery queries + future Stage-0
+ * matching); it doesn't change what makes a site a good data-centre fit —
+ * that's still substation proximity, scored per-listing once real
+ * candidates are found (src/geo/substations.ts).
  */
 export const DATA_CENTRE: Requirement = {
   id: 'data-centre',
   name: 'Data Centre Development',
   active: true,
-  geographies: ['yorkshire', 'greater manchester', 'west midlands', 'east midlands', 'north east'],
+  geographies: [
+    'yorkshire',
+    'greater manchester',
+    'west midlands',
+    'east midlands',
+    'north east',
+    'liverpool',
+    'merseyside',
+    'lancashire',
+    'north west',
+  ],
   minSize: 20000,
   keywords: ['industrial', 'warehouse', 'distribution', 'logistics', 'development site', 'power', 'substation', 'grid'],
 };
